@@ -4,7 +4,7 @@ title: '제습기 전기세, 하루 8시간 틀면 한 달 얼마? 용량·구�
 description: '제습기 소비전력(10L·16L·20L급)과 누진 구간별로 한 달 전기요금을 계산했습니다. 하루 8시간 기준 최소 5,700원에서 최대 24,000원까지, 내 요금이 어디쯤인지 바로 확인하세요.'
 pubDate: 2026-09-03
 
-status: draft
+status: published
 
 category: living
 tags:
