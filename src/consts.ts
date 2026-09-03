@@ -19,7 +19,7 @@ export type CategoryKey = keyof typeof CATEGORIES;
 export const GA_MEASUREMENT_ID = 'G-R5S7Y7NNRQ';
 
 // AdSense 발급 후 'ca-pub-XXXXXXXXXXXXXXXX' 입력. 비어 있으면 광고 자리에 placeholder 박스 표시.
-export const ADSENSE_CLIENT = '';
+export const ADSENSE_CLIENT = 'ca-pub-8527804772343765';
 
 // 슬롯별 AdSense 광고 단위 ID. 광고 단위 생성 후 숫자 ID 입력.
 export const AD_SLOTS = {

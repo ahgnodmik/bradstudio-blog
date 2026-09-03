@@ -11,6 +11,8 @@ interface Props {
 const { name, format = 'auto', label = 'AD' } = Astro.props;
 const slotId = AD_SLOTS[name];
 const enabled = ADSENSE_CLIENT !== '' && slotId !== '';
+// 미설정 슬롯: dev에서만 placeholder 표시, 프로덕션에선 렌더링 안 함
+const showPlaceholder = !enabled && import.meta.env.DEV;
 ---
 
 {
@@ -28,11 +30,11 @@ const enabled = ADSENSE_CLIENT !== '' && slotId !== '';
 				(window.adsbygoogle = window.adsbygoogle || []).push({});
 			</script>
 		</div>
-	) : (
+	) : showPlaceholder ? (
 		<div class="ad-slot ad-placeholder" data-ad-name={name}>
 			<span>{label} · {name}</span>
 		</div>
-	)
+	) : null
 }
 
 <style>
