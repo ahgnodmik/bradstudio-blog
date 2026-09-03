@@ -1,0 +1,49 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { SITE_TITLE } from '../../consts';
+
+interface Props {
+	post: CollectionEntry<'blog'>['data'];
+}
+
+const { post } = Astro.props;
+const canonicalURL = post.seo.canonical ?? new URL(Astro.url.pathname, Astro.site).href;
+
+const article = {
+	'@context': 'https://schema.org',
+	'@type': 'Article',
+	headline: post.title,
+	description: post.description,
+	datePublished: post.pubDate.toISOString(),
+	...(post.updatedDate && { dateModified: post.updatedDate.toISOString() }),
+	author: {
+		'@type': 'Organization',
+		name: post.author,
+	},
+	publisher: {
+		'@type': 'Organization',
+		name: SITE_TITLE,
+	},
+	mainEntityOfPage: canonicalURL,
+	...(post.tags.length > 0 && { keywords: post.tags.join(', ') }),
+};
+
+const faqPage =
+	post.faq.length > 0
+		? {
+				'@context': 'https://schema.org',
+				'@type': 'FAQPage',
+				mainEntity: post.faq.map((item) => ({
+					'@type': 'Question',
+					name: item.question,
+					acceptedAnswer: {
+						'@type': 'Answer',
+						text: item.answer,
+					},
+				})),
+			}
+		: null;
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(article)} />
+{faqPage && <script type="application/ld+json" set:html={JSON.stringify(faqPage)} />}

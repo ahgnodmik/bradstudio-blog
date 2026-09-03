@@ -15,6 +15,9 @@ export const CATEGORIES = {
 
 export type CategoryKey = keyof typeof CATEGORIES;
 
+// GA4 측정 ID. 비우면 스크립트 미삽입.
+export const GA_MEASUREMENT_ID = 'G-R5S7Y7NNRQ';
+
 // AdSense 발급 후 'ca-pub-XXXXXXXXXXXXXXXX' 입력. 비어 있으면 광고 자리에 placeholder 박스 표시.
 export const ADSENSE_CLIENT = '';
 
