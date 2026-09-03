@@ -1,0 +1,9 @@
+{
+	// Cloudflare Workers 정적 배포 설정.
+	// 이 파일이 있으면 빌드 시 wrangler auto-config가 어댑터를 주입하지 않음.
+	"name": "bradstudio-blog",
+	"compatibility_date": "2026-09-03",
+	"assets": {
+		"directory": "./dist"
+	}
+}
