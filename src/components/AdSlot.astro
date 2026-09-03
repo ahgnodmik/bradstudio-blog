@@ -1,0 +1,54 @@
+---
+import { AD_SLOTS, ADSENSE_CLIENT } from '../consts';
+
+interface Props {
+	name: keyof typeof AD_SLOTS;
+	// AdSense data-ad-format. 'fluid'는 인피드/인아티클용.
+	format?: string;
+	label?: string;
+}
+
+const { name, format = 'auto', label = 'AD' } = Astro.props;
+const slotId = AD_SLOTS[name];
+const enabled = ADSENSE_CLIENT !== '' && slotId !== '';
+---
+
+{
+	enabled ? (
+		<div class="ad-slot" data-ad-name={name}>
+			<ins
+				class="adsbygoogle"
+				style="display:block"
+				data-ad-client={ADSENSE_CLIENT}
+				data-ad-slot={slotId}
+				data-ad-format={format}
+				data-full-width-responsive="true"
+			/>
+			<script is:inline>
+				(window.adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+	) : (
+		<div class="ad-slot ad-placeholder" data-ad-name={name}>
+			<span>{label} · {name}</span>
+		</div>
+	)
+}
+
+<style>
+	.ad-slot {
+		margin: 1.5rem 0;
+		text-align: center;
+	}
+	.ad-placeholder {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 120px;
+		border: 2px dashed rgb(var(--gray-light));
+		border-radius: 8px;
+		color: rgb(var(--gray));
+		font-size: 0.85rem;
+		letter-spacing: 0.05em;
+	}
+</style>

@@ -1,0 +1,74 @@
+---
+import { getCollection } from 'astro:content';
+import AdSlot from './AdSlot.astro';
+import FormattedDate from './FormattedDate.astro';
+
+const recentPosts = (await getCollection('blog'))
+	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+	.slice(0, 5);
+---
+
+<aside class="sidebar">
+	<AdSlot name="sidebarTop" label="사이드바 광고" />
+	<section class="widget">
+		<h3>최신글</h3>
+		<ul>
+			{
+				recentPosts.map((post) => (
+					<li>
+						<a href={`/blog/${post.id}/`}>{post.data.title}</a>
+						<span class="date">
+							<FormattedDate date={post.data.pubDate} />
+						</span>
+					</li>
+				))
+			}
+		</ul>
+	</section>
+</aside>
+
+<style>
+	.sidebar {
+		width: 300px;
+		flex-shrink: 0;
+	}
+	.widget {
+		margin-bottom: 2rem;
+		padding: 1rem;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: 8px;
+	}
+	.widget h3 {
+		margin: 0 0 0.75rem 0;
+		padding-bottom: 0.5rem;
+		border-bottom: 2px solid rgb(var(--accent));
+		font-size: 1.1rem;
+	}
+	.widget ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	.widget li {
+		margin-bottom: 0.75rem;
+	}
+	.widget li a {
+		display: block;
+		text-decoration: none;
+		color: rgb(var(--black));
+		font-size: 0.95rem;
+		line-height: 1.4;
+	}
+	.widget li a:hover {
+		color: rgb(var(--accent));
+	}
+	.widget .date {
+		font-size: 0.8rem;
+		color: rgb(var(--gray));
+	}
+	@media (max-width: 960px) {
+		.sidebar {
+			width: 100%;
+		}
+	}
+</style>
