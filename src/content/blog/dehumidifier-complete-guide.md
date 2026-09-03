@@ -32,6 +32,12 @@ sources:
   - title: 'US EPA — A Brief Guide to Mold, Moisture and Your Home'
     url: 'https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home'
     accessedAt: 2026-09-03
+  - title: '대한민국 정책브리핑 — 여름 적정 실내온도와 습도는?'
+    url: 'https://www.korea.kr/news/healthView.do?newsId=148780861'
+    accessedAt: 2026-09-03
+  - title: '한국에너지공단 에너지소비효율등급 표시제도'
+    url: 'https://www.energy.or.kr/front/conts/105002004003000.do'
+    accessedAt: 2026-09-03
 
 internalLinks:
   - "bs-20260903-002"
@@ -67,13 +73,15 @@ seo:
 4. [냄새는 어떻게 막나](#4-관리-냄새와-수명은-습관-문제) → [냄새 제거 상세](/blog/dehumidifier-smell-removal/)
 5. [물이 안 차면 고장인가](#5-물이-안-찰-때-고장-아닌-경우가-대부분) → [점검 순서 상세](/blog/dehumidifier-not-collecting-water/)
 
+![제습기 핵심 기준 요약](/img/bs-20260903-007-1.png)
+
 ## 1. 용량 선택: 평수 + 환경
 
 L 표기는 물통이 아니라 **1일 제습량**입니다. 원룸 10~13L, 10평대 13~16L, 20평대 16~18L, 30평대 이상 20L+. 반지하·빨래 건조 목적·환기 안 되는 구조면 한 단계 올리세요. 일반 가정은 컴프레서식, 겨울 저온 공간은 데시칸트식입니다.
 
 ## 2. 습도 설정: 40~60%
 
-기준 범위는 40~60%, 실용 기본값은 **50~55%** 입니다. 60%를 넘으면 곰팡이·집먼지진드기가 번식하고, 40% 아래는 점막 건조와 전기 낭비만 남습니다. 목표 습도에 도달하면 자동 정지되므로, 습도 설정이 곧 전기세 설정입니다.
+기준 범위는 40~60%([보건당국 권장](https://www.korea.kr/news/healthView.do?newsId=148780861)), 실용 기본값은 **50~55%** 입니다. 60%를 넘으면 곰팡이·집먼지진드기가 번식하고, 40% 아래는 점막 건조와 전기 낭비만 남습니다. 목표 습도에 도달하면 자동 정지되므로, 습도 설정이 곧 전기세 설정입니다.
 
 ## 3. 전기세: 월 5,700원~24,000원
 

@@ -94,6 +94,28 @@ const ogImage = post.seo.ogImage ?? heroImage ?? `/og/${post.contentId}.png`;
 			.faq details p {
 				margin: 0.75rem 0 0 0;
 			}
+			.sources {
+				margin-top: 2rem;
+				padding: 1rem;
+				border: 1px solid rgb(var(--gray-light));
+				border-radius: var(--rounded-xl);
+				font-size: 0.875rem;
+			}
+			.sources h2 {
+				margin: 0 0 0.75rem 0;
+				font-size: 1.1rem;
+			}
+			.sources ul {
+				margin: 0;
+				padding-left: 1.25rem;
+			}
+			.sources li {
+				margin-bottom: 0.5rem;
+			}
+			.sources .accessed {
+				margin-left: 0.5rem;
+				color: rgb(var(--gray));
+			}
 			@media (max-width: 960px) {
 				.layout {
 					flex-direction: column;
@@ -139,6 +161,25 @@ const ogImage = post.seo.ogImage ?? heroImage ?? `/og/${post.contentId}.png`;
 										<p>{item.answer}</p>
 									</details>
 								))}
+							</section>
+						)
+					}
+					{
+						post.sources.length > 0 && (
+							<section class="sources">
+								<h2>참고 자료·출처</h2>
+								<ul>
+									{post.sources.map((source) => (
+										<li>
+											<a href={source.url} target="_blank" rel="noopener nofollow">
+												{source.title}
+											</a>
+											<span class="accessed">
+												(확인일: <FormattedDate date={source.accessedAt} />)
+											</span>
+										</li>
+									))}
+								</ul>
 							</section>
 						)
 					}

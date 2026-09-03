@@ -28,6 +28,12 @@ sources:
   - title: 'US EPA — A Brief Guide to Mold, Moisture and Your Home'
     url: 'https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home'
     accessedAt: 2026-09-03
+  - title: '대한민국 정책브리핑 — 여름 적정 실내온도와 습도는?'
+    url: 'https://www.korea.kr/news/healthView.do?newsId=148780861'
+    accessedAt: 2026-09-03
+  - title: '국민건강보험공단 건강웹진 — 적절한 실내 온도와 습도 유지해야'
+    url: 'https://www.nhis.or.kr/magazin/165/html/sub2.html'
+    accessedAt: 2026-09-03
 
 internalLinks:
   - "bs-20260903-007"
@@ -53,7 +59,9 @@ seo:
 
 ## 결론: 40~60%, 상황별로는 이렇게
 
-제습기 목표 습도의 기준 범위는 **40~60%** 입니다. 미국 환경보호청(EPA)은 실내 습도를 60% 아래로, 가능하면 30~50%로 유지할 것을 권고합니다.
+제습기 목표 습도의 기준 범위는 **40~60%** 입니다. 보건복지부·질병관리청 등 국내 보건당국이 권장하는 실내 적정 습도가 40~60%이고([정책브리핑](https://www.korea.kr/news/healthView.do?newsId=148780861), [국민건강보험공단](https://www.nhis.or.kr/magazin/165/html/sub2.html)), 미국 환경보호청(EPA)도 실내 습도를 60% 아래로, 가능하면 30~50%로 유지할 것을 [권고](https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home)합니다.
+
+![실내 습도 구간별 상태 — 40~60%가 적정](/img/bs-20260903-003-1.png)
 
 | 상황 | 권장 설정 | 이유 |
 | --- | --- | --- |
@@ -78,6 +86,8 @@ seo:
 - 45% 설정: 도달이 어려워 사실상 연속 가동 — 전기세 최대
 - 55% 설정: 도달 후 정지·재가동 반복 — 연속 가동 대비 30~50% 절전
 - 60% 설정: 가동 시간 최소 — 곰팡이 억제선의 상한
+
+![상황별 제습기 목표 습도 설정값](/img/bs-20260903-003-2.png)
 
 곰팡이 걱정이 없는 공간이라면 55%가 비용 대비 효율이 가장 좋은 설정입니다. 구체적인 요금 계산은 [제습기 전기세 계산표](/blog/dehumidifier-electricity-cost/)에서 확인하세요.
 

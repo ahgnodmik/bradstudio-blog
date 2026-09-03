@@ -24,7 +24,10 @@ clusterRole: supporting
 evergreen: true
 author: 'Brad Studio'
 
-sources: []
+sources:
+  - title: '서울시 실내환경관리시스템 — 주택 실내공기질 관리'
+    url: 'https://cleanindoor.seoul.go.kr/contents.do?contentsNo=36'
+    accessedAt: 2026-09-03
 
 internalLinks:
   - "bs-20260903-007"
@@ -58,6 +61,8 @@ seo:
 | 눅눅한 걸레 냄새 | 필터에 쌓인 먼지 + 습기 | 필터 청소 |
 | 곰팡이 냄새 | 내부 열교환기·배수 경로 | 내부 건조 + 세척 |
 | 플라스틱·기계 냄새 | 새 제품 사출 냄새 | 환기하며 2~3일 가동 |
+
+![제습기 냄새 유형별 원인 정리](/img/bs-20260903-004-1.png)
 
 ## 1. 물통 세척 — 가장 흔한 원인
 
@@ -93,7 +98,9 @@ seo:
 3. 송풍 모드 1시간으로 내부 건조
 4. 먼지 안 쌓이게 커버 씌워 통풍 되는 곳에 보관
 
-이 4가지를 건너뛰고 보관하면 다음 장마철 첫 가동 때 냄새가 납니다.
+![시즌 종료 보관 전 체크리스트 4단계](/img/bs-20260903-004-2.png)
+
+이 4가지를 건너뛰고 보관하면 다음 장마철 첫 가동 때 냄새가 납니다. 실내 곰팡이·공기질 관리 전반은 [서울시 실내환경관리시스템의 주택 실내공기질 관리 가이드](https://cleanindoor.seoul.go.kr/contents.do?contentsNo=36)도 참고할 만합니다.
 
 ## 마무리
 
