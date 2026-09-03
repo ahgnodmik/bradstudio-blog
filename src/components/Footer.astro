@@ -3,13 +3,34 @@ const today = new Date();
 ---
 
 <footer>
+	<nav>
+		<a href="/about/">소개</a>
+		<a href="/privacy/">개인정보처리방침</a>
+		<a href="/rss.xml">RSS</a>
+	</nav>
 	&copy; {today.getFullYear()} Brad Studio. All rights reserved.
 </footer>
 <style>
 	footer {
-		padding: 2em 1em 6em 1em;
-		background: linear-gradient(var(--gray-gradient)) no-repeat;
+		margin-top: 3rem;
+		padding: 2em 1em 4em 1em;
+		background: #ffffff;
+		border-top: 1px solid rgb(var(--gray-light));
 		color: rgb(var(--gray));
+		font-size: 0.875rem;
 		text-align: center;
+	}
+	nav {
+		margin-bottom: 0.75rem;
+		display: flex;
+		justify-content: center;
+		gap: 1.25rem;
+	}
+	nav a {
+		color: rgb(var(--gray));
+		text-decoration: none;
+	}
+	nav a:hover {
+		color: rgb(var(--black));
 	}
 </style>

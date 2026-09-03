@@ -31,7 +31,10 @@ sources:
     url: 'https://home.kepco.co.kr/kepco/front/html/CY/E/E/CYEEHP00101.html'
     accessedAt: 2026-09-03
 
-internalLinks: []
+internalLinks:
+  - "bs-20260903-007"
+  - "bs-20260903-003"
+  - "bs-20260903-006"
 
 monetization:
   methods:
