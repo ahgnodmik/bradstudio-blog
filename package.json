@@ -20,8 +20,5 @@
   },
   "allowScripts": {
     "esbuild": true
-  },
-  "devDependencies": {
-    "satori": "^0.33.4"
   }
 }
