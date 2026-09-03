@@ -46,6 +46,10 @@ const canonicalURL = canonical ?? new URL(Astro.url.pathname, Astro.site).href;
 <meta name="generator" content={Astro.generator} />
 
 <Font cssVariable="--font-atkinson" preload />
+<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
+/>
 
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
