@@ -4,6 +4,17 @@
 export const SITE_TITLE = 'Brad Studio';
 export const SITE_DESCRIPTION = 'Brad Studio 블로그';
 
+// 카테고리 중앙 정의. 스키마·페이지·메뉴가 모두 이 객체를 참조.
+// 추가 시 여기만 수정하면 됨.
+export const CATEGORIES = {
+	living: '생활',
+	digital: '디지털',
+	money: '재테크',
+	shopping: '쇼핑',
+} as const;
+
+export type CategoryKey = keyof typeof CATEGORIES;
+
 // AdSense 발급 후 'ca-pub-XXXXXXXXXXXXXXXX' 입력. 비어 있으면 광고 자리에 placeholder 박스 표시.
 export const ADSENSE_CLIENT = '';
 

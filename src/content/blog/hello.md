@@ -1,7 +1,14 @@
 ---
+contentId: "bs-20260903-001"
 title: '안녕하세요'
 description: 'Brad Studio 블로그 첫 글'
-pubDate: 'Sep 03 2026'
+pubDate: 2026-09-03
+status: published
+category: living
+primaryKeyword: 'Brad Studio'
+intent: informational
+seo:
+  noindex: true
 ---
 
 Brad Studio 블로그 시작합니다.

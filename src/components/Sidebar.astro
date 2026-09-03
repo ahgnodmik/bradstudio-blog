@@ -1,11 +1,9 @@
 ---
-import { getCollection } from 'astro:content';
+import { getVisiblePosts } from '../lib/content';
 import AdSlot from './AdSlot.astro';
 import FormattedDate from './FormattedDate.astro';
 
-const recentPosts = (await getCollection('blog'))
-	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-	.slice(0, 5);
+const recentPosts = (await getVisiblePosts()).slice(0, 5);
 ---
 
 <aside class="sidebar">
