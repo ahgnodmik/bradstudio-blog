@@ -21,6 +21,9 @@ export const GA_MEASUREMENT_ID = 'G-R5S7Y7NNRQ';
 // AdSense 발급 후 'ca-pub-XXXXXXXXXXXXXXXX' 입력. 비어 있으면 광고 자리에 placeholder 박스 표시.
 export const ADSENSE_CLIENT = 'ca-pub-8527804772343765';
 
+// In-feed 광고 단위의 layout key (AdSense에서 인피드 광고 만들 때 발급되는 -xx+yy+zz 형태 값)
+export const AD_INFEED_LAYOUT_KEY = '';
+
 // 슬롯별 AdSense 광고 단위 ID. 광고 단위 생성 후 숫자 ID 입력.
 export const AD_SLOTS = {
 	sidebarTop: '',
