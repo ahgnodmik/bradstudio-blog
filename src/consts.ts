@@ -22,13 +22,13 @@ export const GA_MEASUREMENT_ID = 'G-R5S7Y7NNRQ';
 export const ADSENSE_CLIENT = 'ca-pub-8527804772343765';
 
 // In-feed 광고 단위의 layout key (AdSense에서 인피드 광고 만들 때 발급되는 -xx+yy+zz 형태 값)
-export const AD_INFEED_LAYOUT_KEY = '';
+export const AD_INFEED_LAYOUT_KEY = '-6s+ed+2g-1n-4q';
 
 // 슬롯별 AdSense 광고 단위 ID. 광고 단위 생성 후 숫자 ID 입력.
 export const AD_SLOTS = {
 	sidebarTop: '',
 	postTop: '',
 	postBottom: '',
-	listMid: '',
+	listMid: '2681952270',
 	footer: '',
 } as const;
