@@ -10,7 +10,7 @@ import { Font } from 'astro:assets';
 interface Props {
 	title: string;
 	description: string;
-	image?: ImageMetadata;
+	image?: ImageMetadata | string;
 	noindex?: boolean;
 	canonical?: string | null;
 	article?: {
@@ -29,6 +29,7 @@ const {
 } = Astro.props;
 
 const canonicalURL = canonical ?? new URL(Astro.url.pathname, Astro.site).href;
+const imageSrc = typeof image === 'string' ? image : image.src;
 ---
 
 <!-- Global Metadata -->
@@ -71,7 +72,7 @@ const canonicalURL = canonical ?? new URL(Astro.url.pathname, Astro.site).href;
 <meta property="og:url" content={Astro.url} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={new URL(image.src, Astro.url)} />
+<meta property="og:image" content={new URL(imageSrc, Astro.url)} />
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />

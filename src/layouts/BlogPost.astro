@@ -17,6 +17,8 @@ const post = Astro.props;
 const { title, description, pubDate, updatedDate, heroImage } = post;
 // 미발행 글은 preview 빌드에 포함되더라도 검색엔진에서 제외
 const noindex = post.seo.noindex || post.status !== 'published';
+// OG 이미지 우선순위: seo.ogImage > heroImage > 자동 생성 썸네일
+const ogImage = post.seo.ogImage ?? heroImage ?? `/og/${post.contentId}.png`;
 ---
 
 <html lang="ko">
@@ -24,6 +26,7 @@ const noindex = post.seo.noindex || post.status !== 'published';
 		<BaseHead
 			title={title}
 			description={description}
+			image={ogImage}
 			noindex={noindex}
 			canonical={post.seo.canonical}
 			article={{ publishedTime: pubDate, modifiedTime: updatedDate }}
