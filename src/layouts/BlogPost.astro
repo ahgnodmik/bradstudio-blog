@@ -8,6 +8,7 @@ import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import JsonLd from '../components/seo/JsonLd.astro';
+import RelatedPosts from '../components/RelatedPosts.astro';
 import Sidebar from '../components/Sidebar.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
@@ -138,6 +139,7 @@ const noindex = post.seo.noindex || post.status !== 'published';
 							</section>
 						)
 					}
+					<RelatedPosts contentIds={post.internalLinks} />
 					<AdSlot name="postBottom" label="본문 하단 광고" />
 				</article>
 				<Sidebar />

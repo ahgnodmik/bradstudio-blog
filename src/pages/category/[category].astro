@@ -1,0 +1,96 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import FormattedDate from '../../components/FormattedDate.astro';
+import Header from '../../components/Header.astro';
+import Sidebar from '../../components/Sidebar.astro';
+import { CATEGORIES, SITE_TITLE } from '../../consts';
+import { getVisiblePosts } from '../../lib/content';
+
+export async function getStaticPaths() {
+	const posts = await getVisiblePosts();
+	return Object.keys(CATEGORIES).map((category) => ({
+		params: { category },
+		props: { posts: posts.filter((post) => post.data.category === category) },
+	}));
+}
+
+const { category } = Astro.params;
+const { posts } = Astro.props;
+const label = CATEGORIES[category as keyof typeof CATEGORIES];
+---
+
+<!doctype html>
+<html lang="ko">
+	<head>
+		<BaseHead title={`${label} | ${SITE_TITLE}`} description={`${label} 카테고리 글 목록`} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<div class="layout">
+				<section class="posts">
+					<h1>{label}</h1>
+					{posts.length === 0 && <p>아직 글이 없습니다.</p>}
+					<ul>
+						{
+							posts.map((post) => (
+								<li>
+									<a href={`/blog/${post.id}/`}>{post.data.title}</a>
+									<span class="date">
+										<FormattedDate date={post.data.pubDate} />
+									</span>
+								</li>
+							))
+						}
+					</ul>
+				</section>
+				<Sidebar />
+			</div>
+		</main>
+		<Footer />
+		<style>
+			main {
+				width: 100%;
+				max-width: 1080px;
+				margin: 0 auto;
+				padding: 0 1em;
+			}
+			.layout {
+				display: flex;
+				gap: 2rem;
+				align-items: flex-start;
+			}
+			.posts {
+				flex: 1;
+				min-width: 0;
+			}
+			ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+			}
+			li {
+				margin-bottom: 1rem;
+			}
+			li a {
+				display: block;
+				text-decoration: none;
+				color: rgb(var(--black));
+				font-size: 1.1rem;
+			}
+			li a:hover {
+				color: rgb(var(--accent));
+			}
+			.date {
+				font-size: 0.85rem;
+				color: rgb(var(--gray));
+			}
+			@media (max-width: 960px) {
+				.layout {
+					flex-direction: column;
+				}
+			}
+		</style>
+	</body>
+</html>

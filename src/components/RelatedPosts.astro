@@ -1,0 +1,55 @@
+---
+import { getVisiblePosts } from '../lib/content';
+
+interface Props {
+	contentIds: string[];
+}
+
+const { contentIds } = Astro.props;
+const posts = (await getVisiblePosts()).filter((post) =>
+	contentIds.includes(post.data.contentId),
+);
+---
+
+{
+	posts.length > 0 && (
+		<section class="related">
+			<h2>관련 글</h2>
+			<ul>
+				{posts.map((post) => (
+					<li>
+						<a href={`/blog/${post.id}/`}>{post.data.title}</a>
+					</li>
+				))}
+			</ul>
+		</section>
+	)
+}
+
+<style>
+	.related {
+		margin-top: 2rem;
+		padding: 1rem;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: 8px;
+	}
+	.related h2 {
+		margin: 0 0 0.75rem 0;
+		font-size: 1.2rem;
+	}
+	.related ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	.related li {
+		margin-bottom: 0.5rem;
+	}
+	.related a {
+		text-decoration: none;
+		color: rgb(var(--black));
+	}
+	.related a:hover {
+		color: rgb(var(--accent));
+	}
+</style>
