@@ -4,7 +4,7 @@ title: 'KTX·SRT 통합 후 SRT 회원이 지금 당장 해야 할 일 — 마�
 description: '2026년 9월 1일 KTX·SRT 통합이 시작됐습니다. SRT 단독 회원은 코레일+ 통합 전환을 완료해야 마일리지와 할인쿠폰이 유지됩니다. 전환 절차·마일리지 변화·달라진 요금을 한 번에 정리했습니다.'
 pubDate: 2026-09-05
 
-status: draft
+status: published
 
 category: living
 tags:
