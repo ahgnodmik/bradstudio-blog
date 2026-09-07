@@ -1,0 +1,43 @@
+---
+// GTM loader with consent defaults and delayed injection.
+// Loads only in production when PUBLIC_GTM_ID is set; GA4 is configured
+// as a tag inside GTM — do not add a direct gtag snippet alongside this
+// (double collection).
+const GTM = import.meta.env.PUBLIC_GTM_ID;
+const enabled = import.meta.env.PROD && GTM;
+---
+
+{
+	enabled && (
+		<>
+			<script is:inline>
+				window.dataLayer = window.dataLayer || [];
+				function gtag() {
+					dataLayer.push(arguments);
+				}
+				gtag('consent', 'default', {
+					ad_storage: 'denied',
+					ad_user_data: 'denied',
+					ad_personalization: 'denied',
+					analytics_storage: 'denied',
+					wait_for_update: 500,
+				});
+			</script>
+			<script is:inline define:vars={{ GTM }}>
+				const load = () => {
+					if (window.__gtm) return;
+					window.__gtm = 1;
+					window.dataLayer.push({ 'gtm.start': Date.now(), event: 'gtm.js' });
+					const s = document.createElement('script');
+					s.async = true;
+					s.src = 'https://www.googletagmanager.com/gtm.js?id=' + GTM;
+					document.head.appendChild(s);
+				};
+				['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach((e) =>
+					addEventListener(e, load, { once: true, passive: true })
+				);
+				setTimeout(load, 4000);
+			</script>
+		</>
+	)
+}
