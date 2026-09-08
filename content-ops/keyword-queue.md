@@ -5,14 +5,6 @@
 
 ## 대기
 
-- keyword: 알뜰폰 요금제 비교
-  slug: mvno-plan-comparison
-  category: digital
-  intent: comparison
-  cluster: mvno
-  clusterRole: pillar
-  note: 통신 3사 vs 알뜰폰 요금 구조, 데이터 구간별 추천. 통신사 광고 단가 양호
-
 - keyword: 알뜰폰 번호이동 방법
   slug: mvno-number-porting
   category: digital
@@ -88,3 +80,4 @@
 ## 완료
 
 - (2026-09-03) dehumidifier 클러스터 6개 — bs-20260903-002~007
+- (2026-09-08) 알뜰폰 요금제 비교 — bs-20260908-003 (mvno-plan-comparison)
