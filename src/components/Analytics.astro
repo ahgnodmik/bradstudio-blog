@@ -3,7 +3,9 @@
 // Loads only in production when PUBLIC_GTM_ID is set; GA4 is configured
 // as a tag inside GTM — do not add a direct gtag snippet alongside this
 // (double collection).
-const GTM = import.meta.env.PUBLIC_GTM_ID;
+import { GTM_ID } from '../consts';
+
+const GTM = GTM_ID;
 const enabled = import.meta.env.PROD && GTM;
 ---
 

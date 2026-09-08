@@ -16,7 +16,11 @@ export const CATEGORIES = {
 export type CategoryKey = keyof typeof CATEGORIES;
 
 // GA4 측정 ID. 비우면 스크립트 미삽입.
+// GTM_ID가 설정되면 GTM이 우선하고 이 직접 gtag는 미삽입 (이중 수집 방지).
 export const GA_MEASUREMENT_ID = 'G-R5S7Y7NNRQ';
+
+// GTM 컨테이너 ID. GA4는 GTM 안의 구성 태그로 수집.
+export const GTM_ID = 'GTM-TJWR6QMB';
 
 // AdSense 발급 후 'ca-pub-XXXXXXXXXXXXXXXX' 입력. 비어 있으면 광고 자리에 placeholder 박스 표시.
 export const ADSENSE_CLIENT = 'ca-pub-8527804772343765';

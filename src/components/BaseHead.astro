@@ -4,13 +4,13 @@
 import '../styles/global.css';
 import type { ImageMetadata } from 'astro';
 import FallbackImage from '../assets/blog-placeholder-1.jpg';
-import { ADSENSE_CLIENT, GA_MEASUREMENT_ID, SITE_TITLE } from '../consts';
+import { ADSENSE_CLIENT, GA_MEASUREMENT_ID, GTM_ID, SITE_TITLE } from '../consts';
 import Analytics from './Analytics.astro';
 import { Font } from 'astro:assets';
 
-// GTM replaces the direct gtag snippet when PUBLIC_GTM_ID is set;
+// GTM replaces the direct gtag snippet when GTM_ID is set;
 // the gtag fallback below keeps GA4 alive until the GTM container is ready.
-const useGtm = Boolean(import.meta.env.PUBLIC_GTM_ID);
+const useGtm = Boolean(GTM_ID);
 
 interface Props {
 	title: string;
