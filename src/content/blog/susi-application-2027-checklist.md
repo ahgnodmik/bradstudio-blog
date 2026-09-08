@@ -4,7 +4,7 @@ title: '수시 원서접수 오늘 시작, 결제 전 확인할 5가지(6회 제
 description: '2027학년도 수시 원서접수가 9월 7일(월)부터 11일(금)까지 열립니다. 6회 제한 계산법, 공통원서 사전작성, 접수 기간 주의사항을 한 번에 정리했습니다.'
 pubDate: 2026-09-07
 
-status: draft
+status: published
 
 category: living
 tags:
