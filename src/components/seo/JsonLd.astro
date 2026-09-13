@@ -1,31 +1,69 @@
 ---
 import type { CollectionEntry } from 'astro:content';
-import { SITE_TITLE } from '../../consts';
+import { SITE_TITLE, CATEGORIES } from '../../consts';
 
 interface Props {
 	post: CollectionEntry<'blog'>['data'];
 }
 
 const { post } = Astro.props;
-const canonicalURL = post.seo.canonical ?? new URL(Astro.url.pathname, Astro.site).href;
+const site = Astro.site!;
+const canonicalURL = post.seo.canonical ?? new URL(Astro.url.pathname, site).href;
+const imageURL = new URL(post.seo.ogImage ?? `/og/${post.contentId}.png`, site).href;
+const logoURL = new URL('/favicon.svg', site).href;
+
+const publisher = {
+	'@type': 'Organization',
+	name: SITE_TITLE,
+	logo: {
+		'@type': 'ImageObject',
+		url: logoURL,
+	},
+};
 
 const article = {
 	'@context': 'https://schema.org',
 	'@type': 'Article',
 	headline: post.title,
 	description: post.description,
+	image: [imageURL],
+	inLanguage: 'ko-KR',
 	datePublished: post.pubDate.toISOString(),
-	...(post.updatedDate && { dateModified: post.updatedDate.toISOString() }),
+	dateModified: (post.updatedDate ?? post.pubDate).toISOString(),
+	articleSection: CATEGORIES[post.category as keyof typeof CATEGORIES] ?? post.category,
 	author: {
 		'@type': 'Organization',
 		name: post.author,
+		url: site.href,
 	},
-	publisher: {
-		'@type': 'Organization',
-		name: SITE_TITLE,
-	},
+	publisher,
 	mainEntityOfPage: canonicalURL,
 	...(post.tags.length > 0 && { keywords: post.tags.join(', ') }),
+};
+
+const breadcrumb = {
+	'@context': 'https://schema.org',
+	'@type': 'BreadcrumbList',
+	itemListElement: [
+		{
+			'@type': 'ListItem',
+			position: 1,
+			name: SITE_TITLE,
+			item: site.href,
+		},
+		{
+			'@type': 'ListItem',
+			position: 2,
+			name: CATEGORIES[post.category as keyof typeof CATEGORIES] ?? post.category,
+			item: new URL(`/category/${post.category}/`, site).href,
+		},
+		{
+			'@type': 'ListItem',
+			position: 3,
+			name: post.title,
+			item: canonicalURL,
+		},
+	],
 };
 
 const faqPage =
@@ -46,4 +84,5 @@ const faqPage =
 ---
 
 <script type="application/ld+json" set:html={JSON.stringify(article)} />
+<script type="application/ld+json" set:html={JSON.stringify(breadcrumb)} />
 {faqPage && <script type="application/ld+json" set:html={JSON.stringify(faqPage)} />}

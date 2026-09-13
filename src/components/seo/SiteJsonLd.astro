@@ -1,0 +1,33 @@
+---
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
+
+const site = Astro.site!;
+const logoURL = new URL('/favicon.svg', site).href;
+
+const organization = {
+	'@context': 'https://schema.org',
+	'@type': 'Organization',
+	name: SITE_TITLE,
+	url: site.href,
+	logo: {
+		'@type': 'ImageObject',
+		url: logoURL,
+	},
+};
+
+const website = {
+	'@context': 'https://schema.org',
+	'@type': 'WebSite',
+	name: SITE_TITLE,
+	description: SITE_DESCRIPTION,
+	url: site.href,
+	inLanguage: 'ko-KR',
+	publisher: {
+		'@type': 'Organization',
+		name: SITE_TITLE,
+	},
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(organization)} />
+<script type="application/ld+json" set:html={JSON.stringify(website)} />

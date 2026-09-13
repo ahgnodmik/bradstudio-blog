@@ -61,6 +61,14 @@ const imageSrc = typeof image === 'string' ? image : image.src;
 <link rel="canonical" href={canonicalURL} />
 
 {noindex && <meta name="robots" content="noindex, nofollow" />}
+{
+	!noindex && (
+		<meta
+			name="robots"
+			content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+		/>
+	)
+}
 
 <!-- Primary Meta Tags -->
 <title>{title}</title>
@@ -68,6 +76,8 @@ const imageSrc = typeof image === 'string' ? image : image.src;
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content={article ? 'article' : 'website'} />
+<meta property="og:site_name" content={SITE_TITLE} />
+<meta property="og:locale" content="ko_KR" />
 {article && <meta property="article:published_time" content={article.publishedTime.toISOString()} />}
 {
 	article?.modifiedTime && (
@@ -81,6 +91,9 @@ const imageSrc = typeof image === 'string' ? image : image.src;
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={new URL(imageSrc, Astro.url)} />
 
 {useGtm && <Analytics />}
 
