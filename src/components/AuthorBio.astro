@@ -1,0 +1,71 @@
+---
+interface Props {
+	author: string;
+}
+const { author } = Astro.props;
+---
+
+<aside class="author-bio">
+	<div class="author-bio__mark" aria-hidden="true">B</div>
+	<div class="author-bio__body">
+		<p class="author-bio__name">{author} 편집팀</p>
+		<p class="author-bio__desc">
+			생활·디지털·재테크·쇼핑 분야의 실제 질문에 답하는 한국어 정보 블로그입니다. 정부·기관·기업의
+			1차 공식 자료로 사실을 직접 확인하고, 계산과 비교표를 검수해 게시합니다. 사실이 바뀌면 본문과
+			수정일을 갱신합니다.
+		</p>
+		<p class="author-bio__links">
+			<a href="/about/">소개·편집 원칙</a>
+			<span aria-hidden="true">·</span>
+			<a href="/contact/">문의·정정 요청</a>
+		</p>
+	</div>
+</aside>
+
+<style>
+	.author-bio {
+		display: flex;
+		gap: 1rem;
+		align-items: flex-start;
+		margin: 2.5rem 0 0 0;
+		padding: 1.25rem;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: 12px;
+		background: rgb(var(--gray-light), 0.35);
+	}
+	.author-bio__mark {
+		flex: none;
+		width: 44px;
+		height: 44px;
+		border-radius: 50%;
+		background: var(--accent);
+		color: #fff;
+		font-weight: 700;
+		font-size: 1.25rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.author-bio__name {
+		margin: 0 0 0.35rem 0;
+		font-weight: 700;
+	}
+	.author-bio__desc {
+		margin: 0 0 0.5rem 0;
+		font-size: 0.9rem;
+		line-height: 1.6;
+		color: rgb(var(--gray-dark));
+	}
+	.author-bio__links {
+		margin: 0;
+		font-size: 0.85rem;
+	}
+	.author-bio__links a {
+		color: var(--accent);
+		text-decoration: none;
+	}
+	.author-bio__links span {
+		margin: 0 0.4rem;
+		color: rgb(var(--gray));
+	}
+</style>
