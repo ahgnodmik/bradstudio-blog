@@ -65,5 +65,9 @@
 
 - (2026-09-03) dehumidifier 클러스터 6개 — bs-20260903-002~007
 - (2026-09-08) 알뜰폰 요금제 비교 — bs-20260908-003 (mvno-plan-comparison)
+- (2026-09-12) 석유 최고가격제 해설 — bs-20260912-001 (gasoline-price-cap-explained)
+- (2026-09-13) 추석 영화 6편 — bs-20260913-001 (chuseok-movies-2026)
+- (2026-09-13) 이마트 LA갈비 선물세트 — bs-20260913-002 (emart-la-galbi-chuseok-2026)
 - (2026-09-15) 알뜰폰 번호이동 방법 — bs-20260915-002 (mvno-number-porting)
 - (2026-09-15) 자급제폰 알뜰폰 조합 — bs-20260915-003 (unlocked-phone-mvno)
+- (2026-09-15) 독감 예방접종 시기 2026 — bs-20260915-004 (flu-vaccination-2026)
