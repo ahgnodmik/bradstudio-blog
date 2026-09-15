@@ -5,22 +5,6 @@
 
 ## 대기
 
-- keyword: 알뜰폰 번호이동 방법
-  slug: mvno-number-porting
-  category: digital
-  intent: problem-solving
-  cluster: mvno
-  clusterRole: supporting
-  note: 셀프 개통 절차, 필요 서류, 소요 시간, 실패 사례
-
-- keyword: 자급제폰 알뜰폰 조합
-  slug: unlocked-phone-mvno
-  category: digital
-  intent: commercial
-  cluster: mvno
-  clusterRole: supporting
-  note: 자급제+알뜰폰 vs 통신사 약정 2년 총비용 비교표
-
 - keyword: 알뜰폰 단점
   slug: mvno-drawbacks
   category: digital
@@ -81,3 +65,5 @@
 
 - (2026-09-03) dehumidifier 클러스터 6개 — bs-20260903-002~007
 - (2026-09-08) 알뜰폰 요금제 비교 — bs-20260908-003 (mvno-plan-comparison)
+- (2026-09-15) 알뜰폰 번호이동 방법 — bs-20260915-002 (mvno-number-porting)
+- (2026-09-15) 자급제폰 알뜰폰 조합 — bs-20260915-003 (unlocked-phone-mvno)
