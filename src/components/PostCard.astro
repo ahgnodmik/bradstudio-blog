@@ -10,32 +10,41 @@ const { post } = Astro.props;
 const thumb = post.data.thumbnail;
 ---
 
-<a class="post-card" href={`/blog/${post.id}/`}>
-	{
-		thumb ? (
-			<img src={thumb.url} width="720" height="405" alt={thumb.alt} loading="lazy" />
-		) : post.data.heroImage ? (
-			<Image width={720} height={405} src={post.data.heroImage} alt="" />
-		) : (
-			<img src={`/og/${post.data.contentId}.png`} width="720" height="378" alt="" loading="lazy" />
-		)
-	}
-	<h4 class="title">{post.data.title}</h4>
-	<p class="date">
-		<FormattedDate date={post.data.pubDate} />
+<div class="post-card">
+	<a class="card-link" href={`/blog/${post.id}/`}>
 		{
-			thumb?.creditName && (
-				<span class="credit">
-					사진: {thumb.creditUrl ? <a href={thumb.creditUrl} rel="nofollow noopener" onclick="event.stopPropagation()">{thumb.creditName}</a> : thumb.creditName}
-					(Unsplash)
-				</span>
+			thumb ? (
+				<img src={thumb.url} width="720" height="405" alt={thumb.alt} loading="lazy" />
+			) : post.data.heroImage ? (
+				<Image width={720} height={405} src={post.data.heroImage} alt="" />
+			) : (
+				<img src={`/og/${post.data.contentId}.png`} width="720" height="378" alt="" loading="lazy" />
 			)
 		}
-	</p>
-</a>
+		<h4 class="title">{post.data.title}</h4>
+		<p class="date">
+			<FormattedDate date={post.data.pubDate} />
+		</p>
+	</a>
+	{
+		thumb?.creditName && (
+			<p class="credit">
+				사진:{' '}
+				{thumb.creditUrl ? (
+					<a href={thumb.creditUrl} rel="nofollow noopener">
+						{thumb.creditName}
+					</a>
+				) : (
+					thumb.creditName
+				)}{' '}
+				(Unsplash)
+			</p>
+		)
+	}
+</div>
 
 <style>
-	.post-card {
+	.card-link {
 		display: block;
 		text-decoration: none;
 	}
@@ -61,17 +70,18 @@ const thumb = post.data.thumbnail;
 		transition: 0.2s ease;
 	}
 	.credit {
+		margin: 0.15rem 0 0;
 		font-size: 0.7rem;
 		color: rgb(var(--gray));
 	}
 	.credit a {
 		color: inherit;
 	}
-	.post-card:hover .title,
-	.post-card:hover .date {
+	.card-link:hover .title,
+	.card-link:hover .date {
 		color: var(--accent);
 	}
-	.post-card:hover img {
+	.card-link:hover img {
 		box-shadow: var(--box-shadow);
 	}
 </style>
