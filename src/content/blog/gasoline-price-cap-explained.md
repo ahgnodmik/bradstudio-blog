@@ -3,6 +3,11 @@ contentId: "bs-20260912-001"
 title: '국제유가 폭등에도 기름값 17주 하락 — 석유 최고가격제 1784원의 정체와 주유 타이밍'
 description: '국제유가가 배럴당 114달러를 넘어 급등하는 와중에도 국내 휘발유 소매가가 17주 연속 하락하는 이유를 석유 최고가격제(출고가 상한 1,784원)로 설명하고, 소매가가 상한보다 높은 구조와 실용적인 주유 타이밍 판단 기준을 정리했습니다.'
 pubDate: 2026-09-12
+thumbnail:
+  url: 'https://images.unsplash.com/photo-1663579747257-8a33d86d9367?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
+  alt: '주유소 가격 표시판'
+  creditName: 'Jesse Donoghoe'
+  creditUrl: 'https://unsplash.com/@sweetspotphoto'
 
 status: published
 

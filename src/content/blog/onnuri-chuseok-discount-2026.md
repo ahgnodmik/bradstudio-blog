@@ -3,6 +3,11 @@ contentId: "bs-20260910-001"
 title: '온누리상품권 추석 특별할인 — 120만원 전부 10%가 아닌 이유'
 description: '2026년 추석 디지털 온누리상품권 특별할인(9/16~9/20)은 120만원 전부 10%가 아닙니다. 100만원은 7%, 추가 20만원만 10%. 최대 절약액과 구매 방법을 정리했습니다.'
 pubDate: 2026-09-10
+thumbnail:
+  url: 'https://images.unsplash.com/photo-1662512319120-b8bdf821d659?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
+  alt: '한국 전통시장 골목 풍경'
+  creditName: 'Photos of Korea'
+  creditUrl: 'https://unsplash.com/@photosofkorea'
 updatedDate: 2026-09-13
 
 status: published

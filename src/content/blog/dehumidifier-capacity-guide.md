@@ -3,6 +3,11 @@ contentId: "bs-20260903-006"
 title: '제습기 용량 선택법: 평수별 기준표와 한 단계 올려야 하는 4가지 경우'
 description: '제습기 L 표기는 물통 크기가 아니라 1일 제습량입니다. 원룸 10L, 20평대 16L, 30평대 20L 기준표와 반지하·빨래 건조 등 용량을 한 단계 올려야 하는 경우를 정리했습니다.'
 pubDate: 2026-08-21
+thumbnail:
+  url: 'https://images.unsplash.com/photo-1436473849883-bb3464c23e93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
+  alt: '실내에 놓인 흰색 제습기'
+  creditName: 'Álvaro Bernal'
+  creditUrl: 'https://unsplash.com/@abn'
 updatedDate: 2026-09-13
 
 status: published

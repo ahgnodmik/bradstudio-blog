@@ -3,6 +3,11 @@ contentId: "bs-20260907-002"
 title: '이번주 청약 캘린더: 목동윤슬자이·성남복정2 신혼희망타운'
 description: '9월 7일 목동윤슬자이 651가구 1순위 접수를 시작으로 2주차 청약 7단지 1,144가구가 열립니다. 성남복정2 A1 신혼희망타운 분양가·입주 일정, 천안 아이파크시티 견본주택 개관까지 한 번에 정리했습니다.'
 pubDate: 2026-09-07
+thumbnail:
+  url: 'https://images.unsplash.com/photo-1708242152350-4c34d2ee5a4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
+  alt: '고층 아파트 단지와 공사 크레인'
+  creditName: 'IRa Kang'
+  creditUrl: 'https://unsplash.com/@lifeinkorea'
 updatedDate: 2026-09-13
 
 status: published

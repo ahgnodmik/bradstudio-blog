@@ -3,6 +3,11 @@ contentId: "bs-20260903-005"
 title: '제습기에 물이 안 찰 때 점검 순서 6가지 — 고장 아닐 확률이 높다'
 description: '제습기 물통에 물이 안 차는 원인은 실내 온도, 습도, 만수 센서, 필터 막힘 순으로 흔합니다. AS 부르기 전에 확인할 6가지 점검 순서를 정리했습니다.'
 pubDate: 2026-08-10
+thumbnail:
+  url: 'https://images.unsplash.com/photo-1561469873-9429b01297e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
+  alt: '유리에 맺힌 물방울'
+  creditName: 'Nenad Radojčić'
+  creditUrl: 'https://unsplash.com/@necone'
 updatedDate: 2026-09-13
 
 status: published

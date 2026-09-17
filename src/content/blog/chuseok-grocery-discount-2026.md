@@ -3,6 +3,11 @@ contentId: "bs-20260903-010"
 title: '추석 장보기 최대 40% 할인 — 590억 혜택을 실제로 받는 방법'
 description: '2026년 추석 농축산물 할인이 9월 3~23일 전국 1만2천 매장에서 시작됩니다. 정부 590억 투입으로 최대 40% 할인, 농할상품권 20% 저렴 구매, 전통시장 온누리상품권 2만원 환급까지 — 조건·기간·받는 순서를 정리했습니다.'
 pubDate: 2026-09-03
+thumbnail:
+  url: 'https://images.unsplash.com/photo-1642473194881-c7425b3789f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
+  alt: '전통시장 장보기 풍경'
+  creditName: 'Prabu Panji'
+  creditUrl: 'https://unsplash.com/@prabuuuuu'
 
 status: published
 

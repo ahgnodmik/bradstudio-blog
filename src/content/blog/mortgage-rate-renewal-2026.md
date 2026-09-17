@@ -3,6 +3,11 @@ contentId: "bs-20260911-001"
 title: '5년 전 3% 주담대, 지금 갱신하면 얼마 오르나 — 3억 기준 계산과 DSR 함정'
 description: '2026년 현재 주담대 변동·고정 금리가 4~7%대로 오른 상황에서 5년 전 3% 고정 만기 차주가 갱신 시 월 상환액이 얼마나 늘어나는지, DSR 소진으로 신용대출까지 막히는 구조를 3억 예시로 계산했습니다.'
 pubDate: 2026-09-11
+thumbnail:
+  url: 'https://images.unsplash.com/photo-1631511258193-252ab3da6b8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
+  alt: '계산기와 펜, 지폐가 놓인 테이블'
+  creditName: 'Sasun Bughdaryan'
+  creditUrl: 'https://unsplash.com/@sasun1990'
 
 status: published
 

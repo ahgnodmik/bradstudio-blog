@@ -3,6 +3,11 @@ contentId: "bs-20260909-001"
 title: '추석 통행료 면제 4일, 하이패스 없이 받는 법·숙박쿠폰 신청'
 description: '2026년 추석 연휴 9월 24일(수)~27일(일) 4일 동안 고속도로 통행료가 전면 면제됩니다. 하이패스가 없어도 면제받는 방법, 숙박할인권 8만 장 신청 일정, 성수품 할인 예산까지 한곳에 정리했습니다.'
 pubDate: 2026-09-09
+thumbnail:
+  url: 'https://images.unsplash.com/photo-1785227448273-c4bf3546f7c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
+  alt: '고속도로 요금소를 지나는 차량들'
+  creditName: 'Adhitya Sibikumar'
+  creditUrl: 'https://unsplash.com/@adhitya_2505'
 updatedDate: 2026-09-13
 
 status: published

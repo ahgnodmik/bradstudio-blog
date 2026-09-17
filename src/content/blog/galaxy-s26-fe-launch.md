@@ -3,6 +3,11 @@ contentId: "bs-20260903-009"
 title: '갤럭시 S26 FE vs S26 — 104만원짜리 차이, 살 만한가'
 description: '갤럭시 S26 FE가 2026년 9월 4일 104만5천원에 출시됩니다. Exynos 2500 칩셋, 6.7인치 화면, 4,900mAh 배터리. S26 기본형과 무엇이 다른지 스펙 표로 비교하고, 누가 사야 하고 누가 넘겨야 하는지 정리했습니다.'
 pubDate: 2026-09-03
+thumbnail:
+  url: 'https://images.unsplash.com/photo-1738830234395-a351829a1c7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
+  alt: '테이블 위 삼성 갤럭시 스마트폰'
+  creditName: 'Amanz'
+  creditUrl: 'https://unsplash.com/@amanz'
 
 status: published
 

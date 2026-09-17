@@ -3,6 +3,11 @@ contentId: "bs-20260908-003"
 title: '알뜰폰 요금제 비교 2026 — 통신3사 대비 월 얼마 절약되나, 데이터 구간별 추천'
 description: '2026년 기준 알뜰폰 요금제와 통신3사 요금제의 데이터 구간별 가격 차이를 비교했습니다. 월 5GB·15GB·무제한 구간별 추천 요금제와 번호이동 전 체크리스트를 정리합니다.'
 pubDate: 2026-09-09
+thumbnail:
+  url: 'https://images.unsplash.com/photo-1753385158278-387d4dda60c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
+  alt: '유심 카드와 어댑터'
+  creditName: 'User_Pascal'
+  creditUrl: 'https://unsplash.com/@user_pascal'
 updatedDate: 2026-09-13
 
 status: published

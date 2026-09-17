@@ -3,6 +3,11 @@ contentId: "bs-20260908-001"
 title: '아이폰 듀오 공개 — 한국 329만원부터, 사전예약 10월 16일·출시 10월 23일'
 description: '2026년 9월 9일(현지) 애플이 첫 폴더블폰 아이폰 듀오(iPhone Duo)를 공개했습니다. 한국 256GB 329만원부터, 사전예약 10월 16일, 정식 출시 10월 23일. 한국 1차 출시국 포함.'
 pubDate: 2026-09-08
+thumbnail:
+  url: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
+  alt: '스마트폰을 든 손'
+  creditName: 'Bagus Hernawan'
+  creditUrl: 'https://unsplash.com/@bhaguz'
 updatedDate: 2026-09-13
 
 status: published

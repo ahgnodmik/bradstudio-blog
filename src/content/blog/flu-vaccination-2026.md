@@ -3,6 +3,11 @@ contentId: "bs-20260915-004"
 title: '독감 예방접종 2026 — 9월 21일 시작·무료 대상 14세 확대'
 description: '2026-2027절기 독감 국가예방접종은 9월 21일부터 시작합니다. 어린이 무료 대상이 14세(2012년생)까지 확대됐습니다. 대상별 시작일, 무료 확인 방법, 유료 가격, 접종 주의사항까지 9월 15일 기준으로 정리했습니다.'
 pubDate: 2026-09-15
+thumbnail:
+  url: 'https://images.unsplash.com/photo-1612277795421-9bc7706a4a34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
+  alt: '독감 예방접종 후 밴드를 붙이는 모습'
+  creditName: 'CDC'
+  creditUrl: 'https://unsplash.com/@cdc'
 
 status: published
 

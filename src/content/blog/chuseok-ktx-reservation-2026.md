@@ -3,6 +3,11 @@ contentId: "bs-20260903-008"
 title: '2026 추석 기차표 예매 — 9/7~11 노선별 일정과 취소표 잡는 법'
 description: '2026 추석 KTX 예매는 9월 7일~11일 매일 07:00~13:00 진행됩니다. 9/7 일반열차, 9/9 호남·전라선, 9/11 경부선 등 노선별 날짜와 잔여석·취소표 공략법, KTX·SRT 통합으로 달라진 점을 정리했습니다.'
 pubDate: 2026-09-03
+thumbnail:
+  url: 'https://images.unsplash.com/photo-1555124618-81b95d0e5892?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
+  alt: '출입문 열린 고속열차 승강장'
+  creditName: 'lan deng'
+  creditUrl: 'https://unsplash.com/@landall'
 updatedDate: 2026-09-07
 
 status: published

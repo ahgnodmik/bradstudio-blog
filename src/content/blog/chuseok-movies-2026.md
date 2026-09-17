@@ -3,6 +3,11 @@ contentId: "bs-20260913-001"
 title: '2026 추석 극장 영화 6편 총정리 — 개봉일·출연진·러닝타임 한눈에'
 description: '2026년 추석 연휴를 겨냥한 극장 개봉작 6편의 개봉일·감독·출연진을 정리했다. 9월 23일 연휴 당일에만 3편이 동시 개봉하며 극장가 경쟁이 치열해질 전망이다.'
 pubDate: 2026-09-13
+thumbnail:
+  url: 'https://images.unsplash.com/photo-1668890094751-6986d0ca9dfc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
+  alt: '어두운 극장 상영관 좌석'
+  creditName: 'Jacob Mejicanos'
+  creditUrl: 'https://unsplash.com/@jacobmejicanos'
 updatedDate: 2026-09-13
 
 status: published

@@ -3,6 +3,11 @@ contentId: "bs-20260903-007"
 title: '제습기 완벽 가이드: 용량 선택부터 습도 설정, 전기세, 관리까지'
 description: '제습기 구매 전 용량 선택, 적정 습도 설정, 한 달 전기세 계산, 냄새 예방과 고장 대처까지 — 제습기에 관한 모든 질문을 하나로 정리한 종합 가이드입니다.'
 pubDate: 2026-09-01
+thumbnail:
+  url: 'https://images.unsplash.com/photo-1515764371993-7995b2dba0b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
+  alt: '결로가 맺힌 창문'
+  creditName: 'Ozgu Ozden'
+  creditUrl: 'https://unsplash.com/@ozgut'
 updatedDate: 2026-09-13
 
 status: published

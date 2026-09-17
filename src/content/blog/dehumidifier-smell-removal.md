@@ -3,6 +3,11 @@ contentId: "bs-20260903-004"
 title: '제습기 냄새 제거, 원인별 해결법 — 걸레 냄새·곰팡이 냄새 이렇게 잡는다'
 description: '제습기에서 나는 걸레 냄새, 곰팡이 냄새, 시큼한 냄새의 원인은 대부분 물통·필터·열교환기 세 곳입니다. 원인별 청소 방법과 냄새 예방 습관을 정리했습니다.'
 pubDate: 2026-07-27
+thumbnail:
+  url: 'https://images.unsplash.com/photo-1708895240122-418c6902685e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
+  alt: '곰팡이가 핀 벽면'
+  creditName: 'Hydra 4x'
+  creditUrl: 'https://unsplash.com/@hydra4x'
 updatedDate: 2026-09-13
 
 status: published

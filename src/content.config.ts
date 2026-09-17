@@ -19,6 +19,15 @@ const blog = defineCollection({
 			pubDate: z.coerce.date(),
 			updatedDate: z.coerce.date().optional(),
 			heroImage: z.optional(image()),
+			// 목록·그리드 카드용 원격 썸네일 (Unsplash/Pexels 무료 이미지, 저작자 표기 필수)
+			thumbnail: z
+				.object({
+					url: z.string().url(),
+					alt: z.string().default(''),
+					creditName: z.string().optional(),
+					creditUrl: z.string().url().optional(),
+				})
+				.optional(),
 
 			contentId,
 			// draft가 기본값 — status 누락 시 실수로 공개되지 않음

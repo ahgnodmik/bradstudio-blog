@@ -3,6 +3,11 @@ contentId: "bs-20260908-002"
 title: '2026년 9월 모의평가 정답 확정·예상 등급컷 — 수시 6장 수능 최저 점검법'
 description: '9월 15일 평가원 이의신청 심사 완료, 정답 변경 0건으로 최종 확정됐습니다. 입시기관 채점서비스 기준 예상 등급컷(국어 1등급컷 131, 수학 130)과 수시 6장 수능 최저 점검법을 정리합니다. 확정 등급컷은 9월 29일 성적표 배부 시 공개됩니다.'
 pubDate: 2026-09-16
+thumbnail:
+  url: 'https://images.unsplash.com/photo-1534644107580-3a4dbd494a95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
+  alt: '연필로 시험지를 작성하는 손'
+  creditName: 'Ben Mullins'
+  creditUrl: 'https://unsplash.com/@benmullins'
 
 status: published
 

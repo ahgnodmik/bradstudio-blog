@@ -3,6 +3,11 @@ contentId: "bs-20260915-001"
 title: '9월 FOMC 한국시간 새벽 3시 — 시나리오 3개와 내 대출·예금 변화'
 description: '미 연준이 한국시간 9월 17일(목) 새벽 3시에 기준금리를 결정합니다. 결과 발표 전 작성된 예상 글입니다. CME FedWatch 기준 인상 확률과 동결 전망이 엇갈리는 상황에서, 시나리오별로 변동형 주담대와 예금금리가 어떻게 움직이는지 정리했습니다.'
 pubDate: 2026-09-16
+thumbnail:
+  url: 'https://images.unsplash.com/photo-1633059050703-0f1b50828402?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
+  alt: '연방준비은행 건물 외관'
+  creditName: 'Joshua Woroniecki'
+  creditUrl: 'https://unsplash.com/@joshuaworoniecki'
 updatedDate: 2026-09-16
 
 status: published

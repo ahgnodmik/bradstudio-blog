@@ -3,6 +3,11 @@ contentId: "bs-20260913-002"
 title: '추석 LA갈비 선물세트 가격 비교 — 이마트 호주산·아일랜드산과 사전예약 50% 조건'
 description: '이마트가 2026 추석 LA식 꽃갈비 세트(호주산)를 전년과 동일한 9만9800원으로 동결했다. 올해 처음 선보이는 아일랜드산 자유방목 세트는 8만9800원으로 4,500세트 한정이며, 사전예약은 9월 16일까지로 행사카드·신세계포인트 조건 충족 시 최대 50% 할인이 적용된다.'
 pubDate: 2026-09-13
+thumbnail:
+  url: 'https://images.unsplash.com/photo-1679711246825-1f2bd51b16d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
+  alt: '그릴 위에서 익어가는 갈비'
+  creditName: 'Brian Wegman 🎃'
+  creditUrl: 'https://unsplash.com/@trytoscareme'
 
 status: published
 

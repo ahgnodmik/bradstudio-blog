@@ -3,6 +3,11 @@ contentId: "bs-20260907-001"
 title: '수시 원서접수 오늘 시작, 결제 전 확인할 5가지(6회 제한 계산법)'
 description: '2027학년도 수시 원서접수가 9월 7일(월)부터 11일(금)까지 열립니다. 6회 제한 계산법, 공통원서 사전작성, 접수 기간 주의사항을 한 번에 정리했습니다.'
 pubDate: 2026-09-07
+thumbnail:
+  url: 'https://images.unsplash.com/photo-1598981457915-aea220950616?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
+  alt: '교실 책상에서 필기하는 학생'
+  creditName: 'Jeswin Thomas'
+  creditUrl: 'https://unsplash.com/@jeswinthomas'
 updatedDate: 2026-09-13
 
 status: published
