@@ -11,8 +11,10 @@ import { getVisiblePosts } from '../../lib/content';
 
 const posts = await getVisiblePosts();
 
-// 처음 보이는 개수·더 보기 클릭당 추가 개수
-const PAGE_SIZE = 6;
+// 처음 보이는 개수
+const PAGE_SIZE = 9;
+// 더 보기 드랍다운 옵션 (클릭당 추가 개수)
+const LOAD_OPTIONS = [10, 30, 50, 100];
 // In-feed 광고는 4번째 카드 뒤
 const AD_AFTER = 4;
 ---
@@ -134,10 +136,15 @@ const AD_AFTER = 4;
 					{
 						posts.length > PAGE_SIZE && (
 							<div class="load-more-wrap">
-								<button class="load-more" id="load-more" data-page-size={PAGE_SIZE}>
-									더 불러오기
-								</button>
-							</div>
+									<button class="load-more" id="load-more">
+										더 보기
+									</button>
+									<select class="load-count" id="load-count" aria-label="한 번에 불러올 글 수">
+										{LOAD_OPTIONS.map((n) => (
+											<option value={n}>{n}개씩</option>
+										))}
+									</select>
+								</div>
 						)
 					}
 				</section>
@@ -148,14 +155,15 @@ const AD_AFTER = 4;
 		<Footer />
 		<script>
 			const button = document.getElementById('load-more');
-			if (button) {
-				const pageSize = Number(button.dataset.pageSize ?? 6);
+			const select = document.getElementById('load-count') as HTMLSelectElement | null;
+			if (button && select) {
 				button.addEventListener('click', () => {
+					const count = Number(select.value);
 					const hidden = document.querySelectorAll('#post-list .post-item.post-hidden');
 					hidden.forEach((li, i) => {
-						if (i < pageSize) li.classList.remove('post-hidden');
+						if (i < count) li.classList.remove('post-hidden');
 					});
-					if (hidden.length <= pageSize) button.parentElement?.remove();
+					if (hidden.length <= count) button.parentElement?.remove();
 				});
 			}
 		</script>
