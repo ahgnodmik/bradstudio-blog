@@ -7,7 +7,7 @@ import PostCard from '../components/PostCard.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import { getVisiblePosts } from '../lib/content';
 
-const posts = (await getVisiblePosts()).slice(0, 3);
+const posts = (await getVisiblePosts()).slice(0, 4);
 ---
 
 <!doctype html>
@@ -24,7 +24,7 @@ const posts = (await getVisiblePosts()).slice(0, 3);
 			}
 			.post-grid {
 				display: grid;
-				grid-template-columns: repeat(3, 1fr);
+				grid-template-columns: repeat(4, 1fr);
 				gap: 2rem 1.5rem;
 				margin-top: 2rem;
 			}

@@ -1,7 +1,7 @@
 ---
 import BaseHead from '../../components/BaseHead.astro';
 import Footer from '../../components/Footer.astro';
-import FormattedDate from '../../components/FormattedDate.astro';
+import PostCard from '../../components/PostCard.astro';
 import Header from '../../components/Header.astro';
 import Sidebar from '../../components/Sidebar.astro';
 import { SITE_TITLE } from '../../consts';
@@ -31,18 +31,7 @@ const { posts } = Astro.props;
 			<div class="layout">
 				<section class="posts">
 					<h1>#{tag}</h1>
-					<ul>
-						{
-							posts.map((post) => (
-								<li>
-									<a href={`/blog/${post.id}/`}>{post.data.title}</a>
-									<span class="date">
-										<FormattedDate date={post.data.pubDate} />
-									</span>
-								</li>
-							))
-						}
-					</ul>
+					<div class="post-grid">{posts.map((post) => <PostCard post={post} />)}</div>
 				</section>
 				<Sidebar />
 			</div>
@@ -90,6 +79,15 @@ const { posts } = Astro.props;
 					flex-direction: column;
 				}
 			}
-		</style>
+			.post-grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2rem 1.5rem;
+		margin-top: 1rem;
+	}
+	@media (max-width: 600px) {
+		.post-grid { grid-template-columns: 1fr; }
+	}
+</style>
 	</body>
 </html>
