@@ -8,7 +8,7 @@ thumbnail:
   alt: '고층 아파트 단지와 공사 크레인'
   creditName: 'IRa Kang'
   creditUrl: 'https://unsplash.com/@lifeinkorea'
-updatedDate: 2026-09-13
+updatedDate: 2026-09-18
 
 status: published
 
@@ -31,7 +31,7 @@ cluster: 'realestate'
 clusterRole: supporting
 
 evergreen: false
-reviewAfter: 2026-09-14
+reviewAfter: 2026-12-31
 author: 'Brad Studio'
 
 sources:
@@ -64,6 +64,8 @@ faq:
 seo:
   noindex: false
 ---
+
+> **2026년 9월 18일 안내** — 이 글에서 다룬 9월 2주(9/7~9/13) 청약 접수는 모두 마감됐습니다. 당첨자 발표와 계약 일정은 청약홈 공고문에서 확인하세요. 아래 1순위 자격·가점제 설명은 이후 청약에도 그대로 적용됩니다.
 
 **9월 2주 청약 시장에서 놓치면 안 되는 단지가 오늘부터 접수를 시작합니다.** 이번 주 7단지 1,144가구 중 가장 먼저 문을 여는 곳이 목동윤슬자이입니다.
 

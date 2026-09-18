@@ -8,7 +8,7 @@ thumbnail:
   alt: '교실 책상에서 필기하는 학생'
   creditName: 'Jeswin Thomas'
   creditUrl: 'https://unsplash.com/@jeswinthomas'
-updatedDate: 2026-09-13
+updatedDate: 2026-09-18
 
 status: published
 
@@ -31,7 +31,7 @@ cluster: 'education'
 clusterRole: supporting
 
 evergreen: false
-reviewAfter: 2026-09-12
+reviewAfter: 2027-06-30
 author: 'Brad Studio'
 
 sources:
@@ -62,6 +62,8 @@ faq:
 seo:
   noindex: false
 ---
+
+> **2026년 9월 18일 안내** — 2027학년도 수시 원서접수는 9월 11일(금)에 마감됐습니다. 아래 6회 제한 계산법과 체크리스트는 다음 입시(2028학년도) 준비에도 동일하게 적용됩니다. 다음 일정은 대학별 서류 제출과 수능 최저 점검입니다.
 
 **9월 7일부터 2027학년도 수시 원서접수가 시작되었습니다.** 마감은 9월 11일(금)입니다. 결제 버튼을 누르기 전에 아래 항목들을 차례로 확인하세요. 접수 완료 후에는 정정이 제한되는 항목이 생깁니다.
 

@@ -2,10 +2,10 @@
 contentId: "bs-20260915-002"
 title: '알뜰폰 번호이동 방법 — 사전동의·유심 개통까지 단계별 정리'
 description: '쓰던 번호 그대로 알뜰폰으로 바꿀 수 있습니다. 사전동의 ARS 번호, 필요 서류, 개통까지 걸리는 시간, 90일 이내 제한 해제 방법을 단계별로 정리했습니다.'
-pubDate: 2026-09-15
-updatedDate: 2026-09-15
+pubDate: 2026-09-19
+updatedDate: 2026-09-19
 
-status: draft
+status: published
 
 category: digital
 tags:
