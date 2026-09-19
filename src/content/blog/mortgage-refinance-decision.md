@@ -4,6 +4,11 @@ title: '코픽스는 멈췄는데 주담대는 왜 오르나 — 변동·고정 
 description: '8월 코픽스가 3.18%로 보합인데 주담대 고정금리는 미국채 10년물 5% 돌파 여파로 계속 오르는 이유를 짚고, 3억 기준 변동·고정 이자 차이 계산과 중도상환수수료·대환 인프라까지 갈아타기 판단 기준을 정리했습니다.'
 pubDate: 2026-09-19
 updatedDate: 2026-09-19
+thumbnail:
+  url: 'https://images.unsplash.com/photo-1724304406928-c43b01912fa1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
+  alt: '집 열쇠와 계산기 — 주담대 갈아타기 계산'
+  creditName: 'Jakub Żerdzicki'
+  creditUrl: 'https://unsplash.com/@jakubzerdzicki'
 
 status: published
 
