@@ -1,4 +1,6 @@
 ---
+import { WORKS, workHref } from '../data/works';
+
 interface Props {
 	author: string;
 }
@@ -20,14 +22,21 @@ const { author } = Astro.props;
 			<a href="/contact/">문의·정정 요청</a>
 		</p>
 		<p class="author-bio__links">
-			More works:
-			<a href="https://www.instagram.com/why.only.now/" rel="noopener" target="_blank">@why.only.now</a>
-			<span aria-hidden="true">·</span>
-			<a href="https://www.instagram.com/abroad.now/" rel="noopener" target="_blank">@abroad.now</a>
-			<span aria-hidden="true">·</span>
-			<a href="https://app.notion.com/p/4883523d45f242848d4b6809a883952e" rel="noopener" target="_blank">QSTAG</a>
-			<span aria-hidden="true">·</span>
-			<a href="https://app.notion.com/p/13bff9d4b08f49339e7f8fd80acf44bd" rel="noopener" target="_blank">유쾌한생각</a>
+			<a href="/works/">More works</a>:
+			{
+				WORKS.map((w, i) => (
+					<>
+						{i > 0 && <span aria-hidden="true">·</span>}
+						<a
+							href={workHref(w)}
+							rel={w.href ? 'noopener' : undefined}
+							target={w.href ? '_blank' : undefined}
+						>
+							{w.label}
+						</a>
+					</>
+				))
+			}
 		</p>
 	</div>
 </aside>
