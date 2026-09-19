@@ -8,7 +8,7 @@ thumbnail:
   alt: '유심 카드 일러스트'
 updatedDate: 2026-09-19
 
-status: published
+status: archived
 
 category: digital
 tags:

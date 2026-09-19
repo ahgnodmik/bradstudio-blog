@@ -5,21 +5,7 @@
 
 ## 대기
 
-- keyword: 유류세 인하 종료 9월 30일
-  slug: fuel-tax-cut-expiry
-  category: living
-  intent: informational
-  cluster: fuel
-  clusterRole: supporting
-  note: 유류세 인하 9/30 종료 미결. 연장 발표 전 주유 판단 계산표. 두바이유 114.7달러, 반영 시차 2~3주. 마감 9/23. 내부링크 gasoline-price-cap-explained
-
-- keyword: 10월부터 달라지는 제도
-  slug: october-2026-policy-changes
-  category: living
-  intent: informational
-  cluster: policy
-  clusterRole: pillar
-  note: 임금체불 처벌 강화 10/8, 양육비 선지급 소득기준 폐지 10/29, 재난문자 157자, 최적요금제 의무 안내. 마감 9/26, 수명 김
+(비어 있음)
 
 ## 보류 — 편집자 판단으로 우선순위 낮춤 (2026-09-19)
 
@@ -95,6 +81,8 @@
 - (2026-09-15) 자급제폰 알뜰폰 조합 — bs-20260915-003 (unlocked-phone-mvno)
 - (2026-09-15) 독감 예방접종 시기 2026 — bs-20260915-004 (flu-vaccination-2026)
 - (2026-09-17) 건강보험공단 채용 2026 하반기 — bs-20260917-001 (nhis-recruitment-2026-h2)
+- (2026-09-19) 유류세 인하 종료 9월 30일 — bs-20260919-002 (fuel-tax-cut-expiry)
+- (2026-09-19) 10월부터 달라지는 제도 — bs-20260919-003 (october-2026-policy-changes)
 
 - keyword: 주담대 변동 고정 갈아타기
   slug: mortgage-refinance-decision

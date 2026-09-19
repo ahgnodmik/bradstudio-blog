@@ -8,7 +8,7 @@ thumbnail:
   alt: '통신비 절약 계산기 일러스트'
 updatedDate: 2026-09-19
 
-status: published
+status: archived
 
 category: digital
 tags:
