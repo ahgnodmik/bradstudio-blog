@@ -29,6 +29,8 @@
   clusterRole: pillar
   note: 임금체불 처벌 강화 10/8, 양육비 선지급 소득기준 폐지 10/29, 재난문자 157자, 최적요금제 의무 안내. 마감 9/26, 수명 김
 
+## 보류 — 편집자 판단으로 우선순위 낮춤 (2026-09-19)
+
 - keyword: 실비보험 청구 방법
   slug: health-insurance-claim
   category: money
