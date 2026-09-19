@@ -30,7 +30,7 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
 const BLOG_DIR = join(ROOT, 'src', 'content', 'blog');
 const DERIV_DIR = join(ROOT, 'content-ops', 'derivatives');
 const SITE = 'https://bradstudio.xyz';
-const DELAY_DAYS = 7;
+const DELAY_DAYS = 2;
 
 loadEnv();
 const BLOG_URL = process.env.BLOGGER_BLOG_URL || 'https://mitssum.blogspot.com';
