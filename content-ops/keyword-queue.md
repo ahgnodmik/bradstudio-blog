@@ -5,7 +5,29 @@
 
 ## 대기
 
-(비어 있음)
+- keyword: 9월 28일 임시공휴일 되나
+  slug: sep28-temporary-holiday
+  category: living
+  intent: informational
+  cluster: chuseok
+  clusterRole: supporting
+  note: 정부 공식 검토 없음 상태. 지정 조건·과거 8~10일 전 지정 사례·발표 시한 정리. 단정 금지, 발표 시 즉시 갱신. 마감 9/19~20 초긴급. 출처 hankyung/etoday 9/14
+
+- keyword: KBO 가을야구 매직넘버
+  slug: kbo-postseason-magic-number
+  category: living
+  intent: informational
+  cluster: sports
+  clusterRole: supporting
+  note: 5강 매직넘버 계산법, KT·삼성 1위 경쟁, 잔여 일정, 포스트시즌 예매 안내. 순위·숫자는 작성 시점 koreabaseball.com 확인 필수
+
+- keyword: 추석 연휴 넷플릭스 신작 일정표
+  slug: chuseok-netflix-lineup-2026
+  category: living
+  intent: informational
+  cluster: chuseok
+  clusterRole: supporting
+  note: 9/17~9/25 신작 일정표. 스캔들 9/18, 기안장 S2 9/22. about.netflix.com/ko 공식 일정 확인 후 인용. 내부링크 chuseok-movies-2026
 
 ## 보류 — 편집자 판단으로 우선순위 낮춤 (2026-09-19)
 
