@@ -4,10 +4,8 @@ title: '자급제폰+알뜰폰 vs 통신사 약정, 24개월 총비용 계산표
 description: '자급제 단말에 알뜰폰 요금제를 조합하면 2년 기준 100만원 이상 저렴할 수 있습니다. 단말 가격대별 총비용 비교표와 통신사 공시지원금이 유리해지는 조건까지 정리했습니다.'
 pubDate: 2026-09-19
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '계산기 앱이 켜진 스마트폰을 든 손'
-  creditName: 'Kelly Sikkema'
-  creditUrl: 'https://unsplash.com/@kellysikkema'
+  url: 'https://bradstudio.xyz/thumbs/bs-20260915-003.png'
+  alt: '통신비 절약 계산기 일러스트'
 updatedDate: 2026-09-19
 
 status: published
