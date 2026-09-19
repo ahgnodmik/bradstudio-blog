@@ -5,6 +5,30 @@
 
 ## 대기
 
+- keyword: 주담대 변동 고정 갈아타기
+  slug: mortgage-refinance-decision
+  category: money
+  intent: problem-solving
+  cluster: money-market
+  clusterRole: supporting
+  note: 코픽스 3.18% 보합인데 주담대 상승(고정 4.89~7.29%). FOMC 인상 후속. 변동·고정 판단 기준표. 마감 9/19. 내부링크 mortgage-rate-renewal-2026, september-fomc-2026
+
+- keyword: 유류세 인하 종료 9월 30일
+  slug: fuel-tax-cut-expiry
+  category: living
+  intent: informational
+  cluster: fuel
+  clusterRole: supporting
+  note: 유류세 인하 9/30 종료 미결. 연장 발표 전 주유 판단 계산표. 두바이유 114.7달러, 반영 시차 2~3주. 마감 9/23. 내부링크 gasoline-price-cap-explained
+
+- keyword: 10월부터 달라지는 제도
+  slug: october-2026-policy-changes
+  category: living
+  intent: informational
+  cluster: policy
+  clusterRole: pillar
+  note: 임금체불 처벌 강화 10/8, 양육비 선지급 소득기준 폐지 10/29, 재난문자 157자, 최적요금제 의무 안내. 마감 9/26, 수명 김
+
 - keyword: 실비보험 청구 방법
   slug: health-insurance-claim
   category: money
