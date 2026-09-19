@@ -166,6 +166,10 @@ async function postToBlogger(contentId, asDraft) {
   const processor = await createMarkdownProcessor({});
   const rendered = await processor.render(post.body);
   const canonical = `${SITE}/blog/${post.slug}/`;
+  // Blogger can't resolve site-relative paths — absolutize img/src and links
+  const bodyHtml = String(rendered.code ?? rendered)
+    .replaceAll('src="/', `src="${SITE}/`)
+    .replaceAll('href="/', `href="${SITE}/`);
 
   let figure = '';
   const imageUrl = flagValue('--image');
@@ -187,7 +191,7 @@ async function postToBlogger(contentId, asDraft) {
     figure +
     `<p><em>이 글은 <a href="${canonical}">bradstudio.xyz</a>에 먼저 게재된 글입니다. ` +
     `최신 업데이트는 <a href="${canonical}">원문</a>에서 확인하세요.</em></p>\n` +
-    String(rendered.code ?? rendered) +
+    bodyHtml +
     `\n<p><em>원문: <a href="${canonical}">${canonical}</a></em></p>`;
 
   const token = await accessToken();
