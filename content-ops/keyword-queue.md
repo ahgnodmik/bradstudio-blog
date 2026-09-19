@@ -5,14 +5,6 @@
 
 ## 대기
 
-- keyword: 주담대 변동 고정 갈아타기
-  slug: mortgage-refinance-decision
-  category: money
-  intent: problem-solving
-  cluster: money-market
-  clusterRole: supporting
-  note: 코픽스 3.18% 보합인데 주담대 상승(고정 4.89~7.29%). FOMC 인상 후속. 변동·고정 판단 기준표. 마감 9/19. 내부링크 mortgage-rate-renewal-2026, september-fomc-2026
-
 - keyword: 유류세 인하 종료 9월 30일
   slug: fuel-tax-cut-expiry
   category: living
@@ -103,3 +95,12 @@
 - (2026-09-15) 자급제폰 알뜰폰 조합 — bs-20260915-003 (unlocked-phone-mvno)
 - (2026-09-15) 독감 예방접종 시기 2026 — bs-20260915-004 (flu-vaccination-2026)
 - (2026-09-17) 건강보험공단 채용 2026 하반기 — bs-20260917-001 (nhis-recruitment-2026-h2)
+
+- keyword: 주담대 변동 고정 갈아타기
+  slug: mortgage-refinance-decision
+  category: money
+  intent: problem-solving
+  cluster: money-market
+  clusterRole: supporting
+  note: 코픽스 3.18% 보합인데 주담대 상승(고정 4.89~7.29%). FOMC 인상 후속. 변동·고정 판단 기준표. 마감 9/19. 내부링크 mortgage-rate-renewal-2026, september-fomc-2026
+  published: 2026-09-19 (bs-20260919-001)
