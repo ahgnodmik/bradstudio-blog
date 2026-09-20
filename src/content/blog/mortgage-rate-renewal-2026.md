@@ -34,6 +34,9 @@ clusterRole: pillar
 evergreen: true
 reviewAfter: 2026-12-15
 author: 'Brad Studio'
+internalLinks:
+  - 'bs-20260919-001'
+  - 'bs-20260907-002'
 
 sources:
   - title: 'COFIX 공시 — 전국은행연합회 소비자포털'
@@ -49,7 +52,6 @@ sources:
     url: 'https://kbthink.com/loan-guide/prepayment.html'
     accessedAt: 2026-09-11
 
-internalLinks: []
 
 monetization:
   methods:

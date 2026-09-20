@@ -34,6 +34,8 @@ clusterRole: pillar
 evergreen: false
 reviewAfter: 2026-10-15
 author: 'Brad Studio'
+internalLinks:
+  - 'bs-20260919-002'
 
 sources:
   - title: '국제유가 뛰었지만 국내 기름값 소폭 내려 — 파이낸셜뉴스'
@@ -46,7 +48,6 @@ sources:
     url: 'https://namu.wiki/w/석유판매가격%20최고액%20지정%20제도'
     accessedAt: 2026-09-12
 
-internalLinks: []
 
 monetization:
   methods:

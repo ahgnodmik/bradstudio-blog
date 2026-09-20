@@ -43,6 +43,8 @@ sources:
 
 internalLinks:
   - "bs-20260903-008"
+  - 'bs-20260913-002'
+  - 'bs-20260910-001'
 
 monetization:
   methods:

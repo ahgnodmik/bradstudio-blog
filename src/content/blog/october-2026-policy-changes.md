@@ -35,6 +35,10 @@ clusterRole: pillar
 evergreen: false
 reviewAfter: 2026-11-01
 author: 'Brad Studio'
+internalLinks:
+  - 'bs-20260915-004'
+  - 'bs-20260917-001'
+  - 'bs-20260919-002'
 
 sources:
   - title: '근로기준법 개정 공포 — 고용노동부'

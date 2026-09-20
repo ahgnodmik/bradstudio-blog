@@ -75,6 +75,7 @@ sources:
 
 internalLinks:
   - "bs-20260911-001"
+  - 'bs-20260919-001'
 
 monetization:
   methods:

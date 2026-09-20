@@ -35,13 +35,13 @@ clusterRole: supporting
 evergreen: false
 reviewAfter: 2026-10-02
 author: 'Brad Studio'
+internalLinks:
+  - 'bs-20260919-003'
 
 sources:
   - title: '유류세 한시적 인하 조치 관련 보도자료 — 기획재정부'
     url: 'https://www.moef.go.kr'
     accessedAt: 2026-09-19
-
-internalLinks: []
 
 monetization:
   methods:

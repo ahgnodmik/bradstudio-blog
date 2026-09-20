@@ -29,6 +29,9 @@ clusterRole: supporting
 
 evergreen: false
 author: 'Brad Studio'
+internalLinks:
+  - 'bs-20260908-001'
+  - 'bs-20260908-003'
 
 sources:
   - title: '삼성전자, 갤럭시 S26 FE 국내 출시 (EBN뉴스)'
@@ -41,7 +44,6 @@ sources:
     url: 'https://www.samsung.com/sec/smartphones/galaxy-s26/specs/'
     accessedAt: 2026-09-03
 
-internalLinks: []
 
 monetization:
   methods:

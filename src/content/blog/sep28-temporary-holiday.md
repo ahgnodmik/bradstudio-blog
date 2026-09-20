@@ -34,6 +34,9 @@ clusterRole: supporting
 evergreen: false
 reviewAfter: 2026-09-28
 author: 'Brad Studio'
+internalLinks:
+  - 'bs-20260913-001'
+  - 'bs-20260919-003'
 
 sources:
   - title: '올해 추석 연휴, 9월28일 월요일 임시공휴일 가능할까 — 허프포스트코리아'

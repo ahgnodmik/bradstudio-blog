@@ -33,6 +33,8 @@ clusterRole: supporting
 evergreen: false
 reviewAfter: 2027-06-30
 author: 'Brad Studio'
+internalLinks:
+  - 'bs-20260908-002'
 
 sources:
   - title: '서울경제 — 2027학년도 수시 원서접수 안내 (2026.08.25)'
@@ -42,7 +44,6 @@ sources:
     url: 'https://makerschool.kr/482'
     accessedAt: 2026-09-07
 
-internalLinks: []
 
 monetization:
   methods:
