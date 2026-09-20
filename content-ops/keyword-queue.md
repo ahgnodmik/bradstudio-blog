@@ -5,14 +5,6 @@
 
 ## 대기
 
-- keyword: 9월 28일 임시공휴일 되나
-  slug: sep28-temporary-holiday
-  category: living
-  intent: informational
-  cluster: chuseok
-  clusterRole: supporting
-  note: 정부 공식 검토 없음 상태. 지정 조건·과거 8~10일 전 지정 사례·발표 시한 정리. 단정 금지, 발표 시 즉시 갱신. 마감 9/19~20 초긴급. 출처 hankyung/etoday 9/14
-
 - keyword: KBO 가을야구 매직넘버
   slug: kbo-postseason-magic-number
   category: living
@@ -105,6 +97,7 @@
 - (2026-09-17) 건강보험공단 채용 2026 하반기 — bs-20260917-001 (nhis-recruitment-2026-h2)
 - (2026-09-19) 유류세 인하 종료 9월 30일 — bs-20260919-002 (fuel-tax-cut-expiry)
 - (2026-09-19) 10월부터 달라지는 제도 — bs-20260919-003 (october-2026-policy-changes)
+- (2026-09-20) 9월 28일 임시공휴일 되나 — bs-20260920-001 (sep28-temporary-holiday)
 
 - keyword: 주담대 변동 고정 갈아타기
   slug: mortgage-refinance-decision
