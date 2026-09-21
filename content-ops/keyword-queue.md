@@ -5,84 +5,7 @@
 
 ## 대기
 
-- keyword: KBO 가을야구 매직넘버
-  slug: kbo-postseason-magic-number
-  category: living
-  intent: informational
-  cluster: sports
-  clusterRole: supporting
-  note: 5강 매직넘버 계산법, KT·삼성 1위 경쟁, 잔여 일정, 포스트시즌 예매 안내. 순위·숫자는 작성 시점 koreabaseball.com 확인 필수
-
-- keyword: 추석 연휴 넷플릭스 신작 일정표
-  slug: chuseok-netflix-lineup-2026
-  category: living
-  intent: informational
-  cluster: chuseok
-  clusterRole: supporting
-  note: 9/17~9/25 신작 일정표. 스캔들 9/18, 기안장 S2 9/22. about.netflix.com/ko 공식 일정 확인 후 인용. 내부링크 chuseok-movies-2026
-
-## 보류 — 편집자 판단으로 우선순위 낮춤 (2026-09-19)
-
-- keyword: 실비보험 청구 방법
-  slug: health-insurance-claim
-  category: money
-  intent: problem-solving
-  cluster: silbi
-  clusterRole: pillar
-  note: 청구 절차·필요 서류·앱 청구. 고단가. 단정 표현 금지(YMYL)
-
-
-- keyword: 실손보험 세대별 차이
-  slug: health-insurance-generations
-  category: money
-  intent: informational
-  cluster: silbi
-  clusterRole: supporting
-  note: 1~4세대 보장·자기부담금 비교표. 전환 판단 기준
-
-
-- keyword: 도수치료 실비 청구 조건
-  slug: manual-therapy-claim
-  category: money
-  intent: problem-solving
-  cluster: silbi
-  clusterRole: supporting
-  note: 세대별 보장 차이, 횟수 제한, 거절 사례
-
-
-- keyword: 실비보험 청구 거절 사유
-  slug: insurance-claim-rejection
-  category: money
-  intent: problem-solving
-  cluster: silbi
-  clusterRole: supporting
-  note: 흔한 거절 사유와 대응 절차, 금감원 분쟁조정 안내
-
-
-- keyword: 통원 치료비 실비 계산
-  slug: outpatient-claim-calculation
-  category: money
-  intent: informational
-  cluster: silbi
-  clusterRole: supporting
-  note: 자기부담금 공제 방식 세대별 계산 예시
-
-- keyword: 알뜰폰 단점
-  slug: mvno-drawbacks
-  category: digital
-  intent: informational
-  cluster: mvno
-  clusterRole: supporting
-  note: 고객센터·멤버십·가족결합 부재 등 손실 회피형 검색
-
-
-- keyword: eSIM 개통 방법
-  slug: esim-activation-guide
-  category: digital
-  intent: problem-solving
-  cluster: mvno
-  clusterRole: supporting
-  note: eSIM 지원 단말 확인, QR 개통 절차, 듀얼심 활용
+(비어 있음)
 
 ## 완료
 
@@ -98,6 +21,8 @@
 - (2026-09-19) 유류세 인하 종료 9월 30일 — bs-20260919-002 (fuel-tax-cut-expiry)
 - (2026-09-19) 10월부터 달라지는 제도 — bs-20260919-003 (october-2026-policy-changes)
 - (2026-09-20) 9월 28일 임시공휴일 되나 — bs-20260920-001 (sep28-temporary-holiday)
+- (2026-09-21) 추석 넷플릭스 신작 일정표 — bs-20260921-001 (chuseok-netflix-lineup-2026)
+- (2026-09-21) KBO 가을야구 매직넘버 — bs-20260921-002 (kbo-postseason-magic-number)
 
 - keyword: 주담대 변동 고정 갈아타기
   slug: mortgage-refinance-decision
