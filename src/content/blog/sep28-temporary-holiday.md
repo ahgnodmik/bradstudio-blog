@@ -3,7 +3,7 @@ contentId: "bs-20260920-001"
 title: '9월 28일 임시공휴일 되나 — 지정 절차·과거 사례·발표 확인법 총정리'
 description: '2026 추석 연휴(9/24~27) 다음 날인 9월 28일 월요일 임시공휴일 지정 여부를 정리했습니다. 현재 미정 상태이며, 지정 절차와 과거 발표 시점, 지정 시 달라지는 것, 공식 발표 확인 경로까지 담았습니다.'
 pubDate: 2026-09-20
-updatedDate: 2026-09-20
+updatedDate: 2026-09-23
 thumbnail:
   url: 'https://images.unsplash.com/photo-1633526543814-9718c8922b7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
   alt: '빨간 핀이 꽂힌 달력'
@@ -48,6 +48,12 @@ sources:
   - title: '9월 28일 임시공휴일 지정 가능성, 검토 현황은? — 위키트리'
     url: 'https://www.wikitree.co.kr/articles/1160044'
     accessedAt: 2026-09-20
+  - title: '추석 코앞인데 "검토 없음"만…9월28일 임시 공휴일 꿈 직장인들 달력만 쳐다본다 — CBC뉴스'
+    url: 'https://www.cbci.co.kr/news/articleView.html?idxno=607652'
+    accessedAt: 2026-09-23
+  - title: '"28일 월요일도 쉬나요"…짧은 추석 연휴 임시공휴일 기대감 크지만 — 뉴스1'
+    url: 'https://www.news1.kr/society/general-society/6289062'
+    accessedAt: 2026-09-23
 
 monetization:
   methods:
@@ -66,6 +72,10 @@ faq:
 
 seo:
   noindex: false
+---
+
+> **[2026-09-23 업데이트]** 9월 23일(화) 오전 정례 국무회의에서 9월 28일 임시공휴일 지정 안건이 상정되지 않은 것으로 파악됩니다. 추석 전 지정을 위한 사실상 마지막 관문이 지나갔으며, **임시공휴일 지정은 사실상 무산 가능성이 높습니다.** 연휴·출근 일정은 9월 28일을 정상 출근일로 잡으시기 바랍니다.
+
 ---
 
 ## 지금 상태: 미정 — 공식 지정 발표 없음
