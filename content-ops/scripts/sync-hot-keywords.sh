@@ -14,6 +14,8 @@ cp "$SRC"/*.md "$DEST"/ 2>/dev/null || { echo "no keyword files found in $SRC"; 
 if git status --porcelain content-ops/hot-keywords | grep -q .; then
 	git add content-ops/hot-keywords
 	git commit -m "content: sync hot keyword board $(date +%Y-%m-%d)"
+	# 원격에 클라우드 draft 커밋이 먼저 올라와 있어도 push 거부되지 않도록 rebase 후 push
+	git pull --rebase origin main
 	git push
 	echo "synced and pushed"
 else
