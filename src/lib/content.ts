@@ -9,7 +9,13 @@ export function isVisible(post: CollectionEntry<'blog'>): boolean {
 	return import.meta.env.DEV || process.env.SHOW_DRAFTS === 'true';
 }
 
+// 최신성 기준: updatedDate가 있으면 그걸, 없으면 pubDate.
+// 갱신한 글이 최신글 목록 상단에 올라오도록 한다.
+function recencyOf(post: CollectionEntry<'blog'>): number {
+	return (post.data.updatedDate ?? post.data.pubDate).valueOf();
+}
+
 export async function getVisiblePosts(): Promise<CollectionEntry<'blog'>[]> {
 	const posts = await getCollection('blog', isVisible);
-	return posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+	return posts.sort((a, b) => recencyOf(b) - recencyOf(a));
 }
