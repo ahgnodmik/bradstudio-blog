@@ -17,5 +17,8 @@ function recencyOf(post: CollectionEntry<'blog'>): number {
 
 export async function getVisiblePosts(): Promise<CollectionEntry<'blog'>[]> {
 	const posts = await getCollection('blog', isVisible);
-	return posts.sort((a, b) => recencyOf(b) - recencyOf(a));
+	// 같은 날짜면 contentId 역순(나중에 채번한 글이 위). 없으면 파일명 순이라 알파벳 앞 글이 맨 앞에 걸린다.
+	return posts.sort(
+		(a, b) => recencyOf(b) - recencyOf(a) || b.data.contentId.localeCompare(a.data.contentId),
+	);
 }
