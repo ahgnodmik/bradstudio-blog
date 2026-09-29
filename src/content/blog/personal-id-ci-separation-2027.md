@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'FLY:D'
   creditUrl: 'https://unsplash.com/@flyd2069'
 
-status: draft
+status: published
 
 category: digital
 tags:

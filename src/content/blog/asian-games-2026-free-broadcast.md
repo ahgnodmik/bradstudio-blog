@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Braden Collum'
   creditUrl: 'https://unsplash.com/@bradencollum'
 
-status: draft
+status: published
 
 category: living
 tags:
