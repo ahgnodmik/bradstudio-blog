@@ -1,7 +1,15 @@
 ---
 // 글 목록 카드와 같은 모양으로 섞여 들어가는 In-feed 네이티브 광고.
 // 목록의 <li> 자리에 그대로 넣어 사용.
+// deferred: '더 보기' 전까지 숨겨진 자리. 숨긴 상태로 push하면 AdSense가 폭 0 오류를 내므로
+// 목록 페이지 스크립트가 보이게 만든 뒤 push한다.
 import { AD_INFEED_LAYOUT_KEY, AD_SLOTS, ADSENSE_CLIENT } from '../consts';
+
+interface Props {
+	deferred?: boolean;
+}
+
+const { deferred = false } = Astro.props;
 
 const slotId = AD_SLOTS.listMid;
 const enabled = ADSENSE_CLIENT !== '' && slotId !== '' && AD_INFEED_LAYOUT_KEY !== '';
@@ -10,7 +18,7 @@ const showPlaceholder = !enabled && import.meta.env.DEV;
 
 {
 	enabled ? (
-		<li class="ad-card">
+		<li class:list={['ad-card', { 'ad-deferred': deferred }]}>
 			<ins
 				class="adsbygoogle"
 				style="display:block"
@@ -19,9 +27,11 @@ const showPlaceholder = !enabled && import.meta.env.DEV;
 				data-ad-format="fluid"
 				data-ad-layout-key={AD_INFEED_LAYOUT_KEY}
 			/>
-			<script is:inline>
-				(window.adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
+			{!deferred && (
+				<script is:inline>
+					(window.adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			)}
 		</li>
 	) : showPlaceholder ? (
 		<li class="ad-card ad-card-placeholder">
@@ -37,6 +47,7 @@ const showPlaceholder = !enabled && import.meta.env.DEV;
 		width: 100%;
 	}
 	/* 광고가 안 채워지면(unfilled) 빈 줄이 그리드 간격만 차지하므로 숨긴다 */
+	.ad-deferred,
 	.ad-card:has(ins[data-ad-status='unfilled']) {
 		display: none;
 	}

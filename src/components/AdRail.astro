@@ -1,0 +1,74 @@
+---
+// 좌우 레일(세로형) 디스플레이 광고. 본문 폭(1080px) 바깥 여백이 충분한 넓은 화면에서만 노출.
+// AdSense에서 '디스플레이 광고 — 세로형(160x600 또는 300x600)' 단위를 만들고 AD_SLOTS.railLeft/railRight에 ID 입력.
+import { AD_SLOTS, ADSENSE_CLIENT } from '../consts';
+
+interface Props {
+	side: 'left' | 'right';
+}
+
+const { side } = Astro.props;
+const slotId = side === 'left' ? AD_SLOTS.railLeft : AD_SLOTS.railRight;
+const enabled = ADSENSE_CLIENT !== '' && slotId !== '';
+const showPlaceholder = !enabled && import.meta.env.DEV;
+---
+
+{
+	(enabled || showPlaceholder) && (
+		<aside class:list={['ad-rail', `ad-rail-${side}`, { 'ad-rail-placeholder': showPlaceholder }]} aria-label="광고">
+			{enabled ? (
+				<>
+					<ins
+						class="adsbygoogle ad-rail-unit"
+						style="display:inline-block;width:160px;height:600px"
+						data-ad-client={ADSENSE_CLIENT}
+						data-ad-slot={slotId}
+					/>
+					<script is:inline data-rail={side}>
+						// 레일이 숨겨지는 좁은 화면에선 push하지 않는다(폭 0 오류 방지)
+						if (window.matchMedia('(min-width: 1480px)').matches) {
+							(window.adsbygoogle = window.adsbygoogle || []).push({});
+						}
+					</script>
+				</>
+			) : (
+				<span>Rail AD · {side}</span>
+			)}
+		</aside>
+	)
+}
+
+<style>
+	.ad-rail {
+		display: none;
+	}
+	@media (min-width: 1480px) {
+		.ad-rail {
+			display: block;
+			position: fixed;
+			top: 96px;
+			width: 160px;
+			height: 600px;
+		}
+		/* 본문 1080px 가장자리에서 24px 띄움 */
+		.ad-rail-left {
+			right: calc(50% + 540px + 24px);
+		}
+		.ad-rail-right {
+			left: calc(50% + 540px + 24px);
+		}
+	}
+	.ad-rail-placeholder {
+		align-items: center;
+		justify-content: center;
+		border: 2px dashed rgb(var(--gray-light));
+		border-radius: 12px;
+		color: rgb(var(--gray));
+		font-size: 0.8rem;
+	}
+	@media (min-width: 1480px) {
+		.ad-rail-placeholder {
+			display: flex;
+		}
+	}
+</style>

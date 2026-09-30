@@ -35,4 +35,7 @@ export const AD_SLOTS = {
 	postBottom: '',
 	listMid: '2681952270',
 	footer: '',
+	// 목록 좌우 레일(세로형 160x600). 비어 있으면 프로덕션에서 렌더링 안 함.
+	railLeft: '',
+	railRight: '',
 } as const;

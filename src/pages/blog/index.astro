@@ -1,5 +1,6 @@
 ---
 import AdInFeed from '../../components/AdInFeed.astro';
+import AdRail from '../../components/AdRail.astro';
 import AdSlot from '../../components/AdSlot.astro';
 import BaseHead from '../../components/BaseHead.astro';
 import Footer from '../../components/Footer.astro';
@@ -14,8 +15,11 @@ const posts = await getVisiblePosts();
 const PAGE_SIZE = 12;
 // 더 보기 드랍다운 옵션 (클릭당 추가 개수)
 const LOAD_OPTIONS = [10, 30, 50, 100];
-// In-feed 광고는 4번째 카드 뒤
-const AD_AFTER = 4;
+// In-feed 광고: 4번째 카드 뒤 첫 광고, 이후 8장(4열 × 2행)마다 반복
+const AD_FIRST = 4;
+const AD_EVERY = 8;
+const hasAdAfter = (index: number) =>
+	index + 1 >= AD_FIRST && (index + 1 - AD_FIRST) % AD_EVERY === 0 && index < posts.length - 1;
 ---
 
 <!doctype html>
@@ -89,6 +93,8 @@ const AD_AFTER = 4;
 	</head>
 	<body>
 		<Header />
+		<AdRail side="left" />
+		<AdRail side="right" />
 		<main>
 			<section class="posts">
 				<ul id="post-list">
@@ -98,7 +104,7 @@ const AD_AFTER = 4;
 								<li class:list={['post-item', { 'post-hidden': index >= PAGE_SIZE }]}>
 									<PostCard post={post} />
 								</li>
-								{index === AD_AFTER - 1 && <AdInFeed />}
+								{hasAdAfter(index) && <AdInFeed deferred={index >= PAGE_SIZE} />}
 							</>
 						))
 					}
@@ -132,6 +138,14 @@ const AD_AFTER = 4;
 						if (i < count) li.classList.remove('post-hidden');
 					});
 					if (hidden.length <= count) button.parentElement?.remove();
+					// 새로 보이게 된 카드 바로 뒤의 광고 자리를 열고 그때 광고를 요청
+					document.querySelectorAll('#post-list li.ad-deferred').forEach((ad) => {
+						const prev = ad.previousElementSibling;
+						if (prev && !prev.classList.contains('post-hidden')) {
+							ad.classList.remove('ad-deferred');
+							((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({});
+						}
+					});
 				});
 			}
 		</script>
