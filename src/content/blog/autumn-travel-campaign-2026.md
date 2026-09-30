@@ -37,7 +37,6 @@ author: 'Brad Studio'
 internalLinks:
   - 'bs-20260929-004'
   - 'bs-20260919-003'
-  - 'bs-20260909-001'
 
 sources:
   - title: "'2026 여행가는 가을' 개막…교통·숙박 할인받고 지역으로 — 열린정책뉴스"

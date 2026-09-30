@@ -44,7 +44,6 @@ sources:
     accessedAt: 2026-09-22
 
 internalLinks:
-  - "bs-20260909-001"
   - "bs-20260903-008"
 
 monetization:
@@ -130,7 +129,7 @@ seo:
 
 추석 연휴에는 의원·약국 다수가 쉽니다. 만성질환자나 어린이가 있는 가정은 연휴 시작 전에 처방약을 미리 확보하고, E-Gen 앱을 설치해 두는 것이 좋습니다.
 
-추석 연휴 이동 계획이 있다면 [추석 기차표 예매 일정](/blog/chuseok-ktx-reservation-2026/)과 [고속도로 통행료 면제 안내](/blog/chuseok-toll-free-accommodation-coupon/)도 함께 확인하세요.
+추석 연휴 이동 계획이 있다면 [추석 기차표 예매 일정](/blog/chuseok-ktx-reservation-2026/)도 함께 확인하세요.
 
 ---
 

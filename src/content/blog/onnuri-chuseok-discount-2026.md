@@ -44,8 +44,7 @@ sources:
     url: 'https://www.kgosu.com/2026/09/2026-10-120-10.html'
     accessedAt: 2026-09-10
 
-internalLinks:
-  - "bs-20260909-001"
+internalLinks: []
 
 monetization:
   methods:
@@ -181,10 +180,8 @@ seo:
 |---|---|---|
 | 디지털 온누리상품권 특별할인 | 9/16 ~ 9/20 구매분 | 최대 9만원 절약 |
 | 숙박할인권 배포 | 9/22부터 | 8만장 |
-| 추석 연휴 통행료 면제 | 9/24(목) ~ 9/27(일) | 고속도로 전 구간 |
 | 성수품 할인 공급 | 추석 전후 | 18.3만t |
 
-통행료 면제 상세 내용은 [추석 고속도로 통행료 면제 안내](/blog/chuseok-toll-free-accommodation-coupon/)에서 확인할 수 있습니다.
 
 ---
 

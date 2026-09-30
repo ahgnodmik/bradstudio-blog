@@ -44,7 +44,6 @@ sources:
     accessedAt: 2026-09-22
 
 internalLinks:
-  - "bs-20260909-001"
   - "bs-20260903-008"
   - "bs-20260903-010"
 
@@ -121,9 +120,8 @@ seo:
 
 ## 함께 활용할 추석 연휴 혜택
 
-추석 연휴 기간 고속도로 통행료 면제와 함께 활용하면 이동 비용을 더 아낄 수 있습니다.
+추석 연휴 이동 계획과 함께 활용하면 여행 비용을 더 아낄 수 있습니다.
 
-- [추석 고속도로 통행료 면제 안내](/blog/chuseok-toll-free-accommodation-coupon/) — 9/24~27 전 구간 무료
 - [추석 기차표 예매 일정](/blog/chuseok-ktx-reservation-2026/) — 코레일 예매 방법
 - [추석 마트·전통시장 할인](/blog/chuseok-grocery-discount-2026/) — 성수품 40% 할인
 
