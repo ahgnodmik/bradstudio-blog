@@ -13,12 +13,11 @@ const { deferred = false } = Astro.props;
 
 const slotId = AD_SLOTS.listMid;
 const enabled = ADSENSE_CLIENT !== '' && slotId !== '' && AD_INFEED_LAYOUT_KEY !== '';
-const showPlaceholder = !enabled && import.meta.env.DEV;
 ---
 
 {
 	enabled ? (
-		<li class:list={['ad-card', { 'ad-deferred': deferred }]}>
+		<li class:list={['ad-card', { 'ad-deferred': deferred }]} data-ad-label="인피드 네이티브 광고 · 글 카드형">
 			<ins
 				class="adsbygoogle"
 				style="display:block"
@@ -33,13 +32,13 @@ const showPlaceholder = !enabled && import.meta.env.DEV;
 				</script>
 			)}
 		</li>
-	) : showPlaceholder ? (
-		<li class="ad-card ad-card-placeholder">
-			<div class="fake-image">In-feed AD</div>
+	) : (
+		<li class:list={['ad-card', 'ad-card-placeholder', 'ad-placeholder', { 'ad-deferred': deferred }]}>
+			<div class="fake-image">인피드 네이티브 광고 · listMid</div>
 			<h4 class="fake-title">광고 카드 자리 (실제로는 글 카드와 동일한 형태)</h4>
 			<p class="fake-date">Sponsored</p>
 		</li>
-	) : null
+	)
 }
 
 <style>

@@ -32,6 +32,8 @@ export const AD_INFEED_LAYOUT_KEY = '-6s+ed+2g-1n-4q';
 export const AD_SLOTS = {
 	sidebarTop: '',
 	postTop: '',
+	// 본문 중간(두 번째 소제목 앞) 인아티클 광고
+	postMid: '',
 	postBottom: '',
 	listMid: '2681952270',
 	footer: '',

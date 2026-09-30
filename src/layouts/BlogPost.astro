@@ -147,11 +147,25 @@ const ogImage = post.seo.ogImage ?? heroImage ?? `/og/${post.contentId}.png`;
 						<h1>{title}</h1>
 						<hr />
 					</div>
-					<AdSlot name="postTop" label="본문 상단 광고" />
+					<AdSlot name="postTop" label="본문 상단 광고" size="728×90 / 모바일 320×100" />
 					{post.monetization.affiliateDisclosure && <AffiliateDisclosure />}
 					<div class="prose">
 						<slot />
 					</div>
+					<div id="ad-post-mid">
+						<AdSlot name="postMid" label="본문 중간 인아티클 광고" size="반응형 인아티클" format="fluid" layout="in-article" deferPush />
+					</div>
+					<script is:inline>
+						// 본문 중간 광고를 두 번째 소제목(h2) 앞으로 옮긴 뒤 광고 요청
+						(function () {
+							var box = document.getElementById('ad-post-mid');
+							var h2s = document.querySelectorAll('.prose > h2');
+							if (box && h2s.length >= 3) h2s[1].before(box);
+							if (box && box.querySelector('ins.adsbygoogle')) {
+								(window.adsbygoogle = window.adsbygoogle || []).push({});
+							}
+						})();
+					</script>
 					{
 						post.faq.length > 0 && (
 							<section class="faq">
@@ -186,11 +200,11 @@ const ogImage = post.seo.ogImage ?? heroImage ?? `/og/${post.contentId}.png`;
 					}
 					<AuthorBio author={post.author} />
 					<RelatedPosts contentIds={post.internalLinks} />
-					<AdSlot name="postBottom" label="본문 하단 광고" />
+					<AdSlot name="postBottom" label="본문 하단 광고" size="336×280 / 반응형" />
 				</article>
 				<Sidebar />
 			</div>
-			<AdSlot name="footer" label="하단 디스플레이 광고" />
+			<AdSlot name="footer" label="하단 디스플레이 광고" size="728×90 / 반응형" />
 		</main>
 		<Footer />
 	</body>

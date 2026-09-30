@@ -10,12 +10,12 @@ interface Props {
 const { side } = Astro.props;
 const slotId = side === 'left' ? AD_SLOTS.railLeft : AD_SLOTS.railRight;
 const enabled = ADSENSE_CLIENT !== '' && slotId !== '';
-const showPlaceholder = !enabled && import.meta.env.DEV;
+const showPlaceholder = !enabled;
 ---
 
 {
 	(enabled || showPlaceholder) && (
-		<aside class:list={['ad-rail', `ad-rail-${side}`, { 'ad-rail-placeholder': showPlaceholder }]} aria-label="광고">
+		<aside class:list={['ad-rail', `ad-rail-${side}`, { 'ad-rail-placeholder ad-placeholder': showPlaceholder }]} aria-label="광고">
 			{enabled ? (
 				<>
 					<ins
@@ -32,7 +32,7 @@ const showPlaceholder = !enabled && import.meta.env.DEV;
 					</script>
 				</>
 			) : (
-				<span>Rail AD · {side}</span>
+				<span>좌우 레일 광고<br />{side === 'left' ? 'railLeft' : 'railRight'} · 160×600</span>
 			)}
 		</aside>
 	)
@@ -61,10 +61,12 @@ const showPlaceholder = !enabled && import.meta.env.DEV;
 	.ad-rail-placeholder {
 		align-items: center;
 		justify-content: center;
-		border: 2px dashed rgb(var(--gray-light));
+		border: 2px dashed #ff7a00;
 		border-radius: 12px;
-		color: rgb(var(--gray));
+		background: rgba(255, 122, 0, 0.06);
+		color: #b35500;
 		font-size: 0.8rem;
+		text-align: center;
 	}
 	@media (min-width: 1480px) {
 		.ad-rail-placeholder {

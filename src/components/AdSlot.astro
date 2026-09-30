@@ -6,35 +6,44 @@ interface Props {
 	// AdSense data-ad-format. 'fluid'는 인피드/인아티클용.
 	format?: string;
 	label?: string;
+	// 미리보기 박스에 표시할 권장 광고 크기
+	size?: string;
+	// true면 인라인 push를 생략. 페이지 스크립트가 자리 이동 후 직접 push (본문 중간 광고)
+	deferPush?: boolean;
+	// in-article 광고용 data-ad-layout
+	layout?: string;
 }
 
-const { name, format = 'auto', label = 'AD' } = Astro.props;
+const { name, format = 'auto', label = 'AD', size = '반응형', deferPush = false, layout } = Astro.props;
 const slotId = AD_SLOTS[name];
 const enabled = ADSENSE_CLIENT !== '' && slotId !== '';
-// 미설정 슬롯: dev에서만 placeholder 표시, 프로덕션에선 렌더링 안 함
-const showPlaceholder = !enabled && import.meta.env.DEV;
 ---
 
 {
 	enabled ? (
-		<div class="ad-slot" data-ad-name={name}>
+		<div class="ad-slot" data-ad-name={name} data-ad-label={`${label} · ${size}`}>
 			<ins
 				class="adsbygoogle"
 				style="display:block"
 				data-ad-client={ADSENSE_CLIENT}
 				data-ad-slot={slotId}
 				data-ad-format={format}
-				data-full-width-responsive="true"
+				data-ad-layout={layout}
+				data-full-width-responsive={format === 'fluid' ? undefined : 'true'}
 			/>
-			<script is:inline>
-				(window.adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
+			{!deferPush && (
+				<script is:inline>
+					(window.adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			)}
 		</div>
-	) : showPlaceholder ? (
+	) : (
+		// 슬롯 ID 미입력: 광고 자리 미리보기(html.ad-preview)에서만 보이는 더미 박스
 		<div class="ad-slot ad-placeholder" data-ad-name={name}>
-			<span>{label} · {name}</span>
+			<strong>{label}</strong>
+			<span>{name} · {size}</span>
 		</div>
-	) : null
+	)
 }
 
 <style>
@@ -44,13 +53,19 @@ const showPlaceholder = !enabled && import.meta.env.DEV;
 	}
 	.ad-placeholder {
 		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
 		align-items: center;
 		justify-content: center;
 		min-height: 120px;
-		border: 2px dashed rgb(var(--gray-light));
+		border: 2px dashed #ff7a00;
 		border-radius: var(--rounded-xl);
-		color: rgb(var(--gray));
+		background: rgba(255, 122, 0, 0.06);
+		color: #b35500;
 		font-size: 0.85rem;
-		letter-spacing: 0.05em;
+		letter-spacing: 0.02em;
+	}
+	.ad-slot[data-ad-name='sidebarTop'].ad-placeholder {
+		min-height: 250px;
 	}
 </style>
