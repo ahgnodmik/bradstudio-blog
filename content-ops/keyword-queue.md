@@ -37,7 +37,7 @@
 - (2026-09-27) 추석 귀경길 고속도로 교통상황 — bs-20260927-001 (chuseok-highway-traffic-2026)
 - (2026-09-22) 추석 문 여는 약국·병원 — bs-20260922-001 (chuseok-open-pharmacy-2026) [출처: 2026-09-w3-mon #9]
 - (2026-09-22) 추석 휴일근로수당 — bs-20260922-002 (chuseok-holiday-overtime-2026) [출처: 2026-09-w3-mon #10]
-- (2026-09-22) 국립자연휴양림 추석 무료입장 — bs-20260922-003 (chuseok-nature-recreation-free-2026) [출처: 2026-09-w1 #6]
+- (2026-09-22) 국립자연휴양림 추석 무료입장 — bs-20260922-003 (chuseok-nature-recreation-free-2026) [출처: 2026-09-w1 #6] — 추석 종료로 미발행·삭제(10/1)
 
 - keyword: 주담대 변동 고정 갈아타기
   slug: mortgage-refinance-decision
