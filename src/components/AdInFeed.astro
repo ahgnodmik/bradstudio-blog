@@ -36,6 +36,10 @@ const showPlaceholder = !enabled && import.meta.env.DEV;
 	.ad-card {
 		width: 100%;
 	}
+	/* 광고가 안 채워지면(unfilled) 빈 줄이 그리드 간격만 차지하므로 숨긴다 */
+	.ad-card:has(ins[data-ad-status='unfilled']) {
+		display: none;
+	}
 	.fake-image {
 		display: flex;
 		align-items: center;
