@@ -172,7 +172,7 @@ const ogImage = post.seo.ogImage ?? heroImage ?? `/og/${post.contentId}.png`;
 							<section class="faq">
 								<h2>자주 묻는 질문</h2>
 								{post.faq.map((item) => (
-									<details>
+									<details open>
 										<summary>{item.question}</summary>
 										<p>{item.answer}</p>
 									</details>
