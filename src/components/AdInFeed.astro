@@ -7,9 +7,11 @@ import { AD_INFEED_LAYOUT_KEY, AD_SLOTS, ADSENSE_CLIENT } from '../consts';
 
 interface Props {
 	deferred?: boolean;
+	// 목록이 <ul>이면 li, <div class="post-grid">면 div
+	as?: 'li' | 'div';
 }
 
-const { deferred = false } = Astro.props;
+const { deferred = false, as: Tag = 'li' } = Astro.props;
 
 const slotId = AD_SLOTS.listMid;
 const enabled = ADSENSE_CLIENT !== '' && slotId !== '' && AD_INFEED_LAYOUT_KEY !== '';
@@ -17,7 +19,7 @@ const enabled = ADSENSE_CLIENT !== '' && slotId !== '' && AD_INFEED_LAYOUT_KEY !
 
 {
 	enabled ? (
-		<li class:list={['ad-card', { 'ad-deferred': deferred }]} data-ad-label="인피드 네이티브 광고 · 글 카드형">
+		<Tag class:list={['ad-card', { 'ad-deferred': deferred }]} data-ad-label="인피드 네이티브 광고 · 글 카드형">
 			<ins
 				class="adsbygoogle"
 				style="display:block"
@@ -31,19 +33,21 @@ const enabled = ADSENSE_CLIENT !== '' && slotId !== '' && AD_INFEED_LAYOUT_KEY !
 					(window.adsbygoogle = window.adsbygoogle || []).push({});
 				</script>
 			)}
-		</li>
+		</Tag>
 	) : (
-		<li class:list={['ad-card', 'ad-card-placeholder', 'ad-placeholder', { 'ad-deferred': deferred }]}>
+		<Tag class:list={['ad-card', 'ad-card-placeholder', 'ad-placeholder', { 'ad-deferred': deferred }]}>
 			<div class="fake-image">인피드 네이티브 광고 · listMid</div>
 			<h4 class="fake-title">광고 카드 자리 (실제로는 글 카드와 동일한 형태)</h4>
 			<p class="fake-date">Sponsored</p>
-		</li>
+		</Tag>
 	)
 }
 
 <style>
 	.ad-card {
 		width: 100%;
+		/* 그리드 목록에서 한 줄 전체 차지 */
+		grid-column: 1 / -1;
 	}
 	/* 광고가 안 채워지면(unfilled) 빈 줄이 그리드 간격만 차지하므로 숨긴다 */
 	.ad-deferred,

@@ -2,6 +2,7 @@
 import BaseHead from '../../components/BaseHead.astro';
 import Footer from '../../components/Footer.astro';
 import PostCard from '../../components/PostCard.astro';
+import AdInFeed from '../../components/AdInFeed.astro';
 import Header from '../../components/Header.astro';
 import Sidebar from '../../components/Sidebar.astro';
 import { CATEGORIES, SITE_TITLE } from '../../consts';
@@ -32,7 +33,14 @@ const label = CATEGORIES[category as keyof typeof CATEGORIES];
 				<section class="posts">
 					<h1>{label}</h1>
 					{posts.length === 0 && <p>아직 글이 없습니다.</p>}
-					<div class="post-grid">{posts.map((post) => <PostCard post={post} />)}</div>
+					<div class="post-grid">
+						{posts.map((post, index) => (
+							<>
+								<PostCard post={post} />
+								{(index + 1) % 8 === 4 && index < posts.length - 1 && <AdInFeed as="div" />}
+							</>
+						))}
+					</div>
 				</section>
 				<Sidebar />
 			</div>

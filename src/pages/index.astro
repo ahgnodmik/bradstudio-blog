@@ -4,6 +4,7 @@ import SiteJsonLd from '../components/seo/SiteJsonLd.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import PostCard from '../components/PostCard.astro';
+import AdInFeed from '../components/AdInFeed.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import { getVisiblePosts } from '../lib/content';
 import AdSlot from '../components/AdSlot.astro';
@@ -54,7 +55,12 @@ const posts = (await getVisiblePosts()).slice(0, 12);
 			<section>
 				<h2>최신글</h2>
 				<div class="post-grid">
-					{posts.map((post) => <PostCard post={post} />)}
+					{posts.map((post, index) => (
+						<>
+							<PostCard post={post} />
+							{index === 3 && <AdInFeed as="div" />}
+						</>
+					))}
 				</div>
 				<a class="all-posts" href="/blog/">전체 글 보기 →</a>
 			</section>

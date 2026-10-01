@@ -2,6 +2,7 @@
 import BaseHead from '../../components/BaseHead.astro';
 import Footer from '../../components/Footer.astro';
 import PostCard from '../../components/PostCard.astro';
+import AdInFeed from '../../components/AdInFeed.astro';
 import Header from '../../components/Header.astro';
 import Sidebar from '../../components/Sidebar.astro';
 import { SITE_TITLE } from '../../consts';
@@ -31,7 +32,14 @@ const { posts } = Astro.props;
 			<div class="layout">
 				<section class="posts">
 					<h1>#{tag}</h1>
-					<div class="post-grid">{posts.map((post) => <PostCard post={post} />)}</div>
+					<div class="post-grid">
+						{posts.map((post, index) => (
+							<>
+								<PostCard post={post} />
+								{(index + 1) % 8 === 4 && index < posts.length - 1 && <AdInFeed as="div" />}
+							</>
+						))}
+					</div>
 				</section>
 				<Sidebar />
 			</div>
