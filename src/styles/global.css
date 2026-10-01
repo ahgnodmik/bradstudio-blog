@@ -174,7 +174,7 @@ html.ad-preview .ad-slot:not(.ad-placeholder),
 html.ad-preview .ad-card:not(.ad-placeholder):not(.ad-deferred) {
 	display: block !important;
 	position: relative;
-	min-height: 100px;
+	min-height: 120px;
 	outline: 2px dashed #ff7a00;
 	outline-offset: 2px;
 }
@@ -186,4 +186,7 @@ html.ad-preview .ad-card:not(.ad-placeholder):not(.ad-deferred)::before {
 	left: 8px;
 	font-size: 0.75rem;
 	color: #b35500;
+}
+html.ad-preview .ad-card:not(.ad-placeholder):not(.ad-deferred) {
+	min-height: 260px;
 }

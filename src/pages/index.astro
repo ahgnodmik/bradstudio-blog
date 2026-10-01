@@ -9,7 +9,8 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import { getVisiblePosts } from '../lib/content';
 import AdSlot from '../components/AdSlot.astro';
 
-const posts = (await getVisiblePosts()).slice(0, 12);
+// 카드 11장 + 인피드 광고 1칸 = 4열 × 3행
+const posts = (await getVisiblePosts()).slice(0, 11);
 ---
 
 <!doctype html>

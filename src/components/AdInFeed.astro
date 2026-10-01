@@ -44,10 +44,10 @@ const enabled = ADSENSE_CLIENT !== '' && slotId !== '' && AD_INFEED_LAYOUT_KEY !
 }
 
 <style>
+	/* 글 카드 한 칸 크기로 섞여 들어감(한 줄 전체를 차지하지 않음) */
 	.ad-card {
 		width: 100%;
-		/* 그리드 목록에서 한 줄 전체 차지 */
-		grid-column: 1 / -1;
+		min-width: 0;
 	}
 	/* 광고가 안 채워지면(unfilled) 빈 줄이 그리드 간격만 차지하므로 숨긴다 */
 	.ad-deferred,
