@@ -32,9 +32,24 @@ const enabled = ADSENSE_CLIENT !== '' && slotId !== '' && AD_INFEED_LAYOUT_KEY !
 			/>
 			{!deferred && (
 				<script is:inline>
+					// 광고가 채워질 때만 칸을 남긴다. 5초 안에 filled가 아니면(미승인·재고 없음·차단) 칸을 접어
+					// 그리드 빈칸을 없애고, 늦게 채워지면 다시 펼친다.
+					window.bsAdWatch =
+						window.bsAdWatch ||
+						function (box) {
+							var ins = box.querySelector('ins.adsbygoogle');
+							if (!ins) return;
+							var sync = function () {
+								box.classList.toggle('ad-empty', ins.getAttribute('data-ad-status') !== 'filled');
+							};
+							new MutationObserver(sync).observe(ins, { attributes: true, attributeFilter: ['data-ad-status'] });
+							setTimeout(sync, 5000);
+						};
 					// fluid 광고는 폭 250px 미만이면 요청 거부(TagError) → 미만이면 요청하지 않음
 					(function (box) {
-						if (box && box.offsetWidth >= 250) (window.adsbygoogle = window.adsbygoogle || []).push({});
+						if (!box) return;
+						if (box.offsetWidth >= 250) (window.adsbygoogle = window.adsbygoogle || []).push({});
+						window.bsAdWatch(box);
 					})(document.currentScript && document.currentScript.parentElement);
 				</script>
 			)}

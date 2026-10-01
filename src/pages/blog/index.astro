@@ -149,6 +149,7 @@ const hasAdAfter = (index: number) =>
 							if ((ad as HTMLElement).offsetWidth >= 250) {
 								((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({});
 							}
+							(window as any).bsAdWatch?.(ad);
 						}
 					});
 				});

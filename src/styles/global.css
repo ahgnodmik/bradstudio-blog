@@ -190,3 +190,7 @@ html.ad-preview .ad-card:not(.ad-placeholder):not(.ad-deferred)::before {
 html.ad-preview .ad-card:not(.ad-placeholder):not(.ad-deferred) {
 	min-height: 260px;
 }
+/* 광고가 채워지지 않은 인피드 칸은 접는다(미리보기 모드에선 자리 확인용으로 유지) */
+html:not(.ad-preview) .ad-empty {
+	display: none !important;
+}
