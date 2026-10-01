@@ -11,8 +11,8 @@ import { getVisiblePosts } from '../../lib/content';
 
 const posts = await getVisiblePosts();
 
-// 처음 보이는 글 수: 11장 + 인피드 광고 1칸 = 4열 × 3행
-const PAGE_SIZE = 11;
+// 처음 보이는 글 수: 10장 + 인피드 광고 2칸 = 4열 × 3행
+const PAGE_SIZE = 10;
 // 더 보기 드랍다운 옵션 (클릭당 추가 개수)
 const LOAD_OPTIONS = [10, 30, 50, 100];
 // In-feed 광고: 4번째 카드 뒤 첫 광고, 이후 8장(4열 × 2행)마다 반복
@@ -101,7 +101,7 @@ const hasAdAfter = (index: number) =>
 								<li class:list={['post-item', { 'post-hidden': index >= PAGE_SIZE }]}>
 									<PostCard post={post} />
 								</li>
-								{hasAdAfter(index) && <AdInFeed deferred={index >= PAGE_SIZE} />}
+								{hasAdAfter(index) && <AdInFeed deferred={index >= PAGE_SIZE} wide />}
 							</>
 						))
 					}
@@ -140,7 +140,9 @@ const hasAdAfter = (index: number) =>
 						const prev = ad.previousElementSibling;
 						if (prev && !prev.classList.contains('post-hidden')) {
 							ad.classList.remove('ad-deferred');
-							((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({});
+							if ((ad as HTMLElement).offsetWidth >= 250) {
+								((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({});
+							}
 						}
 					});
 				});

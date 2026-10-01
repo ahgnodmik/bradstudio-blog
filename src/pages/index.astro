@@ -9,8 +9,8 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import { getVisiblePosts } from '../lib/content';
 import AdSlot from '../components/AdSlot.astro';
 
-// 카드 11장 + 인피드 광고 1칸 = 4열 × 3행
-const posts = (await getVisiblePosts()).slice(0, 11);
+// 카드 10장 + 인피드 광고 2칸 = 4열 × 3행
+const posts = (await getVisiblePosts()).slice(0, 10);
 ---
 
 <!doctype html>
@@ -59,7 +59,7 @@ const posts = (await getVisiblePosts()).slice(0, 11);
 					{posts.map((post, index) => (
 						<>
 							<PostCard post={post} />
-							{index === 3 && <AdInFeed as="div" />}
+							{index === 3 && <AdInFeed as="div" wide />}
 						</>
 					))}
 				</div>

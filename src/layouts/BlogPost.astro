@@ -162,7 +162,7 @@ const ogImage = post.seo.ogImage ?? heroImage ?? `/og/${post.contentId}.png`;
 							var box = document.getElementById('ad-post-mid');
 							var h2s = document.querySelectorAll('.prose > h2');
 							if (box && h2s.length >= 3) h2s[1].before(box);
-							if (box && box.querySelector('ins.adsbygoogle')) {
+							if (box && box.querySelector('ins.adsbygoogle') && box.offsetWidth >= 250) {
 								(window.adsbygoogle = window.adsbygoogle || []).push({});
 							}
 						})();
