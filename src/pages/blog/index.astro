@@ -11,8 +11,8 @@ import { getVisiblePosts } from '../../lib/content';
 
 const posts = await getVisiblePosts();
 
-// 처음 보이는 글 수: 10장 + 인피드 광고 2칸 = 4열 × 3행
-const PAGE_SIZE = 10;
+// 처음 보이는 글 수: 11장 + 인피드 광고 1칸 = 12칸
+const PAGE_SIZE = 11;
 // 더 보기 드랍다운 옵션 (클릭당 추가 개수)
 const LOAD_OPTIONS = [10, 30, 50, 100];
 // In-feed 광고: 4번째 카드 뒤 첫 광고, 이후 8장(4열 × 2행)마다 반복
@@ -34,10 +34,11 @@ const hasAdAfter = (index: number) =>
 				margin: 0 auto;
 				padding: 2.5rem 1em 4rem;
 			}
+			/* 카드 한 칸 ≥ 250px 유지(인피드 fluid 광고 최소 폭): 열 간격 12px, 폭에 따라 4→3→2→1열 */
 			ul {
 				display: grid;
 				grid-template-columns: repeat(4, 1fr);
-				gap: 2rem 1.5rem;
+				gap: 2rem 0.75rem;
 				list-style-type: none;
 				margin: 0;
 				padding: 0;
@@ -75,7 +76,12 @@ const hasAdAfter = (index: number) =>
 				border-radius: var(--rounded-full);
 				cursor: pointer;
 			}
-			@media (max-width: 768px) {
+			@media (max-width: 1079px) {
+				ul {
+					grid-template-columns: repeat(3, 1fr);
+				}
+			}
+			@media (max-width: 819px) {
 				ul {
 					grid-template-columns: repeat(2, 1fr);
 				}
@@ -101,7 +107,7 @@ const hasAdAfter = (index: number) =>
 								<li class:list={['post-item', { 'post-hidden': index >= PAGE_SIZE }]}>
 									<PostCard post={post} />
 								</li>
-								{hasAdAfter(index) && <AdInFeed deferred={index >= PAGE_SIZE} wide />}
+								{hasAdAfter(index) && <AdInFeed deferred={index >= PAGE_SIZE} />}
 							</>
 						))
 					}

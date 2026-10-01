@@ -9,8 +9,8 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import { getVisiblePosts } from '../lib/content';
 import AdSlot from '../components/AdSlot.astro';
 
-// 카드 10장 + 인피드 광고 2칸 = 4열 × 3행
-const posts = (await getVisiblePosts()).slice(0, 10);
+// 카드 11장 + 인피드 광고 1칸 = 12칸 (4·3·2열 모두 딱 맞음)
+const posts = (await getVisiblePosts()).slice(0, 11);
 ---
 
 <!doctype html>
@@ -26,17 +26,23 @@ const posts = (await getVisiblePosts()).slice(0, 10);
 				margin: 0 auto;
 				padding: 2.5rem 1em 4rem;
 			}
+			/* 카드 한 칸 ≥ 250px 유지(인피드 fluid 광고 최소 폭): 열 간격 12px, 폭에 따라 4→3→2→1열 */
 			.post-grid {
 				display: grid;
 				grid-template-columns: repeat(4, 1fr);
-				gap: 2rem 1.5rem;
+				gap: 2rem 0.75rem;
 				margin-top: 2rem;
 			}
 			.all-posts {
 				display: inline-block;
 				margin-top: 2rem;
 			}
-			@media (max-width: 768px) {
+			@media (max-width: 1079px) {
+				.post-grid {
+					grid-template-columns: repeat(3, 1fr);
+				}
+			}
+			@media (max-width: 819px) {
 				.post-grid {
 					grid-template-columns: repeat(2, 1fr);
 				}
@@ -59,7 +65,7 @@ const posts = (await getVisiblePosts()).slice(0, 10);
 					{posts.map((post, index) => (
 						<>
 							<PostCard post={post} />
-							{index === 3 && <AdInFeed as="div" wide />}
+							{index === 3 && <AdInFeed as="div" />}
 						</>
 					))}
 				</div>
