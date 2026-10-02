@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node content-ops/scripts/crosspost-blogger.mjs)",
+      "Bash(node content-ops/scripts/crosspost-blogger.mjs:*)",
+      "Bash(node content-ops/scripts/post-to-blogger.mjs:*)"
+    ]
+  }
+}
