@@ -39,17 +39,6 @@ const imageSrc = typeof image === 'string' ? image : image.src;
 
 <!-- Global Metadata -->
 <meta charset="utf-8" />
-<!-- 광고 자리 미리보기 토글: ?adpreview=1 켜기 / ?adpreview=0 끄기. 로컬 dev에선 항상 켜짐 -->
-<script is:inline define:vars={{ adPreviewDev: import.meta.env.DEV }}>
-	try {
-		const q = new URLSearchParams(location.search).get('adpreview');
-		if (q === '1') localStorage.setItem('adpreview', '1');
-		if (q === '0') localStorage.removeItem('adpreview');
-		if (adPreviewDev || localStorage.getItem('adpreview') === '1') {
-			document.documentElement.classList.add('ad-preview');
-		}
-	} catch (e) {}
-</script>
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="icon" href="/favicon.ico" />

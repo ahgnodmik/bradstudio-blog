@@ -10,7 +10,7 @@ interface Props {
 const { side } = Astro.props;
 const slotId = side === 'left' ? AD_SLOTS.railLeft : AD_SLOTS.railRight;
 const enabled = ADSENSE_CLIENT !== '' && slotId !== '';
-const showPlaceholder = !enabled;
+const showPlaceholder = !enabled && import.meta.env.DEV;
 ---
 
 {

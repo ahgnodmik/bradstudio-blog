@@ -17,6 +17,8 @@ interface Props {
 const { name, format = 'auto', label = 'AD', size = '반응형', deferPush = false, layout } = Astro.props;
 const slotId = AD_SLOTS[name];
 const enabled = ADSENSE_CLIENT !== '' && slotId !== '';
+// 슬롯 ID 미입력: 로컬 dev에서만 더미 박스, 프로덕션에선 아무것도 렌더링하지 않음
+const showPlaceholder = !enabled && import.meta.env.DEV;
 ---
 
 {
@@ -37,13 +39,12 @@ const enabled = ADSENSE_CLIENT !== '' && slotId !== '';
 				</script>
 			)}
 		</div>
-	) : (
-		// 슬롯 ID 미입력: 광고 자리 미리보기(html.ad-preview)에서만 보이는 더미 박스
+	) : showPlaceholder ? (
 		<div class="ad-slot ad-placeholder" data-ad-name={name}>
 			<strong>{label}</strong>
 			<span>{name} · {size}</span>
 		</div>
-	)
+	) : null
 }
 
 <style>

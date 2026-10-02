@@ -32,7 +32,7 @@ const enabled = ADSENSE_CLIENT !== '' && slotId !== '' && AD_INFEED_LAYOUT_KEY !
 			/>
 			{!deferred && (
 				<script is:inline>
-					// 광고가 채워질 때만 칸을 남긴다. 5초 안에 filled가 아니면(미승인·재고 없음·차단) 칸을 접어
+					// 광고가 채워질 때만 칸을 남긴다. 3초 안에 filled가 아니면(미승인·재고 없음·차단) 칸을 접어
 					// 그리드 빈칸을 없애고, 늦게 채워지면 다시 펼친다.
 					window.bsAdWatch =
 						window.bsAdWatch ||
@@ -43,7 +43,7 @@ const enabled = ADSENSE_CLIENT !== '' && slotId !== '' && AD_INFEED_LAYOUT_KEY !
 								box.classList.toggle('ad-empty', ins.getAttribute('data-ad-status') !== 'filled');
 							};
 							new MutationObserver(sync).observe(ins, { attributes: true, attributeFilter: ['data-ad-status'] });
-							setTimeout(sync, 5000);
+							setTimeout(sync, 3000);
 						};
 					// fluid 광고는 폭 250px 미만이면 요청 거부(TagError) → 미만이면 요청하지 않음
 					(function (box) {
@@ -54,13 +54,13 @@ const enabled = ADSENSE_CLIENT !== '' && slotId !== '' && AD_INFEED_LAYOUT_KEY !
 				</script>
 			)}
 		</Tag>
-	) : (
+	) : import.meta.env.DEV ? (
 		<Tag class:list={['ad-card', 'ad-card-placeholder', 'ad-placeholder', { 'ad-deferred': deferred, 'ad-wide': wide }]}>
 			<div class="fake-image">인피드 네이티브 광고 · listMid</div>
 			<h4 class="fake-title">광고 카드 자리 (실제로는 글 카드와 동일한 형태)</h4>
 			<p class="fake-date">Sponsored</p>
 		</Tag>
-	)
+	) : null
 }
 
 <style>

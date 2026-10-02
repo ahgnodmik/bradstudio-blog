@@ -165,32 +165,7 @@ hr {
 	white-space: nowrap;
 }
 
-/* 광고 자리 미리보기: 주소 뒤에 ?adpreview=1 → 켜짐, ?adpreview=0 → 꺼짐 (브라우저에 기억).
-   일반 방문자에겐 더미 박스가 보이지 않는다. */
-html:not(.ad-preview) .ad-placeholder {
-	display: none !important;
-}
-html.ad-preview .ad-slot:not(.ad-placeholder),
-html.ad-preview .ad-card:not(.ad-placeholder):not(.ad-deferred) {
-	display: block !important;
-	position: relative;
-	min-height: 120px;
-	outline: 2px dashed #ff7a00;
-	outline-offset: 2px;
-}
-html.ad-preview .ad-slot:not(.ad-placeholder)::before,
-html.ad-preview .ad-card:not(.ad-placeholder):not(.ad-deferred)::before {
-	content: '광고 자리 · ' attr(data-ad-label);
-	position: absolute;
-	top: 4px;
-	left: 8px;
-	font-size: 0.75rem;
-	color: #b35500;
-}
-html.ad-preview .ad-card:not(.ad-placeholder):not(.ad-deferred) {
-	min-height: 260px;
-}
-/* 광고가 채워지지 않은 인피드 칸은 접는다(미리보기 모드에선 자리 확인용으로 유지) */
-html:not(.ad-preview) .ad-empty {
+/* 광고가 채워지지 않은 인피드 칸은 접는다 */
+.ad-empty {
 	display: none !important;
 }
