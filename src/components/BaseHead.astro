@@ -119,6 +119,10 @@ const imageSrc = typeof image === 'string' ? image : image.src;
 }
 
 {
+	ADSENSE_CLIENT && <meta name="google-adsense-account" content={ADSENSE_CLIENT} />
+}
+
+{
 	ADSENSE_CLIENT && (
 		<script
 			is:inline
