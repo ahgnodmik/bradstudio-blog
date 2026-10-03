@@ -123,4 +123,4 @@ seo:
 | 실내 전시·영화 | 4일(일) 오후~저녁 |
 | 귀가·장거리 운전 | 5일(월) 오후 |
 
-3일 저녁 7시 30분에는 아시안게임 축구 결승 한일전이 있습니다([결승 관전 포인트](/blog/asian-games-football-final-2026/)). 연휴 날짜와 은행 휴무는 [개천절 대체공휴일 달력](/blog/national-foundation-day-substitute-holiday-2026/)에 정리했습니다.
+3일 저녁 아시안게임 축구 결승 한일전에서 한국이 1-0으로 이겨 4연패를 달성했습니다([결승 결과](/blog/asian-games-football-final-2026/)). 연휴 날짜와 은행 휴무는 [개천절 대체공휴일 달력](/blog/national-foundation-day-substitute-holiday-2026/)에 정리했습니다.
