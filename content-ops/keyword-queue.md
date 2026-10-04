@@ -8,6 +8,7 @@
 (비어 있음)
 
 ## 완료
+- (2026-10-04) 전기요금 누진제 계산기 + 사용량별 요금표 — bs-20261004-001 (electricity-progressive-tier-guide-2026), /tools/electricity-bill/ [출처: 사용자 지시 · 도구]
 
 - (2026-09-29) 삼성전자 3분기 배당 권리락 — bs-20260929-001 (samsung-q3-dividend-2026) [출처: 2026-09-w4-mon #3]
 - (2026-09-29) 아시안게임 2026 무료 중계 — bs-20260929-002 (asian-games-2026-free-broadcast) [출처: 2026-09-w4-mon #8]
