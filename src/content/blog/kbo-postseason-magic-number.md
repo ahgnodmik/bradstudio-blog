@@ -37,7 +37,7 @@ author: 'Brad Studio'
 internalLinks: []
 
 sources:
-  - title: ''가을 야구' 진출 팀 확정 — 일간스포츠'
+  - title: '가을 야구 진출 팀 확정 — 일간스포츠'
     url: 'https://isplus.com/article/view/isp202610010232'
     accessedAt: 2026-10-05
   - title: 'KT 매직넘버 6, 두산 가을야구 막차 탑승으로 5강 확정 — 데일리안'
