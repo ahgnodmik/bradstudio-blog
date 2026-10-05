@@ -10,7 +10,7 @@ thumbnail:
   creditName: 'Thibault Penin'
   creditUrl: 'https://unsplash.com/@thibaultpenin'
 
-status: archived
+status: published
 
 category: living
 tags:
