@@ -35,6 +35,8 @@ const blog = defineCollection({
 
 			category: z.enum(Object.keys(CATEGORIES) as [string, ...string[]]),
 			tags: z.array(z.string()).default([]),
+			// 연재 시리즈 소속 (src/lib/series.ts의 id, 회차)
+			series: z.object({ id: z.string(), order: z.number().int().positive() }).optional(),
 
 			primaryKeyword: z.string(),
 			secondaryKeywords: z.array(z.string()).default([]),
