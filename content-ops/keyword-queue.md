@@ -8,6 +8,8 @@
 (비어 있음)
 
 ## 완료
+- (2026-10-05) 기록의 역사 2편 파피루스 — bs-20261005-002 (record-history-02-papyrus) [출처: 시리즈 기획]
+- (2026-10-05) 자소서 글자수 기준 실측 — bs-20261005-003 (self-introduction-character-count-basis) [출처: 도구 해설]
 - (2026-10-05) 기록의 역사 1편 — bs-20261005-001 (record-history-01-why-humans-started-recording) [출처: 사용자 시리즈 기획 · content-ops/series-record-history.md]
 - (2026-10-04) 전기요금 누진제 계산기 + 사용량별 요금표 — bs-20261004-001 (electricity-progressive-tier-guide-2026), /tools/electricity-bill/ [출처: 사용자 지시 · 도구]
 
