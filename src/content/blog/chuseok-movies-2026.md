@@ -10,7 +10,7 @@ thumbnail:
   creditUrl: 'https://unsplash.com/@jacobmejicanos'
 updatedDate: 2026-09-13
 
-status: published
+status: archived
 
 category: living
 tags:

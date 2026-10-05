@@ -1,8 +1,9 @@
 ---
 contentId: "bs-20260929-002"
-title: '아시안게임 2026 무료로 보는 법 — SPOTV NOW·KBS·MBC·SBS 중계 채널 총정리'
-description: '2026 아이치-나고야 아시안게임(9월 19일~10월 4일) 한국 경기를 무료로 시청하는 방법입니다. SPOTV NOW 앱 무료 스트리밍, KBS·MBC·SBS 공중파, 치지직 플랫폼까지 채널별 시청 방법과 한국 메달 현황을 정리했습니다.'
+title: '아시안게임 2026 폐막 — 한국 금 39·종합 3위, 중계 채널과 다시보기 찾는 법'
+description: '2026 아이치·나고야 아시안게임이 10월 4일 폐막했습니다. 한국은 금 39·은 43·동 68개로 중국·일본에 이어 종합 3위, 남자축구 4연패와 야구 5연패를 달성했습니다. 대회 기간 무료 중계 채널(SPOTV NOW·KBS·MBC·SBS)과 하이라이트·다시보기를 찾는 방법을 정리했습니다.'
 pubDate: 2026-09-29
+updatedDate: 2026-10-05
 thumbnail:
   url: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
   alt: '육상 트랙 위 달리기 선수들'
@@ -27,10 +28,19 @@ intent: informational
 funnelStage: awareness
 
 evergreen: false
-reviewAfter: 2026-10-05
+reviewAfter: 2026-10-31
 author: 'Brad Studio'
 
 sources:
+  - title: '아이치·나고야 아시안게임 폐막…한국, 금 39·은 43·동 68개 종합 3위 — 경향신문'
+    url: 'https://www.khan.co.kr/article/202610042203015/'
+    accessedAt: 2026-10-05
+  - title: '韓, 금메달 39개로 44년만에 가장 저조… 日 이어 종합 3위 — 파이낸셜뉴스'
+    url: 'https://www.fnnews.com/news/202610041901433918'
+    accessedAt: 2026-10-05
+  - title: '44년 만의 최소 金 韓 3위로 AG 폐막 — 머니투데이'
+    url: 'https://www.mt.co.kr/sports/2026/10/04/2026100419161192739'
+    accessedAt: 2026-10-05
   - title: 'SPOTV NOW 아시안게임 공식 중계 페이지'
     url: 'https://www.spotvnow.co.kr/2026ag/'
     accessedAt: 2026-09-29
@@ -61,6 +71,15 @@ faq:
 seo:
   noindex: false
 ---
+
+> **10월 5일 업데이트: 대회 폐막**
+>
+> - 대회는 10월 4일 나고야에서 폐막했습니다.
+> - 한국 최종 성적은 금 39·은 43·동 68개로, 중국(금 169)과 일본(금 83)에 이은 종합 3위입니다. 금메달 39개는 1982년 뉴델리 대회(28개) 이후 가장 적은 수입니다.
+> - 남자축구 4연패, 야구 5연패를 달성했고 농구에서 금메달 3개가 나왔습니다. 남자축구 결승 기록은 [한국 1-0 일본 결승 정리](/blog/asian-games-football-final-2026/)에 있습니다.
+> - 경기가 끝난 지금은 생중계 대신 하이라이트·다시보기를 찾게 됩니다. 아래 채널 목록에서 각 서비스의 VOD·하이라이트 메뉴를 확인하세요. 제공 범위는 채널마다 다릅니다.
+> - 다음 아시안게임은 2030년 카타르 도하에서 열립니다.
+
 
 ## 결론부터: SPOTV NOW 앱 설치하면 무료
 

@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Brian Wegman 🎃'
   creditUrl: 'https://unsplash.com/@trytoscareme'
 
-status: published
+status: archived
 
 category: shopping
 tags:

@@ -1,9 +1,9 @@
 ---
 contentId: "bs-20260921-002"
-title: '2026 KBO 매직넘버 계산법과 현재 순위 — 가을야구 진출 확정 조건 총정리'
-description: '2026 KBO 정규시즌 매직넘버 계산법, 9월 21일 기준 1~5위 순위표, 포스트시즌 제도와 예매 방법까지 정리했습니다. KT·삼성·LG·KIA·두산의 가을야구 진출 조건을 확인하세요.'
+title: '2026 KBO 가을야구 5팀 확정 — KT·삼성 1위 경쟁과 매직넘버 계산법'
+description: '9월 30일 KT·삼성·LG·KIA·두산의 포스트시즌 진출이 확정됐습니다. 남은 관심사는 한국시리즈 직행이 걸린 1위 싸움입니다. 정규시즌은 10월 12일 끝납니다. 매직넘버 계산법, 순위별 포스트시즌 출발 단계, 남은 일정 확인법을 정리했습니다.'
 pubDate: 2026-09-21
-updatedDate: 2026-09-21
+updatedDate: 2026-10-05
 thumbnail:
   url: 'https://images.unsplash.com/photo-1784657258179-27f2e692b62e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
   alt: '야간 조명이 켜진 만원 야구장'
@@ -32,11 +32,20 @@ cluster: 'sports'
 clusterRole: supporting
 
 evergreen: false
-reviewAfter: 2026-09-28
+reviewAfter: 2026-10-13
 author: 'Brad Studio'
 internalLinks: []
 
 sources:
+  - title: ''가을 야구' 진출 팀 확정 — 일간스포츠'
+    url: 'https://isplus.com/article/view/isp202610010232'
+    accessedAt: 2026-10-05
+  - title: 'KT 매직넘버 6, 두산 가을야구 막차 탑승으로 5강 확정 — 데일리안'
+    url: 'https://www.dailian.co.kr/news/view/1696517/'
+    accessedAt: 2026-10-05
+  - title: 'KBO리그 잔여 경기 일정 확정…정규시즌 10월 12일 종료 — 데일리안'
+    url: 'https://www.dailian.co.kr/news/view/1696499/'
+    accessedAt: 2026-10-05
   - title: 'KBO 팀 순위 — KBO 공식'
     url: 'https://www.koreabaseball.com/record/teamrank/teamrank.aspx'
     accessedAt: 2026-09-21
@@ -60,6 +69,13 @@ faq:
 seo:
   noindex: false
 ---
+
+> **10월 5일 업데이트**
+>
+> - 9월 30일 경기로 가을야구 5팀이 모두 정해졌습니다: KT, 삼성, LG, KIA, 두산.
+> - 남은 관심사는 한국시리즈 직행권이 걸린 1위 경쟁입니다. 10월 1일 기준 KT가 삼성에 3경기 앞서 있습니다.
+> - 정규시즌은 잔여 경기 일정에 따라 10월 12일 끝납니다. 아래 순위표는 9월 21일 기준 기록으로 남겨 둡니다. 최신 순위는 [KBO 공식 순위표](https://www.koreabaseball.com/record/teamrank/teamrank.aspx)에서 확인하세요.
+
 
 ## 정규시즌 막판, 가을야구 티켓은 몇 장 남았나
 

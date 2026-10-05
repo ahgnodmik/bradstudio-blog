@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Prabu Panji'
   creditUrl: 'https://unsplash.com/@prabuuuuu'
 
-status: published
+status: archived
 
 category: shopping
 tags:
