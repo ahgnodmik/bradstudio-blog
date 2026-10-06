@@ -1,0 +1,396 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import { SITE_TITLE } from '../../consts';
+import { COMMON_RATIOS, PRESET_SIZES } from '../../lib/aspect';
+
+const title = '화면비율 계산기 — 비율 구하기, 비율 유지 리사이즈, 맞춤·채움 잘림 계산';
+const description =
+	'가로·세로 픽셀을 넣으면 16:9, 4:5 같은 화면비율과 가장 가까운 대표 비율을 알려 줍니다. 비율을 지킨 채 크기를 바꾸고, 다른 틀(인스타 4:5, 쇼츠 9:16, OG 1200×630)에 넣을 때 생기는 여백과 잘리는 양을 계산합니다.';
+---
+
+<!doctype html>
+<html lang="ko">
+	<head>
+		<BaseHead title={`${title} | ${SITE_TITLE}`} description={description} />
+	</head>
+	<body>
+		<Header />
+		<main class="tool">
+			<p class="eyebrow">도구 · 디자인·영상 실무</p>
+			<h1>화면비율 계산기</h1>
+			<p class="lead">
+				16:9로 만든 영상을 인스타그램 4:5 피드에 올리면 위아래가 비거나 양옆이 잘립니다. 크기를 넣고 비율과 리사이즈 값,
+				다른 틀에 넣을 때 얼마나 비고 잘리는지 한 번에 확인하세요.
+			</p>
+
+			<section class="card">
+				<h2 class="sub">1. 비율 구하기</h2>
+				<div class="row">
+					<label><span>가로 (px)</span><input id="w" type="number" inputmode="numeric" min="1" value="1920" /></label>
+					<label><span>세로 (px)</span><input id="h" type="number" inputmode="numeric" min="1" value="1080" /></label>
+					<button type="button" id="swap" class="ghost" aria-label="가로 세로 바꾸기">⇄ 바꾸기</button>
+				</div>
+				<div class="presets" aria-label="자주 쓰는 크기">
+					{PRESET_SIZES.map((p) => (
+						<button type="button" class="chip" data-w={p.w} data-h={p.h}>
+							{p.name} <small>{p.w}×{p.h}</small>
+						</button>
+					))}
+				</div>
+				<div class="result-grid" aria-live="polite">
+					<div class="stat main"><span>약분한 비율</span><strong id="r-simple">16:9</strong></div>
+					<div class="stat"><span>가까운 대표 비율</span><strong id="r-near">16:9</strong><em id="r-near-use"></em></div>
+					<div class="stat"><span>소수 비율 (가로÷세로)</span><strong id="r-dec">1.778</strong></div>
+					<div class="stat"><span>방향 · 화소</span><strong id="r-ori">가로형</strong><em id="r-mp"></em></div>
+				</div>
+				<div class="preview-wrap" aria-hidden="true"><div id="preview" class="preview"></div></div>
+			</section>
+
+			<section class="card">
+				<h2 class="sub">2. 비율 유지하며 크기 바꾸기</h2>
+				<p class="hint">위 비율(<span id="ratio-label">16:9</span>)을 유지합니다. 한쪽만 입력하세요.</p>
+				<div class="row">
+					<label><span>새 가로 (px)</span><input id="nw" type="number" inputmode="numeric" min="1" placeholder="예: 1280" /></label>
+					<label><span>새 세로 (px)</span><input id="nh" type="number" inputmode="numeric" min="1" placeholder="예: 720" /></label>
+				</div>
+				<p class="out" id="resize-out">가로나 세로 중 하나를 넣으면 나머지 값을 계산합니다.</p>
+			</section>
+
+			<section class="card">
+				<h2 class="sub">3. 다른 틀에 넣으면 얼마나 비고 잘리나</h2>
+				<div class="row">
+					<label><span>틀 가로 (px)</span><input id="tw" type="number" inputmode="numeric" min="1" value="1080" /></label>
+					<label><span>틀 세로 (px)</span><input id="th" type="number" inputmode="numeric" min="1" value="1350" /></label>
+				</div>
+				<div class="fit-grid">
+					<div class="fit">
+						<h3>맞춤 (전체 보이기)</h3>
+						<div class="frame-wrap"><div class="frame" id="f-fit"><div class="img"></div></div></div>
+						<p id="fit-out"></p>
+					</div>
+					<div class="fit">
+						<h3>채움 (틀 꽉 채우기)</h3>
+						<div class="frame-wrap"><div class="frame" id="f-fill"><div class="img"></div></div></div>
+						<p id="fill-out"></p>
+					</div>
+				</div>
+			</section>
+
+			<section class="explain">
+				<h2>대표 화면비율</h2>
+				<table>
+					<thead><tr><th>비율</th><th class="num">가로÷세로</th><th>주로 쓰는 곳</th></tr></thead>
+					<tbody>
+						{COMMON_RATIOS.map((r) => (
+							<tr><td>{r.label}</td><td class="num">{(r.w / r.h).toFixed(3)}</td><td>{r.use}</td></tr>
+						))}
+					</tbody>
+				</table>
+				<ul class="small">
+					<li>비율은 가로÷세로 값으로 비교합니다. 1366×768처럼 정확히 약분되지 않는 크기는 683:384로 나오며, 가장 가까운 대표 비율(16:9)과 차이를 % 로 함께 보여 줍니다.</li>
+					<li>맞춤은 원본 전체가 보이도록 줄여 빈 공간(레터박스)이 생기고, 채움은 틀을 꽉 채우도록 키워 넘치는 부분이 잘립니다. 잘리는 양은 원본 픽셀 기준입니다.</li>
+					<li>자주 쓰는 크기 버튼은 일반적으로 쓰이는 권장 크기입니다. 매체가 권장 크기를 바꾸는 경우가 있으니 업로드 전에 해당 서비스의 최신 안내를 확인하세요.</li>
+					<li>입력값은 서버로 보내지 않고 이 브라우저에서만 계산합니다.</li>
+				</ul>
+			</section>
+		</main>
+		<Footer />
+
+		<script>
+			import { fitInto, ratioInfo, scaleHeight, scaleWidth } from '../../lib/aspect';
+
+			const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
+			const num = (id: string) => Number(($(id) as HTMLInputElement).value) || 0;
+			const fmt = (n: number, d = 0) => n.toLocaleString('ko-KR', { maximumFractionDigits: d });
+			let lastEdited: 'nw' | 'nh' | null = null;
+
+			const drawFrame = (el: HTMLElement, tw: number, th: number, iw: number, ih: number) => {
+				const box = 160;
+				const k = box / Math.max(tw, th);
+				el.style.width = `${tw * k}px`;
+				el.style.height = `${th * k}px`;
+				const img = el.querySelector('.img') as HTMLElement;
+				img.style.width = `${iw * k}px`;
+				img.style.height = `${ih * k}px`;
+			};
+
+			const update = () => {
+				const w = num('w'), h = num('h');
+				const info = ratioInfo(w, h);
+				if (!info) return;
+				const label = `${info.simple[0]}:${info.simple[1]}`;
+				$('r-simple').textContent = label;
+				$('ratio-label').textContent = label;
+				$('r-near').textContent = info.nearest.label;
+				$('r-near-use').textContent =
+					info.nearestDiffPct < 0.5 ? info.nearest.use : `${info.nearest.use} · 차이 ${info.nearestDiffPct.toFixed(1)}%`;
+				$('r-dec').textContent = info.decimal.toFixed(3);
+				$('r-ori').textContent = info.orientation;
+				$('r-mp').textContent = `${fmt(info.megapixels, 2)}MP`;
+				const pv = $('preview');
+				const max = 220;
+				const k = max / Math.max(w, h);
+				pv.style.width = `${w * k}px`;
+				pv.style.height = `${h * k}px`;
+				pv.textContent = label;
+
+				// 리사이즈
+				const nw = num('nw'), nh = num('nh');
+				const out = $('resize-out');
+				if (lastEdited === 'nw' && nw > 0) {
+					const v = scaleHeight(w, h, nw);
+					($('nh') as HTMLInputElement).value = String(Math.round(v));
+					out.textContent = `${fmt(nw)} × ${fmt(v, 2)} px → 정수로 ${fmt(nw)} × ${fmt(Math.round(v))} px${Number.isInteger(v) ? '' : ' (반올림)'}`;
+				} else if (lastEdited === 'nh' && nh > 0) {
+					const v = scaleWidth(w, h, nh);
+					($('nw') as HTMLInputElement).value = String(Math.round(v));
+					out.textContent = `${fmt(v, 2)} × ${fmt(nh)} px → 정수로 ${fmt(Math.round(v))} × ${fmt(nh)} px${Number.isInteger(v) ? '' : ' (반올림)'}`;
+				}
+
+				// 맞춤·채움
+				const tw = num('tw'), th = num('th');
+				if (tw > 0 && th > 0) {
+					const fit = fitInto(w, h, tw, th, 'fit');
+					const fill = fitInto(w, h, tw, th, 'fill');
+					drawFrame($('f-fit'), tw, th, fit.w, fit.h);
+					drawFrame($('f-fill'), tw, th, fill.w, fill.h);
+					$('fit-out').textContent =
+						fit.padX + fit.padY < 0.5
+							? '여백 없이 딱 맞습니다.'
+							: `${fmt(fit.w)}×${fmt(fit.h)}px로 줄어들고, ${fit.padY > 0 ? `위아래 각 ${fmt(fit.padY / 2)}px` : `좌우 각 ${fmt(fit.padX / 2)}px`} 빈 공간이 생깁니다.`;
+					$('fill-out').textContent =
+						fill.cropPct < 0.05
+							? '잘리는 부분 없이 딱 맞습니다.'
+							: `원본의 ${fill.cropX > 0 ? `좌우 각 ${fmt(fill.cropX / 2)}px` : `위아래 각 ${fmt(fill.cropY / 2)}px`}가 잘려 화면의 ${fmt(fill.cropPct, 1)}%가 사라집니다.`;
+				}
+			};
+
+			['w', 'h', 'tw', 'th'].forEach((id) => $(id).addEventListener('input', update));
+			$('nw').addEventListener('input', () => { lastEdited = 'nw'; update(); });
+			$('nh').addEventListener('input', () => { lastEdited = 'nh'; update(); });
+			$('swap').addEventListener('click', () => {
+				const w = ($('w') as HTMLInputElement).value;
+				($('w') as HTMLInputElement).value = ($('h') as HTMLInputElement).value;
+				($('h') as HTMLInputElement).value = w;
+				update();
+			});
+			document.querySelectorAll<HTMLButtonElement>('.chip').forEach((b) =>
+				b.addEventListener('click', () => {
+					($('w') as HTMLInputElement).value = b.dataset.w!;
+					($('h') as HTMLInputElement).value = b.dataset.h!;
+					update();
+				}),
+			);
+			update();
+		</script>
+	</body>
+</html>
+
+<style>
+	main.tool {
+		width: 820px;
+	}
+	.eyebrow {
+		margin: 0 0 0.25rem;
+		font-size: 0.85rem;
+		color: rgb(var(--gray));
+	}
+	.card {
+		margin: 1.25rem 0;
+		padding: 1.1rem;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: var(--rounded-xl);
+	}
+	.sub {
+		margin: 0 0 0.75rem;
+		font-size: 1.1rem;
+	}
+	.row {
+		display: grid;
+		grid-template-columns: 1fr 1fr auto;
+		gap: 0.75rem;
+		align-items: end;
+	}
+	label {
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+		font-size: 0.85rem;
+		font-weight: 600;
+		color: rgb(var(--black));
+	}
+	input {
+		width: 100%;
+		min-width: 0;
+		box-sizing: border-box;
+		padding: 0.55rem 0.65rem;
+		font: inherit;
+		font-weight: 400;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: var(--rounded-lg);
+	}
+	input:focus {
+		outline: 2px solid var(--accent);
+		outline-offset: 1px;
+	}
+	button.ghost {
+		padding: 0.55rem 0.9rem;
+		font: inherit;
+		font-size: 0.9rem;
+		font-weight: 700;
+		background: #f1f3f6;
+		border: 0;
+		border-radius: var(--rounded-lg);
+		cursor: pointer;
+	}
+	.presets {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.4rem;
+		margin: 0.9rem 0;
+	}
+	.chip {
+		padding: 0.35rem 0.7rem;
+		font: inherit;
+		font-size: 0.8rem;
+		background: #fff;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: 999px;
+		cursor: pointer;
+	}
+	.chip:hover {
+		border-color: var(--accent);
+		color: var(--accent);
+	}
+	.chip small {
+		color: rgb(var(--gray));
+	}
+	.result-grid {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 0.6rem;
+	}
+	.stat {
+		display: flex;
+		flex-direction: column;
+		padding: 0.8rem 0.9rem;
+		border-radius: var(--rounded-xl);
+		background: #f4f6f9;
+	}
+	.stat.main {
+		background: #0f2547;
+		color: #fff;
+	}
+	.stat span {
+		font-size: 0.78rem;
+		opacity: 0.8;
+	}
+	.stat strong {
+		font-size: 1.45rem;
+		line-height: 1.3;
+		font-variant-numeric: tabular-nums;
+		color: inherit;
+	}
+	.stat em {
+		font-style: normal;
+		font-size: 0.75rem;
+		opacity: 0.75;
+	}
+	.preview-wrap {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 240px;
+		margin-top: 1rem;
+		border-radius: var(--rounded-xl);
+		background: repeating-conic-gradient(#f3f4f6 0 25%, #fff 0 50%) 0 0 / 16px 16px;
+	}
+	.preview {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 6px;
+		background: linear-gradient(135deg, #2f6fdb, #6a4fd6);
+		color: #fff;
+		font-weight: 700;
+		font-variant-numeric: tabular-nums;
+		transition: all 0.15s ease;
+	}
+	.hint,
+	.out {
+		margin: 0 0 0.6rem;
+		font-size: 0.9rem;
+	}
+	.out {
+		margin-top: 0.75rem;
+		font-variant-numeric: tabular-nums;
+		color: rgb(var(--black));
+	}
+	.fit-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1rem;
+		margin-top: 1rem;
+	}
+	.fit h3 {
+		margin: 0 0 0.5rem;
+		font-size: 0.95rem;
+	}
+	.fit p {
+		margin: 0.5rem 0 0;
+		font-size: 0.88rem;
+		font-variant-numeric: tabular-nums;
+	}
+	.frame-wrap {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 180px;
+		border-radius: var(--rounded-lg);
+		background: #f4f6f9;
+	}
+	.frame {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		overflow: hidden;
+		background: #1f2430;
+		outline: 2px solid #e0533d;
+	}
+	.frame :global(.img) {
+		flex: none;
+		background: linear-gradient(135deg, #2f6fdb, #6a4fd6);
+		opacity: 0.9;
+	}
+	.explain {
+		margin-top: 2.5rem;
+	}
+	.explain table {
+		font-size: 0.88rem;
+	}
+	.num {
+		text-align: right;
+		font-variant-numeric: tabular-nums;
+	}
+	.small {
+		font-size: 0.85rem;
+		color: rgb(var(--gray));
+	}
+	@media (max-width: 640px) {
+		.row {
+			grid-template-columns: 1fr 1fr;
+		}
+		.row button {
+			grid-column: 1 / -1;
+		}
+		.result-grid {
+			grid-template-columns: 1fr 1fr;
+		}
+		.fit-grid {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>
