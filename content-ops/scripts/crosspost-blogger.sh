@@ -8,7 +8,7 @@ cd "$REPO"
 export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 
 git pull --rebase origin main
-node content-ops/scripts/crosspost-blogger.mjs --limit 15 || echo "일부 실패 — 위 로그 확인"
+node content-ops/scripts/crosspost-blogger.mjs --limit 5 --interval 60 || echo "일부 실패 — 위 로그 확인"
 
 if git status --porcelain content-ops/derivatives | grep -q .; then
 	ids=$(git status --porcelain content-ops/derivatives | sed -E 's#.*derivatives/([^/]+)/.*#\1#' | sort -u | tr '\n' ' ')

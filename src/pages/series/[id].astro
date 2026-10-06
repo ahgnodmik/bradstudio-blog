@@ -1,0 +1,119 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import { SITE_TITLE } from '../../consts';
+import { getVisiblePosts } from '../../lib/content';
+import { SERIES } from '../../lib/series';
+
+export function getStaticPaths() {
+	return Object.keys(SERIES).map((id) => ({ params: { id } }));
+}
+
+const def = SERIES[Astro.params.id as string];
+const posts = (await getVisiblePosts()).filter((p) => p.data.series?.id === def.id);
+const byOrder = new Map(posts.map((p) => [p.data.series!.order, p]));
+const published = posts.length;
+---
+
+<!doctype html>
+<html lang="ko">
+	<head>
+		<BaseHead title={`${def.title} — ${def.subtitle} | ${SITE_TITLE}`} description={def.intro} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<p class="eyebrow">연재 · {published} / {def.plan.length}편 공개</p>
+			<h1>{def.title}</h1>
+			<p class="subtitle">{def.subtitle}</p>
+			<p>{def.intro}</p>
+			<ol class="toc">
+				{
+					def.plan.map((planned, i) => {
+						const post = byOrder.get(i + 1);
+						return (
+							<li class={post ? 'done' : 'todo'}>
+								<span class="no">{String(i + 1).padStart(2, '0')}</span>
+								{post ? (
+									<a href={`/blog/${post.id}/`}>
+										<strong>{post.data.title}</strong>
+										<span class="desc">{post.data.description}</span>
+									</a>
+								) : (
+									<span class="planned">
+										{planned} <em>준비 중</em>
+									</span>
+								)}
+							</li>
+						);
+					})
+				}
+			</ol>
+		</main>
+		<Footer />
+	</body>
+</html>
+
+<style>
+	.eyebrow {
+		margin: 0;
+		font-size: 0.85rem;
+		color: rgb(var(--gray));
+	}
+	h1 {
+		margin-bottom: 0.25rem;
+	}
+	.subtitle {
+		margin-top: 0;
+		font-size: 1.15rem;
+		color: rgb(var(--gray-dark));
+	}
+	.toc {
+		margin: 2rem 0 0;
+		padding: 0;
+		list-style: none;
+		border-top: 1px solid rgb(var(--gray-light));
+	}
+	.toc li {
+		display: flex;
+		gap: 1rem;
+		padding: 1rem 0;
+		border-bottom: 1px solid rgb(var(--gray-light));
+	}
+	.no {
+		flex: none;
+		width: 2rem;
+		font-weight: 700;
+		font-variant-numeric: tabular-nums;
+		color: #b07a3c;
+	}
+	.toc a {
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+		text-decoration: none;
+	}
+	.toc strong {
+		color: rgb(var(--black));
+	}
+	.toc a:hover strong {
+		color: var(--accent);
+	}
+	.desc {
+		font-size: 0.88rem;
+		color: rgb(var(--gray));
+	}
+	.todo .no,
+	.planned {
+		color: rgb(var(--gray));
+	}
+	.planned em {
+		margin-left: 0.4rem;
+		font-style: normal;
+		font-size: 0.75rem;
+		padding: 0.05rem 0.45rem;
+		border-radius: 999px;
+		background: #f1f3f6;
+	}
+</style>

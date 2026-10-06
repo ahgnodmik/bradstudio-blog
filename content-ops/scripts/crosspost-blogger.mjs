@@ -10,13 +10,17 @@
  *   node content-ops/scripts/crosspost-blogger.mjs            # 실제 발행
  *   node content-ops/scripts/crosspost-blogger.mjs --dry-run  # 대상만 출력
  *   node content-ops/scripts/crosspost-blogger.mjs --limit 5  # 한 번에 최대 N건
+ *   node content-ops/scripts/crosspost-blogger.mjs --interval 60  # 글 사이 대기(초, 기본 45)
+ *
+ * Blogger API는 짧은 시간 연속 발행 시 429(RESOURCE_EXHAUSTED)를 낸다.
+ * 글 사이에 간격을 두고, 429가 나오면 남은 글은 다음 실행으로 미룬다.
  *
  * Env: BLOGGER_CLIENT_ID, BLOGGER_CLIENT_SECRET, BLOGGER_REFRESH_TOKEN (환경 변수 또는 .env)
  */
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { execFileSync } from 'node:child_process';
+import { spawnSync } from 'node:child_process';
 import yaml from 'js-yaml';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
@@ -29,6 +33,9 @@ const args = process.argv.slice(2);
 const dryRun = args.includes('--dry-run');
 const limitIdx = args.indexOf('--limit');
 const limit = limitIdx >= 0 ? Number(args[limitIdx + 1]) : Infinity;
+const intervalIdx = args.indexOf('--interval');
+const intervalSec = intervalIdx >= 0 ? Number(args[intervalIdx + 1]) : 45;
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // KST 기준 오늘(YYYY-MM-DD)
 const today = new Date(Date.now() + 9 * 3600 * 1000).toISOString().slice(0, 10);
@@ -64,6 +71,7 @@ for (const s of skipped) console.log(`  제외 ${s}`);
 
 let ok = 0;
 let failed = 0;
+let first = true;
 for (const { fm } of batch) {
 	const flags = [];
 	if (fm.thumbnail?.url) {
@@ -74,12 +82,20 @@ for (const { fm } of batch) {
 	}
 	console.log(`${dryRun ? '[dry-run] ' : ''}발행 ${fm.contentId} — ${fm.title}`);
 	if (dryRun) continue;
-	try {
-		execFileSync('node', [POSTER, fm.contentId, ...flags], { cwd: ROOT, stdio: 'inherit' });
+	if (!first) await sleep(intervalSec * 1000);
+	first = false;
+	const r = spawnSync('node', [POSTER, fm.contentId, ...flags], { cwd: ROOT, encoding: 'utf8' });
+	if (r.stdout) process.stdout.write(r.stdout);
+	if (r.status === 0) {
 		ok++;
-	} catch {
-		failed++;
-		console.error(`  실패 ${fm.contentId}`);
+		continue;
+	}
+	failed++;
+	const err = (r.stderr || '').split('\n').find((l) => /Error|error/.test(l)) || 'unknown error';
+	console.error(`  실패 ${fm.contentId}: ${err.trim()}`);
+	if (/429|RESOURCE_EXHAUSTED|rateLimit|quota/i.test(r.stderr || '')) {
+		console.error('  Blogger 사용량 제한(429) — 남은 글은 다음 실행으로 미룸');
+		break;
 	}
 }
 if (!dryRun) console.log(`완료: 성공 ${ok}건, 실패 ${failed}건`);

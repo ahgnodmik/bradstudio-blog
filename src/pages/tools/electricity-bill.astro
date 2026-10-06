@@ -1,0 +1,486 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import { SITE_TITLE } from '../../consts';
+import {
+	CLIMATE_RATE,
+	FUEL_ADJ_RATE,
+	FUND,
+	PRESETS,
+	SUPER_USER_KWH,
+	TARIFF_DATE,
+	TARIFFS,
+} from '../../lib/electricity';
+
+const title = '전기요금 누진제 계산기 — 가전 하나 더 쓰면 얼마 오르나';
+const description =
+	'평소 사용량에 에어컨·제습기·전기장판 같은 가전을 더하면 누진 구간이 어떻게 바뀌고 요금이 얼마 오르는지 계산합니다. 한전 주택용 저압·고압 요금표, 하계 구간, 기후환경요금·연료비조정요금·부가세·전력기금까지 반영.';
+const fmt = (n: number) => n.toLocaleString('ko-KR');
+const low = TARIFFS.low;
+const high = TARIFFS.high;
+---
+
+<!doctype html>
+<html lang="ko">
+	<head>
+		<BaseHead title={`${title} | ${SITE_TITLE}`} description={description} />
+	</head>
+	<body>
+		<Header />
+		<main class="tool">
+			<p class="eyebrow">계산기 · 요금 기준일 {TARIFF_DATE}</p>
+			<h1>전기요금 누진제 계산기</h1>
+			<p class="lead">
+				고지서에 찍힌 평소 사용량에 가전을 더해 보세요. 누진 구간이 넘어가는 순간 1kWh 단가가 1.8배, 2.6배로 뛰고
+				기본요금까지 바뀌는 구조를 숫자로 확인할 수 있습니다.
+			</p>
+
+			<form id="calc" class="card" onsubmit="return false">
+				<div class="row">
+					<label>
+						<span>평소 월 사용량 (kWh)</span>
+						<input id="base" type="number" inputmode="numeric" min="0" step="1" value="300" />
+						<small>고지서의 "당월 사용량"</small>
+					</label>
+					<label>
+						<span>사용 월</span>
+						<select id="month">
+							{Array.from({ length: 12 }, (_, i) => <option value={i + 1}>{i + 1}월</option>)}
+						</select>
+						<small>7~8월은 누진 구간이 넓어짐</small>
+					</label>
+					<label>
+						<span>계약 종류</span>
+						<select id="voltage">
+							<option value="low">주택용 저압 (단독·다세대·대부분)</option>
+							<option value="high">주택용 고압 (일부 아파트)</option>
+						</select>
+						<small>고지서 "계약종별"에서 확인</small>
+					</label>
+				</div>
+
+				<h2 class="sub">더 쓸 가전</h2>
+				<div class="appl-head" aria-hidden="true">
+					<span>가전</span><span>소비전력(W)</span><span>하루(시간)</span><span>한 달(일)</span><span>kWh</span><span></span>
+				</div>
+				<p class="mobile-head" aria-hidden="true">가전 이름 / 소비전력(W) · 하루(시간) · 한 달(일)</p>
+				<div id="appliances"></div>
+				<div class="add-row">
+					<select id="preset" aria-label="가전 선택">
+						{PRESETS.map((p, i) => <option value={i}>{p.name} · {fmt(p.watt)}W</option>)}
+						<option value="custom">직접 입력</option>
+					</select>
+					<button type="button" id="add">가전 추가</button>
+				</div>
+				<p class="note">기본 소비전력은 계산 예시입니다. 제품 라벨이나 설명서의 소비전력(W)으로 바꿔 넣으면 정확해집니다.</p>
+			</form>
+
+			<section class="result" aria-live="polite">
+				<div class="cards">
+					<div class="stat">
+						<span class="label">평소 요금</span>
+						<strong id="r-base">-</strong>
+						<span class="meta" id="r-base-meta"></span>
+					</div>
+					<div class="stat">
+						<span class="label">가전 추가 후</span>
+						<strong id="r-after">-</strong>
+						<span class="meta" id="r-after-meta"></span>
+					</div>
+					<div class="stat accent">
+						<span class="label">한 달 증가액</span>
+						<strong id="r-diff">-</strong>
+						<span class="meta" id="r-diff-meta"></span>
+					</div>
+				</div>
+
+				<div class="tierbar" id="tierbar" aria-hidden="true"></div>
+				<p class="tier-legend" id="tier-legend"></p>
+
+				<table class="breakdown">
+					<thead>
+						<tr><th>항목</th><th class="num">평소</th><th class="num">추가 후</th></tr>
+					</thead>
+					<tbody id="breakdown"></tbody>
+				</table>
+			</section>
+
+			<section class="explain">
+				<h2>계산 기준</h2>
+				<table>
+					<thead>
+						<tr><th>구간</th><th>기타 계절</th><th>하계(7~8월)</th><th class="num">기본요금</th><th class="num">전력량요금</th></tr>
+					</thead>
+					<tbody>
+						<tr><td>1단계</td><td>200kWh 이하</td><td>300kWh 이하</td><td class="num">{fmt(low.basic[0])}원</td><td class="num">{low.rate[0].toFixed(1)}원/kWh</td></tr>
+						<tr><td>2단계</td><td>201~400kWh</td><td>301~450kWh</td><td class="num">{fmt(low.basic[1])}원</td><td class="num">{low.rate[1]}원/kWh</td></tr>
+						<tr><td>3단계</td><td>400kWh 초과</td><td>450kWh 초과</td><td class="num">{fmt(low.basic[2])}원</td><td class="num">{low.rate[2]}원/kWh</td></tr>
+						<tr><td>슈퍼유저</td><td colspan="2">7~8월·12~2월, {fmt(SUPER_USER_KWH)}kWh 초과분</td><td class="num">-</td><td class="num">{low.superUser}원/kWh</td></tr>
+					</tbody>
+				</table>
+				<p class="small">
+					위 표는 주택용 저압 기준입니다. 고압은 기본요금 {fmt(high.basic[0])}/{fmt(high.basic[1])}/{fmt(high.basic[2])}원,
+					전력량요금 {high.rate[0].toFixed(1)}/{high.rate[1].toFixed(1)}/{high.rate[2]}원/kWh, 슈퍼유저 {high.superUser}원/kWh를 적용합니다.
+				</p>
+				<ul class="small">
+					<li>기후환경요금 {CLIMATE_RATE.toFixed(1)}원/kWh, 연료비조정요금 +{FUEL_ADJ_RATE.toFixed(1)}원/kWh(2026년 4분기)를 더합니다.</li>
+					<li>부가가치세 10%(원 미만 반올림), 전력산업기반기금 {(FUND * 100).toFixed(1)}%(10원 미만 절사)를 더하고, 청구액은 10원 미만을 절사합니다.</li>
+					<li>기본요금은 전체 사용량이 속한 구간 하나만 적용합니다. 전력량요금은 구간별로 나눠 각 단가를 곱합니다.</li>
+					<li>복지·대가족·출산가구 할인, 검침일에 따른 일할 계산, TV 수신료는 넣지 않았습니다. 실제 고지서와 수십 원 차이가 날 수 있습니다.</li>
+				</ul>
+				<p class="small">
+					출처: <a href="https://cyber.kepco.co.kr/ckepco/front/jsp/CY/E/E/CYEEHP00101.jsp" rel="noopener">한전 사이버지점 전기요금표</a>,
+					연료비조정단가 4분기 동결(2026년 9월 21일 발표), 전력기금 요율 2.7%(2025년 7월 시행).
+				</p>
+
+				<h2>같이 보면 좋은 글</h2>
+				<ul>
+					<li><a href="/blog/dehumidifier-electricity-cost/">제습기 전기세, 하루 8시간 틀면 한 달 얼마?</a></li>
+					<li><a href="/blog/electricity-progressive-tier-guide-2026/">누진 구간 하나 넘으면 얼마 더 내나: 사용량별 요금표와 절약 순서</a></li>
+				</ul>
+			</section>
+		</main>
+		<Footer />
+
+		<script>
+			import { PRESETS, applianceKwh, calcBill, tierLimits, type Appliance, type Voltage } from '../../lib/electricity';
+
+			const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
+			const won = (n: number) => `${n.toLocaleString('ko-KR')}원`;
+			const kwhFmt = (n: number) => `${Math.round(n).toLocaleString('ko-KR')}kWh`;
+
+			const baseEl = $<HTMLInputElement>('base');
+			const monthEl = $<HTMLSelectElement>('month');
+			const voltEl = $<HTMLSelectElement>('voltage');
+			const listEl = $<HTMLDivElement>('appliances');
+			const presetEl = $<HTMLSelectElement>('preset');
+
+			const kstMonth = new Date(Date.now() + 9 * 3600 * 1000).getUTCMonth() + 1;
+			monthEl.value = String(kstMonth);
+
+			const items: Appliance[] = [];
+
+			const renderList = () => {
+				listEl.innerHTML = '';
+				items.forEach((a, i) => {
+					const row = document.createElement('div');
+					row.className = 'appl';
+					row.innerHTML = `
+						<input aria-label="가전 이름" class="name" value="${a.name.replace(/"/g, '&quot;')}" />
+						<input aria-label="소비전력(W)" type="number" min="0" step="10" value="${a.watt}" data-k="watt" />
+						<input aria-label="하루 사용 시간" type="number" min="0" max="24" step="0.5" value="${a.hours}" data-k="hours" />
+						<input aria-label="한 달 사용 일수" type="number" min="0" max="31" step="1" value="${a.days}" data-k="days" />
+						<output>${applianceKwh(a).toFixed(1)}</output>
+						<button type="button" aria-label="${a.name} 삭제" class="del">×</button>`;
+					row.querySelector<HTMLInputElement>('.name')!.addEventListener('input', (e) => {
+						a.name = (e.target as HTMLInputElement).value;
+					});
+					row.querySelectorAll<HTMLInputElement>('input[data-k]').forEach((inp) =>
+						inp.addEventListener('input', () => {
+							(a as any)[inp.dataset.k!] = Math.max(0, Number(inp.value) || 0);
+							row.querySelector('output')!.textContent = applianceKwh(a).toFixed(1);
+							update();
+						}),
+					);
+					row.querySelector('.del')!.addEventListener('click', () => {
+						items.splice(i, 1);
+						renderList();
+						update();
+					});
+					listEl.appendChild(row);
+				});
+			};
+
+			const tierName = (t: number) => `${t}단계`;
+
+			const update = () => {
+				const month = Number(monthEl.value);
+				const voltage = voltEl.value as Voltage;
+				const base = Math.max(0, Number(baseEl.value) || 0);
+				const added = items.reduce((s, a) => s + applianceKwh(a), 0);
+				const b0 = calcBill(base, month, voltage);
+				const b1 = calcBill(base + added, month, voltage);
+				const diff = b1.total - b0.total;
+
+				$('r-base').textContent = won(b0.total);
+				$('r-base-meta').textContent = `${kwhFmt(b0.kwh)} · ${tierName(b0.tier)}`;
+				$('r-after').textContent = won(b1.total);
+				$('r-after-meta').textContent = `${kwhFmt(b1.kwh)} · ${tierName(b1.tier)}${b1.superUserKwh ? ' · 슈퍼유저' : ''}`;
+				$('r-diff').textContent = `+${won(diff)}`;
+				$('r-diff-meta').textContent =
+					b1.kwh > b0.kwh ? `추가 1kWh당 약 ${Math.round(diff / (b1.kwh - b0.kwh)).toLocaleString('ko-KR')}원` : '가전을 추가해 보세요';
+
+				// 구간 막대: 0 ~ max(사용량×1.15, 2단계 상한×1.25)
+				const [l1, l2] = tierLimits(month);
+				const max = Math.max(b1.kwh * 1.15, l2 * 1.25);
+				const pct = (v: number) => `${Math.min(100, (v / max) * 100)}%`;
+				$('tierbar').innerHTML = `
+					<div class="seg s1" style="width:${pct(l1)}"></div>
+					<div class="seg s2" style="width:calc(${pct(l2)} - ${pct(l1)})"></div>
+					<div class="seg s3"></div>
+					<div class="mark base" style="left:${pct(b0.kwh)}"><span>평소</span></div>
+					<div class="mark after" style="left:${pct(b1.kwh)}"><span>추가 후</span></div>`;
+				$('tier-legend').textContent = `${month}월 기준 1단계 ~${l1}kWh · 2단계 ~${l2}kWh · 3단계 ${l2}kWh 초과`;
+
+				const rows: [string, number, number][] = [
+					['기본요금', b0.basic, b1.basic],
+					['전력량요금', b0.energy, b1.energy],
+					['기후환경요금', b0.climate, b1.climate],
+					['연료비조정요금', b0.fuel, b1.fuel],
+					['전기요금계', b0.subtotal, b1.subtotal],
+					['부가가치세', b0.vat, b1.vat],
+					['전력산업기반기금', b0.fund, b1.fund],
+					['청구금액', b0.total, b1.total],
+				];
+				$('breakdown').innerHTML = rows
+					.map(([k, a, b]) => `<tr${k === '청구금액' ? ' class="sum"' : ''}><td>${k}</td><td class="num">${won(a)}</td><td class="num">${won(b)}</td></tr>`)
+					.join('');
+			};
+
+			$('add').addEventListener('click', () => {
+				const v = presetEl.value;
+				items.push(v === 'custom' ? { name: '가전', watt: 500, hours: 2, days: 30 } : { ...PRESETS[Number(v)] });
+				renderList();
+				update();
+			});
+			[baseEl, monthEl, voltEl].forEach((el) => el.addEventListener('input', update));
+
+			items.push({ ...PRESETS[2] });
+			renderList();
+			update();
+		</script>
+	</body>
+</html>
+
+<style>
+	main.tool {
+		width: 820px;
+	}
+	.eyebrow {
+		margin: 0 0 0.25rem;
+		font-size: 0.85rem;
+		color: rgb(var(--gray));
+	}
+	.lead {
+		color: rgb(var(--gray-dark));
+	}
+	.card {
+		margin: 1.5rem 0;
+		padding: 1.25rem;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: var(--rounded-xl);
+	}
+	.row {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 1rem;
+	}
+	label {
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+		font-size: 0.9rem;
+		font-weight: 600;
+		color: rgb(var(--black));
+	}
+	label small {
+		font-weight: 400;
+		color: rgb(var(--gray));
+	}
+	.tool :global(input),
+	.tool :global(select) {
+		width: 100%;
+		min-width: 0;
+		box-sizing: border-box;
+		padding: 0.55rem 0.65rem;
+		font: inherit;
+		font-weight: 400;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: var(--rounded-lg);
+		background: #fff;
+	}
+	.tool :global(input:focus),
+	.tool :global(select:focus) {
+		outline: 2px solid var(--accent);
+		outline-offset: 1px;
+	}
+	.sub {
+		margin: 1.5rem 0 0.5rem;
+		font-size: 1.05rem;
+	}
+	.appl-head,
+	:global(.appl) {
+		display: grid;
+		grid-template-columns: 2.2fr 1fr 1fr 1fr 0.8fr 2rem;
+		gap: 0.5rem;
+		align-items: center;
+	}
+	.appl-head {
+		font-size: 0.75rem;
+		color: rgb(var(--gray));
+	}
+	:global(.appl) {
+		margin-top: 0.5rem;
+	}
+	:global(.appl output) {
+		font-variant-numeric: tabular-nums;
+		text-align: right;
+	}
+	:global(.appl .del) {
+		border: 0;
+		background: none;
+		font-size: 1.3rem;
+		color: rgb(var(--gray));
+		cursor: pointer;
+	}
+	.add-row {
+		display: flex;
+		gap: 0.5rem;
+		margin-top: 0.75rem;
+	}
+	.add-row select {
+		flex: 1;
+	}
+	.add-row button {
+		flex: none;
+		padding: 0.55rem 1rem;
+		font: inherit;
+		font-weight: 700;
+		color: #fff;
+		background: var(--accent);
+		border: 0;
+		border-radius: var(--rounded-lg);
+		cursor: pointer;
+	}
+	.mobile-head {
+		display: none;
+		margin: 0;
+		font-size: 0.75rem;
+		color: rgb(var(--gray));
+	}
+	.note,
+	.small {
+		font-size: 0.85rem;
+		color: rgb(var(--gray));
+	}
+	.cards {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 0.75rem;
+	}
+	.stat {
+		display: flex;
+		flex-direction: column;
+		gap: 0.2rem;
+		padding: 1rem;
+		border-radius: var(--rounded-xl);
+		background: #f4f6f9;
+	}
+	.stat.accent {
+		background: #0f2547;
+		color: #fff;
+	}
+	.stat .label {
+		font-size: 0.8rem;
+		opacity: 0.8;
+	}
+	.stat strong {
+		font-size: 1.5rem;
+		font-variant-numeric: tabular-nums;
+		color: inherit;
+	}
+	.stat .meta {
+		font-size: 0.8rem;
+		opacity: 0.8;
+	}
+	.tierbar {
+		position: relative;
+		display: flex;
+		height: 14px;
+		margin: 2.5rem 0 0.5rem;
+		border-radius: 999px;
+		overflow: visible;
+	}
+	:global(.tierbar .seg) {
+		height: 100%;
+	}
+	:global(.tierbar .s1) {
+		background: #2e9e6b;
+		border-radius: 999px 0 0 999px;
+	}
+	:global(.tierbar .s2) {
+		background: #f0a020;
+	}
+	:global(.tierbar .s3) {
+		flex: 1;
+		background: #e0533d;
+		border-radius: 0 999px 999px 0;
+	}
+	:global(.tierbar .mark) {
+		position: absolute;
+		top: -6px;
+		width: 2px;
+		height: 26px;
+		background: #0f2547;
+	}
+	:global(.tierbar .mark span) {
+		position: absolute;
+		bottom: 28px;
+		left: 50%;
+		transform: translateX(-50%);
+		font-size: 0.72rem;
+		white-space: nowrap;
+		color: rgb(var(--black));
+	}
+	:global(.tierbar .mark.after) {
+		background: var(--accent);
+	}
+	.tier-legend {
+		margin: 0 0 1rem;
+		font-size: 0.8rem;
+		color: rgb(var(--gray));
+	}
+	.num,
+	:global(.breakdown td.num) {
+		text-align: right;
+		font-variant-numeric: tabular-nums;
+	}
+	:global(.breakdown tr.sum td) {
+		font-weight: 700;
+		color: rgb(var(--black));
+	}
+	.explain {
+		margin-top: 2.5rem;
+	}
+	.explain table {
+		font-size: 0.85rem;
+	}
+	@media (max-width: 640px) {
+		.row,
+		.cards {
+			grid-template-columns: 1fr;
+		}
+		.appl-head {
+			display: none;
+		}
+		.mobile-head {
+			display: block;
+		}
+		:global(.appl) {
+			grid-template-columns: 1fr 1fr 1fr 2rem;
+			padding-bottom: 0.5rem;
+			border-bottom: 1px solid rgb(var(--gray-light));
+		}
+		:global(.appl .name) {
+			grid-column: 1 / -1;
+		}
+		:global(.appl output) {
+			display: none;
+		}
+		.explain table {
+			display: block;
+			overflow-x: auto;
+		}
+	}
+</style>

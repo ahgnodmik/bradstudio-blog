@@ -1,0 +1,368 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import { SITE_TITLE } from '../../consts';
+
+const title = '글자수 세기 — 공백 포함·제외, 바이트, 원고지 매수 한 번에';
+const description =
+	'자기소개서·과제·블로그 원고의 글자수를 공백 포함, 공백 제외, 바이트(한글 2바이트·UTF-8), 원고지 매수, 단어·문장·문단 수로 바로 셉니다. 목표 글자수를 넣으면 남은 글자와 초과분을 보여 줍니다. 입력한 글은 서버로 전송되지 않습니다.';
+---
+
+<!doctype html>
+<html lang="ko">
+	<head>
+		<BaseHead title={`${title} | ${SITE_TITLE}`} description={description} />
+	</head>
+	<body>
+		<Header />
+		<main class="tool">
+			<p class="eyebrow">도구 · 입력한 글은 이 브라우저 밖으로 나가지 않습니다</p>
+			<h1>글자수 세기</h1>
+			<p class="lead">
+				자기소개서 문항의 "1,000자 이내"가 공백을 포함하는지, 바이트 기준인지에 따라 쓸 수 있는 분량이 달라집니다.
+				네 가지 기준을 한 번에 보고, 목표 글자수까지 남은 양을 확인하세요.
+			</p>
+
+			<div class="editor card">
+				<textarea id="text" rows="12" placeholder="여기에 글을 붙여 넣거나 입력하세요." aria-label="글자수를 셀 글"></textarea>
+				<div class="actions">
+					<button type="button" id="copy">복사</button>
+					<button type="button" id="trim">앞뒤·연속 공백 정리</button>
+					<button type="button" id="clear" class="ghost">지우기</button>
+				</div>
+			</div>
+
+			<section class="stats" aria-live="polite">
+				<div class="stat main"><span>공백 포함</span><strong id="s-with">0</strong><em>자</em></div>
+				<div class="stat main"><span>공백 제외</span><strong id="s-without">0</strong><em>자</em></div>
+				<div class="stat"><span>바이트 (한글 2)</span><strong id="s-ko">0</strong><em>byte</em></div>
+				<div class="stat"><span>바이트 (UTF-8)</span><strong id="s-utf8">0</strong><em>byte</em></div>
+				<div class="stat"><span>원고지 (200자)</span><strong id="s-pages">0</strong><em>매</em></div>
+				<div class="stat"><span>단어</span><strong id="s-words">0</strong><em>개</em></div>
+				<div class="stat"><span>문장</span><strong id="s-sentences">0</strong><em>개</em></div>
+				<div class="stat"><span>문단</span><strong id="s-paragraphs">0</strong><em>개</em></div>
+				<div class="stat"><span>읽는 시간</span><strong id="s-read">0</strong><em>분</em></div>
+			</section>
+
+			<section class="card target">
+				<div class="row">
+					<label>
+						<span>목표 글자수</span>
+						<input id="limit" type="number" inputmode="numeric" min="0" step="50" value="1000" />
+					</label>
+					<label>
+						<span>기준</span>
+						<select id="basis">
+							<option value="withSpaces">공백 포함</option>
+							<option value="withoutSpaces">공백 제외</option>
+							<option value="koBytes">바이트 (한글 2)</option>
+							<option value="utf8Bytes">바이트 (UTF-8)</option>
+						</select>
+					</label>
+					<label class="check">
+						<input id="nl2" type="checkbox" checked />
+						<span>바이트 계산에서 줄바꿈을 2바이트로</span>
+					</label>
+				</div>
+				<div class="bar" aria-hidden="true"><div id="bar-fill"></div></div>
+				<p id="target-msg" class="target-msg">목표까지 1,000 남음</p>
+			</section>
+
+			<section class="explain">
+				<h2>네 가지 기준은 이렇게 다릅니다</h2>
+				<table>
+					<thead>
+						<tr><th>기준</th><th>세는 방법</th><th>주로 쓰는 곳</th></tr>
+					</thead>
+					<tbody>
+						<tr><td>공백 포함</td><td>띄어쓰기와 줄바꿈까지 한 글자로 셈</td><td>자기소개서, 공모전 원고 대부분</td></tr>
+						<tr><td>공백 제외</td><td>띄어쓰기·줄바꿈을 빼고 셈</td><td>일부 기업 자기소개서, 원고료 산정</td></tr>
+						<tr><td>바이트 (한글 2)</td><td>한글·한자·기호 2, 영문·숫자·공백 1</td><td>오래된 채용 시스템, 문자메시지(SMS 90바이트)</td></tr>
+						<tr><td>바이트 (UTF-8)</td><td>한글 3, 영문·숫자 1</td><td>웹 서비스 입력 제한, 데이터베이스</td></tr>
+					</tbody>
+				</table>
+				<p class="small">
+					같은 글이라도 기준에 따라 숫자가 크게 달라집니다. 이 블로그 글 52편을 이 도구로 재 보니 공백 제외 글자수는 공백 포함보다
+					25~28% 적었고, 한글 2바이트 기준 바이트는 공백 포함 글자수의 1.6~1.7배였습니다. 공백 포함 1,000자 문항이면 공백 제외로는
+					약 730자, 바이트로는 약 1,680바이트 분량입니다. 지원하는 곳의 입력 칸이 어떤 기준인지
+					공고나 입력 화면 안내를 먼저 확인하세요.
+				</p>
+				<ul class="small">
+					<li>이모지·결합 문자는 화면에 보이는 한 글자를 1자로 셉니다.</li>
+					<li>원고지 매수는 공백 포함 글자수를 200으로 나눠 올림한 단순 환산입니다. 실제 원고지는 줄바꿈·문단 들여쓰기로 칸이 더 듭니다.</li>
+					<li>읽는 시간은 분당 500자(공백 제외) 기준 추정치입니다.</li>
+					<li>입력한 글은 서버로 보내지 않습니다. 새로고침에 대비해 이 브라우저에만 임시 저장되며 "지우기"를 누르면 함께 지워집니다.</li>
+				</ul>
+				<h2>같이 보면 좋은 글</h2>
+				<ul>
+					<li><a href="/blog/self-introduction-character-count-basis/">자기소개서 1,000자는 공백 포함일까 — 기준별로 쓸 수 있는 분량 실측</a></li>
+				</ul>
+			</section>
+		</main>
+		<Footer />
+
+		<script>
+			import { countText } from '../../lib/textcount';
+
+			const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
+			const ta = $<HTMLTextAreaElement>('text');
+			const limitEl = $<HTMLInputElement>('limit');
+			const basisEl = $<HTMLSelectElement>('basis');
+			const nl2El = $<HTMLInputElement>('nl2');
+			const KEY = 'bs-charcount-draft';
+			const n = (v: number) => v.toLocaleString('ko-KR');
+
+			try {
+				const saved = localStorage.getItem(KEY);
+				if (saved) ta.value = saved;
+			} catch {}
+
+			const update = () => {
+				const s = countText(ta.value, nl2El.checked ? 2 : 1);
+				$('s-with').textContent = n(s.withSpaces);
+				$('s-without').textContent = n(s.withoutSpaces);
+				$('s-ko').textContent = n(s.koBytes);
+				$('s-utf8').textContent = n(s.utf8Bytes);
+				$('s-pages').textContent = n(s.manuscriptPages);
+				$('s-words').textContent = n(s.words);
+				$('s-sentences').textContent = n(s.sentences);
+				$('s-paragraphs').textContent = n(s.paragraphs);
+				$('s-read').textContent = s.readingMinutes < 1 && s.readingMinutes > 0 ? '1 미만' : n(Math.round(s.readingMinutes));
+
+				const limit = Math.max(0, Number(limitEl.value) || 0);
+				const cur = s[basisEl.value as keyof typeof s] as number;
+				const fill = $('bar-fill');
+				const msg = $('target-msg');
+				if (!limit) {
+					fill.style.width = '0%';
+					msg.textContent = '목표 글자수를 넣으면 남은 양을 보여 줍니다.';
+					msg.className = 'target-msg';
+				} else {
+					fill.style.width = `${Math.min(100, (cur / limit) * 100)}%`;
+					const over = cur > limit;
+					fill.className = over ? 'over' : cur >= limit * 0.9 ? 'near' : '';
+					msg.className = `target-msg${over ? ' over' : ''}`;
+					msg.textContent = over
+						? `${n(cur - limit)} 초과 (${n(cur)} / ${n(limit)})`
+						: `목표까지 ${n(limit - cur)} 남음 (${n(cur)} / ${n(limit)}, ${Math.floor((cur / limit) * 100)}%)`;
+				}
+				try {
+					if (ta.value) localStorage.setItem(KEY, ta.value);
+					else localStorage.removeItem(KEY);
+				} catch {}
+			};
+
+			ta.addEventListener('input', update);
+			[limitEl, basisEl, nl2El].forEach((el) => el.addEventListener('input', update));
+			$('clear').addEventListener('click', () => {
+				ta.value = '';
+				update();
+				ta.focus();
+			});
+			$('trim').addEventListener('click', () => {
+				ta.value = ta.value
+					.split('\n')
+					.map((l) => l.replace(/[ \t]+/g, ' ').trim())
+					.join('\n')
+					.replace(/\n{3,}/g, '\n\n')
+					.trim();
+				update();
+			});
+			$('copy').addEventListener('click', async () => {
+				const btn = $('copy');
+				try {
+					await navigator.clipboard.writeText(ta.value);
+					btn.textContent = '복사됨';
+				} catch {
+					ta.select();
+					btn.textContent = 'Ctrl+C로 복사';
+				}
+				setTimeout(() => (btn.textContent = '복사'), 1500);
+			});
+			update();
+		</script>
+	</body>
+</html>
+
+<style>
+	main.tool {
+		width: 820px;
+	}
+	.eyebrow {
+		margin: 0 0 0.25rem;
+		font-size: 0.85rem;
+		color: rgb(var(--gray));
+	}
+	.card {
+		margin: 1.25rem 0;
+		padding: 1rem;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: var(--rounded-xl);
+	}
+	textarea {
+		display: block;
+		width: 100%;
+		box-sizing: border-box;
+		min-height: 260px;
+		padding: 0.75rem;
+		font: inherit;
+		line-height: 1.7;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: var(--rounded-lg);
+		resize: vertical;
+	}
+	textarea:focus,
+	input:focus,
+	select:focus {
+		outline: 2px solid var(--accent);
+		outline-offset: 1px;
+	}
+	.actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+		margin-top: 0.75rem;
+	}
+	.actions button {
+		padding: 0.5rem 1rem;
+		font: inherit;
+		font-size: 0.9rem;
+		font-weight: 700;
+		color: #fff;
+		background: var(--accent);
+		border: 0;
+		border-radius: var(--rounded-lg);
+		cursor: pointer;
+	}
+	.actions button.ghost,
+	.actions button#trim {
+		color: rgb(var(--black));
+		background: #f1f3f6;
+	}
+	.stats {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 0.6rem;
+	}
+	.stat {
+		display: flex;
+		flex-direction: column;
+		padding: 0.8rem 0.9rem;
+		border-radius: var(--rounded-xl);
+		background: #f4f6f9;
+	}
+	.stat.main {
+		grid-column: span 2;
+		background: #0f2547;
+		color: #fff;
+	}
+	.stat span {
+		font-size: 0.78rem;
+		opacity: 0.8;
+	}
+	.stat strong {
+		font-size: 1.5rem;
+		font-variant-numeric: tabular-nums;
+		line-height: 1.3;
+		color: inherit;
+	}
+	.stat.main strong {
+		font-size: 2rem;
+	}
+	.stat em {
+		font-style: normal;
+		font-size: 0.75rem;
+		opacity: 0.7;
+	}
+	.row {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1.4fr;
+		gap: 0.75rem;
+		align-items: end;
+	}
+	label {
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+		font-size: 0.85rem;
+		font-weight: 600;
+		color: rgb(var(--black));
+	}
+	label.check {
+		flex-direction: row;
+		align-items: center;
+		gap: 0.4rem;
+		font-weight: 400;
+		padding-bottom: 0.6rem;
+	}
+	label.check input {
+		width: auto;
+	}
+	input,
+	select {
+		width: 100%;
+		min-width: 0;
+		box-sizing: border-box;
+		padding: 0.5rem 0.6rem;
+		font: inherit;
+		font-weight: 400;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: var(--rounded-lg);
+		background: #fff;
+	}
+	.bar {
+		height: 10px;
+		margin-top: 1rem;
+		border-radius: 999px;
+		background: #eceff3;
+		overflow: hidden;
+	}
+	#bar-fill {
+		height: 100%;
+		width: 0;
+		background: #2e9e6b;
+		transition: width 0.15s ease;
+	}
+	#bar-fill.near {
+		background: #f0a020;
+	}
+	#bar-fill.over {
+		background: #e0533d;
+	}
+	.target-msg {
+		margin: 0.5rem 0 0;
+		font-size: 0.9rem;
+		font-variant-numeric: tabular-nums;
+	}
+	.target-msg.over {
+		color: #c23a25;
+		font-weight: 700;
+	}
+	.explain {
+		margin-top: 2.5rem;
+	}
+	.explain table {
+		font-size: 0.85rem;
+	}
+	.small {
+		font-size: 0.85rem;
+		color: rgb(var(--gray));
+	}
+	@media (max-width: 640px) {
+		.stats {
+			grid-template-columns: repeat(2, 1fr);
+		}
+		.row {
+			grid-template-columns: 1fr 1fr;
+		}
+		label.check {
+			grid-column: 1 / -1;
+			padding-bottom: 0;
+		}
+		.explain table {
+			display: block;
+			overflow-x: auto;
+		}
+	}
+</style>

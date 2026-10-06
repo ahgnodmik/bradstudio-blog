@@ -11,6 +11,7 @@ export const CATEGORIES = {
 	digital: '디지털',
 	money: '재테크',
 	shopping: '쇼핑',
+	history: '기록의 역사',
 } as const;
 
 export type CategoryKey = keyof typeof CATEGORIES;

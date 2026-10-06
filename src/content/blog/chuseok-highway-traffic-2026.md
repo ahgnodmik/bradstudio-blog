@@ -10,7 +10,7 @@ thumbnail:
   creditName: 'Yanhao Fang'
   creditUrl: 'https://unsplash.com/@alamanga'
 
-status: archived
+status: published
 
 category: living
 tags:

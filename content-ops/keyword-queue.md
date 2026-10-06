@@ -11,6 +11,10 @@
 - (2026-10-06) 호남 태양광 접속 재개 — bs-20261006-001 (honam-solar-grid-access-2026) [출처: 2026-10-w1-thu #14]
 - (2026-10-06) 미국 30년물 금리 5.6% → 내 대출금리 경로 — bs-20261006-002 (us-treasury-yield-korea-loan-rate-2026) [출처: 2026-10-w1-thu #7]
 - (2026-10-06) 김도영 41홈런 KIA 기록 — bs-20261006-003 (kim-do-young-41-homers-kia-record-2026) [출처: 2026-10-w1-thu #10]
+- (2026-10-05) 기록의 역사 2편 파피루스 — bs-20261005-002 (record-history-02-papyrus) [출처: 시리즈 기획]
+- (2026-10-05) 자소서 글자수 기준 실측 — bs-20261005-003 (self-introduction-character-count-basis) [출처: 도구 해설]
+- (2026-10-05) 기록의 역사 1편 — bs-20261005-001 (record-history-01-why-humans-started-recording) [출처: 사용자 시리즈 기획 · content-ops/series-record-history.md]
+- (2026-10-04) 전기요금 누진제 계산기 + 사용량별 요금표 — bs-20261004-001 (electricity-progressive-tier-guide-2026), /tools/electricity-bill/ [출처: 사용자 지시 · 도구]
 
 - (2026-09-29) 삼성전자 3분기 배당 권리락 — bs-20260929-001 (samsung-q3-dividend-2026) [출처: 2026-09-w4-mon #3]
 - (2026-09-29) 아시안게임 2026 무료 중계 — bs-20260929-002 (asian-games-2026-free-broadcast) [출처: 2026-09-w4-mon #8]
@@ -29,6 +33,10 @@
 - (2026-10-02) 9월 수출 1,209억 달러 역대 최대 — bs-20261002-001 (september-exports-record-2026) [출처: 2026-10-w1-thu #9]
 - (2026-10-02) 2026 노벨상 발표 일정·문학상 후보 — bs-20261002-002 (nobel-prize-2026-schedule) [출처: 2026-10-w1-thu #5]
 - (2026-10-02) 트럼프 한국 대미투자 3,500억 달러 — bs-20261002-003 (korea-us-investment-350b-2026) [출처: 2026-10-w1-thu #8]
+- (2026-10-03) 2026 국정감사 일정·기업 증인 — bs-20261003-001 (national-audit-2026-schedule) [출처: 2026-10-w1-thu #11]
+- (2026-10-03) 농어업 면세유 보조금 연장 — bs-20261003-002 (farm-fishery-fuel-subsidy-2026) [출처: 2026-10-w1-thu #13]
+- (2026-10-03) 개천절 연휴 날씨 10/3~5 — bs-20261003-003 (national-foundation-day-weekend-weather-2026) [출처: 실시간 이슈]
+- (2026-10-03) 미국 9월 고용 쇼크·연휴 증시 — bs-20261003-004 (us-jobs-shock-holiday-market-2026) [출처: 실시간 이슈]
 
 - (2026-09-03) dehumidifier 클러스터 6개 — bs-20260903-002~007
 - (2026-09-08) 알뜰폰 요금제 비교 — bs-20260908-003 (mvno-plan-comparison)

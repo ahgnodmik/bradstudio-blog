@@ -10,7 +10,7 @@ thumbnail:
   creditUrl: 'https://unsplash.com/@adhitya_2505'
 updatedDate: 2026-09-13
 
-status: archived
+status: published
 
 category: living
 tags:
