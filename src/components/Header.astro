@@ -3,25 +3,70 @@ import { CATEGORIES, SITE_TITLE } from '../consts';
 import HeaderLink from './HeaderLink.astro';
 import { getVisiblePosts } from '../lib/content';
 
-// 글이 1편 이상 있는 카테고리만 노출
-const used = new Set((await getVisiblePosts()).map((p) => p.data.category));
+// 글이 1편 이상 있는 카테고리만 노출 (글 수 함께 표시)
+const counts = new Map<string, number>();
+for (const p of await getVisiblePosts()) counts.set(p.data.category, (counts.get(p.data.category) ?? 0) + 1);
+const categories = Object.entries(CATEGORIES).filter(([key]) => counts.has(key));
 ---
 
 <header>
 	<nav>
 		<h2><a href="/">{SITE_TITLE}</a></h2>
-		<div class="internal-links">
-			<HeaderLink href="/blog">전체 글</HeaderLink>
-			{
-				Object.entries(CATEGORIES).filter(([key]) => used.has(key)).map(([key, label]) => (
-					<HeaderLink href={`/category/${key}`}>{label}</HeaderLink>
-				))
-			}
-			<HeaderLink href="/tools">도구</HeaderLink>
-			<HeaderLink href="/about">소개</HeaderLink>
-		</div>
+		<button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="메뉴 열기">
+			<span class="bars" aria-hidden="true"><span></span><span></span><span></span></span>
+			<span class="menu-label">메뉴</span>
+		</button>
 	</nav>
+	<div id="site-menu" class="menu-panel" hidden>
+		<div class="menu-inner">
+			<p class="menu-heading">카테고리</p>
+			<ul class="menu-cats">
+				<li><HeaderLink href="/blog">전체 글</HeaderLink></li>
+				{
+					categories.map(([key, label]) => (
+						<li>
+							<HeaderLink href={`/category/${key}`}>
+								{label}
+								<span class="count">{counts.get(key)}</span>
+							</HeaderLink>
+						</li>
+					))
+				}
+			</ul>
+			<p class="menu-heading">사이트</p>
+			<ul class="menu-cats">
+				<li><HeaderLink href="/tools">도구</HeaderLink></li>
+				<li><HeaderLink href="/about">소개</HeaderLink></li>
+			</ul>
+		</div>
+	</div>
 </header>
+
+<script>
+	const btn = document.querySelector<HTMLButtonElement>('.menu-btn');
+	const panel = document.getElementById('site-menu');
+	if (btn && panel) {
+		const setOpen = (open: boolean) => {
+			btn.setAttribute('aria-expanded', String(open));
+			btn.setAttribute('aria-label', open ? '메뉴 닫기' : '메뉴 열기');
+			panel.hidden = !open;
+		};
+		btn.addEventListener('click', (e) => {
+			e.stopPropagation();
+			setOpen(panel.hidden);
+		});
+		document.addEventListener('click', (e) => {
+			if (!panel.hidden && !panel.contains(e.target as Node)) setOpen(false);
+		});
+		document.addEventListener('keydown', (e) => {
+			if (e.key === 'Escape' && !panel.hidden) {
+				setOpen(false);
+				btn.focus();
+			}
+		});
+	}
+</script>
+
 <style>
 	header {
 		position: sticky;
@@ -49,30 +94,94 @@ const used = new Set((await getVisiblePosts()).map((p) => p.data.category));
 		max-width: 1080px;
 		margin: 0 auto;
 	}
-	.internal-links {
+	.menu-btn {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.5rem;
+		padding: 0.45rem 0.8rem;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: var(--rounded-full);
+		background: #fff;
+		color: rgb(var(--black));
+		font: inherit;
+		font-size: 0.875rem;
+		font-weight: 600;
+		cursor: pointer;
+	}
+	.menu-btn:hover {
+		border-color: rgb(var(--gray));
+	}
+	.bars {
+		display: inline-flex;
+		flex-direction: column;
+		gap: 3px;
+		width: 16px;
+	}
+	.bars span {
+		display: block;
+		height: 2px;
+		border-radius: 2px;
+		background: currentColor;
+		transition: transform 0.2s ease, opacity 0.2s ease;
+	}
+	.menu-btn[aria-expanded='true'] .bars span:nth-child(1) {
+		transform: translateY(5px) rotate(45deg);
+	}
+	.menu-btn[aria-expanded='true'] .bars span:nth-child(2) {
+		opacity: 0;
+	}
+	.menu-btn[aria-expanded='true'] .bars span:nth-child(3) {
+		transform: translateY(-5px) rotate(-45deg);
+	}
+	.menu-panel {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 100%;
+		background: #fff;
+		border-bottom: 1px solid rgb(var(--gray-light));
+		box-shadow: 0 12px 24px rgba(15, 18, 25, 0.08);
+	}
+	.menu-inner {
+		max-width: 1080px;
+		margin: 0 auto;
+		padding: 1rem 1em 1.25rem;
+	}
+	.menu-heading {
+		margin: 0.25rem 0 0.5rem;
+		font-size: 0.75rem;
+		font-weight: 700;
+		color: rgb(var(--gray));
+		letter-spacing: 0.04em;
+	}
+	.menu-cats {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 0.375rem;
+		margin: 0 0 0.75rem;
+		padding: 0;
+		list-style: none;
 	}
-	nav .internal-links a {
-		padding: 0.375rem 0.875rem;
+	.menu-cats :global(a) {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.35rem;
+		padding: 0.45rem 0.9rem;
 		color: rgb(var(--gray-dark));
-		font-size: 0.875rem;
+		font-size: 0.9rem;
 		font-weight: 600;
 		border: 1px solid rgb(var(--gray-light));
 		border-radius: var(--rounded-full);
 		text-decoration: none;
 	}
-	nav .internal-links a.active {
+	.menu-cats :global(a.active) {
 		background: rgb(var(--black));
-		color: #ffffff;
+		color: #fff;
 		border-color: transparent;
 	}
-	@media (max-width: 720px) {
-		nav {
-			flex-direction: column;
-			align-items: flex-start;
-			gap: 0.5rem;
-		}
+	.count {
+		font-size: 0.75rem;
+		font-weight: 500;
+		opacity: 0.6;
 	}
 </style>
