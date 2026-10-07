@@ -5,12 +5,22 @@ import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import PostCard from '../components/PostCard.astro';
 import AdInFeed from '../components/AdInFeed.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import { CATEGORIES, SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import { getVisiblePosts } from '../lib/content';
 import AdSlot from '../components/AdSlot.astro';
 
 // 카드 11장 + 인피드 광고 1칸 = 12칸 (4·3·2열 모두 딱 맞음)
-const posts = (await getVisiblePosts()).slice(0, 11);
+const allPosts = await getVisiblePosts();
+const posts = allPosts.slice(0, 11);
+
+// 카테고리별 가로 스크롤 줄: 카테고리당 최신 12편
+const ROW_SIZE = 12;
+const rows = Object.entries(CATEGORIES)
+	.map(([key, label]) => {
+		const inCat = allPosts.filter((p) => p.data.category === key);
+		return { key, label, total: inCat.length, posts: inCat.slice(0, ROW_SIZE) };
+	})
+	.filter((r) => r.total > 0);
 ---
 
 <!doctype html>
@@ -36,6 +46,63 @@ const posts = (await getVisiblePosts()).slice(0, 11);
 			.all-posts {
 				display: inline-block;
 				margin-top: 2rem;
+			}
+			.cat-section {
+				margin-top: 3rem;
+			}
+			.cat-head {
+				display: flex;
+				align-items: baseline;
+				justify-content: space-between;
+				gap: 1rem;
+			}
+			.cat-head h2 {
+				margin: 0;
+				font-size: 1.35rem;
+			}
+			.cat-head .count {
+				margin-left: 0.4rem;
+				font-size: 0.85rem;
+				font-weight: 500;
+				color: rgb(var(--gray));
+			}
+			.cat-more {
+				flex-shrink: 0;
+				font-size: 0.875rem;
+				font-weight: 600;
+				text-decoration: none;
+			}
+			/* 가로 스크롤 줄: 스냅 + 다음 카드 일부가 보여 스크롤 가능함을 알림 */
+			.cat-row {
+				display: grid;
+				grid-auto-flow: column;
+				grid-auto-columns: 240px;
+				gap: 0.75rem;
+				margin: 1rem -1em 0;
+				padding: 0 1em 0.75rem;
+				overflow-x: auto;
+				overscroll-behavior-x: contain;
+				scroll-snap-type: x mandatory;
+				scroll-padding: 0 1em;
+				list-style: none;
+			}
+			.cat-row > li {
+				scroll-snap-align: start;
+			}
+			.cat-row > li :global(.post-card) {
+				aspect-ratio: 4 / 5;
+			}
+			.cat-row::-webkit-scrollbar {
+				height: 6px;
+			}
+			.cat-row::-webkit-scrollbar-thumb {
+				background: rgb(var(--gray-light));
+				border-radius: 999px;
+			}
+			@media (max-width: 600px) {
+				.cat-row {
+					grid-auto-columns: 68vw;
+				}
 			}
 			@media (max-width: 1079px) {
 				.post-grid {
@@ -71,6 +138,28 @@ const posts = (await getVisiblePosts()).slice(0, 11);
 				</div>
 				<a class="all-posts" href="/blog/">전체 글 보기 →</a>
 			</section>
+			{
+				rows.map((row) => (
+					<section class="cat-section" aria-labelledby={`cat-${row.key}`}>
+						<div class="cat-head">
+							<h2 id={`cat-${row.key}`}>
+								{row.label}
+								<span class="count">{row.total}</span>
+							</h2>
+							<a class="cat-more" href={`/category/${row.key}/`}>
+								더보기 →
+							</a>
+						</div>
+						<ul class="cat-row">
+							{row.posts.map((post) => (
+								<li>
+									<PostCard post={post} />
+								</li>
+							))}
+						</ul>
+					</section>
+				))
+			}
 			<AdSlot name="footer" label="하단 디스플레이 광고" size="728×90 / 반응형" />
 		</main>
 		<Footer />
