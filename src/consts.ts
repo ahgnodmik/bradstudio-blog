@@ -12,6 +12,7 @@ export const CATEGORIES = {
 	money: '재테크',
 	shopping: '쇼핑',
 	history: '기록의 역사',
+	world: '해외·신제품',
 } as const;
 
 export type CategoryKey = keyof typeof CATEGORIES;

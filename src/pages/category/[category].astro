@@ -11,7 +11,8 @@ import { SERIES } from '../../lib/series';
 
 export async function getStaticPaths() {
 	const posts = await getVisiblePosts();
-	return Object.keys(CATEGORIES).map((category) => ({
+	// 글 없는 카테고리는 빈 페이지를 만들지 않는다
+	return Object.keys(CATEGORIES).filter((category) => posts.some((post) => post.data.category === category)).map((category) => ({
 		params: { category },
 		props: { posts: posts.filter((post) => post.data.category === category) },
 	}));

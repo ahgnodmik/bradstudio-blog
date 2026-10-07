@@ -1,6 +1,10 @@
 ---
 import { CATEGORIES, SITE_TITLE } from '../consts';
 import HeaderLink from './HeaderLink.astro';
+import { getVisiblePosts } from '../lib/content';
+
+// 글이 1편 이상 있는 카테고리만 노출
+const used = new Set((await getVisiblePosts()).map((p) => p.data.category));
 ---
 
 <header>
@@ -9,7 +13,7 @@ import HeaderLink from './HeaderLink.astro';
 		<div class="internal-links">
 			<HeaderLink href="/blog">전체 글</HeaderLink>
 			{
-				Object.entries(CATEGORIES).map(([key, label]) => (
+				Object.entries(CATEGORIES).filter(([key]) => used.has(key)).map(([key, label]) => (
 					<HeaderLink href={`/category/${key}`}>{label}</HeaderLink>
 				))
 			}

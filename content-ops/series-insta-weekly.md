@@ -1,6 +1,7 @@
 # 주간 연재 지침: 해외 화제 · 이번 주 신제품
 
 > 2026-10-06 확정. 원천 데이터: 비공개 저장소 `ahgnodmik/insta-abroad-now`
+> 매일 발행·주간 요약 절차는 `insta-to-blog.md` (2026-10-07). 이 문서는 이미지·공통 원칙 기준.
 > - 해외난리(abroad-now/delivered/*.json) → "이번 주 해외 화제" (주 1편, 자동 초안)
 > - 왜이제나옴(why-only-now/delivered/*.json) → "제품 디자이너가 본 이번 주 신제품" (주 1편, 반자동)
 
