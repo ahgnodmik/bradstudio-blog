@@ -9,9 +9,8 @@ import { CATEGORIES, SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import { getVisiblePosts } from '../lib/content';
 import AdSlot from '../components/AdSlot.astro';
 
-// 카드 11장 + 인피드 광고 1칸 = 12칸 (4·3·2열 모두 딱 맞음)
 const allPosts = await getVisiblePosts();
-const posts = allPosts.slice(0, 11);
+const posts = allPosts.slice(0, 12);
 
 // 카테고리별 가로 스크롤 줄: 카테고리당 최신 12편
 const ROW_SIZE = 12;
@@ -36,19 +35,14 @@ const rows = Object.entries(CATEGORIES)
 				margin: 0 auto;
 				padding: 2.5rem 1em 4rem;
 			}
-			/* 카드 한 칸 ≥ 250px 유지(인피드 fluid 광고 최소 폭): 열 간격 12px, 폭에 따라 4→3→2→1열 */
-			.post-grid {
-				display: grid;
-				grid-template-columns: repeat(4, 1fr);
-				gap: 0.75rem;
-				margin-top: 2rem;
-			}
-			.all-posts {
-				display: inline-block;
-				margin-top: 2rem;
-			}
 			.cat-section {
 				margin-top: 3rem;
+			}
+			.cat-section.latest {
+				margin-top: 2rem;
+			}
+			.feed-ad {
+				margin-top: 1.5rem;
 			}
 			.cat-head {
 				display: flex;
@@ -104,21 +98,6 @@ const rows = Object.entries(CATEGORIES)
 					grid-auto-columns: 68vw;
 				}
 			}
-			@media (max-width: 1079px) {
-				.post-grid {
-					grid-template-columns: repeat(3, 1fr);
-				}
-			}
-			@media (max-width: 819px) {
-				.post-grid {
-					grid-template-columns: repeat(2, 1fr);
-				}
-			}
-			@media (max-width: 600px) {
-				.post-grid {
-					grid-template-columns: 1fr;
-				}
-			}
 		</style>
 	</head>
 	<body>
@@ -126,18 +105,22 @@ const rows = Object.entries(CATEGORIES)
 		<main>
 			<h1>{SITE_TITLE}</h1>
 			<p>{SITE_DESCRIPTION}</p>
-			<section>
-				<h2>최신글</h2>
-				<div class="post-grid">
-					{posts.map((post, index) => (
-						<>
-							<PostCard post={post} />
-							{index === 3 && <AdInFeed as="div" />}
-						</>
-					))}
+			<section class="cat-section latest" aria-labelledby="cat-latest">
+				<div class="cat-head">
+					<h2 id="cat-latest">최신글</h2>
+					<a class="cat-more" href="/blog/">전체 글 →</a>
 				</div>
-				<a class="all-posts" href="/blog/">전체 글 보기 →</a>
+				<ul class="cat-row">
+					{posts.map((post) => (
+						<li>
+							<PostCard post={post} />
+						</li>
+					))}
+				</ul>
 			</section>
+			<div class="feed-ad">
+				<AdInFeed as="div" />
+			</div>
 			{
 				rows.map((row) => (
 					<section class="cat-section" aria-labelledby={`cat-${row.key}`}>
