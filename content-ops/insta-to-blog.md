@@ -37,6 +37,11 @@
 - 글 링크 외 새 사실을 넣으면 출처 2곳 확인. 썸네일은 Unsplash 또는 자동 OG.
 - `status: draft`로 push → 09:52 발행 루틴이 발행.
 
+## 실행 환경 주의 (2026-10-07 수동 점검 결과)
+- 클라우드 세션은 외신·제조사 사이트 상당수가 네트워크 정책으로 막혀 WebFetch가 실패한다(Guardian, Al Jazeera, CNBC, UN News, Yanko Design 확인). WebSearch 결과 요약을 2곳 이상 교차해 확인하고, 막힌 페이지는 sources에 남기되 본문 사실은 교차 확인된 것만 쓴다.
+- 원천 JSON 내용을 그대로 믿지도, 성급히 빼지도 않는다. 10/7 점검에서 "원인불명 폐렴"을 미확인으로 뺐다가 10/8 러시아 위생당국 공식 발표(AP·IBTimes)로 확인돼 되살렸다. 검색 1회로 안 나오면 영어 원문 표현으로 한 번 더 찾는다.
+- frontmatter는 기존 글을 복사해 쓴다. `clusterRole`은 pillar | supporting | commercial 중 하나.
+
 ## 원장 (`content-ops/insta-ledger.json`)
 ```json
 { "abroad-now/delivered/2026-09-17-xxx.json": { "contentId": "bs-20261007-002", "date": "2026-10-07" } }
