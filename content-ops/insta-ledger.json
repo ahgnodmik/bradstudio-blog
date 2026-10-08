@@ -7,5 +7,14 @@
   "why-only-now/pending/093-rip-tupperware-these-titanium-lunch-boxe.json": {
     "contentId": "bs-20261007-002",
     "date": "2026-10-07"
+  },
+  "abroad-now/delivered/2026-10-08-openai-teens-chatgpt-usage-safety-concerns.json": {
+    "contentId": "bs-20261009-001",
+    "date": "2026-10-09",
+    "note": "원천의 '하루 15분'·BBC 출처는 확인 실패로 제외, 커먼센스미디어 평가 기준으로 재작성"
+  },
+  "why-only-now/delivered/096-this-in-flight-cocooning-blanket.json": {
+    "skipped": "확인된 사실이 적음(탠저린·버즈 협업 콘셉트, 항공사 도입·가격·출시 미확인). 원천의 '항공사 도입' 주장은 사실 확인 실패",
+    "date": "2026-10-09"
   }
 }
