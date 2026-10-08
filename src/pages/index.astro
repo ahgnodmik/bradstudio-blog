@@ -33,10 +33,10 @@ const rows = Object.entries(CATEGORIES)
 				max-width: 1080px;
 				box-sizing: border-box;
 				margin: 0 auto;
-				padding: 2.5rem 1em 4rem;
+				padding: 1.5rem 1em 3rem;
 			}
 			.cat-section {
-				margin-top: 3rem;
+				margin-top: 2rem;
 			}
 			.cat-section.latest {
 				margin-top: 2rem;
@@ -52,7 +52,7 @@ const rows = Object.entries(CATEGORIES)
 			}
 			.cat-head h2 {
 				margin: 0;
-				font-size: 1.35rem;
+				font-size: 1.1rem;
 			}
 			.cat-head .count {
 				margin-left: 0.4rem;
@@ -70,9 +70,9 @@ const rows = Object.entries(CATEGORIES)
 			.cat-row {
 				display: grid;
 				grid-auto-flow: column;
-				grid-auto-columns: 240px;
-				gap: 0.75rem;
-				margin: 1rem -1em 0;
+				grid-auto-columns: 188px;
+				gap: 0.625rem;
+				margin: 0.75rem -1em 0;
 				padding: 0 1em 0.75rem;
 				overflow-x: auto;
 				overscroll-behavior-x: contain;
@@ -83,8 +83,35 @@ const rows = Object.entries(CATEGORIES)
 			.cat-row > li {
 				scroll-snap-align: start;
 			}
+			/* 가로 줄 카드는 작게: GUI 요소(배지·제목·메타)도 함께 축소 */
 			.cat-row > li :global(.post-card) {
 				aspect-ratio: 4 / 5;
+				border-radius: 10px;
+			}
+			.cat-row > li :global(.body) {
+				gap: 0.35rem;
+				padding: 0.75rem 0.7rem 0.65rem;
+			}
+			.cat-row > li :global(.cat) {
+				padding: 0.12rem 0.45rem;
+				font-size: 0.65rem;
+			}
+			.cat-row > li :global(.title) {
+				font-size: 0.86rem;
+				line-height: 1.38;
+				-webkit-line-clamp: 3;
+			}
+			.cat-row > li :global(.meta) {
+				font-size: 0.64rem;
+			}
+			.hero h1 {
+				margin: 0;
+				font-size: 1.5rem;
+			}
+			.hero p {
+				margin: 0.35rem 0 0;
+				font-size: 0.9rem;
+				color: rgb(var(--gray));
 			}
 			.cat-row::-webkit-scrollbar {
 				height: 6px;
@@ -95,7 +122,7 @@ const rows = Object.entries(CATEGORIES)
 			}
 			@media (max-width: 600px) {
 				.cat-row {
-					grid-auto-columns: 68vw;
+					grid-auto-columns: 42vw;
 				}
 			}
 		</style>
@@ -103,8 +130,10 @@ const rows = Object.entries(CATEGORIES)
 	<body>
 		<Header />
 		<main>
-			<h1>{SITE_TITLE}</h1>
-			<p>{SITE_DESCRIPTION}</p>
+			<div class="hero">
+				<h1>{SITE_TITLE}</h1>
+				<p>{SITE_DESCRIPTION}</p>
+			</div>
 			<section class="cat-section latest" aria-labelledby="cat-latest">
 				<div class="cat-head">
 					<h2 id="cat-latest">최신글</h2>
