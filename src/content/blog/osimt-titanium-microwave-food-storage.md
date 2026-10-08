@@ -2,14 +2,14 @@
 contentId: "bs-20261007-002"
 title: '전자레인지에 넣는 티타늄 도시락 — OSIMT 보관 용기는 금속인데 어떻게 가능한가'
 description: '홍콩 브랜드 OSIMT가 전자레인지·오븐·냉동실·식기세척기를 모두 쓸 수 있다는 티타늄 보관 용기를 킥스타터에 내놨다. 금속 용기에서 불꽃이 튀는 이유, 모서리 R20 설계, 용량·가격, 사기 전에 확인할 점을 정리했다.'
-pubDate: 2026-10-07
+pubDate: 2026-10-08
 thumbnail:
   url: 'https://images.unsplash.com/photo-1543353071-c953d88f7033?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
   alt: '칸마다 음식이 담긴 도시락 용기'
   creditName: 'Ella Olsson'
   creditUrl: 'https://unsplash.com/@ellaolsson'
 
-status: draft
+status: published
 
 category: world
 tags:
