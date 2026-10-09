@@ -16,5 +16,15 @@
   "why-only-now/delivered/096-this-in-flight-cocooning-blanket.json": {
     "skipped": "확인된 사실이 적음(탠저린·버즈 협업 콘셉트, 항공사 도입·가격·출시 미확인). 원천의 '항공사 도입' 주장은 사실 확인 실패",
     "date": "2026-10-09"
+  },
+  "abroad-now/delivered/2026-10-08-margaret-hamilton-apollo-11-software-pioneer-dies.json": {
+    "contentId": "bs-20261010-001",
+    "date": "2026-10-10",
+    "note": "원천은 10월 별세로 읽히나 실제 별세일 9/30(MIT·AP)로 정정"
+  },
+  "why-only-now/delivered/097-this-vr-system-gets-bigger-so-it-doesn-t.json": {
+    "contentId": "bs-20261010-002",
+    "date": "2026-10-10",
+    "note": "원천 제품명 '안경 쓰지 않는 VR'을 규슈대 Mountless Aerial HMD 연구 시제품으로 정정"
   }
 }
