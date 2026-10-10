@@ -26,5 +26,15 @@
     "contentId": "bs-20261010-002",
     "date": "2026-10-10",
     "note": "원천 제품명 '안경 쓰지 않는 VR'을 규슈대 Mountless Aerial HMD 연구 시제품으로 정정"
+  },
+  "abroad-now/delivered/2026-10-08-france-debt-crisis-warning.json": {
+    "contentId": "bs-20261011-001",
+    "date": "2026-10-11",
+    "note": "원천의 '유럽 4대 경제국/EU 2위' 혼재 표현 정리, 수치는 Euronews·EFG·Fortune·CNBC 기준"
+  },
+  "why-only-now/delivered/101-a-599-robot-dog-that-fits-on-your-desk-a.json": {
+    "contentId": "bs-20261011-002",
+    "date": "2026-10-11",
+    "note": "원천 '레고 조립식·손가락 크기' 표현을 실제 사양(손바닥 크기, 크라우드서플라이 199~599달러)으로 정정"
   }
 }
