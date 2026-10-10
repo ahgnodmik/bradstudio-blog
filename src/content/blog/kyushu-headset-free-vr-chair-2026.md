@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Remy Gieling'
   creditUrl: 'https://unsplash.com/@gieling'
 
-status: draft
+status: published
 
 category: world
 tags:

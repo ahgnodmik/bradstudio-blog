@@ -4,6 +4,9 @@
 
 ## world
 
+- [ChatGPT 청소년 모드 위험 평가 — 자해 대화 1시간에도 부모 알림 없었다, 쟁점 4가지](https://bradstudio.xyz/blog/chatgpt-for-teens-unacceptable-risk-2026/): 미국 아동 미디어 단체 커먼센스미디어가 OpenAI의 ChatGPT 청소년 모드(ChatGPT for Teens)를 가장 낮은 등급인 수용 불가 위험으로 평가했다. 4,000개 넘는 질문 테스트에서 드러난 부모 알림·연령 추정·공부 모드의 허점, OpenAI의 반박, 부모가 지금 확인할 설정을 정리했다.
+- [헤드셋 없이 앉기만 하면 VR — 규슈대 마운트리스 공중 HMD 의자, 무엇이 다르고 어디까지 왔나](https://bradstudio.xyz/blog/kyushu-headset-free-vr-chair-2026/): 일본 규슈대 연구팀이 머리에 아무것도 쓰지 않고 의자에 앉아 가상현실을 보는 장치를 SIGGRAPH 2026에서 공개했다. 미세 거울 배열로 공중에 영상을 띄우는 원리, 기존 VR 헤드셋과의 차이, 밝기·시야각 한계를 정리했다.
+- [아폴로 11호 소프트웨어 이끈 마거릿 해밀턴 별세 — 소프트웨어 공학이라는 말을 만든 사람](https://bradstudio.xyz/blog/margaret-hamilton-apollo-software-dies-2026/): 아폴로 계획의 비행 소프트웨어 개발을 이끈 마거릿 해밀턴이 9월 30일 90세로 세상을 떠났다. 달 착륙 직전 울린 1202 경보를 넘긴 우선순위 설계, 소프트웨어 공학이라는 용어, 이후 경력과 지금 개발 현장에 남은 흔적을 정리했다.
 - [전자레인지에 넣는 티타늄 도시락 — OSIMT 보관 용기는 금속인데 어떻게 가능한가](https://bradstudio.xyz/blog/osimt-titanium-microwave-food-storage/): 홍콩 브랜드 OSIMT가 전자레인지·오븐·냉동실·식기세척기를 모두 쓸 수 있다는 티타늄 보관 용기를 킥스타터에 내놨다. 금속 용기에서 불꽃이 튀는 이유, 모서리 R20 설계, 용량·가격, 사기 전에 확인할 점을 정리했다.
 - [러시아 페스트 연구소 직원 사망 — WHO 위험도 평가와 접촉자 197명, 지금까지 확인된 것](https://bradstudio.xyz/blog/russia-irkutsk-plague-lab-death-2026/): 러시아 이르쿠츠크 페스트 연구소의 28세 연구원이 폐페스트 의심 증상으로 숨졌다. 접촉자 197명 격리, 검사 결과 음성, WHO의 지역별 위험도 평가까지 확인된 사실과 아직 모르는 것을 나눠 정리했다.
 

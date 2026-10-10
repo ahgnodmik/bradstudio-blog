@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Amit Padhiyar'
   creditUrl: 'https://unsplash.com/@amit_padhiyar'
 
-status: draft
+status: published
 
 category: world
 tags:

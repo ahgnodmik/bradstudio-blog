@@ -2,14 +2,14 @@
 contentId: "bs-20261009-001"
 title: 'ChatGPT 청소년 모드 위험 평가 — 자해 대화 1시간에도 부모 알림 없었다, 쟁점 4가지'
 description: '미국 아동 미디어 단체 커먼센스미디어가 OpenAI의 ChatGPT 청소년 모드(ChatGPT for Teens)를 가장 낮은 등급인 수용 불가 위험으로 평가했다. 4,000개 넘는 질문 테스트에서 드러난 부모 알림·연령 추정·공부 모드의 허점, OpenAI의 반박, 부모가 지금 확인할 설정을 정리했다.'
-pubDate: 2026-10-09
+pubDate: 2026-10-10
 thumbnail:
   url: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
   alt: '탁자 위에 놓인 스마트폰 화면'
   creditName: 'William Hook'
   creditUrl: 'https://unsplash.com/@williamtm'
 
-status: draft
+status: published
 
 category: world
 tags:
@@ -38,19 +38,19 @@ internalLinks: []
 sources:
   - title: 'ChatGPT for Teens Poses Unacceptable Risk to Kids, Common Sense Media Finds — Common Sense Media'
     url: 'https://www.commonsensemedia.org/press-releases/chatgpt-for-teens-poses-unacceptable-risk-to-kids-common-sense-media-finds'
-    accessedAt: 2026-10-09
+    accessedAt: 2026-10-10
   - title: 'ChatGPT for Teens Risk Assessment — Common Sense Media Youth AI Safety Institute'
     url: 'https://institute.commonsensemedia.org/risk-assessments/chatgpt-teens'
-    accessedAt: 2026-10-09
+    accessedAt: 2026-10-10
   - title: 'ChatGPT poses unacceptable risk to teens, third-party testing shows — Axios'
     url: 'https://www.axios.com/2026/10/07/chatgpt-teens-safety-risk-common-sense-media'
-    accessedAt: 2026-10-09
+    accessedAt: 2026-10-10
   - title: "OpenAI's ChatGPT for Teens presents unacceptable risk, says external safety report — 13WHAM"
     url: 'https://13wham.com/news/nation-world/openais-chatgpt-for-teens-presents-unacceptable-risk-says-external-safety-report-common-sense-media-school-work'
-    accessedAt: 2026-10-09
+    accessedAt: 2026-10-10
   - title: 'ChatGPT for Teens Carries Unacceptable Risk for Teens, Report Claims — Gizmodo'
     url: 'https://gizmodo.com/chatgpt-for-teens-carries-unacceptable-risk-for-teens-report-claims-2000822954'
-    accessedAt: 2026-10-09
+    accessedAt: 2026-10-10
 
 monetization:
   methods:
@@ -73,7 +73,7 @@ seo:
 
 > **조사 기준**
 >
-> - 조사일: 2026년 10월 9일
+> - 조사일: 2026년 10월 9~10일
 > - 자료: 커먼센스미디어 보도자료·위험 평가 보고서, Axios·Gizmodo 등 미국 언론 보도
 > - 원칙: 2곳 이상에서 같은 내용이 확인된 것만 사실로 적었다. 인스타그램 원천 카드에 있던 "청소년 하루 이용 15분" 수치는 확인되지 않아 뺐다.
 
