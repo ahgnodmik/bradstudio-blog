@@ -36,5 +36,15 @@
     "contentId": "bs-20261011-002",
     "date": "2026-10-11",
     "note": "원천 '레고 조립식·손가락 크기' 표현을 실제 사양(손바닥 크기, 크라우드서플라이 199~599달러)으로 정정"
+  },
+  "abroad-now/delivered/2026-10-11-geomagnetic-storm-northern-lights-october-2026.json": {
+    "contentId": "bs-20261012-002",
+    "date": "2026-10-12",
+    "note": "G4는 일부 보도뿐이라 G3(NOAA 경보) 기준, 한반도 북부 관측 가능성 표현은 2024년 화천 사례로 대체"
+  },
+  "why-only-now/delivered/100-the-146-await-camera-brings-back-the-dis.json": {
+    "contentId": "bs-20261012-003",
+    "date": "2026-10-12",
+    "note": "$146은 129유로 환산 예상가, 배송 2026년 12월 예정으로 보완"
   }
 }
