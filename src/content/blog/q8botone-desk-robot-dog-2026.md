@@ -4,7 +4,7 @@ title: '책상 위 손바닥만 한 로봇개 Q8botOne — 배선 없는 4족 �
 description: '무게 250g, 손바닥 크기의 오픈소스 4족 보행 로봇 Q8botOne이 크라우드서플라이에서 펀딩 중이다. 배선 없이 기판 하나에 액추에이터 8개를 꽂는 구조, 199~599달러 구성, 2027년 3월 배송 예정 일정과 사기 전 확인할 점을 정리했다.'
 pubDate: 2026-10-11
 
-status: draft
+status: published
 
 category: world
 tags:

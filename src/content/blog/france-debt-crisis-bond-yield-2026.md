@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'clement proust'
   creditUrl: 'https://unsplash.com/@clementproust'
 
-status: draft
+status: published
 
 category: world
 tags:
