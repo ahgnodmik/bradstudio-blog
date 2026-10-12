@@ -4,7 +4,7 @@ title: '이번 주 해외 화제·신제품 정리 (10월 2주) — 러시아 �
 description: '10월 5~11일 블로그에 정리한 해외 이슈 4건과 신제품 3건을 한 번에 모았다. 러시아 연구소 사망, ChatGPT 청소년 모드 평가, 마거릿 해밀턴 별세, 프랑스 국채금리, 티타늄 도시락·헤드셋 없는 VR·Q8botOne까지 핵심만 2~3줄로 정리했다.'
 pubDate: 2026-10-12
 
-status: draft
+status: published
 
 category: world
 tags:
