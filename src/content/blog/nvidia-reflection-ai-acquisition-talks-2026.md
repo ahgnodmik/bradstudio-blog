@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Alexandre Debiève'
   creditUrl: 'https://unsplash.com/@alexkixa'
 
-status: draft
+status: published
 
 category: world
 tags:

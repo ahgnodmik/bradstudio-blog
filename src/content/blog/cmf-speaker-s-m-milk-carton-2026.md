@@ -4,7 +4,7 @@ title: '우유팩 모양 블루투스 스피커 CMF Speaker S·M — 59달러·1
 description: '낫싱의 서브브랜드 CMF가 우유팩을 닮은 첫 블루투스 스피커 Speaker S와 Speaker M을 10월 12일 내놨다. 59달러·109달러 가격, 10W·35W 출력, IP68 방수, 교체형 앞판과 노브, 출시 전 유출 사양과 달라진 점, 국내 구매 전 확인할 것을 정리했다.'
 pubDate: 2026-10-13
 
-status: draft
+status: published
 
 category: world
 tags:
