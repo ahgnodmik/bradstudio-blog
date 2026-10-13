@@ -9,3 +9,20 @@
 - 같은 주제를 네 계정에 같은 시간대에 올리지 않는다(계정마다 순서를 섞어도 된다).
 - 계정마다 다른 이미지를 쓴다. CMF 제품 사진은 제조사·매체 이미지이므로 출처를 적거나 무료 이미지로 대체한다.
 - bradstudio.xyz 링크는 넣지 않거나 한 계정에만 넣는다.
+
+이미지 (Unsplash, 무료 사용 가능, 출처 표기 권장: "사진: 작가명 / Unsplash")
+A-1 https://unsplash.com/photos/-LQw3ds1HH8 (Ethan Wilkinson)
+A-2 https://unsplash.com/photos/1kgODvfM4mg (Shinn Tiunn)
+A-3 https://unsplash.com/photos/cbEvoHbJnIE (Nguyen Dang Hoang Nhu)
+B-1 https://unsplash.com/photos/w_qTfiPbjbg (Clay Banks)
+B-2 https://unsplash.com/photos/gbG65gRAGx4 (Nicolas J Leclercq)
+B-3 https://unsplash.com/photos/zxPLJJz2o_c (Ferks Guare)
+C-1 https://unsplash.com/photos/Skfy8ljB7X4 (Joshua Woroniecki)
+C-2 https://unsplash.com/photos/jXd2FSvcRr8 (Umberto)
+C-3 https://unsplash.com/photos/bBTWoeep1vw (Saif71.com)
+D-1 https://unsplash.com/photos/WAEqUyi5CZQ (YY TEOH)
+D-2 https://unsplash.com/photos/efgpRGeu9tg (MealPro)
+D-3 https://unsplash.com/photos/FoKO4DpXamQ (Eric Rothermel)
+티스토리 nvidia https://unsplash.com/photos/3UAiwOgoSnE (Đào Hiếu)
+티스토리 france https://unsplash.com/photos/nnzkZNYWHaU (Chris Karidis)
+티스토리 q8bot https://unsplash.com/photos/R4WCbazrD1g (Emilipothèse)
