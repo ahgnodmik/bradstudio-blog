@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'amir hossein'
   creditUrl: 'https://unsplash.com/@amirhosseingh'
 
-status: draft
+status: published
 
 category: world
 tags:

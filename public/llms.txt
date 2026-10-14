@@ -4,6 +4,8 @@
 
 ## world
 
+- [애플 HomeView 공개 — 화면 달린 스마트홈 허브 299달러, 얼굴 인식·Siri AI, 한국 출시는?](https://bradstudio.xyz/blog/apple-homeview-smart-home-hub-2026/): 애플이 10월 13일 7인치 화면을 단 스마트홈 허브 HomeView를 공개했다. 299달러, 11월 13일 출고, 스피커형과 벽걸이형 두 가지. 얼굴 인식으로 가족 6명을 구분하고 Siri AI를 쓴다. EU 미출시 이유와 국내에서 확인할 점을 정리했다.
+- [서랍 속 안드로이드폰이 로봇의 뇌로 — UCLA 두 발 로봇 PhoneBot, 부품값 약 400달러 오픈소스](https://bradstudio.xyz/blog/ucla-phonebot-old-phone-robot-2026/): UCLA 로봇연구소가 안드로이드 스마트폰을 두뇌로 쓰는 두 발 보행 로봇 PhoneBot을 공개했다. 키 약 48cm, 무게 1.8kg 미만, 서보 13개, 폰 제외 부품값 약 400달러. 걷기·사람 따라가기·넘어진 뒤 일어나기와 아직 못 하는 것을 정리했다.
 - [우유팩 모양 블루투스 스피커 CMF Speaker S·M — 59달러·109달러, 앞판·노브 바꿔 끼우고 3D 프린팅까지](https://bradstudio.xyz/blog/cmf-speaker-s-m-milk-carton-2026/): 낫싱의 서브브랜드 CMF가 우유팩을 닮은 첫 블루투스 스피커 Speaker S와 Speaker M을 10월 12일 내놨다. 59달러·109달러 가격, 10W·35W 출력, IP68 방수, 교체형 앞판과 노브, 출시 전 유출 사양과 달라진 점, 국내 구매 전 확인할 것을 정리했다.
 - [엔비디아, 오픈 모델 스타트업 Reflection AI 인수 협상 — 이미 8억 달러 투자, 왜 지금 오픈 웨이트인가](https://bradstudio.xyz/blog/nvidia-reflection-ai-acquisition-talks-2026/): 엔비디아가 오픈 웨이트 AI 모델 개발사 Reflection AI의 인수나 추가 투자를 협상 중이라고 파이낸셜타임스가 보도했다. 이미 8억 달러를 투자한 회사, 첫 모델 Beam의 규모, 인수·인재 영입·지분 확대 세 갈래 시나리오와 아직 모르는 것을 정리했다.
 - [화면 없는 디지털 카메라 Await — 24장 한 롤, 앱에서 현상하고 인화까지, 129유로에 무엇을 사나](https://bradstudio.xyz/blog/await-digital-film-camera-2026/): 스위스 롤링스퀘어가 만든 Await는 화면이 없는 디지털 카메라다. 24장 한 롤을 다 찍어야 앱에서 사진을 볼 수 있고, 원하면 인화본을 집으로 받는다. 예상 가격 129유로, 롤당 인화 비용, 배송 일정과 사기 전 확인할 점을 정리했다.

@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Tasha Kostyuk'
   creditUrl: 'https://unsplash.com/@tashakostyuk'
 
-status: draft
+status: published
 
 category: world
 tags:
