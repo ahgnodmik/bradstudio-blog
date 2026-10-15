@@ -4,7 +4,7 @@ title: '배터리 셀만 갈아 끼우는 보조배터리 ZERO — 18650 셀 6�
 description: '스타트업 CTRL ENERGY가 셀을 직접 교체하는 모듈식 보조배터리 ZERO의 킥스타터 펀딩을 10월 13일 시작했다. 18650 셀 6개 구조, 77.4Wh 용량과 100W USB-C, 기존 보조배터리와 다른 점, 펀딩 제품이라 확인할 것, 국내 구매 시 주의점을 정리했다.'
 pubDate: 2026-10-15
 
-status: draft
+status: published
 
 category: world
 tags:

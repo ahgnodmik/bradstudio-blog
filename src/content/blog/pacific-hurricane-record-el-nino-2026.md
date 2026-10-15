@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Ant Rozetsky'
   creditUrl: 'https://unsplash.com/@rozetsky'
 
-status: draft
+status: published
 
 category: world
 tags:
