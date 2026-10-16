@@ -82,5 +82,15 @@
     "contentId": "bs-20261016-002",
     "date": "2026-10-16",
     "note": "원천 '가격·출시일 미정'을 49.99달러·11월 출시로 정정, USB-C 유선은 미확인으로 표기"
+  },
+  "abroad-now/delivered/2026-10-15-brazil-40hour-workweek-lula.json": {
+    "contentId": "bs-20261017-001",
+    "date": "2026-10-17",
+    "note": "표결 75-1·6x1 폐지·임금삭감 금지 교차 확인, 수혜 인원은 추산이 엇갈려 범위로 표기, 단계 시행 일정은 미확정으로 표기"
+  },
+  "why-only-now/delivered/111-vzmore-ax9-max-mini-ai-pc-review-local-a.json": {
+    "contentId": "bs-20261017-002",
+    "date": "2026-10-17",
+    "note": "사양·가격은 제조사 페이지와 Guru3D·Wccftech 리뷰로 확인"
   }
 }
