@@ -17,12 +17,26 @@ const enabled = import.meta.env.PROD && GTM;
 				function gtag() {
 					dataLayer.push(arguments);
 				}
+				// EEA/UK/CH: deny all until a consent banner grants it.
 				gtag('consent', 'default', {
 					ad_storage: 'denied',
 					ad_user_data: 'denied',
 					ad_personalization: 'denied',
 					analytics_storage: 'denied',
+					region: [
+						'AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR',
+						'DE', 'GR', 'HU', 'IE', 'IT', 'LV', 'LT', 'LU', 'MT', 'NL',
+						'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE', 'IS', 'LI', 'NO',
+						'GB', 'CH',
+					],
 					wait_for_update: 500,
+				});
+				// Elsewhere (no banner on this site): analytics on, ads storage off.
+				gtag('consent', 'default', {
+					ad_storage: 'denied',
+					ad_user_data: 'denied',
+					ad_personalization: 'denied',
+					analytics_storage: 'granted',
 				});
 			</script>
 			<script is:inline define:vars={{ GTM }}>
