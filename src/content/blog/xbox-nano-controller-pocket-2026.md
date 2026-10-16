@@ -4,7 +4,7 @@ title: '주머니에 들어가는 Xbox 나노 컨트롤러 — 49.99달러, 버�
 description: '마이크로소프트가 10월 14일 손바닥만 한 Xbox 나노 컨트롤러를 공개하고 사전 주문을 받기 시작했다. 49.99달러 가격, 약 99g 무게, 18개 입력 유지, 내장 배터리, 지원 기기와 기존 패드·경쟁 소형 패드와 다른 점, 국내 구매 전 확인할 것을 정리했다.'
 pubDate: 2026-10-16
 
-status: draft
+status: published
 
 category: world
 tags:

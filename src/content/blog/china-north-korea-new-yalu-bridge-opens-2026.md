@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Rejaul Karim'
   creditUrl: 'https://unsplash.com/@rejaul_creativedesign'
 
-status: draft
+status: published
 
 category: world
 tags:
