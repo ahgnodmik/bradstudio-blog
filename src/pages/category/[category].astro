@@ -6,14 +6,20 @@ import PostCard from '../../components/PostCard.astro';
 import AdInFeed from '../../components/AdInFeed.astro';
 import Header from '../../components/Header.astro';
 import Sidebar from '../../components/Sidebar.astro';
-import { CATEGORIES, SITE_TITLE } from '../../consts';
+import { ALWAYS_SHOWN_CATEGORIES, CATEGORIES, SITE_TITLE } from '../../consts';
 import { getVisiblePosts } from '../../lib/content';
 import { SERIES } from '../../lib/series';
 
 export async function getStaticPaths() {
 	const posts = await getVisiblePosts();
-	// 글 없는 카테고리는 빈 페이지를 만들지 않는다
-	return Object.keys(CATEGORIES).filter((category) => posts.some((post) => post.data.category === category)).map((category) => ({
+	// 글 없는 카테고리는 빈 페이지를 만들지 않는다 (ALWAYS_SHOWN_CATEGORIES 제외)
+	return Object.keys(CATEGORIES)
+		.filter(
+			(category) =>
+				ALWAYS_SHOWN_CATEGORIES.includes(category as keyof typeof CATEGORIES) ||
+				posts.some((post) => post.data.category === category),
+		)
+		.map((category) => ({
 		params: { category },
 		props: { posts: posts.filter((post) => post.data.category === category) },
 	}));

@@ -18,6 +18,9 @@ export const CATEGORIES = {
 
 export type CategoryKey = keyof typeof CATEGORIES;
 
+// 글이 없어도 메뉴·페이지를 만드는 카테고리 (AI는 프로젝트 목록이 본문).
+export const ALWAYS_SHOWN_CATEGORIES: readonly CategoryKey[] = ['ai'];
+
 // GA4 측정 ID. 비우면 스크립트 미삽입.
 // GTM_ID가 설정되면 GTM이 우선하고 이 직접 gtag는 미삽입 (이중 수집 방지).
 export const GA_MEASUREMENT_ID = 'G-R5S7Y7NNRQ';
