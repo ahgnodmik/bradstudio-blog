@@ -1,0 +1,236 @@
+---
+type ProjectStatus = '운영 중' | '개발 중' | '케이스 스터디';
+
+interface Project {
+	title: string;
+	description: string;
+	status: ProjectStatus;
+	tags: string[];
+}
+
+interface ProjectGroup {
+	title: string;
+	description: string;
+	projects: Project[];
+}
+
+const groups: ProjectGroup[] = [
+	{
+		title: '앱',
+		description: '아이디어를 실제 사용 가능한 모바일·웹 제품으로 구현한 작업입니다.',
+		projects: [
+			{
+				title: 'OCR 기반 노트 생성 앱',
+				description: '촬영·스캔 문서를 구조화된 노트로 변환하는 모바일 앱. 스토어 출시 및 운영 중입니다.',
+				status: '운영 중',
+				tags: ['Flutter', 'OCR', 'AdMob'],
+			},
+			{
+				title: '실시간 환율 변환 앱',
+				description: '20개 통화의 실시간 환율을 조회하고 바로 변환할 수 있는 앱. 스토어 출시 및 운영 중입니다.',
+				status: '운영 중',
+				tags: ['Flutter', 'REST API', 'AdMob'],
+			},
+			{
+				title: '장소 기록 모바일 앱',
+				description: '장소를 카드로 기록하고 탐색하는 앱. 필드 암호화, 다국어, 지도 연동을 포함해 운영 중입니다.',
+				status: '운영 중',
+				tags: ['Flutter', 'Firebase', 'Google Maps'],
+			},
+			{
+				title: '단체 주문 자동화 앱',
+				description: '공유 링크로 참여자의 주문을 자동 집계하는 앱. 비회원 참여와 실시간 동기화를 설계했습니다.',
+				status: '케이스 스터디',
+				tags: ['Flutter', 'Firestore', 'Riverpod'],
+			},
+			{
+				title: '주간 식단·장보기 리스트 생성기',
+				description: '알레르기, 예산, 조리 실력을 반영해 7일 식단과 합산 장보기 리스트를 만드는 MVP입니다.',
+				status: '케이스 스터디',
+				tags: ['Next.js', 'Supabase', 'LLM'],
+			},
+		],
+	},
+	{
+		title: 'AI 자동화',
+		description: '반복 업무를 수집·생성·검수·발행 흐름으로 연결한 AI 기반 작업입니다.',
+		projects: [
+			{
+				title: '블로그 콘텐츠 자동 발행 파이프라인',
+				description: '키워드 수집부터 원고 생성과 발행까지 무인 운영한 일일 자동 발행 시스템입니다.',
+				status: '케이스 스터디',
+				tags: ['Python', 'LLM', 'Automation'],
+			},
+			{
+				title: 'SNS 카드뉴스 자동화 파이프라인',
+				description: '소재 수집, 카드 렌더링, 게시까지 이어지는 멀티 계정 콘텐츠 자동화 시스템입니다.',
+				status: '개발 중',
+				tags: ['Node.js', 'Supabase', 'Automation'],
+			},
+			{
+				title: '해외 신상품 모니터링 시스템',
+				description: '해외 커머스 신상품을 수집·필터링해 메신저로 전달하는 소싱 레이더입니다.',
+				status: '개발 중',
+				tags: ['Node.js', 'Apify', 'Telegram Bot'],
+			},
+		],
+	},
+];
+---
+
+<div class="project-groups">
+	{
+		groups.map((group) => (
+			<section class="project-group" aria-labelledby={`ai-project-${group.title}`}>
+				<div class="group-heading">
+					<div>
+						<h2 id={`ai-project-${group.title}`}>{group.title}</h2>
+						<p>{group.description}</p>
+					</div>
+					<span class="count" aria-label={`${group.projects.length}개 작업`}>
+						{String(group.projects.length).padStart(2, '0')}
+					</span>
+				</div>
+				<ul class="project-list">
+					{group.projects.map((project, index) => (
+						<li class="project-card">
+							<div class="project-number" aria-hidden="true">
+								{String(index + 1).padStart(2, '0')}
+							</div>
+							<div class="project-content">
+								<div class="project-title-row">
+									<h3>{project.title}</h3>
+									<span class:list={['status', { live: project.status === '운영 중' }]}>
+										{project.status}
+									</span>
+								</div>
+								<p>{project.description}</p>
+								<ul class="tag-list" aria-label="사용 기술">
+									{project.tags.map((tag) => <li>{tag}</li>)}
+								</ul>
+							</div>
+						</li>
+					))}
+				</ul>
+			</section>
+		))
+	}
+</div>
+
+<style>
+	.project-groups {
+		display: grid;
+		gap: 3.5rem;
+		margin-top: 2.5rem;
+	}
+	.project-group {
+		min-width: 0;
+	}
+	.group-heading {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 1.5rem;
+		padding-bottom: 1rem;
+		border-bottom: 2px solid rgb(var(--black));
+	}
+	.group-heading h2 {
+		margin-bottom: 0.25rem;
+	}
+	.group-heading p {
+		max-width: 42rem;
+		margin: 0;
+		color: rgb(var(--gray));
+		font-size: 0.9375rem;
+		line-height: 1.6;
+	}
+	.count {
+		color: rgb(var(--gray));
+		font-size: 0.875rem;
+		font-variant-numeric: tabular-nums;
+	}
+	.project-list,
+	.tag-list {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	.project-card {
+		display: grid;
+		grid-template-columns: 2.5rem 1fr;
+		gap: 1rem;
+		padding: 1.5rem 0;
+		border-bottom: 1px solid rgb(var(--gray-light));
+	}
+	.project-number {
+		padding-top: 0.2rem;
+		color: rgb(var(--gray));
+		font-size: 0.75rem;
+		font-variant-numeric: tabular-nums;
+	}
+	.project-title-row {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 1rem;
+	}
+	.project-title-row h3 {
+		margin: 0;
+		font-size: 1.25rem;
+	}
+	.status {
+		flex: 0 0 auto;
+		padding: 0.2rem 0.6rem;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: var(--rounded-full);
+		color: rgb(var(--gray));
+		font-size: 0.7rem;
+		font-weight: 700;
+		line-height: 1.4;
+	}
+	.status.live {
+		border-color: #b7dfc6;
+		background: #ebf8f0;
+		color: #13743a;
+	}
+	.project-content > p {
+		margin: 0.5rem 0 0;
+		color: rgb(var(--gray-dark));
+		font-size: 0.9375rem;
+		line-height: 1.65;
+	}
+	.tag-list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.35rem;
+		margin-top: 0.875rem;
+	}
+	.tag-list li {
+		margin: 0;
+		padding: 0.2rem 0.55rem;
+		background: var(--surface-soft);
+		border-radius: 4px;
+		color: rgb(var(--gray));
+		font-size: 0.72rem;
+		font-weight: 600;
+		line-height: 1.4;
+	}
+	@media (max-width: 600px) {
+		.project-groups {
+			gap: 2.75rem;
+			margin-top: 2rem;
+		}
+		.project-card {
+			grid-template-columns: 1.75rem 1fr;
+			gap: 0.5rem;
+			padding: 1.25rem 0;
+		}
+		.project-title-row {
+			flex-direction: column;
+			gap: 0.5rem;
+		}
+		.project-title-row h3 {
+			font-size: 1.125rem;
+		}
+	}
+</style>

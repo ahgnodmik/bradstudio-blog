@@ -7,6 +7,7 @@ export const SITE_DESCRIPTION = 'Brad Studio 블로그';
 // 카테고리 중앙 정의. 스키마·페이지·메뉴가 모두 이 객체를 참조.
 // 추가 시 여기만 수정하면 됨.
 export const CATEGORIES = {
+	ai: 'AI',
 	living: '생활',
 	digital: '디지털',
 	money: '재테크',
