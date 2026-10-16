@@ -72,5 +72,15 @@
     "contentId": "bs-20261015-002",
     "date": "2026-10-15",
     "note": "가격($89/$128)·배송(2027.6)은 New Atlas 단독이라 본문 제외, 사양은 Kickstarter FAQ 기준"
+  },
+  "abroad-now/pending/2026-10-15-china-north-korea-bridge-opens.json": {
+    "contentId": "bs-20261016-001",
+    "date": "2026-10-16",
+    "note": "Japan Times·AP·Al Jazeera로 10/15 개통 교차 확인, 규모·완공 연도는 국내 보도와 대조"
+  },
+  "why-only-now/delivered/110-xbox-finally-made-a-nano-controller-that.json": {
+    "contentId": "bs-20261016-002",
+    "date": "2026-10-16",
+    "note": "원천 '가격·출시일 미정'을 49.99달러·11월 출시로 정정, USB-C 유선은 미확인으로 표기"
   }
 }
