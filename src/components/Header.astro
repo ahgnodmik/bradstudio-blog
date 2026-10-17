@@ -1,14 +1,12 @@
 ---
-import { ALWAYS_SHOWN_CATEGORIES, CATEGORIES, SITE_TITLE } from '../consts';
+import { CATEGORIES, SITE_TITLE } from '../consts';
 import HeaderLink from './HeaderLink.astro';
 import { getVisiblePosts } from '../lib/content';
 
 // 글이 1편 이상 있는 카테고리만 노출 (글 수 함께 표시)
 const counts = new Map<string, number>();
 for (const p of await getVisiblePosts()) counts.set(p.data.category, (counts.get(p.data.category) ?? 0) + 1);
-const categories = Object.entries(CATEGORIES).filter(
-	([key]) => counts.has(key) || ALWAYS_SHOWN_CATEGORIES.includes(key as keyof typeof CATEGORIES),
-);
+const categories = Object.entries(CATEGORIES).filter(([key]) => counts.has(key));
 ---
 
 <header>

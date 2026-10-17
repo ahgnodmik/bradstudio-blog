@@ -7,7 +7,6 @@ export const SITE_DESCRIPTION = 'Brad Studio 블로그';
 // 카테고리 중앙 정의. 스키마·페이지·메뉴가 모두 이 객체를 참조.
 // 추가 시 여기만 수정하면 됨.
 export const CATEGORIES = {
-	ai: 'AI',
 	living: '생활',
 	digital: '디지털',
 	money: '재테크',
@@ -17,9 +16,6 @@ export const CATEGORIES = {
 } as const;
 
 export type CategoryKey = keyof typeof CATEGORIES;
-
-// 글이 없어도 메뉴·페이지를 만드는 카테고리 (AI는 프로젝트 목록이 본문).
-export const ALWAYS_SHOWN_CATEGORIES: readonly CategoryKey[] = ['ai'];
 
 // GA4 측정 ID. 비우면 스크립트 미삽입.
 // GTM_ID가 설정되면 GTM이 우선하고 이 직접 gtag는 미삽입 (이중 수집 방지).

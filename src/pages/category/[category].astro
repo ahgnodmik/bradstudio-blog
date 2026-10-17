@@ -1,25 +1,18 @@
 ---
 import BaseHead from '../../components/BaseHead.astro';
-import AiProjectList from '../../components/AiProjectList.astro';
 import Footer from '../../components/Footer.astro';
 import PostCard from '../../components/PostCard.astro';
 import AdInFeed from '../../components/AdInFeed.astro';
 import Header from '../../components/Header.astro';
 import Sidebar from '../../components/Sidebar.astro';
-import { ALWAYS_SHOWN_CATEGORIES, CATEGORIES, SITE_TITLE } from '../../consts';
+import { CATEGORIES, SITE_TITLE } from '../../consts';
 import { getVisiblePosts } from '../../lib/content';
 import { SERIES } from '../../lib/series';
 
 export async function getStaticPaths() {
 	const posts = await getVisiblePosts();
-	// 글 없는 카테고리는 빈 페이지를 만들지 않는다 (ALWAYS_SHOWN_CATEGORIES 제외)
-	return Object.keys(CATEGORIES)
-		.filter(
-			(category) =>
-				ALWAYS_SHOWN_CATEGORIES.includes(category as keyof typeof CATEGORIES) ||
-				posts.some((post) => post.data.category === category),
-		)
-		.map((category) => ({
+	// 글 없는 카테고리는 빈 페이지를 만들지 않는다
+	return Object.keys(CATEGORIES).filter((category) => posts.some((post) => post.data.category === category)).map((category) => ({
 		params: { category },
 		props: { posts: posts.filter((post) => post.data.category === category) },
 	}));
@@ -29,16 +22,12 @@ const { category } = Astro.params;
 const { posts } = Astro.props;
 const label = CATEGORIES[category as keyof typeof CATEGORIES];
 const seriesHere = Object.values(SERIES).filter((s) => s.category === category);
-const isAiCategory = category === 'ai';
-const description = isAiCategory
-	? 'AI로 기획하고 만든 앱과 업무 자동화 프로젝트 목록'
-	: `${label} 카테고리 글 목록`;
 ---
 
 <!doctype html>
 <html lang="ko">
 	<head>
-		<BaseHead title={`${label} | ${SITE_TITLE}`} description={description} />
+		<BaseHead title={`${label} | ${SITE_TITLE}`} description={`${label} 카테고리 글 목록`} />
 	</head>
 	<body>
 		<Header />
@@ -53,34 +42,15 @@ const description = isAiCategory
 							<span>{s.subtitle} · 전체 목차 보기 →</span>
 						</a>
 					))}
-					{
-						isAiCategory ? (
+					{posts.length === 0 && <p>아직 글이 없습니다.</p>}
+					<div class="post-grid">
+						{posts.map((post, index) => (
 							<>
-								<p class="category-intro">
-									AI와 대화하며 기획부터 디자인, 개발, 운영까지 직접 완성한 앱과 자동화 작업을
-									모았습니다.
-								</p>
-								<AiProjectList />
+								<PostCard post={post} />
+								{(index + 1) % 8 === 4 && index < posts.length - 1 && <AdInFeed as="div" />}
 							</>
-						) : posts.length === 0 ? (
-							<p>아직 글이 없습니다.</p>
-						) : null
-					}
-					{
-						posts.length > 0 && (
-							<section class:list={['article-list', { 'with-projects': isAiCategory }]}>
-								{isAiCategory && <h2>AI 관련 글</h2>}
-								<div class="post-grid">
-									{posts.map((post, index) => (
-										<>
-											<PostCard post={post} />
-											{(index + 1) % 8 === 4 && index < posts.length - 1 && <AdInFeed as="div" />}
-										</>
-									))}
-								</div>
-							</section>
-						)
-					}
+						))}
+					</div>
 				</section>
 				<Sidebar />
 			</div>
@@ -123,17 +93,6 @@ const description = isAiCategory
 			.posts {
 				flex: 1;
 				min-width: 0;
-			}
-			.category-intro {
-				max-width: 42rem;
-				margin: 0.75rem 0 0;
-				color: rgb(var(--gray));
-				font-size: 1.05rem;
-			}
-			.article-list.with-projects {
-				margin-top: 4rem;
-				padding-top: 2.5rem;
-				border-top: 1px solid rgb(var(--gray-light));
 			}
 			ul {
 				list-style: none;
