@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Andrea Cau'
   creditUrl: 'https://unsplash.com/@andreacau'
 
-status: draft
+status: published
 
 category: world
 tags:

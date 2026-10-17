@@ -4,7 +4,7 @@ title: '손바닥만 한 AI PC, VZMORE AX9 Max — 라이젠 AI 9 HX 470·NPU 55
 description: 'VZMORE의 미니 PC AX9 Max가 해외 리뷰에 잇따라 소개됐다. 라이젠 AI 9 HX 470, 라데온 890M, 55 TOPS NPU, 32GB·1TB 구성 1,499달러, 와이파이 7과 2.5GbE 두 개, 베이퍼 챔버 냉각까지 사양과 로컬 AI 활용, 기존 미니 PC와 다른 점, 국내 구매 전 확인할 것을 정리했다.'
 pubDate: 2026-10-17
 
-status: draft
+status: published
 
 category: world
 tags:
