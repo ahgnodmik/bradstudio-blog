@@ -7,6 +7,10 @@
 //   node content-ops/scripts/naver-fill.mjs --account A                 # 오늘(KST) A 계정 3편
 //   node content-ops/scripts/naver-fill.mjs --account B --date 2026-10-18 --post 2
 //   node content-ops/scripts/naver-fill.mjs --account A --dry-run       # 브라우저 없이 파싱 결과만 확인
+//   node content-ops/scripts/naver-fill.mjs --account A --clip          # 지금 쓰는 크롬에서 직접 붙여넣기(자동화 없음)
+//   node content-ops/scripts/naver-fill.mjs --account A --chrome        # Chromium 대신 설치된 크롬으로 창 열기
+//
+// --clip: 제목·본문을 차례로 클립보드에 복사하고 기다린다. 평소 크롬의 글쓰기 화면에서 ⌘V(Ctrl+V)로 붙여넣는다.
 //
 // 계정마다 브라우저 프로필이 따로 저장된다(.naver-profiles/<계정>). 첫 실행 때 그 창에서 직접 로그인하면
 // 다음부터는 로그인이 유지된다. 비밀번호를 스크립트에 넣지 않는다.
@@ -14,6 +18,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import readline from 'node:readline/promises';
+import { execSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
@@ -29,9 +34,11 @@ const date = opt('date', kstToday);
 const account = (opt('account', '') || '').toUpperCase();
 const onlyPost = opt('post', null);
 const dryRun = flag('dry-run');
+const clipMode = flag('clip');
+const useChrome = flag('chrome');
 
 if (!/^[A-D]$/.test(account)) {
-  console.error('사용법: --account A|B|C|D [--date YYYY-MM-DD] [--post 1|2|3] [--dry-run]');
+  console.error('사용법: --account A|B|C|D [--date YYYY-MM-DD] [--post 1|2|3] [--dry-run | --clip | --chrome]');
   process.exit(1);
 }
 
@@ -69,6 +76,28 @@ if (dryRun) {
   process.exit(0);
 }
 
+// 클립보드 모드: 브라우저를 조작하지 않는다. macOS pbcopy, 윈도우 PowerShell Set-Clipboard.
+if (clipMode) {
+  const copy = (text) => {
+    if (process.platform === 'darwin') execSync('pbcopy', { input: text });
+    else if (process.platform === 'win32') execSync('powershell -NoProfile -Command "$input | Set-Clipboard"', { input: text });
+    else execSync('xclip -selection clipboard', { input: text });
+  };
+  const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
+  console.log('평소 크롬에서 네이버 블로그 글쓰기 화면(blog.naver.com → 글쓰기)을 열어 두세요.');
+  for (const [i, p] of posts.entries()) {
+    console.log(`\n[${p.key}] (${i + 1}/${posts.length}) ${p.title}`);
+    copy(p.title);
+    await rl.question('  ① 제목을 복사했습니다. 제목 칸에 ⌘V 후 Enter: ');
+    copy(p.body);
+    await rl.question('  ② 본문을 복사했습니다. 본문 칸에 ⌘V 후 Enter: ');
+    console.log(`  ③ 이미지: ${p.image}\n     사진을 맨 위에 넣고 작가를 표기한 뒤 [발행]을 누르세요.`);
+    await rl.question(posts[i + 1] ? '  발행을 마쳤으면 Enter → 다음 글: ' : '  발행을 마쳤으면 Enter → 종료: ');
+  }
+  rl.close();
+  process.exit(0);
+}
+
 const { chromium } = await import('playwright').catch(() => {
   console.error('playwright가 없습니다. npm i --no-save playwright && npx playwright install chromium 후 다시 실행하세요.');
   process.exit(1);
@@ -76,7 +105,7 @@ const { chromium } = await import('playwright').catch(() => {
 
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
 const profile = path.join(ROOT, '.naver-profiles', account);
-const ctx = await chromium.launchPersistentContext(profile, { headless: false, viewport: null, args: ['--start-maximized'] });
+const ctx = await chromium.launchPersistentContext(profile, { headless: false, viewport: null, args: ['--start-maximized'], ...(useChrome ? { channel: 'chrome' } : {}) });
 const page = ctx.pages()[0] || (await ctx.newPage());
 
 // 글쓰기 화면을 열고, 로그인이 필요하면 사람이 로그인할 때까지 기다린 뒤 에디터 프레임을 돌려준다.
