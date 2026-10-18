@@ -2,7 +2,7 @@
 // 네이버 블로그 반자동 입력: content-ops/naver/<날짜>/<계정>-<번호>-*.txt 를 글쓰기 화면에 채운다.
 // 발행 버튼은 누르지 않는다. 사람이 검토하고 직접 발행한다(네이버 자동화 제재 방지).
 //
-// 준비(로컬 PC, 한 번만):  npm i -D playwright && npx playwright install chromium
+// 준비(로컬 PC, 한 번만):  npm i --no-save playwright && npx playwright install chromium
 // 사용:
 //   node content-ops/scripts/naver-fill.mjs --account A                 # 오늘(KST) A 계정 3편
 //   node content-ops/scripts/naver-fill.mjs --account B --date 2026-10-18 --post 2
@@ -14,8 +14,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import readline from 'node:readline/promises';
+import { fileURLToPath } from 'node:url';
 
-const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '../..');
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const args = process.argv.slice(2);
 const opt = (name, def) => {
   const i = args.indexOf(`--${name}`);
@@ -69,7 +70,7 @@ if (dryRun) {
 }
 
 const { chromium } = await import('playwright').catch(() => {
-  console.error('playwright가 없습니다. npm i -D playwright && npx playwright install chromium 후 다시 실행하세요.');
+  console.error('playwright가 없습니다. npm i --no-save playwright && npx playwright install chromium 후 다시 실행하세요.');
   process.exit(1);
 });
 
