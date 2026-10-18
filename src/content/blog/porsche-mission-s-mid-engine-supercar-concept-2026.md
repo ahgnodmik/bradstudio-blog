@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Erik Mclean'
   creditUrl: 'https://unsplash.com/@introspectivedsgn'
 
-status: draft
+status: published
 
 category: world
 tags:
