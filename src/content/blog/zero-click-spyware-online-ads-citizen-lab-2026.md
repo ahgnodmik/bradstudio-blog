@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Gilles Lambert'
   creditUrl: 'https://unsplash.com/@gilleslambert'
 
-status: draft
+status: published
 
 category: world
 tags:

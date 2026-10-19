@@ -4,7 +4,7 @@ title: '이번 주 해외 화제·신제품 정리 (10월 3주) — 신압록강
 description: '10월 12~18일 블로그에 정리한 해외 이슈 6건과 신제품 8건을 한 번에 모았다. 오로라, 엔비디아·Reflection AI, 동태평양 허리케인, 신압록강대교, 브라질 주 40시간, 미국 연금 3.6% 인상과 Await·CMF·HomeView·PhoneBot·ZERO·Xbox 나노·AX9 Max·Mission S까지 핵심만 2~3줄로 정리했다.'
 pubDate: 2026-10-19
 
-status: draft
+status: published
 
 category: world
 tags:

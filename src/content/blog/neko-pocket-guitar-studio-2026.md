@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Kelly Sikkema'
   creditUrl: 'https://unsplash.com/@kellysikkema'
 
-status: draft
+status: published
 
 category: world
 tags:
