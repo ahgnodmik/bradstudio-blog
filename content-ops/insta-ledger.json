@@ -108,5 +108,32 @@
   "why-only-now/delivered/116-musician-s-multitool-destroys-your-excus.json": {
     "contentId": "bs-20261019-003",
     "date": "2026-10-19"
+  },
+  "abroad-now/delivered/2026-10-16-kenya-ebola-third-case.json": {
+    "contentId": "bs-20261020-001",
+    "date": "2026-10-20",
+    "note": "콩고 8번째 주 확산과 묶어 정리. 원천 '번디부교 마비 증상 특징'·'사망률 낮은 편'은 확인 실패로 제외(WHO 치명률 약 48%)"
+  },
+  "abroad-now/pending/2026-10-18-congo-ebola-eighth-province.json": {
+    "contentId": "bs-20261020-001",
+    "date": "2026-10-20",
+    "note": "케냐 글에 통합. 원천 '케냐 8건'·'예방접종 캠페인'은 확인 실패로 제외(번디부교형 허가 백신 없음)"
+  },
+  "abroad-now/delivered/2026-10-18-apple-iphone-duo-retail-warning.json": {
+    "contentId": "bs-20261020-002",
+    "date": "2026-10-20",
+    "note": "원천 '충동구매 경고'를 '사전주문 없는 손님에게 출시일 워크인 재고 없음 안내'로 정정, '공식 실리콘 케이스'는 폴리카보네이트 접착식으로 정정, 한국 워크인 제한은 보도 엇갈림으로 표기"
+  },
+  "why-only-now/delivered/113-aurelis-bag-concept-is-wearable-sculptur.json": {
+    "skipped": "디자인 콘셉트 단계, 출시·가격 정보 없음",
+    "date": "2026-10-20"
+  },
+  "why-only-now/delivered/114-tesla-s-new-roadster-can-fly-its-ceo-s-r.json": {
+    "skipped": "원천 '날 수 있는 로드스터' 주장이 의견 칼럼 기반이라 사실 확인 어려움",
+    "date": "2026-10-20"
+  },
+  "why-only-now/delivered/117-the-international-lineman-s-rodeo-the-ol.json": {
+    "skipped": "신제품이 아닌 행사 소개",
+    "date": "2026-10-20"
   }
 }
