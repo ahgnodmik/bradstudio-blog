@@ -8,6 +8,9 @@
 (비어 있음)
 
 ## 완료
+- (2026-10-20) 슈퍼 엘니뇨와 한국 겨울 전망 가이드 — bs-20261020-001 (elnino-winter-forecast-2026) [출처: naver/2026-10-19 주제3, tistory/2026-10-17/elnino-winter]
+- (2026-10-20) 나라별 근로시간 비교 브라질·한국·일본·프랑스·EU — bs-20261020-002 (workweek-hours-comparison-2026) [출처: tistory/2026-10-18/workweek-compare]
+- (2026-10-20) 스마트홈 허브 구매 가이드 2026 — bs-20261020-003 (smart-home-hub-buying-guide-2026) [출처: tistory/2026-10-19/smart-display-guide]
 - (2026-10-13) 여자축구 아시안게임 2026 동메달 — bs-20261013-001 (asian-games-womens-football-bronze-2026) [출처: 2026-10-w1-thu #12]
 - (2026-10-13) DMZ 지뢰 폭발 합참 최종 결론 — bs-20261013-002 (dmz-mine-explosion-jcs-final-2026) [출처: 2026-10-w1-thu #15]
 - (2026-10-13) 2027학년도 수능 D-37 준비 가이드 — bs-20261013-003 (suneung-2027-exam-date-guide) [출처: 검색 · 교육부 발표 2024-08-16]
