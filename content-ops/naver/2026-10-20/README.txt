@@ -23,3 +23,9 @@ D-2 https://unsplash.com/photos/kiocDlMgxmk (Martin Sanchez)
 D-3 https://unsplash.com/photos/7alo7OJVNVw (Kelly Sikkema)
 
 티스토리: ad-tracking-explained https://unsplash.com/photos/Im7lZjxeLhg (Ales Nesetril), engine-layout-compare https://unsplash.com/photos/o5PZXJqoDTI (Adrian Newell), home-recording-start https://unsplash.com/photos/KVlcVi-Ulgo (Jonathan Farber)
+
+추가 주제 4(국내 생활): 10월 29일 양육비 선지급 소득기준 폐지·주민등록표 표기 변경
+A-4 https://unsplash.com/photos/B32qg6Ua34Y (Liane Metzler)
+B-4 https://unsplash.com/photos/xoU52jUVUXA (Kelly Sikkema)
+C-4 https://unsplash.com/photos/7PMGUqYQpYc (Markus Spiske) — 독일 문서 사진, 캡션 "실제 주민등록표 아님"
+D-4 https://unsplash.com/photos/jqxB3C0YNG0 (Kyrie kim)
