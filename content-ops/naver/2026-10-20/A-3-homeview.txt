@@ -1,0 +1,75 @@
+제목: 애플 HomeView 출고 3주 앞으로… 발표 후 새로 드러난 사실 7가지(거치대 별도·8개국 출시·영어 전용)
+
+애플 HomeView 출고일은 11월 13일입니다. 오늘(10월 20일) 기준으로 3주 남짓 남았습니다. 10월 13일 발표 때는 가격과 기능이 주로 알려졌습니다. 그 뒤 일주일 동안 판매 국가, 구성품, 거치대 가격, 첫 체험기가 차례로 나왔습니다. 두 곳 이상 매체에서 같은 내용이 확인된 것만 골라 정리합니다.
+
+■ 먼저 바뀌지 않은 것
+발표 당시 정보는 그대로입니다.
+- 가격: 미국 299달러, 탁상형과 벽걸이형 같은 가격
+- 화면: 7인치 정사각형 터치스크린
+- 일정: 10월 13일 사전 주문, 11월 13일 첫 배송
+- 핵심 기능: Siri AI, 얼굴 인식으로 최대 6명 구분
+- 판매 제외: EU(Siri AI 미제공 지역)
+
+■ 사실 1. 첫 출시국은 8곳, 한국은 빠졌다
+첫 판매국은 미국, 영국, 캐나다, 호주, 뉴질랜드, 인도, 싱가포르, 남아프리카공화국입니다. 여덟 나라 모두 11월 13일 배송을 시작합니다. 싱가포르는 10월 15일에 사전 주문을 열었습니다. 남아공은 애플 공인 판매점을 통해 주문합니다. 인도 판매가는 3만 9,900루피로 알려졌습니다. 한국, 일본, EU 회원국은 이번 명단에 없습니다.
+
+■ 사실 2. Siri AI는 출시 국가 모두 영어만 지원
+HomeView의 Siri AI는 여덟 나라 모두 영어로만 작동합니다. 캐나다용 프랑스어는 이후 업데이트로 추가될 예정입니다. 한국어 지원 일정은 나오지 않았습니다. 국내에서 직구해 써도 음성 명령은 영어로 해야 한다는 뜻입니다.
+
+■ 사실 3. 벽걸이형은 거치대를 따로 사야 한다
+가장 많이 다뤄진 소식입니다. 벽걸이형 상자에는 본체와 설명서만 들어 있습니다. 전원 어댑터, 케이블, 벽 거치대는 없습니다. 거치대는 슈나이더 홈(Schneider Home) 제품을 별도로 사야 합니다.
+- USB-C 벽면 커넥터형: 59.95달러
+- AC 직결형: 79.95달러
+- PoE(랜선 전원)형: 129.95달러, 2027년 초 출시 예정
+가장 싼 거치대를 더해도 벽걸이형 실구매가는 358.95달러(세금 별도)부터입니다. AC 직결형은 벽 안 배선 공사가 필요할 수 있습니다.
+
+■ 사실 4. 탁상형에만 우퍼가 있다
+탁상형 받침에는 아래를 향한 우퍼와 패시브 라디에이터가 들어 있습니다. 벽걸이형은 받침이 없어 화면 쪽 스피커 두 개로만 소리를 냅니다. 애플은 벽에 붙였을 때 맞춘 음향 보정을 넣었다고 설명했습니다. 음악 감상이 중요하면 탁상형이 유리합니다. 탁상형 상자에는 30W 어댑터와 USB-C 케이블이 들어 있습니다.
+
+■ 사실 5. 색상은 형태별로 다르다
+탁상형은 실버, 스타라이트, 로즈 핑크, 스페이스 그레이 네 가지입니다. 벽걸이형은 실버와 스페이스 그레이 두 가지뿐입니다. 스타라이트와 로즈 핑크는 탁상형 전용입니다.
+
+■ 사실 6. 출시 전부터 할인이 붙었다
+미국 아마존이 일부 색상의 탁상형을 289.99달러에 사전 판매했습니다. 정가보다 약 9달러 낮습니다. 할인 색상은 날짜마다 바뀌었습니다.
+
+■ 사실 7. Matter·Thread 허브 역할도 맡는다
+HomeView는 Matter 컨트롤러이자 Thread 보더 라우터로 소개됐습니다. 다른 회사가 만든 Matter 기기도 애플 홈 앱으로 묶을 수 있다는 뜻입니다. 애플은 LG와 함께 도어벨, 보안 카메라, 도어락, 온도조절기로 구성된 'Apple Home Collection'도 공개했습니다. 이 제품들의 출시 국가는 HomeView보다 좁고 출고 시기는 매체마다 다르게 전해졌습니다.
+
+■ 첫 체험기는 엇갈린 반응
+발표 현장 체험기는 호평과 의문이 섞였습니다.
+- 기즈모도: 만듦새가 고급스럽고 화면 반응이 매끄럽다고 평가
+- 테크어드바이저: 정사각형에 가까운 화면은 영상과 레시피를 보기에 불리하다고 지적
+정식 리뷰는 출고 이후에 나옵니다. 실제 사용 평가는 11월 중순 이후 확인해야 합니다.
+
+■ 한눈에 보는 출고 전 체크
+- 출시국: 미국 등 영어권 8개국, 한국 미포함
+- 언어: Siri AI 영어 전용
+- 벽걸이형: 거치대 59.95달러부터 별도
+- 탁상형: 우퍼, 어댑터, 케이블 포함
+- 색상: 탁상형 4색, 벽걸이형 2색
+- 스마트홈 표준: Matter 컨트롤러, Thread 보더 라우터
+
+■ 아직 확인되지 않은 것
+- 한국 출시 시기와 원화 가격
+- 한국어 Siri AI 지원 일정
+- 출고 이후 실사용 리뷰
+- Apple Home Collection 기기별 정확한 출고일
+
+직구를 고민 중이라면 오늘 벽걸이형과 탁상형 중 하나를 정하고, 거치대 비용까지 더한 금액으로 예산표를 다시 짜 보세요.
+
+■ 출처·참고
+- 아이띵크디퍼런트(iThinkDiff): https://www.ithinkdiff.com/apple-homeview-countries-availability/
+- 프리프레스저널(Free Press Journal): https://www.freepressjournal.in/tech/apple-homeview-debuts-in-india-with-siri-ai-facial-recognition-more
+- 맥루머스(MacRumors): https://macrumors.com/2026/10/13/apple-homeview-wont-be-available-in-eu
+- 9to5Mac: https://9to5mac.com/2026/10/13/homeview-for-your-wall-doesnt-include-mount-which-costs-59-minimum/
+- 아이폰인캐나다(iPhone in Canada): https://www.iphoneincanada.ca/2026/10/15/apples-wall-mounted-homeview-wont-include-a-charger-cable-or-mount/
+- 안드로이드헤드라인(Android Headlines): https://www.androidheadlines.com/2026/10/apple-homeview-wall-mounted-model-costs-extra-for-essential-accessories.html
+- 더숏컷(The Shortcut): https://www.theshortcut.com/p/why-you-shouldnt-buy-the-wall-mounted-apple-homeview
+- 맥루머스(MacRumors): https://macrumors.com/2026/10/13/homeview-comes-in-four-colors
+- 아이띵크디퍼런트(iThinkDiff): https://www.ithinkdiff.com/apple-homeview-colors-tabletop-wall-mounted/
+- 맥루머스(MacRumors): https://macrumors.com/2026/10/14/first-discounts-hit-homeview/
+- T3: https://www.t3.com/home-living/smart-home/apple-homeview-already-discounted-and-its-not-even-out-yet-pre-order-the-smart-home-hub-for-less
+- BGR: https://www.bgr.com/2286406/does-apple-homeview-have-thread-matter-support/
+- 기즈모도(Gizmodo): https://gizmodo.com/homeview-apple-smart-home-hub-2000824152
+- 기즈모도(Gizmodo): https://gizmodo.com/apple-homeview-hands-on-2000825418
+- 테크어드바이저(Tech Advisor): https://www.techadvisor.com/article/3259527/apple-homeview-5-weird-decisions-on-new-smart-screen.html
