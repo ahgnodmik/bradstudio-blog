@@ -1,0 +1,75 @@
+<p>운동화를 한 번 검색했을 뿐인데 며칠 동안 운동화 광고가 따라다닌 경험, 다들 있으실 겁니다. 광고는 내 이름을 모릅니다. 대신 내 기기와 브라우저를 알아봅니다. 이 글에서는 맞춤형 광고가 나를 알아보는 네 가지 장치인 광고 ID, 쿠키, 실시간 광고 경매(RTB), 핑거프린팅을 차례로 풀어 봅니다. 마지막에는 휴대폰과 브라우저에서 추적을 줄이는 설정 방법을 정리했습니다.</p>
+
+<h2>한눈에 보기: 광고가 나를 알아보는 4가지 방법</h2>
+<table>
+<tbody>
+<tr><th>장치</th><th>어디서 쓰이나</th><th>무엇으로 구분하나</th><th>사용자가 끌 수 있나</th></tr>
+<tr><td>광고 ID</td><td>스마트폰 앱</td><td>운영체제가 기기마다 붙여 주는 광고용 번호</td><td>가능(삭제·재설정·추적 거부)</td></tr>
+<tr><td>쿠키</td><td>웹 브라우저</td><td>사이트가 브라우저에 저장하는 작은 기록</td><td>가능(삭제·제3자 쿠키 차단)</td></tr>
+<tr><td>실시간 광고 경매(RTB)</td><td>앱과 웹 광고 지면 전체</td><td>위 식별자를 담은 입찰 요청</td><td>직접 끄기는 어려움. 식별자를 줄이면 정보가 줄어듦</td></tr>
+<tr><td>핑거프린팅</td><td>주로 웹 브라우저</td><td>화면, 글꼴, 그래픽 처리 방식 같은 설정 조합</td><td>완전 차단은 어려움. 보호 기능이 있는 브라우저로 줄임</td></tr>
+</tbody>
+</table>
+
+<h2>광고 ID: 휴대폰에 붙은 광고용 번호표</h2>
+<p>스마트폰에는 광고용 식별자가 있습니다. 안드로이드는 구글 플레이 서비스가 제공하는 광고 ID를 씁니다. 아이폰은 IDFA라는 식별자를 씁니다. 이름은 달라도 역할은 같습니다. 여러 앱이 같은 번호를 보고 같은 기기라는 걸 알아챕니다.</p>
+<p>예를 들어 쇼핑 앱에서 본 상품 정보가 이 번호와 함께 광고 회사로 넘어갑니다. 나중에 게임 앱을 켜면 같은 번호를 단 기기에 그 상품 광고가 뜹니다. 이름이나 전화번호가 없어도 이 번호 하나로 앱 사이를 이어 붙일 수 있습니다.</p>
+<p>이 번호는 사용자가 바꾸거나 지울 수 있습니다. 구글 도움말에 따르면 안드로이드 광고 ID는 사용자가 재설정하거나 삭제할 수 있게 설계됐습니다. 삭제하면 앱이 번호를 요청해도 0으로만 채워진 값을 받습니다.</p>
+
+<h2>쿠키: 브라우저에 남는 방문 기록</h2>
+<p>쿠키는 웹사이트가 브라우저에 저장하는 작은 데이터입니다. 로그인 상태를 기억하고 장바구니를 유지하는 데 꼭 필요합니다. 문제는 제3자 쿠키입니다. 내가 방문한 사이트가 아닌 다른 회사가 심는 쿠키입니다.</p>
+<p>뉴스 사이트에 광고 회사 코드가 들어 있다고 해 봅시다. 그 회사는 내 브라우저에 쿠키를 남깁니다. 같은 광고 회사 코드가 쇼핑몰에도 있으면 같은 쿠키를 다시 읽습니다. 두 사이트를 같은 사람이 다녀갔다는 사실이 연결됩니다. 모질라는 이를 교차 사이트 추적이라고 부릅니다.</p>
+<p>브라우저마다 기본 설정이 다릅니다. 사파리는 지능형 추적 방지 기능을 기본으로 켜 둡니다. 파이어폭스는 교차 사이트 추적 쿠키를 기본으로 막습니다. 쿠키를 사이트별로 따로 보관해 다른 사이트에서 읽지 못하게 하는 기능도 있습니다.</p>
+
+<h2>실시간 광고 경매(RTB): 0.1초 안팎의 입찰</h2>
+<p>앱이나 웹페이지를 열면 광고 자리가 하나 생깁니다. 이 자리는 그 순간 경매에 붙습니다. 이것이 실시간 광고 경매, RTB입니다. 과정은 대략 이렇습니다.</p>
+<ul>
+<li><b>입찰 요청:</b> 매체 쪽 시스템이 광고 자리 정보와 사용자 식별 정보를 담아 요청을 보냅니다. 여기에 쿠키 ID나 광고 ID가 들어갑니다.</li>
+<li><b>동시 전달:</b> 이 요청은 광고를 사려는 여러 플랫폼에 한꺼번에 퍼집니다.</li>
+<li><b>입찰 또는 포기:</b> 각 플랫폼은 이 사용자에게 광고를 보여 줄 가치가 있는지 판단해 값을 부르거나 빠집니다.</li>
+<li><b>낙찰과 노출:</b> 가장 좋은 조건을 낸 광고가 화면에 뜹니다.</li>
+</ul>
+<p>업계 자료들은 이 과정이 대개 100밀리초 안팎, 즉 0.1초 정도에 끝난다고 설명합니다. 거래소마다 기다려 주는 시간은 다릅니다. 눈 깜빡할 사이에 내 기기 정보가 여러 회사로 퍼졌다가 돌아오는 셈입니다. 낙찰을 받지 못한 회사도 요청에 담긴 정보는 봤다는 점이 개인정보 측면에서 자주 지적됩니다.</p>
+
+<h2>핑거프린팅: 쿠키 없이도 알아보는 방법</h2>
+<p>쿠키를 지워도 추적이 이어질 수 있습니다. 핑거프린팅 때문입니다. 브라우저는 사이트에 여러 설정 정보를 보여 줍니다. 화면 해상도, 언어, 시간대, 설치된 글꼴, 그래픽 처리 방식 같은 것들입니다. 하나하나는 흔한 값입니다. 그런데 이걸 모두 합치면 내 브라우저만의 조합이 만들어집니다.</p>
+<p>대표적인 기법이 캔버스 지문입니다. 사이트가 보이지 않는 영역에 글자와 도형을 그리게 합니다. 운영체제, 그래픽 칩, 드라이버에 따라 결과 픽셀이 미세하게 달라집니다. 그 결과를 짧은 값으로 바꿔 식별에 씁니다. 글꼴 목록도 비슷하게 쓰입니다.</p>
+<p>미국 디지털 권리 단체 EFF는 핑거프린팅을 알아채기도, 막기도 매우 어렵다고 설명합니다. EFF가 운영하는 Cover Your Tracks 사이트에 들어가면 내 브라우저가 얼마나 독특한지 직접 확인할 수 있습니다.</p>
+
+<h2>사례: 광고 시스템이 스파이웨어 통로가 된 애드펙션</h2>
+<p>이 구조가 감시에 쓰인 사례도 있습니다. 캐나다 토론토대 시티즌랩은 10월 15일 애드펙션(AdFection) 보고서를 냈습니다. 이스라엘 광고 회사 Discover-Tech가 광고 플랫폼 Controlium으로 표적을 골랐다는 내용입니다. 고객은 광고 ID, 쿠키 ID, IP 주소로 특정 기기를 지정할 수 있었습니다.</p>
+<p>광고가 뜨기만 하면 표적 여부가 가려졌고, 사용자가 광고를 누를 필요는 없었습니다. 시티즌랩은 스파이웨어를 칸디루(Candiru) 제품으로 봤습니다. 2024~2025년 알자지라 기기 최소 45대가 표적이 됐습니다. 매체들은 이 회사 광고가 20만 곳에 가까운 앱과 웹사이트에 실렸다고 전했습니다. 맞춤형 광고에 쓰이는 식별자가 그대로 표적 지정 도구가 된 사례입니다.</p>
+
+<h2>추적 줄이는 법: 기기별 설정</h2>
+<p>메뉴 이름은 운영체제 버전과 제조사에 따라 조금씩 다를 수 있습니다.</p>
+<ul>
+<li><b>안드로이드:</b> 설정 → 개인정보 보호 → 광고 → 광고 ID 삭제. 안드로이드 12 이상에서 지원합니다. 메뉴가 없다면 같은 화면에서 광고 ID 재설정을 누릅니다.</li>
+<li><b>아이폰:</b> 설정 → 개인정보 보호 및 보안 → 추적 → 앱이 추적을 요청하도록 허용을 끕니다. 그러면 앱이 묻지 않고 추적 거부로 처리됩니다. 이미 허용한 앱도 같은 화면에서 끌 수 있습니다.</li>
+<li><b>브라우저:</b> 사파리와 파이어폭스는 기본 보호가 켜져 있습니다. 크롬은 설정의 개인정보 보호 메뉴에서 제3자 쿠키 차단을 직접 고르세요.</li>
+<li><b>쿠키 정리:</b> 오래 쌓인 쿠키는 주기적으로 지웁니다. 로그인이 풀리는 점은 감안해야 합니다.</li>
+<li><b>핑거프린팅:</b> 파이어폭스의 엄격 모드나 핑거프린팅 보호 기능이 있는 브라우저를 고려해 보세요.</li>
+<li><b>업데이트:</b> 운영체제와 브라우저를 최신으로 유지합니다. 애드펙션 같은 공격은 고쳐지지 않은 취약점을 노립니다.</li>
+</ul>
+<p>설정을 바꿔도 광고 수는 그대로입니다. 광고가 덜 정확해질 뿐입니다. 앱마다 자체 광고 설정이 따로 있을 수 있다는 점도 기억해 두세요.</p>
+
+<h2>자주 헷갈리는 점</h2>
+<ul>
+<li><b>시크릿 모드면 안전한가:</b> 창을 닫으면 쿠키가 지워질 뿐입니다. 핑거프린팅과 IP 주소는 그대로 보입니다.</li>
+<li><b>광고 ID를 지우면 광고가 사라지나:</b> 아닙니다. 맞춤 정보가 줄어 일반 광고가 늘어납니다.</li>
+<li><b>VPN이면 해결되나:</b> IP 주소는 가릴 수 있습니다. 광고 ID와 쿠키는 별개입니다.</li>
+</ul>
+
+<p>지금 휴대폰을 열고 광고 ID와 추적 설정 화면부터 확인해 보세요. 두 메뉴만 바꿔도 앱 사이를 오가는 추적이 크게 줄어듭니다.</p>
+
+<h2>출처·참고</h2>
+<ul>
+<li><a href="https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/" target="_blank" rel="noopener">The Citizen Lab — Exposing AdFection: How Discover-Tech Turned Targeted Ads Into a Pipeline for Zero-Click Mercenary Spyware</a></li>
+<li><a href="https://techcrunch.com/2026/10/15/citizen-lab-says-governments-are-abusing-online-ads-to-hack-people-with-zero-click-spyware/" target="_blank" rel="noopener">TechCrunch — Governments are hacking people with 'zero-click' spyware by showing them online ads</a></li>
+<li><a href="https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/" target="_blank" rel="noopener">BleepingComputer — Targeted ads installed Candiru spyware in zero-click attacks</a></li>
+<li><a href="https://support.google.com/googleplay/android-developer/answer/6048248?hl=en" target="_blank" rel="noopener">Google Play Console 고객센터 — Advertising ID</a></li>
+<li><a href="https://support.apple.com/en-sg/HT212025" target="_blank" rel="noopener">Apple 지원 — If an app asks to track your activity</a></li>
+<li><a href="https://www.eff.org/deeplinks/2022/05/how-disable-ad-id-tracking-ios-and-android-and-why-you-should-do-it-now" target="_blank" rel="noopener">EFF — How to Disable Ad ID Tracking on iOS and Android, and Why You Should Do It Now</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/Privacy/Third-party_cookies" target="_blank" rel="noopener">MDN — Third-party cookies</a></li>
+<li><a href="https://support.mozilla.org/kb/third-party-cookies-firefox-tracking-protection" target="_blank" rel="noopener">Mozilla 지원 — Third-party cookies and Firefox tracking protection</a></li>
+<li><a href="https://coveryourtracks.eff.org/about" target="_blank" rel="noopener">EFF — About Cover Your Tracks</a></li>
+</ul>

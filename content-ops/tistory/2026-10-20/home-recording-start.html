@@ -1,0 +1,90 @@
+<p>집에서 노래나 기타를 녹음해 보고 싶은데 어디서부터 시작해야 할지 막막한 분이 많습니다. 장비 이름은 낯설고, 쇼핑몰에는 비슷해 보이는 기기가 끝없이 나옵니다. 최근에는 앰프 모델링과 녹음을 주머니 크기 기기 하나에 담은 Neko 같은 제품까지 소개되며 선택지가 더 넓어졌습니다. 이 글에서는 홈레코딩에 꼭 필요한 네 가지 개념인 오디오 인터페이스, DAW, 모니터링, 레이턴시를 먼저 정리합니다. 그다음 예산 규모별로 어떤 구성을 고려할 수 있는지 살펴봅니다.</p>
+
+<h2>한눈에 보기: 홈레코딩 기본 구성</h2>
+<table>
+<tbody>
+<tr><th>장비</th><th>하는 일</th><th>입문자가 볼 점</th></tr>
+<tr><td>오디오 인터페이스</td><td>마이크·악기 소리를 디지털로 바꿔 컴퓨터로 보냄</td><td>입력 개수, 마이크 단자, 팬텀 파워, 헤드폰 단자</td></tr>
+<tr><td>DAW(녹음 프로그램)</td><td>소리를 녹음하고 편집하고 섞음</td><td>무료 버전 유무, 운영체제 호환, 배우기 쉬운지</td></tr>
+<tr><td>마이크</td><td>목소리나 어쿠스틱 악기 소리를 받음</td><td>다이내믹인지 콘덴서인지, 방 소음</td></tr>
+<tr><td>헤드폰·모니터 스피커</td><td>녹음하면서 듣고, 믹스를 확인함</td><td>녹음용은 소리가 새지 않는 밀폐형이 편함</td></tr>
+<tr><td>케이블·스탠드</td><td>장비를 연결하고 고정함</td><td>마이크 케이블(XLR), 악기 케이블, 마이크 스탠드</td></tr>
+</tbody>
+</table>
+
+<h2>오디오 인터페이스: 소리를 컴퓨터로 옮기는 관문</h2>
+<p>마이크와 기타에서 나오는 소리는 전기 신호입니다. 컴퓨터는 이 신호를 그대로 받지 못합니다. 오디오 인터페이스가 신호를 디지털로 바꿔 USB 등으로 컴퓨터에 넘깁니다. 반대 방향도 맡습니다. 컴퓨터의 소리를 헤드폰과 스피커로 내보냅니다.</p>
+<p>고를 때 볼 항목은 많지 않습니다.</p>
+<ul>
+<li><b>입력 개수:</b> 혼자 노래하거나 기타를 녹음한다면 입력 2개짜리로 충분한 경우가 많습니다. 드럼처럼 마이크를 여러 개 쓰면 더 필요합니다.</li>
+<li><b>마이크 프리앰프:</b> 마이크의 약한 신호를 키워 주는 회로입니다. XLR 단자가 있어야 일반 녹음용 마이크를 꽂을 수 있습니다.</li>
+<li><b>팬텀 파워(48V):</b> XLR 콘덴서 마이크는 대부분 인터페이스에서 48V 전원을 받아야 작동합니다. 이 기능이 있는지 확인하세요.</li>
+<li><b>악기 입력(Hi-Z):</b> 기타나 베이스를 바로 꽂으려면 악기용 입력이 필요합니다.</li>
+<li><b>다이렉트 모니터링:</b> 아래에서 따로 설명합니다. 입문용에도 흔히 들어 있습니다.</li>
+</ul>
+
+<h2>DAW: 녹음하고 편집하는 작업실</h2>
+<p>DAW는 디지털 오디오 워크스테이션의 줄임말입니다. 녹음 버튼을 누르고, 잘라 붙이고, 여러 트랙을 섞는 프로그램입니다. 처음부터 비싼 프로그램을 살 필요는 없습니다.</p>
+<ul>
+<li><b>맥:</b> 애플의 GarageBand가 무료로 제공됩니다. 나중에 Logic Pro로 옮겨도 프로젝트를 이어서 열 수 있습니다.</li>
+<li><b>윈도:</b> BandLab이 무료로 풀었던 Cakewalk가 자주 추천됩니다. 기능은 많지만 화면이 복잡해 익숙해지는 데 시간이 걸린다는 평가가 있습니다.</li>
+<li><b>저렴한 유료:</b> Reaper는 체험판을 써 본 뒤 비교적 낮은 가격의 개인 라이선스로 계속 쓸 수 있습니다. 조건은 공식 사이트에서 최신 내용을 확인하세요.</li>
+</ul>
+<p>윈도에서 쓴다면 인터페이스 제조사가 제공하는 ASIO 드라이버를 설치하는 것이 좋습니다. 지연이 줄고 동작이 안정됩니다.</p>
+
+<h2>레이턴시: 소리가 늦게 들리는 이유</h2>
+<p>레이턴시는 소리를 낸 순간과 헤드폰으로 들리는 순간 사이의 시간차입니다. 컴퓨터는 소리를 조금씩 모아서 처리합니다. 이 묶음 크기를 버퍼라고 합니다. 버퍼가 크면 처리가 안정적이지만 지연이 늘어납니다. 버퍼가 작으면 지연은 줄지만 컴퓨터 부담이 커져 소리가 끊기거나 잡음이 낄 수 있습니다.</p>
+<p>계산해 보면 감이 옵니다. 48kHz에서 버퍼 128샘플은 약 2.7밀리초입니다. 실제로는 입력과 출력을 거치며 이보다 길어집니다. 음향 매체 Audiofanzine은 10밀리초 정도면 대부분 불편 없이 연주할 수 있고, 20밀리초를 넘으면 다루기 어려워진다고 설명합니다. 다만 느끼는 정도는 사람마다 다릅니다.</p>
+<p>실전 요령은 단순합니다.</p>
+<ul>
+<li><b>녹음할 때:</b> 소리가 끊기지 않는 선까지 버퍼를 낮춥니다. 128~256샘플에서 시작해 보는 경우가 많습니다.</li>
+<li><b>믹싱할 때:</b> 플러그인을 많이 쓰니 버퍼를 올려 안정성을 확보합니다.</li>
+</ul>
+
+<h2>모니터링: 녹음하면서 내 소리를 듣는 법</h2>
+<p>모니터링은 녹음하는 동안 내 소리와 반주를 듣는 일입니다. 방법은 두 가지입니다.</p>
+<ul>
+<li><b>소프트웨어 모니터링:</b> 소리가 컴퓨터와 DAW를 거쳐 돌아옵니다. 이펙트를 걸어 들을 수 있지만 버퍼만큼 지연이 생깁니다.</li>
+<li><b>다이렉트 모니터링:</b> 인터페이스가 입력 신호를 컴퓨터를 거치지 않고 바로 헤드폰으로 보냅니다. 포커스라이트 지원 문서는 이를 지연이 거의 없는 방식으로 설명합니다. 녹음은 그대로 DAW에 됩니다.</li>
+</ul>
+<p>다이렉트 모니터링을 켰다면 DAW 쪽 모니터링은 꺼야 합니다. 둘 다 켜면 내 소리가 두 번 겹쳐 들립니다. 녹음할 때는 소리가 새지 않는 밀폐형 헤드폰이 편합니다. 헤드폰 소리가 마이크로 들어가는 것을 줄여 줍니다.</p>
+
+<h2>마이크: 다이내믹과 콘덴서</h2>
+<p>마이크는 크게 다이내믹과 콘덴서로 나뉩니다. 다이내믹 마이크는 외부 전원이 필요 없고 튼튼합니다. 주변 소음과 방 울림을 덜 받아들입니다. 콘덴서 마이크는 섬세한 고음까지 잘 잡지만 방 소리, 컴퓨터 팬 소리, 바깥 소음도 함께 담습니다. 충격과 습기에도 약합니다.</p>
+<p>방음이나 흡음 처리가 안 된 일반 방이라면 다이내믹 마이크를 가까이 대고 녹음하는 편이 깔끔한 결과를 얻기 쉽습니다. 조용하고 울림이 적은 공간이라면 콘덴서가 장점을 살립니다. 마이크를 바꾸기 전에 방부터 손보는 것이 더 효과적일 때도 많습니다.</p>
+
+<h2>예산별 구성 예시</h2>
+<p>아래 금액은 모델, 환율, 판매처에 따라 크게 달라집니다. 대략적인 규모로만 보세요.</p>
+<table>
+<tbody>
+<tr><th>예산 규모</th><th>구성</th><th>맞는 사람</th></tr>
+<tr><td>최소 시작(수십만 원 이하)</td><td>2채널 입문형 인터페이스 + 무료 DAW + 가지고 있는 헤드폰 + 다이내믹 마이크 1개</td><td>노래·기타를 일단 녹음해 보고 싶은 사람</td></tr>
+<tr><td>중간(50만 원 안팎)</td><td>입문형 인터페이스 + 밀폐형 모니터링 헤드폰 + 콘덴서나 다이내믹 마이크 + 스탠드·팝필터</td><td>보컬 녹음을 꾸준히 할 사람</td></tr>
+<tr><td>여유(100만 원 이상)</td><td>입력이 많은 인터페이스 + 모니터 스피커 + 마이크 2종 + 기본 흡음재 + 유료 DAW</td><td>여러 악기를 녹음하고 믹싱까지 할 사람</td></tr>
+</tbody>
+</table>
+<p>기타만 녹음한다면 다른 길도 있습니다. 앰프 모델링을 담은 멀티이펙터나 Neko처럼 녹음 기능을 품은 휴대 기기를 쓰는 방식입니다. Neko는 NAM 기반 앰프 모델링과 기기 안에서 도는 음원 분리를 내세웠지만, 가격과 출시 일정은 아직 확정되지 않았습니다. 독립 리뷰가 나온 뒤 판단하는 편이 안전합니다.</p>
+
+<h2>처음 녹음할 때 체크리스트</h2>
+<ul>
+<li>인터페이스 드라이버를 설치했나(윈도는 ASIO)</li>
+<li>DAW에서 입력·출력 장치를 인터페이스로 골랐나</li>
+<li>콘덴서 마이크라면 48V를 켰나</li>
+<li>입력 레벨이 빨간불까지 올라가지 않나</li>
+<li>다이렉트 모니터링과 DAW 모니터링이 겹치지 않나</li>
+</ul>
+
+<p>오늘은 가지고 있는 헤드폰과 무료 DAW로 휴대폰 녹음보다 나은 첫 트랙을 만들어 보세요. 직접 녹음해 보면 다음에 살 장비가 무엇인지 분명해집니다.</p>
+
+<h2>출처·참고</h2>
+<ul>
+<li><a href="https://support.focusrite.com/hc/en-gb/articles/206849219" target="_blank" rel="noopener">Focusrite 지원 — Direct Monitoring 관련 안내</a></li>
+<li><a href="https://rsrc.harrisonconsoles.com/mixbus/mixbus-live-manual/8/en/topic/latency-and-buffer-size" target="_blank" rel="noopener">Harrison Mixbus 매뉴얼 — How do I choose a buffer size?</a></li>
+<li><a href="https://en.audiofanzine.com/sound-technique/editorial/articles/find-your-latency-threshold.html" target="_blank" rel="noopener">Audiofanzine — Find your latency threshold</a></li>
+<li><a href="https://www.thomannmusic.com/blog/gear/condenser-vs-dynamic-microphones-which-is-best-for-beginners/" target="_blank" rel="noopener">Thomann — Condenser vs Dynamic Microphones: Which Should You Choose?</a></li>
+<li><a href="https://musiciangoods.com/en-gb/blogs/mixing-mastering/condenser-vs-dynamic-microphone-2026" target="_blank" rel="noopener">Musician Goods — Condenser vs Dynamic Microphone</a></li>
+<li><a href="https://output.com/blog/best-daw-for-beginners" target="_blank" rel="noopener">Output — Best DAWs for Beginners</a></li>
+<li><a href="https://musiciangoods.com/en-gb/blogs/mixing-mastering/best-daw-for-beginners-2026" target="_blank" rel="noopener">Musician Goods — Best DAW for Beginners</a></li>
+<li><a href="https://www.guitarworld.com/gear/studio-recording-equipment/neko-engineering-neko-pocket-studio" target="_blank" rel="noopener">Guitar World — Neko Engineering unveils the NAM-compatible wireless studio tool that fits in your pocket</a></li>
+<li><a href="https://www.lalal.ai/blog/meet-neko/" target="_blank" rel="noopener">LALAL.AI — Meet Neko, A Mini AI Guitar Rig</a></li>
+</ul>
