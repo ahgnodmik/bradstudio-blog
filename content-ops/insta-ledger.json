@@ -135,5 +135,14 @@
   "why-only-now/delivered/117-the-international-lineman-s-rodeo-the-ol.json": {
     "skipped": "신제품이 아닌 행사 소개",
     "date": "2026-10-20"
+  },
+  "abroad-now/pending/2026-10-20-us-bans-deepseek-ai-security.json": {
+    "contentId": "bs-20261021-001",
+    "date": "2026-10-21",
+    "note": "원천 '국방부 금지'를 국토안보부(DHS) 연방 민간기관 명령으로 정정, '바이트댄스 계열' 오류 정정, Guardian 링크 미확인으로 sources 제외"
+  },
+  "why-only-now/delivered/121-light-powered-epaper-screen-adds-art-to-.json": {
+    "contentId": "bs-20261021-002",
+    "date": "2026-10-21"
   }
 }
