@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'National Cancer Institute'
   creditUrl: 'https://unsplash.com/@nci'
 
-status: draft
+status: published
 
 category: world
 tags:

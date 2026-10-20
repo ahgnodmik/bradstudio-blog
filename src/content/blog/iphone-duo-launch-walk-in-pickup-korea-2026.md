@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'TechieTech Tech'
   creditUrl: 'https://unsplash.com/@neerajbhateja'
 
-status: draft
+status: published
 
 category: world
 tags:
