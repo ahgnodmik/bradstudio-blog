@@ -28,7 +28,7 @@ The order is narrow in one way. It is a procurement and IT rule for federal civi
 
 - Private citizens in the US can still download and use DeepSeek.
 - Private companies are not bound by it.
-- State governments are not bound by it, although several, including New York, Tennessee and Virginia, have set their own limits on government devices.
+- State governments are not bound by it, although several states have set their own limits on government devices.
 
 ## Why data location and prompts matter
 
