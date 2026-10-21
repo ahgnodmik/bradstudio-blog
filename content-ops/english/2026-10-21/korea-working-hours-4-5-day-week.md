@@ -109,7 +109,7 @@ Open your contract today, search it for "overtime" and "inclusive," and write do
 - Korea Pro: https://koreapro.org/2026/04/south-korea-moves-to-curb-free-labor-under-comprehensive-wage-system/
 - Ministry of Employment and Labor (in Korean): https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=19360
 - Crowe Korea: https://www.crowe.com/kr/en-us/news/news20260524_en
-- The Herald Business: https://biz.heraldcorp.com/article/10775342
+- The Herald Business (in Korean): https://biz.heraldcorp.com/article/10775342
 - Chambers and Partners: https://gpg-pdf.chambers.com/Doing-Business-In-2026/970/
 - Global Law Experts: https://globallawexperts.com/52-hour-rule-korea/
 - Service-Public.fr: https://www.service-public.fr/particuliers/vosdroits/F1911
