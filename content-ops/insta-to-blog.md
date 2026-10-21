@@ -7,8 +7,8 @@
 ## 원천 데이터
 | 계정 | 경로 | 주요 필드 |
 |---|---|---|
-| 해외난리 @abroad.now | `abroad-now/delivered/*.json`, `abroad-now/pending/*.json` | slug, headline, lede, publishedAt, body[], sources[], factNote |
-| 왜이제나옴 @why.only.now | `why-only-now/delivered/*.json`, `why-only-now/pending/*.json` | productName, intro{summary,hook,imageUrl}, body[], source{name,url}, discoveredAt, images[] |
+| 해외난리 @abroad.now | `abroad-now/delivered/*.json`, `abroad-now/pending/*.json` | slug, headline, lede, publishedAt, body[], sources[], factNote, instagram?{permalink} |
+| 왜이제나옴 @why.only.now | `why-only-now/delivered/*.json`, `why-only-now/pending/*.json` | productName, intro{summary,hook,imageUrl}, body[], source{name,url}, discoveredAt, images[], instagram?{permalink} |
 
 - 후보: `delivered/`(인스타 게시분) 우선. 부족하면 `pending/` 중 수집일 3일 이내만. `_stale/`은 쓰지 않는다.
 - 이미 블로그로 옮긴 항목은 `content-ops/insta-ledger.json`에 기록한다. 원천 파일 경로가 이미 있으면 건너뛴다.
@@ -28,6 +28,10 @@
    - tags에 `해외난리` 또는 `왜이제나옴` 포함
    - contentId `bs-YYYYMMDD-NNN` (그날 기존 번호 다음)
    - sources 2개 이상, accessedAt 오늘
+   - 원천 JSON에 `instagram.permalink`가 있으면(2026-10-21~ 캐러셀 자동 게시분) `instagramPermalink`에 그대로 옮긴다.
+     본문 하단에 인스타 카드뉴스 임베드가 붙고, Blogger 크로스포스트에도 같은 임베드가 들어간다. 없으면 생략.
+   - 같은 주제로 네이버·티스토리 원고를 만들 때는 끝에 `인스타그램 카드뉴스: <permalink>` 한 줄을 넣는다
+     (네이버는 임베드 스크립트 불가 — 링크만, 발행은 지금처럼 수동).
 6. 드래프트로 push하면 09:52 발행 루틴이 팩트체크 후 발행한다.
 
 ## 주간 요약 (매주 월요일, 1편)

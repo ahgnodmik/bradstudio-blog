@@ -28,6 +28,11 @@ const blog = defineCollection({
 					creditUrl: z.string().url().optional(),
 				})
 				.optional(),
+			// 같은 주제의 인스타 캐러셀 게시물 (insta-to-blog 절차). 있으면 본문 하단에 임베드
+			instagramPermalink: z
+				.string()
+				.regex(/^https:\/\/www\.instagram\.com\/(p|reel)\/[\w-]+\/?$/, 'instagram.com/p/<id>/ 형식')
+				.optional(),
 
 			contentId,
 			// draft가 기본값 — status 누락 시 실수로 공개되지 않음

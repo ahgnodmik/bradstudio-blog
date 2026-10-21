@@ -15,7 +15,7 @@ const category = CATEGORIES[post.data.category as keyof typeof CATEGORIES];
 <article class="post-card">
 	{
 		thumb ? (
-			<img class="bg" src={thumb.url} width="720" height="900" alt="" loading="lazy" />
+			<img class="bg" src={thumb.url} width="720" height="900" alt={thumb.alt} loading="lazy" />
 		) : post.data.heroImage ? (
 			<Image class="bg" width={720} height={900} src={post.data.heroImage} alt="" />
 		) : (

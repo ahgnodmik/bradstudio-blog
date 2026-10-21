@@ -72,9 +72,22 @@ function parsePost(file) {
     title: get('title'),
     pubDate: get('pubDate'),
     status: get('status'),
+    instagramPermalink: get('instagramPermalink'),
     tags,
     body,
   };
+}
+
+// 인스타 캐러셀 공식 임베드 (토큰 불필요). Blogger 본문은 script 태그를 허용한다.
+function instagramEmbed(permalink) {
+  if (!permalink || !/^https:\/\/www\.instagram\.com\/(p|reel)\/[\w-]+\/?$/.test(permalink)) return '';
+  return (
+    `\n<h2>인스타그램 카드뉴스로 보기</h2>\n` +
+    `<blockquote class="instagram-media" data-instgrm-permalink="${permalink}" data-instgrm-version="14" ` +
+    `style="max-width: 540px; width: 100%; margin: 1rem auto;">` +
+    `<a href="${permalink}">인스타그램에서 카드뉴스 보기</a></blockquote>\n` +
+    `<script async src="https://www.instagram.com/embed.js"></script>\n`
+  );
 }
 
 function allPosts() {
@@ -192,6 +205,7 @@ async function postToBlogger(contentId, asDraft) {
     `<p><em>이 글은 <a href="${canonical}">bradstudio.xyz</a>에 먼저 게재된 글입니다. ` +
     `최신 업데이트는 <a href="${canonical}">원문</a>에서 확인하세요.</em></p>\n` +
     bodyHtml +
+    instagramEmbed(post.instagramPermalink) +
     `\n<p><em>원문: <a href="${canonical}">${canonical}</a></em></p>`;
 
   const token = await accessToken();
