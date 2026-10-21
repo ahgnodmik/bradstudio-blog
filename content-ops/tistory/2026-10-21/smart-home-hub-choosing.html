@@ -1,0 +1,76 @@
+<p>스마트 전구 하나, 플러그 하나로 시작한 스마트홈은 기기가 늘수록 꼬이기 쉽습니다. 앱이 제각각이고, 어떤 제품은 허브가 있어야 한다고 합니다. 상자에는 Matter, Thread, Zigbee 같은 낯선 로고가 붙어 있습니다. 허브를 잘 고르면 이 문제가 대부분 풀립니다. 세 가지 연결 방식의 차이, 애플·구글·아마존·삼성 허브를 비교하는 기준, 실패를 줄이는 설치 순서를 차례로 정리했습니다.</p>
+
+<h2>한눈에 보기</h2>
+<table>
+<tbody>
+<tr><th>구분</th><th>정체</th><th>필요한 장비</th></tr>
+<tr><td>Matter</td><td>기기끼리 말이 통하게 하는 공통 언어(응용 계층 표준)</td><td>Matter 컨트롤러(허브)</td></tr>
+<tr><td>Thread</td><td>저전력 기기용 무선 그물망(메시) 네트워크, IPv6 기반</td><td>Thread 보더 라우터</td></tr>
+<tr><td>Zigbee</td><td>오래 쓰인 저전력 메시 네트워크, 자체 주소 체계</td><td>Zigbee 허브(코디네이터)</td></tr>
+<tr><td>Wi-Fi</td><td>집 공유기에 바로 붙는 방식</td><td>공유기(Matter 기기라면 컨트롤러도)</td></tr>
+</tbody>
+</table>
+
+<h2>Matter: 언어</h2>
+<p>Matter는 무선 방식이 아니라 약속입니다. 기기가 "불 켜", "온도 알려 줘" 같은 명령을 어떤 형식으로 주고받을지 정한 표준입니다. 이 약속은 Wi-Fi, 이더넷, Thread 위에서 돌아갑니다. Matter 인증 기기는 원칙적으로 애플 홈, 구글 홈, 알렉사, 스마트싱스 어디에든 등록할 수 있습니다. 한 기기를 여러 플랫폼에 함께 연결하는 것도 가능합니다. 브랜드를 바꿔도 기기를 버리지 않아도 된다는 점이 핵심입니다.</p>
+
+<h2>Thread: 길</h2>
+<p>Thread는 센서, 도어락, 버튼처럼 배터리로 오래 버텨야 하는 기기를 위한 무선 네트워크입니다. 기기들이 서로 신호를 이어 주는 메시 구조라서, 기기가 늘수록 연결이 튼튼해집니다. 기기마다 인터넷 표준 주소(IPv6)를 가집니다. 다만 Thread 그물망을 집 Wi-Fi와 이어 줄 다리가 필요합니다. 이 다리를 보더 라우터라고 부릅니다. Matter 기기 중 Thread로 통신하는 제품을 쓰려면 보더 라우터가 반드시 있어야 합니다.</p>
+
+<h2>Zigbee: 오래된 길</h2>
+<p>Zigbee도 저전력 메시 네트워크입니다. 시장에 나온 지 오래돼 저렴한 센서와 스위치가 많습니다. 기기에 Zigbee 전용의 짧은 주소를 붙이고, 허브가 이를 인터넷 쪽으로 옮겨 줍니다. 중요한 점은 Zigbee가 Matter의 전송 방식이 아니라는 것입니다. Zigbee 기기는 Zigbee 허브에 붙고, 다른 플랫폼과 공유하려면 허브가 별도로 브리지 기능을 지원해야 합니다. 이미 Zigbee 기기가 많다면 허브에 Zigbee 무선이 들어 있는지가 첫 번째 확인 사항입니다.</p>
+
+<h2>4개 진영 허브 비교</h2>
+<p>아래 표는 제조사 공식 안내와 복수의 전문 매체가 함께 확인한 내용만 담았습니다. 국내 정식 판매 여부와 한국어 지원은 제품마다 다르니 구매 전에 따로 확인하세요.</p>
+<table>
+<tbody>
+<tr><th>진영</th><th>허브 역할 기기</th><th>Thread 보더 라우터</th><th>Zigbee 내장</th></tr>
+<tr><td>애플 홈</td><td>HomePod, HomePod mini, Apple TV</td><td>HomePod mini, Apple TV 4K(3세대) Wi-Fi + 이더넷 모델 등</td><td>없음</td></tr>
+<tr><td>구글 홈</td><td>Nest Hub(2세대), Nest Hub Max, Nest Wifi Pro, Google TV Streamer(4K)</td><td>위 기기들</td><td>없음</td></tr>
+<tr><td>아마존 알렉사</td><td>Echo Hub, Echo(4세대) 등</td><td>Echo Hub, Echo(4세대)</td><td>Echo Hub, Echo(4세대) 등 일부</td></tr>
+<tr><td>삼성 스마트싱스</td><td>SmartThings Station 등</td><td>SmartThings Station</td><td>SmartThings Station</td></tr>
+</tbody>
+</table>
+
+<h2>비교할 때 볼 기준</h2>
+<ul>
+<li><b>휴대폰:</b> 아이폰이 주력이면 애플 홈, 안드로이드라면 구글 홈이나 스마트싱스가 편합니다. 가족이 서로 다른 휴대폰을 쓰면 Matter 기기 위주로 고르고, 다른 플랫폼에도 공유하는 방식이 갈등을 줄입니다.</li>
+<li><b>이미 가진 기기:</b> Zigbee 센서가 많으면 Zigbee를 품은 허브가 필요합니다. 애플·구글 쪽 허브에는 Zigbee가 없습니다.</li>
+<li><b>모델 세부 구분:</b> 같은 이름이라도 세대와 모델에 따라 기능이 다릅니다. 애플 공식 안내에 따르면 Thread 허브로 쓰려면 Apple TV 4K(3세대) 중 Wi-Fi + 이더넷 모델이어야 합니다. 구글도 Nest Hub는 2세대부터 보더 라우터 역할을 합니다.</li>
+<li><b>Z-Wave 여부:</b> 스마트싱스 스테이션에는 Z-Wave 무선이 없습니다. 예전 스마트싱스 허브로 Z-Wave 기기를 쓰던 집은 이 점을 확인해야 합니다.</li>
+<li><b>항상 켜 둘 자리:</b> 허브는 늘 전원이 연결돼 있어야 합니다. 거실 중앙처럼 집 전체에 신호가 고르게 닿는 곳이 좋습니다.</li>
+</ul>
+
+<h2>실패를 줄이는 설치 순서</h2>
+<ul>
+<li><b>1단계, 플랫폼 정하기:</b> 가족이 매일 쓰는 휴대폰과 음성 비서를 기준으로 주 플랫폼 하나를 고릅니다.</li>
+<li><b>2단계, 허브 먼저 설치:</b> 허브를 가장 먼저 설치하고 최신 펌웨어로 업데이트합니다. 애플은 HomePod를 설정하면 자동으로 홈 허브가 되고, Apple TV는 설정에서 방을 지정하면 허브가 됩니다.</li>
+<li><b>3단계, Wi-Fi 점검:</b> 공유기 이름과 비밀번호를 정리하고, 2.4GHz 대역이 켜져 있는지 확인합니다. 일부 기기는 2.4GHz에서만 처음 연결됩니다.</li>
+<li><b>4단계, 기기 하나씩 추가:</b> 허브 가까운 곳부터 기기를 하나씩 등록합니다. Matter 기기는 상자나 기기에 있는 QR 코드를 찍어 추가합니다. QR 코드 사진을 따로 보관해 두면 재설정할 때 편합니다.</li>
+<li><b>5단계, 메시 넓히기:</b> 전원 콘센트에 꽂는 Thread·Zigbee 기기(플러그, 전구)를 먼저 깔면 신호를 이어 주는 중계 역할을 합니다. 배터리 센서는 그다음에 붙입니다.</li>
+<li><b>6단계, 자동화는 마지막에:</b> 기기가 안정적으로 응답하는지 며칠 지켜본 뒤 "해 지면 거실 불 켜기" 같은 자동화를 만듭니다.</li>
+</ul>
+
+<h2>살 때 상자에서 확인할 것</h2>
+<ul>
+<li>Matter 로고가 있는지, 있다면 Wi-Fi 방식인지 Thread 방식인지</li>
+<li>Thread 방식이라면 우리 집에 보더 라우터가 있는지</li>
+<li>Zigbee 전용 제품이라면 지원하는 허브 목록에 내 허브가 있는지</li>
+<li>국내 전파 인증(KC)과 한국어 앱 지원 여부</li>
+</ul>
+
+<p>지금 집에 있는 스피커, TV 셋톱박스, 공유기의 정확한 모델명을 먼저 적어 보세요. 그중 하나가 이미 Thread 보더 라우터일 수 있습니다. 새 허브를 사는 건 그 확인이 끝난 다음이어도 늦지 않습니다.</p>
+
+<h2>출처·참고</h2>
+<ul>
+<li><a href="https://support.apple.com/102557" target="_blank" rel="noopener">Apple 지원 — Set up your HomePod, HomePod mini, or Apple TV as a home hub</a></li>
+<li><a href="https://support.google.com/googlehome/answer/12391458" target="_blank" rel="noopener">Google Home 고객센터 — Prepare your smart home for Matter</a></li>
+<li><a href="https://www.aboutamazon.co.uk/echo-hub-smart-home-tips" target="_blank" rel="noopener">About Amazon UK — Echo Hub smart home tips</a></li>
+<li><a href="https://developer.amazon.com/docs/alexaplus/smarthome/zigbee-support" target="_blank" rel="noopener">Amazon Developer — Zigbee support</a></li>
+<li><a href="https://reviewed.com/smarthome/content/amazon-echo-hub-review" target="_blank" rel="noopener">Reviewed — Amazon Echo Hub review</a></li>
+<li><a href="https://www.techhive.com/article/1448619/smartthings-station-ces-z-wave.html" target="_blank" rel="noopener">TechHive — SmartThings Station and Z-Wave</a></li>
+<li><a href="https://hifi.de/news/ces-2023-samsung-zeigt-smart-home-hub-mit-matter-thread-und-kabellosem-ladegeraet-128301" target="_blank" rel="noopener">hifi.de — CES 2023: Samsung zeigt Smart Home Hub mit Matter, Thread und kabellosem Ladegerät</a></li>
+<li><a href="https://www.matteralpha.com/article/complete-list-thread-border-routers" target="_blank" rel="noopener">Matter Alpha — Complete list of Thread border routers</a></li>
+<li><a href="https://mightygadget.co.uk/what-thread-border-routers-are-there/" target="_blank" rel="noopener">Mighty Gadget — What Thread Border Routers Are There?</a></li>
+<li><a href="https://matter-smarthome.de/en/know-how/what-is-a-thread-border-router/" target="_blank" rel="noopener">matter-smarthome.de — What is a Thread Border Router?</a></li>
+</ul>
