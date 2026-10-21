@@ -1,0 +1,21 @@
+2026-10-21 네이버 초안 16편 (주제 4개 × 계정 4개)
+주제: 1 미국 연방기관 딥시크 퇴출 / 2 Inkanva 전자종이 액자 / 3 근로시간·주 4.5일제 / 4(국내) 상생소비복권
+업로드 팁: 1행 "제목:" 뒤를 제목 칸에, 3행부터 본문 칸에 붙여넣기. 같은 주제 4편은 시간 간격을 두고 발행.
+A-1 https://unsplash.com/photos/FnA5pAzqhMM (Towfiqu barbhuiya)
+A-2 https://unsplash.com/photos/XV847lPfgA4 (Harsh Vardhan Yadav)
+A-3 https://unsplash.com/photos/PG8NyM_Mcts (Adolfo Félix)
+A-4 https://unsplash.com/photos/QcjMQ0wGVxg (IRa Kang)
+B-1 https://unsplash.com/photos/C5pXRFEjq3w (FlyD)
+B-2 https://unsplash.com/photos/q8kR_ie6WnI (Claudio Schwarz)
+B-3 https://unsplash.com/photos/WP5XwHP47ck (Blessing Ri)
+B-4 https://unsplash.com/photos/xkArbdUcUeE (Towfiqu barbhuiya)
+C-1 https://unsplash.com/photos/iZe21DzHnUg (Winston Chen)
+C-2 https://unsplash.com/photos/2kDn4YKPRY4 (Sofie Woldrich)
+C-3 https://unsplash.com/photos/L0xOtAnv94Y (Ocean Ng)
+C-4 https://unsplash.com/photos/k1jn594X_Zk (Georgi Srebrev)
+D-1 https://unsplash.com/photos/1osIUArK5oA (Florian Krumm)
+D-2 https://unsplash.com/photos/wk6ufnhdvD4 (Barney Goodman)
+D-3 https://unsplash.com/photos/n9AaeihA9HI (Clay Banks)
+D-4 https://unsplash.com/photos/NLU117HCVuc (leonie wise)
+
+티스토리: cloud-outage-explained https://unsplash.com/photos/2JJ3wBHu4_0 (Kevin Ache), winter-heating-cost-saving https://unsplash.com/photos/l4MSGX319CE (Alex Perz), smart-home-hub-choosing https://unsplash.com/photos/3Ik3JMp7Woo (Jakub Żerdzicki)
