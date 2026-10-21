@@ -1,0 +1,76 @@
+<p>은행 앱이 안 열리고, 택배 조회가 멈추고, 쇼핑몰 결제가 실패합니다. 서로 다른 회사인데 같은 시간에 한꺼번에 먹통이 됩니다. 원인을 따라가 보면 한 클라우드 회사의 데이터센터 한 곳이 나오는 경우가 많습니다. 이번 글에서는 클라우드가 어떻게 생겼는지부터 짚고, 2026년 10월 영국에서 벌어진 구글 클라우드 장애와 2024년 크라우드스트라이크 사태를 예로 들어 장애가 번지는 원리를 풀어 봅니다. 마지막에는 개인이 미리 해 둘 수 있는 대비를 정리했습니다.</p>
+
+<h2>한눈에 보기</h2>
+<table>
+<tbody>
+<tr><th>사례</th><th>언제</th><th>무엇이 고장 났나</th><th>어디까지 번졌나</th></tr>
+<tr><td>구글 클라우드 런던 리전</td><td>2026년 10월 20일</td><td>가용영역 하나(europe-west2-b)의 전력 문제</td><td>레볼루트 앱·카드 등 영국 금융·생활 서비스</td></tr>
+<tr><td>크라우드스트라이크 업데이트</td><td>2024년 7월 19일</td><td>보안 프로그램의 잘못된 설정 파일</td><td>윈도 기기 약 850만 대, 항공·병원·방송 등</td></tr>
+<tr><td>판교 데이터센터 화재</td><td>2022년 10월 15일</td><td>배터리실 화재와 전원 차단</td><td>카카오톡 등 카카오 서비스 장시간 중단</td></tr>
+</tbody>
+</table>
+
+<h2>클라우드는 결국 남의 건물에 있는 컴퓨터</h2>
+<p>클라우드라는 말은 추상적으로 들립니다. 실체는 거대한 건물에 줄지어 선 서버입니다. 은행과 앱 회사는 이 서버를 빌려 씁니다. 직접 전산실을 짓는 것보다 빠르고, 쓰는 만큼만 돈을 내면 됩니다. 문제는 수많은 회사가 같은 몇몇 사업자에 기대고 있다는 점입니다. 사업자 쪽 고장 하나가 고객사 수십, 수백 곳의 고장으로 바뀝니다.</p>
+
+<h2>리전과 가용영역: 클라우드의 주소 체계</h2>
+<p>클라우드 사업자는 세계를 리전(region)으로 나눕니다. 리전은 서울, 런던, 프랑크푸르트처럼 지역 단위입니다. 리전 안에는 가용영역(zone 또는 availability zone)이 여러 개 있습니다. 가용영역은 전원과 냉각, 네트워크를 따로 갖춘 데이터센터 묶음입니다. 한 영역에 불이 나거나 전기가 끊겨도 옆 영역은 살아 있도록 떨어뜨려 짓습니다. 구글 클라우드 런던 리전의 이름은 europe-west2이고, 그 안에 a·b·c 세 영역이 있습니다.</p>
+
+<h2>이중화: 하나가 죽어도 버티는 설계</h2>
+<p>이중화는 같은 기능을 두 곳 이상에 두는 방법입니다. 단계가 있습니다.</p>
+<ul>
+<li><b>영역 이중화:</b> 같은 리전의 서로 다른 가용영역에 서버를 나눠 둡니다. 영역 하나가 꺼지면 나머지가 일을 넘겨받습니다.</li>
+<li><b>리전 이중화:</b> 런던과 다른 도시처럼 아예 다른 리전에 복제본을 둡니다. 비용은 크지만 지역 단위 재난에도 버팁니다.</li>
+<li><b>사업자 이중화:</b> 서로 다른 클라우드 회사를 함께 씁니다. 가장 비싸고 운영도 어렵습니다.</li>
+</ul>
+<p>설계도에 이중화가 있어도 실제 전환이 매끄럽지 않으면 소용이 없습니다. 데이터 복제가 늦거나, 로그인·결제처럼 핵심 기능 하나만 한 영역에 묶여 있으면 그 부분에서 멈춥니다. 비용 때문에 일부 시스템만 이중화하는 회사도 많습니다.</p>
+
+<h2>사례 1: 2026년 10월 구글 클라우드 런던 장애</h2>
+<p>10월 20일 영국 시간 오전 7시께부터 구글 클라우드 런던 리전에서 문제가 생겼습니다. 구글은 상태 페이지에서 europe-west2-b 영역의 전력 문제(power event)를 원인으로 밝혔습니다. 클라우드 런(Cloud Run), 쿠버네티스 엔진(GKE) 같은 여러 서비스가 영향을 받았습니다. 구글은 같은 날 낮에 문제를 완화했다고 알렸고, 내부 조사를 마친 뒤 분석 보고서를 내겠다고 했습니다.</p>
+<p>가장 눈에 띈 피해는 핀테크 은행 레볼루트(Revolut)였습니다. 앱 접속과 카드 결제에 문제가 생겼고, 이 장애가 구글 클라우드 문제와 연결돼 있다는 보도가 여러 매체에서 나왔습니다. 레볼루트는 고객의 돈과 데이터는 안전하다고 밝혔습니다. 로이즈, HSBC 등 다른 은행과 일부 택배·생활 서비스도 장애 신고 사이트에 이용자 불만이 몰렸습니다. 다만 신고 사이트 집계는 이용자 제보를 모은 것입니다. 각 회사가 런던 리전 장애 때문이라고 공식 확인한 것과는 다릅니다.</p>
+<p>이 사례에서 볼 점은 세 영역 중 하나만 멈췄는데도 여러 서비스가 흔들렸다는 사실입니다. 영역 단위 이중화가 모든 시스템에 고르게 갖춰져 있지 않았다는 뜻으로 읽힙니다.</p>
+
+<h2>사례 2: 2024년 크라우드스트라이크 사태</h2>
+<p>2024년 7월 19일, 보안업체 크라우드스트라이크가 배포한 업데이트 하나가 윈도 컴퓨터를 연쇄로 멈춰 세웠습니다. 보안 프로그램 팔콘(Falcon)의 설정 파일에 논리 오류가 있었습니다. 마이크로소프트는 영향을 받은 윈도 기기를 약 850만 대로 추산했고, 이는 전체 윈도 기기의 1% 미만이라고 밝혔습니다. 맥과 리눅스는 영향이 없었습니다. 미국 사이버보안·인프라보안청(CISA)도 대규모 IT 장애 경보를 냈습니다. 항공사 체크인과 병원, 방송사가 줄줄이 멈췄습니다.</p>
+<p>이 사례는 클라우드 서버 고장이 아니었습니다. 수많은 기업이 같은 보안 소프트웨어를 쓰고, 그 소프트웨어가 자동으로 동시에 업데이트된 것이 원인이었습니다. 이중화는 하드웨어가 아니라 소프트웨어 공급망에도 필요하다는 점을 보여 줬습니다.</p>
+
+<h2>사례 3: 국내에서 겪은 2022년 판교 화재</h2>
+<p>2022년 10월 15일 오후 SK C&amp;C 판교 데이터센터 지하 배터리실에서 불이 났습니다. 진화를 위해 전원을 차단하면서 카카오톡을 비롯한 카카오 서비스가 오랫동안 멈췄습니다. 과학기술정보통신부는 조사 결과 화재에 취약한 데이터센터 구조와 카카오의 서버 이중화 미흡을 주요 원인으로 꼽았습니다. 같은 건물에 있던 네이버는 데이터센터 간 이중화 덕분에 서비스가 통째로 멈추지는 않았습니다. 같은 사고에서 이중화 수준에 따라 결과가 갈린 사례입니다.</p>
+
+<h2>왜 한꺼번에 멈추나: 세 가지 원리</h2>
+<ul>
+<li><b>집중:</b> 많은 회사가 소수의 클라우드·보안 사업자를 함께 씁니다. 한 지점의 고장이 넓게 번집니다.</li>
+<li><b>숨은 의존:</b> 앱 화면은 멀쩡해도 로그인, 결제, 알림 같은 기능을 외부 서비스가 맡는 경우가 많습니다. 그중 하나만 멈춰도 앱 전체가 안 되는 것처럼 보입니다.</li>
+<li><b>동시성:</b> 자동 업데이트와 자동 확장은 평소엔 편리합니다. 잘못된 변경도 같은 속도로 퍼집니다.</li>
+</ul>
+
+<h2>개인이 할 수 있는 대비</h2>
+<ul>
+<li><b>결제 수단 두 갈래:</b> 주로 쓰는 카드와 다른 은행·다른 회사의 카드를 하나 더 지갑에 넣어 둡니다. 소액 현금도 도움이 됩니다.</li>
+<li><b>연락 수단 두 갈래:</b> 메신저 하나에만 기대지 말고 문자, 다른 메신저, 이메일 연락처를 가족과 미리 맞춰 둡니다.</li>
+<li><b>중요 정보 오프라인 보관:</b> 탑승권, 예약 확인서, 보험 증권처럼 급할 때 필요한 화면은 캡처하거나 인쇄해 둡니다.</li>
+<li><b>공식 공지 경로 확인:</b> 거래 은행과 자주 쓰는 앱의 상태 안내 페이지나 공식 계정을 알아 둡니다. 장애 중에는 출처 불명의 링크를 누르지 않습니다. 장애를 틈탄 피싱 문자가 돌기 쉽습니다.</li>
+<li><b>자동이체 일정 점검:</b> 월급날이나 카드 결제일 직전에 장애가 나면 이체가 밀릴 수 있습니다. 중요한 이체는 마감 하루 전에 끝내 두면 여유가 생깁니다.</li>
+</ul>
+
+<h2>아직 모르는 것</h2>
+<ul>
+<li>런던 영역 전력 문제의 구체적인 원인과 복구에 걸린 정확한 시간</li>
+<li>피해를 본 은행별로 어떤 시스템이 런던 리전에 묶여 있었는지</li>
+<li>영국 금융당국이 이번 장애를 어떻게 다룰지</li>
+</ul>
+
+<p>오늘 저녁 지갑을 열어 주력 카드 말고 다른 회사 카드가 한 장 더 있는지 확인해 보세요. 가족 단체방 말고 문자로도 연락이 닿는지 한 번 시험해 두면 다음 장애 때 훨씬 덜 당황합니다.</p>
+
+<h2>출처·참고</h2>
+<ul>
+<li><a href="https://www.theregister.com/paas-and-iaas/2026/10/20/google-clouds-london-zones-takes-a-nap-multiple-services-disrupted/5304084" target="_blank" rel="noopener">The Register — Google Cloud's London zones takes a nap, multiple services disrupted</a></li>
+<li><a href="https://www.abc.net.au/news/2026-10-20/google-cloud-failure-europe-banks/107290238" target="_blank" rel="noopener">ABC News — European banks, websites hit as Google Cloud data centre goes offline for hours</a></li>
+<li><a href="https://cybernews.com/tech/google-cloud-outage-revolut-hsbc-lloyds/" target="_blank" rel="noopener">Cybernews — Google Cloud outage hits Revolut, Lloyds and HSBC</a></li>
+<li><a href="https://qz.com/revolut-outage-google-cloud-london-region-disruption-102026" target="_blank" rel="noopener">Quartz — Revolut outage tied to Google Cloud London region disruption</a></li>
+<li><a href="https://techcrunch.com/2024/07/20/microsoft-says-8-5m-windows-devices-were-affected-by-crowdstrike-outage/" target="_blank" rel="noopener">TechCrunch — Microsoft says 8.5M Windows devices were affected by CrowdStrike outage</a></li>
+<li><a href="https://www.cisa.gov/news-events/alerts/2024/07/19/widespread-it-outage-due-crowdstrike-update" target="_blank" rel="noopener">CISA — Widespread IT Outage Due to CrowdStrike Update</a></li>
+<li><a href="https://www.khan.co.kr/article/202210161653001" target="_blank" rel="noopener">경향신문 — 카카오 판교 데이터센터 화재 서비스 장애 보도</a></li>
+<li><a href="https://www.dailian.co.kr/news/view/1180889/" target="_blank" rel="noopener">데일리안 — 과기정통부, 카카오에 ‘먹통 방지책’ 요구…화재원인은 오리무중(종합)</a></li>
+<li><a href="https://cloud.google.com/docs/geography-and-regions" target="_blank" rel="noopener">Google Cloud — Geography and regions</a></li>
+</ul>
