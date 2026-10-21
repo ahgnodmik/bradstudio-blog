@@ -2,14 +2,14 @@
 contentId: "bs-20261020-001"
 title: '슈퍼 엘니뇨와 한국 겨울 전망 — 기상청 3개월 전망 읽는 법과 생활 대비 가이드'
 description: '2026년 엘니뇨가 기록 수준으로 강해지고 있다. WMO는 2027년 2월까지 이어질 가능성이 매우 높다고 봤고, 미국 CPC는 10~12월 역대급 확률을 75%로 제시했다. 따뜻한 경향과 일시적 한파가 공존할 수 있는 이유, 기상청 전망을 읽는 법, 난방·한파 대비 요령을 정리했다.'
-pubDate: 2026-10-20
+pubDate: 2026-10-21
 thumbnail:
   url: 'https://images.unsplash.com/photo-1578587018452-892bacefd3f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
   alt: '눈 덮인 도심 도로와 겨울 풍경'
   creditName: 'Filip Bunkens'
   creditUrl: 'https://unsplash.com/@fbunkens'
 
-status: draft
+status: published
 
 category: world
 tags:
@@ -35,24 +35,30 @@ reviewAfter: 2027-02-28
 author: 'Brad Studio'
 
 sources:
-  - title: '세계기상기구(WMO) 엘니뇨 10월 업데이트'
+  - title: 'WMO — Sea-surface temperatures reflect strengthening El Niño (10월 8일)'
     url: 'https://wmo.int/node/39068'
-    accessedAt: 2026-10-20
-  - title: '세계기상기구(WMO) 엘니뇨 8월 업데이트'
+    accessedAt: 2026-10-21
+  - title: 'WMO — El Niño/La Niña Update (August 2026)'
     url: 'https://wmo.int/node/38928'
-    accessedAt: 2026-10-20
+    accessedAt: 2026-10-21
   - title: '미국 기후예측센터(NOAA CPC) ENSO 진단'
     url: 'https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml'
-    accessedAt: 2026-10-20
+    accessedAt: 2026-10-21
   - title: '기상청 3개월 전망(2026년 9월 23일 발표)'
     url: 'https://www.weather.go.kr/w/repositary/xml/fct/mon/fct_mon3_108_20260923.pdf'
-    accessedAt: 2026-10-20
-  - title: 'BBC — El Niño intensifying: key indicators at record levels'
-    url: 'https://www.bbc.com/news/science-environment-66920373'
-    accessedAt: 2026-10-20
+    accessedAt: 2026-10-21
+  - title: '데일리환경 — WMO “기록적 엘니뇨” 경고…10~12월 니뇨3.4 +3.7℃ 전망'
+    url: 'https://www.dailyt.co.kr/newsView/dlt202610090010'
+    accessedAt: 2026-10-21
+  - title: 'Deccan Herald — Will El Niño steal winter''s chill too?'
+    url: 'https://www.deccanherald.com/india/will-el-nino-steal-winters-chill-too-scientists-warn-it-may-reduce-cold-waves-threaten-wheat-crop-in-india-4175528'
+    accessedAt: 2026-10-21
+  - title: '한국일보 — 널뛰는 가을 기온… 역대급 엘니뇨에 겨울도 롤러코스터 날씨 온다'
+    url: 'https://www.hankookilbo.com/news/article/A2026101409030002492'
+    accessedAt: 2026-10-21
   - title: '기상청 날씨누리 장기예보'
     url: 'https://www.weather.go.kr/w/weather/forecast/long-range.do'
-    accessedAt: 2026-10-20
+    accessedAt: 2026-10-21
 
 internalLinks:
   - "bs-20261015-001"
@@ -91,9 +97,11 @@ seo:
 | 10~12월 평균 수온 전망 | 약 +3.7도 | WMO 10월 업데이트(전망값) |
 | 역대 최강급 확률(10~12월) | 75% | 미국 CPC 9월 진단 |
 | 매우 강한 엘니뇨 확률 | 90% 이상 | 미국 CPC 9월 진단 |
-| 지속 전망 | 2027년 2월까지 매우 높음 | WMO |
+| 지속 전망 | 2027년 2월까지 지속 가능성 거의 100% | WMO 8월·10월 업데이트 |
 
-+3.7도는 관측값이 아니라 전망값입니다. 2015~16년 엘니뇨가 11월~이듬해 1월 +2.6도를 기록했습니다. WMO는 이번 엘니뇨가 1950년 이후 가장 강한 축에 들 수 있다고 밝혔습니다.
++3.7도는 관측값이 아니라 여러 기관 모델을 합친 전망값이고, WMO는 정점을 12월 무렵으로 봤습니다. 이전 최고 기록은 2015년 11월~2016년 1월의 +2.6도입니다. WMO는 이번 엘니뇨가 1950년 이후 가장 강한 축에 들 수 있다고 밝혔습니다.
+
+CPC의 '역대 최강급'은 3개월 평균 지수(RONI)가 +2.5도 이상인 경우를 말합니다. 표의 75%는 9월 10일 진단 기준이며, CPC는 10월 8일 새 진단을 냈고 다음 진단은 11월에 나옵니다. 최신 확률은 CPC 진단 페이지에서 직접 확인하는 편이 정확합니다.
 
 ---
 
