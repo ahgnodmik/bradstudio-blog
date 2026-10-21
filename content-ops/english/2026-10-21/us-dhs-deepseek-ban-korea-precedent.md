@@ -20,7 +20,7 @@ The issuer is DHS. It is not the Department of Defense. Social media posts calle
 
 Agencies can ask for exceptions. Reports describe a written request within 60 days of the order, with a compelling justification, reviewed by the Cybersecurity and Infrastructure Security Agency (CISA). Some outlets note that this 60-day window, counted from the signing date, had already closed by the time the public saw the notice.
 
-The signing date itself is disputed. The Federal Register notice and most US outlets date the order July 24, 2026. Some earlier reports gave June 26. Check the docket, DHS-2026-0628, before you quote a date.
+The order itself is dated July 24, 2026, according to the Federal Register notice and several US outlets. It became public only in October.
 
 ## What it does not cover
 
