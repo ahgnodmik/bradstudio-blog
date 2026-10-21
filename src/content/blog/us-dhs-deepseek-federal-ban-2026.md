@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'FlyD'
   creditUrl: 'https://unsplash.com/@flyd2069'
 
-status: draft
+status: published
 
 category: world
 tags:

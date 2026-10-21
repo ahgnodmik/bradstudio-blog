@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Angèle Kamp'
   creditUrl: 'https://unsplash.com/@angelekamp'
 
-status: draft
+status: published
 
 category: world
 tags:
