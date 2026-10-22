@@ -1,0 +1,70 @@
+제목: 프랑스는 비상사태 없이 어떻게 통행금지를 걸었을까? 1955년 법부터 시장 권한까지 10문 10답
+
+파리와 리옹에 밤마다 통행금지가 걸렸는데, 프랑스 정부는 국가비상사태를 선포하지 않았습니다. 그렇다면 통행금지는 무슨 근거로 내려졌을까요? 프랑스에는 평상시 치안 권한과 비상사태 법이 따로 있습니다. 이번 10월 사태에 실제로 쓰인 제도를 질문 10개로 풀었습니다. 프랑스 법률 전문 매체와 언론 보도에서 2곳 이상 겹쳐 확인된 내용만 담았습니다.
+
+■ Q1. 이번 통행금지는 프랑스 전국에 걸렸나요?
+아닙니다. 10월 17일 전국 시위가 약탈과 방화로 번진 뒤 르코르뉘 총리는 "부분적이고 아주 국지적인" 통행금지를 요구했습니다. 파리는 레퓌블리크 광장 일대와 레알 쇼핑지구 두 곳에만 밤 11시부터 오전 6시까지 걸렸습니다. 니스와 리옹도 도심 일부 구역만 대상입니다. 정부는 전국 단위 통행금지를 배제했습니다.
+
+■ Q2. 누가 통행금지 명령을 내렸나요?
+도시마다 명령권자가 다릅니다.
+- 파리: 파리 경찰청장(프레페 드 폴리스)
+- 리옹: 론 도지사(프레페)
+- 니스: 시장이 도지사와 협의해 내린 시 조례
+파리는 국가가 치안을 직접 맡는 특수한 구조입니다. 그래서 시장이 아닌 경찰청장이 권한을 갖습니다. 경찰을 국가가 운영하는 다른 도시에서도 공공질서 유지는 국가 쪽 몫입니다.
+
+■ Q3. 비상사태가 아닌데 무슨 법적 근거로 가능한가요?
+'일반 행정경찰권'입니다. 프랑스 시장은 지방자치단체 일반법전(CGCT) L.2212-2조에 따라 공공질서를 지킬 권한을 갖습니다. 도지사에게도 비슷한 권한이 있습니다. 정부는 시장과 도지사가 비상사태 없이도 이 권한으로 통행금지를 할 수 있다고 설명했습니다. 이번 파리와 리옹의 조치가 이 방식입니다.
+
+■ Q4. 아무 때나 통행금지를 걸 수 있나요?
+아닙니다. 조건이 있습니다. 조치는 현지 상황에 비례해야 합니다. 심각하거나 임박한 위험이 있어야 정당화됩니다. 시간과 장소도 꼭 필요한 범위로 좁혀야 합니다. 이번 통행금지가 몇몇 구역의 밤 시간에만 걸린 이유가 여기에 있습니다. 법원은 공공질서와 개인의 이동 자유를 함께 따집니다.
+
+■ Q5. 프랑스의 국가비상사태 제도는 무엇인가요?
+1955년 4월 3일 제정된 법이 근거입니다. 프랑스어로 '에타 뒤르장스(état d'urgence)'라고 부릅니다.
+- 선포: 국무회의에서 대통령령으로 결정
+- 기간: 12일을 넘겨 연장하려면 의회가 법률로 승인
+- 권한: 도지사가 정한 장소와 시간에 사람과 차량 통행 금지 가능
+법 조문에 '통행금지'라는 단어는 없습니다. 통행 금지 조항이 사실상 그 역할을 합니다.
+
+■ Q6. 이번에는 왜 비상사태를 선포하지 않았나요?
+정부는 기존 권한으로 충분하다고 판단했습니다. 프랑스 상원 방송 퍼블릭세나는 정부가 비상사태 카드를 내려놓은 배경을 짚었습니다. 시장과 도지사의 일반 치안 권한만으로 국지 통행금지가 가능하다는 점이 핵심입니다. 일부 보도는 상황이 악화되면 비상사태 선택지가 여전히 남아 있다고 전했습니다.
+
+■ Q7. 과거에 비상사태로 통행금지를 한 적이 있나요?
+있습니다. 2005년 가을 프랑스 교외 소요 때입니다. 당시 정부는 비상사태를 선포했습니다. 도지사들은 이 법을 근거로 피해가 큰 일부 지역에 통행금지를 걸었습니다. 이번 2026년 조치는 비상사태 없이 일반 권한으로 같은 효과를 노렸다는 점이 다릅니다.
+
+■ Q8. 미성년자만 대상인 통행금지도 있나요?
+있습니다. 니스는 미성년자에게만 통행금지를 적용했습니다. 시간은 밤 9시부터 오전 6시까지입니다. 대상 구역은 시내 중심가, 구시가지, 트라셸, 가르 뒤 쉬드입니다. 10월 19일 시작해 10월 26일 오전 6시까지 이어집니다. 보르도 등 다른 도시에서도 미성년자 대상 통행 제한이 보도됐습니다.
+
+■ Q9. 통행금지 말고 어떤 조치가 함께 나왔나요?
+- 집회 금지: 파리는 영향 구역에서 저녁 8시 이후 집회와 시위를 금지했습니다.
+- 위험 물품 소지 금지: 니스가 속한 알프마리팀 도청은 폭죽류와 소용량 연료 용기 등의 휴대를 막았습니다.
+- 교통 통제: 파리 경찰청 요청으로 레퓌블리크역과 샤틀레–레알역이 밤에 닫혔습니다.
+- 군 투입: 10월 24일 시위에 대비해 대테러 작전 '상티넬' 병력이 투입됩니다. 군인은 시설 고정 경비를 맡고, 시위 진압에는 나서지 않습니다.
+
+■ Q10. 통행금지 명령에 이의를 제기할 수 있나요?
+네. 통행금지는 행정 결정입니다. 그래서 다툼은 행정법원이 맡습니다. 행정법원은 조치가 지나치다고 보면 효력을 멈출 수 있습니다. 비상사태 아래 조치든 일반 권한에 따른 조치든 비례성 심사를 받는다는 점은 같습니다. 여행자에게 중요한 점은 따로 있습니다. 명령이 살아 있는 동안 구역 안에 있는 사람은 국적과 관계없이 따라야 합니다.
+
+■ 한눈에 보기
+- 이번 통행금지: 전국 아닌 일부 구역, 일부 시간
+- 근거: 시장·도지사의 일반 행정경찰권(CGCT L.2212-2 등)
+- 비상사태: 1955년 법, 국무회의 결정, 12일 넘으면 의회 승인
+- 2005년: 비상사태 선포 뒤 도지사가 통행금지
+- 2026년 10월: 비상사태 없이 국지 통행금지
+- 다툼: 행정법원이 비례성 심사
+
+프랑스에 있는 지인이 있다면 오늘 이 차이를 공유하고, 머무는 도시의 도청 공지 페이지를 즐겨찾기에 넣어 두라고 알려 주세요.
+
+■ 출처·참고
+- 퍼블릭세나(Public Sénat): https://www.publicsenat.fr/actualites/politique/violences-du-17-octobre-pourquoi-letat-durgence-est-ecarte-par-le-gouvernement
+- 메르앵포(Maire-info): https://www.maire-info.com/organisation-gestion-communale/securite/couvre-feu-ce-que-prevoit-la-loi-davril-1955-article-6288
+- LCP(프랑스 하원 방송): https://lcp.fr/actualites/etat-d-urgence-couvre-feu-interdiction-de-manifester-ce-que-permet-la-loi-443967
+- 나우시카 변호사사무소(Nausica Avocats): https://nausica-avocats.fr/couvre-feux-locaux-doctobre-2026-regime-juridique-controle-du-juge-et-apport-de-letat-durgence/
+- 콘 변호사사무소(Kohen Avocats): https://kohenavocats.com/paris-riots-2026-couvre-feu-etat-urgence-gardes-vue-recours/
+- 알자지라(Al Jazeera, 2005년 보도): https://www.aljazeera.com/news/2005/11/8/curfews-planned-in-france-to-stop-riots
+- 프랑스24(France 24): https://www.france24.com/en/france/20261019-live-french-pm-lecornu-calls-for-partial-curfews-in-cities-hit-by-riots-and-looting
+- NPR: https://www.npr.org/2026/10/21/nx-s1-6010344/france-nightly-curfews
+- 프랑스앵포(franceinfo): https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/des-couvre-feux-a-nouveau-decretes-dans-plusieurs-villes-dont-paris-et-lyon_8245690.html
+- 니스프리미엄(Nice Premium): https://www.nicepremium.fr/actualites/violences-urbaines-le-prefet-des-alpes-maritimes-et-eric-ciotti-instaurent-un-couvre-feu-a-nice-jusquau-26-octobre/
+- ICI(프랑스 공영 지역방송): https://www.ici.fr/provence-alpes-cote-d-azur/alpes-maritimes-06/nice/violences-couvre-feu-a-nice-pour-les-mineurs-entre-21-h-et-6-h-pour-une-semaine-2543333
+- 에포크타임스 프랑스판: https://www.epochtimes.fr/manifestations-du-24-octobre-laurent-nunez-va-deployer-les-militaires-de-sentinelle-pour-liberer-des-policiers-des-gardes-statiques-3374622.html
+- 유로뉴스(Euronews): https://www.euronews.com/2026/10/20/france-vows-massive-security-operation-involving-military-forces-for-expected-weekend-prot
+- 소르티르아파리(Sortiraparis): https://www.sortiraparis.com/en/news/in-paris/articles/355062-curfew-in-paris-and-a-ban-on-demonstrations-in-the-affected-districts
