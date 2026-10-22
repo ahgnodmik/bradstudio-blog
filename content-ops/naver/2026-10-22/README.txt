@@ -1,0 +1,21 @@
+2026-10-22 네이버 초안 16편 (주제 4개 × 계정 4개)
+주제: 1 우크라이나 드론 부상병 후송 / 2 포르셰 550 J 전기 레플리카 / 3 프랑스 폭동·통행금지 / 4(국내) 청년미래적금 2차
+업로드 팁: 1행 "제목:" 뒤를 제목 칸에, 3행부터 본문 칸에 붙여넣기. 같은 주제 4편은 시간 간격을 두고 발행.
+A-1 https://unsplash.com/photos/rSFxBGpnluw (Alessio Soggetti)
+A-2 https://unsplash.com/photos/gEEHEm6yxIY (Haomeng Yang)
+A-3 https://unsplash.com/photos/DDCdJftUpD4 (Denise Schuld)
+A-4 https://unsplash.com/photos/5OUMf1Mr5pU (Andre Taissin)
+B-1 https://unsplash.com/photos/i5Xv5nMzCec (Pebri Ramadhan Mas)
+B-2 https://unsplash.com/photos/_guFpwvvb4c (Paul Arky)
+B-3 https://unsplash.com/photos/R5scocnOOdM (Léonard Cotte)
+B-4 https://unsplash.com/photos/ebvCsRypmxM (Renáta-Adrienn)
+C-1 https://unsplash.com/photos/jPccMfZ2vKg (Bence Balla-Schottner)
+C-2 https://unsplash.com/photos/RMr_rhvmARg (milan degraeve)
+C-3 https://unsplash.com/photos/JHvarrHbHTI (Bastien Nvs)
+C-4 https://unsplash.com/photos/Rel6bBC6AuA (Katie Harp)
+D-1 https://unsplash.com/photos/MaKsx8JNbiI (Mat Napo)
+D-2 https://unsplash.com/photos/pMRBBWD7Xyk (Vladislav Klapin)
+D-3 https://unsplash.com/photos/Q34YB7yjAxA (Erwan Hesry)
+D-4 https://unsplash.com/photos/zni0zgb3bkQ (Estée Janssens)
+
+티스토리: winter-car-battery-care https://unsplash.com/photos/ZCGyXRnr4Uw (Alex Marc Wagner), flu-vaccine-2026-season https://unsplash.com/photos/JnJylmuVofU (Олег Мороз), phone-storage-cleanup https://unsplash.com/photos/J82GxqnwKSs (Vojtech Bruzek)
