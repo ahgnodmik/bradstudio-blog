@@ -1,0 +1,37 @@
+---
+import { COUPANG_PARTNERS } from '../consts';
+
+const { id, trackingCode, template, width, height } = COUPANG_PARTNERS;
+const config = JSON.stringify({ id, template, trackingCode, width, height, tsource: '' });
+---
+
+{
+	id && (
+		<aside class="coupang-widget" aria-label="쿠팡 파트너스 광고">
+			<p class="coupang-disclosure">
+				이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
+			</p>
+			<script is:inline src="https://ads-partners.coupang.com/g.js"></script>
+			<script is:inline define:vars={{ config }}>
+				new PartnersCoupang.G(JSON.parse(config));
+			</script>
+		</aside>
+	)
+}
+
+<style>
+	.coupang-widget {
+		margin: 2rem 0;
+		max-width: 100%;
+		overflow: hidden;
+	}
+	/* 고정 폭 680px iframe이 모바일에서 가로 스크롤을 만들지 않게 */
+	.coupang-widget :global(iframe) {
+		max-width: 100%;
+	}
+	.coupang-disclosure {
+		margin: 0 0 0.5rem 0;
+		font-size: 0.8rem;
+		color: rgb(var(--gray));
+	}
+</style>

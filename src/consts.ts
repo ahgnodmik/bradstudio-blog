@@ -43,3 +43,12 @@ export const AD_SLOTS = {
 	railLeft: '',
 	railRight: '',
 } as const;
+
+// 쿠팡 파트너스 다이내믹 배너(캐러셀). id를 비우면 위젯과 고지 문구 모두 렌더링 안 함.
+export const COUPANG_PARTNERS = {
+	id: 1038483,
+	trackingCode: 'AF1584187',
+	template: 'carousel',
+	width: '680',
+	height: '140',
+} as const;
