@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Ian Usher'
   creditUrl: 'https://unsplash.com/@iusher'
 
-status: draft
+status: published
 
 category: world
 tags:

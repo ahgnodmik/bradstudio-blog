@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Wolfgang Vrede'
   creditUrl: 'https://unsplash.com/@wvrede'
 
-status: draft
+status: published
 
 category: world
 tags:
