@@ -1,0 +1,89 @@
+/* Blogger 첫 화면·라벨·검색 목록을 bradstudio.xyz처럼 카드 그리드로.
+   붙이는 곳: Blogger 관리 → 테마 → 맞춤설정 → 고급 → CSS 추가
+   글이 2개 이상 있는 목록에만 적용(:has). 글 상세 페이지는 그대로. */
+
+.blog-posts:has(> .post-outer-container ~ .post-outer-container) {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* 카드 */
+.blog-posts:has(> .post-outer-container ~ .post-outer-container) > .post-outer-container {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #e3e6ea;
+  border-radius: 12px;
+  box-shadow: none !important;
+  transition: box-shadow .2s ease, transform .2s ease;
+}
+.blog-posts:has(> .post-outer-container ~ .post-outer-container) > .post-outer-container:hover {
+  box-shadow: 0 6px 20px rgba(15, 18, 25, .1) !important;
+  transform: translateY(-2px);
+}
+.blog-posts:has(> .post-outer-container ~ .post-outer-container) .post {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px 16px !important;
+  margin: 0 !important;
+}
+
+/* 썸네일: 카드 맨 위 16:9 */
+.blog-posts:has(> .post-outer-container ~ .post-outer-container) .snippet-thumbnail {
+  order: -1;
+  float: none !important;
+  width: calc(100% + 32px) !important;
+  max-width: none !important;
+  margin: 0 -16px 12px !important;
+}
+.blog-posts:has(> .post-outer-container ~ .post-outer-container) .snippet-thumbnail-img {
+  width: 100% !important;
+  height: 0 !important;
+  padding-bottom: 56.25% !important;
+  background-size: cover !important;
+  background-position: center !important;
+  border-radius: 0 !important;
+}
+
+/* 제목 3줄, 요약 2줄 */
+.blog-posts:has(> .post-outer-container ~ .post-outer-container) .post-title {
+  font-size: 1.02rem !important;
+  line-height: 1.45 !important;
+  margin: 4px 0 6px !important;
+  word-break: keep-all;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.blog-posts:has(> .post-outer-container ~ .post-outer-container) .post-title a {
+  color: #0a1317 !important;
+  text-decoration: none;
+}
+.blog-posts:has(> .post-outer-container ~ .post-outer-container) .post-snippet,
+.blog-posts:has(> .post-outer-container ~ .post-outer-container) .snippet-item {
+  font-size: .85rem !important;
+  line-height: 1.55 !important;
+  color: #1c1e21;
+  word-break: keep-all;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.blog-posts:has(> .post-outer-container ~ .post-outer-container) .post-header,
+.blog-posts:has(> .post-outer-container ~ .post-outer-container) .post-header .byline {
+  font-size: .75rem !important;
+  color: #5d6c7b !important;
+}
+
+/* 목록 카드에서는 '더보기' 버튼·공유·댓글 줄 숨김 (카드 전체가 링크 역할은 못 하므로 제목 클릭) */
+.blog-posts:has(> .post-outer-container ~ .post-outer-container) .jump-link,
+.blog-posts:has(> .post-outer-container ~ .post-outer-container) .post-footer,
+.blog-posts:has(> .post-outer-container ~ .post-outer-container) .post-share-buttons {
+  display: none !important;
+}
