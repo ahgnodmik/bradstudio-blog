@@ -37,15 +37,15 @@ A worked example helps. Reports describe someone on the preferential tier at an 
 The basic rules, as reported across several outlets:
 
 - Age: 19 to 34 on the day you sign up. Time spent in military service, up to 6 years, can be deducted from your age.
-- Personal income: annual gross salary of 75 million won or less, or comprehensive income of 63 million won or less. Small business owners qualify with annual sales of 300 million won or less.
+- Personal income: annual gross salary of 75 million won or less. Small business owners qualify with annual sales of 300 million won or less. Some guides also cite a comprehensive-income cap of 63 million won (unconfirmed; check the official notice).
 - Household income: at or below 200% of the standard median income. Income from everyone registered in the same household counts.
-- Exclusion: people who were subject to comprehensive financial income taxation in any of the previous 3 years cannot join.
+- Exclusion: some guides say people taxed under comprehensive financial income taxation in the previous 3 years cannot join (unconfirmed; check the official notice).
 
 The government match has its own, tighter thresholds:
 
 - Standard tier (6% match): gross salary of 60 million won or less, or comprehensive income of 48 million won or less, or a small business with sales of 300 million won or less.
 - Earners between 60 million and 75 million won can still join. They get the tax exemption but no government match.
-- Preferential tier (12% match): employees of small and medium-sized enterprises earning 36 million won or less, small business owners with sales of 100 million won or less, and certain new hires at small and medium-sized enterprises. The household limit for this tier is 150% of the median.
+- Preferential tier (12% match): employees of small and medium-sized enterprises earning 36 million won or less, small business owners with sales of 100 million won or less, and certain new hires at small and medium-sized enterprises. Some reports give a tighter household limit for this tier (150% of the median); treat that as unconfirmed.
 
 In May 2026 the FSC eased the household test for married couples. For a household made up only of the applicant and a spouse, reports put the limits at 250% of the median for the standard tier and 200% for the preferential tier.
 
