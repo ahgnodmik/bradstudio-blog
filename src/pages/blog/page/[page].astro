@@ -1,0 +1,17 @@
+---
+import type { GetStaticPaths } from 'astro';
+import PostListPage from '../../../components/PostListPage.astro';
+import { POSTS_PER_PAGE } from '../../../consts';
+import { getVisiblePosts } from '../../../lib/content';
+
+// 2쪽부터. 1쪽은 /blog/ (paginate가 만드는 /blog/page/1/은 건너뛴다)
+export const getStaticPaths = (async ({ paginate }) => {
+	const posts = await getVisiblePosts();
+	return paginate(posts, { pageSize: POSTS_PER_PAGE }).filter((p) => p.params.page !== '1' && p.params.page !== undefined);
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+if (page.currentPage === 2) page.url.prev = '/blog/';
+---
+
+<PostListPage page={page} />

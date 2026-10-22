@@ -1,170 +1,26 @@
 ---
-import AdInFeed from '../../components/AdInFeed.astro';
-import AdRail from '../../components/AdRail.astro';
-import AdSlot from '../../components/AdSlot.astro';
-import BaseHead from '../../components/BaseHead.astro';
-import Footer from '../../components/Footer.astro';
-import PostCard from '../../components/PostCard.astro';
-import Header from '../../components/Header.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
+import PostListPage from '../../components/PostListPage.astro';
+import { POSTS_PER_PAGE } from '../../consts';
 import { getVisiblePosts } from '../../lib/content';
 
+// 1쪽. 2쪽부터는 /blog/page/N/
 const posts = await getVisiblePosts();
-
-// 처음 보이는 글 수: 11장 + 인피드 광고 1칸 = 12칸
-const PAGE_SIZE = 11;
-// N개씩 보기: 선택 즉시 N개로 다시 그리고, 더 보기 한 번에 N개 추가
-const LOAD_OPTIONS = [PAGE_SIZE, 30, 50, 100];
-// In-feed 광고: 4번째 카드 뒤 첫 광고, 이후 8장(4열 × 2행)마다 반복
-const AD_FIRST = 4;
-const AD_EVERY = 8;
-const hasAdAfter = (index: number) =>
-	index + 1 >= AD_FIRST && (index + 1 - AD_FIRST) % AD_EVERY === 0 && index < posts.length - 1;
+const page = {
+	data: posts.slice(0, POSTS_PER_PAGE),
+	start: 0,
+	end: Math.min(POSTS_PER_PAGE, posts.length) - 1,
+	size: POSTS_PER_PAGE,
+	total: posts.length,
+	currentPage: 1,
+	lastPage: Math.max(1, Math.ceil(posts.length / POSTS_PER_PAGE)),
+	url: {
+		current: '/blog/',
+		prev: undefined,
+		next: posts.length > POSTS_PER_PAGE ? '/blog/page/2/' : undefined,
+		first: undefined,
+		last: undefined,
+	},
+};
 ---
 
-<!doctype html>
-<html lang="ko">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<style>
-			main {
-				width: 100%;
-				max-width: 1080px;
-				box-sizing: border-box;
-				margin: 0 auto;
-				padding: 2.5rem 1em 4rem;
-			}
-			/* 카드 한 칸 ≥ 250px 유지(인피드 fluid 광고 최소 폭): 열 간격 12px, 폭에 따라 4→3→2→1열 */
-			ul {
-				display: grid;
-				grid-template-columns: repeat(4, 1fr);
-				gap: 0.75rem;
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-			}
-			ul li.post-hidden {
-				display: none;
-			}
-			.load-more-wrap {
-				display: flex;
-				justify-content: center;
-				gap: 0.5rem;
-				margin-top: 2.5rem;
-			}
-			.load-more {
-				padding: 0.625rem 2rem;
-				font-size: 0.9375rem;
-				font-weight: 700;
-				color: rgb(var(--black));
-				background: #ffffff;
-				border: 1px solid rgb(var(--gray-light));
-				border-radius: var(--rounded-full);
-				cursor: pointer;
-			}
-			.load-more:hover {
-				background: rgb(var(--black));
-				color: #ffffff;
-				border-color: transparent;
-			}
-			.load-count {
-				padding: 0.5rem 0.75rem;
-				font-size: 0.875rem;
-				color: rgb(var(--black));
-				background: #ffffff;
-				border: 1px solid rgb(var(--gray-light));
-				border-radius: var(--rounded-full);
-				cursor: pointer;
-			}
-			@media (max-width: 1079px) {
-				ul {
-					grid-template-columns: repeat(3, 1fr);
-				}
-			}
-			@media (max-width: 819px) {
-				ul {
-					grid-template-columns: repeat(2, 1fr);
-				}
-			}
-			@media (max-width: 600px) {
-				ul {
-					grid-template-columns: 1fr;
-					gap: 1.5rem;
-				}
-			}
-		</style>
-	</head>
-	<body>
-		<Header />
-		<AdRail side="left" />
-		<AdRail side="right" />
-		<main>
-			<section class="posts">
-				<ul id="post-list">
-					{
-						posts.map((post, index) => (
-							<>
-								<li class:list={['post-item', { 'post-hidden': index >= PAGE_SIZE }]}>
-									<PostCard post={post} />
-								</li>
-								{hasAdAfter(index) && <AdInFeed deferred={index >= PAGE_SIZE} />}
-							</>
-						))
-					}
-				</ul>
-				{
-					posts.length > PAGE_SIZE && (
-						<div class="load-more-wrap">
-							<button class="load-more" id="load-more">
-								더 보기
-							</button>
-							<select class="load-count" id="load-count" aria-label="한 번에 볼 글 수">
-								{LOAD_OPTIONS.map((n) => (
-									<option value={n}>{n}개씩 보기</option>
-								))}
-							</select>
-						</div>
-					)
-				}
-			</section>
-			<AdSlot name="footer" label="하단 디스플레이 광고" size="728×90 / 반응형" />
-		</main>
-		<Footer />
-		<script>
-			// 보기 개수 선택 즉시 목록을 다시 그리고, 더 보기는 선택한 개수만큼 추가한다.
-			// 새로 보이게 된 광고 칸은 보이는 상태(폭 확보)에서 한 번만 광고를 요청한다.
-			const button = document.getElementById('load-more');
-			const select = document.getElementById('load-count') as HTMLSelectElement | null;
-			const items = Array.from(document.querySelectorAll<HTMLElement>('#post-list .post-item'));
-			let visible = items.filter((li) => !li.classList.contains('post-hidden')).length;
-
-			const render = () => {
-				items.forEach((li, i) => li.classList.toggle('post-hidden', i >= visible));
-				document.querySelectorAll<HTMLElement>('#post-list li.ad-card').forEach((ad) => {
-					const prev = ad.previousElementSibling;
-					const show = !!prev && !prev.classList.contains('post-hidden');
-					ad.classList.toggle('ad-deferred', !show);
-					if (!show || ad.dataset.requested) return;
-					const ins = ad.querySelector('ins.adsbygoogle');
-					if (!ins || ins.hasAttribute('data-adsbygoogle-status')) return;
-					if (ad.offsetWidth < 250) return;
-					ad.dataset.requested = '1';
-					((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({});
-					(window as any).bsAdWatch?.(ad);
-				});
-				if (button) button.hidden = visible >= items.length;
-			};
-
-			if (button && select) {
-				select.addEventListener('change', () => {
-					visible = Number(select.value);
-					render();
-				});
-				button.addEventListener('click', () => {
-					visible += Number(select.value);
-					render();
-				});
-			}
-		</script>
-	</body>
-</html>
+<PostListPage page={page as any} />

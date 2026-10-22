@@ -1,7 +1,7 @@
 ---
 import BaseHead from '../../components/BaseHead.astro';
 import Footer from '../../components/Footer.astro';
-import PostCard from '../../components/PostCard.astro';
+import PostListCard from '../../components/PostListCard.astro';
 import AdInFeed from '../../components/AdInFeed.astro';
 import Header from '../../components/Header.astro';
 import Sidebar from '../../components/Sidebar.astro';
@@ -35,8 +35,8 @@ const { posts } = Astro.props;
 					<div class="post-grid">
 						{posts.map((post, index) => (
 							<>
-								<PostCard post={post} />
-								{(index + 1) % 8 === 4 && index < posts.length - 1 && <AdInFeed as="div" />}
+								<PostListCard post={post} />
+								{index === 3 && index < posts.length - 1 && <AdInFeed as="div" />}
 							</>
 						))}
 					</div>
@@ -91,7 +91,7 @@ const { posts } = Astro.props;
 			.post-grid {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		gap: 0.75rem;
+		gap: 1.25rem;
 		margin-top: 1rem;
 	}
 	@media (max-width: 600px) {

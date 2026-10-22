@@ -1,0 +1,80 @@
+---
+// 목록 위 카테고리 탭. current가 없으면 '전체'가 선택 상태.
+import { CATEGORIES } from '../consts';
+import { getVisiblePosts } from '../lib/content';
+
+interface Props {
+	current?: string;
+}
+
+const { current } = Astro.props;
+const all = await getVisiblePosts();
+const tabs = [
+	{ href: '/blog/', label: '전체', count: all.length, active: !current },
+	...Object.entries(CATEGORIES)
+		.map(([key, label]) => ({
+			href: `/category/${key}/`,
+			label,
+			count: all.filter((p) => p.data.category === key).length,
+			active: current === key,
+		}))
+		.filter((t) => t.count > 0),
+];
+---
+
+<nav aria-label="카테고리">
+	<ul class="tabs">
+		{
+			tabs.map((t) => (
+				<li>
+					<a href={t.href} aria-current={t.active ? 'page' : undefined}>
+						{t.label}
+						<span class="n">{t.count}</span>
+					</a>
+				</li>
+			))
+		}
+	</ul>
+</nav>
+
+<style>
+	.tabs {
+		display: flex;
+		gap: 0.5rem;
+		margin: 0 0 1.5rem;
+		padding: 0 0 0.25rem;
+		list-style: none;
+		overflow-x: auto;
+		scrollbar-width: none;
+	}
+	.tabs::-webkit-scrollbar {
+		display: none;
+	}
+	.tabs li {
+		margin: 0;
+	}
+	.tabs a {
+		display: inline-block;
+		padding: 0.45rem 0.9rem;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: 999px;
+		font-size: 0.875rem;
+		white-space: nowrap;
+		color: rgb(var(--black));
+		text-decoration: none;
+		background: #fff;
+	}
+	.tabs a:hover {
+		border-color: var(--accent);
+		color: var(--accent);
+	}
+	.tabs a[aria-current='page'] {
+		background: rgb(var(--black));
+		border-color: transparent;
+		color: #fff;
+	}
+	.n {
+		margin-left: 0.3rem;
+		opacity: 0.6;
+	}
+</style>

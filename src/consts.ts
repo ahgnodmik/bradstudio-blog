@@ -52,3 +52,6 @@ export const COUPANG_PARTNERS = {
 	width: '680',
 	height: '140',
 } as const;
+
+// /blog/ 목록 한 쪽에 보일 글 수. 3열 × 4줄 = 12칸 중 1칸은 인피드 광고.
+export const POSTS_PER_PAGE = 11;

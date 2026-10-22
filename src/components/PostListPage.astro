@@ -1,0 +1,175 @@
+---
+// 전체 글 목록 한 페이지: 카테고리 탭 + 카드 그리드(페이지당 인피드 광고 1칸) + 번호 페이지 넘김.
+// /blog/ (1쪽)와 /blog/page/N/ (2쪽부터)이 같이 쓴다.
+import type { Page } from 'astro';
+import AdInFeed from './AdInFeed.astro';
+import AdSlot from './AdSlot.astro';
+import BaseHead from './BaseHead.astro';
+import Footer from './Footer.astro';
+import CategoryTabs from './CategoryTabs.astro';
+import Header from './Header.astro';
+import PostListCard from './PostListCard.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+
+interface Props {
+	page: Page<any>;
+}
+
+const { page } = Astro.props;
+// 페이지당 광고 1칸: 6번째 카드 뒤 (3열 기준 3번째 줄 첫 칸)
+const AD_AFTER = 6;
+
+const pageHref = (n: number) => (n === 1 ? '/blog/' : `/blog/page/${n}/`);
+// 1 … 4 5 [6] 7 8 … 12 형태
+const numbers: (number | '…')[] = [];
+for (let n = 1; n <= page.lastPage; n++) {
+	if (n === 1 || n === page.lastPage || Math.abs(n - page.currentPage) <= 2) numbers.push(n);
+	else if (numbers[numbers.length - 1] !== '…') numbers.push('…');
+}
+const title = page.currentPage === 1 ? `전체 글 | ${SITE_TITLE}` : `전체 글 ${page.currentPage}쪽 | ${SITE_TITLE}`;
+---
+
+<!doctype html>
+<html lang="ko">
+	<head>
+		<BaseHead title={title} description={SITE_DESCRIPTION} />
+		{page.url.prev && <link rel="prev" href={page.url.prev} />}
+		{page.url.next && <link rel="next" href={page.url.next} />}
+		<style>
+			main {
+				width: 100%;
+				max-width: 1080px;
+				box-sizing: border-box;
+				margin: 0 auto;
+				padding: 2rem 1em 4rem;
+			}
+			.list-head {
+				display: flex;
+				align-items: baseline;
+				justify-content: space-between;
+				gap: 1rem;
+				margin-bottom: 1rem;
+			}
+			.list-head h1 {
+				margin: 0;
+				font-size: 1.5rem;
+			}
+			.list-head .total {
+				font-size: 0.875rem;
+				color: rgb(var(--gray));
+			}
+			.grid {
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				gap: 1.25rem;
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			.pager {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				align-items: center;
+				gap: 0.35rem;
+				margin: 2.5rem 0 0;
+			}
+			.pager a,
+			.pager span {
+				min-width: 2.5rem;
+				height: 2.5rem;
+				box-sizing: border-box;
+				display: inline-flex;
+				align-items: center;
+				justify-content: center;
+				padding: 0 0.75rem;
+				border-radius: 999px;
+				font-size: 0.9rem;
+				text-decoration: none;
+				color: rgb(var(--black));
+			}
+			.pager a {
+				border: 1px solid rgb(var(--gray-light));
+				background: #fff;
+			}
+			.pager a:hover {
+				border-color: var(--accent);
+				color: var(--accent);
+			}
+			.pager .current {
+				background: rgb(var(--black));
+				color: #fff;
+				font-weight: 700;
+			}
+			.pager .gap {
+				min-width: auto;
+				padding: 0 0.25rem;
+				color: rgb(var(--gray));
+			}
+			@media (max-width: 900px) {
+				.grid {
+					grid-template-columns: repeat(2, 1fr);
+				}
+			}
+			@media (max-width: 560px) {
+				.grid {
+					grid-template-columns: 1fr;
+				}
+				.pager .step-label {
+					display: none;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<div class="list-head">
+				<h1>전체 글</h1>
+				<span class="total">{page.total}편 · {page.currentPage}/{page.lastPage}쪽</span>
+			</div>
+			<CategoryTabs />
+			<ul class="grid">
+				{
+					page.data.map((post, index) => (
+						<>
+							<li>
+								<PostListCard post={post} eager={page.currentPage === 1 && index < 3} />
+							</li>
+							{index + 1 === AD_AFTER && index < page.data.length - 1 && <AdInFeed />}
+						</>
+					))
+				}
+			</ul>
+			{
+				page.lastPage > 1 && (
+					<nav class="pager" aria-label="페이지">
+						{page.url.prev && (
+							<a href={page.url.prev} rel="prev">
+								‹ <span class="step-label">이전</span>
+							</a>
+						)}
+						{numbers.map((n) =>
+							n === '…' ? (
+								<span class="gap">…</span>
+							) : n === page.currentPage ? (
+								<span class="current" aria-current="page">
+									{n}
+								</span>
+							) : (
+								<a href={pageHref(n)}>{n}</a>
+							),
+						)}
+						{page.url.next && (
+							<a href={page.url.next} rel="next">
+								<span class="step-label">다음</span> ›
+							</a>
+						)}
+					</nav>
+				)
+			}
+			<AdSlot name="footer" label="하단 디스플레이 광고" size="728×90 / 반응형" />
+		</main>
+		<Footer />
+	</body>
+</html>
