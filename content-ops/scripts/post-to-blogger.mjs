@@ -25,6 +25,7 @@ import { createServer } from 'node:http';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createMarkdownProcessor } from '@astrojs/markdown-remark';
+import { COUPANG_HTML } from './blogger-coupang.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
 const BLOG_DIR = join(ROOT, 'src', 'content', 'blog');
@@ -206,6 +207,7 @@ async function postToBlogger(contentId, asDraft) {
     `최신 업데이트는 <a href="${canonical}">원문</a>에서 확인하세요.</em></p>\n` +
     bodyHtml +
     instagramEmbed(post.instagramPermalink) +
+    COUPANG_HTML +
     `\n<p><em>원문: <a href="${canonical}">${canonical}</a></em></p>`;
 
   const token = await accessToken();
