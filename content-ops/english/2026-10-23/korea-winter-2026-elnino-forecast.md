@@ -36,7 +36,7 @@ Japan's weather agency points the same way. Its three-month outlook, issued on 2
 
 ## Why "warm on average" does not mean "no cold wave"
 
-The last super El Niño is a useful warning. The 2015-16 winter was warm across much of Asia overall. Then, in late January 2016, a sharp cold outbreak hit East Asia.
+The last super El Niño is a useful warning. The 2015-16 winter was warmer than normal across much of Asia. Then, in late January 2016, a sharp cold outbreak hit East Asia.
 
 - Seoul dropped to about -18°C on 24 January 2016. It was the capital's coldest day since 2001.
 - Jeju had its heaviest snow in roughly three decades. The airport closed for more than 40 hours, and tens of thousands of travellers were stranded.
