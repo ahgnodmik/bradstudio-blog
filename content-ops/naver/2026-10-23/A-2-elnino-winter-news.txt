@@ -65,7 +65,7 @@ YTN은 10월 11일 국내 연구진 분석을 전했습니다.
 ■ 출처·참고
 - 세계기상기구(WMO): https://wmo.int/node/39068
 - 데일리환경: https://www.dailyt.co.kr/newsView/dlt202610090010
-- 헤럴드경제: https://www.heraldk.com/article/2026090307250397179
+- 헤럴드(heraldk): https://www.heraldk.com/article/2026090307250397179
 - 미국 기후예측센터(NOAA CPC): https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml
 - 기상청 3개월 전망(9월 23일 발표): https://www.weather.go.kr/w/repositary/xml/fct/mon/fct_mon3_108_20260923.pdf
 - 웨더아이 계절예보: https://www.weatheri.co.kr/forecast/forecast06.php
