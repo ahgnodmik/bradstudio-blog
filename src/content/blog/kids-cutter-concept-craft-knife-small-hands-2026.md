@@ -10,7 +10,7 @@ thumbnail:
   creditUrl: 'https://unsplash.com/@daisies_and_dots'
 instagramPermalink: 'https://www.instagram.com/p/DezVZuXFiXI/'
 
-status: draft
+status: published
 
 category: world
 tags:

@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Liane Metzler'
   creditUrl: 'https://unsplash.com/@liane'
 
-status: draft
+status: published
 
 category: living
 tags:

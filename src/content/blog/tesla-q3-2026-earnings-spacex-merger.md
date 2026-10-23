@@ -10,7 +10,7 @@ thumbnail:
   creditUrl: 'https://unsplash.com/@chuttersnap'
 instagramPermalink: 'https://www.instagram.com/p/Dez0LHRlMVA/'
 
-status: draft
+status: published
 
 category: world
 tags:

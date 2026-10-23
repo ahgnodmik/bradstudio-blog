@@ -2,14 +2,14 @@
 contentId: "bs-20261022-003"
 title: '청년미래적금 2차 — 신청 마감 후 심사 중, 11월 16~27일 계좌 개설과 연 19.4%의 진짜 뜻'
 description: '청년미래적금 2차 신청이 10월 16일 끝났습니다. 심사는 11월 13일까지, 계좌 개설은 11월 16~27일입니다. 가입 조건, 기여금 6%·12%, 연 19.4% 환산 효과의 뜻, 청년도약계좌 갈아타기 순서를 정리했습니다.'
-pubDate: 2026-10-22
+pubDate: 2026-10-23
 thumbnail:
   url: 'https://images.unsplash.com/photo-1634474588707-de99f09285c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
   alt: '저축이라고 적힌 유리병을 든 모습'
   creditName: 'Towfiqu barbhuiya'
   creditUrl: 'https://unsplash.com/@towfiqu999999'
 
-status: draft
+status: published
 
 category: money
 tags:
