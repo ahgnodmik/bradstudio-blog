@@ -205,10 +205,10 @@ nav.blog-nav li a:hover{background:rgba(255,255,255,.15);text-decoration:none}
 <nav class='blog-nav'>
   <ul>
     <li><a expr:href='data:blog.homepageUrl'>홈</a></li>
-    <li><a href='#'>정부지원금</a></li>
-    <li><a href='#'>출산&#183;육아</a></li>
-    <li><a href='#'>주거&#183;생활</a></li>
-    <li><a href='#'>지역별 지원</a></li>
+    <li><a href='/search/label/지원금·복지'>지원금&#183;복지</a></li>
+    <li><a href='/search/label/생활·재테크'>생활&#183;재테크</a></li>
+    <li><a href='/search/label/IT·신제품'>IT&#183;신제품</a></li>
+    <li><a href='/search/label/해외 이슈'>해외 이슈</a></li>
   </ul>
 </nav>
 
@@ -794,7 +794,7 @@ nav.blog-nav li a:hover{background:rgba(255,255,255,.15);text-decoration:none}
         </b:widget>
         <b:widget id='Label1' locked='false' title='카테고리' type='Label' version='2' visible='true'>
           <b:widget-settings>
-            <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
+            <b:widget-setting name='sorting'>FREQUENCY</b:widget-setting>
             <b:widget-setting name='display'>LIST</b:widget-setting>
             <b:widget-setting name='selectedLabelsList'/>
             <b:widget-setting name='showType'>ALL</b:widget-setting>

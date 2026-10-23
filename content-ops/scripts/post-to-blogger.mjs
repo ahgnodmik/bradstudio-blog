@@ -26,6 +26,7 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createMarkdownProcessor } from '@astrojs/markdown-remark';
 import { COUPANG_HTML } from './blogger-coupang.mjs';
+import { bloggerLabel } from './blogger-labels.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
 const BLOG_DIR = join(ROOT, 'src', 'content', 'blog');
@@ -71,6 +72,7 @@ function parsePost(file) {
     slug: file.replace(/\.mdx?$/, ''),
     contentId: get('contentId'),
     title: get('title'),
+    category: get('category'),
     pubDate: get('pubDate'),
     status: get('status'),
     instagramPermalink: get('instagramPermalink'),
@@ -217,7 +219,7 @@ async function postToBlogger(contentId, asDraft) {
     {
       method: 'POST',
       headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ title: post.title, content: html, labels: post.tags }),
+      body: JSON.stringify({ title: post.title, content: html, labels: [bloggerLabel(post)] }),
     }
   );
   const data = await res.json();
