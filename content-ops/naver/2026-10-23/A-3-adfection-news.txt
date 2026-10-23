@@ -1,0 +1,74 @@
+제목: 광고가 뜨기만 해도 스파이웨어가… 시티즌랩 '애드펙션' 보고서와 그 후 1주일, 핵심 9가지
+
+누르지 않은 광고가 휴대폰을 감염시킬 수 있을까요. 캐나다 연구기관이 실제 사례를 찾아 공개했습니다. 보고서가 나온 지 일주일이 지났고, 구글 같은 광고 업계도 움직였습니다. 여러 매체 보도로 교차 확인한 내용만 골라 정리합니다.
+
+■ 1. 무슨 보고서인가
+토론토대 산하 시티즌랩(Citizen Lab)이 2026년 10월 15일 보고서를 냈습니다. 이름은 '애드펙션(AdFection)'입니다. 광고(Ad)와 감염(Infection)을 합친 말입니다.
+- 공개일: 2026년 10월 15일
+- 발표 기관: 시티즌랩
+- 같은 날 별도 보고서: 미국 광고 보안업체 컨피언트(Confiant)
+- 연구진 평가: 표적 광고로 제로클릭 스파이웨어를 퍼뜨린 사례를 실제 환경에서 처음 문서로 남겼다
+
+■ 2. 등장하는 회사들
+- Discover-Tech: 이스라엘 광고기술 회사입니다. 보고서가 지목한 곳입니다.
+- Controlium: Discover-Tech가 운영한 광고 플랫폼입니다.
+- 칸디루(Candiru): 이스라엘 감시 소프트웨어 업체입니다. 지금은 인테그리티 랩스(Integrity Labs)로 이름을 바꿨습니다.
+시티즌랩은 사용된 스파이웨어를 칸디루 제품으로 판단했습니다. 미국 정부는 이미 칸디루를 제재 명단에 올린 상태입니다.
+
+■ 3. 피해가 확인된 곳
+가장 자세히 드러난 피해자는 카타르 방송사 알자지라입니다. 2024년과 2025년, 알자지라 내부 기기 최소 45대가 공격을 받았습니다. 테크크런치, NBC뉴스, 가디언이 같은 숫자를 전했습니다. 누가 이 공격을 맡겼는지는 밝혀지지 않았습니다.
+
+■ 4. 공격은 이렇게 흘렀다
+광고 한 칸이 화면에 뜨는 몇 초 사이에 일이 벌어졌습니다.
+- Discover-Tech가 자동 광고 경매에서 광고 자리를 따냅니다.
+- 광고가 뜨면 회사 서버에 코드를 요청합니다. 이때 IP 주소, 광고 ID 같은 기기 정보가 넘어갑니다.
+- 서버가 표적 여부를 가립니다.
+- 보통 방문자에게는 아무것도 보내지 않습니다. 표적에게만 공격 코드를 보냅니다.
+광고 파일 안에는 악성 코드가 없었습니다. 그래서 광고 네트워크의 보안 검사를 통과했습니다.
+
+■ 5. 광고는 얼마나 퍼졌나
+블리핑컴퓨터와 PPC랜드는 이 회사 광고가 웹사이트 12만 곳 이상, 앱 7만 5천 개 이상에 실렸다고 전했습니다. 합치면 20만 곳에 가깝습니다. CBC와 IT프로는 정부 기관과 군, NATO 네트워크 사용자에게도 광고가 노출됐다고 보도했습니다. 다만 연구진은 광고가 보였다고 해서 그 사람이 표적이었다는 뜻은 아니라고 선을 그었습니다.
+
+■ 6. 보고서 이후 업계 대응
+보고서가 나온 뒤 새로 확인된 내용입니다.
+- 구글: Discover-Tech를 자사 광고 플랫폼에서 퇴출했습니다. 정책을 체계적으로 어겼다는 이유입니다.
+- IAB 유럽: 광고 업계 공용 협력사 목록(GVL)에서 이 회사를 정지시켰습니다.
+- 다른 광고 플랫폼: 일부 업체가 계정을 지우거나 접근을 막았습니다.
+PPC랜드, IT프로, 컴퓨팅 등이 이 조치를 전했습니다. 구글은 2020년부터 이 회사를 광고 협력사로 올려 두고 있었습니다.
+
+■ 7. 회사 쪽 입장
+Discover-Tech는 시티즌랩의 질의에 답하지 않은 것으로 보도됐습니다. 공식 반박이나 해명은 아직 나오지 않았습니다.
+
+■ 8. 한국 사용자와의 관계
+이번 보고서에 한국 피해 사례는 없습니다. 하지만 국내 앱과 사이트도 같은 자동 경매 방식으로 광고를 받습니다. 스마트폰마다 광고 ID가 있다는 점도 같습니다. 시티즌랩은 기업과 기관에 업무용 기기와 네트워크 단에서 광고를 차단하라고 권했습니다.
+
+■ 9. 아직 남은 물음표
+- 알자지라 공격을 의뢰한 주체
+- 45대 말고 다른 피해 기기가 있는지
+- Discover-Tech 퇴출 조치가 영구로 이어질지
+- 각국 정부가 광고 업계 규제에 나설지
+
+■ 이 뉴스 읽을 때 주의할 점
+- 20만 곳은 광고가 실린 곳의 숫자입니다. 감염 숫자가 아닙니다.
+- 감염이 확인된 사례는 알자지라 기기입니다. 일반인 대량 감염으로 읽으면 안 됩니다.
+- 제로클릭은 사용자 행동이 전혀 필요 없는 공격을 뜻합니다. 광고를 누르지 않았다고 안전하다는 말은 이제 맞지 않습니다.
+
+■ 한눈에 보기
+- 10월 15일 시티즌랩 '애드펙션' 보고서 공개
+- 이스라엘 광고회사 Discover-Tech와 플랫폼 Controlium 지목
+- 칸디루 스파이웨어, 알자지라 기기 최소 45대
+- 광고 노출 웹사이트·앱 20만 곳 가까이
+- 구글 퇴출, IAB 유럽 목록 정지
+
+오늘 저녁 휴대폰 설정을 열어 소프트웨어 업데이트가 밀려 있지 않은지 먼저 확인해 보세요.
+
+■ 출처·참고
+- 시티즌랩(The Citizen Lab): https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/
+- 테크크런치(TechCrunch): https://techcrunch.com/2026/10/15/citizen-lab-says-governments-are-abusing-online-ads-to-hack-people-with-zero-click-spyware/
+- NBC뉴스: https://www.nbcnews.com/tech/security/israeli-ad-company-helped-spyware-firm-target-al-jazeera-online-ads-re-rcna602999
+- CBC: https://www.cbc.ca/news/world/israeli-firm-targeted-ads-espionage-9.7381922
+- 블리핑컴퓨터(BleepingComputer): https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/
+- 가디언(The Guardian): https://www.theguardian.com/technology/2026/oct/15/israeli-firm-digital-ads-enabling-installation-of-zero-click-spyware-researchers-say
+- PPC랜드(PPC Land): https://ppc.land/google-drops-ad-vendor-it-listed-since-2020-after-45-device-spyware-attack/
+- IT프로(ITPro): https://www.itpro.com/security/malware/israeli-digital-ad-agency-caught-serving-first-in-the-wild-zero-click-spyware
+- 컴퓨팅(Computing): https://www.computing.co.uk/news/2026/security/zero-click-spyware-shows-security-problem-with-programmatic-advertising
