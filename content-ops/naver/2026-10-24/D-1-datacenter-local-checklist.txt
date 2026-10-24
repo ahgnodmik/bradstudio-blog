@@ -1,0 +1,65 @@
+제목: 우리 동네에 데이터센터가 들어선다면? 스페인 물 분쟁에서 뽑은 주민 체크리스트 15가지
+
+데이터센터 건립 소식이 들리면 반응은 대개 둘로 갈립니다. 일자리와 세수를 기대하는 쪽, 물과 전기와 소음을 걱정하는 쪽입니다. 어느 쪽이든 확인할 항목은 같습니다. 빅테크 투자가 몰린 스페인 아라곤과 한국 사례에서 실제로 쟁점이 된 부분을 골라 바로 쓸 수 있는 점검표로 묶었습니다.
+
+■ 먼저 알아 둘 배경 3줄
+- 스페인 아라곤: 아마존웹서비스(AWS)가 337억 유로를 약속했고 마이크로소프트·블랙스톤도 대형 시설을 계획했습니다. 가뭄이 잦은 지역이라 물 논쟁이 커졌습니다.
+- 스페인 정부: 8월 25일 재생에너지 80% 조달, 물·에너지 효율 기준, 사이버보안 요건을 담은 왕령 초안을 승인했습니다. 의견 수렴 중입니다.
+- 한국: AI 데이터센터 특별법이 2026년 5월 국회를 통과했습니다. 비수도권 일정 규모 이하 시설은 전력계통영향평가를 면제받습니다. 시행은 2027년 2월 예정입니다.
+
+■ 체크 1~4: 사업 자체를 확인한다
+- 1. 사업자 이름과 시설 규모(전력 용량, 부지 면적)를 공고문에서 확인했나요? 블랙스톤 아라곤 캠퍼스는 224헥타르, 300MW로 공개됐습니다. 규모가 숫자로 적혀 있는지 보세요.
+- 2. 투자액이 "계획"인지 "집행"인지 구분했나요? 아마존의 337억 유로도 기업이 밝힌 약속이고 집행 일정은 공개되지 않았습니다.
+- 3. 단계별 건설인지 확인했나요? 블랙스톤처럼 1단계 금액만 먼저 나오는 경우가 있습니다. 전체 계획과 1단계를 따로 보세요.
+- 4. 지자체가 우선 처리나 신속 인허가 대상으로 지정했나요? 메타의 스페인 톨레도 사업은 2023년 지방정부 우선 처리 대상이 됐습니다.
+
+■ 체크 5~8: 물을 확인한다
+- 5. 냉각 방식이 공개됐나요? 증발식 냉각탑을 쓰는지, 공랭식이나 밀폐형 액체 냉각을 쓰는지에 따라 물 사용이 크게 달라집니다.
+- 6. 물을 어디서 가져오나요? 메타 톨레도 사업은 타호강 물을 쓰는 계획으로 보도됐습니다. 우리 지역이라면 상수도인지, 지하수인지, 하천수인지 확인하세요.
+- 7. 숫자가 허가량인지 실제 사용량인지 구분했나요? 아마존은 아라곤 기존 시설 3곳의 허가량을 48% 늘려 달라고 신청했습니다. 가디언과 SourceMaterial 조사로 알려졌고 EHN 등이 함께 실었습니다. 승인 여부는 아직 알려지지 않았습니다.
+- 8. 기업 발표치에 외부 검증이 있나요? 아마존은 2025년 아라곤 사용량을 약 6,800만L, 유역 산업용수 수요의 0.03%로 밝혔습니다. 외부 검증은 확인 필요입니다.
+
+■ 체크 9~11: 전기를 확인한다
+- 9. 전력을 어디서 끌어오나요? 송전선이나 변전소 신설이 함께 추진되는지 보세요. 한국에서는 고압선과 화재 우려로 데이터센터를 기피하는 분위기가 있다고 머니투데이가 보도했습니다.
+- 10. 재생에너지 조달 계획이 있나요? 스페인 초안은 전력의 80% 이상을 재생에너지로 채우라고 요구합니다. 시간 단위 기준인지 등 세부는 보도마다 설명이 다릅니다.
+- 11. 전력계통영향평가 대상인가요? 한국은 2024년 6월부터 대규모 전력 사용 시설이 이 평가를 받습니다. 전자신문은 지역 수용성 같은 비기술 항목이 포함됐다고 보도했습니다. 특별법 시행 뒤에는 비수도권 소규모 시설이 면제될 수 있으니 규모 기준을 확인하세요.
+
+■ 체크 12~13: 생활 영향을 확인한다
+- 12. 비상발전기와 냉각탑 위치를 확인했나요? 2019년 경기 용인 공세동 네이버 데이터센터 계획 때 주민들은 전자파, 냉각탑, 비상발전기 오염을 걱정했습니다. 네이버는 그해 계획을 접었습니다.
+- 13. 소음과 열 배출 대책이 있나요? 냉방 설비는 24시간 돌아갑니다. 주거지와의 거리와 차폐 계획을 물어보세요.
+
+■ 체크 14~15: 의견 낼 시간을 확인한다
+- 14. 주민설명회와 의견 제출 마감일을 달력에 적었나요? 한국 특별법에는 처리 기한을 넘기면 허가로 보는 타임아웃제가 들어갔습니다. 절차가 빨라지면 의견 낼 시간도 짧아질 수 있습니다.
+- 15. 지역 단체나 이웃과 정보를 나눴나요? 스페인에서는 시민단체 "투 누베 세카 미 리오(네 구름이 내 강을 말린다)"가 물 사용 정보를 모아 문제를 제기해 왔습니다.
+
+■ 이런 숫자는 한 번 더 의심하기
+- 단일 조사에서 나온 수치: 가디언이 집계한 아라곤 신규 시설 3곳 허가량 연 75만5천여㎥(확인 필요)
+- 단일 보고서 수치: CBRE가 본 이베리아반도 발표 용량 10.5GW 가운데 실제 추진 4.5GW(확인 필요)
+- 다른 매체 확인이 안 된 내용: NPR이 전한 아라곤 신속 인허가로 주민 이의 제기 기간이 줄었다는 대목(확인 필요)
+- 통화가 엇갈리는 금액: 메타 톨레도 투자액 10억 단위(유로·달러 보도 엇갈림)
+
+■ 찬성 쪽 논리도 같이 적어 두기
+업계는 국내총생산과 일자리 효과가 분명하다고 말합니다. 스페인 업계 단체 SpainDC는 새 규정 초안이 계획된 투자의 최대 90%를 없앨 수 있다고 경고했습니다. 디지털전환부 장관은 신규 데이터센터 모라토리엄은 없다고 밝혔습니다. 점검표는 반대를 위한 도구가 아닙니다. 정보를 정확히 받기 위한 도구입니다.
+
+이 15개 항목을 메모장에 옮겨 두고 다음 주민설명회에 들고 가세요.
+
+■ 출처·참고
+- NPR: https://www.npr.org/2026/10/22/nx-s1-5991641/ai-data-centers-spain-environmental-impact
+- 스페인 총리실(La Moncloa): https://www.lamoncloa.gob.es/lang/en/gobierno/news/Paginas/2026/20260302-wmc-amazon-investment.aspx
+- 로이터(AOL 게재): https://www.aol.com/news/amazon-services-invest-17-02-093507596.html
+- DCD(DatacenterDynamics): https://datacenterdynamics.com/en/news/blackstone-to-develop-300mw-data-center-campus-in-aragon-spain
+- 인베스트먼트 모니터(Investment Monitor): https://www.investmentmonitor.ai/news/blackstone-to-make-8-2bn-data-centre-investment-in-spain
+- 크로스보더 매거진(Cross-Border Magazine): https://cross-border-magazine.com/meta-data-center-talavera/
+- 올리브 프레스(The Olive Press): https://theolivepress.es/spain-news/2023/05/10/metas-planned-data-centre-for-toledo-town-will-require-660-million-litres-of-water-a-year/
+- 가디언(AOL 게재): https://www.aol.com/news/revealed-big-tech-datacentres-water-113001217.html
+- EHN: https://www.ehn.org/big-techs-water-guzzling-data-centers-are-draining-some-of-the-worlds-driest-regions
+- 더 로컬(The Local): https://www.thelocal.es/20240717/spains-aragon-is-europes-new-cloud-storage-oasis-but-not-everyone-is-happy-about-it
+- VnExpress(로이터): https://e.vnexpress.net/news/tech/tech-news/world-s-second-most-visited-country-plans-stricter-data-centers-rules-5113670.html
+- pv magazine: https://www.pv-magazine.com/2026/08/26/espana-exigira-a-los-centros-de-datos-un-80-de-renovables-adicionales-y-datos-bajo-control-europeo/
+- 이데알리스타(idealista): https://www.idealista.com/en/news/node/916666
+- 블룸버그(Bloomberg): https://www.bloomberg.com/news/articles/2026-07-17/spain-and-portugal-s-data-center-boom-faces-grid-bottlenecks
+- 아주경제: https://www.ajunews.com/view/20190614181353907
+- 머니투데이(2022): https://www.mt.co.kr/tech/2022/12/03/2022120110272152225
+- 전자신문: https://www.etnews.com/20240604000162
+- 머니투데이방송: https://news.mtn.co.kr/news-detail/2026050718190783794
+- 뉴스서울: https://www.newsseoul.co.kr/news/view/1065607809925452

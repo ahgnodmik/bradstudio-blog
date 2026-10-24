@@ -1,0 +1,68 @@
+제목: 데이터센터는 왜 물과 전기를 그렇게 많이 쓸까? 스페인 가뭄 논란으로 풀어 보는 10문 10답
+
+챗봇에게 질문 하나를 던지면 그 답은 어딘가의 건물에서 계산됩니다. 그 건물이 데이터센터입니다. 요즘 스페인 북동부 아라곤에서는 이 건물을 두고 물과 전기 논쟁이 한창입니다. 왜 컴퓨터 건물이 물을 걱정하게 만드는지, 원리부터 차근차근 질문과 답으로 풀어 봅니다.
+
+■ Q1. 데이터센터는 정확히 무엇을 하는 곳인가요?
+서버라는 컴퓨터 수천~수만 대를 한곳에 모아 24시간 돌리는 건물입니다. 검색, 동영상, 클라우드 저장, AI 서비스가 모두 여기서 처리됩니다. 서버는 꺼지면 안 되기 때문에 전력과 냉방, 비상 발전 설비를 함께 갖춥니다.
+
+■ Q2. 전기는 왜 그렇게 많이 쓰나요?
+서버가 쉬지 않고 계산하기 때문입니다. 컴퓨터가 쓴 전기는 거의 전부 열로 바뀝니다. 그 열을 식히는 냉방 설비도 다시 전기를 씁니다. 계산에 한 번, 냉각에 한 번 전기가 들어가는 구조입니다.
+
+■ Q3. AI 데이터센터는 일반 데이터센터와 뭐가 다른가요?
+AI 학습과 추론에는 그래픽처리장치(GPU) 같은 고성능 칩이 많이 쓰입니다. 이런 칩은 같은 공간에서 더 많은 전력을 쓰고 더 많은 열을 냅니다. 랙 하나에 몰리는 전력이 커질수록 냉각 부담도 커집니다. AI 붐이 데이터센터 전력 논쟁을 키운 이유입니다.
+
+■ Q4. 그럼 물은 어디에 쓰나요?
+주로 냉각에 씁니다. 많이 쓰이는 방식 가운데 하나가 냉각탑입니다. 뜨거워진 물의 일부를 증발시키면서 열을 빼냅니다. 증발한 물은 돌아오지 않습니다. 그래서 계속 새 물을 채워야 합니다. 습도 조절과 설비 세척에도 물이 들어갑니다.
+
+■ Q5. 날씨가 더우면 물을 더 쓰나요?
+일반적으로 그렇습니다. 바깥 공기가 뜨거울수록 열을 빼내기가 어렵습니다. 증발 냉각에 기대는 비중이 커지면 물 사용도 늘어납니다. 실제 사례도 있습니다. 가디언과 SourceMaterial 조사에 따르면 아마존은 아라곤 기존 데이터센터 3곳의 물 허가량을 48% 늘려 달라고 신청했습니다. 이유로 기후변화에 따른 기온 상승과 잦아진 폭염을 들었습니다. 환경 매체 EHN도 같은 조사를 실었습니다. 신청이 승인됐는지는 아직 알려지지 않았습니다.
+
+■ Q6. 스페인 시설은 물을 얼마나 쓰나요?
+시설별 실제 사용량은 대부분 공개되지 않았습니다. 지금 나온 숫자는 성격이 섞여 있습니다.
+- 아마존 발표: 2025년 아라곤 시설 사용량 약 6,800만L, 에브로강 유역 산업용수 수요의 0.03%라고 밝혔습니다. 기업 발표라 외부 검증은 확인 필요입니다.
+- 가디언 집계: 새로 짓는 3곳의 허가량을 연 75만5천여㎥로 봤습니다. 단일 조사 수치라 확인 필요입니다.
+- 메타 톨레도 계획: 2023년 기술 보고서 기준 연 약 6억6천만L가 필요하다고 보도됐습니다. 이후 계획 변경 여부는 확인 필요입니다.
+
+■ Q7. 왜 하필 건조한 아라곤에 몰리나요?
+데이터센터는 보통 넓은 부지와 안정적인 전력을 찾습니다. 아라곤에는 아마존웹서비스(AWS)가 총 337억 유로 투자를 약속했습니다. 마이크로소프트는 66억9천만 유로, 블랙스톤은 1단계 75억 유로 규모 캠퍼스를 계획했습니다. 아라곤 지방정부 수반은 이 지역이 "남유럽의 버지니아"가 되고 있다고 말했습니다. 하지만 이곳은 여름마다 주민에게 절수 안내가 나오는 건조한 땅입니다. 시민단체 "투 누베 세카 미 리오(네 구름이 내 강을 말린다)"가 반발하는 이유입니다.
+
+■ Q8. 물을 덜 쓰는 방법은 없나요?
+방법은 있지만 맞바꿈이 따릅니다. 일반적으로 알려진 선택지는 이렇습니다.
+- 공랭식: 물 대신 공기와 냉동기를 씁니다. 물은 줄지만 전기를 더 쓸 수 있습니다.
+- 액체 냉각: 칩 가까이에 냉각액을 흘려 열을 바로 빼냅니다. 밀폐 순환이면 증발 손실이 적습니다.
+- 외기 냉각: 서늘한 계절에 바깥 공기를 그대로 활용합니다. 기후 조건이 맞아야 합니다.
+물과 전기 가운데 무엇을 아낄지는 지역 사정에 따라 달라집니다. 가뭄 지역에서는 물 절약이, 전력망이 빠듯한 지역에서는 전기 절약이 더 중요해집니다.
+
+■ Q9. 효율은 어떻게 재나요?
+흔히 쓰는 지표가 전력사용효율(PUE)입니다. 데이터센터 전체 전력을 서버 같은 IT 장비 전력으로 나눈 값입니다. 1에 가까울수록 냉방 등 부대 설비에 쓰는 전기가 적다는 뜻입니다. 물에는 물사용효율(WUE)이라는 지표가 있습니다. 다만 시설별 수치를 공개하는 곳은 많지 않습니다. 스페인 정부가 8월 25일 승인한 왕령 초안에도 물·에너지 효율 기준이 들어갔습니다. 전력의 80% 이상을 재생에너지로 조달하라는 조건도 붙었습니다. 로이터, pv magazine, idealista가 같은 내용을 보도했습니다. 초안은 아직 의견 수렴 중입니다.
+
+■ Q10. 한국도 같은 문제가 있나요?
+한국 논쟁은 물보다 전력망과 주민 건강 우려가 중심입니다. 2019년 네이버는 경기 용인 공세동 데이터센터 계획을 주민 반대 속에 접었습니다. 주민들은 전자파, 냉각탑, 비상발전기 오염을 걱정했습니다. 2024년 6월부터는 대규모 전력 사용 시설이 전력계통영향평가를 받습니다. 2026년 5월에는 AI 데이터센터 특별법이 국회를 통과했습니다. 비수도권에 일정 규모 이하로 지으면 이 평가를 면제해 지방 분산을 유도합니다. 시행은 2027년 2월 예정이며 면제 기준은 시행령으로 정해집니다. 머니투데이는 전력 공급 대책이 빠졌다는 지적을 전했습니다.
+
+■ 한 장으로 보는 원리
+- 서버 계산 → 전기 사용 → 열 발생
+- 열 제거 → 냉방 전기 + 증발 냉각용 물
+- 더운 날씨, 고성능 AI 칩 → 냉각 부담 증가
+- 건조 지역 → 물 배분 갈등, 전력망 부족 지역 → 전기 배분 갈등
+
+다음에 데이터센터 기사를 보면 냉각 방식이 무엇인지부터 찾아 읽어 보세요.
+
+■ 출처·참고
+- NPR: https://www.npr.org/2026/10/22/nx-s1-5991641/ai-data-centers-spain-environmental-impact
+- 가디언(AOL 게재): https://www.aol.com/news/revealed-big-tech-datacentres-water-113001217.html
+- EHN: https://www.ehn.org/big-techs-water-guzzling-data-centers-are-draining-some-of-the-worlds-driest-regions
+- 더 로컬(The Local): https://www.thelocal.es/20240717/spains-aragon-is-europes-new-cloud-storage-oasis-but-not-everyone-is-happy-about-it
+- EU 퍼스펙티브(EU Perspectives): https://euperspectives.eu/2026/08/can-spain-build-ai-infrastructure-without-running-dry/
+- 올리브 프레스(The Olive Press): https://theolivepress.es/spain-news/2023/05/10/metas-planned-data-centre-for-toledo-town-will-require-660-million-litres-of-water-a-year/
+- 스페인 총리실(La Moncloa): https://www.lamoncloa.gob.es/lang/en/gobierno/news/Paginas/2026/20260302-wmc-amazon-investment.aspx
+- 이베리안 프로퍼티(Iberian Property): https://iberian.property/news/data-centers/amazon-increases-investment-to-eur33-7bn-in-aragon-data-centre-expansion/
+- 걸프뉴스(Gulf News): https://gulfnews.com/business/markets/microsoft-to-invest-716-billion-in-new-data-centres-in-northeastern-spain-1.103109450
+- DCD(DatacenterDynamics): https://datacenterdynamics.com/en/news/blackstone-to-develop-300mw-data-center-campus-in-aragon-spain
+- VnExpress(로이터): https://e.vnexpress.net/news/tech/tech-news/world-s-second-most-visited-country-plans-stricter-data-centers-rules-5113670.html
+- pv magazine: https://www.pv-magazine.com/2026/08/26/espana-exigira-a-los-centros-de-datos-un-80-de-renovables-adicionales-y-datos-bajo-control-europeo/
+- 이데알리스타(idealista): https://www.idealista.com/en/news/node/916666
+- 아주경제: https://www.ajunews.com/view/20190614181353907
+- 머니투데이(2022): https://www.mt.co.kr/tech/2022/12/03/2022120110272152225
+- 머니투데이방송: https://news.mtn.co.kr/news-detail/2026050718190783794
+- 뉴스서울: https://www.newsseoul.co.kr/news/view/1065607809925452
+- 머니투데이(2026): https://www.mt.co.kr/tech/2026/05/20/2026051922044934385
