@@ -135,8 +135,16 @@ nav.blog-nav li a:hover{background:rgba(255,255,255,.15);text-decoration:none}
 .blog-pager a{display:inline-block;padding:9px 22px;background:#fff;color:#0a1317;border:1px solid #e3e6ea;border-radius:999px;font-size:14px;margin:4px}
 .blog-pager a:hover{background:#0a1317;color:#fff;border-color:transparent;text-decoration:none}
 
-/* ===== 더 보기 ===== */
-.more-wrap{text-align:center;padding:24px 0}
+/* ===== 더 보기 · 50개 보기 · 전체 보기 · 쪽 번호 ===== */
+.more-wrap{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;padding:24px 0 8px}
+.size-btn{padding:11px 20px;font-weight:500}
+.size-btn[aria-pressed='true']{background:#0a1317;color:#fff;border-color:transparent}
+.post-grid .ad-mid-list.is-hidden{display:none !important}
+.num-pager{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px;padding:8px 0 24px}
+.num-pager button{min-width:38px;height:38px;padding:0 12px;border:1px solid #e3e6ea;border-radius:999px;background:#fff;color:#0a1317;font-size:14px;font-family:inherit;cursor:pointer}
+.num-pager button:hover{border-color:#1a73e8;color:#1a73e8}
+.num-pager button.current{background:#0a1317;color:#fff;border-color:transparent;font-weight:700}
+.num-pager .gap{color:#888;padding:0 2px}
 .more-btn{padding:11px 36px;background:#fff;color:#0a1317;border:1px solid #e3e6ea;border-radius:999px;font-size:15px;font-weight:700;cursor:pointer;font-family:inherit}
 .more-btn:hover{background:#0a1317;color:#fff;border-color:transparent}
 .more-btn:disabled{opacity:.6;cursor:wait}
@@ -176,7 +184,8 @@ nav.blog-nav li a:hover{background:rgba(255,255,255,.15);text-decoration:none}
   .card-body{padding:7px 8px 9px;gap:4px}
   .card-top{font-size:10.5px}
   .card-title{font-size:13px}
-  .more-btn{width:100%;padding:13px 0}
+  .more-btn{flex:1 1 30%;padding:12px 0;font-size:14px}
+  .num-pager button{min-width:34px;height:34px;padding:0 10px}
   /* 글 상세 */
   .post-outer{border-radius:0;margin:0 -12px 16px;box-shadow:none}
   .post-title{font-size:19px;padding:16px 16px 6px}
@@ -396,8 +405,11 @@ nav.blog-nav li a:hover{background:rgba(255,255,255,.15);text-decoration:none}
                 </b:if>
               </div>
               <div class='more-wrap' id='more-wrap' style='display:none'>
-                <button class='more-btn' id='load-more' type='button'>더 보기</button>
+                <button class='more-btn' data-act='more' id='load-more' type='button'>더 보기</button>
+                <button aria-pressed='false' class='more-btn size-btn' data-size='50' type='button'>50개 보기</button>
+                <button aria-pressed='false' class='more-btn size-btn' data-size='all' type='button'>전체 보기</button>
               </div>
+              <nav aria-label='페이지' class='num-pager' id='num-pager' style='display:none'>&#160;</nav>
             </b:if>
           </b:includable>
           <b:includable id='aboutPostAuthor'>
@@ -1034,53 +1046,117 @@ document.addEventListener('DOMContentLoaded', function () {
     p.textContent = p.textContent.replace(PREFIX, '');
   });
 
-  // 처음엔 16편(PC 4열 × 4줄)만 보이고 '더 보기'마다 16편씩 더 보인다.
-  // 이 쪽 글이 16편보다 적게 남으면 다음 쪽을 가져와 카드만 이어 붙인다.
-  // 실패하면 기존 이전/최신 글 버튼으로 돌아간다.
-  var STEP = 16;
+  // 목록 보기: 기본 16편(PC 4열 × 4줄)씩 쪽 번호로 넘기고,
+  // '더 보기'는 지금 보기 단위만큼 이어서 보이고, '50개 보기'·'전체 보기'는 보기 단위를 바꾼다.
+  // 이 화면에 없는 글은 '이전 글' 페이지를 가져와 카드만 이어 붙인다.
+  // 전체 글 수는 Blogger 피드(totalResults)로 알아낸다. 실패하면 쪽 번호 없이 '더 보기'만 동작한다.
+  var BASE = 16;
   var grid = document.getElementById('post-grid');
   var older = document.getElementById('older-link');
   var moreWrap = document.getElementById('more-wrap');
-  var moreBtn = document.getElementById('load-more');
-  if (grid && moreWrap && moreBtn) {
+  var numPager = document.getElementById('num-pager');
+  var isFirstPage = location.search.indexOf('updated-max') === -1 && location.search.indexOf('start=') === -1;
+  if (grid && moreWrap && numPager && isFirstPage) {
     var pager = document.querySelector('.blog-pager');
+    var moreBtn = moreWrap.querySelector('[data-act=more]');
+    var sizeBtns = moreWrap.querySelectorAll('[data-size]');
     var next = older ? older.href : null;
-    var hiddenCards = function () { return grid.querySelectorAll('.post-card.is-hidden'); };
-    var update = function () {
-      var left = hiddenCards().length;
-      moreBtn.disabled = false;
-      moreBtn.textContent = '더 보기';
-      moreWrap.style.display = (left > 0 || next) ? 'block' : 'none';
-    };
-    grid.querySelectorAll('.post-card').forEach(function (c, i) { if (i >= STEP) c.classList.add('is-hidden'); });
-    if (pager && (next || hiddenCards().length)) pager.style.display = 'none';
-    var reveal = function () {
-      Array.prototype.slice.call(hiddenCards(), 0, STEP).forEach(function (c) { c.classList.remove('is-hidden'); });
-      update();
-    };
-    update();
-    moreBtn.addEventListener('click', function () {
-      if (hiddenCards().length >= STEP || !next) { reveal(); return; }
-      moreBtn.disabled = true;
-      moreBtn.textContent = '불러오는 중…';
+    var size = BASE, start = 0, end = BASE, total = null, busy = false;
+    var cardsOf = function () { return grid.querySelectorAll('.post-card'); };
+    var known = function () { return total !== null ? total : (next ? Infinity : cardsOf().length); };
+
+    var loadUntil = function (count, done) {
+      if (cardsOf().length >= Math.min(count, known()) || !next) { done(); return; }
       fetch(next).then(function (r) { return r.text(); }).then(function (html) {
         var doc = new DOMParser().parseFromString(html, 'text/html');
         doc.querySelectorAll('#post-grid .post-card').forEach(function (card) {
           var p = card.querySelector('.card-snippet');
           if (p) p.textContent = p.textContent.replace(PREFIX, '');
-          var node = document.importNode(card, true);
-          node.classList.add('is-hidden');
-          grid.appendChild(node);
+          grid.appendChild(document.importNode(card, true));
         });
         var n = doc.getElementById('older-link');
         next = n ? n.href : null;
-        reveal();
-      }).catch(function () {
-        next = null;
-        reveal();
-        if (pager) pager.style.display = '';
+        loadUntil(count, done);
+      }).catch(function () { next = null; done(); });
+    };
+
+    var pageBtn = function (label, page, current) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.textContent = label;
+      if (current) { b.className = 'current'; b.setAttribute('aria-current', 'page'); }
+      b.addEventListener('click', function () { go((page - 1) * size, page * size, true); });
+      return b;
+    };
+
+    var render = function () {
+      var cards = cardsOf();
+      cards.forEach(function (c, i) { c.classList.toggle('is-hidden', i < start || i >= end); });
+      var ad = document.getElementById('mid-list-ad');
+      if (ad) ad.classList.toggle('is-hidden', !(start < 8 && end > 8));
+      var all = known();
+      var shown = Math.min(end, cards.length);
+      moreBtn.style.display = (shown < cards.length || next) ? '' : 'none';
+      moreBtn.textContent = (all !== Infinity && all > shown) ? '더 보기 (남은 ' + (all - shown) + '편)' : '더 보기';
+      sizeBtns.forEach(function (b) {
+        var v = b.getAttribute('data-size') === 'all' ? Infinity : Number(b.getAttribute('data-size'));
+        b.setAttribute('aria-pressed', v === size ? 'true' : 'false');
+      });
+      moreWrap.style.display = (all > BASE || next) ? 'flex' : 'none';
+      numPager.innerHTML = '';
+      var pages = (size === Infinity || all === Infinity) ? 1 : Math.ceil(all / size);
+      numPager.style.display = pages > 1 ? 'flex' : 'none';
+      if (pages <= 1) return;
+      var cur = Math.floor(start / size) + 1, gap = false;
+      if (cur > 1) numPager.appendChild(pageBtn('\u2039', cur - 1));
+      for (var n = 1; n <= pages; n++) {
+        if (n === 1 || n === pages || Math.abs(n - cur) <= 2) { numPager.appendChild(pageBtn(String(n), n, n === cur)); gap = false; }
+        else if (!gap) { var g = document.createElement('span'); g.className = 'gap'; g.textContent = '\u2026'; numPager.appendChild(g); gap = true; }
+      }
+      if (cur < pages) numPager.appendChild(pageBtn('\u203A', cur + 1));
+    };
+
+    var go = function (s, e, scroll) {
+      if (busy) return;
+      busy = true;
+      moreBtn.disabled = true;
+      moreBtn.textContent = '불러오는 중…';
+      loadUntil(e, function () {
+        busy = false;
+        moreBtn.disabled = false;
+        start = s;
+        end = e;
+        render();
+        if (scroll) grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    };
+
+    moreBtn.addEventListener('click', function () { go(start, end + (size === Infinity ? 100000 : size)); });
+    sizeBtns.forEach(function (b) {
+      b.addEventListener('click', function () {
+        var v = b.getAttribute('data-size') === 'all' ? Infinity : Number(b.getAttribute('data-size'));
+        // 이미 선택된 보기를 다시 누르면 기본(16편)으로 돌아간다
+        size = v === size ? BASE : v;
+        var s = size === Infinity ? 0 : Math.floor(start / size) * size;
+        go(s, size === Infinity ? 100000 : s + size);
       });
     });
+
+    // 전체 글 수: 홈은 전체 피드, 라벨은 라벨 피드, 검색은 검색 피드
+    var feed = '/feeds/posts/summary';
+    var m = location.pathname.match(/^\/search\/label\/(.+)$/);
+    if (m) feed += '/-/' + m[1];
+    var q = new URLSearchParams(location.search).get('q');
+    var isList = location.pathname === '/' || m || (location.pathname === '/search' && q);
+    if (isList) {
+      fetch(feed + '?alt=json&max-results=0' + (q ? '&q=' + encodeURIComponent(q) : ''))
+        .then(function (r) { return r.json(); })
+        .then(function (j) { total = Number(j.feed.openSearch$totalResults.$t) || null; render(); })
+        .catch(function () {});
+    }
+
+    if (pager) pager.style.display = 'none';
+    render();
   }
 
   // 글 목록 중간 광고: 8번째 카드 뒤 한 줄 전체, 광고 코드가 들어 있을 때만 표시 (빈 '광고' 칸 방지)
