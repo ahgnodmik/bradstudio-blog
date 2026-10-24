@@ -65,7 +65,8 @@ nav.blog-nav li a{display:block;padding:10px 14px;color:#fff;font-size:14px;font
 nav.blog-nav li a:hover{background:rgba(255,255,255,.15);text-decoration:none}
 
 /* ===== 글 목록: 카드 그리드 (bradstudio.xyz 스타일) ===== */
-.post-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
+.post-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.post-grid .post-card.is-hidden{display:none}
 .post-card{position:relative;display:flex;flex-direction:column;background:#fff;border:1px solid #e3e6ea;border-radius:12px;overflow:hidden;transition:box-shadow .2s ease,transform .2s ease}
 .post-card:hover{box-shadow:0 4px 14px rgba(15,18,25,.1)}
 .card-thumb{display:block;aspect-ratio:2/1;background:#e9ecf2;overflow:hidden}
@@ -152,12 +153,40 @@ nav.blog-nav li a:hover{background:rgba(255,255,255,.15);text-decoration:none}
 @media(max-width:900px){
   .content-wrapper{grid-template-columns:1fr}
   .ad-rail-left{display:none}
+  .post-grid{grid-template-columns:repeat(3,1fr)}
 }
+/* ===== 모바일 최적화 ===== */
 @media(max-width:640px){
-  .post-title{font-size:18px}
-  .post-body h2{font-size:17px}
-  nav.blog-nav ul{flex-wrap:wrap}
+  body{font-size:16px}
+  .outer-wrapper{padding:0 12px}
+  .content-wrapper{margin-top:14px;gap:0}
+  #header h1{font-size:19px;padding:12px 0}
+  #header p.description{font-size:12px;padding-bottom:10px}
+  /* 메뉴는 한 줄 가로 스크롤, 검색·카테고리 버튼은 오른쪽 끝에 고정 */
+  nav.blog-nav{padding:0}
+  nav.blog-nav ul{overflow-x:auto;white-space:nowrap;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  nav.blog-nav ul::-webkit-scrollbar{display:none}
+  nav.blog-nav li{flex:0 0 auto}
+  nav.blog-nav li a{padding:11px 12px;font-size:14px}
+  nav.blog-nav li.nav-drawer{position:sticky;right:0;background:#155db2;box-shadow:-8px 0 8px -4px rgba(0,0,0,.25)}
+  .drawer-open-btn{padding:11px 16px;font-size:17px;line-height:1}
+  .drawer-label{display:none}
+  /* 목록: 2열 */
   .post-grid{grid-template-columns:repeat(2,1fr);gap:8px}
+  .card-body{padding:7px 8px 9px;gap:4px}
+  .card-top{font-size:10.5px}
+  .card-title{font-size:13px}
+  .more-btn{width:100%;padding:13px 0}
+  /* 글 상세 */
+  .post-outer{border-radius:0;margin:0 -12px 16px;box-shadow:none}
+  .post-title{font-size:19px;padding:16px 16px 6px}
+  .post-meta{padding:0 16px 8px}
+  .post-body{padding:0 16px 16px;line-height:1.8}
+  .post-body h2{font-size:17px;margin:22px 0 8px}
+  .post-body table{display:block;overflow-x:auto;font-size:14px;white-space:nowrap}
+  .post-body iframe,.post-body img{max-width:100%}
+  .post-body .coupang-widget{overflow:hidden}
+  .post-labels{padding:6px 16px 14px}
 }
   ]]></b:skin>
 </head>
@@ -238,7 +267,7 @@ nav.blog-nav li a:hover{background:rgba(255,255,255,.15);text-decoration:none}
     <li><a href='/search/label/생활·재테크?max-results=50'>생활&#183;재테크</a></li>
     <li><a href='/search/label/IT·신제품?max-results=50'>IT&#183;신제품</a></li>
     <li><a href='/search/label/해외 이슈?max-results=50'>해외 이슈</a></li>
-    <li class='nav-drawer'><button aria-controls='side-drawer' aria-expanded='false' class='drawer-open-btn' id='drawer-open' type='button'>&#9776; 검색&#183;카테고리</button></li>
+    <li class='nav-drawer'><button aria-controls='side-drawer' aria-expanded='false' aria-label='검색·카테고리 열기' class='drawer-open-btn' id='drawer-open' type='button'>&#9776;<span class='drawer-label'> 검색&#183;카테고리</span></button></li>
   </ul>
 </nav>
 
@@ -349,7 +378,7 @@ nav.blog-nav li a:hover{background:rgba(255,255,255,.15);text-decoration:none}
                 </b:loop>
               </div>
 
-              <!-- 글 목록 중간 광고 (JS로 4번째 카드 뒤에 삽입, 광고 코드가 있을 때만 표시) -->
+              <!-- 글 목록 중간 광고 (JS로 8번째 카드 뒤에 삽입, 광고 코드가 있을 때만 표시) -->
               <div class='ad-mid-list' id='mid-list-ad' style='display:none'>
                 <div class='ad-label'>광고</div>
                 <!-- ADSENSE-MID-LIST-START -->
@@ -1005,18 +1034,33 @@ document.addEventListener('DOMContentLoaded', function () {
     p.textContent = p.textContent.replace(PREFIX, '');
   });
 
-  // 더 보기: 다음 쪽을 가져와 카드만 이어 붙인다. 실패하면 기존 이전/최신 글 버튼으로 돌아간다.
+  // 처음엔 16편(PC 4열 × 4줄)만 보이고 '더 보기'마다 16편씩 더 보인다.
+  // 이 쪽 글이 16편보다 적게 남으면 다음 쪽을 가져와 카드만 이어 붙인다.
+  // 실패하면 기존 이전/최신 글 버튼으로 돌아간다.
+  var STEP = 16;
   var grid = document.getElementById('post-grid');
   var older = document.getElementById('older-link');
   var moreWrap = document.getElementById('more-wrap');
   var moreBtn = document.getElementById('load-more');
-  if (grid && older && moreWrap && moreBtn) {
+  if (grid && moreWrap && moreBtn) {
     var pager = document.querySelector('.blog-pager');
-    var next = older.href;
-    moreWrap.style.display = 'block';
-    if (pager) pager.style.display = 'none';
+    var next = older ? older.href : null;
+    var hiddenCards = function () { return grid.querySelectorAll('.post-card.is-hidden'); };
+    var update = function () {
+      var left = hiddenCards().length;
+      moreBtn.disabled = false;
+      moreBtn.textContent = '더 보기';
+      moreWrap.style.display = (left > 0 || next) ? 'block' : 'none';
+    };
+    grid.querySelectorAll('.post-card').forEach(function (c, i) { if (i >= STEP) c.classList.add('is-hidden'); });
+    if (pager && (next || hiddenCards().length)) pager.style.display = 'none';
+    var reveal = function () {
+      Array.prototype.slice.call(hiddenCards(), 0, STEP).forEach(function (c) { c.classList.remove('is-hidden'); });
+      update();
+    };
+    update();
     moreBtn.addEventListener('click', function () {
-      if (!next) return;
+      if (hiddenCards().length >= STEP || !next) { reveal(); return; }
       moreBtn.disabled = true;
       moreBtn.textContent = '불러오는 중…';
       fetch(next).then(function (r) { return r.text(); }).then(function (html) {
@@ -1024,26 +1068,27 @@ document.addEventListener('DOMContentLoaded', function () {
         doc.querySelectorAll('#post-grid .post-card').forEach(function (card) {
           var p = card.querySelector('.card-snippet');
           if (p) p.textContent = p.textContent.replace(PREFIX, '');
-          grid.appendChild(document.importNode(card, true));
+          var node = document.importNode(card, true);
+          node.classList.add('is-hidden');
+          grid.appendChild(node);
         });
         var n = doc.getElementById('older-link');
         next = n ? n.href : null;
-        moreBtn.disabled = false;
-        moreBtn.textContent = '더 보기';
-        if (!next) moreWrap.style.display = 'none';
+        reveal();
       }).catch(function () {
-        moreWrap.style.display = 'none';
+        next = null;
+        reveal();
         if (pager) pager.style.display = '';
       });
     });
   }
 
-  // 글 목록 중간 광고: 4번째 카드 뒤, 광고 코드가 들어 있을 때만 표시 (빈 '광고' 칸 방지)
+  // 글 목록 중간 광고: 8번째 카드 뒤 한 줄 전체, 광고 코드가 들어 있을 때만 표시 (빈 '광고' 칸 방지)
   var cards = document.querySelectorAll('#post-grid .post-card');
   var ad = document.getElementById('mid-list-ad');
-  if (!ad || cards.length < 5) return;
+  if (!ad || cards.length < 9) return;
   if (!ad.querySelector('ins, iframe, script')) return;
-  cards[3].insertAdjacentElement('afterend', ad);
+  cards[7].insertAdjacentElement('afterend', ad);
   ad.style.display = 'block';
 });
 //]]>
