@@ -19,7 +19,7 @@ interface Props {
 const { page } = Astro.props;
 // 페이지당 광고 1개: 8번째 카드 뒤 한 줄 전체 (PC 4열 기준 2줄 다음)
 const AD_AFTER = 8;
-// 처음 보이는 글 수와 '더 보기' 한 번에 늘어나는 글 수: PC 4열 × 4줄
+// 기본 보기 단위: PC 4열 × 4줄. '더 보기'는 지금 보기 단위만큼 늘린다.
 const STEP = 16;
 
 const pageHref = (n: number) => (n === 1 ? '/blog/' : `/blog/page/${n}/`);
@@ -69,10 +69,25 @@ const title = page.currentPage === 1 ? `전체 글 | ${SITE_TITLE}` : `전체 �
 				padding: 0;
 				list-style: none;
 			}
-			.more-wrap {
+			.list-controls {
 				display: flex;
+				flex-wrap: wrap;
 				justify-content: center;
+				gap: 0.5rem;
 				margin: 2rem 0 0;
+			}
+			.list-controls[hidden],
+			.pager[hidden] {
+				display: none;
+			}
+			.more.size {
+				padding: 0.7rem 1.25rem;
+				font-weight: 500;
+			}
+			.more.size[aria-pressed='true'] {
+				background: rgb(var(--black));
+				border-color: transparent;
+				color: #fff;
 			}
 			.more {
 				padding: 0.7rem 2.25rem;
@@ -96,6 +111,29 @@ const title = page.currentPage === 1 ? `전체 글 | ${SITE_TITLE}` : `전체 �
 			.more-left {
 				font-weight: 400;
 				opacity: 0.7;
+			}
+			/* 쪽 번호 버튼은 스크립트가 만들므로 :global */
+			.pager :global(button) {
+				min-width: 2.5rem;
+				height: 2.5rem;
+				padding: 0 0.75rem;
+				border: 1px solid rgb(var(--gray-light));
+				border-radius: 999px;
+				background: #fff;
+				font: inherit;
+				font-size: 0.9rem;
+				color: rgb(var(--black));
+				cursor: pointer;
+			}
+			.pager :global(button:hover) {
+				border-color: var(--accent);
+				color: var(--accent);
+			}
+			.pager :global(button.current) {
+				background: rgb(var(--black));
+				border-color: transparent;
+				color: #fff;
+				font-weight: 700;
 			}
 			.pager {
 				display: flex;
@@ -132,8 +170,11 @@ const title = page.currentPage === 1 ? `전체 글 | ${SITE_TITLE}` : `전체 �
 				color: #fff;
 				font-weight: 700;
 			}
-			.pager .gap {
+			.pager .gap,
+			.pager :global(span.gap) {
 				min-width: auto;
+				display: inline-flex;
+				align-items: center;
 				padding: 0 0.25rem;
 				color: rgb(var(--gray));
 			}
@@ -142,7 +183,8 @@ const title = page.currentPage === 1 ? `전체 글 | ${SITE_TITLE}` : `전체 �
 				grid-column: 1 / -1;
 				min-width: 0;
 			}
-			.grid > :global(li.is-hidden) {
+			.grid > :global(li.is-hidden),
+			.grid > :global(.ad-card.is-hidden) {
 				display: none;
 			}
 			@media (max-width: 960px) {
@@ -184,20 +226,26 @@ const title = page.currentPage === 1 ? `전체 글 | ${SITE_TITLE}` : `전체 �
 				}
 			</ul>
 			{
-				(page.url.next || page.data.length > STEP) && (
-					<div class="more-wrap">
-						<button
-							class="more"
-							id="load-more"
-							type="button"
-							data-next={page.url.next ?? ''}
-							data-remote={page.total - page.end - 1}
-							data-step={STEP}
-							hidden
-						>
+				page.currentPage === 1 && page.total > STEP && (
+					<div
+						class="list-controls"
+						id="list-controls"
+						data-next={page.url.next ?? ''}
+						data-total={page.total}
+						data-step={STEP}
+						hidden
+					>
+						<button class="more" type="button" data-act="more">
 							더 보기
 						</button>
+						<button class="more size" type="button" data-size="50" aria-pressed="false">
+							50개 보기
+						</button>
+						<button class="more size" type="button" data-size="all" aria-pressed="false">
+							전체 보기
+						</button>
 					</div>
+					<nav class="pager" id="js-pager" aria-label="페이지" hidden />
 				)
 			}
 			{
@@ -231,57 +279,110 @@ const title = page.currentPage === 1 ? `전체 글 | ${SITE_TITLE}` : `전체 �
 		</main>
 		<Footer />
 		<script>
-			// 처음엔 16편(PC 4열 × 4줄)만 보이고, '더 보기'마다 16편씩 더 보인다.
-			// 이 쪽 글을 다 보이면 다음 쪽 HTML을 가져와 글 카드만 이어 붙인다(광고 칸은 붙이지 않음).
-			// JS가 없으면 이 쪽 글 전체와 번호 페이지 넘김이 그대로 보인다.
-			const button = document.getElementById('load-more') as HTMLButtonElement | null;
+			// 목록 보기: 기본 16편(PC 4열 × 4줄)씩 쪽 번호로 넘기고,
+			// '더 보기'는 지금 보기 단위만큼 이어서 보이고, '50개 보기'·'전체 보기'는 보기 단위를 바꾼다.
+			// 1쪽(50편)에 없는 글은 다음 쪽 HTML을 가져와 카드만 이어 붙인다(광고 칸은 붙이지 않음).
+			// JS가 없으면 이 쪽 50편과 번호 페이지(/blog/page/N/)가 그대로 보인다.
+			const ctrl = document.getElementById('list-controls');
 			const grid = document.getElementById('post-grid');
-			if (button && grid) {
-				const pager = document.querySelector<HTMLElement>('.pager');
-				const step = Number(button.dataset.step) || 16;
-				let next: string | null = button.dataset.next || null;
-				let remote = Number(button.dataset.remote) || 0;
+			const jsPager = document.getElementById('js-pager');
+			if (ctrl && grid && jsPager) {
+				const staticPager = document.querySelector<HTMLElement>('nav.pager:not(#js-pager)');
+				const moreBtn = ctrl.querySelector<HTMLButtonElement>('[data-act="more"]')!;
+				const sizeBtns = Array.from(ctrl.querySelectorAll<HTMLButtonElement>('[data-size]'));
+				const total = Number(ctrl.dataset.total) || 0;
+				const base = Number(ctrl.dataset.step) || 16;
+				let next: string | null = ctrl.dataset.next || null;
+				let size = base;
+				let start = 0;
+				let end = base;
 				const items = () => Array.from(grid.querySelectorAll<HTMLElement>(':scope > li.post-item'));
-				const hidden = () => items().filter((li) => li.classList.contains('is-hidden'));
-				const update = () => {
-					const left = hidden().length + remote;
-					if (left <= 0) {
-						button.closest('.more-wrap')?.remove();
-						return;
+				const ad = grid.querySelector<HTMLElement>(':scope > .ad-card');
+
+				const ensure = async (count: number) => {
+					while (items().length < Math.min(count, total) && next) {
+						const doc = new DOMParser().parseFromString(await (await fetch(next)).text(), 'text/html');
+						doc.querySelectorAll('#post-grid > li.post-item').forEach((li) => grid.append(document.importNode(li, true)));
+						next = doc.getElementById('list-controls')?.getAttribute('data-next') || null;
+						// 2쪽부터는 list-controls가 없으므로 정적 '다음' 링크로 이어 간다
+						if (!next) next = doc.querySelector<HTMLAnchorElement>('nav.pager a[rel="next"]')?.href ?? null;
 					}
-					button.disabled = false;
-					button.innerHTML = `더 보기 <span class="more-left">(남은 ${left}편)</span>`;
 				};
-				items().forEach((li, i) => li.classList.toggle('is-hidden', i >= step));
-				button.hidden = false;
-				// 더 보기가 동작하면 번호 페이지는 숨긴다(불러오기 실패 시 다시 보임)
-				if (pager) pager.style.display = 'none';
-				update();
-				button.addEventListener('click', async () => {
-					if (hidden().length < step && next) {
-						button.disabled = true;
-						button.textContent = '불러오는 중…';
-						try {
-							const html = await (await fetch(next)).text();
-							const doc = new DOMParser().parseFromString(html, 'text/html');
-							const fetched = doc.querySelectorAll('#post-grid > li.post-item');
-							fetched.forEach((li) => {
-								const node = document.importNode(li, true) as HTMLElement;
-								node.classList.add('is-hidden');
-								grid.append(node);
-							});
-							remote -= fetched.length;
-							next = doc.getElementById('load-more')?.getAttribute('data-next') || null;
-							if (!next && remote > 0) remote = 0;
-						} catch {
-							if (pager) pager.style.display = '';
+
+				const pageButton = (label: string, page: number, current = false) => {
+					const b = document.createElement('button');
+					b.type = 'button';
+					b.textContent = label;
+					if (current) {
+						b.className = 'current';
+						b.setAttribute('aria-current', 'page');
+					}
+					b.addEventListener('click', () => go((page - 1) * size, page * size, true));
+					return b;
+				};
+
+				const render = () => {
+					const loaded = items();
+					loaded.forEach((li, i) => li.classList.toggle('is-hidden', i < start || i >= end));
+					// 광고 칸은 8번째 카드가 보일 때만(다른 쪽으로 넘기면 맨 위에 광고만 남지 않게)
+					if (ad) ad.classList.toggle('is-hidden', !(start < 8 && end > 8));
+					const shown = Math.min(end, total);
+					moreBtn.hidden = shown >= total;
+					moreBtn.innerHTML = `더 보기 <span class="more-left">(남은 ${total - shown}편)</span>`;
+					sizeBtns.forEach((b) => {
+						const v = b.dataset.size === 'all' ? Infinity : Number(b.dataset.size);
+						b.setAttribute('aria-pressed', String(v === size));
+					});
+					jsPager.replaceChildren();
+					const pages = size === Infinity ? 1 : Math.ceil(total / size);
+					jsPager.hidden = pages <= 1;
+					if (pages <= 1) return;
+					const current = Math.floor(start / size) + 1;
+					if (current > 1) jsPager.append(pageButton('‹', current - 1));
+					let gap = false;
+					for (let n = 1; n <= pages; n++) {
+						if (n === 1 || n === pages || Math.abs(n - current) <= 2) {
+							jsPager.append(pageButton(String(n), n, n === current));
+							gap = false;
+						} else if (!gap) {
+							const g = document.createElement('span');
+							g.className = 'gap';
+							g.textContent = '…';
+							jsPager.append(g);
+							gap = true;
 						}
 					}
-					hidden()
-						.slice(0, step)
-						.forEach((li) => li.classList.remove('is-hidden'));
-					update();
-				});
+					if (current < pages) jsPager.append(pageButton('›', current + 1));
+				};
+
+				const go = async (s: number, e: number, scroll = false) => {
+					ctrl.querySelectorAll('button').forEach((b) => (b.disabled = true));
+					try {
+						await ensure(e);
+					} catch {
+						// 불러오기 실패: 이미 있는 글만으로 보여 준다
+					}
+					start = s;
+					end = Math.min(e, Math.max(items().length, s + 1));
+					ctrl.querySelectorAll('button').forEach((b) => (b.disabled = false));
+					render();
+					if (scroll) grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+				};
+
+				moreBtn.addEventListener('click', () => go(start, end + (size === Infinity ? total : size)));
+				sizeBtns.forEach((b) =>
+					b.addEventListener('click', () => {
+						const v = b.dataset.size === 'all' ? Infinity : Number(b.dataset.size);
+						// 이미 선택된 보기를 다시 누르면 기본(16편)으로 돌아간다
+						size = v === size ? base : v;
+						const s = size === Infinity ? 0 : Math.floor(start / size) * size;
+						go(s, size === Infinity ? total : s + size);
+					}),
+				);
+
+				ctrl.hidden = false;
+				if (staticPager) staticPager.style.display = 'none';
+				render();
 			}
 		</script>
 	</body>
