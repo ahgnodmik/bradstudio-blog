@@ -56,4 +56,3 @@
 - SBS Biz: https://biz.sbs.co.kr/amp/article/20000340430
 - 뉴데일리: https://biz.newdaily.co.kr/site/data/html/2026/10/16/2026101600238.html
 - 톱스타뉴스: https://www.topstarnews.net/news/articleView.html?idxno=16239673
-- 경향신문: https://www.khan.co.kr/article/202604061906001/
