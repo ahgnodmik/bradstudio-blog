@@ -1,0 +1,79 @@
+제목: 아마존만 337억 유로… 가뭄 잦은 스페인 아라곤에 빅테크 데이터센터가 몰리는 이유와 물 논쟁 정리
+
+337억 유로. 아마존웹서비스(AWS)가 스페인 북동부 아라곤 한 지역에 쓰겠다고 약속한 돈입니다. 마이크로소프트와 사모펀드 블랙스톤도 같은 지역에 대형 시설을 계획했습니다. 문제는 이곳이 여름마다 절수 안내가 나오는 건조한 땅이라는 점입니다. 미국 공영방송 NPR이 10월 22일 현장을 집중 보도하면서 논쟁이 다시 주목받았습니다. 여러 매체가 공통으로 전한 내용만 추려 쟁점별로 정리합니다.
+
+■ 1. 아마존 투자, 두 번에 걸쳐 커졌다
+- 2024년 5월: AWS가 아라곤 데이터센터에 157억 유로 투자를 발표했습니다. 로이터와 이베리아 부동산 전문 매체가 같은 금액을 보도했습니다.
+- 2026년 3월: 바르셀로나 MWC 행사에서 180억 유로를 추가했습니다. 스페인 매체 푸블리코도 이 금액을 전했습니다.
+- 합계: 337억 유로입니다. 스페인 총리실(라 몽클로아)은 이 회사가 스페인에서 한 투자 가운데 가장 크다고 환영했습니다.
+NPR은 이 금액을 "400억 달러 가까이"로 표현했습니다. 환율로 바꾸면 비슷한 규모입니다.
+
+■ 2. 세 주에 모두 들어선다
+AWS 시설은 아라곤을 이루는 사라고사, 우에스카, 테루엘 세 주에 나뉘어 들어섭니다. 테루엘에 대형 테크 기업 데이터센터가 생기는 것은 아마존이 처음입니다. 인구가 적은 내륙 지역까지 투자가 퍼진 셈입니다.
+
+■ 3. 뒤따른 마이크로소프트·블랙스톤
+- 마이크로소프트: 2024년 사라고사 인근에 66억9천만 유로(약 71억6천만 달러) 규모 캠퍼스를 신청했습니다. 로이터와 DCD가 보도했습니다.
+- 블랙스톤: 사라고사주 칼라토라오의 224헥타르 부지에 캠퍼스를 계획했습니다. 1단계 투자액은 75억 유로, 완공 시 전력 용량은 300MW입니다. DCD와 인베스트먼트 모니터가 전했습니다.
+아라곤 지방정부 수반 호르헤 아스콘은 아라곤이 "남유럽의 버지니아"가 되고 있다고 말했습니다. 미국 버지니아주는 세계에서 데이터센터가 가장 많이 모인 곳으로 꼽힙니다.
+
+■ 4. 아라곤 밖, 메타의 톨레도 사업
+메타는 중부 톨레도주 탈라베라데라레이나에 데이터센터를 추진해 왔습니다. 투자액은 10억 단위로 보도됐습니다. 다만 통화가 유로인지 달러인지는 매체마다 다릅니다. 지방정부는 2023년 이 사업을 우선 처리 대상으로 지정했습니다. 2023년 공개된 기술 보고서 기준으로 연간 약 6억6천만L의 물이 필요하다고 알려졌습니다. 물은 타호강에서 가져옵니다. 이후 계획이 바뀌었는지는 확인 필요입니다.
+
+■ 5. 가장 많이 인용되는 숫자, 48%
+영국 가디언과 탐사보도 단체 SourceMaterial이 함께 조사했습니다. 결과에 따르면 아마존은 아라곤 기존 데이터센터 3곳의 물 사용 허가량을 48% 늘려 달라고 신청했습니다. 신청 이유로는 기후변화에 따른 기온 상승과 잦아진 폭염을 들었습니다. 환경 매체 EHN 등도 이 조사를 실었습니다.
+- 신규 시설 3곳의 허가량은 연 75만5천여㎥로 집계됐습니다. 이 수치는 단일 조사에서 나와 확인 필요입니다.
+- 48% 증량 신청이 승인됐는지는 아직 알려지지 않았습니다.
+
+■ 6. 아마존의 반론
+아마존 자체 자료는 2025년 아라곤 시설의 물 사용량을 약 6,800만L로 밝혔습니다. 에브로강 유역 산업용수 수요의 0.03% 수준이라는 설명입니다. 이 수치는 기업 발표이며 외부 검증은 확인 필요입니다.
+
+■ 7. 주민 단체의 문제 제기
+반대 목소리를 모은 곳은 시민단체 "투 누베 세카 미 리오"입니다. 우리말로 "네 구름이 내 강을 말린다"는 뜻입니다. 대변인 아우로라 고메스는 정확한 수치를 알기 어렵지만 사용량이 엄청나다는 점은 안다고 말했습니다. 단체는 농민이 가뭄 지원을 호소하는 동안에도 대형 허가가 이어진다고 비판합니다. 업계는 국내총생산과 일자리에 주는 효과가 크다고 맞섭니다.
+
+■ 8. 스페인 정부의 새 규정 초안
+스페인 내각은 8월 25일 긴급 절차로 데이터센터 관련 왕령 초안을 승인했습니다. 로이터, pv magazine, idealista가 같은 내용을 보도했습니다.
+- 전력의 80% 이상을 재생에너지로 조달
+- 물·에너지 효율 기준 준수
+- 사이버보안 요건 충족
+업계 단체 SpainDC는 계획된 투자의 최대 90%가 사라질 수 있다고 경고했습니다. 디지털전환부 장관은 신규 데이터센터를 막는 모라토리엄은 없다고 밝혔습니다. 초안은 지금 의견 수렴 단계입니다.
+
+■ 9. 전력망이라는 또 하나의 벽
+블룸버그는 7월 부동산 컨설팅사 CBRE 보고서를 인용했습니다. 이베리아반도에서 발표된 데이터센터 전력 용량은 10.5GW입니다. 실제로 추진 중인 것으로 본 용량은 4.5GW에 그칩니다. 단일 보고서 수치라 확인 필요입니다.
+
+■ 10. 한국은 어디쯤인가
+한국에서는 2019년 네이버가 경기 용인 공세동 데이터센터 계획을 접은 일이 대표 사례입니다. 주민들은 전자파, 냉각탑, 비상발전기 오염을 걱정했습니다. 아주경제가 당시 과정을 보도했습니다. 머니투데이는 이후에도 고압선과 화재 우려 때문에 데이터센터가 기피 시설로 여겨진다고 짚었습니다.
+2026년 5월 7일에는 AI 데이터센터 특별법이 국회를 통과했습니다. 비수도권에 일정 규모 이하로 지으면 전력계통영향평가를 면제합니다. 인허가 창구를 하나로 모으고, 처리 기한을 넘기면 허가로 보는 타임아웃제도 담았습니다. 시행은 2027년 2월 예정입니다. 면제 규모 기준은 시행령이 나와야 알 수 있습니다. 머니투데이는 전력 공급 대책이 빠졌다는 지적을 전했습니다.
+스페인 논쟁의 중심은 물이고, 한국 논쟁의 중심은 전력망과 주민 건강 우려입니다. 인허가가 빨라질수록 주민이 의견을 낼 시간이 짧아질 수 있다는 점은 두 나라에 똑같이 걸린 숙제입니다.
+
+■ 아직 확인되지 않은 것
+- 시설별 실제 물 사용량 대부분
+- 투자금의 구체적인 집행 일정
+- 마이크로소프트·메타 시설의 공사 진척
+- 스페인 왕령 초안의 최종 내용과 유예 기간
+- NPR이 전한 아라곤 신속 인허가로 주민 이의 제기 기간이 줄었다는 내용(다른 매체 교차 확인 필요)
+
+우리 동네 시·군청 누리집의 고시·공고 게시판에서 "데이터센터"를 한 번 검색해 보세요.
+
+■ 출처·참고
+- NPR: https://www.npr.org/2026/10/22/nx-s1-5991641/ai-data-centers-spain-environmental-impact
+- 스페인 총리실(La Moncloa): https://www.lamoncloa.gob.es/lang/en/gobierno/news/Paginas/2026/20260302-wmc-amazon-investment.aspx
+- 이베리안 프로퍼티(Iberian Property): https://iberian.property/news/data-centers/amazon-increases-investment-to-eur33-7bn-in-aragon-data-centre-expansion/
+- 푸블리코(Público): https://www.publico.es/economia/amazon-invertira-18-000-millones-adicionales-ampliar-centros-datos-aragon.html
+- 로이터(AOL 게재): https://www.aol.com/news/amazon-services-invest-17-02-093507596.html
+- 걸프뉴스(Gulf News): https://gulfnews.com/business/markets/microsoft-to-invest-716-billion-in-new-data-centres-in-northeastern-spain-1.103109450
+- DCD(DatacenterDynamics): https://datacenterdynamics.com/en/news/blackstone-to-develop-300mw-data-center-campus-in-aragon-spain
+- 인베스트먼트 모니터(Investment Monitor): https://www.investmentmonitor.ai/news/blackstone-to-make-8-2bn-data-centre-investment-in-spain
+- 가디언(AOL 게재): https://www.aol.com/news/revealed-big-tech-datacentres-water-113001217.html
+- EHN: https://www.ehn.org/big-techs-water-guzzling-data-centers-are-draining-some-of-the-worlds-driest-regions
+- 올리브 프레스(The Olive Press): https://theolivepress.es/spain-news/2023/05/10/metas-planned-data-centre-for-toledo-town-will-require-660-million-litres-of-water-a-year/
+- 크로스보더 매거진(Cross-Border Magazine): https://cross-border-magazine.com/meta-data-center-talavera/
+- 더 로컬(The Local): https://www.thelocal.es/20240717/spains-aragon-is-europes-new-cloud-storage-oasis-but-not-everyone-is-happy-about-it
+- VnExpress(로이터): https://e.vnexpress.net/news/tech/tech-news/world-s-second-most-visited-country-plans-stricter-data-centers-rules-5113670.html
+- pv magazine: https://www.pv-magazine.com/2026/08/26/espana-exigira-a-los-centros-de-datos-un-80-de-renovables-adicionales-y-datos-bajo-control-europeo/
+- 이데알리스타(idealista): https://www.idealista.com/en/news/node/916666
+- 블룸버그(Bloomberg): https://www.bloomberg.com/news/articles/2026-07-17/spain-and-portugal-s-data-center-boom-faces-grid-bottlenecks
+- 아주경제: https://www.ajunews.com/view/20190614181353907
+- 머니투데이방송: https://news.mtn.co.kr/news-detail/2026050718190783794
+- 뉴스서울: https://www.newsseoul.co.kr/news/view/1065607809925452
+- 머니투데이(2022): https://www.mt.co.kr/tech/2022/12/03/2022120110272152225
+- 머니투데이(2026): https://www.mt.co.kr/tech/2026/05/20/2026051922044934385
