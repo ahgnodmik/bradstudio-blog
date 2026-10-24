@@ -10,7 +10,7 @@ thumbnail:
   creditUrl: 'https://unsplash.com/@kevinache'
 instagramPermalink: 'https://www.instagram.com/p/De2To1ajxJB/'
 
-status: draft
+status: published
 
 category: world
 tags:

@@ -10,7 +10,7 @@ thumbnail:
   creditUrl: 'https://unsplash.com/@soulride_photography'
 instagramPermalink: 'https://www.instagram.com/p/De15fwcG1o1/'
 
-status: draft
+status: published
 
 category: world
 tags:

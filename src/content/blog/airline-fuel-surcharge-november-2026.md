@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Johny Goerend'
   creditUrl: 'https://unsplash.com/@johnygoerend'
 
-status: draft
+status: published
 
 category: living
 tags:
