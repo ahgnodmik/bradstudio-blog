@@ -53,5 +53,14 @@ export const COUPANG_PARTNERS = {
 	height: '140',
 } as const;
 
+// 쿠팡 파트너스 세로 배너 160x600. 목록 좌우 레일에서 AdSense 슬롯(railLeft/railRight)이 비어 있을 때 대신 노출.
+export const COUPANG_RAIL = {
+	id: 1042784,
+	trackingCode: 'AF1584187',
+	template: 'carousel',
+	width: '160',
+	height: '600',
+} as const;
+
 // /blog/ 목록 한 쪽에 보일 글 수. 3열 × 4줄 = 12칸 중 1칸은 인피드 광고.
 export const POSTS_PER_PAGE = 11;

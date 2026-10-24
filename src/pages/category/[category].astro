@@ -4,6 +4,7 @@ import Footer from '../../components/Footer.astro';
 import PostListCard from '../../components/PostListCard.astro';
 import CategoryTabs from '../../components/CategoryTabs.astro';
 import AdInFeed from '../../components/AdInFeed.astro';
+import AdRail from '../../components/AdRail.astro';
 import Header from '../../components/Header.astro';
 import Sidebar from '../../components/Sidebar.astro';
 import { CATEGORIES, SITE_TITLE } from '../../consts';
@@ -32,6 +33,8 @@ const seriesHere = Object.values(SERIES).filter((s) => s.category === category);
 	</head>
 	<body>
 		<Header />
+		<AdRail side="left" />
+		<AdRail side="right" />
 		<main>
 			<div class="layout">
 				<section class="posts">

@@ -3,6 +3,7 @@
 // /blog/ (1쪽)와 /blog/page/N/ (2쪽부터)이 같이 쓴다.
 import type { Page } from 'astro';
 import AdInFeed from './AdInFeed.astro';
+import AdRail from './AdRail.astro';
 import AdSlot from './AdSlot.astro';
 import BaseHead from './BaseHead.astro';
 import Footer from './Footer.astro';
@@ -123,6 +124,8 @@ const title = page.currentPage === 1 ? `전체 글 | ${SITE_TITLE}` : `전체 �
 	</head>
 	<body>
 		<Header />
+		<AdRail side="left" />
+		<AdRail side="right" />
 		<main>
 			<div class="list-head">
 				<h1>전체 글</h1>

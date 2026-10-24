@@ -220,8 +220,14 @@ nav.blog-nav li a:hover{background:rgba(255,255,255,.15);text-decoration:none}
     <div class='ad-left-wrapper'>
       <div class='ad-left-sticky'>
         <div class='ad-label'>광고</div>
-        <!-- ADSENSE-LEFT-START -->
-        <!-- 160&#215;600 또는 반응형 세로 광고 코드 -->
+        <!-- ADSENSE-LEFT-START: 애드센스 세로 광고를 쓰려면 아래 쿠팡 배너를 지우고 코드 붙여넣기 -->
+        <script src='https://ads-partners.coupang.com/g.js'></script>
+        <script>
+        //<![CDATA[
+        new PartnersCoupang.G({"id":1042784,"template":"carousel","trackingCode":"AF1584187","width":"160","height":"600","tsource":""});
+        //]]>
+        </script>
+        <p class='ad-label' style='margin-top:6px;line-height:1.4'>이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
         <!-- ADSENSE-LEFT-END -->
       </div>
     </div>

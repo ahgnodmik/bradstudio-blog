@@ -1,7 +1,8 @@
 ---
 // 좌우 레일(세로형) 디스플레이 광고. 본문 폭(1080px) 바깥 여백이 충분한 넓은 화면에서만 노출.
 // AdSense에서 '디스플레이 광고 — 세로형(160x600 또는 300x600)' 단위를 만들고 AD_SLOTS.railLeft/railRight에 ID 입력.
-import { AD_SLOTS, ADSENSE_CLIENT } from '../consts';
+// AdSense 슬롯이 비어 있으면 쿠팡 파트너스 세로 배너(COUPANG_RAIL)를 고지 문구와 함께 노출.
+import { AD_SLOTS, ADSENSE_CLIENT, COUPANG_RAIL } from '../consts';
 
 interface Props {
 	side: 'left' | 'right';
@@ -10,8 +11,22 @@ interface Props {
 const { side } = Astro.props;
 const slotId = side === 'left' ? AD_SLOTS.railLeft : AD_SLOTS.railRight;
 const enabled = ADSENSE_CLIENT !== '' && slotId !== '';
-const showPlaceholder = !enabled && import.meta.env.DEV;
+const coupang = !enabled && Boolean(COUPANG_RAIL.id);
+const coupangConfig = JSON.stringify({ ...COUPANG_RAIL, tsource: '' });
+const showPlaceholder = !enabled && !coupang && import.meta.env.DEV;
 ---
+
+{
+	coupang && (
+		<aside class:list={['ad-rail', `ad-rail-${side}`, 'ad-rail-coupang']} aria-label="쿠팡 파트너스 광고">
+			<script is:inline src="https://ads-partners.coupang.com/g.js"></script>
+			<script is:inline define:vars={{ coupangConfig }}>
+				new PartnersCoupang.G(JSON.parse(coupangConfig));
+			</script>
+			<p class="rail-disclosure">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
+		</aside>
+	)
+}
 
 {
 	(enabled || showPlaceholder) && (
@@ -58,6 +73,16 @@ const showPlaceholder = !enabled && import.meta.env.DEV;
 			left: calc(50% + 540px + 24px);
 		}
 	}
+	.ad-rail-coupang {
+		height: auto;
+	}
+	.rail-disclosure {
+		margin: 0.4rem 0 0;
+		font-size: 0.68rem;
+		line-height: 1.4;
+		color: rgb(var(--gray));
+		word-break: keep-all;
+	}
 	.ad-rail-placeholder {
 		align-items: center;
 		justify-content: center;
@@ -69,7 +94,17 @@ const showPlaceholder = !enabled && import.meta.env.DEV;
 		text-align: center;
 	}
 	@media (min-width: 1480px) {
-		.ad-rail-placeholder {
+		.ad-rail-coupang {
+		height: auto;
+	}
+	.rail-disclosure {
+		margin: 0.4rem 0 0;
+		font-size: 0.68rem;
+		line-height: 1.4;
+		color: rgb(var(--gray));
+		word-break: keep-all;
+	}
+	.ad-rail-placeholder {
 			display: flex;
 		}
 	}
