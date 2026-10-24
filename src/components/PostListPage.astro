@@ -17,8 +17,8 @@ interface Props {
 }
 
 const { page } = Astro.props;
-// 페이지당 광고 1칸: 6번째 카드 뒤 (3열 기준 3번째 줄 첫 칸)
-const AD_AFTER = 6;
+// 페이지당 광고 1개: 8번째 카드 뒤 (4열 기준 3번째 줄 첫 칸, 2칸 폭)
+const AD_AFTER = 8;
 
 const pageHref = (n: number) => (n === 1 ? '/blog/' : `/blog/page/${n}/`);
 // 1 … 4 5 [6] 7 8 … 12 형태
@@ -61,8 +61,8 @@ const title = page.currentPage === 1 ? `전체 글 | ${SITE_TITLE}` : `전체 �
 			}
 			.grid {
 				display: grid;
-				grid-template-columns: repeat(3, 1fr);
-				gap: 1.25rem;
+				grid-template-columns: repeat(4, 1fr);
+				gap: 0.875rem;
 				margin: 0;
 				padding: 0;
 				list-style: none;
@@ -107,14 +107,20 @@ const title = page.currentPage === 1 ? `전체 글 | ${SITE_TITLE}` : `전체 �
 				padding: 0 0.25rem;
 				color: rgb(var(--gray));
 			}
-			@media (max-width: 900px) {
+			/* 인피드 광고는 fluid 최소 폭(250px) 때문에 카드 2칸 폭 */
+			.grid :global(.ad-card) {
+				grid-column: span 2;
+				min-width: 0;
+			}
+			@media (max-width: 960px) {
 				.grid {
-					grid-template-columns: repeat(2, 1fr);
+					grid-template-columns: repeat(3, 1fr);
 				}
 			}
-			@media (max-width: 560px) {
+			@media (max-width: 640px) {
 				.grid {
-					grid-template-columns: 1fr;
+					grid-template-columns: repeat(2, 1fr);
+					gap: 0.625rem;
 				}
 				.pager .step-label {
 					display: none;
@@ -137,7 +143,7 @@ const title = page.currentPage === 1 ? `전체 글 | ${SITE_TITLE}` : `전체 �
 					page.data.map((post, index) => (
 						<>
 							<li>
-								<PostListCard post={post} eager={page.currentPage === 1 && index < 3} />
+								<PostListCard post={post} compact eager={page.currentPage === 1 && index < 4} />
 							</li>
 							{index + 1 === AD_AFTER && index < page.data.length - 1 && <AdInFeed />}
 						</>

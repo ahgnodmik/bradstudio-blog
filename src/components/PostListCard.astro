@@ -9,15 +9,17 @@ interface Props {
 	post: any;
 	// 첫 화면 카드는 lazy 로딩을 끈다
 	eager?: boolean;
+	// 촘촘한 목록용: 요약 숨기고 글자·여백 축소
+	compact?: boolean;
 }
 
-const { post, eager = false } = Astro.props;
+const { post, eager = false, compact = false } = Astro.props;
 const thumb = post.data.thumbnail;
 const category = CATEGORIES[post.data.category as keyof typeof CATEGORIES];
 const loading = eager ? 'eager' : 'lazy';
 ---
 
-<article class="list-card">
+<article class:list={['list-card', { compact }]}>
 	<div class="thumb">
 		{
 			thumb ? (
@@ -37,7 +39,7 @@ const loading = eager ? 'eager' : 'lazy';
 		<h3 class="title">
 			<a class="card-link" href={`/blog/${post.id}/`}>{post.data.title}</a>
 		</h3>
-		<p class="desc">{post.data.description}</p>
+		{!compact && <p class="desc">{post.data.description}</p>}
 	</div>
 </article>
 
@@ -129,5 +131,31 @@ const loading = eager ? 'eager' : 'lazy';
 		-webkit-line-clamp: 2;
 		-webkit-box-orient: vertical;
 		overflow: hidden;
+	}
+	.compact .body {
+		gap: 0.35rem;
+		padding: 0.6rem 0.7rem 0.75rem;
+	}
+	.compact .thumb {
+		aspect-ratio: 2 / 1;
+	}
+	.compact .top {
+		flex-wrap: wrap;
+		font-size: 0.7rem;
+		gap: 0.2rem 0.35rem;
+	}
+	.compact .cat,
+	.compact .top :global(time) {
+		white-space: nowrap;
+	}
+	.compact .cat {
+		padding: 0.1rem 0.4rem;
+	}
+	.compact .title {
+		font-size: 0.875rem;
+		line-height: 1.4;
+	}
+	.compact:hover {
+		transform: none;
 	}
 </style>

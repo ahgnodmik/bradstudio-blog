@@ -62,5 +62,5 @@ export const COUPANG_RAIL = {
 	height: '600',
 } as const;
 
-// /blog/ 목록 한 쪽에 보일 글 수. 3열 × 4줄 = 12칸 중 1칸은 인피드 광고.
-export const POSTS_PER_PAGE = 11;
+// /blog/ 목록 한 쪽에 보일 글 수. 4열 기준 글 50칸 + 인피드 광고 2칸 = 13줄.
+export const POSTS_PER_PAGE = 50;
