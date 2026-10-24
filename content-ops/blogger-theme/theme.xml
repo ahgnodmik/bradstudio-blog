@@ -123,6 +123,12 @@ nav.blog-nav li a:hover{background:rgba(255,255,255,.15);text-decoration:none}
 .blog-pager a{display:inline-block;padding:9px 22px;background:#fff;color:#0a1317;border:1px solid #e3e6ea;border-radius:999px;font-size:14px;margin:4px}
 .blog-pager a:hover{background:#0a1317;color:#fff;border-color:transparent;text-decoration:none}
 
+/* ===== 더 보기 ===== */
+.more-wrap{text-align:center;padding:24px 0}
+.more-btn{padding:11px 36px;background:#fff;color:#0a1317;border:1px solid #e3e6ea;border-radius:999px;font-size:15px;font-weight:700;cursor:pointer;font-family:inherit}
+.more-btn:hover{background:#0a1317;color:#fff;border-color:transparent}
+.more-btn:disabled{opacity:.6;cursor:wait}
+
 /* ===== FOOTER ===== */
 #footer{background:#222;color:#aaa;text-align:center;padding:24px 16px;margin-top:40px;font-size:13px}
 #footer a{color:#888}
@@ -347,8 +353,11 @@ nav.blog-nav li a:hover{background:rgba(255,255,255,.15);text-decoration:none}
                   <a expr:href='data:newerPageUrl'>&#8592; 최신 글</a>
                 </b:if>
                 <b:if cond='data:olderPageUrl'>
-                  <a expr:href='data:olderPageUrl'>이전 글 &#8594;</a>
+                  <a expr:href='data:olderPageUrl' id='older-link'>이전 글 &#8594;</a>
                 </b:if>
+              </div>
+              <div class='more-wrap' id='more-wrap' style='display:none'>
+                <button class='more-btn' id='load-more' type='button'>더 보기</button>
               </div>
             </b:if>
           </b:includable>
@@ -966,6 +975,39 @@ document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('.card-snippet').forEach(function (p) {
     p.textContent = p.textContent.replace(PREFIX, '');
   });
+
+  // 더 보기: 다음 쪽을 가져와 카드만 이어 붙인다. 실패하면 기존 이전/최신 글 버튼으로 돌아간다.
+  var grid = document.getElementById('post-grid');
+  var older = document.getElementById('older-link');
+  var moreWrap = document.getElementById('more-wrap');
+  var moreBtn = document.getElementById('load-more');
+  if (grid && older && moreWrap && moreBtn) {
+    var pager = document.querySelector('.blog-pager');
+    var next = older.href;
+    moreWrap.style.display = 'block';
+    if (pager) pager.style.display = 'none';
+    moreBtn.addEventListener('click', function () {
+      if (!next) return;
+      moreBtn.disabled = true;
+      moreBtn.textContent = '불러오는 중…';
+      fetch(next).then(function (r) { return r.text(); }).then(function (html) {
+        var doc = new DOMParser().parseFromString(html, 'text/html');
+        doc.querySelectorAll('#post-grid .post-card').forEach(function (card) {
+          var p = card.querySelector('.card-snippet');
+          if (p) p.textContent = p.textContent.replace(PREFIX, '');
+          grid.appendChild(document.importNode(card, true));
+        });
+        var n = doc.getElementById('older-link');
+        next = n ? n.href : null;
+        moreBtn.disabled = false;
+        moreBtn.textContent = '더 보기';
+        if (!next) moreWrap.style.display = 'none';
+      }).catch(function () {
+        moreWrap.style.display = 'none';
+        if (pager) pager.style.display = '';
+      });
+    });
+  }
 
   // 글 목록 중간 광고: 4번째 카드 뒤, 광고 코드가 들어 있을 때만 표시 (빈 '광고' 칸 방지)
   var cards = document.querySelectorAll('#post-grid .post-card');

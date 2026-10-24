@@ -67,6 +67,34 @@ const title = page.currentPage === 1 ? `전체 글 | ${SITE_TITLE}` : `전체 �
 				padding: 0;
 				list-style: none;
 			}
+			.more-wrap {
+				display: flex;
+				justify-content: center;
+				margin: 2rem 0 0;
+			}
+			.more {
+				padding: 0.7rem 2.25rem;
+				border: 1px solid rgb(var(--gray-light));
+				border-radius: 999px;
+				background: #fff;
+				font-size: 0.95rem;
+				font-weight: 700;
+				color: rgb(var(--black));
+				cursor: pointer;
+			}
+			.more:hover {
+				background: rgb(var(--black));
+				border-color: transparent;
+				color: #fff;
+			}
+			.more:disabled {
+				opacity: 0.6;
+				cursor: wait;
+			}
+			.more-left {
+				font-weight: 400;
+				opacity: 0.7;
+			}
 			.pager {
 				display: flex;
 				flex-wrap: wrap;
@@ -138,11 +166,11 @@ const title = page.currentPage === 1 ? `전체 글 | ${SITE_TITLE}` : `전체 �
 				<span class="total">{page.total}편 · {page.currentPage}/{page.lastPage}쪽</span>
 			</div>
 			<CategoryTabs />
-			<ul class="grid">
+			<ul class="grid" id="post-grid">
 				{
 					page.data.map((post, index) => (
 						<>
-							<li>
+							<li class="post-item">
 								<PostListCard post={post} compact eager={page.currentPage === 1 && index < 4} />
 							</li>
 							{index + 1 === AD_AFTER && index < page.data.length - 1 && <AdInFeed />}
@@ -150,6 +178,15 @@ const title = page.currentPage === 1 ? `전체 글 | ${SITE_TITLE}` : `전체 �
 					))
 				}
 			</ul>
+			{
+				page.url.next && (
+					<div class="more-wrap">
+						<button class="more" id="load-more" type="button" data-next={page.url.next} hidden>
+							더 보기 <span class="more-left">(남은 {page.total - page.end - 1}편)</span>
+						</button>
+					</div>
+				)
+			}
 			{
 				page.lastPage > 1 && (
 					<nav class="pager" aria-label="페이지">
@@ -180,5 +217,37 @@ const title = page.currentPage === 1 ? `전체 글 | ${SITE_TITLE}` : `전체 �
 			<AdSlot name="footer" label="하단 디스플레이 광고" size="728×90 / 반응형" />
 		</main>
 		<Footer />
+		<script>
+			// 더 보기: 다음 쪽 HTML을 가져와 글 카드만 이어 붙인다(광고 칸은 붙이지 않음).
+			// JS가 없으면 번호 페이지 넘김이 그대로 동작한다.
+			const button = document.getElementById('load-more') as HTMLButtonElement | null;
+			const grid = document.getElementById('post-grid');
+			if (button && grid) {
+				const pager = document.querySelector<HTMLElement>('.pager');
+				button.hidden = false;
+				// 더 보기가 동작하면 번호 페이지는 숨긴다(불러오기 실패 시 다시 보임)
+				if (pager) pager.style.display = 'none';
+				let next: string | null = button.dataset.next ?? null;
+				let left = Number(button.querySelector('.more-left')?.textContent?.match(/\d+/)?.[0] ?? 0);
+				button.addEventListener('click', async () => {
+					if (!next) return;
+					button.disabled = true;
+					button.textContent = '불러오는 중…';
+					try {
+						const html = await (await fetch(next)).text();
+						const doc = new DOMParser().parseFromString(html, 'text/html');
+						const items = doc.querySelectorAll('#post-grid > li.post-item');
+						items.forEach((li) => grid.append(document.importNode(li, true)));
+						left -= items.length;
+						next = doc.getElementById('load-more')?.getAttribute('data-next') ?? null;
+					} catch {
+						if (pager) pager.style.display = '';
+					}
+					button.disabled = false;
+					button.textContent = `더 보기 (남은 ${Math.max(left, 0)}편)`;
+					if (!next) button.closest('.more-wrap')?.remove();
+				});
+			}
+		</script>
 	</body>
 </html>
