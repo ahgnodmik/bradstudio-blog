@@ -18,13 +18,21 @@ img{max-width:100%;height:auto}
 
 /* ===== LAYOUT ===== */
 .outer-wrapper{max-width:1160px;margin:0 auto;padding:0 16px}
-.content-wrapper{display:grid;grid-template-columns:160px 1fr 300px;gap:20px;align-items:flex-start;margin-top:24px}
+.content-wrapper-outer{max-width:1360px}
+.content-wrapper{display:grid;grid-template-columns:140px 1fr 300px 140px;gap:20px;align-items:flex-start;margin-top:24px}
 .main-content{min-width:0}
 .sidebar-wrapper{min-width:0}
 
-/* ===== 왼쪽 광고 ===== */
-.ad-left-wrapper{width:160px}
-.ad-left-sticky{position:sticky;top:80px;text-align:center;background:#fff;border-radius:8px;padding:10px 6px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+/* ===== 좌우 세로 광고 (쿠팡 140x600) — 박스 없이 배너만 ===== */
+.ad-rail{width:140px}
+.ad-rail-sticky{position:sticky;top:24px;text-align:center}
+.ad-rail-sticky iframe{display:block;margin:0 auto;border:0}
+.ad-rail-note{font-size:10.5px;line-height:1.4;color:#999;margin-top:6px;word-break:keep-all}
+
+/* 광고 코드가 비어 있는 자리는 숨김 ('광고' 글자만 있는 빈 상자 방지) */
+.ad-header:not(:has(ins,iframe,script)),
+.ad-sidebar:not(:has(ins,iframe,script)),
+.ad-post-footer:not(:has(ins,iframe,script)){display:none}
 
 /* ===== 글 목록 중간 광고 ===== */
 .ad-mid-list{background:#fff;border-radius:8px;text-align:center;padding:14px;margin-bottom:20px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
@@ -118,9 +126,13 @@ nav.blog-nav li a:hover{background:rgba(255,255,255,.15);text-decoration:none}
 #footer a{color:#888}
 
 /* ===== RESPONSIVE ===== */
+@media(max-width:1279px){
+  .content-wrapper{grid-template-columns:140px 1fr 300px}
+  .ad-rail-right{display:none}
+}
 @media(max-width:900px){
   .content-wrapper{grid-template-columns:1fr 280px}
-  .ad-left-wrapper{display:none}
+  .ad-rail-left{display:none}
 }
 @media(max-width:640px){
   .content-wrapper{grid-template-columns:1fr}
@@ -213,24 +225,21 @@ nav.blog-nav li a:hover{background:rgba(255,255,255,.15);text-decoration:none}
 </nav>
 
 <!-- 본문 -->
-<div class='outer-wrapper'>
+<div class='outer-wrapper content-wrapper-outer'>
   <div class='content-wrapper'>
 
-    <!-- 왼쪽 광고 (160&#215;600 세로 배너) -->
-    <div class='ad-left-wrapper'>
-      <div class='ad-left-sticky'>
-        <div class='ad-label'>광고</div>
-        <!-- ADSENSE-LEFT-START: 애드센스 세로 광고를 쓰려면 아래 쿠팡 배너를 지우고 코드 붙여넣기 -->
+    <!-- 왼쪽 세로 광고 (쿠팡 140&#215;600) -->
+    <aside class='ad-rail ad-rail-left' aria-label='광고'>
+      <div class='ad-rail-sticky'>
         <script src='https://ads-partners.coupang.com/g.js'></script>
         <script>
         //<![CDATA[
-        new PartnersCoupang.G({"id":1042784,"template":"carousel","trackingCode":"AF1584187","width":"160","height":"600","tsource":""});
+        new PartnersCoupang.G({"id":1042784,"template":"carousel","trackingCode":"AF1584187","width":"140","height":"600","tsource":""});
         //]]>
         </script>
-        <p class='ad-label' style='margin-top:6px;line-height:1.4'>이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
-        <!-- ADSENSE-LEFT-END -->
+        <p class='ad-rail-note'>이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
       </div>
-    </div>
+    </aside>
 
     <!-- 메인 콘텐츠 -->
     <div class='main-content'>
@@ -923,6 +932,19 @@ nav.blog-nav li a:hover{background:rgba(255,255,255,.15);text-decoration:none}
         </b:widget>
       </b:section>
     </div>
+
+    <!-- 오른쪽 세로 광고 (쿠팡 140&#215;600) -->
+    <aside class='ad-rail ad-rail-right' aria-label='광고'>
+      <div class='ad-rail-sticky'>
+        <script src='https://ads-partners.coupang.com/g.js'></script>
+        <script>
+        //<![CDATA[
+        new PartnersCoupang.G({"id":1042784,"template":"carousel","trackingCode":"AF1584187","width":"140","height":"600","tsource":""});
+        //]]>
+        </script>
+        <p class='ad-rail-note'>이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
+      </div>
+    </aside>
 
   </div><!-- content-wrapper -->
 </div><!-- outer-wrapper -->
