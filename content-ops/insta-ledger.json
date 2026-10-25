@@ -176,5 +176,17 @@
   "why-only-now/delivered/128-a-spherical-computer-monitor-pays-homage.json": {
     "contentId": "bs-20261025-002",
     "date": "2026-10-25"
+  },
+  "abroad-now/delivered/2026-10-22-airbnb-chores-exemption-policy.json": {
+    "contentId": "bs-20261026-002",
+    "date": "2026-10-26"
+  },
+  "why-only-now/delivered/130-toyota-releases-video-of-wheelchair-alte.json": {
+    "contentId": "bs-20261026-003",
+    "date": "2026-10-26"
+  },
+  "abroad-now/delivered/2026-10-23-mass-effect-5-trailer-leaked-bioware.json": {
+    "skipped": "bs-20261025-001 바이오웨어 글에 포함",
+    "date": "2026-10-26"
   }
 }
