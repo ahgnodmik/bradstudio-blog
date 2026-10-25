@@ -50,4 +50,4 @@ A. KC 표시가 출발점입니다. 어린이제품 안전 특별법은 만 13�
 - 노터데임대학교 위험관리실: https://riskmanagement.nd.edu/assets/445297/utility_knife_safety_august_2020.pdf
 - 국가기술표준원(어린이제품 안전관리 대상): https://www.kats.go.kr/content.do?cmsid=501
 - 코리아중앙데일리(Korea JoongAng Daily): https://www.koreajoongangdaily.com/korea/authorities-find-110000-childrens-products-that-fail-to-meet-safety-standards/12610344
-- 헤럴드K: https://www.heraldk.com/article/2026032920075040778
+- heraldk.com: https://www.heraldk.com/article/2026032920075040778
