@@ -10,7 +10,7 @@ thumbnail:
   creditUrl: 'https://unsplash.com/@gonzalezgonzalezdiego'
 instagramPermalink: 'https://www.instagram.com/p/De28NDojEU1/'
 
-status: draft
+status: published
 
 category: world
 tags:

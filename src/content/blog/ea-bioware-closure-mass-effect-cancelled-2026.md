@@ -10,7 +10,7 @@ thumbnail:
   creditUrl: 'https://unsplash.com/@caroline_ross'
 instagramPermalink: 'https://www.instagram.com/p/De4KlXtEZ0Z/'
 
-status: draft
+status: published
 
 category: world
 tags:

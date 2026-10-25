@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Blessing Ri'
   creditUrl: 'https://unsplash.com/@blessingeffect'
 
-status: draft
+status: published
 
 category: living
 tags:
