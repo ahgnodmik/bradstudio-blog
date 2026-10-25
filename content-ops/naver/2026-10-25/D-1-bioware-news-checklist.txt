@@ -1,0 +1,82 @@
+제목: 매스 이펙트 팬이라면 체크! 바이오웨어 폐쇄 뉴스 볼 때 헷갈리지 않는 15가지 점검표
+
+"매스 이펙트 5 영상 유출", "EA 400명 해고", "사우디가 바이오웨어를 죽였다". 지난 며칠 이런 제목이 피드를 채웠습니다. 제목마다 온도가 달라 무엇이 확정이고 무엇이 추측인지 가리기 어렵습니다. 아래 점검표를 하나씩 체크하면서 뉴스를 읽어 보세요. 확정된 사실에는 ○, 보도 단계에는 △, 아직 모르는 것에는 ?를 붙였습니다.
+
+■ 첫째 묶음: 확정된 사실부터 체크
+□ 1. 바이오웨어는 폐쇄된다 ○
+EA 직원 서한과 바이오웨어 공식 X 계정이 모두 밝혔습니다. 팀 축소가 아니라 스튜디오와 에드먼턴 사무실을 닫는 결정입니다.
+
+□ 2. 차기 매스 이펙트 개발은 멈췄다 ○
+서한에 소규모 팀이 초기 개발 중이던 프로젝트를 진행하지 않는다고 적혀 있습니다.
+
+□ 3. 발표일은 10월 21일(현지시간)이다 ○
+국내 기사는 시차 때문에 22일 날짜로 나온 경우가 많습니다. 날짜가 달라도 같은 소식입니다.
+
+□ 4. EA는 8월 비상장사가 됐다 ○
+PIF, 실버레이크, 어피니티 파트너스 컨소시엄이 기업가치 약 550억 달러에 인수했습니다. 주주는 주당 210달러를 받았습니다. 더랩과 80레벨이 거래 종료를 보도했습니다.
+
+■ 둘째 묶음: 보도 단계인 숫자 체크
+□ 5. 감원 약 400명, 전체의 약 3% △
+블룸버그가 관계자를 인용한 수치입니다. EA 서한에는 총인원이 없었습니다. 2.7%로 적은 매체도 있습니다.
+
+□ 6. 바이오웨어 감원 약 50명 △
+같은 블룸버그 보도에서 나온 숫자입니다. 스튜디오별 공식 내역은 공개되지 않았습니다.
+
+□ 7. 리스폰·다이스 공동작은 배틀프론트 3 △
+버라이어티 보도입니다. EA는 "향후 프로젝트"라고만 했습니다. 제목에 배틀프론트 3를 단정한 글은 한 번 걸러 읽으세요.
+
+□ 8. 연 7억 달러 비용 절감 목표 ?
+보도가 있지만 출처가 간접적입니다. 확인 필요 항목으로 남겨 두세요.
+
+■ 셋째 묶음: 유출 영상 볼 때 체크
+□ 9. 영상은 진본으로 보도됐다 △
+코타쿠와 푸시스퀘어는 블룸버그 제이슨 슈라이어 기자와 IGN이 각각 진본이라고 확인했다고 전했습니다.
+
+□ 10. 게임 플레이 화면이 아니다 ○
+약 2분 길이의 연출 영상입니다. 새 인간 주인공과 리아라 티소니가 나오고 "Mass Effect: Universe" 로고로 끝납니다. 이 영상으로 게임 완성도를 판단하기는 어렵습니다.
+
+□ 11. "매스 이펙트 5"는 공식 이름이 아니다 ○
+매체들이 붙인 별칭입니다. EA가 그 이름을 쓴 적은 없습니다.
+
+□ 12. 유출 경로와 완성 시점은 모른다 ?
+몇 달 전 완성됐다는 주장도 돌지만 출처가 불확실합니다. 재업로드 영상 링크를 누를 때는 낯선 사이트와 파일 내려받기를 피하세요.
+
+■ 넷째 묶음: 내 게임 라이브러리 체크
+□ 13. 온라인 전용 게임을 따로 표시했다
+바이오웨어의 앤섬은 2026년 1월 12일 서버가 꺼져 지금은 실행할 수 없습니다. 테크레이더와 게임리액터가 보도했습니다. 내 목록에서 서버가 필요한 게임을 먼저 골라 두세요.
+
+□ 14. 이미 산 바이오웨어 게임의 판매 정책은 공지로 확인한다 ?
+기존 매스 이펙트, 드래곤 에이지 게임의 판매와 지원이 어떻게 될지 EA는 따로 밝히지 않았습니다. 커뮤니티 추측보다 EA 고객지원 공지를 기준으로 삼으세요.
+
+□ 15. 판권 향방 발표를 기다린다 ?
+매스 이펙트와 드래곤 에이지 판권은 EA가 가진 것으로 알려져 있습니다. 다른 스튜디오가 이어받을지, 묵혀 둘지는 발표가 없습니다.
+
+■ 기사 제목을 걸러 읽는 요령
+- "확정", "공식" 같은 단어가 있으면 회사 발표를 인용했는지 본문에서 찾습니다.
+- 숫자가 나오면 누가 낸 숫자인지 확인합니다. 회사인지, 언론 보도인지 구분합니다.
+- "사우디 때문"처럼 원인을 단정한 제목은 의견일 수 있습니다. 디펙터와 게임스레이더는 인수 시점을 제목에 넣었지만, EA가 인과관계를 인정한 것은 아닙니다.
+- 해외 기사를 옮긴 국내 기사는 원문 링크가 있는지 봅니다.
+
+■ 국내 업계와 비교할 때 체크
+엑스엘게임즈는 2026년 5월 희망퇴직에 이어 정리해고 협의를 예고했다는 보도가 머니투데이방송과 시사저널e에서 나왔습니다. 엔씨소프트는 2024년 10월 분사와 희망퇴직을 단행했다고 경향신문과 전자신문이 전했습니다. 국내는 희망퇴직과 분사 위주입니다. 유명 스튜디오를 통째로 닫은 국내 사례는 이번에 확인되지 않았습니다.
+
+점검표를 저장해 두고 다음 EA 발표가 나오면 ?와 △ 항목부터 다시 체크해 보세요.
+
+■ 출처·참고
+- 블룸버그(Bloomberg): https://www.bloomberg.com/news/articles/2026-10-21/electronic-arts-to-cut-400-jobs-shut-down-bioware
+- 비디오게임즈크로니클(VGC): https://www.videogameschronicle.com/news/ea-is-closing-bioware-and-cancelling-the-next-mass-effect/
+- 버라이어티(Variety): https://variety.com/2026/digital/news/ea-layoffs-bioware-shutting-down-respawn-dice-star-wars-battlefront-3-1236918715/
+- 뉴스위크(Newsweek): https://www.newsweek.com/electronic-arts-layoffs-400-jobs-cut-as-bioware-shuts-down-12603424
+- 더랩(TheWrap): https://thewrap.com/industry-news/deals-ma/electronic-arts-goes-private-55-billion-buyout-closes
+- 80레벨(80.lv): https://80.lv/articles/electronic-arts-is-officially-acquired-by-pif-silver-lake-affinity-partners
+- 코타쿠(Kotaku): https://kotaku.com/mass-effect-5-universe-leaked-trailer-liara-bioware-2000748858
+- 푸시스퀘어(Push Square): https://www.pushsquare.com/news/2026/10/leaked-mass-effect-5-trailer-is-real-offers-glimpse-of-cancelled-game
+- 비디오게임즈크로니클(VGC) 유출 영상: https://www.videogameschronicle.com/news/mass-effect-universe-trailer-leaks-online-showcases-what-bioware-was-working-on-before-being-shut-down/
+- 디펙터(Defector): https://defector.com/bioware-becomes-first-major-casualty-of-saudi-arabias-ea-takeover
+- 게임스레이더(GamesRadar+): https://www.gamesradar.com/games/rpg/ea-cancels-new-mass-effect-closes-bioware-after-being-bought-by-saudi-arabia/
+- 테크레이더(TechRadar): https://www.techradar.com/gaming/all-those-moments-will-be-lost-in-time-like-tears-in-rain-players-bid-farewell-to-anthem-as-ea-officially-shuts-down-the-games-servers-for-good
+- 게임리액터(Gamereactor): https://www.gamereactor.eu/anthem-servers-to-shut-down-on-january-12th-next-year-1568473/
+- 머니투데이방송(MTN): https://news.mtn.co.kr/news-detail/2026052708592575961
+- 시사저널e: https://www.sisajournal-e.com/news/articleView.html?idxno=421337
+- 경향신문: https://www.khan.co.kr/article/202410211458001
+- 전자신문: https://www.etnews.com/20241021000158

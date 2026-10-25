@@ -1,0 +1,63 @@
+제목: 게임 대기업은 왜 멀쩡한 이름의 스튜디오를 닫을까? 비상장 전환과 비용 절감 구조 10문 10답
+
+31년 된 스튜디오가 하루아침에 사라졌습니다. EA가 바이오웨어를 닫는다고 발표하자 팬들 사이에서 같은 질문이 쏟아졌습니다. 왜 하필 지금이고, 왜 하필 바이오웨어일까요. 회사가 밝힌 사실과 기업 인수의 일반적인 작동 원리를 나눠 10개 질문으로 풀어 봅니다.
+
+■ Q1. 정확히 무슨 일이 있었나요?
+A. EA는 10월 21일 직원 서한에서 바이오웨어 스튜디오와 에드먼턴 사무실을 닫는다고 밝혔습니다. 초기 개발 중이던 차기 매스 이펙트도 중단했습니다. 블룸버그는 EA 전체 감원을 약 400명, 그중 바이오웨어 몫을 약 50명으로 보도했습니다. 이 숫자는 회사 공식 발표가 아닙니다.
+
+■ Q2. "비상장 전환"이 뭔가요?
+A. 증시에 올라 있던 회사를 누군가 주식 전부를 사들여 거래소에서 내리는 일입니다. 주인이 수많은 개인 주주에서 소수 투자자로 바뀝니다. EA는 8월 이 과정을 마쳤습니다. 사우디아라비아 국부펀드 PIF, 사모펀드 실버레이크, 어피니티 파트너스 컨소시엄이 기업가치 약 550억 달러에 인수했습니다. 기존 주주는 주당 210달러를 현금으로 받았습니다.
+
+■ Q3. 그 큰돈은 다 투자자 지갑에서 나왔나요?
+A. 아닙니다. 이런 거래는 보통 투자자 자기 돈에 은행 대출을 더해 이뤄집니다. 업계에서는 이를 차입매수(LBO)라고 부릅니다. EA 거래에도 JP모건의 부채 조달이 들어갔습니다. 거래 마무리 시점에 약 180억 달러가 집행됐다고 더랩과 80레벨이 전했습니다.
+
+■ Q4. 빚을 지면 왜 비용을 줄이게 되나요?
+A. 빌린 돈에는 이자가 붙습니다. 이자는 회사가 버는 현금에서 나갑니다. 매출을 빨리 늘리기 어렵다면 남는 방법은 지출을 줄이는 것입니다. 인건비와 장기 개발비는 가장 큰 지출 항목입니다. 그래서 인수 직후 구조조정이 흔하게 나옵니다. 이것은 일반적인 원리이며, EA가 이자 부담 때문에 바이오웨어를 닫았다고 밝힌 적은 없습니다.
+
+■ Q5. EA가 내건 비용 절감 목표가 있나요?
+A. 연간 7억 달러를 줄인다는 보도가 있습니다. 다만 출처가 간접적이어서 확인 필요입니다. 회사가 숫자를 직접 공개한 자료는 이번에 찾지 못했습니다.
+
+■ Q6. 왜 하필 바이오웨어였을까요?
+A. 공개된 숫자로 보면 최근 성적이 약했습니다.
+- 2019년작 앤섬은 2026년 1월 12일 서버를 닫았습니다.
+- 2024년작 드래곤 에이지: 더 베일가드는 EA 발표 기준 출시 분기 이용자가 약 150만 명이었습니다. 회사 예상의 절반 정도였습니다.
+- 블룸버그는 2025년 2월 직원 수가 2년 전 200명 이상에서 100명 미만으로 줄었다고 보도했습니다.
+대형 RPG는 개발 기간이 길고 비용이 큽니다. 성과가 늦게 나오는 사업은 비용을 줄이려는 회사에 부담으로 보이기 쉽습니다.
+
+■ Q7. 그럼 EA는 무엇을 남겼나요?
+A. 서한에 투자를 이어갈 분야가 적혀 있습니다. EA 스포츠, 배틀필드, 에이펙스 레전드, 아이언맨 게임, 차기 스타워즈 제다이입니다. 꾸준히 팔리는 스포츠 게임과 운영형 슈팅 게임이 중심입니다. 매년 반복 매출이 나오는 사업을 지키고 불확실한 신작을 접는 모양새입니다.
+
+■ Q8. 상장사였다면 달랐을까요?
+A. 단정할 수는 없습니다. 상장사도 감원과 폐쇄를 자주 합니다. 차이는 의사결정 구조에 있습니다. 상장사는 분기마다 실적을 공개하고 주주 질문에 답해야 합니다. 비상장사는 공시 부담이 줄고 소수 주주의 뜻대로 빠르게 움직일 수 있습니다. 디펙터와 게임스레이더가 기사 제목에 사우디 인수를 넣은 것도 이 시점 때문입니다. 두 사건 사이 인과관계를 EA가 인정한 것은 아닙니다.
+
+■ Q9. 스튜디오가 닫히면 게임 판권은 어떻게 되나요?
+A. 보통 판권은 스튜디오가 아니라 모회사가 가집니다. 매스 이펙트와 드래곤 에이지도 EA 소유로 알려져 있습니다. 모회사는 판권을 묵혀 두거나, 다른 팀에 맡기거나, 외부에 팔 수 있습니다. EA는 두 시리즈를 앞으로 어떻게 쓸지 발표하지 않았습니다. 10월 22일 유출된 "Mass Effect: Universe" 영상은 진본으로 확인됐다는 보도가 나왔지만 개발은 이미 멈춘 상태입니다.
+
+■ Q10. 국내 게임사도 같은 흐름인가요?
+A. 구조조정이라는 큰 흐름은 겹칩니다. 엑스엘게임즈는 2026년 5월 희망퇴직 뒤 정리해고 협의를 예고했다고 머니투데이방송과 시사저널e가 보도했습니다. 엔씨소프트는 2024년 10월 개발 조직을 분사하고 희망퇴직을 받았다고 경향신문과 전자신문이 전했습니다. 방식은 다릅니다. 국내는 희망퇴직과 분사가 중심이고, 사모펀드·국부펀드 인수 직후 스튜디오를 통째로 닫은 사례는 이번에 확인되지 않았습니다.
+
+■ 한눈에 보는 구조
+- 인수: 대출을 섞어 회사를 사들인다
+- 부담: 이자와 투자 회수 압박이 생긴다
+- 선택: 반복 매출 사업은 남기고 오래 걸리는 신작은 접는다
+- 결과물: 감원, 스튜디오 폐쇄, 개발 취소
+
+좋아하는 게임 회사의 주인이 바뀌었다는 소식이 들리면, 다음 분기 신작 일정과 공식 공지를 함께 확인하는 습관을 들여 보세요.
+
+■ 출처·참고
+- 블룸버그(Bloomberg): https://www.bloomberg.com/news/articles/2026-10-21/electronic-arts-to-cut-400-jobs-shut-down-bioware
+- 버라이어티(Variety): https://variety.com/2026/digital/news/ea-layoffs-bioware-shutting-down-respawn-dice-star-wars-battlefront-3-1236918715/
+- 뉴스위크(Newsweek): https://www.newsweek.com/electronic-arts-layoffs-400-jobs-cut-as-bioware-shuts-down-12603424
+- 더랩(TheWrap): https://thewrap.com/industry-news/deals-ma/electronic-arts-goes-private-55-billion-buyout-closes
+- 80레벨(80.lv): https://80.lv/articles/electronic-arts-is-officially-acquired-by-pif-silver-lake-affinity-partners
+- 디펙터(Defector): https://defector.com/bioware-becomes-first-major-casualty-of-saudi-arabias-ea-takeover
+- 게임스레이더(GamesRadar+): https://www.gamesradar.com/games/rpg/ea-cancels-new-mass-effect-closes-bioware-after-being-bought-by-saudi-arabia/
+- 더블유씨씨에프테크(Wccftech): https://wccftech.com/bioware-now-has-less-than-100-developers-as-ea-permanently-shifts-people-to-other-studios/amp/
+- 테크레이더(TechRadar): https://www.techradar.com/gaming/all-those-moments-will-be-lost-in-time-like-tears-in-rain-players-bid-farewell-to-anthem-as-ea-officially-shuts-down-the-games-servers-for-good
+- 게임리액터(Gamereactor): https://www.gamereactor.eu/anthem-servers-to-shut-down-on-january-12th-next-year-1568473/
+- 코타쿠(Kotaku): https://kotaku.com/mass-effect-5-universe-leaked-trailer-liara-bioware-2000748858
+- 푸시스퀘어(Push Square): https://www.pushsquare.com/news/2026/10/leaked-mass-effect-5-trailer-is-real-offers-glimpse-of-cancelled-game
+- 머니투데이방송(MTN): https://news.mtn.co.kr/news-detail/2026052708592575961
+- 시사저널e: https://www.sisajournal-e.com/news/articleView.html?idxno=421337
+- 경향신문: https://www.khan.co.kr/article/202410211458001
+- 전자신문: https://www.etnews.com/20241021000158
