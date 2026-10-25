@@ -1,0 +1,79 @@
+제목: 바이오웨어 문 닫는다… EA 서한 내용, 400명 감원 보도, 유출 영상까지 날짜순 정리
+
+매스 이펙트와 드래곤 에이지를 만든 캐나다 게임사 바이오웨어가 사라집니다. 팀을 줄이는 수준이 아닙니다. 스튜디오와 사무실을 통째로 닫는 결정입니다. 10월 21일부터 나흘 사이 나온 소식을 날짜순으로 묶고, 회사가 직접 밝힌 내용과 언론 보도를 구분해 정리합니다.
+
+■ 10월 21일: EA 직원 서한 공개
+EA는 현지시간 10월 21일 전 직원에게 서한을 보냈습니다. 서명자는 경영진 데이비드 틴슨과 캠 웨버입니다.
+- 바이오웨어 소규모 팀이 차기 매스 이펙트를 초기 단계에서 만들고 있었습니다.
+- EA는 이 개발을 계속하지 않기로 했습니다.
+- 그 결과 바이오웨어 스튜디오와 앨버타주 에드먼턴 사무실을 닫습니다.
+바이오웨어 공식 X 계정도 같은 날 작별 글을 올렸습니다. 30년 넘게 이어온 모험이 끝났다는 내용이었습니다.
+
+■ 같은 날: 감원 규모는 보도로 나왔다
+감원 숫자는 EA 서한에 없었습니다. 블룸버그가 사정을 아는 관계자를 인용해 수치를 전했습니다.
+- 전 세계 감원: 약 400명
+- 전체 인력 대비: 약 3%
+- 그중 바이오웨어 소속: 약 50명
+뉴스위크와 국내 매체들은 서한에 총인원과 스튜디오별 내역이 빠졌다고 짚었습니다. 비율은 매체에 따라 2.7%로 적은 곳도 있습니다. 공식 확정 수치로 받아들이기는 이릅니다.
+
+■ EA가 남기겠다고 밝힌 게임
+서한에는 계속 투자할 분야도 적혀 있었습니다.
+- EA 스포츠
+- 배틀필드
+- 에이펙스 레전드
+- 아이언맨 게임
+- 차기 스타워즈 제다이
+리스폰과 다이스 두 스튜디오는 앞으로 나올 프로젝트를 함께 만듭니다. 버라이어티는 이 게임을 스타워즈 배틀프론트 3로 보도했습니다. EA는 제목을 공개하지 않았습니다. 이 부분은 확인 필요입니다.
+
+■ 10월 22일: 매스 이펙트 영상 유출
+폐쇄 발표 이튿날 레딧 매스 이펙트 게시판에 약 2분 분량 영상이 올라왔습니다.
+- 셰퍼드가 아닌 새 인간 주인공이 등장합니다.
+- 아사리 종족 리아라 티소니와 술집에서 이야기를 나눕니다.
+- 짧은 총격 장면과 크로건이 보입니다.
+- 마지막 화면에 "Mass Effect: Universe" 로고가 뜹니다.
+코타쿠와 푸시스퀘어는 블룸버그 제이슨 슈라이어 기자와 IGN이 각각 진본이라고 확인했다고 전했습니다. 영상은 연출된 시네마틱이고 실제 플레이 화면이 아닙니다. 누가 어떻게 유출했는지는 알려지지 않았습니다. 매체들이 붙인 "매스 이펙트 5"라는 이름도 EA가 쓴 명칭은 아닙니다.
+
+■ 배경 1: 바이오웨어는 어떤 회사였나
+바이오웨어는 1995년 에드먼턴에서 출발했습니다. 의사 출신 레이 뮤지카와 그렉 제슈크 등이 공동 창업자입니다. 발더스 게이트와 스타워즈: 구 공화국의 기사단으로 이름을 알렸습니다. 2007년 EA 품에 들어간 뒤 매스 이펙트, 드래곤 에이지 시리즈를 냈습니다. 플레이어 선택에 따라 줄거리가 갈리는 서구 RPG의 상징 같은 곳이었습니다.
+
+■ 배경 2: 최근 몇 년의 부진
+- 2019년작 앤섬: 2026년 1월 12일 서버 종료. 온라인 전용이라 지금은 실행할 수 없습니다.
+- 2024년작 드래곤 에이지: 더 베일가드: EA 발표 기준 출시 분기 이용자 약 150만 명. 회사 기대치의 절반 수준이었습니다.
+- 인력: 블룸버그는 2025년 2월 기준 직원이 2년 전 200명대에서 100명 아래로 줄었다고 보도했습니다.
+
+■ 배경 3: 비상장 전환 두 달 뒤
+EA는 8월 증시에서 내려왔습니다. 사우디아라비아 국부펀드 PIF와 실버레이크, 어피니티 파트너스가 기업가치 약 550억 달러에 회사를 샀습니다. 주주는 주당 210달러를 현금으로 받았습니다. JP모건이 빌려준 돈 가운데 약 180억 달러가 거래 마무리 시점에 집행됐습니다. 바이오웨어 폐쇄는 새 주인이 들어온 뒤 처음 나온 대형 조치입니다. 디펙터와 게임스레이더는 기사 제목에 사우디 인수를 직접 넣었습니다.
+
+■ 국내 반응과 비교
+ZDNet Korea와 디스이즈게임은 "31년 만에 문 닫는다"는 표현으로 소식을 전했습니다. 국내 게임업계도 구조조정이 이어지고 있습니다. 엑스엘게임즈는 2026년 5월 희망퇴직에 이어 정리해고 협의를 예고했다고 머니투데이방송과 시사저널e가 보도했습니다. 엔씨소프트는 2024년 10월 개발 조직을 분사하고 희망퇴직을 받았습니다. 다만 유명 스튜디오를 통째로 닫은 국내 사례는 이번에 찾지 못했습니다.
+
+■ 아직 발표되지 않은 것
+- 매스 이펙트, 드래곤 에이지 판권을 누가 이어받을지
+- 감원 인원의 공식 숫자
+- 남은 바이오웨어 직원의 전환 배치 여부와 보상 조건
+- 인수 뒤 연간 비용 절감 목표(연 7억 달러 보도가 있으나 확인 필요)
+- 유출 영상 속 게임의 정식 제목과 개발 진척도
+
+판권 향방은 EA의 다음 공식 발표에서 갈립니다. 관심 있는 분은 아래 원문 기사를 열어 서한 원문 인용부터 직접 확인해 보세요.
+
+■ 출처·참고
+- 블룸버그(Bloomberg): https://www.bloomberg.com/news/articles/2026-10-21/electronic-arts-to-cut-400-jobs-shut-down-bioware
+- 워싱턴포스트(The Washington Post): https://www.washingtonpost.com/entertainment/video-games/2026/10/21/bioware-closed-by-ea-after-30-years-influential-genre-defining-games/
+- 버라이어티(Variety): https://variety.com/2026/digital/news/ea-layoffs-bioware-shutting-down-respawn-dice-star-wars-battlefront-3-1236918715/
+- 뉴스위크(Newsweek): https://www.newsweek.com/electronic-arts-layoffs-400-jobs-cut-as-bioware-shuts-down-12603424
+- 게임디벨로퍼(Game Developer): https://www.gamedeveloper.com/business/ea-closes-mass-effect-dragon-age-creator-bioware-after-30-years-of-game-development
+- 디펙터(Defector): https://defector.com/bioware-becomes-first-major-casualty-of-saudi-arabias-ea-takeover
+- 게임스레이더(GamesRadar+): https://www.gamesradar.com/games/rpg/ea-cancels-new-mass-effect-closes-bioware-after-being-bought-by-saudi-arabia/
+- 코타쿠(Kotaku): https://kotaku.com/mass-effect-5-universe-leaked-trailer-liara-bioware-2000748858
+- 푸시스퀘어(Push Square): https://www.pushsquare.com/news/2026/10/leaked-mass-effect-5-trailer-is-real-offers-glimpse-of-cancelled-game
+- 더랩(TheWrap): https://thewrap.com/industry-news/deals-ma/electronic-arts-goes-private-55-billion-buyout-closes
+- 80레벨(80.lv): https://80.lv/articles/electronic-arts-is-officially-acquired-by-pif-silver-lake-affinity-partners
+- 더블유씨씨에프테크(Wccftech): https://wccftech.com/bioware-now-has-less-than-100-developers-as-ea-permanently-shifts-people-to-other-studios/amp/
+- 테크레이더(TechRadar): https://www.techradar.com/gaming/all-those-moments-will-be-lost-in-time-like-tears-in-rain-players-bid-farewell-to-anthem-as-ea-officially-shuts-down-the-games-servers-for-good
+- 게임리액터(Gamereactor): https://www.gamereactor.eu/anthem-servers-to-shut-down-on-january-12th-next-year-1568473/
+- ZDNet Korea: https://zdnet.co.kr/view/?no=20261022091326
+- 디스이즈게임: https://www.thisisgame.com/articles/431252
+- 머니투데이방송(MTN): https://news.mtn.co.kr/news-detail/2026052708592575961
+- 시사저널e: https://www.sisajournal-e.com/news/articleView.html?idxno=421337
+- 경향신문: https://www.khan.co.kr/article/202410211458001
+- 전자신문: https://www.etnews.com/20241021000158
