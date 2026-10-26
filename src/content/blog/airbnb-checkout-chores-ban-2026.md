@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Mitchell Luo'
   creditUrl: 'https://unsplash.com/@mitchel3uo'
 
-status: draft
+status: published
 
 category: world
 tags:

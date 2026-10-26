@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Alexandre Juca'
   creditUrl: 'https://unsplash.com/@ajuca'
 
-status: draft
+status: published
 
 category: world
 tags:

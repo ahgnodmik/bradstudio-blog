@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Vitaly Gariev'
   creditUrl: 'https://unsplash.com/@silverkblack'
 
-status: draft
+status: published
 
 category: living
 tags:

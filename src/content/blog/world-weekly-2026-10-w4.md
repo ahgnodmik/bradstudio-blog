@@ -4,7 +4,7 @@ title: '이번 주 해외 화제·신제품 정리 (10월 4주) — 바이오웨
 description: '10월 19~25일 블로그에 정리한 해외 이슈 10건과 신제품 6건을 한 번에 모았다. 광고 스파이웨어, 동아프리카 에볼라, 아이폰 듀오 출시, 미국 딥시크 퇴출, 드론 부상병 후송, 테슬라 실적, 스페인 데이터센터, 바이오웨어 폐쇄와 Neko·Inkanva·550 J·Kids Cutter·안약 패치·Time Planet까지 핵심만 2~3줄로 정리했다.'
 pubDate: 2026-10-26
 
-status: draft
+status: published
 
 category: world
 tags:
