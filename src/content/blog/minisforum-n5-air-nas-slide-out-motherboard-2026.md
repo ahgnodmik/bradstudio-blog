@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'benjamin lehman'
   creditUrl: 'https://unsplash.com/@abject'
 
-status: draft
+status: published
 
 category: world
 tags:

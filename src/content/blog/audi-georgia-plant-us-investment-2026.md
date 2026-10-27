@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Lilian Do Khac'
   creditUrl: 'https://unsplash.com/@nailil'
 
-status: draft
+status: published
 
 category: world
 tags:

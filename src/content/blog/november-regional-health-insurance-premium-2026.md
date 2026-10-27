@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Aaron Lefler'
   creditUrl: 'https://unsplash.com/@alefler'
 
-status: draft
+status: published
 
 category: money
 tags:
