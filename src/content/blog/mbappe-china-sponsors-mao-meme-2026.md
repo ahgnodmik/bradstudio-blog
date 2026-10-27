@@ -72,6 +72,9 @@ sources:
   - title: 'Chinese TV pulls Arsenal match after Ozil’s Uighur comments — The Guardian Nigeria'
     url: 'https://guardian.ng/sport/chinese-tv-pulls-arsenal-match-after-ozils-uighur-comments/'
     accessedAt: 2026-10-28
+  - title: 'NBA and Tsai "optimistic" over return of CCTV coverage — SportBusiness'
+    url: 'https://media.sportbusiness.com/news/nba-and-tsai-optimistic-over-return-of-cctv-coverage/'
+    accessedAt: 2026-10-28
   - title: 'BTS images deleted after China condemns band, report says — UPI'
     url: 'https://www.upi.com/Top_News/World-News/2020/10/12/BTS-images-deleted-after-China-condemns-band-report-says/5721602508410/'
     accessedAt: 2026-10-28
