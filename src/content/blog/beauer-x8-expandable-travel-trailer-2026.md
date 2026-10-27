@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'snap wander'
   creditUrl: 'https://unsplash.com/@passimage'
 
-status: draft
+status: published
 
 category: world
 tags:

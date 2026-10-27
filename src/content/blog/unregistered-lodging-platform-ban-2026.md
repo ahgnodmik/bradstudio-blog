@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Clay Banks'
   creditUrl: 'https://unsplash.com/@claybanks'
 
-status: draft
+status: published
 
 category: living
 tags:

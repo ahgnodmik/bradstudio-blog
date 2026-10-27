@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Alex Simpson'
   creditUrl: 'https://unsplash.com/@m_simpsan'
 
-status: draft
+status: published
 
 category: world
 tags:
