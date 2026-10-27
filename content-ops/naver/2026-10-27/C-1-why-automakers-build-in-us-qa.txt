@@ -18,7 +18,7 @@ A. 환율이 거론됩니다. 외신은 될너 CEO가 관세와 함께 환율 �
 A. 미국은 대형 SUV 수요가 큰 시장입니다. 로이터는 미국 당국자를 인용해 Q7, Q8, Q9이 이 공장에서 만들어질 것이라고 전했습니다. 다만 회사가 공식 발표한 차종은 아니어서 확인 필요입니다. 대형차는 덩치가 커서 바다 건너 실어 나르는 비용도 큽니다. 많이 팔리는 시장 가까이에서 만드는 편이 유리합니다.
 
 ■ Q6. 왜 미국 여러 주 가운데 조지아인가요?
-A. 이미 자동차 생산 기반이 있기 때문입니다. 조지아에는 현대차그룹 메타플랜트와 기아 공장이 있습니다. 외신은 주변에 쌓인 부품 공급망을 아우디의 입지 이유 중 하나로 꼽았습니다. 부지는 고속도로와 가깝습니다. 철도 회사 노퍽서던이 공장에 철도 서비스를 하겠다고 밝혔다는 보도도 나왔습니다. 주정부 인센티브 규모는 이번 확인 범위에서 공개 자료를 찾지 못했습니다.
+A. 이미 자동차 생산 기반이 있기 때문입니다. 조지아에는 현대차그룹 메타플랜트와 기아 공장이 있습니다. 외신은 주변에 쌓인 부품 공급망을 아우디의 입지 이유 중 하나로 꼽았습니다. 부지는 고속도로와 가깝습니다. 주정부 인센티브 규모는 이번 확인 범위에서 공개 자료를 찾지 못했습니다.
 
 ■ Q7. 현대차 메타플랜트는 어떤 공장인가요?
 A. 조지아주 엘라벨에 있는 현대차그룹 미국 공장입니다. 2025년 3월 문을 열었고 아이오닉 5 등 전기차를 만듭니다. 현대차는 연 50만 대 수준의 생산 능력을 계획해 왔습니다. 호세 무뇨스 CEO는 2026년 8월 CNBC에 생산 확대를 검토 중이라고 말했습니다. 구체적인 증설 규모와 시점은 확정되지 않아 확인 필요입니다.
@@ -54,7 +54,6 @@ A. 있습니다. 공장을 짓는 데 수년이 걸리고 초기 비용이 큽�
 - 쿼츠(Quartz): https://qz.com/audi-georgia-first-us-plant-tariff-exposure-102626
 - WGXA: https://wgxa.tv/news/local/president-trump-audi-announce-plans-for-macon-plant
 - 오토모티브뉴스(Automotive News): https://www.autonews.com/volkswagen/audi/an-audi-georgia-plant-details-1025/
-- 트레인스(Trains): https://www.trains.com/pro/freight/class-i/norfolk-southern-to-serve-new-audi-plant-in-georgia/
 - 아우디 USA 미디어센터: https://media.audiusa.com/releases/695
 - CNBC(현대차): https://www.cnbc.com/2026/08/20/hyundai-georgia-metaplant-us-production.html
 - 카스쿱스(Carscoops): https://www.carscoops.com/2026/08/hyundai-georgia-plant-expansion/
