@@ -8,6 +8,9 @@
 (비어 있음)
 
 ## 완료
+- (2026-10-27) 수능 D-23 막판 전략 5가지 — bs-20261027-004 (suneung-2027-d23-strategy) [출처: 강남구 강남인강·파이낸셜뉴스 — 큐 비어 시의성 선택]
+- (2026-10-27) 한전 에너지캐시백 2026 하반기 — bs-20261027-005 (kepco-energy-cashback-2026-h2) [출처: 비건뉴스·헤럴드경제 — 큐 비어 시의성 선택]
+- (2026-10-27) 연말정산 미리보기 2026 — bs-20261027-006 (year-end-tax-preview-2026) [출처: 국세청 홈택스·make2t.kr — 큐 비어 시의성 선택]
 - (2026-10-20) 슈퍼 엘니뇨와 한국 겨울 전망 가이드 — bs-20261020-001 (elnino-winter-forecast-2026) [출처: naver/2026-10-19 주제3, tistory/2026-10-17/elnino-winter]
 - (2026-10-20) 나라별 근로시간 비교 브라질·한국·일본·프랑스·EU — bs-20261020-002 (workweek-hours-comparison-2026) [출처: tistory/2026-10-18/workweek-compare]
 - (2026-10-20) 스마트홈 허브 구매 가이드 2026 — bs-20261020-003 (smart-home-hub-buying-guide-2026) [출처: tistory/2026-10-19/smart-display-guide]
