@@ -204,5 +204,17 @@
   "why-only-now/delivered/135-beauer-x8-transforming-travel-trailer-ha.json": {
     "contentId": "bs-20261028-002",
     "date": "2026-10-28"
+  },
+  "abroad-now/delivered/2026-10-23-jet-fuel-holiday-airfare-surge.json": {
+    "contentId": "bs-20261029-001",
+    "date": "2026-10-29"
+  },
+  "why-only-now/delivered/136-arrowspace-s-119-screwdriver-identifies-.json": {
+    "contentId": "bs-20261029-002",
+    "date": "2026-10-29"
+  },
+  "abroad-now/pending/2026-10-28-mbappe-china-mao-controversy.json": {
+    "skipped": "이미 bs-20261028-001로 다룸",
+    "date": "2026-10-29"
   }
 }
