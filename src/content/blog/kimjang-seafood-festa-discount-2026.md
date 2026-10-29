@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'huiyeon kim'
   creditUrl: 'https://unsplash.com/@seiwa_'
 
-status: draft
+status: published
 
 category: living
 tags:

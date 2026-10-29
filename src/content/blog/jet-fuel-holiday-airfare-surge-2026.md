@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Aaron Mrvelj'
   creditUrl: 'https://unsplash.com/@aaronmrvelj'
 
-status: draft
+status: published
 
 category: world
 tags:

@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Dan Crile'
   creditUrl: 'https://unsplash.com/@dancrile'
 
-status: draft
+status: published
 
 category: world
 tags:
