@@ -216,5 +216,21 @@
   "abroad-now/pending/2026-10-28-mbappe-china-mao-controversy.json": {
     "skipped": "이미 bs-20261028-001로 다룸",
     "date": "2026-10-29"
+  },
+  "abroad-now/pending/2026-10-29-apple-touchscreen-macbook-pro-record-price.json": {
+    "contentId": "bs-20261030-001",
+    "date": "2026-10-30"
+  },
+  "why-only-now/delivered/137-this-diy-playstation-2-handheld-gives-a-.json": {
+    "contentId": "bs-20261030-002",
+    "date": "2026-10-30"
+  },
+  "why-only-now/delivered/138-brazilian-studio-r-tulo-em-branco-turns-.json": {
+    "skipped": "designboom 외 2차 출처 없음",
+    "date": "2026-10-30"
+  },
+  "why-only-now/delivered/139-these-glowing-amber-sculptures-begin-wit.json": {
+    "skipped": "졸업작품, 제품·가격 없음",
+    "date": "2026-10-30"
   }
 }
