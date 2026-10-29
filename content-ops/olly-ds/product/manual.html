@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>피그마 상세페이지 셀프 템플릿 사용 매뉴얼</title>
+<style>
+@font-face { font-family: NKL; font-weight: 400; src: url(fonts/noto-sans-kr-latin-400-normal.woff2); }
+@font-face { font-family: NKL; font-weight: 700; src: url(fonts/noto-sans-kr-latin-700-normal.woff2); }
+@font-face { font-family: NKL; font-weight: 900; src: url(fonts/noto-sans-kr-latin-900-normal.woff2); }
+@font-face { font-family: NK; font-weight: 400; src: url(fonts/noto-sans-kr-korean-400-normal.woff2); }
+@font-face { font-family: NK; font-weight: 700; src: url(fonts/noto-sans-kr-korean-700-normal.woff2); }
+@font-face { font-family: NK; font-weight: 900; src: url(fonts/noto-sans-kr-korean-900-normal.woff2); }
+
+@page { size: A4; margin: 0; }
+:root { --ink: #1d1d1f; --sub: #6b6b72; --line: #e4e4e9; --accent: #5b4cff; --soft: #f3f1ff; --warn: #fff6e5; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: NKL, NK, sans-serif; color: var(--ink); font-size: 10.5pt; line-height: 1.7; word-break: keep-all; }
+.page { width: 210mm; height: 297mm; padding: 22mm 20mm 20mm; position: relative; page-break-after: always; overflow: hidden; }
+.page:last-child { page-break-after: auto; }
+.foot { position: absolute; left: 20mm; right: 20mm; bottom: 10mm; display: flex; justify-content: space-between; font-size: 7.5pt; color: var(--sub); border-top: 1px solid var(--line); padding-top: 3mm; }
+.num { font-weight: 700; color: var(--accent); }
+.kicker { font-size: 9pt; font-weight: 700; color: var(--accent); letter-spacing: .08em; }
+h1 { font-size: 26pt; font-weight: 900; line-height: 1.3; margin: 3mm 0 6mm; }
+h2 { font-size: 13pt; font-weight: 700; margin: 8mm 0 3mm; }
+p { margin-bottom: 3mm; }
+.lead { font-size: 11.5pt; color: var(--sub); margin-bottom: 8mm; }
+ol.steps { list-style: none; counter-reset: s; }
+ol.steps li { counter-increment: s; position: relative; padding: 0 0 4mm 11mm; }
+ol.steps li::before { content: counter(s); position: absolute; left: 0; top: .5mm; width: 7mm; height: 7mm; border-radius: 50%; background: var(--accent); color: #fff; font-size: 9pt; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+ul.dot { padding-left: 5mm; margin-bottom: 3mm; }
+ul.dot li { margin-bottom: 1.5mm; }
+.box { background: var(--soft); border-radius: 3mm; padding: 5mm 6mm; margin: 5mm 0; }
+.box.warn { background: var(--warn); }
+.box b { display: block; margin-bottom: 1mm; }
+table { width: 100%; border-collapse: collapse; margin: 3mm 0 5mm; font-size: 9.5pt; }
+th, td { text-align: left; padding: 2.4mm 3mm; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { background: #fafafa; font-weight: 700; }
+kbd { font-family: NKL, NK, sans-serif; font-size: 8.5pt; font-weight: 700; border: 1px solid #c9c9d1; border-bottom-width: 2px; border-radius: 1.2mm; padding: 0 1.5mm; background: #fff; }
+.prompt { border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 2mm; padding: 4mm 5mm; margin: 3mm 0 5mm; font-size: 9.5pt; background: #fcfcfe; }
+.prompt .t { font-weight: 700; color: var(--accent); font-size: 8.5pt; margin-bottom: 1.5mm; }
+.check li { list-style: none; padding-left: 7mm; position: relative; margin-bottom: 2mm; }
+.check li::before { content: ""; position: absolute; left: 0; top: 1.3mm; width: 3.5mm; height: 3.5mm; border: 1.5px solid var(--accent); border-radius: .8mm; }
+
+/* cover */
+.cover { background: var(--accent); color: #fff; display: flex; flex-direction: column; justify-content: space-between; padding: 30mm 22mm 24mm; }
+.cover .kicker { color: #d9d4ff; }
+.cover h1 { font-size: 34pt; margin-top: 6mm; }
+.cover .lead { color: #e8e5ff; font-size: 13pt; }
+.cover .meta { font-size: 9.5pt; color: #e8e5ff; line-height: 1.9; }
+.cover .meta b { color: #fff; }
+.toc li { list-style: none; display: flex; gap: 6mm; padding: 3mm 0; border-bottom: 1px solid var(--line); font-size: 11pt; }
+.toc li span { color: var(--accent); font-weight: 700; width: 8mm; }
+.link { font-weight: 700; color: var(--accent); word-break: break-all; }
+</style>
+</head>
+<body>
+
+<!-- 1. 표지 -->
+<section class="page cover">
+  <div>
+    <div class="kicker">FIGMA DETAIL PAGE TEMPLATE</div>
+    <h1>피그마 상세페이지<br>셀프 템플릿<br>사용 매뉴얼</h1>
+    <p class="lead">사진과 글만 바꾸면 상세페이지 한 장이 끝납니다.<br>카피는 GPT에 맡기세요.</p>
+  </div>
+  <div class="meta">
+    구매자: <b>{{BUYER}}</b><br>
+    발행: 올리 디자인 스튜디오 · v1.0 · 2026.10<br>
+    본 자료와 피그마 파일은 구매자 1인 사용 전용입니다. 재배포·재판매를 금지합니다.
+  </div>
+</section>
+
+<!-- 2. 구성품과 목차 -->
+<section class="page">
+  <div class="kicker">START</div>
+  <h1>받으신 것</h1>
+  <table>
+    <tr><th style="width:32%">구성품</th><th>내용</th></tr>
+    <tr><td>피그마 템플릿 파일</td><td>860px 상세페이지 1장, 섹션 컴포넌트 10종, 컬러·텍스트 변수</td></tr>
+    <tr><td>사용 매뉴얼 (이 PDF)</td><td>복제부터 내보내기까지 8단계, GPT 카피 프롬프트 5개</td></tr>
+  </table>
+  <div class="box">
+    <b>템플릿 복제 링크</b>
+    <span class="link">{{FIGMA_LINK}}</span><br>
+    링크를 열면 사장님 피그마 계정에 사본이 바로 생깁니다. 무료 계정으로 충분합니다.
+  </div>
+  <h2>목차</h2>
+  <ul class="toc">
+    <li><span>01</span>템플릿 내 계정으로 복제하기</li>
+    <li><span>02</span>파일 구조 한눈에 보기</li>
+    <li><span>03</span>사진 바꾸기</li>
+    <li><span>04</span>글 바꾸기</li>
+    <li><span>05</span>브랜드 색·폰트 한 번에 바꾸기</li>
+    <li><span>06</span>섹션 추가·삭제·순서 바꾸기</li>
+    <li><span>07</span>GPT로 카피 쓰기, 프롬프트 5개</li>
+    <li><span>08</span>내보내기와 스마트스토어 업로드</li>
+    <li><span>+</span>자주 묻는 질문 · 업로드 전 체크리스트</li>
+  </ul>
+  <div class="foot"><span>피그마 상세페이지 셀프 템플릿 · {{BUYER}} 전용</span><span class="num">2</span></div>
+</section>
+
+<!-- 3. 복제 + 구조 -->
+<section class="page">
+  <div class="kicker">STEP 01</div>
+  <h1>템플릿 내 계정으로 복제하기</h1>
+  <ol class="steps">
+    <li>figma.com에 가입하거나 로그인합니다. 무료 Starter 플랜이면 됩니다.</li>
+    <li>2쪽의 복제 링크를 엽니다. <b>Open in Figma</b> 또는 <b>Duplicate</b> 버튼을 누릅니다.</li>
+    <li>내 파일(Drafts)에 "상세페이지 템플릿 (Copy)"가 생깁니다. 이 사본이 사장님 파일입니다.</li>
+    <li>파일 이름을 "상세_브랜드명"처럼 바꿔 둡니다.</li>
+  </ol>
+  <div class="box warn">
+    <b>폰트가 깨져 보이면</b>
+    템플릿은 무료 폰트 Pretendard를 씁니다. 브라우저 피그마에서 폰트가 안 보이면 Pretendard를 PC에 설치하고 Figma 데스크톱 앱이나 Figma 폰트 설치 프로그램(Font installer)을 켜 주세요.
+  </div>
+
+  <div class="kicker" style="margin-top:10mm">STEP 02</div>
+  <h1>파일 구조 한눈에 보기</h1>
+  <table>
+    <tr><th style="width:30%">왼쪽 페이지</th><th>용도</th></tr>
+    <tr><td>00 가이드</td><td>이 매뉴얼 요약과 섹션 미리보기</td></tr>
+    <tr><td>01 상세페이지</td><td>실제로 작업하는 곳. 상품마다 프레임을 하나씩 복제해 씁니다</td></tr>
+    <tr><td>02 컴포넌트</td><td>섹션 원본. 여기를 고치면 모든 상세페이지가 같이 바뀝니다</td></tr>
+  </table>
+  <p>작업은 <b>01 상세페이지</b>에서만 하세요. <b>02 컴포넌트</b>는 브랜드 톤을 통째로 바꿀 때만 엽니다.</p>
+  <div class="foot"><span>피그마 상세페이지 셀프 템플릿 · {{BUYER}} 전용</span><span class="num">3</span></div>
+</section>
+
+<!-- 4. 섹션 목록 + 사진 -->
+<section class="page">
+  <div class="kicker">STEP 02 · 섹션 10종</div>
+  <table>
+    <tr><th style="width:8%">#</th><th style="width:26%">섹션</th><th>들어갈 내용</th></tr>
+    <tr><td>01</td><td>메인 후킹</td><td>대표 사진 + 한 줄 후킹 문구</td></tr>
+    <tr><td>02</td><td>문제 제기</td><td>고객이 겪는 불편 2~3개</td></tr>
+    <tr><td>03</td><td>제품 소개</td><td>제품명, 한 줄 정의, 연출 사진</td></tr>
+    <tr><td>04</td><td>특장점 ×3</td><td>아이콘 + 제목 + 설명 2줄</td></tr>
+    <tr><td>05</td><td>사용법</td><td>3단계 사진과 설명</td></tr>
+    <tr><td>06</td><td>비교표</td><td>우리 제품 vs 일반 제품</td></tr>
+    <tr><td>07</td><td>리뷰</td><td>구매 후기 3개, 별점</td></tr>
+    <tr><td>08</td><td>자주 묻는 질문</td><td>질문·답 4개</td></tr>
+    <tr><td>09</td><td>배송·교환 안내</td><td>배송 기간, 교환·반품 조건</td></tr>
+    <tr><td>10</td><td>구매 유도</td><td>혜택 정리 + 마지막 한 줄</td></tr>
+  </table>
+
+  <div class="kicker" style="margin-top:6mm">STEP 03</div>
+  <h1>사진 바꾸기</h1>
+  <ol class="steps">
+    <li>바꿀 사진을 더블클릭해 사진 레이어만 선택합니다.</li>
+    <li>오른쪽 패널 <b>Fill</b>의 이미지 썸네일을 누르고 <b>Choose image</b>로 새 사진을 고릅니다.</li>
+    <li>사진이 잘려 보이면 같은 창에서 <b>Fill</b> 대신 <b>Crop</b>을 골라 위치를 맞춥니다.</li>
+  </ol>
+  <div class="box"><b>사진 크기</b>가로 1720px(860px의 2배)로 준비하면 휴대폰에서도 선명합니다.</div>
+  <div class="foot"><span>피그마 상세페이지 셀프 템플릿 · {{BUYER}} 전용</span><span class="num">4</span></div>
+</section>
+
+<!-- 5. 글 + 색 -->
+<section class="page">
+  <div class="kicker">STEP 04</div>
+  <h1>글 바꾸기</h1>
+  <ol class="steps">
+    <li>글자를 더블클릭하고 새 문구를 붙여 넣습니다.</li>
+    <li>글자 모양이 바뀌어 보이면 오른쪽 패널 <b>Text styles</b>에서 원래 스타일(제목·본문 등)을 다시 눌러 맞춥니다.</li>
+    <li>글이 길어져도 박스와 아래 섹션이 알아서 늘어납니다. 손으로 밀어 내리지 마세요.</li>
+  </ol>
+  <div class="box warn"><b>글자 크기는 줄이지 마세요</b>본문 28px은 휴대폰에서 읽히는 최소 크기입니다. 글이 넘치면 문장을 줄이는 쪽이 맞습니다.</div>
+
+  <div class="kicker" style="margin-top:10mm">STEP 05</div>
+  <h1>브랜드 색·폰트 한 번에 바꾸기</h1>
+  <ol class="steps">
+    <li>캔버스 빈 곳을 눌러 아무것도 선택하지 않은 상태로 만듭니다.</li>
+    <li>오른쪽 패널 <b>Variables</b>(로컬 변수) 창을 엽니다.</li>
+    <li>아래 4개 색 값만 브랜드 컬러 코드로 바꿉니다. 모든 섹션에 바로 반영됩니다.</li>
+  </ol>
+  <table>
+    <tr><th style="width:30%">변수</th><th>쓰이는 곳</th></tr>
+    <tr><td>color/main</td><td>버튼, 강조 숫자, 섹션 제목 포인트</td></tr>
+    <tr><td>color/sub</td><td>아이콘, 비교표 강조 칸</td></tr>
+    <tr><td>color/bg</td><td>섹션 배경</td></tr>
+    <tr><td>color/text</td><td>본문 글자</td></tr>
+  </table>
+  <p>폰트를 바꾸려면 오른쪽 패널 <b>Text styles</b>에서 제목·소제목·본문·강조 4개 스타일의 폰트만 바꿉니다.</p>
+  <div class="foot"><span>피그마 상세페이지 셀프 템플릿 · {{BUYER}} 전용</span><span class="num">5</span></div>
+</section>
+
+<!-- 6. 섹션 편집 -->
+<section class="page">
+  <div class="kicker">STEP 06</div>
+  <h1>섹션 추가·삭제·순서 바꾸기</h1>
+  <h2>순서 바꾸기</h2>
+  <p>왼쪽 레이어 패널에서 섹션 이름을 위아래로 드래그합니다. 화면 속 섹션도 같은 순서로 따라 움직입니다.</p>
+  <h2>삭제하기</h2>
+  <p>필요 없는 섹션을 선택하고 <kbd>Delete</kbd>. 아래 섹션이 자동으로 올라와 빈칸이 생기지 않습니다.</p>
+  <h2>추가하기</h2>
+  <ol class="steps">
+    <li>왼쪽 패널 위쪽 <b>Assets</b> 탭을 엽니다.</li>
+    <li>원하는 섹션(예: 04 특장점)을 상세페이지 프레임 안으로 끌어다 놓습니다.</li>
+    <li>레이어 패널에서 넣고 싶은 위치로 옮깁니다.</li>
+  </ol>
+  <h2>새 상품 상세페이지 만들기</h2>
+  <p>01 상세페이지에서 완성한 프레임을 선택하고 <kbd>Ctrl</kbd>+<kbd>D</kbd>(맥은 <kbd>Cmd</kbd>+<kbd>D</kbd>)로 복제합니다. 이름을 바꾸고 사진과 글만 교체하면 됩니다.</p>
+  <div class="box warn">
+    <b>Detach instance는 누르지 마세요</b>
+    섹션을 우클릭했을 때 보이는 Detach instance를 누르면 그 섹션은 원본과 연결이 끊깁니다. 5단계에서 색을 바꿔도 그 섹션만 바뀌지 않습니다. 실수로 눌렀다면 <kbd>Ctrl</kbd>+<kbd>Z</kbd>로 되돌리세요.
+  </div>
+  <div class="foot"><span>피그마 상세페이지 셀프 템플릿 · {{BUYER}} 전용</span><span class="num">6</span></div>
+</section>
+
+<!-- 7. GPT 1 -->
+<section class="page">
+  <div class="kicker">STEP 07</div>
+  <h1>GPT로 카피 쓰기</h1>
+  <p class="lead" style="margin-bottom:4mm">아래 [제품 정보] 다섯 줄을 먼저 채우고, 프롬프트마다 맨 앞에 붙여 넣으세요.</p>
+  <div class="prompt">
+    <div class="t">공통 · 제품 정보</div>
+    [제품 정보]<br>
+    제품명: ___ / 가격: ___<br>
+    누가 쓰나: ___ (예: 30대 자취 직장인)<br>
+    해결하는 불편: ___<br>
+    다른 제품과 다른 점 3개: ___, ___, ___
+  </div>
+  <div class="prompt">
+    <div class="t">프롬프트 1 · 메인 후킹 (섹션 01)</div>
+    위 제품의 스마트스토어 상세페이지 첫 화면 문구를 써 줘. 15자 이내 큰 제목 5개와, 각각 아래에 붙일 25자 이내 보조 문구를 제안해 줘. 과장 표현, "최고", "1위" 같은 확인 안 되는 표현은 빼 줘.
+  </div>
+  <div class="prompt">
+    <div class="t">프롬프트 2 · 문제 제기 (섹션 02)</div>
+    이 제품을 사기 전 고객이 겪는 불편을 고객 말투로 3개 써 줘. 한 문장 30자 이내, "~하지 않으세요?" 형식은 하나만 써 줘.
+  </div>
+  <div class="prompt">
+    <div class="t">프롬프트 3 · 특장점 (섹션 04)</div>
+    다른 점 3개를 각각 제목 10자 이내 + 설명 2줄(줄당 25자 이내)로 바꿔 줘. 설명에는 숫자나 구체적인 상황을 하나씩 넣어 줘.
+  </div>
+  <div class="foot"><span>피그마 상세페이지 셀프 템플릿 · {{BUYER}} 전용</span><span class="num">7</span></div>
+</section>
+
+<!-- 8. GPT 2 -->
+<section class="page">
+  <div class="kicker">STEP 07 · 이어서</div>
+  <div class="prompt">
+    <div class="t">프롬프트 4 · 자주 묻는 질문 (섹션 08)</div>
+    이 제품을 살 때 고객이 가장 많이 물어볼 질문 4개와 답을 써 줘. 답은 2문장 이내. 배송·교환은 빼고 사용법, 사이즈, 관리법 위주로.
+  </div>
+  <div class="prompt">
+    <div class="t">프롬프트 5 · 구매 유도 (섹션 10)</div>
+    상세페이지 마지막에 넣을 문구를 써 줘. 혜택 3줄 요약 + 마지막 한 줄 3안. "지금 바로 구매하세요" 같은 뻔한 문장은 빼고, 제품을 쓴 뒤 달라지는 장면으로 써 줘.
+  </div>
+  <h2>GPT 결과를 고르는 기준</h2>
+  <ul class="dot">
+    <li>제목은 휴대폰 화면 한 줄에 들어가는가 (15자 안팎)</li>
+    <li>사실이 아닌 수치나 효능이 섞이지 않았는가. 식품·화장품은 표시광고 기준을 꼭 확인하세요</li>
+    <li>우리 고객이 실제로 쓰는 말인가. 리뷰에 나온 단어로 바꾸면 더 잘 읽힙니다</li>
+  </ul>
+  <div class="box"><b>마음에 안 들면</b>"더 짧게", "20대 말투로", "숫자를 넣어서"처럼 한 가지만 고쳐 달라고 다시 요청하세요. 여러 조건을 한 번에 바꾸면 결과가 흔들립니다.</div>
+
+  <div class="kicker" style="margin-top:8mm">STEP 08</div>
+  <h1>내보내기와 업로드</h1>
+  <ol class="steps">
+    <li>섹션 프레임 01~10을 <kbd>Shift</kbd>를 누른 채 모두 선택합니다.</li>
+    <li>오른쪽 패널 맨 아래 <b>Export</b>에서 <b>2x · JPG</b>를 고르고 <b>Export</b>를 누릅니다.</li>
+    <li>파일 이름 앞 번호(01_메인, 02_문제…) 순서대로 스마트스토어 에디터에 올립니다.</li>
+  </ol>
+  <div class="foot"><span>피그마 상세페이지 셀프 템플릿 · {{BUYER}} 전용</span><span class="num">8</span></div>
+</section>
+
+<!-- 9. FAQ + 체크 -->
+<section class="page">
+  <div class="kicker">FAQ</div>
+  <h1>자주 묻는 질문</h1>
+  <table>
+    <tr><th style="width:38%">질문</th><th>답</th></tr>
+    <tr><td>쿠팡에도 쓸 수 있나요?</td><td>네. 860px 이미지는 쿠팡 상세 영역에도 그대로 올라갑니다.</td></tr>
+    <tr><td>상품이 여러 개면요?</td><td>6단계처럼 프레임을 복제해 상품마다 한 장씩 만드세요. 개수 제한은 없습니다.</td></tr>
+    <tr><td>직원과 같이 쓰려면요?</td><td>오른쪽 위 Share로 직원을 초대하면 같은 파일을 함께 고칠 수 있습니다. 파일 자체를 외부에 넘기는 것은 금지입니다.</td></tr>
+    <tr><td>섹션 디자인을 바꾸고 싶어요</td><td>02 컴포넌트 페이지의 원본을 고치면 모든 상세페이지에 반영됩니다.</td></tr>
+    <tr><td>우리 브랜드에 딱 맞게 바꾸고 싶어요</td><td>맞춤 세팅을 의뢰하세요. 템플릿 구매 금액 20,000원은 세팅 비용에서 차감해 드립니다.</td></tr>
+  </table>
+
+  <h2>업로드 전 체크리스트</h2>
+  <ul class="check">
+    <li>대표 사진이 첫 화면에 크게 보이는가</li>
+    <li>후킹 문구가 15자 안팎인가</li>
+    <li>가격·배송비·교환 조건이 판매 페이지 정보와 같은가</li>
+    <li>본문 글자를 28px 아래로 줄이지 않았는가</li>
+    <li>휴대폰으로 미리보기를 한 번 넘겨 봤는가</li>
+    <li>파일 번호 순서대로 올렸는가</li>
+  </ul>
+
+  <div class="box" style="margin-top:8mm">
+    <b>막히면 문의하세요</b>
+    {{CONTACT}}<br>
+    화면 캡처 한 장과 몇 단계에서 막혔는지 보내 주시면 답해 드립니다.
+  </div>
+  <div class="foot"><span>피그마 상세페이지 셀프 템플릿 · {{BUYER}} 전용</span><span class="num">9</span></div>
+</section>
+
+</body>
+</html>

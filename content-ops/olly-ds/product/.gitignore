@@ -1,0 +1,4 @@
+node_modules
+.manual.tmp.html
+manual-*.pdf
+!manual-sample.pdf
