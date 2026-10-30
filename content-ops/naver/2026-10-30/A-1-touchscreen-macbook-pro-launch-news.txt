@@ -1,0 +1,74 @@
+제목: 애플 첫 터치스크린 맥북 프로 공개… 국내 479만원부터, 오늘 오전 10시 사전주문·11월 6일 출시 정리
+
+애플이 화면을 손으로 만지는 맥을 처음 내놨는데, 무엇이 바뀌었고 한국에서 얼마인지 한 번에 보기 어렵습니다. 애플 보도자료와 국내외 매체 보도를 맞춰 보고 두 곳 이상에서 같은 내용이 나온 것만 추렸습니다. 한 곳에서만 나온 숫자는 확인 필요로 따로 적었습니다.
+
+■ 1. 한 줄 요약
+- 발표: 10월 28일(현지시간), 애플이 밝힌 첫 터치 지원 맥
+- 제품명: PROLED XDR 디스플레이를 단 맥북 프로 14형·16형
+- 칩: M5 Pro, M5 Max 두 종류
+- 국내 시작가: 14형 479만원, 16형 559만원(M5 Pro 기준)
+- 국내 일정: 10월 30일 오전 10시 사전주문, 11월 6일 출시
+- 미국 시작가: 14형 2,899달러, 16형 3,399달러
+
+■ 2. 무엇이 발표됐나
+애플은 10월 28일 보도자료로 새 맥북 프로를 공개했습니다. CNBC, 기즈모도, 9to5Mac, 맥루머스가 같은 날 이 소식을 다뤘습니다. 핵심은 화면입니다. 애플은 새 화면을 PROLED XDR이라고 부릅니다. 바탕은 탠덤 OLED 패널입니다. 유기발광층을 두 겹으로 쌓은 방식입니다.
+화면 밝기는 HDR과 SDR 모두 최대 2,000니트입니다. 명암비는 1,000만 대 1로 소개됐습니다. 주사율은 최대 120Hz 프로모션을 지원합니다.
+터치 센서는 화면 위에 따로 붙이지 않았습니다. 디스플레이 패널 안에 넣었습니다. 여러 매체는 이 구조 덕에 입력 지연을 줄였다고 전했습니다. 화면을 누를 때 흔들리지 않도록 힌지도 새로 설계했습니다.
+
+■ 3. 눈에 띄는 변화 4가지
+- 노치가 사라졌습니다. 그 자리에 아이폰처럼 다이내믹 아일랜드가 들어갔습니다.
+- 덮개의 애플 로고에 다시 불이 들어옵니다. 예전 맥북에서 보던 디자인입니다.
+- 나노 텍스처 유리를 고를 수 있습니다. 반사를 줄인 화면 마감 옵션입니다.
+- 무게가 줄었습니다. 엔가젯은 14형을 약 3파운드라고 적었습니다.
+포트 구성은 기존과 비슷합니다. 썬더볼트 5 포트 3개, HDMI, SDXC 카드 슬롯, 맥세이프, 헤드폰 잭이 들어갑니다. 배터리는 최대 24시간으로 소개됐습니다. 30분 충전으로 50%까지 채울 수 있다는 설명도 함께 나왔습니다.
+
+■ 4. 가격표 한눈에
+국내 가격은 ZDNet코리아, 디지털데일리, 이데일리, 이코노믹리뷰, 토큰포스트가 같은 숫자를 냈습니다.
+- 14형 M5 Pro: 479만원 / 미국 2,899달러
+- 16형 M5 Pro: 559만원 / 미국 3,399달러
+- 14형 M5 Max: 759만원 / 미국 4,499달러
+- 16형 M5 Max: 809만원 / 미국 4,799달러
+옵션을 끝까지 올리면 숫자가 확 커집니다. 맥루머스, 9to5Mac, 테크크런치, 쉑뉴스는 16형 최고 사양을 1만 4,549달러로 계산했습니다. M5 Max, 메모리 128GB, 저장장치 16TB, 나노 텍스처 유리를 모두 고른 경우입니다. 14형 최고 사양은 1만 4,249달러입니다.
+엔가젯은 14형 시작가가 지금까지 나온 맥북 프로 출시가 중 가장 높다고 평가했습니다.
+
+■ 5. 왜 화제인가
+애플은 오랫동안 맥에 터치스크린을 넣지 않았습니다. 스티브 잡스는 2010년 맥북 에어 발표 때 세로로 선 화면을 손으로 만지면 금방 팔이 피곤해진다는 취지로 말했습니다. 이 발언은 고릴라 팔 문제로 자주 인용됩니다. 헤럴드경제, SBS Biz, ZDNet코리아는 이번 발표를 그 방침을 뒤집은 일로 다뤘습니다.
+CNBC는 터치 모델이 맥 판매가를 끌어올리려는 전략과 맞닿아 있다는 분석을 내놨습니다. 같은 주에 나온 터치 없는 M6 칩 14형 맥북 프로는 1,999달러부터입니다. 터치 모델과는 900달러 차이입니다.
+
+■ 6. 초기 체험기에서 나온 이야기
+톰스가이드는 앱 사이를 오가는 터치 조작이 매끄러웠다고 적었습니다. 손가락으로 그림을 그리는 것도 됐다고 했습니다. 영상 편집 타임라인에서 두 손가락 확대와 끌어다 놓기도 잘 작동했다고 전했습니다.
+다만 애플 펜슬은 지원하지 않습니다. 기즈모도도 발표장에서 직접 써 본 체험기를 따로 냈습니다. 발표장에서 잠깐 써 본 수준이라 장기 사용 평가는 아직 없습니다. 손가락으로 누르기에 맥OS의 작은 버튼이 얼마나 편한지는 써 봐야 압니다.
+
+■ 7. 아직 확인되지 않은 것
+- 국내 최고 사양 가격: 한국경제 단독 보도(2,469만원)라 확인 필요
+- 14형 무게: 국내 보도가 1.36kg과 1.38kg으로 갈려 확인 필요
+- 모델별 배터리 시간: 최대 24시간은 대표 수치이고, 14형 22시간 보도가 있어 확인 필요
+- 교육 할인가: 국내 금액이 교차 확인되지 않아 미확정
+- M6 14형 국내 가격 329만원: 한 곳에서만 확인돼 확인 필요
+- OLED 번인, 실제 배터리 시간, 배송 지연 여부: 실사용 리뷰가 나와야 알 수 있음
+
+■ 8. 지금 할 일
+오늘 오전 10시 전에 애플 한국 온라인스토어에서 원하는 크기와 칩을 장바구니에 담아 두세요. 메모리와 저장장치를 한 단계씩 바꿔 가며 최종 금액을 메모해 두면 비교가 쉽습니다. 터치가 꼭 필요한지 모르겠다면 M6 14형과 가격 차이를 먼저 적어 보세요. 11월 6일 이후 나오는 실사용 리뷰를 보고 결정해도 늦지 않습니다.
+
+■ 출처·참고
+- Apple Newsroom: https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/
+- CNBC: https://www.cnbc.com/2026/10/28/apple-mac-touchscreen-launch.html
+- 기즈모도(Gizmodo): https://gizmodo.com/macbook-pro-with-proled-xdr-display-2000831724
+- 9to5Mac: https://9to5mac.com/2026/10/28/apple-announces-redesigned-macbook-pro-its-first-touchscreen-mac/
+- 맥루머스(MacRumors): https://www.macrumors.com/2026/10/28/apple-new-macbook-pro/
+- 맥루머스(최고 사양 가격): https://www.macrumors.com/2026/10/28/new-macbook-pro-maxed-out-cost/
+- 테크크런치(TechCrunch): https://techcrunch.com/2026/10/28/apples-touchscreen-macbook-pro-pushes-laptop-pricing-to-a-new-extreme/
+- 쉑뉴스(Shacknews): https://www.shacknews.com/article/151177/macbook-pro-touchscreen-maxed-out-price
+- 엔가젯(Engadget): https://www.engadget.com/2299925/apples-redesigned-macbook-pro-has-an-oled-touchscreen-weighs-just-three-pounds/
+- 톰스가이드(Tom's Guide): https://www.tomsguide.com/computing/macbooks/macbook-pro-with-proled-xdr-hands-on-its-about-time
+- 9to5Mac(M6 14형): https://9to5mac.com/2026/10/27/apple-unveils-new-14-inch-macbook-pro-powered-by-m6/
+- ZDNet코리아: https://zdnet.co.kr/view/?no=20261029081821
+- 디지털데일리: https://www.ddaily.co.kr/page/view/2026102909023358815
+- 이데일리: https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03135686645617840
+- 이코노믹리뷰: https://www.econovill.com/news/articleView.html?idxno=755343
+- 토큰포스트: https://www.tokenpost.kr/news/tech/428796
+- 헤럴드경제: https://biz.heraldcorp.com/article/10918424
+- SBS Biz: https://biz.sbs.co.kr/article/20000342830
+- ZDNet코리아(잡스와 터치 맥): https://zdnet.co.kr/view/?no=20261029091122
+- 기즈모도(체험기): https://gizmodo.com/macbook-pro-with-proled-xdr-display-hands-on-2000831735
+- 한국경제: https://www.hankyung.com/article/2026102942981
