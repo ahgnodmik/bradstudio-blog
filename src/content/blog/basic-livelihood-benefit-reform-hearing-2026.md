@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Alex Muromtsev'
   creditUrl: 'https://unsplash.com/@alexmuromtsev'
 
-status: draft
+status: published
 
 category: money
 tags:

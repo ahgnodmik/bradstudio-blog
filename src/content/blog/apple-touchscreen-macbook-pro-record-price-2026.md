@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Salah Ait Mokhtar'
   creditUrl: 'https://unsplash.com/@motosha'
 
-status: draft
+status: published
 
 category: world
 tags:

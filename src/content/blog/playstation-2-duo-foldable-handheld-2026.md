@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Devin Berko'
   creditUrl: 'https://unsplash.com/@devinnn_b'
 
-status: draft
+status: published
 
 category: world
 tags:
