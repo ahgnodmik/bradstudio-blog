@@ -2,7 +2,7 @@
 주제: 1 애플 터치스크린 맥북 프로 / 2 PS2 듀오 휴대용 / 3 2027 수능 D-20 / 4 생계급여 기준 개편 공청회(국내)
 
 계정 A(뉴스정리):
-  A-1-touchscreen-macbook-pro-launch-news — 애플 첫 터치스크린 맥북 프로 공개… 국내 479만원부터, 오늘 오전 10시 사전주문·11월 6일 출시 정리
+  A-1-touchscreen-macbook-pro-launch-news — 애플 첫 터치스크린 맥북 프로 공개… 국내 479만원부터, 10월 30일 사전주문 시작·11월 6일 출시 정리
   A-2-ps2-duo-foldable-handheld-news — 고장 난 PS2 세 대를 20달러에 사서 접는 휴대용으로… 개인 제작 'PlayStation 2 DUO' 공개, 판매 대신 설계 파일 풀었다
   A-3-suneung-2027-d20-schedule-news — 2027 수능 D-20, 11월 19일 55만1,864명 응시… 올해 바뀐 3가지와 12월 11일 성적 통지까지 일정 정리
   A-4-basic-livelihood-hearing-news — 기초수급 생계급여 32%→35% 상향안 공개… 10월 28일 공청회에서 나온 것, 11월에 정해질 것 정리
