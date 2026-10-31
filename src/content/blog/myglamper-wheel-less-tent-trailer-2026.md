@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Awar Meman'
   creditUrl: 'https://unsplash.com/@pdxphotographer'
 
-status: draft
+status: published
 
 category: world
 tags:

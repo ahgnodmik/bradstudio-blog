@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Nicholas Cappello'
   creditUrl: 'https://unsplash.com/@bash__profile'
 
-status: draft
+status: published
 
 category: world
 tags:
