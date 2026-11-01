@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'T'
   creditUrl: 'https://unsplash.com/@tanyabarrow'
 
-status: draft
+status: published
 
 category: living
 tags:

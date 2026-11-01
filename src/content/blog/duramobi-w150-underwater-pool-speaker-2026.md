@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Dan Counsell'
   creditUrl: 'https://unsplash.com/@dancounsell'
 
-status: draft
+status: published
 
 category: world
 tags:

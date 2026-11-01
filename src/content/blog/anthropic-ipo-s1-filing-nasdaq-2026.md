@@ -10,7 +10,7 @@ thumbnail:
   creditUrl: "https://unsplash.com/@dkfra19"
 instagramPermalink: "https://www.instagram.com/p/DfDbSgrlQ7k/"
 
-status: draft
+status: published
 
 category: world
 tags:
