@@ -9,7 +9,7 @@ thumbnail:
   creditName: "Sasun Bughdaryan"
   creditUrl: "https://unsplash.com/@sasun1990"
 
-status: draft
+status: published
 
 category: world
 tags:

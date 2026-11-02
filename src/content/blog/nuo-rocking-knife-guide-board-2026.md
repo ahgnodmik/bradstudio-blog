@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Kevin Doran'
   creditUrl: 'https://unsplash.com/@kfitzdor'
 
-status: draft
+status: published
 
 category: world
 tags:

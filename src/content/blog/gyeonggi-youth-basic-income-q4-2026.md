@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Maryam Badamchi'
   creditUrl: 'https://unsplash.com/@mimba'
 
-status: draft
+status: published
 
 category: money
 tags:
