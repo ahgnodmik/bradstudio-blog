@@ -1,0 +1,66 @@
+제목: 63억 달러가 20분 만에 빠져나갔는데 30억 달러는 어떻게 묶였을까? 핫월렛·콜드월렛, 온체인 동결, 트레이더트레이터 수법 8문 8답
+
+바이낸스 해킹 기사를 읽다 보면 핫월렛, 온체인 동결, 트레이더트레이터 같은 낯선 말이 쏟아집니다. 뜻을 모르면 뉴스가 반만 읽힙니다. 이번 사건에서 자주 나온 개념을 질문과 답으로 풀었습니다. 일반 원리는 두 곳 이상의 자료에서 공통으로 설명하는 내용만 담았습니다.
+
+※ 투자 권유가 아닙니다. 개념 설명 글이며 특정 가상자산이나 거래소 이용을 권하지 않습니다.
+
+■ Q1. 이번 사건, 짧게 무슨 일이었나요?
+A. 10월 29일(UTC) 바이낸스 지갑에서 약 63억 달러(회사 추정)가 빠져나갔습니다. 블록체인 분석업체 TRM랩스는 대부분이 약 20분 안에 나갔다고 분석했습니다. 바이낸스는 약 30억 달러어치를 온체인에서 동결했다고 밝혔습니다. 출금은 11월 1일부터 단계적으로 다시 열렸습니다. FBI는 10월 31일(현지시간) 북한 조직 트레이더트레이터를 배후로 지목했습니다.
+
+■ Q2. 핫월렛과 콜드월렛은 뭐가 다른가요?
+A. 차이는 인터넷 연결입니다. 핫월렛은 인터넷에 연결된 지갑입니다. 바로 보내고 받을 수 있어 편합니다. 그만큼 원격 공격에 노출됩니다. 콜드월렛은 개인키를 오프라인에 둡니다. 원격으로 접근할 길이 없어 안전한 대신 꺼내 쓰는 데 시간이 걸립니다.
+
+■ Q3. 거래소는 두 지갑을 어떻게 나눠 쓰나요?
+A. 일반적으로 거래소는 이용자 자산 대부분을 콜드월렛에 둡니다. 출금 요청에 바로 응해야 하니 일부만 핫월렛에 둡니다. 은행 금고와 창구 현금함을 떠올리면 쉽습니다. 이번 사건에서 바이낸스는 털린 것이 회사 자체 지갑이라고 설명했습니다. 고객 자산은 별도 체계로 관리된다는 것이 회사 주장입니다. 이 주장이 독립적으로 검증됐다는 보도는 찾지 못했습니다.
+
+■ Q4. 블록체인은 못 바꾼다는데 어떻게 '동결'하나요?
+A. 모든 코인이 묶이는 것은 아닙니다. USDT(테더)나 USDC(서클) 같은 스테이블코인은 발행사가 있습니다. 발행사는 스마트 계약에 들어 있는 기능으로 특정 주소를 차단 목록에 올릴 수 있습니다. 차단된 주소의 토큰은 움직이지 못합니다. 이번 사건에서 테더는 15억 달러가 넘는 USDT를 묶었다고 보도됐습니다.
+
+비트코인과 이더리움은 다릅니다. 발행 주체가 없어 누군가 버튼 하나로 멈출 수 없습니다. 이런 코인은 해커가 거래소로 옮겨 현금화하려 할 때 그 거래소가 계정을 막는 방식으로 대응합니다. 국내 보도에서도 비트코인은 강제 동결이 사실상 어렵다는 전문가 의견이 나왔습니다.
+
+■ Q5. 동결하면 돈이 바로 돌아오나요?
+A. 아닙니다. 동결은 움직임을 멈추는 것입니다. 피해자에게 돌려주려면 법적 절차가 더 필요하다는 분석이 나옵니다. 바이낸스는 먼저 회사 돈으로 손실을 메우고 동결 자산이 풀리면 회수하겠다는 구조를 밝혔습니다. 회사가 밝힌 보전 비율은 80%, 90%, 95% 순으로 올라갔습니다. 95%는 해커에게서 되찾은 비율이 아닙니다. 바이낸스가 자기 돈으로 채운 비율입니다. 남은 약 5% 보전 시점은 미확정입니다.
+
+■ Q6. 트레이더트레이터는 어떤 조직인가요?
+A. 북한 국가 배후 해킹 조직으로 분류됩니다. 보안업계에서는 Jade Sleet, UNC4899 같은 다른 이름으로도 부릅니다. 미국 정부는 2022년 이 조직의 수법을 알리는 합동 권고문을 냈습니다. FBI는 일본 DMM 비트코인 약 3억800만 달러 탈취와 2025년 2월 바이비트 약 15억 달러 탈취를 이 조직 소행으로 봤습니다.
+
+■ Q7. 이 조직의 사회공학 공격은 어떤 방식인가요?
+A. 기술보다 사람을 먼저 노립니다. 대표적인 것이 가짜 채용 제안입니다. 링크드인 같은 곳에서 채용 담당자를 사칭해 개발자에게 접근합니다. 높은 연봉을 내세우고 면접 과제라며 파일이나 코드를 내려받게 합니다. 그 안에 악성코드가 들어 있습니다. 가상자산 앱으로 위장한 프로그램을 설치하게 하는 방식도 알려져 있습니다. 보안업체들은 이 조직이 데브옵스와 핀테크 엔지니어를 특히 노린다고 분석합니다.
+
+이번 바이낸스 사건에서 회사가 지목한 출발점도 DevOps 엔지니어의 노트북입니다. 다만 그 노트북이 어떤 경로로 감염됐는지는 공개되지 않았습니다. 사회공학 공격이었는지는 확인 필요입니다.
+
+■ Q8. 개인 투자자는 이 원리에서 뭘 챙기면 되나요?
+A. 세 가지로 정리됩니다.
+1) 거래소 계정은 거래소가 키를 쥔 지갑입니다. 오래 묵힐 자산과 거래용 자산을 나눠 생각해 보세요.
+2) 출금 화이트리스트를 켜면 공격자가 내 계정에 들어와도 모르는 주소로 보내기 어렵습니다.
+3) 낯선 채용 제안, 설치 파일, 문서 링크는 열기 전에 보낸 사람을 따로 확인하세요. 개발자가 아니어도 같은 수법에 노출될 수 있습니다.
+
+■ 아직 확인되지 않은 것
+- 최종 피해액: 바이낸스 약 63억 달러, TRM랩스 약 63억6천만 달러, 엘립틱 약 64억3천만 달러로 집계가 달라 미확정
+- 최종 침입 경로와 노트북 감염 방식: 미확정
+- 동결 자산 약 30억 달러가 실제로 언제 얼마나 회수될지: 미확정
+- 2단계 출금 재개 날짜: 미확정
+- 국내 이용자 직접 피해 규모: 확인 필요
+
+■ 오늘 해볼 것
+쓰고 있는 거래소 앱의 보안 메뉴를 열어 출금 화이트리스트가 켜져 있는지 확인하세요. 메일함에서 '채용', '면접 과제', '지갑 업데이트' 같은 제목의 메일을 한 번 훑어보세요. 출처를 모르는 첨부파일이 있다면 열지 말고 지우면 됩니다.
+
+■ 출처·참고
+- 넥스트가브(Nextgov): https://www.nextgov.com/cybersecurity/2026/10/fbi-involved-response-63-billion-binance-hack-linked-north-korea/416946/
+- WAFB(AP 기사 게재): https://www.wafb.com/2026/10/30/north-korea-linked-63-billion-hack-binance-blockchain-intelligence-firms-say/
+- 블룸버그(Bloomberg): https://www.bloomberg.com/news/articles/2026-10-31/fbi-blames-north-korea-for-6-billion-binance-crypto-hack
+- 코인데스크(CoinDesk, FBI 발표): https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses
+- 엘립틱(Elliptic): https://www.elliptic.co/insights/binance-largest-hack-in-history/
+- 야후 파이낸스(Yahoo Finance): https://finance.yahoo.com/markets/crypto/articles/binance-resumes-crypto-withdrawals-record-113528024.html
+- 디지털투데이(영문): https://www.digitaltoday.co.kr/en/view/122270/binance-resumes-withdrawals-after-hack-says-it-replenished-95-percent-of-stolen-assets
+- 크립토브리핑(Crypto Briefing, 테더 동결): https://cryptobriefing.com/tether-freezes-usdt-suspected-binance-hack/
+- 스테이블코인 인사이더(Stablecoin Insider): https://stablecoininsider.org/can-stablecoins-be-frozen/
+- 블록섹(BlockSec): https://blocksec.com/blog/usdt-freeze-stablecoin-compliance-guide
+- 탱엠(Tangem, 핫월렛·콜드월렛 설명): https://tangem.com/en/learning-hub/post/hot-wallet-vs-cold-wallet/
+- 미국 코네티컷주 은행국(가상자산 지갑 소비자 안내): https://portal.ct.gov/dob/consumer/consumer-education/cryptocurrency-digital-wallets
+- 블리핑컴퓨터(BleepingComputer, DMM 비트코인 관련): https://www.bleepingcomputer.com/news/security/fbi-links-north-korean-hackers-to-308-million-crypto-heist
+- 노우비포(KnowBe4): https://blog.knowbe4.com/tradertraitor-when-states-do-social-engineering
+- 사이뮬레이트(Cymulate): https://cymulate.com/threats/tradertraitor-north-korean-state-sponsored-apt-targets-blockchain-companies/
+- 블리핑컴퓨터(BleepingComputer, DevOps 노트북): https://bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop
+- 코리안센터뉴스: https://www.koreancenter.or.kr/news/articleView.html?idxno=1432298
+- 위키트리: https://www.wikitree.co.kr/articles/1170632
