@@ -1,0 +1,74 @@
+제목: 해외 거래소가 털렸다는 뉴스가 떴을 때 체크리스트 16개 — 옮겨 둔 자산 점검부터 '보상' 사칭 문자 거르기까지 (바이낸스 사건 계기)
+
+해외 거래소 해킹 소식이 나오면 내 돈이 거기 있는지, 지금 뭘 해야 하는지 막막해집니다. 10월 29일(UTC) 바이낸스가 약 63억 달러(회사 추정) 규모의 해킹을 당했습니다. 출금은 11월 1일부터 비트코인을 시작으로 단계적으로 다시 열렸습니다. 이번 사건을 계기로 해외 거래소 사고 때 순서대로 확인할 항목을 16개로 정리했습니다. 바이낸스 이용자가 아니어도 다음 사고 때 그대로 쓸 수 있게 만들었습니다.
+
+※ 투자 권유가 아닙니다. 점검 항목을 정리한 글이며 매도·출금 같은 특정 행동을 권하지 않습니다.
+
+■ 지금 상황 30초 요약 (11월 2일 기준)
+- 바이낸스는 도난 자산의 약 95%를 회사 자금으로 메웠다고 밝혔습니다.
+- 해커에게서 되찾은 비율이 아닙니다. 회사가 채운 비율입니다.
+- 1단계 출금은 15개 네트워크라는 해외 보도가 여러 곳에서 나왔습니다. 2단계 날짜는 미확정입니다.
+- FBI는 10월 31일(현지시간) 북한 조직 트레이더트레이터를 배후로 지목했습니다.
+- 업비트·빗썸·코인원·디지털엑스는 바이낸스행 출금 주의 공지를 냈습니다.
+
+■ 1. 내 자산 위치 파악 (4개)
+□ 1) 국내 거래소에서 해외 거래소로 보낸 출금 내역을 엽니다. 최근 1년치를 보고 어느 거래소로 얼마를 보냈는지 적습니다.
+□ 2) 해외 거래소 계정에 남은 코인 종류와 수량을 확인합니다. 로그인은 공식 앱으로만 합니다.
+□ 3) 같은 코인이라도 어떤 네트워크로 보냈는지 적어 둡니다. 출금 재개가 네트워크별로 진행되기 때문입니다.
+□ 4) 해외 거래소의 예치·스테이킹 상품에 넣은 자산이 있는지 따로 봅니다. 일반 잔고와 출금 일정이 다를 수 있습니다.
+
+■ 2. 공식 정보만 확인하기 (4개)
+□ 5) 해당 거래소의 공식 공지 페이지와 공식 SNS 계정만 봅니다. 계정 이름이 비슷한 가짜 계정이 흔합니다.
+□ 6) 내 코인과 네트워크가 출금 재개 목록에 들어갔는지 확인합니다. 바이낸스는 비트코인부터 열었고 1단계 밖 코인의 재개 날짜는 미확정입니다.
+□ 7) 국내 거래소 공지사항에서 해당 해외 거래소 이름을 검색합니다. 11월 2일 현재 업비트 등의 바이낸스 출금 주의 공지가 해제됐다는 보도는 찾지 못했습니다.
+□ 8) 숫자는 날짜와 함께 기록합니다. 바이낸스 보전 비율도 80%, 90%, 95%로 하루 단위로 바뀌었습니다.
+
+■ 3. 사칭 문자·피싱 거르기 (5개)
+큰 사고 직후에는 "보상", "환불", "긴급 출금", "계정 복구"를 내세운 사칭이 늘어난다는 경고가 반복됩니다. 아래 항목에 하나라도 걸리면 무시하세요.
+□ 9) 문자나 메신저로 온 보상 신청 링크는 누르지 않습니다. 바이낸스는 문자 링크로 계정 인증을 요구하지 않는다고 안내해 왔습니다.
+□ 10) 보상을 이유로 지갑 연결, 시드 문구, OTP 번호를 요구하면 사기로 봅니다. 정상 고객센터는 시드 문구를 묻지 않습니다.
+□ 11) "먼저 수수료를 보내면 보상금을 준다"는 말은 듣지 않습니다.
+□ 12) 상담원이라며 연락이 오면 거래소가 제공하는 공식 인증 도구로 먼저 확인합니다. 바이낸스는 'Binance Verify'라는 확인 기능을 안내하고 있습니다.
+□ 13) 공식 이메일인지 헷갈리면 안티피싱 코드가 찍혀 있는지 봅니다. 아직 설정하지 않았다면 지금 설정합니다.
+
+■ 4. 계정 잠그기 (3개)
+□ 14) 출금 주소 화이트리스트를 켜고 등록된 주소 중 모르는 것이 없는지 확인합니다.
+□ 15) 2단계 인증을 OTP 앱으로 바꾸고 로그인 기기 목록에서 쓰지 않는 기기를 로그아웃시킵니다.
+□ 16) 해외 거래소와 같은 비밀번호를 쓰는 다른 사이트가 있다면 그쪽 비밀번호도 바꿉니다.
+
+■ 하지 말아야 할 것
+- 출금이 막힌 코인을 다른 네트워크로 억지로 보내지 마세요. 잘못 보내면 되찾기 어렵습니다.
+- 커뮤니티에 도는 "출금 우회 방법"이나 개인 메시지 제안은 믿지 마세요.
+- 불안하다고 한꺼번에 큰 금액을 옮기지 마세요. 옮길 때는 소액으로 먼저 도착을 확인하세요.
+- 가격 급락 기사에 휩쓸려 바로 매매하지 마세요. 사고 직후 시세는 크게 흔들릴 수 있습니다.
+
+■ 기록해 둘 것
+피해가 의심되면 거래 내역 화면, 출금 신청 시각, 받은 문자와 메일을 캡처해 날짜별 폴더에 모아 두세요. 거래소 고객센터 문의나 수사기관 신고 때 바로 쓸 수 있습니다. 사칭 문자를 받았다면 번호와 링크 주소도 지우기 전에 캡처해 두세요.
+
+■ 아직 확인되지 않은 것
+- 바이낸스 최종 피해액: 기관마다 집계가 달라 미확정
+- 최종 침입 경로: 개발·운영 엔지니어 노트북 침해는 잠정 결론이라 미확정
+- 남은 약 5% 보전 시점과 2단계 출금 재개 날짜: 미확정
+- 준비금 증명 보고서 공개 날짜: 11월 2일·3일 보도가 엇갈려 확인 필요
+- 국내 이용자 직접 피해 규모, 금융당국의 바이낸스 관련 별도 조치, 고팍스 이용자 영향: 확인 필요
+
+■ 오늘 할 일
+메모장을 열고 1번부터 4번까지 먼저 채우세요. 내 자산이 어느 해외 거래소에 어떤 네트워크로 있는지만 적어도 다음 공지를 읽는 속도가 달라집니다. 그다음 휴대전화 문자함에서 '보상', '환불'이 들어간 링크 문자를 찾아 지우세요.
+
+■ 출처·참고
+- 알자지라(Al Jazeera): https://www.aljazeera.com/news/2026/11/1/binance-restarts-withdrawals-after-6-3bn-heist
+- 코인데스크(CoinDesk): https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack
+- 비트코인닷컴(Bitcoin.com News): https://news.bitcoin.com/security/binance-processes-4-65b-in-withdrawals-across-15-networks-after-hack/
+- 코인트리뷴(Cointribune): https://www.cointribune.com/en/binance-restores-withdrawals-across-15-networks-after-hack/
+- 크립토닷뉴스(crypto.news): https://crypto.news/binance-reopens-bitcoin-withdrawals-after-hack/
+- 야후 파이낸스(Yahoo Finance): https://finance.yahoo.com/markets/crypto/articles/binance-resumes-crypto-withdrawals-record-113528024.html
+- 애널리틱스 인사이트(Analytics Insight): https://www.analyticsinsight.net/news/binance-reopens-withdrawals-after-covering-95-of-usd-63-billion-crypto-hack
+- NBC 뉴스: https://www.nbcnews.com/business/business-news/fbi-says-north-korea-was-6-billion-binance-crypto-hack-rcna606758
+- 워싱턴포스트(The Washington Post): https://www.washingtonpost.com/business/2026/10/31/binance-crypto-hack-north-korea-fbi/51d6233a-d57f-11f1-9931-2a41b76fc976_story.html
+- 토요경제: https://sateconomy.co.kr/news/view/1065612919152912
+- 코리안센터뉴스: https://www.koreancenter.or.kr/news/articleView.html?idxno=1432196
+- 비트갭(Bitsgap, 한국어): https://bitsgap.com/ko/blog/bainaenseu-haeking-museun-ili-isseossgo-jigeum-mueoseul-haeya-hana
+- 스레트클러스터(ThreatCluster): https://threatcluster.io/cluster/binance-warns-users-of-increased-phishing-text-scams-0c87a380
+- 크립토미터(Cryptometer): https://www.cryptometer.io/news/binance-issues-major-warning-to-whatsapp-users-over-rising-phishing-and-impersonation-scams/
+- 블리핑컴퓨터(BleepingComputer): https://bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop
+- 토큰포스트(TokenPost, 영문): https://www.tokenpost.com/news/business/45731
