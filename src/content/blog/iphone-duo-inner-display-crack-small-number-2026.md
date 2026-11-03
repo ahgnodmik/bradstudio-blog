@@ -9,7 +9,7 @@ thumbnail:
   creditName: "Ritupon Baishya"
   creditUrl: "https://unsplash.com/@clynt"
 
-status: draft
+status: published
 
 category: world
 tags:

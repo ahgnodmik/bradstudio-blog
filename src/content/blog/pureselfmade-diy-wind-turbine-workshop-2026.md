@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Antje Winkler'
   creditUrl: 'https://unsplash.com/@antjewinkler'
 
-status: draft
+status: published
 
 category: world
 tags:

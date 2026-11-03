@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Estée Janssens'
   creditUrl: 'https://unsplash.com/@esteejanssens'
 
-status: draft
+status: published
 
 category: living
 tags:
