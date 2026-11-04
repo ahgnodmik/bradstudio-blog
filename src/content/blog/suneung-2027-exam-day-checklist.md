@@ -2,9 +2,9 @@
 contentId: "bs-20261103-004"
 title: '2027학년도 수능 당일 준비물 완전 정리 — D-15 지금 챙겨야 할 것, 절대 넣으면 안 되는 것'
 description: '2027학년도 수능은 2026년 11월 19일(목)입니다. 수험표·실물 신분증 등 필수 준비물, 스마트 안경을 포함한 반입 금지 물품, 시험장 지급 샤프와 개인 지참 가능한 물품, 당일 시간표를 한 번에 정리했습니다.'
-pubDate: 2026-11-03
+pubDate: 2026-11-04
 
-status: draft
+status: published
 
 category: living
 tags:

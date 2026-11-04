@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Radomir Moysia'
   creditUrl: 'https://unsplash.com/@radomir456'
 
-status: draft
+status: published
 
 category: world
 tags:

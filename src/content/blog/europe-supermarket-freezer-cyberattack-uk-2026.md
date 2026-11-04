@@ -9,7 +9,7 @@ thumbnail:
   creditName: "Eduardo Soares"
   creditUrl: "https://unsplash.com/@eduschadesoares"
 
-status: draft
+status: published
 
 category: world
 tags:
