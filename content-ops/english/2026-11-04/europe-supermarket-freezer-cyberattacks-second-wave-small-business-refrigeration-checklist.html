@@ -1,0 +1,114 @@
+<p>Three weeks after hackers tampered with refrigeration at hundreds of French supermarkets, it happened again. On Monday, November 2, 2026, grocers in Belgium, Luxembourg, Sweden, Ireland, the Netherlands and Estonia reported freezers and chillers warming up, and in several cases the equipment had been remotely switched to a setting of around 50°C. A day later, three meat plants in the UK said their cold rooms had been hit too. Nobody has claimed responsibility. If you run a shop, restaurant, butcher or small warehouse whose refrigeration is managed over the internet, the useful question is not who did it. It is whether your own controllers could be next.</p>
+
+<p><b>This article is based on press reports and official statements published between October 12 and November 3, 2026. The attacker, the motive and the full number of affected sites are unconfirmed, and no person, group or country is named here as responsible.</b></p>
+
+<h2>What happened on November 2</h2>
+
+<p>The pattern looked a lot like the French incident, just spread across more countries at once. Here is what has been reported by at least two outlets for each country:</p>
+
+<ul>
+<li><b>Belgium and Luxembourg:</b> Ahold Delhaize said an IT incident pushed up temperatures in refrigeration at dozens of its Delhaize stores. Store counts differ between reports, so treat any precise figure as unconfirmed. Euronews reported that Belgium has opened an investigation.</li>
+<li><b>Sweden:</b> Coop and ICA said cooling and freezing equipment at a small number of stores had been knocked out. Retailers described the freezers as having been remotely set to 50°C.</li>
+<li><b>Ireland:</b> SuperValu said a "cyber incident" affected one particular type of refrigeration unit in 13 of its 223 stores. Chilled and frozen products were taken off sale as a precaution.</li>
+<li><b>Estonia:</b> Public broadcaster ERR reported that freezer temperatures at a Selver supermarket were raised to +50°C. A contractor said the attackers got into an older Danfoss system.</li>
+<li><b>The Netherlands:</b> Named among the affected countries by AP, Al Jazeera and Newsweek. Few store-level details have been published.</li>
+</ul>
+
+<p>Some reports also mention other countries. Those additions rest on thinner sourcing, which is why the count of affected countries varies between six and seven depending on who you read.</p>
+
+<h3>The UK: collateral damage at three abattoirs</h3>
+
+<p>On November 3, ITV and Computer Weekly reported that refrigerators at three UK abattoirs had been caught up in the same campaign. The Association of Independent Meat Suppliers (AIMS), which represents around 300 businesses, called the plants "collateral damage" and said the members involved used the same software as the affected European supermarkets. The cold rooms were empty overnight, so no meat was lost. The National Cyber Security Centre (NCSC) said it was working with the firms affected, described the national impact as minimal, and said its staff worked through the night to contact UK organizations identified as running vulnerable technology. No major UK supermarket chain has been confirmed as a victim.</p>
+
+<h2>How it connects to France in October</h2>
+
+<p>The first wave struck overnight on October 11–12, 2026. France's economy minister told parliament that about 700 of the country's roughly 10,000 supermarkets were affected; some outlets reported lower counts, such as more than 400 locations. Freezers were switched into defrost mode, food had to be thrown away, and Intermarché's chief executive put the cost at tens of millions of euros in a single day. The Paris prosecutor's office opened an investigation.</p>
+
+<p>France's cybersecurity agency, ANSSI, linked the compromises to remote management modules on refrigeration systems. Danfoss, the Danish manufacturer whose controllers were central to the case, said most affected units were older products that no longer receive software or security updates, naming the AK-SM 800 and AK-SC 355. It added that some units of its current AK-SM 800A model were also hit because they were running outdated firmware. In the second wave, Danfoss legacy systems were mentioned again, including in Estonia.</p>
+
+<table>
+<tr><th>Item</th><th>First wave</th><th>Second wave</th></tr>
+<tr><td>Date</td><td>Night of Oct 11–12, 2026</td><td>Mon, Nov 2, 2026 (UK reports Nov 3)</td></tr>
+<tr><td>Where</td><td>France</td><td>Belgium, Luxembourg, Sweden, Ireland, Netherlands, Estonia; three UK abattoirs</td></tr>
+<tr><td>Scale</td><td>About 700 supermarkets (French government figure)</td><td>Dozens of stores; total unconfirmed</td></tr>
+<tr><td>What the attackers did</td><td>Remote changes to refrigeration settings, defrost mode</td><td>Remote changes, setpoints of around 50°C reported</td></tr>
+<tr><td>Equipment named</td><td>Danfoss controllers, mostly older or unpatched</td><td>Older Danfoss systems mentioned again</td></tr>
+<tr><td>Claim of responsibility</td><td>None</td><td>None</td></tr>
+</table>
+
+<h2>What is still unknown</h2>
+
+<ul>
+<li><b>Who and why:</b> No one has claimed either wave. Officials have not attributed the attacks or said whether the two waves were carried out by the same actor.</li>
+<li><b>How they got in:</b> Older firmware and controllers reachable from the internet are the leading explanation in reporting, and earlier coverage pointed to legacy devices still using default passwords. Authorities have not published a detailed account of the entry method for the second wave.</li>
+<li><b>Total damage:</b> The number of stores, the volume of food discarded and the cost of the second wave are unconfirmed.</li>
+<li><b>What comes next:</b> The NCSC warned the attacks could foreshadow wider attempts against internet-connected devices. Whether there will be a third wave is unknown.</li>
+</ul>
+
+<h2>Why a small business should care</h2>
+
+<p>Big chains have security teams, and they still got caught. A corner shop, a café with a walk-in freezer or a small meat processor is often in a weaker position. Refrigeration controllers tend to be installed by a contractor, set up once with remote access so the technician can check alarms, and then left alone for years. That is exactly the profile of the equipment that was exploited here: long-lived, connected, and outside the normal IT budget.</p>
+
+<p>The damage is also physical. When a freezer is told to warm up, the loss is stock, and possibly a food safety problem if warmed products go back on sale. Several of the affected chains chose to clear chilled and frozen items from shelves rather than take the risk.</p>
+
+<h2>A practical checklist for remote-managed refrigeration</h2>
+
+<p>The guidance below combines what Danfoss, ANSSI and the UK's NCSC have recommended publicly with ordinary good practice. Work through it with whoever maintains your equipment.</p>
+
+<h3>1. Find out what you actually have</h3>
+<ul>
+<li>List every refrigeration controller, building management system or monitoring gateway on site, with make, model and firmware version.</li>
+<li>Ask your contractor directly whether any of it is a Danfoss AK-SM 800, AK-SC 355 or AK-SM 800A, the models named in Danfoss statements. Other brands deserve the same questions.</li>
+<li>Find out who holds the login details and who can connect remotely. If the answer is "the installer, from anywhere," that is your first problem to fix.</li>
+</ul>
+
+<h3>2. Take it off the open internet</h3>
+<ul>
+<li>The NCSC's advice to UK meat suppliers was to make sure controllers are patched and not exposed externally to the internet. ANSSI told French operators of affected models to disconnect them from the internet or restrict access.</li>
+<li>If remote access is genuinely needed, ask for it to run through a VPN or a vendor's managed remote access service, rather than a web page anyone can reach.</li>
+<li>Ask your internet provider or IT support whether any port on your connection points straight at a refrigeration controller.</li>
+</ul>
+
+<h3>3. Fix passwords and updates</h3>
+<ul>
+<li>Change any default or shared passwords on the controller and on any monitoring portal. Use a different password for each site.</li>
+<li>Turn on multi-factor authentication anywhere the vendor's cloud portal supports it.</li>
+<li>Ask whether the controller still receives security updates. Danfoss has urged customers to apply firmware updates where available and to replace equipment that no longer receives security support. Get a written answer and, if replacement is needed, a quote.</li>
+</ul>
+
+<h3>4. Have an alarm the attacker cannot switch off</h3>
+<ul>
+<li>A standalone temperature logger with its own phone or SMS alerts, independent of the main controller, gives you a second opinion if settings are changed remotely.</li>
+<li>Check that alarm notifications actually reach a person outside opening hours. The French and Belgian incidents both began outside normal trading time.</li>
+<li>Look at whether your controller allows limits on setpoints, so a freezer cannot be commanded to an absurd temperature without a local override.</li>
+</ul>
+
+<h3>5. Plan the bad morning in advance</h3>
+<ul>
+<li>Write down who to call first: the refrigeration contractor, your IT support, and your national cyber agency's reporting line.</li>
+<li>Decide ahead of time who has the authority to pull stock from sale. When temperatures are in doubt, follow your local food safety authority's rules on discarding product rather than guessing.</li>
+<li>Keep photos and logs of temperature readings and settings. Investigators and insurers will ask for them.</li>
+<li>Read your insurance policy for how it treats cyber incidents and spoiled stock. Coverage varies widely, so ask your broker rather than assuming you are protected.</li>
+</ul>
+
+<h2>One thing to do this week</h2>
+
+<p>Call your refrigeration contractor and ask three questions: Can anyone reach our controller from the internet? Is the password still the factory default? Does the firmware still get security updates? If any answer is unclear, ask them to disable remote access until it is fixed, and put a standalone temperature alarm on your most valuable freezer today.</p>
+
+<h2>Sources</h2>
+<ul>
+<li><a href="https://abcnews.com/International/wireStory/freezers-supermarkets-european-countries-hit-apparent-cyberattacks-137765494" target="_blank" rel="noopener">ABC News (AP) — Freezers at supermarkets in several European countries hit by apparent cyberattacks</a></li>
+<li><a href="https://www.aljazeera.com/news/2026/11/2/freezers-in-sweden-belgium-overheat-following-possible-cyberattacks" target="_blank" rel="noopener">Al Jazeera — Suspected cyberattacks trigger supermarket fridge failures across Europe</a></li>
+<li><a href="https://www.aljazeera.com/news/2026/11/3/very-cold-war-whos-attacking-europes-supermarket-freezers" target="_blank" rel="noopener">Al Jazeera — Very cold war: Who's attacking Europe's supermarket freezers?</a></li>
+<li><a href="https://therecord.media/cyberattack-grocery-freezers-europe" target="_blank" rel="noopener">The Record — Second wave of suspected cyberattacks hits supermarket freezers across Europe</a></li>
+<li><a href="https://www.euronews.com/2026/11/02/cyberattack-hits-belgian-supermarket-fridges-and-freezers" target="_blank" rel="noopener">Euronews — Cyberattacks hit supermarket fridges and freezers in Europe, Belgium launches investigation</a></li>
+<li><a href="https://www.newsweek.com/european-countries-hit-by-supermarket-freezer-cyberattacks-12649185" target="_blank" rel="noopener">Newsweek — European countries hit by supermarket freezer cyberattacks</a></li>
+<li><a href="https://www.tomshardware.com/tech-industry/cyber-security/supermarket-freezers-across-europe-struck-in-second-crippling-cyberattack-hackers-raise-temperatures-to-50-degrees-celsius-in-belgium-and-sweden-destroying-food-stocks" target="_blank" rel="noopener">Tom's Hardware — Supermarket freezers across Europe struck in second cyberattack</a></li>
+<li><a href="https://news.err.ee/1610183296/hackers-raised-freezer-temperature-at-selver-supermarket-to-50-c" target="_blank" rel="noopener">ERR News — Hackers raised freezer temperature at Selver supermarket to +50°C</a></li>
+<li><a href="https://www.itv.com/news/2026-11-03/uk-meat-suppliers-fridges-heat-up-after-cyber-attacks-hit-europe" target="_blank" rel="noopener">ITV News — UK meat suppliers' fridges heat up after cyber attacks hit Europe</a></li>
+<li><a href="https://www.computerweekly.com/news/366653356/UK-abattoirs-caught-up-in-cyber-attack-against-European-supermarkets" target="_blank" rel="noopener">Computer Weekly — UK abattoirs caught up in cyber attack against European supermarkets</a></li>
+<li><a href="https://abcnews.com/Business/wireStory/cyberattack-targeting-refrigeration-systems-hits-700-supermarkets-french-137230099" target="_blank" rel="noopener">ABC News (AP) — Cyberattack targeting refrigeration systems hits 700 supermarkets, French government says</a></li>
+<li><a href="https://aljazeera.com/news/2026/10/13/unprecedented-cyberattack-hits-french-supermarkets-causing-food-losses" target="_blank" rel="noopener">Al Jazeera — Hundreds of supermarkets in France hit by "unprecedented" cyberattack</a></li>
+<li><a href="https://bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets" target="_blank" rel="noopener">BleepingComputer — Cyberattack shuts down refrigerators at French supermarkets</a></li>
+<li><a href="https://techinformed.com/french-supermarket-cyberattack-triggers-wider-security-alert/" target="_blank" rel="noopener">TechInformed — French supermarket cyberattack triggers wider security alert</a></li>
+</ul>

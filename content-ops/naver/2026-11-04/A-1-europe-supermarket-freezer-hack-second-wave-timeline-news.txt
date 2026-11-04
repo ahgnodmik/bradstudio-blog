@@ -1,0 +1,67 @@
+제목: 유럽 마트 냉동고 해킹 2차 공격, 6개국으로 번졌다… 프랑스 700곳부터 영국 도축장 3곳까지 날짜별 정리 (11월 4일 기준, 배후 미확정)
+
+유럽 마트 냉동고가 또 해킹됐다는 소식, 어디까지가 사실인지 헷갈리는 분이 많습니다. 10월 프랑스 1차 공격부터 11월 3일 영국 소식까지 국내외 보도를 날짜순으로 묶었습니다. 두 곳 이상에서 같은 내용이 나온 것만 사실로 적었습니다. 한 곳에서만 나온 내용은 '확인 필요', 당국이 밝히지 않은 내용은 '미확정'으로 표시했습니다.
+
+※ 특정 업체의 책임을 판단하는 글이 아닙니다. 보도와 기관·기업 발표를 정리한 글입니다.
+
+■ 한 줄 요약
+11월 2일(현지시간) 벨기에, 룩셈부르크, 스웨덴, 아일랜드, 네덜란드, 에스토니아의 슈퍼마켓·식료품점 냉장 설비가 원격 조작으로 온도가 올라갔습니다. 일부 설비는 설정 온도가 50도까지 바뀌었다고 전해졌습니다. 10월 11~12일 프랑스 공격에 이은 두 번째 물결입니다. 공격자가 누구인지는 아직 아무도 밝히지 못했습니다.
+
+■ 날짜별 경과
+8월 말(미국): 미국 군 매점 여러 곳 냉장고가 예정에 없던 제상(성에 제거) 모드로 들어갔다는 보도가 있었습니다. 넥스트웹과 더레코드가 이번 유럽 사건의 비슷한 앞선 사례로 소개했습니다. 같은 세력인지는 미확정입니다.
+
+10월 11일 밤~12일 새벽(프랑스): 프랑스 여러 유통 체인 매장의 냉장·냉동 설비가 원격으로 조작됐습니다. 냉장고가 식히는 대신 데워지는 방향으로 설정이 바뀌었다는 보도가 이어졌습니다. 상한 식품은 대량 폐기됐습니다.
+
+10월 13일(프랑스): 프랑스 경제장관이 의회에서 자국 슈퍼마켓 약 1만 곳 중 약 700곳이 피해를 봤다고 밝혔습니다. AP(ABC 뉴스 게재)와 SBS Biz가 같은 숫자를 전했습니다. 같은 날 프랑스 사이버보안청(ANSSI)은 덴마크 댄포스(Danfoss)와 미국 코플랜드(Copeland) 계열 냉장 제어 장치에서 침해를 확인했다고 밝혔습니다. 댄포스는 피해 장비 대부분이 보안 업데이트가 끊긴 구형 제품이라고 설명했습니다. 수사는 파리 검찰 사이버범죄 부서가 맡았습니다.
+
+10월 중순~말: 보안업계 조사가 이어졌습니다. 보안기업 클라로티는 인터넷에서 바로 접속되는 댄포스 관리 화면을 2,765개 찾았다고 밝혔습니다. 프랑스 침해대응센터(CERT-FR)는 펌웨어 업데이트와 약하거나 초기값인 비밀번호 변경을 권고했다고 CSO온라인 등이 전했습니다.
+
+11월 1일 밤~2일(2차 공격): AP와 알자지라, 유로뉴스가 여러 나라 피해를 동시에 보도했습니다.
+- 벨기에·룩셈부르크: 델레즈(Delhaize)가 IT 사고로 매장 냉장 설비가 영향을 받았다고 밝혔습니다. 피해 매장은 40여 곳이라는 보도가 많지만 집계가 엇갈려 확인 필요입니다. 벨기에 연방검찰이 수사에 착수했다는 보도도 나왔습니다.
+- 스웨덴: ICA와 Coop 일부 매장 냉각 장비에 문제가 생겼습니다. Coop 피해 매장 수는 6곳, 7곳으로 보도가 갈려 확인 필요입니다.
+- 아일랜드: 슈퍼밸류(SuperValu)를 운영하는 머스그레이브는 223개 매장 중 13곳에서 특정 모델 냉장 시스템이 사이버 사고로 영향을 받았다고 밝혔습니다. 냉장·냉동 식품은 예방 차원에서 판매대에서 뺐습니다.
+- 에스토니아: 셀버(Selver) 매장 냉장 설비 온도 설정이 50도로 바뀌었다고 공영방송 ERR이 전했습니다. 설비 업체는 구형 댄포스 장비라고 설명했습니다.
+- 네덜란드: 정육점과 소형 식료품점 등이 피해를 봤다는 보도가 있습니다. 댄포스가 밝힌 피해 업체 수(최소 17곳)는 한 매체에서만 확인돼 확인 필요입니다.
+
+11월 3일(영국): ITV와 컴퓨터위클리에 따르면 영국 도축장 3곳의 냉장 설비가 영향을 받았습니다. 업계 단체는 해당 냉장고가 비어 있어 고기 손실은 없었다고 밝혔습니다. 영국 국가사이버보안센터(NCSC)는 피해 업체와 대응 중이며 영향은 크지 않다는 입장입니다. 영국 대형 슈퍼마켓 체인의 직접 피해는 확인되지 않았습니다.
+
+■ 숫자로 보는 이번 사건
+- 1차 피해: 프랑스 슈퍼마켓 약 700곳(프랑스 정부 발표)
+- 2차 피해국: 6개국(벨기에·룩셈부르크·스웨덴·아일랜드·네덜란드·에스토니아). 핀란드 등을 더해 7개국으로 세는 매체도 있어 최종 숫자는 미확정
+- 조작된 설정 온도: 최고 50도
+- 아일랜드 슈퍼밸류: 223곳 중 13곳
+- 영국: 도축장 3곳, 고기 손실 없음
+- 인터넷 노출 댄포스 관리 화면: 2,765개(클라로티 집계)
+
+■ 50도는 실제 온도였나
+50도는 시스템에 입력된 설정값이라는 지적이 있습니다. 에스토니아 사례에서는 설정이 50도로 바뀌었지만 실제 온도 상승은 몇 도에 그쳤고 짧은 시간 안에 복구됐다는 보도도 나왔습니다. 다만 이 세부 내용은 한 매체 위주로 전해져 확인 필요입니다. 매장마다 발견 시점과 실제 온도는 달랐을 가능성이 큽니다.
+
+■ 공통점으로 거론되는 것
+여러 보도가 같은 그림을 그립니다. 인터넷에 직접 연결된 냉장 제어 장치, 업데이트가 끊긴 구형 펌웨어, 바뀌지 않은 초기 비밀번호입니다. 2차 공격에서도 댄포스 구형 장비가 다시 언급됐습니다. 다만 2차 공격의 정확한 침입 경로는 당국이 공식 발표하지 않았습니다.
+
+■ 아직 모르는 것
+- 배후와 동기: 1차와 2차 모두 책임을 주장한 곳이 없습니다. 각국 당국도 공격자를 지목하지 않았습니다. 미확정입니다.
+- 1차와 2차가 같은 공격자인지: 수법은 비슷하지만 공식 결론은 없습니다. 미확정입니다.
+- 전체 피해 매장 수와 폐기 식품 금액: 2차 공격 집계는 나오지 않았습니다. 미확정입니다.
+- 3차 공격 가능성: 프랑스 당국이 공격이 이어질 수 있다고 경고했다는 보도가 있습니다. 실제 추가 공격 여부는 알 수 없습니다.
+- 한국 영향: 국내 매장 피해 보고는 확인되지 않았습니다. 국내 업체가 같은 장비를 얼마나 쓰는지도 확인 필요입니다.
+
+■ 지금 할 일
+업소용 냉장 설비를 원격으로 관리하는 매장이라면 오늘 설비 업체에 전화 한 통을 하세요. 질문은 세 가지면 됩니다. 제어 장치가 인터넷에 바로 열려 있는지, 관리자 비밀번호가 초기값인지, 펌웨어가 아직 보안 업데이트를 받는지입니다. 새 소식이 나오면 이 글의 날짜별 경과에 이어서 정리하겠습니다.
+
+■ 출처·참고
+- AP(ABC 뉴스 게재), 2차 공격 보도: https://abcnews.com/International/wireStory/freezers-supermarkets-european-countries-hit-apparent-cyberattacks-137765494
+- AP(ABC 뉴스 게재), 프랑스 700곳 보도: https://abcnews.com/Business/wireStory/cyberattack-targeting-refrigeration-systems-hits-700-supermarkets-french-137230099
+- 알자지라: https://www.aljazeera.com/news/2026/11/2/freezers-in-sweden-belgium-overheat-following-possible-cyberattacks
+- 유로뉴스: https://www.euronews.com/2026/11/02/cyberattack-hits-belgian-supermarket-fridges-and-freezers
+- 더레코드(The Record): https://therecord.media/cyberattack-grocery-freezers-europe
+- CNBC: https://www.cnbc.com/2026/11/02/cyberattack-on-fridges-hits-supermarkets-across-europe.html
+- 슈퍼마켓뉴스: https://www.supermarketnews.com/grocery-technology/new-freezer-cyberattack-hits-ahold-delhaize-others
+- ERR 뉴스: https://news.err.ee/1610183296/hackers-raised-freezer-temperature-at-selver-supermarket-to-50-c
+- ITV 뉴스: https://www.itv.com/news/2026-11-03/uk-meat-suppliers-fridges-heat-up-after-cyber-attacks-hit-europe
+- 컴퓨터위클리: https://www.computerweekly.com/news/366653356/UK-abattoirs-caught-up-in-cyber-attack-against-European-supermarkets
+- CSO온라인: https://www.csoonline.com/article/4235107/unplug-your-smart-fridges-french-supermarkets-warned-after-cyberattack.html
+- 퍼실리티즈다이브: https://www.facilitiesdive.com/news/thousands-refrigerator-devices-exposed-french-cyberattack/833187/
+- 더넥스트웹: https://thenextweb.com/news/french-supermarket-refrigeration-cyberattack-intermarche
+- 거브테크(50도 설정값 관련): https://www.govtech.com/question-of-the-day/how-hot-did-supermarket-freezers-get-after-they-were-hacked
+- SBS Biz: https://biz.sbs.co.kr/amp/article/20000339556
