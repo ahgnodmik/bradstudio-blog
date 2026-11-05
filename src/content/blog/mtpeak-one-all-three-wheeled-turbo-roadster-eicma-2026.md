@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Jeff Cooper'
   creditUrl: 'https://unsplash.com/@jeffcooperdesign'
 
-status: draft
+status: published
 
 category: world
 tags:

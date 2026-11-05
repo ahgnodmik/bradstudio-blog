@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Paolo Chiabrando'
   creditUrl: 'https://unsplash.com/@chiabra'
 
-status: draft
+status: published
 
 category: living
 tags:
