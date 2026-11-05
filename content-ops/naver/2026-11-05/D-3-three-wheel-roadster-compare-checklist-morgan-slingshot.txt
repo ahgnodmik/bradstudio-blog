@@ -1,0 +1,87 @@
+제목: 3륜 로드스터 고르기 전 체크리스트 18개 — MTPEAK One All·모건 Super 3·폴라리스 Slingshot 확인된 사양만 비교 (엔진·변속기·무게·국내 등록까지)
+
+3륜 로드스터가 궁금한데 차마다 무엇을 비교해야 할지 모르는 분이 많습니다. 이번 주 EICMA 2026에서 MTPEAK One All이 공개되면서 비슷한 차인 모건 Super 3, 폴라리스 Slingshot과 견줘 보려는 분도 늘었습니다. 이 글은 두 곳 이상 자료에서 같은 숫자가 나온 사양만 표처럼 정리했습니다. 확인하지 못한 칸은 '확인 필요', 제조사가 발표하지 않은 칸은 '미확정'으로 남겼습니다.
+
+※ 성능·안전을 보증하는 글이 아닙니다. 실제 구매 전에는 판매처와 담당 기관에 직접 확인하세요.
+
+■ 한눈에 비교 (2026년 11월 5일 기준)
+[MTPEAK One All]
+- 상태: EICMA 2026 첫 공개, 2027년 한정 생산 예정
+- 바퀴 배치: 앞 2 · 뒤 1
+- 엔진 위치: 미드십(운전석 뒤), 후륜구동
+- 엔진: 2.0리터 터보
+- 변속기: 9단 자동
+- 출력·토크: 165kW·385Nm (제조사 발표치)
+- 무게: 미확정
+- 가격: 미확정
+
+[모건 Super 3]
+- 상태: 판매 중(국가별 상이)
+- 바퀴 배치: 앞 2 · 뒤 1
+- 엔진 위치: 앞쪽
+- 엔진: 포드 1.5리터 3기통 자연흡기
+- 변속기: 5단 수동
+- 출력: 약 118마력(87kW)
+- 무게: 건조중량 635kg
+- 국내 가격: 확인 필요
+
+[폴라리스 Slingshot]
+- 상태: 판매 중(국가별 상이), 2014년 첫 공개
+- 바퀴 배치: 앞 2 · 뒤 1
+- 엔진: 2020년형부터 폴라리스 자체 2.0리터 ProStar 4기통 (그 전에는 GM 2.4리터 엔진)
+- 변속기: 수동 또는 5단 자동화 수동 AutoDrive (트림별 상이)
+- 출력: 트림별 상이, 2020년 R 트림 203마력 발표
+- 무게: 확인 필요
+- 국내 가격: 확인 필요
+
+■ 엔진·변속기 체크리스트
+□ 1. 엔진 위치가 앞인지 가운데인지 확인했다. 무게중심 위치가 달라집니다.
+□ 2. 터보인지 자연흡기인지 확인했다. One All만 터보입니다.
+□ 3. 수동을 원하는지 자동을 원하는지 정했다. Super 3는 수동, One All은 자동입니다.
+□ 4. Slingshot은 연식별로 엔진이 다르다는 점을 알고 있다. 중고를 본다면 2020년 전후를 꼭 구분하세요.
+□ 5. 출력 숫자가 kW인지 마력인지, 영국식인지 미터법인지 단위를 맞춰 봤다.
+
+■ 무게·숫자 체크리스트
+□ 6. 무게가 건조중량인지 공차중량인지 확인했다. 기름·냉각수를 넣으면 숫자가 달라집니다.
+□ 7. 톤당 마력처럼 계산된 수치는 기준 무게가 공개됐는지 확인했다. One All은 기준 무게가 미확정입니다.
+□ 8. 제조사 발표치와 독립 매체 실측치를 구분했다.
+□ 9. 0→100km/h, 최고속도는 출처가 두 곳 이상인지 확인했다. One All 최고속도는 보도가 엇갈려 확인 필요입니다.
+
+■ 실물·주행 체크리스트
+□ 10. 시트 높이와 승하차 자세를 직접 확인했다. 지붕 없는 로드스터는 타고 내리는 방식이 일반 승용차와 다릅니다.
+□ 11. 비·바람·햇빛 대비 장비(헬멧, 고글, 방풍 재킷)를 따로 준비할 계획이 있다.
+□ 12. 짐 공간 크기를 확인했다. 3륜 로드스터는 수납이 작은 편이라 실제 사진으로 확인하세요.
+□ 13. 시승할 때 넓고 한적한 곳에서 저속 제동과 회전부터 해 봤다.
+□ 14. 뒷타이어 규격과 교체 비용을 판매처에 물었다. 넓은 타이어는 구하기 어려울 수 있습니다.
+
+■ 국내 등록·유지 체크리스트
+□ 15. 이 차가 국내에서 어떤 차종으로 분류되는지 한국교통안전공단에 물었다. 엔진 3륜차의 분류는 확인 필요입니다.
+□ 16. 필요한 운전면허를 도로교통공단에 확인했다. 확인 필요 항목입니다.
+□ 17. 국내 정식 수입사가 있는지, 없다면 개별수입 인증 비용과 기간을 견적받았다.
+□ 18. 의무보험 가입 가능 여부와 보험료를 보험사 두 곳 이상에 물었다. 보험사마다 다를 수 있습니다.
+
+■ 자주 하는 실수
+- 해외 판매가를 원화로 바꿔 국내 가격이라고 생각하는 것. 운송비, 관세, 인증 비용이 더해집니다.
+- 공개만 된 차를 곧 살 수 있다고 여기는 것. One All은 2027년 한정 생산 예정이고 가격도 미확정입니다.
+- 미국 기준 분류를 한국에도 똑같이 적용하는 것. 나라마다 3륜차 분류가 다릅니다.
+- 마력 숫자 하나로 세 차를 줄 세우는 것. 무게와 변속기, 엔진 위치가 다 달라 단순 비교가 어렵습니다.
+
+■ 마무리
+세 차 모두 앞바퀴 둘, 뒷바퀴 하나라는 뼈대는 같습니다. 엔진 위치, 터보 여부, 변속기, 판매 상태가 다릅니다. 지금 당장 할 일은 세 가지입니다. 이 체크리스트를 저장해 두고, 관심 차의 공식 사이트에서 최신 사양표를 내려받고, 국내 등록 가능 여부를 한국교통안전공단에 먼저 물어보세요. One All은 가격 발표가 나오면 이 표의 '미확정' 칸부터 채워 보면 됩니다.
+
+인스타그램 릴스: https://www.instagram.com/reel/DfVFv21u-mB/
+
+■ 출처·참고
+- Yanko Design(MTPEAK One All): https://www.yankodesign.com/2026/11/04/mtpeak-one-all-is-a-limited-edition-trike-sports-car-with-a-turbo-engine-and-carbon-fiber-body/
+- designboom(MTPEAK One All): https://www.designboom.com/technology/mtpeak-three-wheeled-sports-car-eicma-2026/
+- Young Machine(MTPEAK One All): https://young-machine.com/2026/10/23/761384/
+- Motor Sports NewsWire(MTPEAK 보도자료): https://motorsportsnewswire.com/2026/11/02/mtpeak-makes-its-global-debut-at-eicma-2026-in-milan-a-different-answer-to-the-three-wheeled-vehicle/
+- Wikipedia(Morgan Super 3): https://en.wikipedia.org/wiki/Morgan_Super_3
+- SlashGear(2024 Morgan Super 3 리뷰): https://www.slashgear.com/1517686/2024-morgan-super-3-review/
+- auto-data.net(Morgan Super 3 1.5 118hp 제원): https://www.auto-data.net/en/morgan-super-3-ford-dragon-1.5-118hp-45455
+- The Drive(Morgan Super 3 미국 출시 보도): https://www.thedrive.com/news/morgan-super-3-arrives-in-the-us-as-a-classier-polaris-slingshot
+- Polaris(2020 Slingshot 새 파워트레인·AutoDrive 발표): https://www.polaris.com/en-us/news/product/polaris-takes-slingshot-to-the-next-level-with-dynamic-redesign-all-new-powertrain-and-autodrive-transmission/
+- Jalopnik(2020 Slingshot 203마력 엔진 보도): https://jalopnik.com/the-2020-polaris-slingshot-has-a-new-203-horsepower-eng-1841030512
+- New Atlas(Slingshot AutoDrive 보도): https://newatlas.com/automotive/polaris-slingshot-autodrive
+- Wikipedia(Polaris Slingshot): https://en.wikipedia.org/wiki/Polaris_Slingshot
+- Twin Cities Business(Slingshot 첫 공개 보도): https://tcbmag.com/polaris-debuts-slingshot-a-three-wheel-roadster/
