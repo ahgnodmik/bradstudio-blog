@@ -1,0 +1,78 @@
+제목: 200루멘 프로젝터, 우리 집 벽에선 얼마나 밝을까? ANSI 루멘 측정법·해상도·투사비·화면 크기의 원리 Q&A 8개 (오르젠 ZIP Pro 공개 계기)
+
+프로젝터 사양표의 '루멘', '1080p', '투사비'가 실제 화면에서 무엇을 뜻하는지 몰라 비교를 포기하는 분이 많습니다. IFA 2026에서 공개된 오르젠(Aurzen) ZIP Pro는 200 ANSI 루멘, 1080p를 내세웠습니다. 이 숫자를 계기로 프로젝터 사양을 읽는 원리를 Q&A 8개로 정리했습니다. 원리는 두 곳 이상 자료에서 같게 설명한 내용만 적었습니다.
+
+※ ZIP Pro 수치는 제조사 발표치입니다. 실측 결과가 아닙니다.
+
+■ Q1. 루멘과 ANSI 루멘은 무엇이 다른가요?
+A. 루멘은 광원이 내보내는 빛의 총량을 나타내는 단위입니다. 문제는 재는 방법입니다. 어디를 어떻게 쟀는지에 따라 숫자가 크게 달라집니다.
+
+ANSI 루멘은 정해진 방법으로 잰 값입니다. 하얀 화면 전체를 띄우고 가로세로 3칸씩, 모두 9칸으로 나눕니다. 각 칸 가운데에서 조도를 잽니다. 9개 값을 평균 내고 화면 면적을 곱합니다. ProjectorCentral과 BenQ 설명이 같습니다.
+
+화면 가운데는 보통 가장자리보다 밝습니다. 가운데 한 점만 재면 숫자가 커집니다. 'ANSI'가 붙지 않은 루멘 숫자가 유독 큰 제품을 조심해야 하는 이유입니다.
+
+■ Q2. 같은 200루멘인데 화면을 키우면 왜 어두워지나요?
+A. 빛의 양은 그대로인데 비추는 넓이가 늘어나기 때문입니다.
+
+넓이는 대각선 길이의 제곱에 비례합니다. 대각선을 두 배로 키우면 넓이는 네 배가 됩니다. 같은 밝기로 보이려면 빛도 네 배가 필요합니다. ProjectorReviews와 BenQ가 같은 원리를 설명합니다.
+
+간단히 계산해 보겠습니다. 조도(럭스)는 루멘을 면적(㎡)으로 나눈 값입니다. 200루멘을 1㎡ 화면에 고르게 비추면 평균 200럭스입니다. 2㎡로 키우면 100럭스로 떨어집니다. 실제로는 렌즈와 화면 상태에 따라 차이가 납니다. 원리를 이해하는 용도로만 쓰세요.
+
+■ Q3. 방 조명은 얼마나 영향을 주나요?
+A. 생각보다 큽니다. 프로젝터는 검은색을 '빛을 안 쏘는 것'으로 표현합니다. 방에 불이 켜져 있으면 그 자리에 조명 빛이 비칩니다. 검은색이 회색으로 뜨고 화면이 물빠진 듯 보입니다.
+
+여러 제조사 가이드는 주변이 밝을수록 더 높은 루멘이 필요하다고 설명합니다. 거실 영화관용으로는 수천 루멘대를 권하는 자료가 많습니다. 권장 숫자는 자료마다 다릅니다. 200루멘급 휴대용은 불을 끈 방이나 해가 진 야외에 맞는 장비로 보는 편이 맞습니다.
+
+■ Q4. 1080p와 720p는 얼마나 차이 나나요?
+A. 화소 수로는 2.25배입니다. 1080p는 가로 1,920개, 세로 1,080개로 약 207만 화소입니다. 720p는 1,280×720으로 약 92만 화소입니다. 두 방식 모두 16:9 화면 비율을 씁니다.
+
+ZIP Pro는 1세대 ZIP의 720p에서 1080p로 올렸다고 발표했습니다. 화면을 크게 키울수록 화소 하나하나가 커집니다. 큰 화면을 자주 쓴다면 해상도 차이가 더 잘 보입니다.
+
+■ Q5. '4K 지원'과 '네이티브 4K'는 같은 말인가요?
+A. 다릅니다. '지원'은 4K 영상을 입력으로 받을 수 있다는 뜻일 때가 많습니다. 실제로 화면에 찍히는 화소 수는 '네이티브' 해상도가 결정합니다. 사양표에서 '네이티브(native)'라는 단어를 찾아보세요. 없으면 판매자에게 물어보는 편이 정확합니다.
+
+■ Q6. 투사비(쓰로 레이쇼)는 어떻게 계산하나요?
+A. 투사비는 프로젝터와 벽 사이 거리를 화면 가로 폭으로 나눈 값입니다. 공식은 세 가지 형태로 씁니다.
+- 투사비 = 거리 ÷ 화면 가로 폭
+- 필요한 거리 = 화면 가로 폭 × 투사비
+- 화면 가로 폭 = 거리 ÷ 투사비
+
+예를 들어 투사비가 2.0이고 화면 가로가 60인치면 120인치 떨어져야 합니다. 위키백과와 Nationwide Video 설명이 같습니다. 거리와 폭은 같은 단위로 맞춥니다.
+
+화면은 보통 대각선으로 부르니 가로 폭으로 바꿔야 합니다. 16:9 화면에서 가로 폭은 대각선의 약 0.87배입니다. 100인치(대각선) 화면이라면 가로는 약 87인치, 약 221cm입니다.
+
+ZIP Pro의 투사비는 이 글에서 확인하지 못했습니다. 확인 필요입니다.
+
+■ Q7. 비스듬히 쏘면 자동 보정해 주는데 손해는 없나요?
+A. 있습니다. 프로젝터를 벽에 비스듬히 두면 화면이 사다리꼴로 찌그러집니다. 이를 바로 펴는 기능이 키스톤 보정입니다.
+
+요즘 휴대용은 대부분 디지털 방식으로 보정합니다. 영상을 미리 찌그러뜨려 패널에 보내는 방식입니다. 그만큼 화면에 쓰이는 화소가 줄어듭니다. 해상도와 밝기가 일부 떨어집니다. 위키백과와 EDN 설명이 같습니다. 보정 각도가 작으면 티가 덜 나고, 클수록 손실이 커집니다.
+
+가장 좋은 방법은 프로젝터를 화면 정면에 두는 것입니다. ZIP Pro처럼 본체 각도를 바꿀 수 있는 제품은 보정 전에 각도부터 맞추는 편이 유리합니다.
+
+■ Q8. 그럼 사양표는 어떤 순서로 읽으면 되나요?
+A. 다음 순서를 권합니다.
+1. 밝기 단위가 ANSI 루멘인지 확인합니다.
+2. 네이티브 해상도를 확인합니다.
+3. 투사비로 우리 방에서 몇 인치까지 나오는지 계산합니다.
+4. 그 크기에서 밝기가 충분할지 Q2 방식으로 가늠합니다.
+5. 키스톤 보정을 많이 써야 하는 배치인지 봅니다.
+
+■ 오늘 해 볼 것
+줄자를 들고 프로젝터를 둘 자리에서 벽까지 거리를 재 보세요. 그 거리를 관심 제품의 투사비로 나누면 화면 가로 폭이 나옵니다. 이 폭이 원하는 크기보다 크다면 화면을 조금 줄여 쓰는 편이 더 밝고 선명합니다.
+
+인스타그램 릴스: https://www.instagram.com/reel/DfWBxQoBBdX/
+
+■ 출처·참고
+- ProjectorCentral(루멘 측정 방식 설명): https://www.projectorcentral.com/Lumens-Explained.htm
+- BenQ(ANSI 루멘과 LED 루멘 차이): https://www.benq.com/en-hk/business/resource/trends/difference-between-ansi-and-led-lumens.html
+- BenQ(프로젝터 밝기 선택 가이드): https://www.benq.com/en-us/knowledge-center/knowledge/the-right-projector-brightness-for-your-needs.html
+- ProjectorReviews(화면 크기와 밝기 가이드): https://www.projectorreviews.com/articles-guides/guide-to-buying-the-best-home-theater-projector-for-you/your-desired-screen-size
+- Wikipedia(Throw (projector)): https://en.wikipedia.org/wiki/Throw_(projector)
+- Nationwide Video(투사 거리·화면 폭 계산): https://nationwidevideo.com/calculating-throw-distance-lens-ratio-and-screen-width/
+- Wikipedia(Keystone effect): https://en.wikipedia.org/wiki/Keystone_effect
+- EDN(키스톤 보정 관련 기사): https://www.edn.com/?p=4013434
+- Home Theater Academy(1280×720과 1920×1080 비교): https://hometheateracademy.com/?p=1751
+- martech.zone(FHD 해상도 설명): https://martech.zone/acronym/fhd/
+- Notebookcheck(ZIP Pro IFA 2026 공개 보도): https://www.notebookcheck.net/Aurzen-Zip-Pro-tri-fold-pocket-projector-debuts-at-IFA-2026.1368089.0.html
+- Android Authority(ZIP Pro 소개): https://androidauthority.com/aurzen-zip-pro-folding-projector-3706397
