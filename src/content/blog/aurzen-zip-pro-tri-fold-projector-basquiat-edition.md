@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Alex Litvin'
   creditUrl: 'https://unsplash.com/@alexlitvin'
 
-status: draft
+status: published
 
 category: world
 tags:

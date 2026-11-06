@@ -9,7 +9,7 @@ thumbnail:
   creditName: "Joseph Bobadilla"
   creditUrl: "https://unsplash.com/@josephbobadilla"
 
-status: draft
+status: published
 
 category: world
 tags:
