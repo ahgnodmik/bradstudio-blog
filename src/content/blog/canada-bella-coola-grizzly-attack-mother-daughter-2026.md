@@ -9,7 +9,7 @@ thumbnail:
   creditName: "Viktor Kirichenko"
   creditUrl: "https://unsplash.com/@viktorsinh"
 
-status: draft
+status: published
 
 category: world
 tags:

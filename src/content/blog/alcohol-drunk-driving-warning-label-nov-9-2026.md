@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Sung Hun Go'
   creditUrl: 'https://unsplash.com/@sungtheusual'
 
-status: draft
+status: published
 
 category: living
 tags:

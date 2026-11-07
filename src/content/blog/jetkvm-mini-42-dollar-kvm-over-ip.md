@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Jordan Harrison'
   creditUrl: 'https://unsplash.com/@jouwdan'
 
-status: draft
+status: published
 
 category: world
 tags:
