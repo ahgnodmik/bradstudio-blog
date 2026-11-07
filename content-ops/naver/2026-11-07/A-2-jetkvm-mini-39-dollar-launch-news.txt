@@ -1,0 +1,70 @@
+제목: 성냥갑 크기 원격 제어 장치 JetKVM Mini 판매 시작… 유선 39달러·와이파이 42달러, 1080p 30fps·42mm 크기 정리 (국내 출시·KC 확인 필요, 11월 7일 기준)
+
+PC가 부팅 화면에서 멈추면 원격 지원 프로그램으로는 손쓸 방법이 없습니다. 이 빈칸을 겨냥한 저가 장치가 10월 말 판매를 시작했습니다. 미국 스타트업 JetKVM이 만든 'JetKVM Mini'입니다. 운영체제가 죽은 PC도 원격으로 화면을 보고 키보드·마우스를 조작하는 KVM-over-IP 장치입니다. 해외 매체 보도 가운데 두 곳 이상에서 같게 나온 내용만 날짜순으로 정리했습니다.
+
+※ 가격은 모두 미국 달러 기준 제조사 발표가입니다. 특정 제품을 추천하는 글이 아닙니다.
+
+■ 한 줄 요약
+- 제품: JetKVM Mini(유선 랜) / Mini W(와이파이)
+- 가격: 39달러 / 42달러, 3대 묶음은 대당 33달러 / 36달러
+- 판매 시작: 2026년 10월 26일
+- 크기: 가로·세로 42mm, 두께 23mm
+- 기본 화면 전송: 1080p 30fps 또는 720p 60fps
+- 한국 정식 출시·KC 인증: 확인 필요
+
+■ 무슨 장치인가
+KVM은 키보드(Keyboard), 화면(Video), 마우스(Mouse)의 머리글자입니다. KVM-over-IP 장치는 이 세 가지를 네트워크 너머로 옮겨 줍니다. PC의 HDMI 단자와 USB 단자에 꽂아 씁니다. 장치가 화면 신호를 받아 인터넷으로 보냅니다. 멀리 있는 사람이 브라우저에서 누른 키는 USB로 PC에 전달됩니다. PC는 진짜 키보드가 꽂힌 것으로 인식합니다.
+
+이 방식은 운영체제에 기대지 않습니다. 그래서 바이오스 설정 화면이나 부팅 메뉴도 원격으로 다룰 수 있습니다. 원래는 데이터센터 서버 관리용 장비였습니다. JetKVM Mini는 이 기능을 40달러 안팎 가격에 담았다는 점에서 주목받았습니다.
+
+■ 날짜별로 본 흐름
+2024년: 원조 'JetKVM'이 킥스타터에 올라왔습니다. 초기 후원가는 69달러였습니다. CNX Software와 기술 유튜버 제프 걸링의 블로그가 이 숫자를 함께 전했습니다.
+
+2026년 9월 중순: 후속작 Mini가 공개됐습니다. CNX Software와 일본 GIGAZINE이 9월 14~15일 발표 소식을 다뤘습니다. 이때는 관심 등록만 받았습니다.
+
+2026년 10월 26일: 판매가 시작됐습니다. 독일 BornCity와 byteiota, AndroidTVBOX가 같은 날짜와 가격을 전했습니다. 제조사 공식 블로그도 같은 일정을 적었습니다.
+
+2026년 11월 7일 현재: 재고가 넉넉한지는 확인 필요입니다. 해커뉴스 등 커뮤니티에서는 품절이나 배송 지연을 언급한 이용자 글이 있습니다. 개인 경험담이라 공식 상황으로 보기는 어렵습니다.
+
+■ 원조 모델과 무엇이 달라졌나
+Mini는 원조를 그대로 줄인 제품이 아닙니다. 칩을 ESP32-P4X로 바꿨다고 CNX Software와 GIGAZINE이 전했습니다. 가격을 내린 대신 기본 화면 전송 사양이 낮아졌습니다. 원조는 제조사 발표 기준 1080p 60fps입니다. Mini는 1080p 30fps 또는 720p 60fps가 기본입니다. AndroidTVBOX와 byteiota가 같은 숫자를 적었습니다.
+
+크기는 42×42×23mm입니다. New Atlas와 Neowin이 같은 수치를 냈습니다. 성냥갑에 비유하는 보도가 많습니다. 유선 Mini와 와이파이 Mini W 두 가지로 나옵니다. Mini W는 처음 설정할 때 블루투스로 와이파이 정보를 넣는 방식이라고 New Atlas와 byteiota가 설명했습니다.
+
+빠진 기능도 있습니다. PC 전원을 원격으로 껐다 켜는 ATX 전원 제어가 기본으로 없다는 지적이 byteiota에서 나왔습니다. PC가 완전히 꺼져 있으면 다른 수단이 필요할 수 있습니다. 실제 지연 시간을 독립적으로 잰 결과는 아직 찾지 못했습니다.
+
+■ 가격은 어떻게 매겨졌나
+유선 Mini는 39달러입니다. 와이파이 Mini W는 42달러입니다. 3대를 한 번에 사면 대당 33달러와 36달러로 내려갑니다. New Atlas, Neowin, byteiota가 같은 숫자를 전했습니다. 할인 행사가 아니라 출시 정가입니다.
+
+원화로 단순 환산하면 5만 원 안팎입니다. 다만 해외 배송비와 환율, 세금이 붙으면 금액이 달라집니다. 실제 결제액은 장바구니에서 확인해야 합니다.
+
+■ 보안 이슈는 무엇이 있었나
+2026년 3월 JetKVM 펌웨어 0.5.4 이전 버전과 관련한 취약점 두 건이 공개됐습니다. 번호는 CVE-2026-32294와 CVE-2026-32295입니다. 32294는 펌웨어를 내려받을 때 진위 확인이 부족했던 문제라고 cvefeed와 CIRCL 취약점 데이터베이스가 설명했습니다. 32295는 로그인 시도 제한과 관련된 문제로 소개됐지만 세부 내용은 확인 필요입니다.
+
+이 취약점이 Mini에도 그대로 해당하는지는 공개 자료로 확인하지 못했습니다. 이 장치가 안전하다, 위험하다고 단정할 근거는 없습니다. 쓰는 사람이 펌웨어 버전을 직접 확인하는 것이 기본입니다.
+
+■ 국내에서는 살 수 있나
+한국 정식 출시, 공식 수입사, 국내 가격은 공개 자료로 확인하지 못했습니다. KC 인증 여부도 확인 필요입니다. 와이파이와 블루투스가 들어간 Mini W는 무선 기기입니다. 국내 전파 인증 문제가 걸릴 수 있습니다. 직구를 고민한다면 판매처의 한국 배송 가능 여부부터 보세요.
+
+■ 무엇을 지켜봐야 하나
+- 재고 상황과 배송 일정이 안정되는지
+- Mini에 최신 펌웨어가 적용됐는지
+- 독립 리뷰에서 실제 지연 시간이 얼마로 나오는지
+- 국내 수입사나 KC 인증 소식이 나오는지
+
+■ 오늘 할 일
+부모님 PC나 집 서버에 이런 장치가 필요한지부터 따져 보세요. 윈도우가 켜진 상태에서만 도와드리면 된다면 무료 원격 지원 프로그램으로 충분합니다. 부팅 고장이나 바이오스 설정까지 원격으로 다뤄야 한다면 JetKVM 공식 스토어에서 한국 배송 가능 여부를 먼저 확인하세요.
+
+■ 출처·참고
+- New Atlas(JetKVM Mini 소개 기사): https://newatlas.com/computers/jetkvm-mini-remote-access/
+- JetKVM 공식 블로그(Introducing JetKVM Mini): https://jetkvm.com/blog/introducing-jetkvm-mini
+- CNX Software(JetKVM Mini 발표 보도): https://www.cnx-software.com/2026/09/14/jetkvm-mini-a-low-cost-esp32-p4x-based-kvm-with-ethernet-or-wifi-connectivity/
+- GIGAZINE(JetKVM Mini 발표 보도): https://gigazine.net/gsc_news/en/20260915-jetkvm-mini/
+- Neowin(JetKVM Mini 39달러 보도): https://www.neowin.net/news/jetkvm-mini-brings-remote-kvm-down-to-39/
+- byteiota(JetKVM Mini 관련 보도): https://byteiota.com/?p=22786
+- AndroidTVBOX(JetKVM Mini 관련 보도): https://androidtvbox.eu/jetkvm-mini/
+- BornCity(JetKVM Mini 10월 판매 보도): https://borncity.com/news/jetkvm-mini-open-source-kvm-fuer-39-dollar-ab-oktober/
+- CNX Software(원조 JetKVM 69달러 보도): https://www.cnx-software.com/2025/03/21/jetkvm-a-69-kvm-over-ip-solution-with-open-source-software/
+- 제프 걸링 블로그(원조 JetKVM 소개): https://www.jeffgeerling.com/blog/2024/jetkvm-tiny-ip-kvm-thats-not-apple-watch/
+- cvefeed(CVE-2026-32294): https://cvefeed.io/vuln/detail/CVE-2026-32294
+- CIRCL 취약점 DB(CVE-2026-32294): https://vulnerability.circl.lu/vuln/fkie_cve-2026-32294

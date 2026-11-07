@@ -1,0 +1,112 @@
+<p>If you have ever talked a relative through a dead PC over the phone, you know the limit of remote-desktop apps: they only work once the operating system is up. A stuck boot loop, a BIOS setting gone wrong or a failed update leaves you with nothing to connect to. That gap is what KVM-over-IP hardware fills, and JetKVM's new Mini brings it down to roughly the price of a takeout dinner. New Atlas summed it up as a $42 box that gives you remote access even when the OS is toast. Here is what the device does, what has been confirmed about it, where it falls short, and how it compares with the older JetKVM and two popular alternatives.</p>
+
+<p><b>Specifications below are as published by JetKVM and reported by at least two outlets. Independent performance testing of the Mini is still scarce. Anything we found in only one source is marked unconfirmed. This is not a sponsored post, and we have not tested the device ourselves.</b></p>
+
+<h2>What a KVM-over-IP box actually does</h2>
+
+<p>KVM stands for keyboard, video and mouse. A KVM-over-IP device sits between a computer and your network. It plugs into the computer's HDMI output to capture the picture and into a USB port, where it presents itself as an ordinary keyboard and mouse. The device compresses the video and streams it to a browser on your phone or laptop. Whatever you type or click is sent back down the USB cable as if someone were sitting at the desk.</p>
+
+<p>Because the computer just sees a monitor and a keyboard, none of this depends on Windows, macOS or Linux being healthy. You can watch the machine boot, enter the BIOS or UEFI setup, pick a boot device, and reinstall an operating system from scratch. Data centres have used this kind of hardware for decades. What is new is the price and the size.</p>
+
+<h2>JetKVM Mini at a glance</h2>
+
+<p>JetKVM announced the Mini in mid-September 2026, with coverage from CNX Software and GIGAZINE, and the company and several outlets reported that sales began on October 26, 2026. There are two versions: the wired Mini and the Mini W, which adds wireless networking.</p>
+
+<table>
+<tr><th>Item</th><th>JetKVM Mini</th><th>JetKVM Mini W</th></tr>
+<tr><td>Price (single unit, US)</td><td>$39</td><td>$42</td></tr>
+<tr><td>Price per unit in a 3-pack</td><td>$33</td><td>$36</td></tr>
+<tr><td>Processor</td><td colspan="2">Espressif ESP32-P4X, dual RISC-V cores up to 400 MHz</td></tr>
+<tr><td>Memory / storage</td><td colspan="2">32 MB PSRAM, 16 MB flash</td></tr>
+<tr><td>Size</td><td colspan="2">42 × 42 × 23 mm</td></tr>
+<tr><td>Power</td><td colspan="2">5 V, 500 mA</td></tr>
+<tr><td>Network</td><td>100 Mbps Ethernet</td><td>Dual-band Wi-Fi, Bluetooth for setup</td></tr>
+<tr><td>Default video capture</td><td colspan="2">1080p at 30 fps or 720p at 60 fps</td></tr>
+<tr><td>Virtual media</td><td colspan="2">microSD slot for OS install images</td></tr>
+<tr><td>Firmware</td><td colspan="2">Rewritten on Espressif's FreeRTOS-based ESP-IDF; open source</td></tr>
+</table>
+
+<p>Prices and the 3-pack discounts were reported consistently by New Atlas, Neowin and CNX Software. The chip, memory, size and power figures come from CNX Software and other launch coverage, including Electronics For You. CNX Software describes the Mini W's wireless as dual-band Wi-Fi 6 with an extra ESP32-C5 module; other outlets simply say dual-band Wi-Fi, so treat the Wi-Fi 6 label as unconfirmed until you see it on the retail listing.</p>
+
+<h3>How setup works</h3>
+
+<p>The wired Mini gets its address from your router like any other device. The Mini W is set up over Bluetooth from a phone or laptop, which hands it your Wi-Fi details, as New Atlas and others explained. After that you open the device's web interface on your local network. JetKVM also offers an optional cloud service for reaching the device from outside your home; local access does not require it.</p>
+
+<h3>The 4K footnote</h3>
+
+<p>Some coverage mentions 4K support. According to CNX Software and AndroidTVBOX, higher resolutions rely on JetKVM OS Services, a piece of software installed on the target computer that does the encoding on that machine. That only works while the operating system is running, so it does not help in the rescue scenarios that make a KVM worth buying. For a computer that will not boot, plan around 1080p30 or 720p60.</p>
+
+<h2>What it does not do</h2>
+
+<ul>
+<li><b>No built-in power button control.</b> Reviews and community discussion, including byteiota and Hacker News threads, point out that the Mini lacks ATX power control out of the box. If the PC is fully off, you need another way to turn it on, such as the BIOS "restore on AC power loss" setting combined with a smart plug, or Wake-on-LAN where supported.</li>
+<li><b>No independent latency numbers yet.</b> We could not find third-party measurements of the Mini's video delay.</li>
+<li><b>Availability is uneven.</b> Sales opened October 26, but stock levels by region and shipping to countries outside the US were not clear in the sources we reviewed. Treat both as unconfirmed.</li>
+</ul>
+
+<h2>How it differs from the original JetKVM</h2>
+
+<p>The Mini is not a cut-down copy of the first JetKVM; it is a new design. The original launched on Kickstarter in 2024 at $69 for early backers and uses a Rockchip processor running Linux. CNX Software and GIGAZINE reported the maker's claim of 1080p at 60 fps with 30 to 60 ms of latency, and it has a small built-in screen. After the campaign, the regular price rose to $89 according to a Galaxus review and WarpKVM; current retail pricing varies by seller.</p>
+
+<p>Switching to the ESP32-P4X let JetKVM cut the price roughly in half, at the cost of frame rate at 1080p. For occasional rescue jobs, such as fixing a parent's PC or a headless home server, 1080p30 is usually readable. For anyone who wants smooth video for long sessions, the original remains the stronger device on paper.</p>
+
+<h2>Security: published vulnerabilities</h2>
+
+<p>Any device that can type on your computer deserves care. In 2026, two vulnerabilities affecting JetKVM firmware before version 0.5.4 were published, as listed by CVE trackers including OpenCVE, CIRCL and cvefeed:</p>
+
+<ul>
+<li><b>CVE-2026-32294:</b> firmware downloads were not checked for authenticity, so an attacker positioned in the middle of the connection, or a compromised update server, could in theory supply modified firmware with a matching hash.</li>
+<li><b>CVE-2026-32295:</b> login attempts were not rate-limited, which makes password guessing easier.</li>
+</ul>
+
+<p>The trackers list version 0.5.4 or later as the fix. We could not find a vendor advisory in our search results, and these entries concern JetKVM's existing firmware; the Mini runs newly written firmware on a different platform, and whether either issue ever applied to it is unconfirmed. None of this means the device is unsafe or safe. It means you should treat it like any remote-access tool:</p>
+
+<ul>
+<li>Update the firmware as soon as you set it up, and check for updates regularly.</li>
+<li>Use a long, unique password for the web interface.</li>
+<li>Never forward the device's port on your router to the open internet.</li>
+<li>For outside access, use a VPN you trust or the vendor's official cloud route, and switch cloud access off when you do not need it.</li>
+<li>Put the device on a network segment you control, not on a guest network shared with strangers.</li>
+</ul>
+
+<h2>How it compares with PiKVM and NanoKVM</h2>
+
+<p>Two names come up in almost every home-lab discussion about remote KVMs. Here is how they line up, using only figures we could source.</p>
+
+<table>
+<tr><th>Device</th><th>Video (maker spec)</th><th>Power control</th><th>Price as reported</th></tr>
+<tr><td>JetKVM Mini / Mini W</td><td>1080p30 or 720p60</td><td>Not built in (reported)</td><td>$39 / $42</td></tr>
+<tr><td>JetKVM (original)</td><td>1080p60</td><td>Via add-on</td><td>$69 Kickstarter, later $89 (reported)</td></tr>
+<tr><td>Sipeed NanoKVM (Lite / Full)</td><td>1080p60</td><td>Full version only</td><td>From about $20 at launch, per CNX Software; varies by version</td></tr>
+<tr><td>PiKVM V4</td><td>1080p60</td><td>Unconfirmed here</td><td>Not confirmed for this article</td></tr>
+</table>
+
+<p>The NanoKVM and PiKVM video figures come from Sipeed's own product wiki, which also lists the NanoKVM Full at about 40 × 36 × 36 mm and the PiKVM V4, built around a Raspberry Pi Compute Module 4, at 120 × 68 × 44 mm. Those dimensions come from one comparison table and are unconfirmed elsewhere. PiKVM's current pricing varies by model and seller, and we did not find two consistent figures, so we have left it out. In broad terms, PiKVM is the mature, feature-rich and more expensive option; NanoKVM competes with the Mini on price; and the Mini's selling points are its size, its Wi-Fi option and JetKVM's polished web interface.</p>
+
+<h2>Who should buy one</h2>
+
+<p>If your remote help only ever happens while Windows is running, a free remote-desktop tool is still enough. A KVM box earns its keep when the problem is the operating system itself: boot failures, BIOS changes, reinstalls or a headless server that stopped responding.</p>
+
+<p>Before you order, check three things on the computer you want to manage: a free HDMI output, a free USB port, and either an Ethernet port nearby on the router or reliable Wi-Fi at that spot. Then decide between the wired Mini and the Mini W based on that last point, confirm the store ships to your country, and set aside ten minutes on day one to update the firmware and set a strong password.</p>
+
+<h2>Sources</h2>
+<ul>
+<li><a href="https://newatlas.com/computers/jetkvm-mini-remote-access/" target="_blank" rel="noopener">New Atlas — This $42 box gives you remote access even when the OS is toast</a></li>
+<li><a href="https://jetkvm.com/blog/introducing-jetkvm-mini" target="_blank" rel="noopener">JetKVM — Introducing JetKVM Mini</a></li>
+<li><a href="https://www.cnx-software.com/2026/09/14/jetkvm-mini-a-low-cost-esp32-p4x-based-kvm-with-ethernet-or-wifi-connectivity/" target="_blank" rel="noopener">CNX Software — JetKVM Mini: a low-cost ESP32-P4X-based KVM with Ethernet or WiFi connectivity</a></li>
+<li><a href="https://www.electronicsforu.com/news/esp32-p4x-board-brings-kvm-over-ip-down-to-39-dollars" target="_blank" rel="noopener">Electronics For You — ESP32-P4X board brings KVM over IP down to $39</a></li>
+<li><a href="https://www.neowin.net/news/jetkvm-mini-brings-remote-kvm-down-to-39/" target="_blank" rel="noopener">Neowin — JetKVM Mini brings remote KVM down to $39</a></li>
+<li><a href="https://gigazine.net/gsc_news/en/20260915-jetkvm-mini/" target="_blank" rel="noopener">GIGAZINE — The JetKVM Mini is a matchbox-sized IP-KVM switch</a></li>
+<li><a href="https://androidtvbox.eu/jetkvm-mini/" target="_blank" rel="noopener">AndroidTVBOX — JetKVM Mini fits KVM over IP into a matchbox</a></li>
+<li><a href="https://byteiota.com/?p=22786" target="_blank" rel="noopener">byteiota — Report on the JetKVM Mini launch</a></li>
+<li><a href="https://www.cnx-software.com/2025/03/21/jetkvm-a-69-kvm-over-ip-solution-with-open-source-software/" target="_blank" rel="noopener">CNX Software — JetKVM: a $69 KVM over IP solution with open-source software</a></li>
+<li><a href="https://gigazine.net/gsc_news/en/20251028-jetkvm" target="_blank" rel="noopener">GIGAZINE — JetKVM: the next generation open source KVM</a></li>
+<li><a href="https://www.galaxus.at/de/page/gekauft-aus-neugier-geblieben-aus-ueberzeugung-jetkvm-im-alltagstest-42032" target="_blank" rel="noopener">Galaxus — JetKVM everyday test (in German)</a></li>
+<li><a href="https://warpkvm.com/blog/where-to-buy-jetkvm" target="_blank" rel="noopener">WarpKVM — Where to buy JetKVM in 2026</a></li>
+<li><a href="https://app.opencve.io/cve/CVE-2026-32294" target="_blank" rel="noopener">OpenCVE — CVE-2026-32294</a></li>
+<li><a href="https://vulnerability.circl.lu/vuln/fkie_cve-2026-32294" target="_blank" rel="noopener">CIRCL Vulnerability-Lookup — CVE-2026-32294</a></li>
+<li><a href="https://cvefeed.io/vuln/detail/CVE-2026-32294" target="_blank" rel="noopener">cvefeed.io — CVE-2026-32294</a></li>
+<li><a href="https://feedly.com/cve/vendors/jetkvm" target="_blank" rel="noopener">Feedly — JetKVM vulnerabilities</a></li>
+<li><a href="https://wiki.sipeed.com/hardware/en/kvm/NanoKVM/introduction.html" target="_blank" rel="noopener">Sipeed Wiki — NanoKVM introduction</a></li>
+<li><a href="https://cnx-software.com/2024/07/08/20-nanokvm-is-a-tiny-low-power-risc-v-kvm-over-ip-solution" target="_blank" rel="noopener">CNX Software — $20+ NanoKVM is a tiny low-power RISC-V KVM over IP solution</a></li>
+</ul>
