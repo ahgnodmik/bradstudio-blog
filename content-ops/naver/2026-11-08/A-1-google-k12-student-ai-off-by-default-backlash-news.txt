@@ -1,0 +1,70 @@
+제목: 구글, 초중고 학생 계정 AI '기본 꺼짐' 발표…그런데 왜 반발이 커졌나? 11월 3일 발표 내용부터 검색·AI 개요 묶음 논란, 구글 해명까지 정리
+
+학교에서 받은 구글 계정을 아이가 쓰고 있다면, 이번 구글 발표가 우리 아이와 무슨 상관인지 헷갈릴 수 있습니다. 구글이 11월 3일(현지시간) 초·중·고(K-12) 학생 계정에서 AI 기능을 기본으로 꺼 두겠다고 밝혔습니다. 겉으로는 학교의 선택권을 넓힌 조치입니다. 그런데 발표 직후 비판이 쏟아졌습니다. 이 글은 발표 내용, 반발 이유, 구글의 해명, 아직 정해지지 않은 부분을 순서대로 정리합니다. 기준 시점은 2026년 11월 8일입니다. 두 곳 이상의 보도에서 일치한 내용만 사실로 적었고, 그렇지 않은 부분은 '확인 필요' 또는 '미확정'으로 표시했습니다.
+
+■ 핵심 요약 3줄
+- 구글은 K-12 학생 계정에서 제미나이, 제미나이 노트북, 클래스룸 속 제미나이, 구글 검색을 기본 꺼짐으로 바꾼다고 발표했습니다.
+- 학교 관리자가 직접 켜야 학생이 쓸 수 있습니다.
+- 검색을 켜면 AI 개요(AI Overviews)가 함께 나오고, 이것만 따로 끄는 설정은 없다는 점이 논란입니다.
+
+■ 발표 내용: 무엇이 꺼지나
+AFP와 AP 보도에 따르면 발표는 구글 교육 부문 블로그 글로 나왔습니다. 대상은 학교가 관리하는 K-12 학생 계정입니다. 기본 꺼짐으로 바뀌는 제품은 네 가지입니다.
+- 제미나이(Gemini) 앱
+- 제미나이 노트북(Gemini Notebook)
+- 클래스룸 속 제미나이(Gemini in Classroom)
+- 구글 검색(Google Search)
+
+AP와 NBC 계열 보도는 그동안 구글 클래스룸을 쓰는 학교에서 이런 AI 도구가 자동으로 켜져 있었다고 전했습니다. 이번 발표는 그 기본값을 반대로 돌린 것입니다. 학교 관리자가 켜지 않으면 학생 화면에 나타나지 않습니다.
+
+여기서 눈여겨볼 단어는 '검색'입니다. 제미나이 같은 AI 앱만이 아니라 구글 검색 자체가 꺼짐 목록에 들어갔습니다. 학생이 학교 계정으로 로그인한 상태라면, 학교가 켜 주기 전까지 검색도 막힌다는 뜻으로 읽힙니다.
+
+■ 반발 1: AI를 끄면 검색도 잃는다?
+처음 보도가 나오자 비판이 몰렸습니다. Ars Technica는 AI 도구를 건너뛰려는 학교가 검색까지 포기해야 한다는 취지로 보도했습니다. NBC 계열 매체들도 AI를 거부하는 학교는 검색이 꺼진다는 제목을 달았습니다.
+
+학교 입장에서 검색은 숙제와 수업 자료 찾기의 기본 도구입니다. AI를 쓰지 않겠다는 선택이 검색 포기로 이어진다면, 사실상 고를 수 없는 선택지라는 비판이 나왔습니다. 아동 단체 페어플레이(Fairplay)는 AP와 NBC 보도에서 구글이 학교에 자사 AI 제품을 쓰도록 압박한다고 비판했습니다.
+
+■ 반발 2: 검색 속 AI 개요는 왜 못 끄나
+두 번째 쟁점은 검색 안의 AI입니다. 구글 검색 결과 맨 위에는 AI가 만든 요약인 AI 개요가 뜹니다. AFP는 이번 변경으로 학교가 AI 기능이 빠진 검색을 학생에게 따로 제공할 수 없다고 전했습니다. 여러 매체가 AI 개요나 AI 모드만 끄는 관리자 설정은 없다고 보도했습니다.
+
+구글 검색 도움말도 AI 개요를 지식 패널처럼 검색의 핵심 기능으로 설명합니다. 일반 사용자 계정에서도 끄는 스위치가 없다는 뜻입니다. 결과 페이지에서 '웹' 필터를 고르면 링크만 볼 수 있다는 안내가 있을 뿐입니다.
+
+■ 정치권 압박이 먼저 있었다
+GovTech와 Broadband Breakfast 보도에 따르면 리처드 블루멘솔, 조시 홀리 미국 상원의원은 10월 21일 순다르 피차이 구글 CEO에게 서한을 보냈습니다. 학교 기기에서 AI 기능이 왜 기본으로 켜져 있는지 물었습니다. 이번 발표는 그로부터 약 2주 뒤에 나왔습니다.
+
+서한에는 구글 클래스룸 이용자가 전 세계 1억 5천만 명을 넘는다는 숫자가 인용됐다고 AFP가 전했습니다. 이 숫자가 학생만인지, 교사를 포함한 것인지는 매체별 표현이 달라 확인 필요입니다.
+
+■ 구글의 해명: 검색과 제미나이는 따로 켤 수 있다
+반발이 커지자 구글은 설명을 보탰습니다. 여러 매체가 CNBC를 인용해, 학교가 제미나이 제품을 켜지 않고도 학생 계정의 구글 검색만 켤 수 있다고 전했습니다. 즉 "AI를 끄면 검색도 꺼진다"는 첫 해석은 정확하지 않습니다.
+
+다만 남은 문제가 있습니다. 학교가 켤 수 있는 검색에는 AI 개요와 AI 모드가 포함돼 있습니다. 링크만 보여 주는 검색을 학교용으로 따로 줄지에 대해서는 구글 발표와 후속 보도 어디에도 답이 없습니다. 구글 측은 검색과 AI가 깊이 통합돼 있어 떼어 내기 어렵다는 취지로 설명했다고 여러 보도가 전했습니다.
+
+정리하면 이렇습니다.
+- 제미나이를 끄고 검색만 켜기: 가능하다고 구글이 해명
+- 검색을 켜고 AI 개요만 끄기: 현재 불가능하다는 보도가 다수
+- AI 없는 검색 버전 제공: 발표된 계획 없음
+
+■ 함께 발표된 학습 기능
+구글은 학생 계정 검색에 단계별로 풀이를 안내하는 학습 기능(Guided Learning)을 넣겠다고 밝혔습니다. 미국 일부 학교에서 시범 운영한다는 보도가 있습니다. 이 기능이 AI 개요를 대신하는지, AI 개요 위에 추가되는지는 매체마다 설명이 엇갈립니다. 확인 필요입니다.
+
+■ 아직 정해지지 않은 것
+- 시행 날짜: 구글은 몇 달 안에 학교에 세부 내용을 알리겠다고 했습니다. 2027년 초라는 보도가 있지만 공식 날짜가 아니어서 미확정입니다.
+- 한국 등 미국 밖 적용: 구글이 미국부터 시작해 전 세계로 넓힌다고 AFP가 전했습니다. 날짜는 없습니다. 한국 학교 계정 적용 시점은 미확정입니다.
+- AI 개요 끄기 옵션 추가: 발표된 계획이 없습니다.
+- 교직원 계정과 가정용 개인 계정: 이번 발표 대상인지 구글이 밝히지 않았습니다. 미확정입니다.
+- 국내 학교의 구글 학생 계정 사용 규모: 공식 통계를 찾지 못해 확인 필요입니다.
+
+■ 학부모가 지금 할 일
+이번 변경은 아직 시행 전입니다. 지금 당장 아이 화면이 바뀌지는 않습니다. 대신 두 가지는 미리 확인해 둘 만합니다. 아이가 쓰는 구글 계정이 학교 계정인지, 집에서 만든 개인 계정인지부터 구분하세요. 학교 계정이라면 이번 주 안에 담임 교사나 정보 담당 교사에게 "학생 계정에서 제미나이와 검색이 지금 어떻게 설정돼 있나요?"라고 한 줄로 물어보세요. 답을 받아 두면 구글이 국내 적용 일정을 발표했을 때 무엇이 바뀌는지 바로 알 수 있습니다.
+
+■ 출처·참고
+- AFP 보도(The Standard 게재): https://www.thestandard.com.hk/world/article/347593/Google-turns-off-AI-for-schoolchildren-by-default
+- AFP 보도(GMA News 게재): https://www.gmanetwork.com/news/scitech/technology/1008334/google-turns-off-ai-for-schoolchildren-by-default/story/
+- AP 보도(Spectrum News NY1 게재): https://ny1.com/nyc/all-boroughs/ap-top-news/2026/11/03/students-using-google-search-in-classroom-accounts-will-need-access-to-ai-tools-the-company-says
+- NBC Washington: https://www.nbcwashington.com/news/national-international/google-shut-search-schools-opt-ai/4176184/
+- Ars Technica: https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/
+- The Next Web: https://thenextweb.com/news/google-guided-learning-classroom-search-k12-ai-off-by-default
+- Tech Insider(구글 해명 관련 정리): https://tech-insider.org/google-student-search-gemini-off-by-default-schools-opt-in-2026/
+- PPC Land: https://ppc.land/google-will-cut-search-for-k-12-students-in-schools-that-keep-ai-off/
+- GovTech: https://www.govtech.com/education/k-12/sens-blumenthal-and-hawley-question-googles-push-for-ai-in-schools
+- Broadband Breakfast: https://broadbandbreakfast.com/hawley-blumenthal-press-google-on-ai-risks-in-schools/
+- 구글 검색 고객센터(AI 개요 안내): https://support.google.com/websearch/answer/14901683

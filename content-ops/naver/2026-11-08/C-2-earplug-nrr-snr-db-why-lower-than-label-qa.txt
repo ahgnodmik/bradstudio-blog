@@ -1,0 +1,56 @@
+제목: 귀마개 포장의 33dB, 왜 내 귀에선 그만큼 안 줄까? NRR·SNR 차음 등급과 데시벨 계산 원리 Q&A 8개
+
+귀마개 포장에 적힌 숫자만큼 조용해지지 않는다고 느낀 적이 있다면, 숫자를 읽는 방법부터 알아야 합니다. 이 글은 귀마개 차음 등급 NRR과 SNR이 어떻게 정해지는지, 실제 차음이 왜 표시보다 낮게 나오기 쉬운지를 문답으로 풉니다. 미국 환경보호청(EPA) 규정, 미국 국립산업안전보건연구원(NIOSH) 자료, 유럽 표준 설명, 학술 연구를 교차해 확인한 내용만 담았습니다. 계기는 귓바퀴에 거는 나선형 귀마개 Ears 360 Silence입니다. 이 제품은 제조사가 SNR 24dB를 발표했는데, 그 숫자가 무엇을 뜻하는지 짚어 봅니다.
+
+■ Q1. 데시벨(dB)은 왜 더하기 빼기가 직관과 다를까?
+A. 데시벨은 로그 단위이기 때문입니다. IEEE 기술 자료와 NIOSH 기준 문서는 같은 원리를 설명합니다. 10dB가 오르면 소리 에너지는 10배가 됩니다. 3dB가 오르면 에너지는 약 2배가 됩니다. 그래서 60dB에서 70dB로 가는 것은 조금 커진 것이 아닙니다. 에너지로는 10배 차이입니다.
+
+거꾸로 보면 귀마개의 차음도 같은 원리입니다. 10dB를 줄이면 귀에 들어오는 소리 에너지를 10분의 1로 줄이는 셈입니다. 숫자 몇 dB 차이가 생각보다 큰 의미를 갖습니다.
+
+■ Q2. 소음은 얼마나 커야 귀에 해로운가?
+A. NIOSH는 하루 8시간 기준 85dBA를 권고 노출 한계로 둡니다. 여기에 3dB 교환율을 씁니다. 3dB가 오를 때마다 허용 시간이 절반으로 줄어든다는 뜻입니다. 이 계산대로면 88dBA는 4시간, 91dBA는 2시간입니다. 미국 산업안전보건청(OSHA)은 90dBA와 5dB 교환율을 씁니다. NIOSH 기준이 더 엄격합니다. 이 기준은 일터 소음을 위한 것입니다. 잠자리 소음처럼 작은 소리의 불편을 따지는 기준은 아닙니다.
+
+■ Q3. NRR은 누가, 어떻게 정하나?
+A. NRR(Noise Reduction Rating)은 미국식 차음 등급입니다. 미국 EPA 규정(40 CFR Part 211)은 청력보호구 포장에 NRR을 표시하도록 요구합니다. 시험은 소음이 차단된 시험실에서 사람 귀에 귀마개를 끼우고 진행합니다. 귀마개를 낀 때와 뺀 때 들리는 정도의 차이를 재서 하나의 숫자로 계산합니다. 시험 방법은 1974년 미국 국가표준(ANSI S3.19-1974)을 따릅니다. EPA는 2009년 이 규정을 고치는 개정안을 냈습니다. 최종 확정 여부는 이번 검색에서 확인하지 못해 확인 필요입니다.
+
+■ Q4. SNR은 NRR과 무엇이 다른가?
+A. SNR(Single Number Rating)은 유럽에서 쓰는 차음 등급입니다. 귀마개는 유럽 표준 EN 352-2를 따르고, 차음 계산은 국제 표준 ISO 4869-2의 방법을 씁니다. SNR 표시 제품에는 H, M, L 값이 함께 붙는 경우가 많습니다. 고음, 중음, 저음 소음에서 각각 얼마나 줄어드는지 보여 주는 값입니다. NRR과 SNR은 시험 주파수와 계산 방식이 달라 같은 숫자라도 같은 성능이 아닙니다. 두 숫자를 서로 바꾸는 공인 환산 공식도 없다고 보는 편이 안전합니다.
+
+Ears 360 Silence의 SNR 24dB도 이 맥락에서 읽어야 합니다. 제조사와 소개 매체는 EN 352-2:2020 기준이라고 밝혔습니다. 시험 보고서 원문은 찾지 못해 제조사 발표 수치로 보는 것이 맞습니다. H, M, L 값 공개 여부도 확인 필요입니다.
+
+■ Q5. 실제 차음은 왜 표시보다 낮게 나오기 쉬운가?
+A. 가장 큰 이유는 끼는 방법입니다. 시험실에서는 숙련된 조건에서 귀마개를 끼웁니다. 일상에서는 사람마다 넣는 깊이가 다르고 주름이 남기도 합니다. NIOSH가 참여해 CDC 자료실에 공개된 연구는 시험실 NRR 값이 작업자가 실제로 얻는 평균 보호 수준을 과대평가하는 경향이 있다고 설명합니다. 같은 자료는 시험실 통계로 한 사람 한 사람의 실제 차음을 예측할 수 없다고 적었습니다.
+
+두 번째 이유는 귀 모양입니다. 외이도의 굵기와 꺾인 정도는 사람마다 다릅니다. 같은 귀마개라도 어떤 귀에는 꼭 맞고 어떤 귀에는 틈이 생깁니다.
+
+세 번째 이유는 소음의 성격입니다. 귀마개는 보통 고음보다 저음을 덜 막습니다. 버스 엔진음이나 위층의 쿵쿵 울림처럼 낮은 소리가 많은 환경에서는 표시 숫자보다 덜 줄어든 것처럼 느끼기 쉽습니다.
+
+■ Q6. 실무에서는 표시 숫자를 얼마나 깎아서 보나?
+A. 미국 산업안전 현장에서 널리 쓰이는 간이식이 있습니다. NRR에서 7을 빼고 2로 나누는 방법입니다. 7을 빼는 것은 NRR이 C가중 측정 기준이라 A가중 소음 측정값과 맞추기 위한 보정입니다. 2로 나누는 것은 실제 착용 편차를 감안한 안전 여유입니다. 이 식대로면 NRR 33 귀마개의 실효 차음은 (33-7)÷2, 약 13dB로 봅니다. 표시의 절반에도 못 미칩니다.
+
+다만 이 식의 공식 출처를 OSHA로 보는 자료와 NIOSH로 보는 자료가 엇갈립니다. 나누기 2가 OSHA 규정 원문에 있는지에 대해서도 이견이 있습니다. 영국 보건안전청(HSE)은 착용 불량 같은 현실 요인을 감안해 표시 값에서 4dB를 깎아 보라고 안내합니다. 나라마다 깎는 폭이 다르다는 뜻입니다. 개인 차음값(PAR)과 감산 방식을 비교한 NIOSH 연구진의 논문은 이런 일괄 감산 방식이 개인별 실제 차음을 대부분 정확히 맞히지 못한다고 보고했습니다. 같은 논문은 개인별 착용 교육이 실제 차음을 크게 높였다고 전했습니다. 숫자를 깎는 것보다 제대로 끼는 것이 더 큰 차이를 만든다는 뜻입니다.
+
+■ Q7. SNR 24dB 귀마개면 100dB 소음이 76dB가 되나?
+A. 단순 계산으로는 그렇게 볼 수 있지만, 그대로 믿기는 어렵습니다. 유럽 표준 설명 자료는 SNR을 실제 차음의 완벽한 척도가 아니라 표준화된 비교용 숫자로 소개합니다. Q5에서 본 착용 상태, 귀 모양, 소음 주파수가 모두 결과를 바꿉니다. 제품을 비교할 때는 같은 등급 체계(SNR끼리, NRR끼리)로만 비교하세요.
+
+■ Q8. 그럼 숫자가 높은 귀마개가 무조건 좋은가?
+A. 그렇지 않습니다. 너무 많이 막으면 알람이나 아기 울음, 화재 경보처럼 들어야 할 소리까지 놓칠 수 있습니다. 귀에 맞지 않는 고차음 제품보다 귀에 맞는 중간 차음 제품이 실제로 더 조용할 수 있습니다. 귀에 통증이나 가려움이 생기면 숫자와 관계없이 사용을 멈추고 이비인후과 상담을 받으세요.
+
+■ 오늘 해 볼 일
+지금 쓰는 귀마개 포장을 꺼내 등급 이름이 NRR인지 SNR인지, 숫자가 몇인지 적어 두세요. NRR이라면 7을 빼고 2로 나눈 값을 옆에 함께 적어 보세요. 그 숫자가 기대치에 못 미친다면 귀마개를 바꾸기 전에 끼는 방법부터 다시 연습해 보세요.
+
+■ 출처·참고
+- IEEE TechNav(소음 레벨·데시벨 개요): https://technav.ieee.org/topic/noise-level/
+- NIOSH(소음 노출 권고 기준 문서, Criteria for a Recommended Standard): https://stacks.cdc.gov/view/cdc/6376/cdc_6376_DS1.pdf
+- NIOSH 기준 문서 사본(Criteria for a Recommended Standard): https://nonoise.org/hearing/criteria/criteria.htm
+- Safety+Health 매거진(NRR 산정 과정 설명): https://safetyandhealthmagazine.com/articles/noise-reduction-ratings-outlining-the-process-2
+- 미국 OSHA(청력보호구 NRR 관련 규정 해석, 2021): https://osha.prod.pace.dol.gov/laws-regs/standardinterpretations/2021-12-16_0
+- 미국 CDC 자료실(청력보호구 착용 검사 시스템과 시험실 차음 비교 연구): https://stacks.cdc.gov/view/cdc/203483/cdc_203483_DS1.pdf
+- 미국 CDC 자료실(Personal Attenuation Ratings Versus Derated Noise Reduction Ratings for Hearing Protection Devices): https://stacks.cdc.gov/view/cdc/209127
+- PubMed Central(개인 차음값과 감산 NRR 비교 논문): https://pmc.ncbi.nlm.nih.gov/articles/PMC12070270
+- 영국 HSE(청력보호구 현실 요인 감안 안내): https://www.hse.gov.uk/Noise/goodpractice/hearingrealworld.htm
+- Canadian Audiologist(청력보호구 차음 해설): https://canadianaudiologist.ca/hearing-protection-attenuation-feature/
+- Moldex(NRR 읽는 법 안내): https://www.moldex.com/resources/technical-briefs/nrr-rating-guide/
+- Avantor(청력보호구 유럽 표준 안내): https://www.avantorsciences.com/sk/en/cms/industrial_safety_european_standards_for_hearing_protection
+- Yanko Design(Ears 360 Silence 소개 기사): https://www.yankodesign.com/2026/09/12/foam-earplugs-havent-changed-since-the-1970s-this-spiral-design-just-made-them-obsolete/
+- Trend Hunter(나선 고정 귀마개 소개): https://www.trendhunter.com/trends/spiral-earplug
