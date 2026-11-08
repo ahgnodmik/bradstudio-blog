@@ -87,5 +87,6 @@ NRR(미국식)인지 SNR(유럽식)인지 먼저 보세요. 두 등급은 시험
 - 아시아경제 영문판(층간소음 기준 43dB→39dB 강화 보도): https://www.asiae.co.kr/en/article/2022082313303571962
 - MSD 매뉴얼 일반인용(이도 감염): https://www.msdmanuals.com/ko/home/이비인후과-장애/외이-장애/이도-감염-수영자-귀
 - 뉴시스(외이도염 주의 관련 보도): https://www.newsis.com/view/NISX20260604_0003655596
+- 뉴시스(여름철 외이도염 예방 관련 보도): https://www.newsis.com/view/NISX20250604_0003201647
 - Healthline(귀마개 끼고 자기 관련 건강 정보): https://www.healthline.com/health/sleeping-with-earplugs
 - Yanko Design(Ears 360 Silence 소개 기사): https://www.yankodesign.com/2026/09/26/standard-earplugs-dig-in-or-fall-out-ears-360-silence-does-neither/
