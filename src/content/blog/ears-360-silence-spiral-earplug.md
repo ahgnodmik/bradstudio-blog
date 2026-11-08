@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Quin Stevenson'
   creditUrl: 'https://unsplash.com/@qstevenson'
 
-status: draft
+status: published
 
 category: world
 tags:

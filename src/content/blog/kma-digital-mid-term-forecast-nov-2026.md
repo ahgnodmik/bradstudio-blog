@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Jimmy Wu'
   creditUrl: 'https://unsplash.com/@javiwoo'
 
-status: draft
+status: published
 
 category: living
 tags:
