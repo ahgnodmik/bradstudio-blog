@@ -1,0 +1,100 @@
+<p>For a few weeks this autumn, someone in Europe has been reaching into refrigeration controllers over the internet and turning cold rooms warm. First it was supermarkets in France, then grocery chains across several countries, then empty cold stores at three British abattoirs. On November 2, 2026, the target list grew to include something far more sensitive: freezers holding blood plasma at France's national blood service. Nothing was lost, according to the service, but the incident shows how a quiet piece of building equipment can become a front door. This piece walks through what has been confirmed so far, what is still open, and what anyone running connected cooling equipment, from a hospital lab to a corner shop to a household with a smart fridge, can check this week.</p>
+
+<p><b>How we checked: the dates, numbers and organizations below were confirmed by at least two independent outlets, mostly wire reports from the Associated Press and specialist security and European news sites. Anything we could only find in one place, or that officials have not confirmed, is labeled "unconfirmed." Details are current as of November 9, 2026.</b></p>
+
+<h2>What happened at the French blood service</h2>
+
+<p>The Établissement français du sang (EFS) is the public body that runs blood collection and supply in France. In a statement reported by the AP and Euronews, it said that on Monday, November 2, the temperature and thawing thresholds on frozen plasma storage equipment at three of its sites were pushed to extremely high levels. Monitoring systems flagged the change quickly, and staff moved or secured the plasma before it could warm. EFS said no blood products were damaged or discarded and that it had identified no health impact. The AP also reported that donation and supply continued without interruption.</p>
+
+<p>Early social media posts described this as "three blood banks" being hit. The more accurate version is three storage sites belonging to a single national organization, and the product involved was plasma rather than whole blood.</p>
+
+<p>The intrusion did not come through EFS's own IT network. According to the AP and other reports, it came through the side of a refrigeration supplier, named as Coolworld. The company said the vulnerability being reported involved a component made by a third party and sat outside the part of the system it directly controls. Neither the component nor its manufacturer has been publicly named. France's national cybersecurity agency, ANSSI, is investigating, and the AP reported that the health ministry is involved as well.</p>
+
+<h3>The 110 degrees figure</h3>
+
+<p>The French weekly Le Canard enchaîné, which first reported the incident, said the attackers tried to change a setpoint that normally sits at minus 30 degrees Celsius to plus 110 degrees Celsius. The AP and The Next Web both repeated that figure. EFS's own statement said only "extremely high levels," and Korean coverage noted that the agency had not confirmed the specific number. Treat 110 degrees as a reported attempted setting, not a measured temperature. How warm the freezers actually got is unconfirmed.</p>
+
+<h2>The wider wave: supermarkets first</h2>
+
+<p>The blood service incident follows a pattern that started in grocery retail.</p>
+
+<ul>
+<li><b>France, October 11 to 12.</b> Overnight, refrigeration settings at French supermarkets were changed remotely. The French economy minister told parliament on October 13 that about 700 of roughly 10,000 supermarkets had been affected, according to the AP and Korean outlets. Spoiled food was thrown out, and the Paris prosecutor's cybercrime unit opened an investigation.</li>
+<li><b>Several countries, November 2.</b> Belgian retailer Delhaize said an IT incident raised fridge temperatures at dozens of stores in Belgium and Luxembourg; the exact store count differs between outlets and is unconfirmed. Some smaller ICA and Coop stores in Sweden lost cooling. In Ireland, SuperValu said 13 of its 223 stores had a specific refrigeration model affected and pulled chilled and frozen products as a precaution. Selver stores in Estonia were hit, and the Netherlands was also named. Al Jazeera, Estonia's ERR and The Record reported settings as high as plus 50 degrees Celsius at some stores.</li>
+<li><b>United Kingdom, November 3.</b> ITV and Computer Weekly reported that refrigeration at three abattoirs was caught up in the campaign. The Association of Independent Meat Suppliers described it as collateral damage and said the units were empty, so no meat was lost. The National Cyber Security Centre said it was working with affected firms. We found no confirmed reports of a major UK supermarket chain being hit directly.</li>
+</ul>
+
+<p>During the first wave, ANSSI said it had found numerous compromises of remote control modules for refrigeration systems from Danfoss and Copeland. Danfoss said most of the affected units were older products that no longer received software or security updates. Older Danfoss systems were mentioned again in coverage of the November wave by CNBC and ERR.</p>
+
+<table>
+<tr><th>Item</th><th>Detail</th><th>Status</th></tr>
+<tr><td>Blood service incident</td><td>EFS, three plasma storage sites, November 2, 2026</td><td>Confirmed (AP, Euronews)</td></tr>
+<tr><td>Product loss</td><td>None, according to EFS</td><td>Confirmed as the agency's statement</td></tr>
+<tr><td>Route in</td><td>Refrigeration supplier Coolworld, third-party component</td><td>Confirmed; component unnamed</td></tr>
+<tr><td>Attempted setpoint</td><td>Minus 30 to plus 110 degrees Celsius</td><td>Reported by Le Canard enchaîné; not confirmed by EFS</td></tr>
+<tr><td>French supermarkets</td><td>About 700 of roughly 10,000, October 11 to 12</td><td>Confirmed (French government via AP)</td></tr>
+<tr><td>Second supermarket wave</td><td>Belgium, Luxembourg, Sweden, Ireland, Estonia, Netherlands</td><td>Confirmed; final country count unconfirmed</td></tr>
+<tr><td>Who is behind it</td><td>No claim of responsibility</td><td>Unconfirmed</td></tr>
+</table>
+
+<h2>What we still do not know</h2>
+
+<ul>
+<li><b>Who and why.</b> No group has claimed responsibility for any of the waves, and no government has publicly attributed them.</li>
+<li><b>Whether it is one campaign.</b> The method and the equipment overlap, but no authority has said the supermarket attacks and the blood service incident share an attacker. That link is unconfirmed.</li>
+<li><b>The weak component.</b> The third-party part Coolworld referred to has not been identified, and it is not known whether it is related to the equipment named in the supermarket attacks.</li>
+<li><b>Other medical sites.</b> There has been no public word on similar attempts at hospitals, laboratories or research freezers elsewhere.</li>
+</ul>
+
+<h2>Why a freezer is a cybersecurity problem</h2>
+
+<p>Commercial refrigeration has quietly gone online over the past decade. A controller on the side of a freezer room can report temperatures, raise alarms and accept new settings from a technician's laptop or a supplier's dashboard. That saves service visits. It also means the controller is a small computer, and like any computer it can run outdated software, keep a factory password, or sit on the open internet with nothing in front of it. Reports on the first French wave pointed to exactly that kind of exposure on older units.</p>
+
+<p>The blood service case adds another layer: the supply chain. An organization can harden its own network and still be exposed through a contractor who manages equipment remotely, and through a component that contractor bought from someone else. When the payload is plasma, used for transfusions and as a raw material for medicines, the stakes are higher than spoiled ice cream. This time an alarm worked. Whether that would be true everywhere is a question each operator has to answer for its own site.</p>
+
+<h2>What operators should check</h2>
+
+<p>If you are responsible for cold storage in a hospital, lab, pharmacy, food warehouse, restaurant or shop, these are reasonable first questions. None of them requires deep technical knowledge, and your maintenance company should be able to answer them.</p>
+
+<ul>
+<li><b>Is the controller reachable from the internet?</b> Ask whether the temperature controller or its gateway has a public address, or whether remote access goes through a VPN or similar private channel. Direct exposure was a recurring theme in the supermarket reports.</li>
+<li><b>Which account does the supplier use to log in?</b> Find out whether there is a shared or default password, who holds it, and when it was last changed.</li>
+<li><b>Is the firmware still supported?</b> Get the model and version, and ask whether the manufacturer still issues security updates for it. Danfoss said most affected units in France were no longer receiving them.</li>
+<li><b>Do alarms reach a person?</b> Test that an out-of-range temperature triggers a message to a phone that someone actually answers, including at night and on weekends.</li>
+<li><b>Can settings be locked?</b> Some systems allow limits on how far a setpoint can be changed remotely. Ask whether yours can.</li>
+<li><b>Is there a fallback plan?</b> Know where stock would go if a unit had to be emptied quickly. EFS staff moving plasma in time is what turned an attack into a near miss.</li>
+</ul>
+
+<h2>What households can check</h2>
+
+<p>The confirmed attacks targeted commercial refrigeration controllers, not home appliances, and we found no reports of household fridges being affected. Still, many homes now have a connected fridge, freezer or other appliance, and the same basic habits apply.</p>
+
+<ul>
+<li>Turn on automatic updates in the appliance's app, or check for updates manually every few months.</li>
+<li>Use a unique password for the appliance account, and enable two-step verification if the maker offers it.</li>
+<li>Keep smart appliances on a guest or separate Wi-Fi network if your router supports one, so they are not on the same network as your laptop.</li>
+<li>If you do not use an appliance's remote features, consider switching them off.</li>
+<li>Keep a cheap standalone thermometer in the freezer. It works even if an app or the internet does not.</li>
+</ul>
+
+<p>Pick one item from the relevant list today. If you run commercial cold storage, email your refrigeration maintenance company this week and ask three questions: is our controller exposed to the internet, what credentials do you use to connect, and is our firmware still receiving security updates. If any answer is vague, ask them to disable remote access until it is clarified, and then trigger a test alarm to confirm the alert reaches a real person's phone.</p>
+
+<h2>Sources</h2>
+<ul>
+<li><a href="https://abc7news.com/story/cyberattack-hits-french-blood-bank-site-no-products-are-compromised/20015587/" target="_blank" rel="noopener">ABC7 (AP) — Cyberattack hits French blood bank site but no blood products are compromised</a></li>
+<li><a href="https://euronews.com/2026/11/04/cyberattack-hits-french-blood-banks-but-no-samples-compromised-officials-say" target="_blank" rel="noopener">Euronews — Cyberattack hits French blood banks but no samples compromised, officials say</a></li>
+<li><a href="https://www.fox19.com/2026/11/05/cyberattack-blood-bank-freezers-thwarted-follows-supermarket-fridge-hacks/" target="_blank" rel="noopener">FOX19 — Cyberattack on blood bank freezers thwarted, follows supermarket fridge hacks</a></li>
+<li><a href="https://www.connexionfrance.com/news/cyberattack-attempts-to-heat-cold-storage-units-at-frances-main-blood-bank/826291" target="_blank" rel="noopener">The Connexion — Cyberattack attempts to heat cold storage units at France's main blood bank</a></li>
+<li><a href="https://thenextweb.com/news/efs-french-blood-service-cyberattack" target="_blank" rel="noopener">The Next Web — Report on the EFS blood service cyberattack</a></li>
+<li><a href="https://bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france" target="_blank" rel="noopener">BleepingComputer — Cyberattack disrupts blood storage refrigeration systems in France</a></li>
+<li><a href="https://www.koreancenter.or.kr/news/articleView.html?idxno=1434871" target="_blank" rel="noopener">Korean Center News — Report on the French blood service freezer attack (in Korean)</a></li>
+<li><a href="https://biz.sbs.co.kr/amp/article/20000344346" target="_blank" rel="noopener">SBS Biz — Report on the French blood service attack following supermarket fridge hacks (in Korean)</a></li>
+<li><a href="https://abcnews.com/Business/wireStory/cyberattack-targeting-refrigeration-systems-hits-700-supermarkets-french-137230099" target="_blank" rel="noopener">ABC News (AP) — Cyberattack targeting refrigeration systems hits 700 supermarkets, French government says</a></li>
+<li><a href="https://abcnews.com/International/wireStory/freezers-supermarkets-european-countries-hit-apparent-cyberattacks-137765494" target="_blank" rel="noopener">ABC News (AP) — Freezers at supermarkets in several European countries hit by apparent cyberattacks</a></li>
+<li><a href="https://www.aljazeera.com/news/2026/11/2/freezers-in-sweden-belgium-overheat-following-possible-cyberattacks" target="_blank" rel="noopener">Al Jazeera — Report on supermarket freezers overheating in Sweden and Belgium</a></li>
+<li><a href="https://therecord.media/cyberattack-grocery-freezers-europe" target="_blank" rel="noopener">The Record — Second wave of suspected cyberattacks hits supermarket freezers across Europe</a></li>
+<li><a href="https://www.cnbc.com/2026/11/02/cyberattack-on-fridges-hits-supermarkets-across-europe.html" target="_blank" rel="noopener">CNBC — New cyberattack on supermarket fridges sweeps across Europe</a></li>
+<li><a href="https://news.err.ee/1610183296/hackers-raised-freezer-temperature-at-selver-supermarket-to-50-c" target="_blank" rel="noopener">ERR News — Hackers raised freezer temperature at Selver supermarket to +50°C</a></li>
+<li><a href="https://www.itv.com/news/2026-11-03/uk-meat-suppliers-fridges-heat-up-after-cyber-attacks-hit-europe" target="_blank" rel="noopener">ITV News — UK meat suppliers' fridges heat up after cyber attacks hit Europe</a></li>
+<li><a href="https://www.computerweekly.com/news/366653356/UK-abattoirs-caught-up-in-cyber-attack-against-European-supermarkets" target="_blank" rel="noopener">Computer Weekly — UK abattoirs caught up in cyber attack against European supermarkets</a></li>
+</ul>

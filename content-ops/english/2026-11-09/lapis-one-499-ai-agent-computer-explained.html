@@ -1,0 +1,76 @@
+<p>If you have started running an AI agent at home, the kind that sorts your email overnight, fixes code while you sleep or watches websites for changes, you have probably hit a practical question: what machine does it live on? Laptops go to sleep. Desktops are loud and draw power. This spring, a lot of people answered by buying a Mac mini. In September 2026, a San Francisco startup called Pamir announced a device aimed squarely at that job instead: the Lapis One, a small Linux computer it says is built to run agents around the clock, with a preorder price of $499. Here is what it is, how it differs from a general-purpose mini PC, and which details are still unsettled.</p>
+
+<p><b>How we checked: specifications and prices below appear in at least two independent sources, including Pamir's own site and store page and several tech publications. Figures that showed up in only one place are marked "unconfirmed." We have not tested the device, and we could not find an independent hands-on review. Details are current as of November 9, 2026.</b></p>
+
+<h2>What the Lapis One is</h2>
+
+<p>An AI agent is software that takes a goal and works through several steps on its own: reading files, running programs, browsing, then reporting back. Most agents send the heavy thinking to a cloud model and use the local machine to carry out the instructions. That split matters, because it means the computer running the agent does not need to be powerful. It needs to stay on, stay reachable and not cost much to run.</p>
+
+<p>The Lapis One is built around that idea. It uses a Rockchip RK3576 system-on-chip, which includes a neural processing unit rated at 6 TOPS for on-device AI work. It has 8 GB of LPDDR5 memory and 64 GB of eMMC storage, with an M.2 2230 slot for an SSD and a microSD slot if you need more room. It runs a Debian-based Linux distribution that Pamir calls Lapis OS. Pamir's site, TechEBlog, BotGadgets and YouGottaRead all list the same core configuration.</p>
+
+<h3>Agent KVM: letting the agent use another computer</h3>
+
+<p>The feature Pamir highlights most is a USB-C port it calls Agent KVM. KVM stands for keyboard, video and mouse. Plug the port into another computer and the Lapis One can capture that computer's screen and send keyboard and mouse input back. In practice, an agent running on the Lapis One could look at a second machine's display and click through it the way a person would, without any software installed on that second machine. Yanko Design and TechEBlog describe the feature the same way. A maximum capture resolution of 2K at 30 frames per second appears in one report and is unconfirmed.</p>
+
+<p>KVM-over-IP boxes already exist for remote administration, so the hardware concept is familiar. The difference is the intended user: here the remote operator is an AI agent rather than a system administrator.</p>
+
+<h3>Remote access out of the box</h3>
+
+<p>Tailscale, a widely used tool for building private networks between your own devices, comes preinstalled, according to Yanko Design and Pamir's materials. That lets you reach the box from a phone, laptop or SSH session while you are away from home, without opening ports on your router. One report says the official documentation lists several model providers, including OpenAI, Anthropic and DeepSeek, as supported; we found that in only one place, so it is unconfirmed.</p>
+
+<h2>Lapis One vs. a Mac mini</h2>
+
+<p>A Mac mini is a general-purpose desktop that happens to be small, quiet and efficient. That is why it became a popular agent host. The Lapis One goes the other way: less raw performance, a narrower purpose, and agent-specific features bundled in.</p>
+
+<table>
+<tr><th>Item</th><th>Lapis One</th><th>Status</th></tr>
+<tr><td>Maker</td><td>Pamir, a San Francisco startup</td><td>Confirmed</td></tr>
+<tr><td>Announced</td><td>September 2026</td><td>Confirmed</td></tr>
+<tr><td>Chip</td><td>Rockchip RK3576, 6 TOPS NPU</td><td>Confirmed</td></tr>
+<tr><td>Memory and storage</td><td>8 GB LPDDR5, 64 GB eMMC</td><td>Confirmed</td></tr>
+<tr><td>Expansion</td><td>M.2 2230 SSD slot, microSD</td><td>Confirmed</td></tr>
+<tr><td>Operating system</td><td>Debian-based Linux (Lapis OS)</td><td>Confirmed</td></tr>
+<tr><td>Size and weight</td><td>85 x 85 x 28 mm, 227 g</td><td>Unconfirmed</td></tr>
+<tr><td>Price</td><td>$499 preorder, $599 list</td><td>Confirmed</td></tr>
+<tr><td>Shipping</td><td>Conflicting dates (see below)</td><td>Unconfirmed</td></tr>
+</table>
+
+<p>Where a Mac mini clearly wins is local work: editing video, compiling large projects or running sizable AI models on the device itself. 8 GB of memory and a mid-range Arm chip leave limited headroom for that. Where the Lapis One could make sense is the narrower case of an always-on agent that calls cloud models, where low power draw, silence and preconfigured remote access matter more than speed. Whether it actually performs well in that role is something only independent testing will show.</p>
+
+<h3>The Mac mini shortage behind the pitch</h3>
+
+<p>The timing is not random. Decrypt, TechRadar, Tom's Hardware and The Next Web reported Mac mini and Mac Studio shortages between March and May 2026, and linked a large part of the demand to people running agents with OpenClaw, an open-source agent framework. Several outlets reported that Apple CEO Tim Cook said on an earnings call that the shortages could last months. TechCrunch also pointed to a broader memory squeeze driven by AI servers, so agent demand was not the only cause. We did not check current Mac mini stock for this article.</p>
+
+<h2>Price and shipping: what lines up and what does not</h2>
+
+<p>The price is the clearest part. Yanko Design, FreeYork, BotGadgets and Pamir's store page all give $499 for preorders and $599 as the regular price. Two other numbers circulate: $359 in some early-September coverage and on an AI tools directory, and $879.99 in one roundup. Neither appears in a second independent source, so both are unconfirmed, and it is not clear whether they referred to an early-bird offer or a different configuration.</p>
+
+<p>Shipping is murkier. Yanko Design's September 20 article said the first batch would ship in October. Later reporting on Pamir's store page cited estimated dates of December 31, 2026, for a second batch and February 28, 2027, for a third, and Pamir describes those as estimates rather than guarantees. Whether the first batch has shipped, and when a new order would arrive, is unconfirmed. One report says shipping is limited to the United States, the European Union, the United Kingdom and Canada; we found that in a single source only.</p>
+
+<h2>Who might want one, and the cheaper alternatives</h2>
+
+<p>The Lapis One is pitched at people who want an agent running all the time without dedicating their main computer to it, and who would rather not assemble the setup themselves. If that describes you, the bundle of Agent KVM, preinstalled remote access and a small Linux box could save some configuration time.</p>
+
+<p>If you are comfortable with a bit of setup, cheaper options already exist. An old laptop with the lid closed and sleep disabled, or a single-board computer such as a Raspberry Pi running Linux, can host a cloud-backed agent for little or no extra cost. If you need real local performance, a Mac mini or an Intel or AMD mini PC remains the stronger choice. The Lapis One sits between those: more convenient than a DIY box, far less capable than a full desktop.</p>
+
+<p>Before preordering, a few practical checks help. Confirm whether your agent relies on cloud models or needs to run a model locally, since 8 GB of memory rules out many local models. Look at whether the agent tools you use support Linux on Arm. Factor in import duties if you live outside the regions Pamir ships to, and remember that any device you leave online all day should get regular security updates.</p>
+
+<p>Here is a low-cost way to decide. This week, run your agent on a spare laptop or desktop for seven days with sleep turned off, and note three things: whether it stays reachable, how much noise it makes, and what it adds to your electricity use. If that trial convinces you a dedicated box is worth it, check Pamir's official store page for the current price, the countries it ships to and the latest delivery estimate before you place an order.</p>
+
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.pamir.ai/" target="_blank" rel="noopener">Pamir — Lapis One, a dedicated computer for your agents (official site)</a></li>
+<li><a href="https://shop.app/products/9394482249944/lapis-one" target="_blank" rel="noopener">Shop — Pamir AI Lapis One product page</a></li>
+<li><a href="https://x.com/pamir_ai/status/2097502085269131407" target="_blank" rel="noopener">Pamir on X — Introducing Lapis One</a></li>
+<li><a href="https://www.yankodesign.com/2026/09/20/the-499-lapis-one-is-a-tiny-mac-mini-alternative-built-just-to-run-your-ai-agents/" target="_blank" rel="noopener">Yanko Design — The $499 Lapis One is a tiny Mac mini alternative built just to run your AI agents</a></li>
+<li><a href="https://www.techeblog.com/?p=257337" target="_blank" rel="noopener">TechEBlog — Report on the Pamir AI Lapis One Linux computer for agents</a></li>
+<li><a href="https://freeyork.org/technology/meet-lapis-one-linux-device/" target="_blank" rel="noopener">FreeYork — Meet the Lapis One: a $499 Linux device tailor-made for your AI agents</a></li>
+<li><a href="https://botgadgets.com/ai-gadgets/lapis-one-ai-agent-computer/" target="_blank" rel="noopener">BotGadgets — Lapis One: $499 AI agent computer built to run 24/7</a></li>
+<li><a href="https://yougottaread.com/2026/lapis-one-linux-mini-pc-ai-agents/" target="_blank" rel="noopener">YouGottaRead — Lapis One: a Linux mini PC built for AI agents</a></li>
+<li><a href="https://www.dailyairoundup.com/news/pamirs-lapis-one-is-an-880-linux-box-built-for-your-ai-agents" target="_blank" rel="noopener">Daily AI Roundup — Report citing an $880 price for the Lapis One</a></li>
+<li><a href="https://decrypt.co/366389/openclaw-apple-mac-mini-shortage-ai-2026" target="_blank" rel="noopener">Decrypt — OpenClaw put Apple back in the AI game, and now they can't build Macs fast enough</a></li>
+<li><a href="https://www.techradar.com/computing/macs/mac-mini-shortages-are-starting-to-happen-and-the-openclaw-ai-boom-is-a-key-reason" target="_blank" rel="noopener">TechRadar — Mac mini shortages are starting to happen, and the OpenClaw AI boom is a key reason</a></li>
+<li><a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/openclaw-fueled-ordering-frenzy-creates-apple-mac-shortage-delivery-for-high-unified-memory-units-now-ranges-from-6-days-to-6-weeks" target="_blank" rel="noopener">Tom's Hardware — OpenClaw-fueled ordering frenzy creates Apple Mac shortage</a></li>
+<li><a href="https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/" target="_blank" rel="noopener">TechCrunch — Report on Mac mini prices and the AI memory shortage</a></li>
+<li><a href="https://thenextweb.com/news/claude-mac-mini-openclaw-ai-agents-shortage" target="_blank" rel="noopener">The Next Web — Report on Mac mini demand from AI agent users</a></li>
+</ul>
