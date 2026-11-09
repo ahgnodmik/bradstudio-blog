@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Alexander Sinn'
   creditUrl: 'https://unsplash.com/@swimstaralex'
 
-status: draft
+status: published
 
 category: world
 tags:

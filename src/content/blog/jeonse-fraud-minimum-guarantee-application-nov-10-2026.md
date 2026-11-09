@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'sq lim'
   creditUrl: 'https://unsplash.com/@sql'
 
-status: draft
+status: published
 
 category: living
 tags:

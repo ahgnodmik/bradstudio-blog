@@ -9,7 +9,7 @@ thumbnail:
   creditName: "Andrew Roberts"
   creditUrl: "https://unsplash.com/@studiodenley"
 
-status: draft
+status: published
 
 category: world
 tags:
