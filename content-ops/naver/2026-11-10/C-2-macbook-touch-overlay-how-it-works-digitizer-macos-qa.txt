@@ -1,0 +1,55 @@
+제목: 유리판 한 장 덮었는데 맥북이 터치를 알아듣는 이유는? 디지타이저·USB 연결·macOS 터치 지원 원리 Q&A 8개 (Magic Screen 사례)
+
+맥북 화면은 원래 손가락을 못 알아듣는데, 그 위에 유리판 하나 붙였다고 어떻게 터치가 되는지 궁금한 분이 많습니다. 미국 스타트업 Intricuit의 Magic Screen이 좋은 예입니다. 11월 현재 사전 주문가 179달러에 팔리는 이 제품은 화면을 새로 다는 것이 아니라 투명한 입력판을 덧대는 방식입니다. 이 글은 그 원리를 질문 8개로 풀었습니다. 제품 수치는 두 곳 이상 출처가 같게 전한 것만 옮겼습니다.
+
+※ Intricuit는 패널 내부 감지 방식을 자세히 공개하지 않았습니다. 아래 원리 설명은 터치 입력 장치 일반에 관한 내용입니다. 한국 정식 출시는 미확정입니다.
+
+■ Q1. 이 패널은 화면인가요, 입력 장치인가요?
+A. 입력 장치입니다. 맥북 디스플레이가 빛을 내고, 패널은 그 앞에 놓인 투명한 판입니다. 화면 내용은 유리를 통과해 그대로 보입니다. 패널이 하는 일은 하나입니다. 어디가 눌렸는지 읽어서 맥에 알려 주는 것입니다. MacRumors, 9to5Mac, AppleInsider가 1월 CES 보도에서 이 구조를 같게 설명했습니다.
+
+■ Q2. 유리판이 어떻게 손가락 위치를 아나요?
+A. 판 안에 디지타이저가 들어 있기 때문입니다. 디지타이저는 손가락이나 펜이 닿은 지점을 가로·세로 좌표로 바꾸는 센서입니다. 스마트폰 화면도 같은 원리로 움직입니다. 보통 투명한 전극을 격자 모양으로 깔고, 손가락이 닿을 때 바뀌는 전기 신호를 읽어 위치를 계산합니다. 감지한 좌표는 1초에도 여러 번 새로 보냅니다. 그래서 손가락을 끌면 커서가 따라옵니다.
+
+■ Q3. 왜 USB-C 케이블이 필요한가요?
+A. 좌표를 맥에 보내는 길이 필요하기 때문입니다. 패널은 화면 영상을 받지 않습니다. 대신 터치 좌표를 맥으로 보냅니다. 마우스나 키보드가 USB로 입력을 보내는 것과 같은 방향입니다. 센서를 움직일 전원도 같은 케이블로 받는 것으로 보입니다. 케이블 하나가 맥북 포트 하나를 쓴다는 점은 리뷰에서 단점으로 꼽혔습니다.
+
+■ Q4. macOS는 원래 터치를 지원하지 않는데 어떻게 작동하나요?
+A. 핵심 질문입니다. 애플이 10월 28일(현지시간) 터치 맥북 프로를 공개하기 전까지 맥에는 터치 화면 제품이 없었습니다. heise는 macOS가 기본적으로 터치 화면을 전제로 만들어지지 않았다는 점을 짚었습니다. 여러 매체 보도를 모으면 Magic Screen은 두 층으로 이 문제를 풉니다.
+- 1층: 드라이버 없이 바로 되는 기본 동작. 누르기, 스크롤, 밀기 정도입니다.
+- 2층: 제조사 앱을 깔면 열리는 고급 기능. 세부 제스처와 펜 설정 같은 항목입니다. 앱은 macOS 소노마 이후에서 돈다고 보도됐습니다.
+일반적으로 별도 드라이버 없이 붙는 입력 장치는 맥이 이미 아는 표준 입력 신호를 씁니다. 화면 한 점을 누르면 그 자리에 포인터를 옮기고 클릭하는 식으로 바꿔 전달할 수 있습니다. Magic Screen이 정확히 어떤 신호 형식을 쓰는지는 공개 자료로 확인하지 못했습니다.
+
+■ Q5. 펜의 필압과 호버는 어떻게 되나요?
+A. 펜 입력은 손가락보다 정보가 많습니다. 위치뿐 아니라 누르는 힘, 화면과의 거리까지 읽습니다.
+- 필압: 세게 누를수록 선이 굵어지게 하는 값
+- 호버: 펜촉이 닿기 직전 위치를 미리 보여 주는 기능
+- 팜 리젝션: 손바닥이 판에 닿아도 무시하는 기능
+제조사 사이트와 리뷰 기사는 이 세 가지를 모두 지원한다고 적었습니다. 필압 4,096단계라는 숫자는 제3자 기사에만 나와 확인 필요입니다. 그림 앱이 필압을 받으려면 제조사 앱 설정이 필요할 가능성이 큽니다. 쓰는 앱에서 되는지 먼저 확인하세요.
+
+■ Q6. 유리판이 화면에서 살짝 떨어져 있으면 위치가 어긋나지 않나요?
+A. 이론상 어긋날 수 있습니다. 유리 두께만큼 눈과 펜촉 사이에 틈이 생기기 때문입니다. 이를 시차라고 부릅니다. 비스듬히 볼수록 커집니다. 펜 입력 장치는 보통 보정 기능으로 이 차이를 줄입니다. Magic Screen의 시차나 정확도를 수치로 잰 독립 리뷰는 아직 찾지 못했습니다. Tom's Guide 기자가 3주 사용기를 냈지만 측정값은 없습니다.
+
+■ Q7. 자석으로 붙인다는데 화면 쪽은 괜찮나요?
+A. 맥북 뚜껑에는 원래 자석이 들어 있습니다. 덮개를 닫았을 때 고정하는 용도입니다. Intricuit는 이 자석을 거치대로 활용했다고 The Gadgeteer와 Yanko Design이 설명했습니다. 구조상 제약도 생깁니다. 패널을 붙인 채로는 뚜껑을 닫지 못합니다. 아래쪽 스토퍼가 닫히지 않게 막는다는 설명도 나왔습니다. 닫기 전에 떼는 습관이 필요합니다. 붙이고 떼는 과정에서 화면에 먼지가 끼지 않게 마른 천으로 닦는 습관도 들이세요.
+
+■ Q8. 어떤 맥북에서 이 원리가 통하나요?
+A. 화면 크기와 자석 위치가 맞아야 해서 대상 모델이 정해져 있습니다. 보도 기준으로 M1 이후 14·16형 맥북 프로, M2 이후 13·15형 맥북 에어입니다. M1 맥북 에어와 인텔 맥북은 빠졌습니다. 크기마다 패널이 따로 나옵니다. MacBook Neo 지원은 확인 필요입니다. 가격은 공식 사이트 사전 주문가 179달러, 정가 239달러입니다. 1월 CES 때는 139달러부터라고 알려졌는데, 이는 킥스타터 초기 후원가였습니다.
+
+■ 한 줄 정리
+유리판 속 센서가 좌표를 만들고, USB-C가 그 좌표를 맥에 보내고, macOS는 이를 포인터 조작으로 받아들입니다. 고급 기능은 제조사 앱이 채웁니다.
+
+■ 지금 해 볼 것
+원리를 알았다면 내 작업에 맞는지 시험해 보세요. 트랙패드로 그림 앱을 열고 '필압 지원' 설정이 있는지 찾아보세요. 설정이 있다면 필압 펜이 쓸모가 있습니다. 없다면 기본 터치만으로 충분한지부터 따져 보세요.
+
+■ 출처·참고
+- Yanko Design(179달러 Magic Screen 소개 기사): https://www.yankodesign.com/2026/11/09/the-179-magic-screen-gives-any-macbook-a-touchscreen-with-stylus-support/
+- Intricuit 공식 사이트: https://intricuit.com/
+- The Gadgeteer(Magic Screen 소개 기사): https://the-gadgeteer.com/2026/11/09/intricuit-magic-screen-macbook-touchscreen/
+- MacRumors(CES 2026 Magic Screen 보도): https://www.macrumors.com/2026/01/06/magic-touchscreen-macbooks-before-apple/
+- 9to5Mac(맥북 터치 액세서리 보도): https://9to5mac.com/2026/01/06/new-macbook-accessory-adds-touch-support-to-your-display/
+- AppleInsider(Magic Screen 보도): https://appleinsider.com/articles/26/01/06/intricuits-magic-screen-adds-touch-support-to-the-macbook-pro-display
+- MacTech(Magic Screen 미리보기 보도): https://www.mactech.com/2026/01/06/intricuit-previews-a-snap-on-touchscreen-for-mac-laptops
+- heise online(킥스타터 터치스크린 보도): https://heise.de/-11134467
+- Neowin(Magic Screen 보도): https://www.neowin.net/news/this-new-accessory-claims-to-turn-your-macbook-into-a-touchscreen-laptop/
+- Tom's Guide(Magic Screen 사용기): https://www.tomsguide.com/computing/macbooks/im-bored-of-waiting-for-a-touchscreen-macbook-so-i-made-one-myself-with-this-snap-on-magic-screen
+- Lifehacker(Pipedot 재게시, Magic Screen 보도): https://pipedot.org/72NF4
