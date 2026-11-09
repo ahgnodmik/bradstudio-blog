@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Mahmudul Hasan'
   creditUrl: 'https://unsplash.com/@mhmanik02'
 
-status: draft
+status: published
 
 category: world
 tags:

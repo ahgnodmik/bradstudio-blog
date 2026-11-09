@@ -4,7 +4,7 @@ title: '이번 주 해외 화제·신제품 정리 (11월 1주) — 바이낸스
 description: '11월 2일~8일 블로그에 정리한 해외 이슈 7건과 신제품 7건을 한 번에 모았다. 바이낸스 해킹, 아이폰 듀오 화면 균열, 유럽 마트 냉동고 해킹, 미국 중간선거, 유럽 항공편 폭탄 위협, 캐나다 그리즐리곰 사고, 구글 학생 계정 AI 기본 꺼짐과 NUO·PureSelfMade·Easy Cooking·MTPEAK One All·Aurzen ZIP Pro·JetKVM Mini·Ears 360 Silence까지 핵심만 2~3줄로 정리했다.'
 pubDate: 2026-11-09
 
-status: draft
+status: published
 
 category: world
 tags:

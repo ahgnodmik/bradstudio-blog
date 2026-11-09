@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Camila Mofsovich'
   creditUrl: 'https://unsplash.com/@camila_mof'
 
-status: draft
+status: published
 
 category: living
 tags:

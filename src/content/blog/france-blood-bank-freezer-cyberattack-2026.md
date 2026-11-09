@@ -9,7 +9,7 @@ thumbnail:
   creditName: "Trnava University"
   creditUrl: "https://unsplash.com/@trnavskauni"
 
-status: draft
+status: published
 
 category: world
 tags:
