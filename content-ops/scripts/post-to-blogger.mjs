@@ -33,6 +33,8 @@ const BLOG_DIR = join(ROOT, 'src', 'content', 'blog');
 const DERIV_DIR = join(ROOT, 'content-ops', 'derivatives');
 const SITE = 'https://bradstudio.xyz';
 const DELAY_DAYS = 2;
+const KST_TODAY_MS = new Date(new Date(Date.now() + 9 * 3600 * 1000).toISOString().slice(0, 10)).getTime(); // KST 달력 기준
+const ageDaysOf = (d) => (KST_TODAY_MS - new Date(String(d instanceof Date ? d.toISOString() : d).slice(0, 10)).getTime()) / 86400000;
 
 loadEnv();
 const BLOG_URL = process.env.BLOGGER_BLOG_URL || 'https://mitssum.blogspot.com';
@@ -107,7 +109,7 @@ function derivPath(contentId) {
 function eligible(p) {
   if (p.status !== 'published' || !p.contentId || !p.pubDate) return false;
   if (existsSync(derivPath(p.contentId))) return false;
-  const ageDays = (Date.now() - new Date(p.pubDate).getTime()) / 86400000;
+  const ageDays = ageDaysOf(p.pubDate);
   return ageDays >= DELAY_DAYS;
 }
 
@@ -173,7 +175,7 @@ async function postToBlogger(contentId, asDraft) {
     console.error(`Already cross-posted — see ${derivPath(post.contentId)}`);
     process.exit(1);
   }
-  const ageDays = (Date.now() - new Date(post.pubDate).getTime()) / 86400000;
+  const ageDays = ageDaysOf(post.pubDate);
   if (ageDays < DELAY_DAYS) {
     console.error(`Refusing: pubDate ${post.pubDate} is ${ageDays.toFixed(1)}d old, delay is ${DELAY_DAYS}d.`);
     process.exit(1);
