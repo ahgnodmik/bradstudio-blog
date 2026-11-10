@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'CHUTTERSNAP'
   creditUrl: 'https://unsplash.com/@chuttersnap'
 
-status: draft
+status: published
 
 category: living
 tags:

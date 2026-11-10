@@ -9,7 +9,7 @@ thumbnail:
   creditName: "Felix Mooneeram"
   creditUrl: "https://unsplash.com/@felixmooneeram"
 
-status: draft
+status: published
 
 category: world
 tags:
