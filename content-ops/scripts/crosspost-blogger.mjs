@@ -54,7 +54,7 @@ const skipped = [];
 for (const { file, fm } of posts) {
 	if (fm.status !== 'published' || !fm.contentId || !fm.pubDate) continue;
 	if (existsSync(join(DERIV_DIR, fm.contentId, 'blogger.json'))) continue;
-	const ageDays = (Date.now() - new Date(toDay(fm.pubDate)).getTime()) / 86400000;
+	const ageDays = (new Date(today).getTime() - new Date(toDay(fm.pubDate)).getTime()) / 86400000; // KST 달력 기준 경과일
 	if (ageDays < DELAY_DAYS) continue;
 	if (fm.reviewAfter && toDay(fm.reviewAfter) < today) {
 		skipped.push(`${fm.contentId}  reviewAfter ${toDay(fm.reviewAfter)} 경과 — ${fm.title}`);
