@@ -9,7 +9,7 @@ thumbnail:
   creditName: "Jingming Pan"
   creditUrl: "https://unsplash.com/@pokmer"
 
-status: draft
+status: published
 
 category: world
 tags:

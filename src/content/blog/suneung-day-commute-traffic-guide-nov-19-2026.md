@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Huy Q. Tran'
   creditUrl: 'https://unsplash.com/@huyqtran'
 
-status: draft
+status: published
 
 category: living
 tags:

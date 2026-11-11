@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Quilia'
   creditUrl: 'https://unsplash.com/@heyquilia'
 
-status: draft
+status: published
 
 category: world
 tags:
