@@ -333,5 +333,17 @@
   "why-only-now/delivered/152-covani-fan-concept-looks-like-a-shoulder.json": {
     "contentId": "bs-20261111-002",
     "date": "2026-11-11"
+  },
+  "abroad-now/delivered/2026-11-11-us-inflation-surge-fed-rate-hike.json": {
+    "contentId": "bs-20261112-001",
+    "date": "2026-11-12"
+  },
+  "why-only-now/delivered/087-agv-helmet-flips-mips-style-tech-inside-.json": {
+    "contentId": "bs-20261112-002",
+    "date": "2026-11-12"
+  },
+  "why-only-now/delivered/153-glasshand.json": {
+    "skipped": "Product Hunt 외 독립 출처 2곳 미확보",
+    "date": "2026-11-12"
   }
 }
