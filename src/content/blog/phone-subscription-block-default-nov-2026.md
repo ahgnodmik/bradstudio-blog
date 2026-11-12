@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Kelli McClintock'
   creditUrl: 'https://unsplash.com/@kelli_mcclintock'
 
-status: draft
+status: published
 
 category: living
 tags:

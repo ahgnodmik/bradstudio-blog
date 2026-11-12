@@ -9,7 +9,7 @@ thumbnail:
   creditName: "Vishnu Mohanan"
   creditUrl: "https://unsplash.com/@vishnumaiea"
 
-status: draft
+status: published
 
 category: world
 tags:

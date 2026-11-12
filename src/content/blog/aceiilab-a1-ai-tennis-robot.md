@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Lan Gao'
   creditUrl: 'https://unsplash.com/@langao'
 
-status: draft
+status: published
 
 category: world
 tags:
