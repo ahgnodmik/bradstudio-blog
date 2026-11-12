@@ -1,0 +1,81 @@
+제목: 젠슨 황 엔비디아 CEO 사임 정리: 콜렛 크레스 CFO가 임시 CEO 겸임, 주가 장중 13% 급락
+
+엔비디아 창업자가 갑자기 물러났다는 소식에 무엇이 확정이고 무엇이 아직 모르는 부분인지 헷갈리는 분을 위해 정리했습니다.
+
+※ 11월 13일 기준으로 정리했습니다. 숫자와 날짜는 2곳 이상 매체에서 같은 내용이 확인된 것만 썼습니다.
+※ 보도가 엇갈리는 부분은 '확인 필요', 아직 정해지지 않은 부분은 '미확정'으로 표시했습니다.
+※ 투자 권유가 아닙니다.
+
+■ 한 줄 요약
+엔비디아가 11월 12일(현지시간) 젠슨 황의 CEO·이사직 사임을 발표했습니다. 콜렛 크레스 최고재무책임자(CFO)가 임시 CEO를 맡습니다. 크레스는 CFO 자리도 그대로 지킵니다. 이사회는 정식 후임을 찾기 시작했습니다. 주가는 장중 13% 넘게 빠졌다가 낙폭을 줄였습니다.
+
+■ 회사가 공식 발표한 내용
+엔비디아는 미국 증권거래위원회(SEC)에 8-K 공시를 냈습니다. 공시에 적힌 내용은 네 가지입니다.
+첫째, 젠슨 황은 사장, 최고경영자, 이사회 이사에서 즉시 물러났습니다.
+둘째, 이사회가 사임을 받아들인 날은 11월 11일입니다. 발표는 다음 날 나왔습니다.
+셋째, 콜렛 크레스가 임시 CEO를 맡습니다. 정식 후임이 정해질 때까지 CFO 업무도 함께 봅니다.
+넷째, 이사회는 내부 후보와 외부 후보를 모두 검토합니다.
+CNBC, 테크크런치, 야후파이낸스가 같은 내용을 전했습니다.
+
+■ 이사회 의장도 새로 생겼습니다
+엔비디아는 이사 하비 C. 존스를 이사회 의장으로 뽑았습니다. 쿼츠와 SEC 공시가 이 내용을 함께 전했습니다.
+그동안 엔비디아는 창업자 중심으로 움직였습니다. 이번 인사로 회사를 이끄는 사람과 감독하는 사람이 나뉘었습니다.
+
+■ 콜렛 크레스는 누구인가
+크레스는 2013년 9월 엔비디아에 CFO로 들어왔습니다. 엔비디아 뉴스룸의 2013년 선임 발표에 이 날짜가 나옵니다.
+그 전에는 시스코와 마이크로소프트에서 재무 업무를 맡았습니다.
+엔비디아 실적 발표 때마다 숫자를 설명해 온 인물입니다. 투자자에게는 익숙한 얼굴입니다.
+다만 임시 CEO는 말 그대로 임시입니다. 크레스가 정식 CEO가 될지는 미확정입니다.
+
+■ 왜 물러났나: 회사는 사유를 밝히지 않았습니다
+공시에는 사임 사유가 없습니다.
+NBC뉴스 등은 사생활 관련 보도가 이어진 뒤 나온 사임이라고 전했습니다. 이는 보도 내용일 뿐 회사가 확인한 사실이 아닙니다.
+11월 8일(현지시간)에는 이사회가 황과 관련된 외부 보도를 놓고 독립 조사를 시작한다고 밝혔습니다. AP와 포춘이 이를 전했습니다. 조사 결과는 공개되지 않았습니다.
+사임 방식도 표현이 엇갈립니다. 공시는 '사임'이라고 썼습니다. CNBC는 소식통을 인용해 이사회 결정이 있었다고 전했습니다. 어느 쪽이 실제 경위에 가까운지는 확인 필요입니다.
+
+■ 날짜별로 다시 보기 (현지시간)
+- 11월 8일: 이사회, 외부 보도 관련 독립 조사 착수 발표 (AP·포춘)
+- 11월 9일: 주가 장중 한때 크게 하락, 회사는 "CEO 계속 수행" 입장 (모틀리풀 등)
+- 11월 11일: 이사회, 사임 수락 (SEC 공시)
+- 11월 12일: 사임 발표, 크레스 임시 CEO 겸임, 하비 C. 존스 이사회 의장 선임
+- 11월 17일: 3분기 실적 발표 예정 (엔비디아 IR 공지·CNBC 보도 기준, 정확한 시각은 확인 필요)
+
+■ 주가는 어떻게 움직였나
+발표 당일 엔비디아 주가는 장 초반 13% 넘게 떨어졌습니다. 야후파이낸스와 테크타임스가 이 숫자를 전했습니다. AI타임스는 장중 하락 폭을 14%로 보도했습니다.
+장 후반에는 낙폭이 줄었습니다. CNBC는 4%대 하락으로 마감했다고 전했습니다.
+정확한 종가 등락률은 집계 매체마다 조금씩 달라 확인 필요입니다.
+하루 사이 하락 폭이 이렇게 줄었다는 것은 시장이 소식을 소화하는 데 시간이 걸렸다는 뜻으로 읽힙니다. 방향을 단정하기에는 이릅니다.
+
+■ 한국 시장과는 왜 연결되나
+SK하이닉스와 삼성전자는 엔비디아에 고대역폭메모리(HBM)를 공급합니다. 그래서 엔비디아 경영 소식이 국내 반도체주 심리에 영향을 줍니다.
+공식 발표 전인 한국 시간 12일, 코스피는 0.61% 내린 5,342.73에 마감했습니다. 블루밍비트와 인포스탁데일리가 같은 숫자를 전했습니다.
+공식 발표가 온전히 반영되는 첫 국내 거래일은 13일입니다. 그날 반응은 이 글 작성 시점 기준 미확정입니다.
+
+■ 아직 정해지지 않은 것
+- 정식 CEO: 누가, 언제 선임될지 미확정
+- 사임 직접 사유: 회사 미공개, 확인 필요
+- 이사회 독립 조사 결과: 공개 여부 미확정
+- 11월 17일 실적과 다음 분기 전망: 미확정
+- 국내 반도체주 13일 반응: 미확정
+
+■ 지금 할 일
+11월 17일 실적 발표 날짜를 달력에 적어 두세요. 그날 회사가 경영진 교체를 어떻게 설명하는지, 다음 분기 전망을 어떻게 내놓는지 확인하면 됩니다. 정식 CEO 선임 공시가 나오면 SEC 8-K 원문부터 확인하세요.
+
+※ 투자 권유가 아닙니다. 특정 종목의 매수·매도를 권하지 않습니다.
+
+■ 출처·참고
+- SEC EDGAR(엔비디아 8-K 보도자료): https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm
+- SEC EDGAR(엔비디아 8-K): https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm
+- CNBC: https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html
+- CNBC: https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html
+- TechCrunch: https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/
+- Yahoo Finance: https://finance.yahoo.com/technology/live/nvidia-live-updates-jensen-huang-resigns-cfo-colette-kress-to-serve-as-interim-ceo-140341430.html
+- Tech Times: https://www.techtimes.com/articles/330561/20261112/jensen-huang-resigns-nvidia-shares-tumble-interim-ceo-kress-keeps-cfo-job-before-earnings.htm
+- Quartz: https://qz.com/nvidia-cfo-colette-kress-interim-ceo-huang-resigns-111226
+- NBC News: https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402
+- Fortune: https://fortune.com/2026/11/09/nvidia-power-built-around-jensen-huang-scandal-testing-formula/
+- NVIDIA Newsroom(2013 CFO 선임): https://nvidianews.nvidia.com/news/nvidia-appoints-colette-kress-as-chief-financial-officer
+- NVIDIA Investor Relations: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/
+- AI타임스: https://www.aitimes.com/news/articleView.html?idxno=217348
+- 블루밍비트: https://bloomingbit.io/feed/news/124267
+- 인포스탁데일리(인베스팅닷컴): https://kr.investing.com/news/stock-market-news/article-2172100

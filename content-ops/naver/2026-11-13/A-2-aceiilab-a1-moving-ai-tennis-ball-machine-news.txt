@@ -1,0 +1,75 @@
+제목: 코트를 돌아다니며 공을 보내는 AI 테니스 볼머신 AceiiLab A1 정리: 스테레오 카메라·최고 80mph·0.5초 간격·120구
+
+움직이는 테니스 볼머신 영상이 돌고 있는데, 실제로 확인된 사양과 가격이 어디까지인지 한 번에 보고 싶은 분을 위해 정리했습니다.
+
+※ 11월 13일 발행 기준입니다. 숫자는 2곳 이상 매체에서 같은 내용이 나온 것만 확정처럼 썼습니다.
+※ 매체마다 숫자가 다르거나 한 곳에서만 나온 내용은 '확인 필요', 아직 발표되지 않은 내용은 '미확정'으로 표시했습니다.
+※ 구매 권유가 아닙니다. 독립 매체의 실사용 리뷰는 이번 조사에서 찾지 못했습니다.
+
+■ 한 줄 요약
+AceiiLab이 바퀴로 코트를 옮겨 다니며 공을 보내는 테니스 볼머신 A1을 팔고 있습니다. 카메라 두 대로 사람과 공을 보고 자리를 바꿉니다. 최고 속도는 시속 80마일입니다. 공은 0.5초 간격부터 보낼 수 있고 한 번에 120개까지 담습니다. 국내 출시는 미확정입니다.
+
+■ 어떤 제품인가
+겉모습은 바구니 달린 볼머신입니다. 차이는 아래쪽에 있습니다. 본체 밑에 바퀴와 모터가 달려 있어 기계가 스스로 움직입니다.
+일반 볼머신은 한자리에 놓고 씁니다. 공이 나오는 출발점이 늘 같습니다. A1은 그 출발점을 옮깁니다. 상대가 코트를 오가며 다른 자리에서 치는 상황을 흉내 내려는 설계입니다.
+36Kr는 같은 쪽 코트 안에서 베이스라인 근처와 서비스라인 근처를 오가며 공을 보낼 수 있다고 소개했습니다.
+
+■ 이름이 두 개인 이유
+처음 이름은 Aceii One이었습니다. 2025년 9월 킥스타터에 이 이름으로 올라왔습니다. Notebookcheck, Homecrux, Gadgets & Wearables가 당시 소식을 전했습니다.
+이후 회사가 브랜드를 AceiiLab으로 정리했습니다. 제품명도 A1으로 바뀌었습니다. TennisNerd와 36Kr가 같은 내용을 적었습니다.
+해외 쇼핑몰이나 영상에서 Aceii One과 A1이 함께 보이는 이유가 이것입니다. 같은 제품 계열로 보면 됩니다.
+
+■ 확인된 사양
+1) 카메라: 스테레오 카메라 2대입니다. Notebookcheck는 AI 기반 카메라가 선수 위치를 추적한다고 썼습니다. Homecrux는 세로로 배치된 1080p·60fps 카메라라고 설명했습니다.
+2) 최고 속도: 시속 80마일, 약 129km입니다. Gadget Flow 사양표와 CyberGuy 기사가 같은 숫자를 적었습니다.
+3) 공 간격: 0.5초부터 설정할 수 있습니다.
+4) 수납: 공 120개까지 담습니다.
+5) 코트: 하드, 클레이, 잔디 코트에서 쓸 수 있다는 설명이 붙었습니다.
+6) 영상: Notebookcheck는 스윙 장면을 찍어 연습 뒤 스마트폰으로 다시 볼 수 있다고 전했습니다.
+회전과 각도를 바꿀 수 있다는 설명은 있습니다. 회전량을 숫자로 밝힌 자료는 찾지 못했습니다.
+
+■ 숫자가 엇갈리는 부분
+이동 속도는 36Kr가 초속 5m, Notebookcheck가 가속 3.5m/s²를 적었습니다. 기준이 달라 확인 필요입니다.
+배터리는 이동하며 쓸 때 약 2시간, 고정해서 쓸 때 약 8시간이라는 보도가 한 곳 있습니다. 확인 필요입니다.
+차 트렁크에 들어간다는 설명은 Yanko Design 기사에 나옵니다. 무게와 접은 크기는 교차 확인하지 못했습니다. 확인 필요입니다.
+
+■ 회사와 투자
+36Kr Japan과 Dealroom이 같은 줄기의 내용을 전했습니다. 2024년 12월 설립된 회사입니다. 창업진은 드론 회사 DJI 출신입니다. 엔젤 투자로 약 1,000만 위안을 받았습니다.
+본사 위치는 선전이라는 보도와 홍콩 스타트업이라는 소개가 섞여 있습니다. 이 글에서는 정하지 않았습니다.
+
+■ 킥스타터 모금
+모금은 목표를 넘겨 마감했습니다. Kicktraq은 후원자 604명, 약 555만 홍콩달러로 기록했습니다. 36Kr는 누적 82만 달러 이상이라고 전했습니다. 집계 시점과 통화가 달라 최종 금액은 확인 필요입니다.
+
+■ 가격
+킥스타터 후원가는 New Atlas가 1,099달러, Homecrux가 슈퍼 얼리버드 1,199달러로 적었습니다. 단계별 가격 차이로 보입니다.
+2026년 11월 TennisNerd는 미국 공식 스토어 정가 2,599달러, 블랙프라이데이 할인가 1,999달러라고 썼습니다. 다른 출처에서 같은 숫자를 찾지 못해 확인 필요입니다.
+New Atlas가 전한 일반 판매가 2,099달러 계획도 한 곳에서만 나와 확인 필요입니다.
+
+■ 배송과 국내 판매
+36Kr와 Dealroom은 해외 대량 배송이 시작됐다고 전했습니다. TennisNerd는 미국 스토어에서 판매 중이라고 적었습니다.
+국내 정식 출시, 국내 가격, 국내 판매처는 확인되지 않았습니다. 미확정입니다. 해외 스토어가 한국으로 배송하는지도 확인하지 못했습니다.
+중국 내 온라인 판매 준비 소식은 한 곳에서만 나와 미확정입니다.
+
+■ 아직 비어 있는 정보
+- 독립 매체가 직접 써 본 리뷰
+- 배터리 사용 시간의 교차 확인
+- 무게와 접은 크기
+- 국내 출시 일정과 사후 수리 창구
+지금 나온 성능 설명은 대부분 제조사 자료에 기대고 있습니다. TennisNerd도 직접 써 보지 않은 미리보기라고 밝혔습니다.
+
+■ 지금 할 일
+관심이 있다면 공식 스토어에서 한국 배송 가능 여부부터 확인하세요. 배송이 된다면 배터리 운송 조건과 수리 방법을 판매처에 메일로 물어 답을 받아 두세요. 실사용 리뷰가 2~3건 쌓일 때까지 기다려도 늦지 않습니다.
+
+■ 출처·참고
+- Yanko Design: https://www.yankodesign.com/2026/11/11/aceiilabs-robotic-tennis-ball-machine-has-cameras-wheels-and-fits-in-your-cars-trunk/
+- TennisNerd: https://www.tennisnerd.net/?p=70561
+- New Atlas: https://newatlas.com/sports/aceii-one-tennis-coaching-robot/
+- Notebookcheck: https://www.notebookcheck.net/Aceii-One-robot-for-tennis-drills-launching-on-Kickstarter.1121067.0.html
+- Homecrux: https://www.homecrux.com/aceii-one-smart-tennis-robot/338546/
+- Gadget Flow: https://thegadgetflow.com/product/aceii-one-ai-tennis-robot/specs/
+- CyberGuy: https://cyberguy.com/robot-tech/tennis-coaching-robots-taking-over-court/
+- 36Kr Europe: https://eu.36kr.com/en/p/3913490184754313
+- 36Kr Japan: https://36kr.jp/500072/
+- Dealroom: https://dealroom.co/news/141209-ex-dji-engineers-raise-10m-cny-for-ai-tennis-robots-begin-overseas-mass/
+- Kicktraq: https://www.kicktraq.com/projects/262426195/aceii-one-your-ai-tennis-hitting-partner/
+- Gadgets & Wearables: https://gadgetsandwearables.com/2025/09/25/aceii-one-tennis-robot/
