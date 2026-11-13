@@ -9,7 +9,7 @@ thumbnail:
   creditName: "Taylor Vick"
   creditUrl: "https://unsplash.com/@tvick"
 
-status: draft
+status: published
 
 category: world
 tags:

@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Towfiqu barbhuiya'
   creditUrl: 'https://unsplash.com/@towfiqu999999'
 
-status: draft
+status: published
 
 category: money
 tags:
