@@ -7,6 +7,7 @@
  *   node content-ops/scripts/post-to-blogger.mjs --list          # published posts eligible for cross-post
  *   node content-ops/scripts/post-to-blogger.mjs <contentId>     # post to Blogger (live)
  *   node content-ops/scripts/post-to-blogger.mjs <contentId> --draft
+ *   node content-ops/scripts/post-to-blogger.mjs <contentId> --update  # 이미 올린 글을 현재 본문·썸네일로 갱신
  *   node content-ops/scripts/post-to-blogger.mjs <contentId> \
  *     --image <unsplash-url> --image-alt "설명" --credit "Author Name|https://unsplash.com/@author"
  *
@@ -46,9 +47,10 @@ const flagValue = (name) => {
 };
 if (args.includes('--auth')) await authFlow();
 else if (args.includes('--list')) listEligible();
+else if (args[0] && args.includes('--update')) await postToBlogger(args[0], false, true);
 else if (args[0]) await postToBlogger(args[0], args.includes('--draft'));
 else {
-  console.log('Usage: post-to-blogger.mjs --auth | --list | <contentId> [--draft]');
+  console.log('Usage: post-to-blogger.mjs --auth | --list | <contentId> [--draft | --update]');
   process.exit(1);
 }
 
@@ -78,6 +80,12 @@ function parsePost(file) {
     pubDate: get('pubDate'),
     status: get('status'),
     instagramPermalink: get('instagramPermalink'),
+    thumbnail: (() => {
+      const block = fm.match(/^thumbnail:\n((?:[ \t]+.+\n?)+)/m)?.[1];
+      if (!block) return undefined;
+      const sub = (key) => block.match(new RegExp(`^\\s+${key}:\\s*["']?(.+?)["']?\\s*$`, 'm'))?.[1];
+      return { url: sub('url'), alt: sub('alt'), creditName: sub('creditName'), creditUrl: sub('creditUrl') };
+    })(),
     tags,
     body,
   };
@@ -161,7 +169,7 @@ async function blogId(token) {
   return data.id;
 }
 
-async function postToBlogger(contentId, asDraft) {
+async function postToBlogger(contentId, asDraft, update = false) {
   const post = allPosts().find((p) => p.contentId === contentId || p.slug === contentId);
   if (!post) {
     console.error(`Post not found: ${contentId}`);
@@ -171,12 +179,19 @@ async function postToBlogger(contentId, asDraft) {
     console.error(`Refusing: status is "${post.status}", not "published".`);
     process.exit(1);
   }
-  if (existsSync(derivPath(post.contentId))) {
+  const existing = existsSync(derivPath(post.contentId))
+    ? JSON.parse(readFileSync(derivPath(post.contentId), 'utf8'))
+    : null;
+  if (update && !existing?.bloggerPostId) {
+    console.error(`Not cross-posted yet — nothing to update: ${post.contentId}`);
+    process.exit(1);
+  }
+  if (!update && existing) {
     console.error(`Already cross-posted — see ${derivPath(post.contentId)}`);
     process.exit(1);
   }
   const ageDays = ageDaysOf(post.pubDate);
-  if (ageDays < DELAY_DAYS) {
+  if (!update && ageDays < DELAY_DAYS) {
     console.error(`Refusing: pubDate ${post.pubDate} is ${ageDays.toFixed(1)}d old, delay is ${DELAY_DAYS}d.`);
     process.exit(1);
   }
@@ -190,10 +205,14 @@ async function postToBlogger(contentId, asDraft) {
     .replaceAll('href="/', `href="${SITE}/`);
 
   let figure = '';
-  const imageUrl = flagValue('--image');
+  // --update는 frontmatter thumbnail을 그대로 쓴다(crosspost-blogger.mjs와 같은 기준)
+  const thumb = update ? post.thumbnail : undefined;
+  const imageUrl = flagValue('--image') ?? thumb?.url;
   if (imageUrl) {
-    const alt = flagValue('--image-alt') ?? post.title;
-    const [creditName, creditUrl] = (flagValue('--credit') ?? '').split('|');
+    const alt = flagValue('--image-alt') ?? thumb?.alt ?? post.title;
+    const [creditName, creditUrl] = (
+      flagValue('--credit') ?? (thumb?.creditName && thumb?.creditUrl ? `${thumb.creditName}|${thumb.creditUrl}` : '')
+    ).split('|');
     const isUnsplash = (creditUrl ?? '').includes('unsplash.com');
     const credit = !creditName
       ? ''
@@ -220,6 +239,21 @@ async function postToBlogger(contentId, asDraft) {
 
   const token = await accessToken();
   const id = await blogId(token);
+  if (update) {
+    const res = await fetch(`https://www.googleapis.com/blogger/v3/blogs/${id}/posts/${existing.bloggerPostId}`, {
+      method: 'PATCH',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ title: post.title, content: html }),
+    });
+    const data = await res.json();
+    if (!data.id) throw new Error(`Blogger update failed: ${JSON.stringify(data)}`);
+    writeFileSync(
+      derivPath(post.contentId),
+      JSON.stringify({ ...existing, updatedAt: new Date().toISOString() }, null, 2) + '\n'
+    );
+    console.log(`Updated: ${data.url ?? existing.url}`);
+    return;
+  }
   const res = await fetch(
     `https://www.googleapis.com/blogger/v3/blogs/${id}/posts/${asDraft ? '?isDraft=true' : ''}`,
     {
