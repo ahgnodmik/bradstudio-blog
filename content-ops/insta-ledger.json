@@ -353,5 +353,21 @@
   "why-only-now/delivered/155-aceiilab-s-robotic-tennis-ball-machine-h.json": {
     "contentId": "bs-20261113-002",
     "date": "2026-11-13"
+  },
+  "abroad-now/pending/2026-11-13-microsoft-global-outage-november-2026.json": {
+    "contentId": "bs-20261114-001",
+    "date": "2026-11-14"
+  },
+  "abroad-now/pending/2026-11-13-microsoft-365-outage-november-2026.json": {
+    "contentId": "bs-20261114-001",
+    "date": "2026-11-14"
+  },
+  "abroad-now/pending/2026-11-13-microsoft-outage-uk-nhs-police.json": {
+    "contentId": "bs-20261114-001",
+    "date": "2026-11-14"
+  },
+  "why-only-now/delivered/158-polestar-s-new-concept-features-user-con.json": {
+    "contentId": "bs-20261114-002",
+    "date": "2026-11-14"
   }
 }
