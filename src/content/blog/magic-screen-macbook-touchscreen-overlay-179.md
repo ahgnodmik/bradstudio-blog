@@ -4,10 +4,10 @@ title: '쓰던 맥북에 붙이는 179달러 터치스크린 — Intricuit Magic
 description: '미국 스타트업 Intricuit가 맥북 화면 위에 자석으로 붙이는 터치 패널 Magic Screen을 내놓았다. 작동 방식과 호환 기종, 139·169·179·239달러로 엇갈리는 가격, 배송 상태, 애플이 직접 만든 터치스크린 맥북 프로와의 차이, 국내 구매 가능성을 여러 출처로 교차 확인해 정리했다.'
 pubDate: 2026-11-10
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1574012716378-0ca6f4c18c08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '어두운 조명 아래 맥북 프로 키보드를 가까이서 찍은 사진(Magic Screen 실물 사진 아님)'
-  creditName: 'Alexander Sinn'
-  creditUrl: 'https://unsplash.com/@swimstaralex'
+  url: 'https://www.yankodesign.com/images/design_news/2026/11/the-179-magic-screen-gives-any-macbook-a-touchscreen-with-stylus-support/intricuit_magic_screen_1.jpeg'
+  alt: '매직스크린 맥북 터치스크린 제품 이미지'
+  creditName: 'Yanko Design'
+  creditUrl: 'https://www.yankodesign.com/2026/11/09/the-179-magic-screen-gives-any-macbook-a-touchscreen-with-stylus-support/'
 
 status: published
 
@@ -107,9 +107,9 @@ seo:
 
 맥북에는 오랫동안 터치스크린이 없었다. 애플이 2026년 10월 말 OLED 터치 화면을 넣은 첫 맥북 프로를 내놓으며 그 공백을 직접 메웠지만, 시작가는 국내 기준 479만원이다. 이미 맥북을 쓰는 사람에게는 다른 선택지가 하나 더 생겼다. 미국 스타트업 Intricuit가 지금 쓰는 맥북 화면 위에 자석으로 붙이는 터치 패널 Magic Screen을 팔고 있고, Yanko Design은 11월 9일 이 제품을 179달러짜리 터치스크린이라고 소개했다. 인스타그램 왜이제나옴 카드뉴스로도 다뤘는데, 다시 확인해 보니 가격은 시점마다 139달러부터 239달러까지 다르게 알려졌고, 카드뉴스에서 외장 디스플레이라고 쓴 부분도 정확하지 않았다. 여러 출처로 교차 확인된 내용만 다시 정리했다.
 
-![어두운 조명 아래 맥북 프로 키보드 클로즈업](https://images.unsplash.com/photo-1574012716378-0ca6f4c18c08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080)
+![매직스크린 맥북 터치스크린 제품 이미지](https://www.yankodesign.com/images/design_news/2026/11/the-179-magic-screen-gives-any-macbook-a-touchscreen-with-stylus-support/intricuit_magic_screen_1.jpeg)
 
-사진: Alexander Sinn ([Unsplash 작가 페이지](https://unsplash.com/@swimstaralex)) — 일반 맥북 사진이며 Magic Screen 실물 아님. 제품 사진은 [Yanko Design 기사](https://www.yankodesign.com/2026/11/09/the-179-magic-screen-gives-any-macbook-a-touchscreen-with-stylus-support/)와 [Intricuit 공식 사이트](https://intricuit.com/)에서 볼 수 있다.
+이미지 출처: Yanko Design ([원문 링크](https://www.yankodesign.com/2026/11/09/the-179-magic-screen-gives-any-macbook-a-touchscreen-with-stylus-support/))
 
 ## 무엇이 새로운가
 

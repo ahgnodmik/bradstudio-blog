@@ -4,10 +4,10 @@ title: '움직이면서 공을 보내는 테니스 볼머신 — AceiiLab A1은 
 description: '카메라로 사람과 공을 보고 바퀴로 코트를 옮겨 다니며 공을 보내는 테니스 로봇 AceiiLab A1(킥스타터 당시 이름 Aceii One). 작동 방식, 고정형 볼머신·랠리 로봇과의 차이, 매체마다 다른 가격 정보와 배송 상태, 국내 구매 가능성을 여러 출처로 교차 확인해 정리했다.'
 pubDate: 2026-11-13
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1650496760462-cb983aca287d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '테니스 코트 위에 놓인 라켓과 테니스공(AceiiLab A1 실물 사진 아님)'
-  creditName: 'Lan Gao'
-  creditUrl: 'https://unsplash.com/@langao'
+  url: 'https://www.yankodesign.com/images/design_news/2026/10/draft-aceiilab/AceiiLab-A1-AI-Tennis-Robot-Moving-Smart-Tennis-Ball-Machine-07.jpg'
+  alt: 'AceiiLab A1 제품 이미지'
+  creditName: 'Yanko Design'
+  creditUrl: 'https://www.yankodesign.com/2026/11/11/aceiilabs-robotic-tennis-ball-machine-has-cameras-wheels-and-fits-in-your-cars-trunk/'
 
 status: published
 
@@ -104,9 +104,9 @@ seo:
 
 테니스를 혼자 연습하는 방법은 오랫동안 두 가지였다. 벽에 공을 치거나, 정해진 자리에서 공을 쏘아 주는 볼머신을 쓰는 것이다. 볼머신은 같은 공을 반복해서 받기에는 좋지만, 기계가 한자리에 서 있으니 공이 오는 방향이 금세 읽힌다. 중국계 스타트업 AceiiLab이 내놓은 테니스 로봇 A1은 이 볼머신을 바퀴 위에 올리고 카메라를 달았다. 사람과 공을 보면서 코트 위를 옮겨 다니고, 자리를 바꿔 가며 공을 보낸다는 것이 회사 설명이다. 인스타그램 왜이제나옴 카드뉴스에서 소개한 내용을 여러 매체 보도와 맞춰 보고, 교차 확인된 것만 다시 정리했다.
 
-![테니스 코트 위에 놓인 라켓과 테니스공](https://images.unsplash.com/photo-1650496760462-cb983aca287d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080)
+![AceiiLab A1 제품 이미지](https://www.yankodesign.com/images/design_news/2026/10/draft-aceiilab/AceiiLab-A1-AI-Tennis-Robot-Moving-Smart-Tennis-Ball-Machine-07.jpg)
 
-사진: Lan Gao ([Unsplash 작가 페이지](https://unsplash.com/@langao)) — 일반 테니스 코트 사진이며 AceiiLab A1 실물 아님. 제품 사진은 [Yanko Design 기사](https://www.yankodesign.com/2026/11/11/aceiilabs-robotic-tennis-ball-machine-has-cameras-wheels-and-fits-in-your-cars-trunk/)와 [New Atlas 기사](https://newatlas.com/sports/aceii-one-tennis-coaching-robot/)에서 볼 수 있다.
+이미지 출처: Yanko Design ([원문 링크](https://www.yankodesign.com/2026/11/11/aceiilabs-robotic-tennis-ball-machine-has-cameras-wheels-and-fits-in-your-cars-trunk/))
 
 ## 무엇이 새로운가
 

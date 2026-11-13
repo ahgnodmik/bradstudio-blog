@@ -4,10 +4,10 @@ title: '바퀴 셋에 2.0 터보를 얹은 로드스터 — MTPEAK One All, 2027
 description: '중국 정밀가공 업체 Guangyu Industrial이 세운 새 브랜드 MTPEAK가 EICMA 2026에서 3륜 스포츠카 One All을 처음 공개했다. 여러 출처로 교차 확인한 구조·사양과 아직 모르는 것, 국내 도로 등록 문제와 비슷한 3륜차를 정리했다.'
 pubDate: 2026-11-05
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1758620333228-fb04f3b645cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '바큇살 휠을 단 은색 빈티지 3륜차(MTPEAK One All 실물 사진 아님)'
-  creditName: 'Jeff Cooper'
-  creditUrl: 'https://unsplash.com/@jeffcooperdesign'
+  url: 'https://www.yankodesign.com/images/design_news/2026/11/mtpeak-one-all-is-a-three-wheeled-sports-car-with-a-turbo-engine-and-carbon-fiber-body/MTPEAK-One-All-Trike-10.jpg'
+  alt: 'MTPEAK 원올 3륜 터보 스포츠카 제품 이미지'
+  creditName: 'Yanko Design'
+  creditUrl: 'https://www.yankodesign.com/2026/11/04/mtpeak-one-all-is-a-limited-edition-trike-sports-car-with-a-turbo-engine-and-carbon-fiber-body/'
 
 status: published
 
@@ -101,9 +101,9 @@ seo:
 
 스포츠카라고 하면 바퀴 네 개가 당연하게 떠오른다. 이번 주 이탈리아 밀라노 모터사이클 전시회 EICMA 2026에서 처음 공개된 MTPEAK One All은 바퀴를 세 개만 달았다. 앞바퀴 둘, 뒷바퀴 하나인 오픈톱 로드스터에 2.0리터 터보 엔진을 운전석 뒤에 얹었다. 디자인 매체 Yanko Design이 소개했고, 인스타그램 왜이제나옴 카드뉴스로도 다뤘다. 이 글에서는 제조사 보도자료와 여러 나라 매체를 맞대어 확인된 내용만 정리했다.
 
-![바큇살 휠을 단 은색 빈티지 3륜차](https://images.unsplash.com/photo-1758620333228-fb04f3b645cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080)
+![MTPEAK 원올 3륜 터보 스포츠카 제품 이미지](https://www.yankodesign.com/images/design_news/2026/11/mtpeak-one-all-is-a-three-wheeled-sports-car-with-a-turbo-engine-and-carbon-fiber-body/MTPEAK-One-All-Trike-10.jpg)
 
-사진: Jeff Cooper ([Unsplash 작가 페이지](https://unsplash.com/@jeffcooperdesign)) — 3륜차 분위기를 전하기 위한 사진이며 MTPEAK One All 실물 아님. 제조사 공개 이미지는 [Yanko Design 기사](https://www.yankodesign.com/2026/11/04/mtpeak-one-all-is-a-limited-edition-trike-sports-car-with-a-turbo-engine-and-carbon-fiber-body/)와 [designboom 기사](https://www.designboom.com/technology/mtpeak-three-wheeled-sports-car-eicma-2026/)에서 볼 수 있다.
+이미지 출처: Yanko Design ([원문 링크](https://www.yankodesign.com/2026/11/04/mtpeak-one-all-is-a-limited-edition-trike-sports-car-with-a-turbo-engine-and-carbon-fiber-body/))
 
 ## 무엇이 새로운가
 

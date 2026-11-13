@@ -4,10 +4,10 @@ title: '몸체가 곧 스탠드인 접이식 프로젝터 — 오르젠 ZIP Pro,
 description: '세 번 접히는 포켓 프로젝터 Aurzen ZIP의 후속작 ZIP Pro가 IFA 2026에서 공개됐다. 1세대와 무엇이 달라졌는지, 여러 출처로 교차 확인한 가격·출시 상태와 바스키아 에디션, 국내 구매 가능성과 비슷한 제품을 정리했다.'
 pubDate: 2026-11-06
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1535016120720-40c646be5580?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '어두운 실내 탁자 위에서 빛을 쏘는 소형 프로젝터(Aurzen ZIP Pro 실물 사진 아님)'
-  creditName: 'Alex Litvin'
-  creditUrl: 'https://unsplash.com/@alexlitvin'
+  url: 'https://www.yankodesign.com/images/design_news/2026/10/aurzen-zip-pro-puts-a-foldable-projector-and-basquiat-art-on-your-holiday-gift-list/aurzen-hero.jpg'
+  alt: '오르젠 ZIP Pro 접이식 프로젝터 제품 이미지'
+  creditName: 'Yanko Design'
+  creditUrl: 'https://www.yankodesign.com/2026/11/04/aurzen-zip-pro-puts-a-foldable-projector-and-basquiat-art-on-your-holiday-gift-list/'
 
 status: published
 
@@ -110,9 +110,9 @@ seo:
 
 프로젝터를 꺼내면 늘 따라붙는 질문이 있다. 어디에 올려놓을까. 책 몇 권을 괴거나 삼각대를 따로 사는 일이 흔하다. 프로젝터 브랜드 Aurzen(오르젠)의 ZIP 시리즈는 이 문제를 몸체 구조로 풀었다. 본체가 세 부분으로 나뉘어 Z자로 접히고, 펼치면 그 자체가 받침대가 된다. 이번에 나온 ZIP Pro는 그 2세대 격 제품으로, 독일 베를린 IFA 2026에서 처음 공개됐다. 디자인 매체 Yanko Design이 연말 선물 후보로 소개했고, 인스타그램 왜이제나옴 카드뉴스로도 다뤘다. 이 글은 제조사 보도자료와 여러 나라 매체를 맞대어 확인된 내용만 정리했다.
 
-![어두운 실내 탁자 위에서 빛을 쏘는 소형 프로젝터](https://images.unsplash.com/photo-1535016120720-40c646be5580?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080)
+![오르젠 ZIP Pro 접이식 프로젝터 제품 이미지](https://www.yankodesign.com/images/design_news/2026/10/aurzen-zip-pro-puts-a-foldable-projector-and-basquiat-art-on-your-holiday-gift-list/aurzen-hero.jpg)
 
-사진: Alex Litvin ([Unsplash 작가 페이지](https://unsplash.com/@alexlitvin)) — 소형 프로젝터 분위기를 전하기 위한 사진이며 Aurzen ZIP Pro 실물 아님. 제조사 공개 이미지는 [Yanko Design 기사](https://www.yankodesign.com/2026/11/04/aurzen-zip-pro-puts-a-foldable-projector-and-basquiat-art-on-your-holiday-gift-list/)와 [Notebookcheck 기사](https://www.notebookcheck.net/Aurzen-Zip-Pro-tri-fold-pocket-projector-debuts-at-IFA-2026.1368089.0.html)에서 볼 수 있다.
+이미지 출처: Yanko Design ([원문 링크](https://www.yankodesign.com/2026/11/04/aurzen-zip-pro-puts-a-foldable-projector-and-basquiat-art-on-your-holiday-gift-list/))
 
 ## 무엇이 새로운가
 

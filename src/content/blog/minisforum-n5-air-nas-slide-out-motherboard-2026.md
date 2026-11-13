@@ -4,10 +4,10 @@ title: '미니PC가 아니라 NAS — 미니포럼 N5 Air 7640, 메인보드가 
 description: '미니포럼 N5 Air 7640은 미니PC가 아니라 하드디스크 5개를 꽂는 NAS다. 라이젠 5 7640HS, 10GbE·5GbE 랜, OCuLink와 PCIe 슬롯, 앞으로 빠지는 메인보드 트레이, 495달러부터인 가격과 10월 말 출하 일정, 국내 직구 전 확인할 관부가세·전파인증을 정리했다.'
 pubDate: 2026-10-27
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1597852074816-d933c7d2b988?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '덮개를 연 하드디스크 내부의 플래터와 헤드(N5 Air 실물 사진 아님)'
-  creditName: 'benjamin lehman'
-  creditUrl: 'https://unsplash.com/@abject'
+  url: 'https://www.yankodesign.com/images/design_news/2026/10/minisforum-n5-air-7640-makes-room-for-upgrades-with-a-slide-out-motherboard/minisforum-n5-air-01.jpg'
+  alt: '슬라이드식 마더보드 미니PC 제품 이미지'
+  creditName: 'Yanko Design'
+  creditUrl: 'https://www.yankodesign.com/2026/10/26/minisforum-n5-air-7640-makes-room-for-upgrades-with-a-slide-out-motherboard/'
 
 status: published
 
@@ -77,9 +77,9 @@ seo:
 
 미니포럼(Minisforum) N5 Air 7640은 미니PC가 아니다. 하드디스크 5개를 꽂는 NAS다. 인스타그램에서는 "미니PC"로 소개됐지만 제조사 스토어와 외신은 모두 NAS로 분류한다. 가격은 램 없는 기본 구성 495달러부터다. 미국 스토어 기준 10월 말 출하가 예정돼 있다.
 
-![덮개를 연 하드디스크 내부의 플래터와 헤드](https://images.unsplash.com/photo-1597852074816-d933c7d2b988?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080)
+![슬라이드식 마더보드 미니PC 제품 이미지](https://www.yankodesign.com/images/design_news/2026/10/minisforum-n5-air-7640-makes-room-for-upgrades-with-a-slide-out-motherboard/minisforum-n5-air-01.jpg)
 
-사진: benjamin lehman ([Unsplash 작가 페이지](https://unsplash.com/@abject)) — 분위기를 전하기 위한 사진이며 N5 Air 실물 아님. 실제 모습은 [Yanko Design 기사](https://www.yankodesign.com/2026/10/26/minisforum-n5-air-7640-makes-room-for-upgrades-with-a-slide-out-motherboard/)와 [미니포럼 스토어](https://store.minisforum.com/products/minisforum-ai-nas-n5-air-7640)에서 볼 수 있다.
+이미지 출처: Yanko Design ([원문 링크](https://www.yankodesign.com/2026/10/26/minisforum-n5-air-7640-makes-room-for-upgrades-with-a-slide-out-motherboard/))
 
 ## 무엇이 새로운가
 

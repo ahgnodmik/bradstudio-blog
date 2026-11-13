@@ -4,10 +4,10 @@ title: '서랍 속 안드로이드폰이 로봇의 뇌로 — UCLA 두 발 로�
 description: 'UCLA 로봇연구소가 안드로이드 스마트폰을 두뇌로 쓰는 두 발 보행 로봇 PhoneBot을 공개했다. 키 약 48cm, 무게 1.8kg 미만, 서보 13개, 폰 제외 부품값 약 400달러. 걷기·사람 따라가기·넘어진 뒤 일어나기와 아직 못 하는 것을 정리했다.'
 pubDate: 2026-10-14
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1759680191098-8a622ad64a6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '여러 대의 오래된 휴대전화와 전자기기'
-  creditName: 'Tasha Kostyuk'
-  creditUrl: 'https://unsplash.com/@tashakostyuk'
+  url: 'https://assets.newatlas.com/dims4/default/c8906ec/2147483647/strip/true/crop/1376x768+0+0/resize/1376x768!/format/webp/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2F0e%2F71%2Fb25311df449aa951e065e299e779%2Fgenerated-image-5.png'
+  alt: '폰브레인 휴머노이드 로봇 제품 이미지'
+  creditName: 'New Atlas'
+  creditUrl: 'https://newatlas.com/robotics/ucla-scientists-android-phone-walking-robot-companion/'
 
 status: published
 
@@ -71,6 +71,10 @@ seo:
 > - 조사일: 2026년 10월 14일
 > - 자료: New Atlas, Interesting Engineering, Hackster.io 보도와 연구팀 논문 소개
 > - 원칙: 2곳 이상에서 확인된 사양만 적었다. 판매 제품이 아닌 연구 프로젝트다.
+
+![폰브레인 휴머노이드 로봇 제품 이미지](https://assets.newatlas.com/dims4/default/c8906ec/2147483647/strip/true/crop/1376x768+0+0/resize/1376x768!/format/webp/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2F0e%2F71%2Fb25311df449aa951e065e299e779%2Fgenerated-image-5.png)
+
+이미지 출처: New Atlas ([원문 링크](https://newatlas.com/robotics/ucla-scientists-android-phone-walking-robot-companion/))
 
 ## 무엇이 새로운가: 로봇 두뇌를 폰으로 대신
 

@@ -4,10 +4,10 @@ title: '버너와 냄비받침을 상자 하나에 접어 넣는 캠핑 스토�
 description: '중국 디자이너들이 2023년에 내놓은 Easy Cooking은 가스 스토브의 버너 머리와 냄비받침을 케이스 안으로 접어 넣는 휴대용 스토브 컨셉이다. 여러 출처로 확인한 구조와 아직 모르는 점, 지금 살 수 있는 비슷한 접이식 버너를 정리했다.'
 pubDate: 2026-11-04
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1792513688573-d6c4ab91be76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '초록 산을 배경으로 낡은 나무 테이블 위에 놓인 캠핑 스토브 두 대와 냄비(Easy Cooking 실물 사진 아님)'
-  creditName: 'Radomir Moysia'
-  creditUrl: 'https://unsplash.com/@radomir456'
+  url: 'https://www.yankodesign.com/images/design_news/2026/11/easy-cooking-stove-concept-folds-its-burner-and-pot-supports-into-one-case/easy-cooking-cassette-furnace-concept-06.jpg'
+  alt: '폴딩 캠핑 스토브 제품 이미지'
+  creditName: 'Yanko Design'
+  creditUrl: 'https://www.yankodesign.com/2026/11/03/easy-cooking-stove-concept-folds-its-burner-and-pot-supports-into-one-case/'
 
 status: published
 
@@ -80,9 +80,9 @@ seo:
 
 캠핑용 가스 스토브는 생각보다 자리를 많이 차지한다. 특히 부탄캔을 옆구리에 끼워 쓰는 카세트형 휴대용 가스레인지는 납작한 상자 모양 그대로 가방에 들어가야 하고, 냄비받침이 튀어나와 있어 다른 짐과 부딪히기 쉽다. 디자인 매체 Yanko Design이 소개한 Easy Cooking은 이 문제를 버너 머리와 냄비받침을 케이스 안으로 통째로 접어 넣는 방식으로 풀어 보려는 컨셉이다. 인스타그램 왜이제나옴 카드뉴스로도 다뤘다.
 
-![초록 산을 배경으로 나무 테이블 위에 놓인 캠핑 스토브 두 대](https://images.unsplash.com/photo-1792513688573-d6c4ab91be76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080)
+![폴딩 캠핑 스토브 제품 이미지](https://www.yankodesign.com/images/design_news/2026/11/easy-cooking-stove-concept-folds-its-burner-and-pot-supports-into-one-case/easy-cooking-cassette-furnace-concept-06.jpg)
 
-사진: Radomir Moysia ([Unsplash 작가 페이지](https://unsplash.com/@radomir456)) — 분위기를 전하기 위한 사진이며 Easy Cooking 실물 아님. 컨셉 렌더링 이미지는 [Yanko Design 기사](https://www.yankodesign.com/2026/11/03/easy-cooking-stove-concept-folds-its-burner-and-pot-supports-into-one-case/)에서 볼 수 있다.
+이미지 출처: Yanko Design ([원문 링크](https://www.yankodesign.com/2026/11/03/easy-cooking-stove-concept-folds-its-burner-and-pot-supports-into-one-case/))
 
 ## 무엇이 새로운가
 

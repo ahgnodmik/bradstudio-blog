@@ -4,10 +4,10 @@ title: '맥 미니 대신 AI 에이전트만 돌리는 499달러 리눅스 박�
 description: '미국 스타트업 Pamir가 AI 에이전트를 24시간 돌리는 용도로 만든 초소형 리눅스 컴퓨터 Lapis One을 공개했다. 맥 미니와 무엇이 다른지, 여러 출처로 교차 확인한 사양·가격·배송 일정, 엇갈리는 숫자와 국내 구매 가능성을 정리했다.'
 pubDate: 2026-11-09
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1735810501840-a57483d6dc0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '깨끗한 책상 위에 놓인 애플 맥 미니(Lapis One 실물 사진 아님)'
-  creditName: 'Mahmudul Hasan'
-  creditUrl: 'https://unsplash.com/@mhmanik02'
+  url: 'https://www.yankodesign.com/images/design_news/2026/09/the-499-lapis-one-is-a-tiny-mac-mini-alternative-built-just-to-run-your-ai-agents/lapis_one_1.jpg'
+  alt: 'AI 에이전트 전용 미니PC 제품 이미지'
+  creditName: 'Yanko Design'
+  creditUrl: 'https://www.yankodesign.com/2026/09/20/the-499-lapis-one-is-a-tiny-mac-mini-alternative-built-just-to-run-your-ai-agents/'
 
 status: published
 
@@ -113,9 +113,9 @@ seo:
 
 AI 에이전트를 집에서 24시간 돌리려는 사람들이 올해 봄 맥 미니를 쓸어 갔다. 에이전트는 사람이 자는 동안에도 메일을 정리하고 코드를 고치고 웹을 뒤진다. 그러려면 꺼지지 않는 컴퓨터가 한 대 필요하다. 작고 조용하고 전기를 덜 먹는 맥 미니가 그 자리를 차지했는데, 미국 샌프란시스코 스타트업 Pamir가 이 자리를 노린 전용 기기 Lapis One을 2026년 9월 공개했다. Yanko Design은 이 제품을 499달러짜리 작은 맥 미니 대안이라고 소개했다. 인스타그램 왜이제나옴 카드뉴스로도 다뤘는데, 확인해 보니 카드뉴스에 적은 내용 가운데 배송 일정과 가격 일부는 매체마다 숫자가 달랐다. 여러 출처를 맞대어 확인된 내용만 정리했다.
 
-![깨끗한 책상 위에 놓인 애플 맥 미니](https://images.unsplash.com/photo-1735810501840-a57483d6dc0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080)
+![AI 에이전트 전용 미니PC 제품 이미지](https://www.yankodesign.com/images/design_news/2026/09/the-499-lapis-one-is-a-tiny-mac-mini-alternative-built-just-to-run-your-ai-agents/lapis_one_1.jpg)
 
-사진: Mahmudul Hasan ([Unsplash 작가 페이지](https://unsplash.com/@mhmanik02)) — 비교 대상인 맥 미니 사진이며 Lapis One 실물 아님. 제품 사진은 [Yanko Design 기사](https://www.yankodesign.com/2026/09/20/the-499-lapis-one-is-a-tiny-mac-mini-alternative-built-just-to-run-your-ai-agents/)와 [Pamir 공식 사이트](https://www.pamir.ai/)에서 볼 수 있다.
+이미지 출처: Yanko Design ([원문 링크](https://www.yankodesign.com/2026/09/20/the-499-lapis-one-is-a-tiny-mac-mini-alternative-built-just-to-run-your-ai-agents/))
 
 ## 무엇이 새로운가
 

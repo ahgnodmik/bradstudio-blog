@@ -4,10 +4,10 @@ title: '포르셰 550 스파이더를 80%로 줄인 전기차 550 J — 헤들�
 description: '영국 헤들리 스튜디오가 포르셰 공식 라이선스로 1950년대 경주차 550 스파이더를 80% 크기 전기차로 다시 만들었다. 미니카가 아니라 두 사람이 타는 2.9m 트랙 전용차라는 점, 48V 구동계와 출력, 확인된 가격과 아직 엇갈리는 숫자, 국내 구매 가능성을 정리했다.'
 pubDate: 2026-10-22
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1780914340614-526807eb4783?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '연석과 잔디, 나무로 둘러싸인 굽은 서킷(550 J 실물 사진 아님)'
-  creditName: 'Wolfgang Vrede'
-  creditUrl: 'https://unsplash.com/@wvrede'
+  url: 'https://www.designboom.com/wp-content/uploads/2026/10/porsche-550-spyder-j-hedley-studios-mini-electric-car-designboom-700-500x400-22b08q85r758.jpg'
+  alt: '헤들리 전기 미니 스포츠카 제품 이미지'
+  creditName: 'designboom'
+  creditUrl: 'https://www.designboom.com/technology/hedley-studios-shrinks-porsche-550-j-spyder-electric-car/'
 
 status: published
 
@@ -77,9 +77,9 @@ seo:
 
 인스타그램에서는 "손바닥 크기 미니카"로 소개됐지만 실제는 다르다. 길이 약 2.9m, 폭 약 1.2m에 어른 두 명이 앉는다. 국내 경차 길이 상한(3.6m)보다 70cm쯤 짧은 진짜 자동차다.
 
-![연석과 잔디, 나무로 둘러싸인 굽은 서킷](https://images.unsplash.com/photo-1780914340614-526807eb4783?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080)
+![헤들리 전기 미니 스포츠카 제품 이미지](https://www.designboom.com/wp-content/uploads/2026/10/porsche-550-spyder-j-hedley-studios-mini-electric-car-designboom-700-500x400-22b08q85r758.jpg)
 
-사진: Wolfgang Vrede ([Unsplash 작가 페이지](https://unsplash.com/@wvrede)) — 분위기를 전하기 위한 사진이며 550 J 실물 아님. 실제 모습은 [포르셰 뉴스룸](https://newsroom.porsche.com/en/2026/company/porsche-550-spyder-j-hedley-studios-43244.html)과 [designboom 기사](https://www.designboom.com/technology/hedley-studios-shrinks-porsche-550-j-spyder-electric-car/)에서 볼 수 있다.
+이미지 출처: designboom ([원문 링크](https://www.designboom.com/technology/hedley-studios-shrinks-porsche-550-j-spyder-electric-car/))
 
 ## 무엇이 새로운가
 

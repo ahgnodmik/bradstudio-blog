@@ -4,10 +4,10 @@ title: '헤드셋 없이 앉기만 하면 VR — 규슈대 마운트리스 공�
 description: '일본 규슈대 연구팀이 머리에 아무것도 쓰지 않고 의자에 앉아 가상현실을 보는 장치를 SIGGRAPH 2026에서 공개했다. 미세 거울 배열로 공중에 영상을 띄우는 원리, 기존 VR 헤드셋과의 차이, 밝기·시야각 한계를 정리했다.'
 pubDate: 2026-10-10
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '흰색 VR 헤드셋'
-  creditName: 'Remy Gieling'
-  creditUrl: 'https://unsplash.com/@gieling'
+  url: 'https://www.yankodesign.com/images/design_news/2026/10/this-vr-system-gets-bigger-so-it-doesnt-have-to-touch-your-face/vr-chair-prototype-02.jpg'
+  alt: '안경 쓰지 않는 VR 시스템 제품 이미지'
+  creditName: 'Yanko Design'
+  creditUrl: 'https://www.yankodesign.com/2026/10/08/this-vr-system-gets-bigger-so-it-doesnt-have-to-touch-your-face/'
 
 status: published
 

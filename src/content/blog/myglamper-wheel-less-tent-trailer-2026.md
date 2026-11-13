@@ -4,10 +4,10 @@ title: '바퀴 없이 견인고리에 거는 12인용 에어 텐트 — 호주 �
 description: '호주 마이글램퍼(MyGlamper)가 차 뒤 견인고리에 바퀴 없이 매달고 다니다 캠핑장에서 공기로 부풀리는 텐트 트레일러를 내놨다. 모델별 인원, 무게, 설치 시간, 사전 주문 가격을 교차 확인했고 툴레 아웃셋과 비교해 국내에서 쓸 때 따져야 할 점을 정리했다.'
 pubDate: 2026-10-31
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1598417136294-7c1c4c94931f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '아침 햇살이 드는 숲속 캠핑장의 텐트(마이글램퍼 실물 사진 아님)'
-  creditName: 'Awar Meman'
-  creditUrl: 'https://unsplash.com/@pdxphotographer'
+  url: 'https://assets.newatlas.com/dims4/default/21e16ae/2147483647/strip/true/crop/1448x1051+0+0/resize/1323x960!/format/webp/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2F54%2F99%2Fae6f0763490bb8f70047185b4b36%2Fmyglamper-solar-facia-fitted-detail-copy.jpg'
+  alt: '12인용 에어 캠핑 트레일러 제품 이미지'
+  creditName: 'New Atlas'
+  creditUrl: 'https://newatlas.com/tents/myglamper-hitch-up-inflatable-camping-cabin/'
 
 status: published
 
@@ -104,9 +104,9 @@ seo:
 
 회사는 이 물건을 텐트가 아니라 "바퀴 없는 텐트 트레일러"라고 부른다. 바퀴 달린 트레일러를 끌지 않고, 자전거 거치대처럼 차 뒤 견인고리(토우바)에 상자를 꽂아 다닌다. New Atlas, Yanko Design, HiConsumption, autoevolution이 10월 말 잇달아 소개했다.
 
-![아침 햇살이 드는 숲속 캠핑장의 텐트](https://images.unsplash.com/photo-1598417136294-7c1c4c94931f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080)
+![12인용 에어 캠핑 트레일러 제품 이미지](https://assets.newatlas.com/dims4/default/21e16ae/2147483647/strip/true/crop/1448x1051+0+0/resize/1323x960!/format/webp/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2F54%2F99%2Fae6f0763490bb8f70047185b4b36%2Fmyglamper-solar-facia-fitted-detail-copy.jpg)
 
-사진: Awar Meman ([Unsplash 작가 페이지](https://unsplash.com/@pdxphotographer)) — 분위기를 전하기 위한 사진이며 마이글램퍼 실물 아님. 실제 제품 모습은 [New Atlas 기사](https://newatlas.com/tents/myglamper-hitch-up-inflatable-camping-cabin/)와 [마이글램퍼 공식 모델 페이지](https://myglamper.com.au/models/)에서 볼 수 있다.
+이미지 출처: New Atlas ([원문 링크](https://newatlas.com/tents/myglamper-hitch-up-inflatable-camping-cabin/))
 
 ## 무엇이 새로운가
 

@@ -4,10 +4,10 @@ title: '도요타 "미(me) 시리즈" 휠체어 대체 콘셉트 3종 — 다리
 description: '도요타가 재팬 모빌리티쇼 2025에서 처음 보인 워크 미·부스트 미·챌린지 미가 사람을 태우고 움직이는 영상을 공개했다. 세 콘셉트가 각각 무엇을 하는지, 시판 계획과 가격이 있는지, 지금 한국에서 쓸 수 있는 보조기기 지원 제도는 무엇인지 확인된 것만 정리했다.'
 pubDate: 2026-10-26
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1788112076838-4193ab076dd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '고가 보행로로 이어지는 난간 달린 콘크리트 계단(도요타 콘셉트와 무관한 일반 사진)'
-  creditName: 'Alexandre Juca'
-  creditUrl: 'https://unsplash.com/@ajuca'
+  url: 'https://s3files.core77.com/blog/images/lead_n_spotlight/1854511_lead_400_145699_.jpg'
+  alt: '휠체어 대체 모빌리티 콘셉트 제품 이미지'
+  creditName: 'Core77'
+  creditUrl: 'https://www.core77.com/posts/145699/Toyota-Releases-Video-of-Wheelchair-Alternative-Mobility-Concepts-in-Action'
 
 status: published
 
@@ -87,6 +87,10 @@ seo:
 ![고가 보행로로 이어지는 난간 달린 콘크리트 계단](https://images.unsplash.com/photo-1788112076838-4193ab076dd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080)
 
 *일반 계단 사진이다. 도요타 콘셉트와 관계없다. 사진: Alexandre Juca / Unsplash*
+
+![휠체어 대체 모빌리티 콘셉트 제품 이미지](https://s3files.core77.com/blog/images/lead_n_spotlight/1854511_lead_400_145699_.jpg)
+
+이미지 출처: Core77 ([원문 링크](https://www.core77.com/posts/145699/Toyota-Releases-Video-of-Wheelchair-Alternative-Mobility-Concepts-in-Action))
 
 ## 세 콘셉트 이름부터 바로잡기
 

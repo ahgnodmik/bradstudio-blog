@@ -32,7 +32,7 @@ const category = CATEGORIES[post.data.category as keyof typeof CATEGORIES];
 			{
 				thumb?.creditName && (
 					<span class="credit">
-						사진{' '}
+						{thumb.creditUrl?.includes('unsplash.com') ? '사진' : '이미지 출처'}{' '}
 						{thumb.creditUrl ? (
 							<a href={thumb.creditUrl} rel="nofollow noopener">
 								{thumb.creditName}
@@ -40,7 +40,7 @@ const category = CATEGORIES[post.data.category as keyof typeof CATEGORIES];
 						) : (
 							thumb.creditName
 						)}
-						/Unsplash
+						{thumb.creditUrl?.includes('unsplash.com') && '/Unsplash'}
 					</span>
 				)
 			}

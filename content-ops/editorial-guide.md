@@ -103,7 +103,7 @@
 - 스타일: 흰 배경, Navy 헤더, Blue/Green/Purple/Orange 포인트, Rounded Card, 장식 최소화, 데이터 인포그래픽
 - 모바일에서 읽히는 큰 글자, 표 안 긴 설명 금지
 - 글자와 박스가 겹치지 않게 여백 확보. 표가 길면 내용을 줄이거나 높이를 늘린다.
-- 직접 만든 이미지는 `public/images/<contentId>/`에 두고 alt를 구체적으로 쓴다. 썸네일은 기존처럼 Unsplash 또는 직접 만든 숫자 카드.
+- 직접 만든 이미지는 `public/images/<contentId>/`에 두고 alt를 구체적으로 쓴다. 썸네일은 기존처럼 Unsplash 또는 직접 만든 숫자 카드. 단 신제품 글은 원문 제품 이미지 + `이미지 출처: <매체명> (원문 링크)` 필수(`insta-to-blog.md`).
 
 ## 9. 발행 전 체크
 

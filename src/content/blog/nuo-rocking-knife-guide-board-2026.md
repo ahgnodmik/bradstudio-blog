@@ -4,10 +4,10 @@ title: '흔들칼이 도마 홈 안에서 움직인다 — 독일 디자인 학�
 description: '독일 할레의 부르크 기비헨슈타인 예술디자인대학 학생 프로젝트 NUO는 오목한 물푸레나무 도마와 스테인리스 흔들칼을 한 세트로 묶었다. 두 매체 보도로 확인한 구조와 아직 모르는 점, 국내에서 비슷한 반달칼·도마 세트를 고를 때 볼 점을 정리했다.'
 pubDate: 2026-11-02
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1604543631489-4c03c8cc6ded?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '나무 테이블 위에 놓인 초록 허브(NUO 실물 사진 아님)'
-  creditName: 'Kevin Doran'
-  creditUrl: 'https://unsplash.com/@kfitzdor'
+  url: 'https://www.yankodesign.com/images/design_news/2026/10/nuo-pairs-a-rocking-knife-with-a-board-that-actually-guides-it/nuo-0.jpg'
+  alt: 'NUO 가이드 칼받침 제품 이미지'
+  creditName: 'Yanko Design'
+  creditUrl: 'https://www.yankodesign.com/2026/10/31/nuo-pairs-a-rocking-knife-with-a-board-that-actually-guides-it/'
 
 status: published
 
@@ -81,9 +81,9 @@ seo:
 
 Yanko Design이 10월 31일 이 프로젝트를 소개했고, FreeYork도 같은 프로젝트를 다뤘다. 두 매체 모두 독일 할레에 있는 부르크 기비헨슈타인 예술디자인대학(Burg Giebichenstein University of Art and Design Halle)의 학생 뮈니레 찰르쉬르(Münire Çalışır)의 작업이라고 적었다. 팔리는 상품이 아니라 학교 과제에서 나온 디자인이다.
 
-![나무 테이블 위에 놓인 초록 허브](https://images.unsplash.com/photo-1604543631489-4c03c8cc6ded?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080)
+![NUO 가이드 칼받침 제품 이미지](https://www.yankodesign.com/images/design_news/2026/10/nuo-pairs-a-rocking-knife-with-a-board-that-actually-guides-it/nuo-0.jpg)
 
-사진: Kevin Doran ([Unsplash 작가 페이지](https://unsplash.com/@kfitzdor)) — 분위기를 전하기 위한 사진이며 NUO 실물 아님. 실제 디자인 모습은 [Yanko Design 기사](https://www.yankodesign.com/2026/10/31/nuo-pairs-a-rocking-knife-with-a-board-that-actually-guides-it/)에서 볼 수 있다.
+이미지 출처: Yanko Design ([원문 링크](https://www.yankodesign.com/2026/10/31/nuo-pairs-a-rocking-knife-with-a-board-that-actually-guides-it/))
 
 ## 무엇이 새로운가
 

@@ -4,10 +4,10 @@ title: '수영장 물속으로 음악을 보내는 스피커 — 듀라모비 W1
 description: '듀라모비(duraMOBI)가 수영장 가장자리에 걸어 물속으로 소리를 내보내는 휴대용 수중 스피커 W150을 킥스타터에 올렸다. 커버 면적, 재생 시간, 얼리버드 가격을 교차 확인했고 벽 매립형 수중 스피커, 수영용 골전도 이어폰과 비교해 국내에서 고를 수 있는 길을 정리했다.'
 pubDate: 2026-11-01
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1726644082642-bdec54d81526?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '위에서 내려다본 파란 수영장 물(듀라모비 W150 실물 사진 아님)'
-  creditName: 'Dan Counsell'
-  creditUrl: 'https://unsplash.com/@dancounsell'
+  url: 'https://www.yankodesign.com/images/design_news/2026/10/duramobis-underwater-speaker-turns-your-pool-into-a-sound-system/pool-music-player.jpg'
+  alt: '수중 블루투스 스피커 제품 이미지'
+  creditName: 'Yanko Design'
+  creditUrl: 'https://www.yankodesign.com/2026/10/26/duramobis-underwater-speaker-turns-your-pool-into-a-sound-system/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=duramobis-underwater-speaker-turns-your-pool-into-a-sound-system'
 
 status: published
 
@@ -83,9 +83,9 @@ seo:
 
 제품 이름은 풀 오디오 시리즈(Pool Audio Series) W150이다. 10월 21일 보도자료로 공개됐고, Yanko Design이 10월 26일 소개했다. 판매는 킥스타터 크라우드펀딩으로 시작했다.
 
-![위에서 내려다본 파란 수영장 물](https://images.unsplash.com/photo-1726644082642-bdec54d81526?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080)
+![수중 블루투스 스피커 제품 이미지](https://www.yankodesign.com/images/design_news/2026/10/duramobis-underwater-speaker-turns-your-pool-into-a-sound-system/pool-music-player.jpg)
 
-사진: Dan Counsell ([Unsplash 작가 페이지](https://unsplash.com/@dancounsell)) — 분위기를 전하기 위한 사진이며 듀라모비 W150 실물 아님. 실제 제품 모습은 [Yanko Design 기사](https://www.yankodesign.com/2026/10/26/duramobis-underwater-speaker-turns-your-pool-into-a-sound-system/)에서 볼 수 있다.
+이미지 출처: Yanko Design ([원문 링크](https://www.yankodesign.com/2026/10/26/duramobis-underwater-speaker-turns-your-pool-into-a-sound-system/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=duramobis-underwater-speaker-turns-your-pool-into-a-sound-system))
 
 ## 무엇이 새로운가
 

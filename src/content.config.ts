@@ -19,7 +19,7 @@ const blog = defineCollection({
 			pubDate: z.coerce.date(),
 			updatedDate: z.coerce.date().optional(),
 			heroImage: z.optional(image()),
-			// 목록·그리드 카드용 원격 썸네일 (Unsplash/Pexels 무료 이미지, 저작자 표기 필수)
+			// 목록·그리드 카드용 원격 썸네일 (신제품 글은 원문 제품 이미지 + 매체명·원문 URL, 그 외 Unsplash/Pexels, 출처 표기 필수)
 			thumbnail: z
 				.object({
 					url: z.string().url(),

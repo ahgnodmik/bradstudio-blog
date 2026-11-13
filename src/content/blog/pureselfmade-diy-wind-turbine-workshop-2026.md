@@ -4,10 +4,10 @@ title: '풍력발전기를 부품부터 직접 만든다 — 오스트리아 Pur
 description: '오스트리아의 PureSelfMade는 스코틀랜드 휴 피곳의 설계로 참가자가 날개와 발전기까지 직접 만드는 소형 풍력발전기 제작 워크숍을 연다. 여러 출처로 확인한 내용과 아직 모르는 점, 국내 소형풍력 인증 제도와 비슷한 선택지를 정리했다.'
 pubDate: 2026-11-03
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1785268590647-f468355d1029?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '푸른 하늘 아래 초록 들판에 선 소형 풍력발전기 두 대(PureSelfMade 실물 사진 아님)'
-  creditName: 'Antje Winkler'
-  creditUrl: 'https://unsplash.com/@antjewinkler'
+  url: 'https://s3files.core77.com/blog/images/lead_n_spotlight/1855846_lead_400_145808_.jpg'
+  alt: 'DIY 풍력발전기 워크숍 제품 이미지'
+  creditName: 'Core77'
+  creditUrl: 'https://www.core77.com/posts/145808/PureSelfMades-Build-Your-Own-Wind-Turbine-Workshops'
 
 status: published
 
@@ -89,9 +89,9 @@ seo:
 
 풍력발전기라고 하면 보통 수십 미터 높이의 하얀 날개를 떠올린다. 공장에서 만들고 전문 업체가 세우는 설비다. 그런데 유럽에서는 일반인이 며칠 동안 모여 날개를 깎고 발전기 코일을 감아 작은 풍력발전기를 처음부터 만드는 워크숍이 꾸준히 열리고 있다. 오스트리아의 PureSelfMade가 대표적이다. 디자인 매체 Core77이 이 워크숍을 소개했고, 인스타그램 왜이제나옴 카드뉴스로도 다뤘다.
 
-![푸른 하늘 아래 초록 들판에 선 소형 풍력발전기 두 대](https://images.unsplash.com/photo-1785268590647-f468355d1029?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080)
+![DIY 풍력발전기 워크숍 제품 이미지](https://s3files.core77.com/blog/images/lead_n_spotlight/1855846_lead_400_145808_.jpg)
 
-사진: Antje Winkler ([Unsplash 작가 페이지](https://unsplash.com/@antjewinkler)) — 분위기를 전하기 위한 사진이며 PureSelfMade 워크숍 실물 아님. 실제 워크숍 모습은 [Core77 기사](https://www.core77.com/posts/145808/PureSelfMades-Build-Your-Own-Wind-Turbine-Workshops)에서 볼 수 있다.
+이미지 출처: Core77 ([원문 링크](https://www.core77.com/posts/145808/PureSelfMades-Build-Your-Own-Wind-Turbine-Workshops))
 
 ## 무엇이 새로운가
 

@@ -194,11 +194,15 @@ async function postToBlogger(contentId, asDraft) {
   if (imageUrl) {
     const alt = flagValue('--image-alt') ?? post.title;
     const [creditName, creditUrl] = (flagValue('--credit') ?? '').split('|');
-    const credit = creditName
-      ? `<p style="text-align: center; font-size: small; color: #777;">` +
-        `Photo by <a href="${creditUrl}?utm_source=bradstudio&utm_medium=referral">${creditName}</a> on ` +
-        `<a href="https://unsplash.com/?utm_source=bradstudio&utm_medium=referral">Unsplash</a></p>\n`
-      : '';
+    const isUnsplash = (creditUrl ?? '').includes('unsplash.com');
+    const credit = !creditName
+      ? ''
+      : isUnsplash
+        ? `<p style="text-align: center; font-size: small; color: #777;">` +
+          `Photo by <a href="${creditUrl}?utm_source=bradstudio&utm_medium=referral">${creditName}</a> on ` +
+          `<a href="https://unsplash.com/?utm_source=bradstudio&utm_medium=referral">Unsplash</a></p>\n`
+        : `<p style="text-align: center; font-size: small; color: #777;">` +
+          `이미지 출처: <a href="${creditUrl}" rel="nofollow noopener">${creditName}</a></p>\n`;
     figure =
       `<div class="separator" style="clear: both; text-align: center;">` +
       `<img src="${imageUrl}" alt="${alt}" style="max-width: 100%; height: auto;" /></div>` +

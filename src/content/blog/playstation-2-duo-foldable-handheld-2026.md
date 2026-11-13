@@ -4,10 +4,10 @@ title: '고장 난 PS2 세 대와 폴더블폰 화면으로 만든 휴대용 PS2
 description: '개인 제작자 LCLDIY가 벼룩시장에서 20달러에 산 고장 난 PS2 세 대의 기판과 초기 폴더블폰의 플렉시블 화면으로 접히는 휴대용 PS2 "플레이스테이션 2 듀오"를 만들었다. 여러 매체 보도를 교차 확인해 무엇이 새로운지, 판매 여부, 국내에서 PS2 게임을 휴대하며 즐길 방법을 정리했다.'
 pubDate: 2026-10-30
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1602029908656-b54d40a76ad8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '흰 바탕 위에 놓인 레트로 게임 컨트롤러(플레이스테이션 2 듀오 실물 사진 아님)'
-  creditName: 'Devin Berko'
-  creditUrl: 'https://unsplash.com/@devinnn_b'
+  url: 'https://www.yankodesign.com/images/design_news/2026/10/656302/diy-foldable-playstation-2-handheld-04.jpg'
+  alt: '폴더블 화면 PS2 핸드헬드 제품 이미지'
+  creditName: 'Yanko Design'
+  creditUrl: 'https://www.yankodesign.com/2026/10/28/this-diy-playstation-2-handheld-gives-a-foldable-phone-screen-a-new-job/'
 
 status: published
 
@@ -110,9 +110,9 @@ seo:
 
 플레이스테이션 2(PS2)를 들고 다니고 싶다는 바람은 오래됐다. 소니가 공식 집계로 1억 6천만 대를 판 게임기다. VGC와 TweakTown이 소니의 플레이스테이션 30주년 페이지를 근거로 이 숫자를 전했다. 그런데 소니는 PS2를 휴대용으로 만든 적이 없다. 그 빈자리를 한 개인 제작자가 채웠다. 고장 난 PS2 세 대와 폴더블폰 화면으로 접히는 휴대용 PS2를 만들었다. 이름은 "플레이스테이션 2 듀오(PlayStation 2 DUO)"다.
 
-![흰 바탕 위에 놓인 레트로 게임 컨트롤러](https://images.unsplash.com/photo-1602029908656-b54d40a76ad8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080)
+![폴더블 화면 PS2 핸드헬드 제품 이미지](https://www.yankodesign.com/images/design_news/2026/10/656302/diy-foldable-playstation-2-handheld-04.jpg)
 
-사진: Devin Berko ([Unsplash 작가 페이지](https://unsplash.com/@devinnn_b)) — 분위기를 전하기 위한 사진이며 플레이스테이션 2 듀오 실물 아님. 실제 모습은 [Yanko Design 기사](https://www.yankodesign.com/2026/10/28/this-diy-playstation-2-handheld-gives-a-foldable-phone-screen-a-new-job/)와 [제작자의 YouTube 영상](https://www.youtube.com/watch?v=Vc-boZnGRQk)에서 볼 수 있다.
+이미지 출처: Yanko Design ([원문 링크](https://www.yankodesign.com/2026/10/28/this-diy-playstation-2-handheld-gives-a-foldable-phone-screen-a-new-job/))
 
 ## 무엇이 새로운가
 

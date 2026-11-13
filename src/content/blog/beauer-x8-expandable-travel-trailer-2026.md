@@ -4,10 +4,10 @@ title: '1분 만에 세 배로 커지는 8인용 카라반 보어 X8 — 30㎡, 
 description: '프랑스 보어(Beauer)가 버튼 하나로 양옆 모듈을 밀어내 실내를 약 30㎡로 키우는 8인용 확장형 트레일러 X8을 내놨다. 접은 크기와 무게, 가격, 예약 상태를 교차 확인했고, 국내에서 끌려면 필요한 소형견인차 면허와 등록·검사 기준을 정리했다.'
 pubDate: 2026-10-28
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1783522268165-53979c869c5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '파란 하늘 아래 외딴 캠핑장에 세워진 카라반과 차량들(보어 X8 실물 사진 아님)'
-  creditName: 'snap wander'
-  creditUrl: 'https://unsplash.com/@passimage'
+  url: 'https://www.yankodesign.com/images/design_news/2026/10/beauer-x8-transforming-travel-trailer-has-enough-room-for-the-whole-family-and-some-more/Beauer-X8-expandable-travel-trailer-1.jpg'
+  alt: '비어 X8 펼침식 캠핑트레일러 제품 이미지'
+  creditName: 'Yanko Design'
+  creditUrl: 'https://www.yankodesign.com/2026/10/27/beauer-x8-transforming-travel-trailer-has-enough-room-for-the-whole-family-and-some-more/'
 
 status: published
 
@@ -102,9 +102,9 @@ seo:
 
 인스타그램에서는 "온 가족이 들어가는 변신 트레일러"로 돌았다. 숫자를 맞춰 보면 과장은 아니다. 30㎡는 약 9평이다. 길이 6.65m짜리 몸체에서 9평 공간이 나온다. 다만 무게가 2.6톤을 넘는다. 국내에서 끌려면 따로 면허가 필요하다.
 
-![파란 하늘 아래 외딴 캠핑장에 세워진 카라반과 차량들](https://images.unsplash.com/photo-1783522268165-53979c869c5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080)
+![비어 X8 펼침식 캠핑트레일러 제품 이미지](https://www.yankodesign.com/images/design_news/2026/10/beauer-x8-transforming-travel-trailer-has-enough-room-for-the-whole-family-and-some-more/Beauer-X8-expandable-travel-trailer-1.jpg)
 
-사진: snap wander ([Unsplash 작가 페이지](https://unsplash.com/@passimage)) — 분위기를 전하기 위한 사진이며 보어 X8 실물 아님. 실제 모습은 [보어 공식 페이지](https://beauer.fr/en/modele-beauer/beauer-x8/)와 [New Atlas 기사](https://newatlas.com/camping-trailers/sneaky-beauer-x8-size-tripling-caravan)에서 볼 수 있다.
+이미지 출처: Yanko Design ([원문 링크](https://www.yankodesign.com/2026/10/27/beauer-x8-transforming-travel-trailer-has-enough-room-for-the-whole-family-and-some-more/))
 
 ## 무엇이 새로운가
 

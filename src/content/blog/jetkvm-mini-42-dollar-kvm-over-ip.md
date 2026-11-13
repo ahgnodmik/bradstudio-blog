@@ -4,10 +4,10 @@ title: '윈도우가 안 켜져도 원격으로 손댄다 — 42달러 KVM 박�
 description: 'PC 운영체제가 멈춰도 바이오스 화면부터 원격으로 보고 조작하는 KVM-over-IP 장치 JetKVM Mini가 2026년 10월 판매를 시작했다. 2024년 킥스타터로 나온 원조 JetKVM과의 차이, 여러 출처로 교차 확인한 가격·출시 상태, 보안 수칙과 국내 구매 가능성을 정리했다.'
 pubDate: 2026-11-07
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '네트워크 장비에 꽂힌 파란색 랜 케이블(JetKVM 실물 사진 아님)'
-  creditName: 'Jordan Harrison'
-  creditUrl: 'https://unsplash.com/@jouwdan'
+  url: 'https://assets.newatlas.com/dims4/default/09dc64c/2147483647/strip/true/crop/1400x933+0+0/resize/1400x933!/format/webp/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2F44%2Faa%2F9e581afc4c5ebbd73d10089f16d2%2Fm1.png'
+  alt: '윈도우 먹통에도 원격 접속 KVM 박스 제품 이미지'
+  creditName: 'New Atlas'
+  creditUrl: 'https://newatlas.com/computers/jetkvm-mini-remote-access/'
 
 status: published
 
@@ -109,9 +109,9 @@ seo:
 
 부모님 PC가 켜지지 않는다는 전화를 받으면 선택지가 많지 않다. 원격 지원 프로그램은 윈도우가 정상으로 올라와야 쓸 수 있으니, 부팅 화면에서 멈췄거나 업데이트 도중 꼬였다면 직접 가 봐야 한다. 이 빈틈을 겨냥한 장치가 KVM-over-IP다. 키보드(Keyboard)·화면(Video)·마우스(Mouse)를 네트워크 너머로 옮겨 주는 장비로, 원래는 데이터센터 서버 관리용이었다. 미국 스타트업 JetKVM이 이 장비를 성냥갑 크기로 줄인 JetKVM Mini를 2026년 10월 내놓았고, New Atlas가 운영체제가 망가져도 원격으로 접근하는 42달러짜리 박스로 소개했다. 인스타그램 왜이제나옴 카드뉴스로도 다뤘는데, 확인해 보니 이 제품은 완전히 처음 나온 물건이 아니었다. 그 과정까지 여러 출처를 맞대어 확인된 내용만 정리했다.
 
-![네트워크 장비에 꽂힌 파란색 랜 케이블](https://images.unsplash.com/photo-1544197150-b99a580bb7a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080)
+![윈도우 먹통에도 원격 접속 KVM 박스 제품 이미지](https://assets.newatlas.com/dims4/default/09dc64c/2147483647/strip/true/crop/1400x933+0+0/resize/1400x933!/format/webp/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2F44%2Faa%2F9e581afc4c5ebbd73d10089f16d2%2Fm1.png)
 
-사진: Jordan Harrison ([Unsplash 작가 페이지](https://unsplash.com/@jouwdan)) — 네트워크 장비 분위기를 전하기 위한 사진이며 JetKVM 실물 아님. 제품 사진은 [New Atlas 기사](https://newatlas.com/computers/jetkvm-mini-remote-access/)와 [JetKVM 공식 블로그](https://jetkvm.com/blog/introducing-jetkvm-mini)에서 볼 수 있다.
+이미지 출처: New Atlas ([원문 링크](https://newatlas.com/computers/jetkvm-mini-remote-access/))
 
 ## 무엇이 새로운가
 

@@ -4,10 +4,10 @@ title: '실내 빛으로 충전하는 컬러 전자종이 액자 Inkanva — 페
 description: 'Inkanva가 실내 조명만으로 스스로 충전하는 컬러 전자종이 액자를 킥스타터에 올렸다. E Ink Spectra 6 화면과 페로브스카이트 태양전지가 어떻게 작동하는지, 확인된 가격과 아직 모르는 점, 국내에서 비슷한 제품을 고를 때 볼 것을 정리했다.'
 pubDate: 2026-10-21
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1551373884-8a0750074df7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '초록 잎 화분 옆에 놓인 흰 액자(제품 실물 사진 아님)'
-  creditName: 'Angèle Kamp'
-  creditUrl: 'https://unsplash.com/@angelekamp'
+  url: 'https://assets.newatlas.com/dims4/default/0131966/2147483647/strip/true/crop/1200x800+0+0/resize/1200x800!/format/webp/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2F33%2Faf%2F6e78d5ad4074b4183d914cc60d5b%2Fthe-inkanva-uses-an-e-ink-display-with-48-base-colors-to-display-photos-and-art-with-a-natural-look-and-without-a-backlight.jpg'
+  alt: '태양광 이파페 디스플레이 액자 제품 이미지'
+  creditName: 'New Atlas'
+  creditUrl: 'https://newatlas.com/around-the-home/light-solar-epaper-screen-art-inkanva/'
 
 status: published
 
@@ -75,9 +75,9 @@ seo:
 
 벽에 거는 디지털 액자는 늘 전선이 문제였다. 화면이 밝게 빛나야 하니 전기를 계속 먹고, 그래서 콘센트 근처에만 걸 수 있었다. Inkanva가 킥스타터에 올린 같은 이름의 액자는 이 조건을 바꾸려 한다. 종이처럼 보이는 컬러 전자종이에 실내 빛으로 충전하는 얇은 태양전지 패널을 붙였다.
 
-![흰 액자와 화분이 놓인 실내 장면](https://images.unsplash.com/photo-1551373884-8a0750074df7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080)
+![태양광 이파페 디스플레이 액자 제품 이미지](https://assets.newatlas.com/dims4/default/0131966/2147483647/strip/true/crop/1200x800+0+0/resize/1200x800!/format/webp/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2F33%2Faf%2F6e78d5ad4074b4183d914cc60d5b%2Fthe-inkanva-uses-an-e-ink-display-with-48-base-colors-to-display-photos-and-art-with-a-natural-look-and-without-a-backlight.jpg)
 
-사진: Angèle Kamp ([Unsplash 작가 페이지](https://unsplash.com/@angelekamp))
+이미지 출처: New Atlas ([원문 링크](https://newatlas.com/around-the-home/light-solar-epaper-screen-art-inkanva/))
 
 > 위 사진은 분위기를 보여 주는 Unsplash 이미지이며 Inkanva 실물이 아니다. 실제 제품 사진은 [New Atlas 원문](https://newatlas.com/around-the-home/light-solar-epaper-screen-art-inkanva/)과 킥스타터 페이지에서 볼 수 있다.
 

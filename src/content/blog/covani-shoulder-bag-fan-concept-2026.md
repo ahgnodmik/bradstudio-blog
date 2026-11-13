@@ -4,10 +4,10 @@ title: '어깨에 메면 가방, 펼치면 선풍기 — COVANI 휴대용 선풍
 description: '작은 숄더백처럼 생긴 휴대용 선풍기 디자인 콘셉트 COVANI를 정리했다. 가죽으로 감싼 원형 몸체와 자석 덮개, 경첩으로 기울이는 구조, 넥밴드·손선풍기와의 차이, 가격·출시가 미확정인 이유, 지금 국내에서 고를 수 있는 비슷한 제품을 출처 기준으로 나눠 적었다.'
 pubDate: 2026-11-11
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1537798803174-16ec3cb4e489?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '흰 서랍장 위에 놓인 빨간색과 초록색 소형 휴대용 선풍기 두 대(COVANI 실물 사진 아님)'
-  creditName: 'KOBU Agency'
-  creditUrl: 'https://unsplash.com/@kobuagency'
+  url: 'https://www.yankodesign.com/images/design_news/2026/11/covani-fan-concept-looks-like-a-shoulder-bag-until-you-unfold-it/coani-portable-fan-concept-05.jpg'
+  alt: 'COVANI 제품 이미지'
+  creditName: 'Yanko Design'
+  creditUrl: 'https://www.yankodesign.com/2026/11/10/covani-fan-concept-looks-like-a-shoulder-bag-until-you-unfold-it/'
 
 status: draft
 
@@ -68,9 +68,9 @@ seo:
 
 11월인 지금 한국은 선풍기를 넣어 둘 때다. 이 글은 당장 살 제품을 고르는 글이 아니라, 내년 여름 휴대용 선풍기가 어떤 모양으로 바뀔 수 있는지 미리 보는 기록에 가깝다.
 
-![흰 서랍장 위에 놓인 빨간색과 초록색 소형 휴대용 선풍기 두 대](https://images.unsplash.com/photo-1537798803174-16ec3cb4e489?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080)
+![COVANI 제품 이미지](https://www.yankodesign.com/images/design_news/2026/11/covani-fan-concept-looks-like-a-shoulder-bag-until-you-unfold-it/coani-portable-fan-concept-05.jpg)
 
-사진: KOBU Agency ([Unsplash 작가 페이지](https://unsplash.com/@kobuagency)) — 일반 휴대용 선풍기 사진이며 COVANI 실물 아님. COVANI 렌더링 이미지는 [Yanko Design 기사](https://www.yankodesign.com/2026/11/10/covani-fan-concept-looks-like-a-shoulder-bag-until-you-unfold-it/)에서 볼 수 있다.
+이미지 출처: Yanko Design ([원문 링크](https://www.yankodesign.com/2026/11/10/covani-fan-concept-looks-like-a-shoulder-bag-until-you-unfold-it/))
 
 ## 확인 범위
 

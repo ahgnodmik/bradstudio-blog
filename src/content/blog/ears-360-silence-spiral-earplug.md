@@ -4,10 +4,10 @@ title: '귀 안이 아니라 귓바퀴에 건다 — 나선형 귀마개 Ears 36
 description: '1972년 상용화된 폼 귀마개 이후 큰 변화가 없던 귀마개 시장에, 귓바퀴 안쪽 굴곡에 나선을 걸어 고정하는 프랑스 Ears 360의 실리콘 귀마개 Silence가 킥스타터에 나왔다. 구조 차이, 제조사가 밝힌 차음 수치, 여러 출처로 교차 확인한 출시 상태와 국내 구매 가능성을 정리했다.'
 pubDate: 2026-11-08
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1429117237875-aa29229d99f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '블라인드가 내려진 방의 흐트러진 흰색 침구(Ears 360 Silence 실물 사진 아님)'
-  creditName: 'Quin Stevenson'
-  creditUrl: 'https://unsplash.com/@qstevenson'
+  url: 'https://www.yankodesign.com/images/design_news/2026/09/foam-earplugs-havent-changed-since-the-1970s-this-spiral-design-just-made-them-obsolete/Ears-360-Silence-_-The-Earplug-That-Disappears-in-Your-Ear-hero.jpg'
+  alt: '나선형 귀마개 제품 이미지'
+  creditName: 'Yanko Design'
+  creditUrl: 'https://www.yankodesign.com/2026/09/12/foam-earplugs-havent-changed-since-the-1970s-this-spiral-design-just-made-them-obsolete/?utm_source=rss&utm_medium=rss&utm_campaign=foam-earplugs-havent-changed-since-the-1970s-this-spiral-design-just-made-them-obsolete'
 
 status: published
 
@@ -94,9 +94,9 @@ seo:
 
 귀마개를 끼는 방식은 수십 년째 거의 같다. 폼 귀마개를 손가락으로 가늘게 말아 귓구멍에 밀어 넣고, 다시 부풀어 오르며 틈을 막아 주기를 기다린다. 너무 깊이 넣으면 아프고 얕게 넣으면 빠진다. 옆으로 누워 자면 베개에 눌린 귀마개가 귓속을 더 파고든다. 이 익숙한 불편을 구조부터 바꿨다는 귀마개가 2026년 9월 디자인 매체 Yanko Design에 소개됐다. 프랑스 회사 Ears 360이 만든 실리콘 귀마개 Silence다. 인스타그램 왜이제나옴 카드뉴스로 다룬 제품인데, 확인해 보니 카드뉴스에 적은 내용 가운데 바로잡을 부분이 있었다. 여러 출처를 맞대어 확인된 내용만 정리했다.
 
-![블라인드가 내려진 방의 흐트러진 흰색 침구](https://images.unsplash.com/photo-1429117237875-aa29229d99f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080)
+![나선형 귀마개 제품 이미지](https://www.yankodesign.com/images/design_news/2026/09/foam-earplugs-havent-changed-since-the-1970s-this-spiral-design-just-made-them-obsolete/Ears-360-Silence-_-The-Earplug-That-Disappears-in-Your-Ear-hero.jpg)
 
-사진: Quin Stevenson ([Unsplash 작가 페이지](https://unsplash.com/@qstevenson)) — 수면 환경 분위기를 전하기 위한 사진이며 Ears 360 Silence 실물 아님. 제품 사진은 [Yanko Design 기사](https://www.yankodesign.com/2026/09/12/foam-earplugs-havent-changed-since-the-1970s-this-spiral-design-just-made-them-obsolete/)와 [Ears 360 공식 스토어](https://ears-360.com/products/silence)에서 볼 수 있다.
+이미지 출처: Yanko Design ([원문 링크](https://www.yankodesign.com/2026/09/12/foam-earplugs-havent-changed-since-the-1970s-this-spiral-design-just-made-them-obsolete/?utm_source=rss&utm_medium=rss&utm_campaign=foam-earplugs-havent-changed-since-the-1970s-this-spiral-design-just-made-them-obsolete))
 
 ## 무엇이 새로운가
 

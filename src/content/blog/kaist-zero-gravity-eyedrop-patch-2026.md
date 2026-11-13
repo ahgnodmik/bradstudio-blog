@@ -4,10 +4,10 @@ title: '우주에서 안약 넣는 붙이는 패치 — KAIST·분당서울대�
 description: 'KAIST 정기훈 교수팀과 분당서울대병원 우세준 교수팀이 중력 없이 안약을 넣는 착용형 패치를 발표했다. 비타민C와 베이킹소다 반응으로 생긴 기체 압력을 쓰는 원리, 기존 점안 방식과 다른 점, 아직 연구 단계라는 출시 상태, 지금 쓸 수 있는 대안을 정리했다.'
 pubDate: 2026-10-24
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1750125625145-7be950011e4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '안약 병을 든 손 흑백 사진(KAIST 안약 패치 실물 사진 아님)'
-  creditName: 'Soulride Photography'
-  creditUrl: 'https://unsplash.com/@soulride_photography'
+  url: 'https://assets.newatlas.com/dims4/default/04aef7c/2147483647/strip/true/crop/1536x1024+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2Fa0%2Fe6%2Fda1774b849869dab483214e841e3%2F%25EC%259A%25B0%25EC%25A3%25BC%25EC%25A0%2595%25EA%25B1%25B0%25EC%259E%25A5%25EC%259D%2598-%25EB%2588%2588%25EA%25B0%2580-%25EC%2595%2588%25EC%2595%25BD-%25ED%258C%25A8%25EC%25B9%2598.jpg'
+  alt: '우주용 안약 패치 제품 이미지'
+  creditName: 'New Atlas'
+  creditUrl: 'https://newatlas.com/space-systems/facial-patch-zero-gravity-eyedrops/'
 instagramPermalink: 'https://www.instagram.com/p/De15fwcG1o1/'
 
 status: published
@@ -79,9 +79,9 @@ seo:
 
 연구는 KAIST 바이오및뇌공학과 정기훈 교수팀과 분당서울대병원 안과 우세준 교수팀이 함께 했다. 결과는 국제학술지 '센서스 앤 액추에이터스 B: 케미컬(Sensors and Actuators B: Chemical)'에 10월 7일 온라인으로 실렸다. 국내 언론 보도는 10월 21일에 나왔다. 미국 기술 매체 New Atlas도 이 연구를 소개했다.
 
-![안약 병을 든 손 흑백 사진](https://images.unsplash.com/photo-1750125625145-7be950011e4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080)
+![우주용 안약 패치 제품 이미지](https://assets.newatlas.com/dims4/default/04aef7c/2147483647/strip/true/crop/1536x1024+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2Fa0%2Fe6%2Fda1774b849869dab483214e841e3%2F%25EC%259A%25B0%25EC%25A3%25BC%25EC%25A0%2595%25EA%25B1%25B0%25EC%259E%25A5%25EC%259D%2598-%25EB%2588%2588%25EA%25B0%2580-%25EC%2595%2588%25EC%2595%25BD-%25ED%258C%25A8%25EC%25B9%2598.jpg)
 
-이미지 출처: Unsplash, Soulride Photography ([원문 링크](https://unsplash.com/photos/hand-holding-eye-drops-ready-to-administer-Gz5mxa6jE2c)) — 패치 실물 사진이 아닌 참고 이미지
+이미지 출처: New Atlas ([원문 링크](https://newatlas.com/space-systems/facial-patch-zero-gravity-eyedrops/))
 
 ## 무엇이 새로운가
 

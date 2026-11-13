@@ -4,10 +4,10 @@ title: '아이 손에 맞춘 공예용 커터 Kids Cutter — 바닥을 대고 �
 description: '산업디자이너 호르헤 엔리케 레이예스 플란데스의 학생 콘셉트 Kids Cutter가 Yanko Design에 소개됐다. 아이 손에 맞춘 둥근 몸체, 재료에 바닥을 대고 자르는 방식, 짧게만 나오는 세라믹 날 구상과 기존 커터와 다른 점, 시판 여부, 지금 살 수 있는 어린이용 대안을 정리했다.'
 pubDate: 2026-10-23
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1596994377882-589eeacdd977?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '빨강·흰색·파랑·노랑 색종이(Kids Cutter 실물 사진 아님)'
-  creditName: 'daisies & dots'
-  creditUrl: 'https://unsplash.com/@daisies_and_dots'
+  url: 'https://www.yankodesign.com/images/design_news/2026/10/kids-cutter-concept-rethinks-the-craft-knife-for-smaller-hands/kids-cutter-concept-12.jpg'
+  alt: '키즈 커터 제품 이미지'
+  creditName: 'Yanko Design'
+  creditUrl: 'https://www.yankodesign.com/2026/10/22/kids-cutter-concept-rethinks-the-craft-knife-for-smaller-hands/'
 instagramPermalink: 'https://www.instagram.com/p/DezVZuXFiXI/'
 
 status: published

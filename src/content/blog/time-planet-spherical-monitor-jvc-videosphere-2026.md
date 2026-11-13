@@ -4,10 +4,10 @@ title: '우주 헬멧 모양 모니터 Time Planet — 1970년 JVC 비디오스�
 description: '1970년 JVC 비디오스피어 TV를 닮은 구형 모니터 Time Planet이 Core77 등에 소개됐다. 원조 TV와 무엇이 같고 다른지, 보도된 가격과 공식몰 표기 차이, 판매사 정보가 적다는 점, 국내에서 살 때 따져 볼 것을 정리했다.'
 pubDate: 2026-10-25
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1573399054516-90665ecc44be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '회색과 주황색이 섞인 옛날 브라운관 TV(Time Planet 제품 사진 아님)'
-  creditName: 'Diego González'
-  creditUrl: 'https://unsplash.com/@gonzalezgonzalezdiego'
+  url: 'https://s3files.core77.com/blog/images/lead_n_spotlight/1854859_lead_400_145715_.jpeg'
+  alt: '구형 컴퓨터 모니터 제품 이미지'
+  creditName: 'Core77'
+  creditUrl: 'https://www.core77.com/posts/145715/A-Spherical-Computer-Monitor-Pays-Homage-to-a-1970-JVC-Design'
 instagramPermalink: 'https://www.instagram.com/p/De28NDojEU1/'
 
 status: published
@@ -79,9 +79,9 @@ seo:
 
 책상 위 모니터는 대부분 검은 직사각형이다. 그 자리에 노란 공 하나가 올라앉는다고 상상해 보자. Time Planet은 그런 모니터다. 1970년 일본 JVC가 내놓은 우주 헬멧 모양 TV '비디오스피어(Videosphere)'를 닮았다. 콘셉트 렌더링이 아니라 온라인에서 주문할 수 있는 판매 제품이다. 다만 판매사 정보가 적다. 사기 전에 확인할 점이 몇 가지 있다.
 
-![옛날 브라운관 TV 사진(제품 사진 아님)](https://images.unsplash.com/photo-1573399054516-90665ecc44be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080)
+![구형 컴퓨터 모니터 제품 이미지](https://s3files.core77.com/blog/images/lead_n_spotlight/1854859_lead_400_145715_.jpeg)
 
-이미지 출처: Unsplash, Diego González ([작가 페이지](https://unsplash.com/@gonzalezgonzalezdiego)). 제품 사진 아님. 원 기사 제품 이미지를 이 환경에서 열 수 없어 분위기가 비슷한 옛 TV 사진으로 대신했다. 실제 모습은 [Core77 원문](https://www.core77.com/posts/145715/A-Spherical-Computer-Monitor-Pays-Homage-to-a-1970-JVC-Design)에서 볼 수 있다.
+이미지 출처: Core77 ([원문 링크](https://www.core77.com/posts/145715/A-Spherical-Computer-Monitor-Pays-Homage-to-a-1970-JVC-Design))
 
 ## 무엇이 새로운가
 

@@ -4,10 +4,10 @@ title: '포르셰 Mission S 공개 — 911 위에 서는 미드십 슈퍼카, �
 description: '포르셰가 10월 15일 미국 뉴욕에서 911보다 윗급인 미드십 슈퍼카 콘셉트 Mission S를 공개했다. 한정판이 아닌 상설 모델을 예고했다는 점, 917·959·928에서 따온 디자인, 중앙 화면을 없앤 실내, 아직 공개되지 않은 엔진·가격·출시 시점을 정리했다.'
 pubDate: 2026-10-18
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1777171502249-92a06d1b547a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '태블릿에 그린 스포츠카 디지털 스케치(Mission S 실물 아님)'
-  creditName: 'Erik Mclean'
-  creditUrl: 'https://unsplash.com/@introspectivedsgn'
+  url: 'https://porschepictures.flowcenter.de/pmdb/thumbnail.cgi?id=341404&w=700&h=525&crop=0&public=1&cs=b5ccf4da2a7b6792'
+  alt: 'Porsche Mission S 콘셉트카 공식 이미지'
+  creditName: 'Porsche Newsroom'
+  creditUrl: 'https://newsroom.porsche.com/de/2026/produkte/porsche-mission-s-visionsmodell-43525.html'
 
 status: published
 
@@ -72,6 +72,10 @@ seo:
 포르셰 라인업에서 911은 오랫동안 상징이자 사실상 꼭대기였다. 918 스파이더나 카레라 GT 같은 슈퍼카는 소량 한정판으로 잠깐 나왔다 사라졌다. 포르셰가 10월 15일 미국 뉴욕에서 공개한 Mission S는 이 구조를 바꾸겠다는 예고다.
 
 > 위 대표 이미지는 이해를 돕기 위한 Unsplash 사진이며 Mission S 실물이 아니다. 실제 모습은 아래 출처의 포르셰 뉴스룸과 매체 기사에서 확인할 수 있다.
+
+![Porsche Mission S 콘셉트카 공식 이미지](https://porschepictures.flowcenter.de/pmdb/thumbnail.cgi?id=341404&w=700&h=525&crop=0&public=1&cs=b5ccf4da2a7b6792)
+
+이미지 출처: Porsche Newsroom ([원문 링크](https://newsroom.porsche.com/de/2026/produkte/porsche-mission-s-visionsmodell-43525.html))
 
 ## 무엇이 새로운가
 

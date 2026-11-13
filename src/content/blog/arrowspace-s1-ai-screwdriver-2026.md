@@ -4,10 +4,10 @@ title: '나사를 찍으면 맞는 비트에 불이 켜진다 — 애로우스�
 description: '홍콩 애로우맥스(Arrowmax)가 카메라로 나사 머리를 읽고 케이스 속 맞는 비트 자리에 불을 켜는 전동 드라이버 애로우스페이스 S1을 킥스타터에 올렸다. 비트 52개, 600mAh 배터리, 후원가와 펀딩 기간을 교차 확인했고 국내 구매 방법을 정리했다.'
 pubDate: 2026-10-29
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1708441434498-349b0b5dc8d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '나사가 가득 담긴 금속 공구함(애로우스페이스 S1 실물 사진 아님)'
-  creditName: 'Dan Crile'
-  creditUrl: 'https://unsplash.com/@dancrile'
+  url: 'https://www.yankodesign.com/images/design_news/2026/10/arrowspaces-119-screwdriver-identifies-screws-and-lights-up-the-matching-bit/Worlds-First-AI-Electric-Screwdriver-With-Eyes-And-Brain.jpg'
+  alt: 'AI 스크루드라이버 제품 이미지'
+  creditName: 'Yanko Design'
+  creditUrl: 'https://www.yankodesign.com/2026/10/27/arrowspaces-119-screwdriver-identifies-screws-and-lights-up-the-matching-bit/?utm_source=rss&utm_medium=rss&utm_campaign=arrowspaces-119-screwdriver-identifies-screws-and-lights-up-the-matching-bit'
 
 status: published
 
@@ -94,9 +94,9 @@ seo:
 
 회사가 붙인 이름은 "눈과 뇌가 달린 세계 최초의 AI 전동 드라이버"다. 2026년 10월 20일 킥스타터 펀딩을 열었다. 마감은 12월 4일이다. 킥스타터 페이지와 BackerKit 추적 페이지가 같은 기간을 적었다.
 
-![나사가 가득 담긴 금속 공구함](https://images.unsplash.com/photo-1708441434498-349b0b5dc8d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080)
+![AI 스크루드라이버 제품 이미지](https://www.yankodesign.com/images/design_news/2026/10/arrowspaces-119-screwdriver-identifies-screws-and-lights-up-the-matching-bit/Worlds-First-AI-Electric-Screwdriver-With-Eyes-And-Brain.jpg)
 
-사진: Dan Crile ([Unsplash 작가 페이지](https://unsplash.com/@dancrile)) — 분위기를 전하기 위한 사진이며 애로우스페이스 S1 실물 아님. 실제 제품 모습은 [Yanko Design 기사](https://www.yankodesign.com/2026/10/27/arrowspaces-119-screwdriver-identifies-screws-and-lights-up-the-matching-bit/)와 [New Atlas 기사](https://newatlas.com/knives-multitools/arrowspace-52-in-1-ai-screwdriver/)에서 볼 수 있다.
+이미지 출처: Yanko Design ([원문 링크](https://www.yankodesign.com/2026/10/27/arrowspaces-119-screwdriver-identifies-screws-and-lights-up-the-matching-bit/?utm_source=rss&utm_medium=rss&utm_campaign=arrowspaces-119-screwdriver-identifies-screws-and-lights-up-the-matching-bit))
 
 ## 무엇이 새로운가
 

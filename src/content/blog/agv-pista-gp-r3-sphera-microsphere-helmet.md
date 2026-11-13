@@ -4,10 +4,10 @@ title: '헬멧 바깥에 구슬 1,600개 — AGV Pista GP R3의 Sphera, MIPS와 
 description: 'AGV가 2026 MotoGP 산마리노 그랑프리에서 공개한 레이싱 헬멧 Pista GP R3. 껍데기 사이에 미세 구슬 층을 넣은 Sphera RLS의 작동 방식, 안쪽 미끄럼층을 쓰는 MIPS와의 차이, 아직 발표되지 않은 가격과 출시 일정, 국내 구매 가능성을 여러 출처로 교차 확인해 정리했다.'
 pubDate: 2026-11-12
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1494030575520-dd03dd6aeb04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '흰 배경 위에 놓인 빨간 풀페이스 헬멧(AGV Pista GP R3 실물 사진 아님)'
-  creditName: 'Quilia'
-  creditUrl: 'https://unsplash.com/@heyquilia'
+  url: 'https://assets.newatlas.com/dims4/default/1792e45/2147483647/strip/true/crop/8192x5464+0+0/resize/1439x960!/format/webp/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2F30%2F76%2Fe2da3566425888f64fd276ca853e%2Fpista-r3-120.jpg'
+  alt: 'AGV 마이크로구체 헬멧 제품 이미지'
+  creditName: 'New Atlas'
+  creditUrl: 'https://newatlas.com/motorcycles/agv-pista-gp-r3/'
 
 status: published
 
@@ -88,9 +88,9 @@ seo:
 
 오토바이 헬멧의 안전 기술 경쟁은 오랫동안 정면으로 부딪히는 충격을 얼마나 흡수하느냐에 맞춰져 있었다. 최근 몇 년 사이 관심은 비스듬히 부딪힐 때 머리가 비틀리는 회전력 쪽으로 옮겨 왔다. 이탈리아 헬멧 브랜드 AGV가 2026년 9월 MotoGP 산마리노 그랑프리(이탈리아 미사노)에서 공개한 레이싱 헬멧 Pista GP R3는 이 회전력 문제를 새로운 구조로 풀겠다고 내세운 제품이다. 인스타그램 왜이제나옴 카드뉴스에서는 표면 구슬이 골프공 딤플처럼 공기저항을 줄인다고 소개했는데, 다시 확인해 보니 그 설명은 틀렸다. 구슬은 공기역학 장치가 아니라 충격 때 회전력을 줄이기 위한 층이다. 여러 출처로 교차 확인된 내용만 다시 정리했다.
 
-![흰 배경 위에 놓인 빨간 풀페이스 헬멧](https://images.unsplash.com/photo-1494030575520-dd03dd6aeb04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080)
+![AGV 마이크로구체 헬멧 제품 이미지](https://assets.newatlas.com/dims4/default/1792e45/2147483647/strip/true/crop/8192x5464+0+0/resize/1439x960!/format/webp/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2F30%2F76%2Fe2da3566425888f64fd276ca853e%2Fpista-r3-120.jpg)
 
-사진: Quilia ([Unsplash 작가 페이지](https://unsplash.com/@heyquilia)) — 일반 풀페이스 헬멧 사진이며 AGV Pista GP R3 실물 아님. 제품 사진은 [New Atlas 기사](https://newatlas.com/motorcycles/agv-pista-gp-r3/)와 [RideApart 기사](https://www.rideapart.com/news/808000/agv-debuts-pista-gp-r3-at-san-marino-motogp-grand-prix-ushers-in-next-level-protection/)에서 볼 수 있다.
+이미지 출처: New Atlas ([원문 링크](https://newatlas.com/motorcycles/agv-pista-gp-r3/))
 
 ## 무엇이 새로운가
 

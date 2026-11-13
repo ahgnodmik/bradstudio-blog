@@ -4,10 +4,10 @@ title: '주머니 속 기타 스튜디오 Neko — 앰프·이펙터·녹음·�
 description: '네코 엔지니어링이 기타 연습·녹음·공연을 손바닥만 한 기기 하나로 해결하겠다는 Neko를 공개했다. NAM 기반 앰프 모델링과 TONE3000 톤 라이브러리, 기기 안에서 도는 음원 분리, 무선 잭 구성, 아직 확정되지 않은 가격과 출시, 국내 구매 전 확인할 점을 정리했다.'
 pubDate: 2026-10-19
 thumbnail:
-  url: 'https://images.unsplash.com/photo-1488376739361-ed24c9beb6d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
-  alt: '흰 종이 위에 놓인 검은 헤드폰(제품 실물 사진 아님)'
-  creditName: 'Kelly Sikkema'
-  creditUrl: 'https://unsplash.com/@kellysikkema'
+  url: 'https://assets.newatlas.com/dims4/default/cff9a77/2147483647/strip/true/crop/2075x1383+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2F64%2Ff4%2Fdf32a8c7487a8b6bea044f802262%2Fthe-neko-features-a-3-5-inch-touchscreen-physical-controls-a-3w-speaker-and-two-wireless-input-jacks-in-a-compact-package.jpg'
+  alt: '네코 기타 포켓 스튜디오 제품 이미지'
+  creditName: 'New Atlas'
+  creditUrl: 'https://newatlas.com/consumer-tech/pocket-studio-guitar-record-practice-perform-neko/'
 
 status: published
 
@@ -69,6 +69,10 @@ seo:
 기타를 치려면 생각보다 준비가 많다. 앰프를 켜고, 케이블을 꽂고, 톤을 맞춘다. 밤에는 소리도 신경 쓰인다. 미국 기술 매체 New Atlas는 이 귀찮음을 "연습하지 않을 핑계"라고 불렀다. 네코 엔지니어링(Neko Engineering)이 공개한 Neko는 그 핑계를 주머니 크기 기기 하나로 없애겠다는 제품이다.
 
 > 대표 이미지는 이해를 돕기 위한 Unsplash 사진이며 Neko 실물이 아니다. 실제 모습은 아래 출처 링크에서 확인할 수 있다.
+
+![네코 기타 포켓 스튜디오 제품 이미지](https://assets.newatlas.com/dims4/default/cff9a77/2147483647/strip/true/crop/2075x1383+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2F64%2Ff4%2Fdf32a8c7487a8b6bea044f802262%2Fthe-neko-features-a-3-5-inch-touchscreen-physical-controls-a-3w-speaker-and-two-wireless-input-jacks-in-a-compact-package.jpg)
+
+이미지 출처: New Atlas ([원문 링크](https://newatlas.com/consumer-tech/pocket-studio-guitar-record-practice-perform-neko/))
 
 ## 무엇이 새로운가
 
