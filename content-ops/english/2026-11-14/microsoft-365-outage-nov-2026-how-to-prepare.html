@@ -1,0 +1,90 @@
+<p>If your working day runs through Outlook and Teams, the Microsoft 365 outage that began on 12 November 2026 showed how quickly everything can stop when those two tools go dark at the same time. Mail would not load, meeting links failed, and Copilot and SharePoint went down with them. Hospitals, police forces and offices on several continents lost their main communication channel for hours. This piece covers what happened, what Microsoft has said about the cause, what is still unknown, and the practical steps businesses and individual workers can take now, before the next outage arrives.</p>
+
+<p><b>How we checked: every figure below appears in at least two independent sources, including Microsoft's own service health notices (as archived by third-party monitoring sites), TechRadar, Al Jazeera, CNN, Newsweek, Nikkei Asia, ABC News (Australia), The Guardian and others listed at the end. Items that only one outlet reported, or that Microsoft has not confirmed, are marked "unconfirmed." Details are current as of 13 November 2026 and may change once Microsoft publishes its full incident review.</b></p>
+
+<h2>What happened</h2>
+
+<p>Reports of problems began climbing around midday US Eastern Time on Thursday 12 November, according to local US broadcaster WKYT. TechRadar reported that Downdetector logged roughly 120,000 simultaneous reports in the US at about 12:30 pm ET, and Al Jazeera put the peak at around 130,000 shortly after 1 pm. CNN, citing Downdetector data, said complaints spread to 74 countries and regions within about an hour. Keep in mind that Downdetector counts user-submitted reports, so these numbers measure how many people bothered to complain, not how many were affected.</p>
+
+<p>Microsoft opened two incidents in the Microsoft 365 admin center. EX1550543 covered mailbox access in Exchange Online, the server side of Outlook mail. MO1550821 covered the wider set of services. According to copies of those notices published by Cloud Admin Hub and ENow Software, users could be unable to connect to Exchange Online, Microsoft Teams, SharePoint Online, Microsoft 365 Copilot and Defender XDR. Windows Central and Help Desk Geek also listed OneDrive among the affected services.</p>
+
+<p>Recovery came in stages. Nikkei Asia, citing Reuters, reported that around 12 hours into the incident Microsoft had achieved "partial recovery" in some regions but not a sustained fix. On 13 November Microsoft posted an apology on its Microsoft 365 Status account on X and said it was seeing broad recovery and stabilisation across services. CNN quoted the company as saying email was "approaching normal levels." CBS News reported that, as of that afternoon, Microsoft had not given an estimated time for full restoration.</p>
+
+<h2>What Microsoft says caused it</h2>
+
+<p>Microsoft's explanation shifted as the incident went on. Early updates said servers were failing automated health checks and had been taken out of service. Later updates said engineers were rolling back a recent network configuration change. In its apology, the company said an issue from an earlier network capacity upgrade had surfaced after a more recent network change, as reported by TechRadar and South Korean wire service Newspim (in Korean). A Microsoft spokesperson told Newsweek the outage was not related to a cyberattack or to AI agents.</p>
+
+<p>That is the extent of what Microsoft has said publicly. It has not yet released a post-incident report describing exactly which configuration failed, why safeguards did not catch it, or why recovery took as long as it did. Until that report appears, the detailed root cause remains unconfirmed.</p>
+
+<h2>Who was hit hardest</h2>
+
+<p>The United Kingdom saw some of the most visible disruption because the outage was still running when Friday morning began there. According to The Guardian (via its AOL syndication) and Brit Brief, NHS staff arrived at work unable to reach their email. Several NHS organisations apologised on social media and asked patients to phone rather than email. NHS England said local services were falling back on other IT systems and established contingency measures such as paper records.</p>
+
+<p>Police forces were affected too. The Metropolitan Police and other forces reported problems with online crime reporting, and the Met directed the public to call 101 for non-emergencies and 999 for emergencies. Ofsted, the schools inspectorate for England, could not receive email, which disrupted inspection arrangements. Luke Pollard, a UK defence minister, said government engineers were working with Microsoft and called for "greater resilience" against technical failures.</p>
+
+<p>The Asia-Pacific region felt it as well. ABC News (Australia) reported that Australian intelligence agencies and the Australian Federal Police were caught up in the outage, while Services Australia said its customer-facing services and payments were not affected. Nikkei Asia reported that Japan's deputy chief cabinet secretary said government IT infrastructure had been affected. In South Korea, where the outage began in the early hours of 13 November local time, The Korea Economic Daily and Electronic Times (both in Korean) reported that companies using Microsoft 365 had trouble sending and receiving mail and joining Teams meetings when staff arrived for work.</p>
+
+<table>
+<tr><th>Item</th><th>What is confirmed</th><th>Status</th></tr>
+<tr><td>Start</td><td>Reports surged around midday ET on 12 November</td><td>Confirmed</td></tr>
+<tr><td>Scale</td><td>About 120,000 to 130,000 Downdetector reports in the US; 74 countries and regions within about an hour</td><td>Confirmed</td></tr>
+<tr><td>Services</td><td>Outlook/Exchange Online, Teams, SharePoint Online, Microsoft 365 Copilot, Defender XDR</td><td>Confirmed</td></tr>
+<tr><td>Cause</td><td>Issue from an earlier network capacity upgrade surfaced after a recent network change; not a cyberattack</td><td>Confirmed (Microsoft's account)</td></tr>
+<tr><td>Total duration</td><td>Some outlets cite figures in the 17 to 18 hour range, but definitions differ</td><td>Unconfirmed</td></tr>
+<tr><td>Azure impact</td><td>Reports conflict on whether Azure customer workloads were directly affected</td><td>Unconfirmed</td></tr>
+<tr><td>SLA credits</td><td>No statement from Microsoft on service credits for this incident</td><td>Unconfirmed</td></tr>
+</table>
+
+<h2>What is still unknown</h2>
+
+<ul>
+<li><b>Total duration.</b> Outlets measure from different start and end points, and Microsoft has not published a full-restoration time for all customers. Any single figure is unconfirmed.</li>
+<li><b>Azure impact.</b> Some coverage named Azure alongside Microsoft 365; other coverage did not. Whether Azure customer workloads themselves went down is unconfirmed.</li>
+<li><b>SLA credits.</b> Microsoft's commercial agreements include service level commitments, but the company has not said whether or how credits will apply to this incident. Treat any claim about automatic compensation as unconfirmed, and check your own contract.</li>
+<li><b>Detailed root cause.</b> The capacity-upgrade explanation is Microsoft's summary. The technical detail awaits a post-incident report.</li>
+</ul>
+
+<h2>What businesses should do before the next outage</h2>
+
+<p>No cloud provider promises zero downtime, and the lesson from this week is less about Microsoft specifically than about putting every channel in one basket. The organisations that coped best were the ones that already had a fallback. NHS teams switched to phones and paper because those routines existed. Here is a short list of things worth setting up while systems are working normally.</p>
+
+<ul>
+<li><b>Keep a contact list that lives outside Microsoft 365.</b> Store phone numbers for key staff, suppliers and customers somewhere you can reach when Outlook is down: a printed sheet, a password manager entry, or a file synced to a different service.</li>
+<li><b>Pick a backup messaging channel in advance.</b> Decide which tool your team will use if Teams fails, whether that is SMS, a phone tree or a separate chat app, and make sure people are already signed in. Choosing one in the middle of an outage wastes the first hour.</li>
+<li><b>Bookmark the status pages.</b> The Microsoft 365 Service health page in the admin center is the authoritative source for tenant-specific incidents. The public Microsoft 365 Status account on X posts updates when the admin center itself is hard to reach.</li>
+<li><b>Write a one-page outage plan.</b> It should say who declares an outage, how staff are told, which customer-facing messages go out, and where staff should save work in the meantime. Rehearse it once a year.</li>
+<li><b>Know your contract.</b> Find out what uptime commitment your licence includes and how to file a service credit claim. Credits usually require the customer to submit a claim within a set window, so do not assume they arrive on their own.</li>
+<li><b>Keep critical files available offline.</b> Make sure the documents people need most, such as rotas, procedures and templates, are synced locally or exported so a SharePoint outage does not block them.</li>
+<li><b>Review single points of failure.</b> If email, chat, file storage, identity and your AI assistant all come from one vendor, list which business processes stop when that vendor stops, and decide which ones need an alternative.</li>
+</ul>
+
+<h2>What individual workers can do</h2>
+
+<p>You do not need to run the IT department to reduce the pain of the next outage. Save a few colleagues' and your manager's mobile numbers in your phone. Turn on offline sync in the Outlook desktop app if your organisation allows it, so recent mail and calendar items stay readable. Keep a local copy of anything you need for the next day's meetings. When an outage hits, check the official status channels before restarting devices or reinstalling apps, since a cloud-side failure will not be fixed by anything you do locally. Note what you could not do and for how long. That record helps your employer if it later files a service credit claim or reviews its continuity plan.</p>
+
+<p>If you only do one thing this week, spend fifteen minutes with your team agreeing on a backup channel and putting a contact list somewhere that does not depend on Microsoft 365. Then check back when Microsoft publishes its post-incident review, and update the plan with whatever it reveals about duration, Azure and service credits.</p>
+
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.cloudadminhub.com/microsoft-365-service-health/mo1550821/" target="_blank" rel="noopener">Cloud Admin Hub — MO1550821: Users may be unable to connect to multiple Microsoft 365 services</a></li>
+<li><a href="https://www.enowsoftware.com/office-365-monitoring-outages/microsoft-service-health-updates-for-microsoft-outages-mo1550821-and-ex1550543" target="_blank" rel="noopener">ENow Software — Microsoft service health updates for outages MO1550821 and EX1550543</a></li>
+<li><a href="https://x.com/MSFT365Status/status/2121303408313303423" target="_blank" rel="noopener">Microsoft 365 Status on X — Apology and recovery update</a></li>
+<li><a href="https://www.techradar.com/news/live/outlook-outage-nov-2026" target="_blank" rel="noopener">TechRadar — Microsoft outage live: Outlook and Teams returning to "normal levels"</a></li>
+<li><a href="https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk" target="_blank" rel="noopener">CNN — Microsoft says email service is "approaching normal levels" following widespread global outage</a></li>
+<li><a href="https://www.aljazeera.com/news/2026/11/12/microsoft-outage-hits-tens-of-thousands-of-users" target="_blank" rel="noopener">Al Jazeera — Microsoft working "urgently" to fix outages</a></li>
+<li><a href="https://www.wkyt.com/2026/11/12/nationwide-microsoft-outlook-outage-reported/" target="_blank" rel="noopener">WKYT — Nationwide Microsoft Outlook outage reported</a></li>
+<li><a href="https://www.windowscentral.com/microsoft/azure/microsoft-365-outlook-teams-onedrive-and-copilot-are-all-down-right-now" target="_blank" rel="noopener">Windows Central — Microsoft outage drags on as Outlook, Teams and Microsoft 365 show signs of recovery</a></li>
+<li><a href="https://helpdeskgeek.com/microsoft-outage-november-12-2026/" target="_blank" rel="noopener">Help Desk Geek — Widespread Microsoft outage disrupts Outlook, Teams, OneDrive, Copilot and Azure</a></li>
+<li><a href="https://www.newsweek.com/microsoft-outage-hits-global-operations-from-airlines-to-visas-12708940" target="_blank" rel="noopener">Newsweek — Microsoft blames "technical issue" after outage impacts global operations</a></li>
+<li><a href="https://www.tribuneindia.com/news/usa-news/deeply-sorry-for-disruption-microsoft-issues-apology-after-global-outage-says-broad-recovery-across-services/" target="_blank" rel="noopener">The Tribune — "Deeply sorry for disruption": Microsoft issues apology after global outage</a></li>
+<li><a href="https://www.cbsnews.com/news/microsoft-battling-major-outage/" target="_blank" rel="noopener">CBS News — Microsoft says it is seeing "continued recovery progress" as it battles major worldwide outage</a></li>
+<li><a href="https://www.geekwire.com/2026/a-huge-pain-in-the-ass-microsoft-365-starts-to-recover-after-a-daylong-global-email-blackout/" target="_blank" rel="noopener">GeekWire — Microsoft 365 starts to recover after a day of global email turmoil</a></li>
+<li><a href="https://asia.nikkei.com/business/technology/microsoft-outage-spills-into-asia-pacific-despite-partial-recovery" target="_blank" rel="noopener">Nikkei Asia — Microsoft outage spills into Asia-Pacific despite "partial recovery"</a></li>
+<li><a href="https://www.abc.net.au/news/2026-11-13/microsoft-outage-affects-users-worldwide/107381050" target="_blank" rel="noopener">ABC News (Australia) — Microsoft outage hits users worldwide, affecting Teams, Outlook and Copilot</a></li>
+<li><a href="https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-hits-nhs-hospitals-gps-schools-and-police-across-uk" target="_blank" rel="noopener">The Guardian — Microsoft outage hits hospitals, GPs, schools and police across UK</a></li>
+<li><a href="https://www.aol.co.uk/articles/microsoft-outage-hits-hospitals-gps-095928000.html" target="_blank" rel="noopener">AOL — Microsoft outage hits hospitals, GPs, schools and police across UK (syndicated from The Guardian)</a></li>
+<li><a href="https://britbrief.co.uk/business/tech/microsoft-outage-hits-uk-hospitals-gps-schools-and-police.html" target="_blank" rel="noopener">Brit Brief — Microsoft outage causes widespread UK disruption to NHS, schools and police</a></li>
+<li><a href="https://www.newspim.com/news/view/20261114000019" target="_blank" rel="noopener">Newspim — Report on Microsoft's apology and denial of cyberattack (in Korean)</a></li>
+<li><a href="https://www.hankyung.com/article/2026111358751" target="_blank" rel="noopener">The Korea Economic Daily — Report on Korean companies hit by the Microsoft outage (in Korean)</a></li>
+<li><a href="https://www.etnews.com/20261113000090" target="_blank" rel="noopener">Electronic Times — Report on Microsoft service disruption affecting Korean businesses (in Korean)</a></li>
+</ul>

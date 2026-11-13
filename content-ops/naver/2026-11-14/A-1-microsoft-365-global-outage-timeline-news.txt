@@ -1,0 +1,81 @@
+제목: MS 365 전 세계 장애 타임라인 정리: 미국 정오에 시작해 한국 출근길까지, 아웃룩·팀즈 몇 시에 무슨 일이 있었나
+
+13일 아침 회사 메일이 안 열렸다면, 그 원인이 언제 어디서 시작됐는지부터 시간 순서로 정리했습니다.
+
+※ 11월 14일 기준 정리입니다. 숫자와 날짜는 2곳 이상 매체 또는 MS 공지에서 확인된 것만 썼습니다.
+※ 한 곳에서만 나온 내용은 '확인 필요', 아직 발표되지 않은 내용은 '미확정'으로 표시했습니다.
+※ 시간은 미국 동부시간(ET)과 한국 시간(KST)을 함께 적었습니다. 한국이 14시간 빠릅니다.
+
+■ 한 줄 요약
+마이크로소프트(MS)의 업무용 클라우드 서비스 'MS 365'가 미국 시간 11월 12일 낮부터 하루 가까이 불안정했습니다. 아웃룩 메일, 팀즈, 셰어포인트, 코파일럿이 영향을 받았습니다. 영국 병원과 경찰, 국내 기업 사무실도 같은 장애를 겪었습니다. MS는 네트워크 용량 증설 작업의 문제를 원인으로 설명했습니다. 사이버 공격은 아니라고 밝혔습니다.
+
+■ 시간대별 경과
+① 11월 12일 정오 무렵(ET) / 13일 새벽 2시 무렵(KST)
+미국에서 아웃룩 접속 장애 신고가 빠르게 늘었습니다(WKYT 보도). 한국은 한밤중이라 체감한 사람이 거의 없었습니다.
+
+② 12일 낮 12시 30분~오후 1시 무렵(ET)
+장애 신고 사이트 다운디텍터의 미국 동시 신고가 약 12만 건까지 올라갔습니다(테크레이더). 오후 1시 직후에는 약 13만 건이라는 보도도 나왔습니다(알자지라).
+다운디텍터 숫자는 사용자가 직접 누른 신고 수입니다. 실제 피해자 수와는 다릅니다.
+
+③ 장애 시작 후 약 1시간
+CNN은 다운디텍터 자료를 인용해 신고가 74개 국가·지역으로 퍼졌다고 전했습니다. 미국 한 나라의 문제가 아니라는 신호였습니다.
+
+④ 12일 오후(ET) — MS 공지 게시
+MS는 관리자용 서비스 상태 페이지에 공지 두 건을 올렸습니다. EX1550543은 익스체인지 온라인(아웃룩 메일 서버) 사서함 접속 문제입니다. MO1550821은 팀즈·셰어포인트·코파일럿·디펜더 XDR 등 여러 서비스 연결 문제입니다(클라우드어드민허브·ENow 정리 기준).
+초기 설명은 서버가 자동 상태 점검을 통과하지 못했다는 내용이었습니다. 이어서 최근 네트워크 설정 변경을 되돌리는 작업에 들어갔다고 안내했습니다.
+
+⑤ 13일 아침(KST) — 한국 출근 시간
+한국에서는 출근하자마자 메일과 팀즈가 막혔습니다. 한국경제·전자신문·중앙이코노미뉴스가 국내 기업 업무 차질을 보도했습니다. 한 대기업은 임직원에게 긴급 공지를 보냈다고 한국경제와 디지털데일리가 전했습니다.
+
+⑥ 장애 시작 후 약 12시간
+니케이아시아(로이터 인용)는 MS가 일부 지역에서 '부분 복구'를 했지만 안정적인 회복은 아니라고 보도했습니다. 같은 시기 호주 정보기관과 연방경찰, 일본 정부 IT 인프라에도 영향이 있었다고 호주 ABC와 니케이아시아가 전했습니다.
+
+⑦ 13일 아침(영국 시간) — 영국 공공기관 차질
+NHS(영국 국민보건서비스) 직원들이 메일에 접속하지 못했습니다. 일부 NHS 기관은 환자에게 이메일 대신 전화로 연락해 달라고 안내했습니다(가디언·브릿브리프). 런던 경찰을 비롯한 여러 지역 경찰이 온라인 신고 접수에 차질을 알렸습니다. 학교를 점검하는 교육기준청(오프스테드)도 메일을 받지 못했습니다.
+
+⑧ 13일 오후(KST) — 국내 일부 회복
+국내 일부 기업은 오후 들어 아웃룩·팀즈 접속이 돌아왔다고 한국경제와 디지털데일리가 전했습니다. 회사마다 회복 시점이 달랐습니다.
+
+⑨ 13일(현지시간) — MS 사과문
+MS는 공식 X 계정에 사과문을 올렸습니다. 서비스 전반에서 폭넓은 복구와 안정화가 보인다고 밝혔습니다. 원인으로는 앞서 진행한 네트워크 용량 증설 과정의 문제가 최근 네트워크 변경 뒤 드러났다고 설명했습니다(테크레이더·뉴스핌). CNN은 메일 서비스가 '정상 수준에 가까워지고 있다'는 MS 설명을 전했습니다.
+MS 대변인은 뉴스위크에 사이버 공격이나 AI 에이전트와는 관계가 없다고 말했습니다.
+
+⑩ 13일 오후(ET)
+CBS뉴스는 이 시점까지 MS가 완전 복구 예상 시각을 내놓지 않았다고 보도했습니다.
+
+■ 숫자로 보는 이번 장애
+- 시작: 미국 동부시간 12일 정오 무렵, 한국 13일 새벽 2시 무렵
+- 다운디텍터 미국 신고: 약 12만~13만 건
+- 번진 범위: 약 1시간 만에 74개 국가·지역
+- 영향 서비스: 아웃룩(익스체인지 온라인), 팀즈, 셰어포인트, 코파일럿, 디펜더 XDR
+- 원인 설명: 네트워크 용량 증설 문제(MS 발표), 사이버 공격 아님
+
+■ 아직 확정되지 않은 것
+- 총 장애 시간: 17~18시간 안팎이라는 보도가 있지만 매체마다 기준이 달라 확인 필요입니다.
+- 애저(Azure) 영향 범위: 클라우드 서버 서비스인 애저 고객이 직접 멈췄는지는 보도가 엇갈려 확인 필요입니다.
+- 국내 피해 규모: 영향받은 국내 기업 수와 손실액 집계는 없습니다. 미확정입니다.
+- SLA 보상: 서비스 수준 계약에 따른 보상 여부와 방식은 미확정입니다.
+- 최종 사고 보고서: 어떤 설정이 왜 문제였는지 담은 보고서는 아직 공개되지 않았습니다.
+
+■ 지금 할 일
+회사 IT 담당자라면 MS 365 관리 센터에서 EX1550543·MO1550821 공지의 최종 상태를 확인해 두세요. 장애 시간대에 보낸 중요한 메일은 상대방이 받았는지 다시 확인하는 것이 안전합니다. MS가 사고 보고서를 내면 원인과 보상 기준을 다시 정리하겠습니다.
+
+■ 출처·참고
+- WKYT: https://www.wkyt.com/2026/11/12/nationwide-microsoft-outlook-outage-reported/
+- TechRadar: https://www.techradar.com/news/live/outlook-outage-nov-2026
+- Al Jazeera: https://www.aljazeera.com/news/2026/11/12/microsoft-outage-hits-tens-of-thousands-of-users
+- CNN: https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk
+- Cloud Admin Hub(MS 공지 MO1550821 사본): https://www.cloudadminhub.com/microsoft-365-service-health/mo1550821/
+- ENow Software: https://www.enowsoftware.com/office-365-monitoring-outages/microsoft-service-health-updates-for-microsoft-outages-mo1550821-and-ex1550543
+- Microsoft 365 Status(X): https://x.com/MSFT365Status/status/2121303408313303423
+- Newsweek: https://www.newsweek.com/microsoft-outage-hits-global-operations-from-airlines-to-visas-12708940
+- CBS News: https://www.cbsnews.com/news/microsoft-battling-major-outage/
+- Nikkei Asia: https://asia.nikkei.com/business/technology/microsoft-outage-spills-into-asia-pacific-despite-partial-recovery
+- ABC News(호주): https://www.abc.net.au/news/2026-11-13/microsoft-outage-affects-users-worldwide/107381050
+- AOL(가디언 기사 게재본): https://www.aol.co.uk/articles/microsoft-outage-hits-hospitals-gps-095928000.html
+- Brit Brief: https://britbrief.co.uk/business/tech/microsoft-outage-hits-uk-hospitals-gps-schools-and-police.html
+- 한국경제: https://www.hankyung.com/article/2026111358751
+- 전자신문: https://www.etnews.com/20261113000090
+- 중앙이코노미뉴스: https://www.joongangenews.com/news/articleView.html?idxno=563704
+- 디지털데일리: https://www.ddaily.co.kr/page/view/2026111311365816798
+- 뉴스핌: https://www.newspim.com/news/view/20261114000019
