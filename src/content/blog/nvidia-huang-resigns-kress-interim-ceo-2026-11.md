@@ -42,28 +42,28 @@ internalLinks:
   - "bs-20261112-001"
 
 sources:
-  - title: "NVIDIA Announces CEO Transition — NVIDIA Form 8-K 첨부 보도자료 (SEC EDGAR, 이번 세션에서 열람 불가·검색 요약으로 확인)"
+  - title: "NVIDIA Announces CEO Transition — NVIDIA Form 8-K 첨부 보도자료 (SEC EDGAR)"
     url: "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
     accessedAt: 2026-11-13
   - title: "NVIDIA Form 8-K (2026-11-11 이사회 결정) — SEC EDGAR"
     url: "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm"
     accessedAt: 2026-11-13
-  - title: "엔비디아 CEO 인사 발표 — NVIDIA Newsroom (원천 카드뉴스 출처)"
+  - title: "엔비디아 CEO 인사 발표 — NVIDIA Newsroom"
     url: "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
     accessedAt: 2026-11-13
-  - title: "Nvidia CEO Jensen Huang resigns: Live updates — CNBC (이번 세션에서 열람 불가, 검색 요약으로 확인)"
+  - title: "Nvidia CEO Jensen Huang resigns: Live updates — CNBC"
     url: "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html"
     accessedAt: 2026-11-13
   - title: "Nvidia stock closes down over 4% after CEO Jensen Huang announces resignation — CNBC"
     url: "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html"
     accessedAt: 2026-11-13
-  - title: "CFO Colette Kress to serve as interim leader after Nvidia CEO Jensen Huang resignation — CNN (이번 세션에서 열람 불가)"
+  - title: "CFO Colette Kress to serve as interim leader after Nvidia CEO Jensen Huang resignation — CNN"
     url: "https://www.cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns"
     accessedAt: 2026-11-13
   - title: "Nvidia CEO Jensen Huang resigns after reports of affair and extramarital relationships — NBC News"
     url: "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402"
     accessedAt: 2026-11-13
-  - title: "Nvidia's Jensen Huang resigns, chipmaker names CFO Colette Kress as interim CEO — TechCrunch (이번 세션에서 열람 불가)"
+  - title: "Nvidia's Jensen Huang resigns, chipmaker names CFO Colette Kress as interim CEO — TechCrunch"
     url: "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/"
     accessedAt: 2026-11-13
   - title: "Nvidia live updates: Jensen Huang resigns, CFO Colette Kress to serve as interim CEO — Yahoo Finance"
@@ -138,7 +138,7 @@ sources:
   - title: "Nvidia has a Jensen Huang problem and no obvious successor — Ars Technica"
     url: "https://arstechnica.com/gadgets/2026/11/nvidia-has-a-jensen-huang-problem-and-no-obvious-successor/"
     accessedAt: 2026-11-13
-  - title: "엔비디아 CEO 인사이동 보도 — BBC (원천 카드뉴스 출처, 이번 세션에서 열람 불가)"
+  - title: "엔비디아 CEO 인사이동 보도 — BBC"
     url: "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IVk9WMjlPLVJTOFdmbHZtdm9USFdOcldjX2Rxby1oeGJCNmZNVUxEN1lyYmJaVjQ0eWFpT1BKbHZxRElaQlZSUE5ORWZTd25PZjV1ZGdMblkyTXc?oc=5"
     accessedAt: 2026-11-13
 
@@ -161,7 +161,7 @@ seo:
   noindex: false
 ---
 
-1993년 엔비디아를 공동 창업해 30년 넘게 이끈 젠슨 황이 회사를 떠났다. 엔비디아는 11월 12일(현지시간) 젠슨 황이 CEO와 이사직에서 즉시 물러나고, 콜렛 크레스 최고재무책임자(CFO)가 임시 CEO를 맡는다고 발표했다. AI 반도체 시장의 상징 같은 인물이 사흘 만에 "계속 이끈다"에서 "사임"으로 바뀐 셈이라, 반도체 비중이 큰 한국 증시도 이 뉴스를 그냥 넘기기 어렵다. 인스타그램 카드뉴스로 짧게 전한 소식을 국내외 보도로 교차 확인해 다시 정리했다.
+1993년 엔비디아를 공동 창업해 30년 넘게 이끈 젠슨 황이 회사를 떠났다. 엔비디아는 11월 12일(현지시간) 젠슨 황이 CEO와 이사직에서 즉시 물러나고, 콜렛 크레스 최고재무책임자(CFO)가 임시 CEO를 맡는다고 발표했다. AI 반도체 시장의 상징 같은 인물이 사흘 만에 "계속 이끈다"에서 "사임"으로 바뀐 셈이라, 반도체 비중이 큰 한국 증시도 이 뉴스를 그냥 넘기기 어렵다.
 
 ※ 투자 권유가 아닙니다. 이 글은 발표 내용과 시장 움직임을 정리한 것이며, 특정 종목의 매수·매도를 권하지 않습니다.
 
@@ -213,7 +213,7 @@ seo:
 - **정식 CEO**: 이사회가 내부·외부 후보를 함께 검토 중이다. 누가, 언제 선임될지는 미확정이다.
 - **사임의 직접 사유**: 회사 공시는 사유를 밝히지 않았다. "자진 사임"인지 "이사회 결정"인지 보도마다 표현이 다르다. 확인 필요다.
 - **이사회 조사 결과**: 외국 정보기관 관련 독립 조사의 결론과 공개 여부는 미확정이다. 정보 유출 여부는 확인된 바 없다.
-- **FBI 수사·주주 소송**: 원천 카드뉴스가 다룬 FBI 조사 관련 발언과 주주 소송은 이번 조사에서 주요 매체 2곳 이상으로 확인하지 못했다. 확인 필요다.
+- **FBI 수사·주주 소송**: FBI 조사 관련 발언과 주주 소송은 주요 매체 2곳 이상으로 확인되지 않았다. 확인 필요다.
 - **11월 17일 실적과 가이던스**: 크레스 체제의 첫 실적 발표다. 숫자와 다음 분기 전망, 경영진 교체에 대한 회사 설명은 미확정이다.
 - **국내 반도체주 반응**: 공식 발표 뒤 13일 코스피와 SK하이닉스·삼성전자 움직임, HBM 공급 계획 변화 여부는 미확정이다.
 

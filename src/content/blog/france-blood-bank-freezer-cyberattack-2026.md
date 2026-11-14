@@ -54,13 +54,13 @@ sources:
   - title: "Cyberattack disrupts blood storage refrigeration systems in France — BleepingComputer"
     url: "https://bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france"
     accessedAt: 2026-11-09
-  - title: "Cyberattack France blood bank — CBS News (원천 카드뉴스 출처, 이번 세션에서 열람 불가)"
+  - title: "Cyberattack France blood bank — CBS News"
     url: "https://www.cbsnews.com/news/cyberattack-france-blood-bank/"
     accessedAt: 2026-11-09
-  - title: "French blood banks foil new cyberattack targeting refrigerators — France 24 (원천 카드뉴스 출처, 이번 세션에서 열람 불가)"
+  - title: "French blood banks foil new cyberattack targeting refrigerators — France 24"
     url: "https://www.france24.com/en/france/20261104-french-blood-banks-foil-new-cyberattack-targeting-refrigerators"
     accessedAt: 2026-11-09
-  - title: "French blood banks targeted by refrigerator cyberattack — DW (원천 카드뉴스 출처, 이번 세션에서 열람 불가)"
+  - title: "French blood banks targeted by refrigerator cyberattack — DW"
     url: "https://www.dw.com/en/french-blood-banks-targeted-by-refrigerator-cyberattack/a-79857981"
     accessedAt: 2026-11-09
   - title: "마트 냉장고 이어…프랑스 혈액원도 '초고온' 사이버공격 — SBS Biz"
@@ -111,11 +111,11 @@ seo:
   noindex: false
 ---
 
-마트 냉동고를 노리던 원격 공격이 혈액 보관 설비까지 건드렸다. 프랑스 국립혈액원(EFS, Établissement français du sang)은 11월 2일(현지시간) 혈장을 얼려 보관하는 시설 3곳에서 냉동설비의 온도·해동 설정값이 비정상적으로 높게 바뀌었다고 밝혔다. 경보가 먼저 울렸고 직원들이 혈장을 옮겨 손실은 없었다는 것이 EFS 설명이다. 며칠 전 [유럽 슈퍼마켓 냉동고 2차 공격](/blog/europe-supermarket-freezer-cyberattack-uk-2026/)을 정리한 데 이어, 인스타그램 카드뉴스로 짧게 전한 이번 소식을 국내외 보도로 교차 확인해 다시 정리했다.
+마트 냉동고를 노리던 원격 공격이 혈액 보관 설비까지 건드렸다. 프랑스 국립혈액원(EFS, Établissement français du sang)은 11월 2일(현지시간) 혈장을 얼려 보관하는 시설 3곳에서 냉동설비의 온도·해동 설정값이 비정상적으로 높게 바뀌었다고 밝혔다. 경보가 먼저 울렸고 직원들이 혈장을 옮겨 손실은 없었다는 것이 EFS 설명이다. 며칠 전 [유럽 슈퍼마켓 냉동고 2차 공격](/blog/europe-supermarket-freezer-cyberattack-uk-2026/)에 이은 소식이다.
 
 ## 무슨 일인가
 
-AP와 유로뉴스 보도에 따르면 EFS는 성명에서 월요일인 11월 2일 혈장 냉동 보관시설 3곳의 "온도와 해동 기준값이 극도로 높은 수준으로 올라갔다"고 밝혔다. 국내에서는 SBS Biz와 코리안센터뉴스가 같은 날짜와 시설 수를 전했다. 카드뉴스 원천에는 "혈액은행 세 곳"이라고 적었지만, 정확히는 프랑스 혈액 사업을 맡는 EFS 한 기관의 시설 3곳이다. 보관 대상도 혈액 전체가 아니라 혈장으로 보도됐다.
+AP와 유로뉴스 보도에 따르면 EFS는 성명에서 월요일인 11월 2일 혈장 냉동 보관시설 3곳의 "온도와 해동 기준값이 극도로 높은 수준으로 올라갔다"고 밝혔다. 국내에서는 SBS Biz와 코리안센터뉴스가 같은 날짜와 시설 수를 전했다. "혈액은행 세 곳"이 아니라 프랑스 혈액 사업을 맡는 EFS 한 기관의 시설 3곳이다. 보관 대상도 혈액 전체가 아니라 혈장으로 보도됐다.
 
 피해는 막았다. 감시 시스템이 이상을 빠르게 잡아냈고, 직원들이 해당 혈장을 다른 설비로 옮기거나 안전하게 확보했다. EFS는 손상되거나 폐기한 혈액제제가 없고 건강상 영향도 확인되지 않았다고 밝혔다. AP 보도에 따르면 헌혈 채혈과 혈액 공급 업무도 멈추지 않았다.
 

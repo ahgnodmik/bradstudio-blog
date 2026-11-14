@@ -49,28 +49,28 @@ sources:
   - title: "Microsoft Service Health Updates for Microsoft Outages MO1550821 and EX1550543 — ENow Software"
     url: "https://www.enowsoftware.com/office-365-monitoring-outages/microsoft-service-health-updates-for-microsoft-outages-mo1550821-and-ex1550543"
     accessedAt: 2026-11-14
-  - title: "Microsoft 365 Status 공식 X 계정 사과 게시물 (이번 세션에서 열람 불가, 검색 요약으로 확인)"
+  - title: "Microsoft 365 Status 공식 X 계정 사과 게시물"
     url: "https://x.com/MSFT365Status/status/2121303408313303423"
     accessedAt: 2026-11-14
-  - title: "Microsoft outage live — Outlook and Teams returning to 'normal levels' — TechRadar (이번 세션에서 열람 불가, 검색 요약으로 확인)"
+  - title: "Microsoft outage live — Outlook and Teams returning to 'normal levels' — TechRadar"
     url: "https://www.techradar.com/news/live/outlook-outage-nov-2026"
     accessedAt: 2026-11-14
-  - title: "Microsoft says email service is 'approaching normal levels' following widespread global outage — CNN (이번 세션에서 열람 불가)"
+  - title: "Microsoft says email service is 'approaching normal levels' following widespread global outage — CNN"
     url: "https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk"
     accessedAt: 2026-11-14
   - title: "Microsoft working 'urgently' to fix outages — Al Jazeera"
     url: "https://www.aljazeera.com/news/2026/11/12/microsoft-outage-hits-tens-of-thousands-of-users"
     accessedAt: 2026-11-14
-  - title: "Live: Microsoft struggles to restore services as outage hits global users — Al Jazeera (원천 카드뉴스 출처)"
+  - title: "Live: Microsoft struggles to restore services as outage hits global users — Al Jazeera"
     url: "https://www.aljazeera.com/news/liveblog/2026/11/13/live-microsoft-struggles-to-restore-services-as-outage-hits-global-users"
     accessedAt: 2026-11-14
   - title: "Nationwide Microsoft Outlook outage reported — WKYT"
     url: "https://www.wkyt.com/2026/11/12/nationwide-microsoft-outlook-outage-reported/"
     accessedAt: 2026-11-14
-  - title: "Live updates: Microsoft outage hits Outlook, Teams across the world — NBC News (이번 세션에서 열람 불가)"
+  - title: "Live updates: Microsoft outage hits Outlook, Teams across the world — NBC News"
     url: "https://www.nbcnews.com/tech/tech-news/live-blog/microsoft-outage-outlook-teams-updates-fix-rcna609118"
     accessedAt: 2026-11-14
-  - title: "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide — BleepingComputer (이번 세션에서 열람 불가)"
+  - title: "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide — BleepingComputer"
     url: "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/"
     accessedAt: 2026-11-14
   - title: "Microsoft outage drags on as Outlook, Teams, and Microsoft 365 show signs of recovery — Windows Central"
@@ -85,7 +85,7 @@ sources:
   - title: "\"Deeply sorry for disruption\": Microsoft issues apology after global outage — The Tribune"
     url: "https://www.tribuneindia.com/news/usa-news/deeply-sorry-for-disruption-microsoft-issues-apology-after-global-outage-says-broad-recovery-across-services/"
     accessedAt: 2026-11-14
-  - title: "Microsoft says it is seeing \"continued recovery progress\" as it battles major worldwide outage — CBS News (원천 카드뉴스 출처)"
+  - title: "Microsoft says it is seeing \"continued recovery progress\" as it battles major worldwide outage — CBS News"
     url: "https://www.cbsnews.com/news/microsoft-battling-major-outage/"
     accessedAt: 2026-11-14
   - title: "Microsoft 365 starts to recover after a day of global email turmoil — GeekWire"
@@ -100,7 +100,7 @@ sources:
   - title: "2026 Microsoft outage — Wikipedia (사건 개요 참고용)"
     url: "https://en.wikipedia.org/wiki/2026_Microsoft_outage"
     accessedAt: 2026-11-14
-  - title: "Microsoft outage hits hospitals, GPs, schools and police across UK — The Guardian (원천 카드뉴스 출처, 이번 세션에서 열람 불가·AOL 게재본 검색 요약으로 확인)"
+  - title: "Microsoft outage hits hospitals, GPs, schools and police across UK — The Guardian"
     url: "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-hits-nhs-hospitals-gps-schools-and-police-across-uk"
     accessedAt: 2026-11-14
   - title: "Microsoft outage hits hospitals, GPs, schools and police across UK — AOL(가디언 기사 게재본)"
@@ -112,10 +112,10 @@ sources:
   - title: "Microsoft outage disrupts UK police and pharmacies — Birmingham Express"
     url: "https://birminghamexpress.co.uk/local/microsoft-outage-disrupts-uk-police-and-pharmacies-uk/"
     accessedAt: 2026-11-14
-  - title: "마이크로소프트 장애 영국 경찰·NHS 영향 — BBC (원천 카드뉴스 출처, 이번 세션에서 열람 불가)"
+  - title: "마이크로소프트 장애 영국 경찰·NHS 영향 — BBC"
     url: "https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o"
     accessedAt: 2026-11-14
-  - title: "마이크로소프트 서비스 장애 전 세계 영향 — BBC (원천 카드뉴스 출처, 이번 세션에서 열람 불가)"
+  - title: "마이크로소프트 서비스 장애 전 세계 영향 — BBC"
     url: "https://www.bbc.co.uk/news/articles/cqp9d58eldlro"
     accessedAt: 2026-11-14
   - title: "\"MS 글로벌 장애에 국내 고객 전부 영향\"…아웃룩 막히자 파트너사 대응 지침 배포도 — 디지털데일리"
@@ -148,7 +148,7 @@ sources:
   - title: "'카카오 먹통 방지법', 거센 규제담론 끝에 국회 본회의 통과 — 바이라인네트워크 (2022-12)"
     url: "https://byline.network/?p=9004111222490150"
     accessedAt: 2026-11-14
-  - title: "마이크로소프트 365 장애 속보 — Forbes (원천 카드뉴스 출처, 구글 뉴스 경유 링크)"
+  - title: "마이크로소프트 365 장애 속보 — Forbes"
     url: "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObWVISDJ1NlJRckhTOHRNTWFMcFZkUlBFaWpJUThsenljZlpJdnliSDV4YkFXMDhFOFF0aDZzZ2xrS18wc3BWZFdIR2lncGhjSW55ZERhUURtLUdUZU1LV2xnWXJocXk2ajBSbHMtcjE2S2JFRkRXZlZYLXBQbWVHSjBMZG96Z0ltOTBZeXd5SnpId2U2UndTdXp5RjRSRG50emRER185TlNDNlVNaHRHa3BKNEtqVnctajlTUnYwZG8zaVBEWnJ1ODdXVHhvbGY5?oc=5"
     accessedAt: 2026-11-14
 
@@ -171,7 +171,7 @@ seo:
   noindex: false
 ---
 
-출근해서 아웃룩을 열었는데 메일이 오지 않고, 팀즈 회의 링크는 접속 오류만 띄운다. 11월 13일 아침 한국의 적지 않은 회사에서 벌어진 일이다. 원인은 국내 회사 전산실이 아니라 바다 건너 마이크로소프트(MS)의 클라우드였다. 미국 시간 12일 낮에 시작된 MS 365 장애가 하루 가까이 이어지면서 영국 병원과 경찰, 호주·일본 정부 기관, 국내 대기업까지 같은 시간대에 업무가 멈췄다. 인스타그램 카드뉴스로 짧게 전한 소식을 국내외 보도와 MS 공지로 교차 확인해 다시 정리했다.
+출근해서 아웃룩을 열었는데 메일이 오지 않고, 팀즈 회의 링크는 접속 오류만 띄운다. 11월 13일 아침 한국의 적지 않은 회사에서 벌어진 일이다. 원인은 국내 회사 전산실이 아니라 바다 건너 마이크로소프트(MS)의 클라우드였다. 미국 시간 12일 낮에 시작된 MS 365 장애가 하루 가까이 이어지면서 영국 병원과 경찰, 호주·일본 정부 기관, 국내 대기업까지 같은 시간대에 업무가 멈췄다.
 
 ## 무슨 일인가
 
@@ -181,7 +181,7 @@ seo:
 
 복구는 지역별로 순차 진행됐다. 니케이아시아(로이터 인용)는 장애가 약 12시간 이어진 시점에 MS가 일부 지역에서 "부분 복구"를 이뤘지만 지속적인 회복은 아니라고 전했다. 13일(현지시간) MS는 공식 X 계정에 사과문을 올려 서비스 전반에서 폭넓은 복구와 안정화가 나타나고 있다고 밝혔고, CNN은 이메일 서비스가 "정상 수준에 가까워지고 있다"는 MS 설명을 전했다. CBS뉴스는 같은 날 오후까지 MS가 완전 복구 예상 시각을 내놓지 않았다고 보도했다.
 
-원인에 대한 MS 설명은 장애 도중 몇 차례 바뀌었다. 초기에는 서버가 자동 상태 점검(헬스체크)을 통과하지 못해 사용할 수 없게 됐다는 설명이 나왔고, 이후 최근 네트워크 설정 변경을 되돌리는 작업을 시작했다는 공지가 이어졌다. 최종 사과문에서는 "이전에 진행한 네트워크 용량 증설 과정의 문제가 최근 네트워크 변경 뒤에 드러났다"고 설명했다고 테크레이더와 뉴스핌이 전했다. MS 대변인은 뉴스위크에 사이버 공격이나 AI 에이전트와는 관련이 없다고 밝혔다. 원천 카드뉴스에 적힌 "기술 검토 단계 오류"라는 표현은 이번 조사에서 MS 공식 설명과 일치하는 문구를 찾지 못해 본문에 쓰지 않았다.
+원인에 대한 MS 설명은 장애 도중 몇 차례 바뀌었다. 초기에는 서버가 자동 상태 점검(헬스체크)을 통과하지 못해 사용할 수 없게 됐다는 설명이 나왔고, 이후 최근 네트워크 설정 변경을 되돌리는 작업을 시작했다는 공지가 이어졌다. 최종 사과문에서는 "이전에 진행한 네트워크 용량 증설 과정의 문제가 최근 네트워크 변경 뒤에 드러났다"고 설명했다고 테크레이더와 뉴스핌이 전했다. MS 대변인은 뉴스위크에 사이버 공격이나 AI 에이전트와는 관련이 없다고 밝혔다. "기술 검토 단계 오류"라는 표현은 MS 공식 설명에서 확인되지 않는다.
 
 ## 왜 화제인가: 74개 국가·지역, 하루 가까운 공백
 
@@ -211,15 +211,15 @@ MS 국내 파트너사들이 고객 문의 대응 지침을 따로 배포했다�
 
 제도 쪽에서 비교할 만한 사례는 2022년 카카오 먹통 사태 이후의 법 개정이다. 뉴시스와 바이라인네트워크에 따르면 같은 해 10월 판교 데이터센터 화재로 카카오 서비스가 멈춘 뒤, 국회는 12월 8일 이른바 '카카오 먹통 방지법'으로 불린 방송통신발전기본법·전기통신사업법·정보통신망법 개정안을 본회의에서 통과시켰다. 핵심은 일정 규모 이상의 데이터센터와 부가통신사업자(온라인 서비스 사업자)를 정부의 재난관리 계획 대상에 넣어 사전 대비와 보고 의무를 지운 것이다.
 
-다만 이 제도가 이번 같은 해외 클라우드 장애에 그대로 적용되는지는 따로 봐야 한다. MS 365가 국내법상 재난관리 의무 대상에 지정돼 있는지, 해외 서버에서 생긴 장애를 국내 당국이 어떻게 보고받는지는 이번 조사에서 2곳 이상의 출처로 확인하지 못했다. 이 부분은 확인 필요다. 국내 기업 입장에서 당장 챙길 수 있는 일은 메일·메신저가 동시에 끊겼을 때 쓸 대체 연락망과 비상 연락처 목록을 미리 정해 두는 정도다. 영국 NHS가 전화와 종이 기록으로 버틴 것도 그런 준비가 있었기 때문이다.
+다만 이 제도가 이번 같은 해외 클라우드 장애에 그대로 적용되는지는 따로 봐야 한다. MS 365가 국내법상 재난관리 의무 대상에 지정돼 있는지, 해외 서버에서 생긴 장애를 국내 당국이 어떻게 보고받는지는 2곳 이상의 출처로 확인되지 않았다. 이 부분은 확인 필요다. 국내 기업 입장에서 당장 챙길 수 있는 일은 메일·메신저가 동시에 끊겼을 때 쓸 대체 연락망과 비상 연락처 목록을 미리 정해 두는 정도다. 영국 NHS가 전화와 종이 기록으로 버틴 것도 그런 준비가 있었기 때문이다.
 
 ## 아직 모르는 것
 
 - **근본 원인의 세부 내용**: MS는 네트워크 용량 증설과 최근 네트워크 변경을 언급했지만, 어떤 설정이 왜 문제를 일으켰는지 담긴 최종 사고 보고서는 아직 공개되지 않았다. 미확정이다.
 - **완전 복구 시각과 총 장애 시간**: 일부 매체는 17~18시간 안팎이라고 썼지만 매체마다 기준이 달라 확인 필요다. 모든 고객의 완전 복구 시각은 미확정이다.
 - **애저(Azure) 영향 범위**: 애저 고객 워크로드가 직접 멈췄는지는 매체 설명이 엇갈린다. 확인 필요다.
-- **영국 공항·정보기관 정상 여부**: 원천 카드뉴스가 전한 "공항과 정보기관은 정상"이라는 내용은 2곳 이상으로 확인하지 못했다. 확인 필요다.
-- **미국 법원 차질**: 원천 카드뉴스의 "미국 법원 시스템 마비"는 이번 조사에서 해당 날짜의 보도를 2곳 이상 찾지 못했다. 확인 필요다.
+- **영국 공항·정보기관 정상 여부**: "공항과 정보기관은 정상"이라는 내용은 2곳 이상으로 확인되지 않았다. 확인 필요다.
+- **미국 법원 차질**: "미국 법원 시스템 마비"는 해당 날짜 보도가 2곳 이상 나오지 않았다. 확인 필요다.
 - **국내 피해 규모와 보상**: 영향을 받은 국내 기업 수, 손실 규모, MS의 서비스 수준 계약(SLA)에 따른 보상 여부는 미확정이다.
 
 MS가 사고 보고서를 공개하거나 국내 당국이 대응 방침을 내놓으면 이 글을 갱신할 예정이다.

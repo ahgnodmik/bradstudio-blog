@@ -43,7 +43,7 @@ internalLinks:
   - "bs-20261001-002"
 
 sources:
-  - title: "Gold, silver plunge as hotter U.S. inflation raises prospect of larger Fed rate hike — Kitco PM Report (원천 카드뉴스 출처 계열)"
+  - title: "Gold, silver plunge as hotter U.S. inflation raises prospect of larger Fed rate hike — Kitco PM Report"
     url: "https://www.kitco.com/news/article/2026-11-10/gold-silver-plunge-hotter-us-inflation-raises-prospect-larger-fed-rate-hike"
     accessedAt: 2026-11-12
   - title: "Gold, silver retreat as high core CPI lifts December Fed hike odds — Kitco AM Report"
@@ -61,7 +61,7 @@ sources:
   - title: "Gold price today: gold falls 2% as hotter US CPI fuels Fed rate hike bets — Invezz"
     url: "https://invezz.com/news/2026/11/10/gold-price-today-falls-hot-us-cpi-fed-hike-bets/"
     accessedAt: 2026-11-12
-  - title: "CPI inflation report: October 2026 — CNBC (이번 세션에서 열람 불가, 검색 요약으로 확인)"
+  - title: "CPI inflation report: October 2026 — CNBC"
     url: "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
     accessedAt: 2026-11-12
   - title: "Inflation remained elevated in October, CPI report shows, upping odds of Fed interest rate hike — CBS News"
@@ -118,7 +118,7 @@ sources:
   - title: "Mortgage Rates November 11, 2026: 30-Year Jumps to 7.30% — Nadlan Capital Group (단일 출처, 본문 수치 미사용)"
     url: "https://nadlancapitalgroup.com/mortgage-rates-november-11-2026/"
     accessedAt: 2026-11-12
-  - title: "Goldman Sachs Fed rate hike forecast — Reuters (원천 카드뉴스 출처, 이번 세션에서 열람 불가·11월 내용 확인 필요)"
+  - title: "Goldman Sachs Fed rate hike forecast — Reuters"
     url: "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaGZrcC11RmpmMVp3a09iZl9aR2N6TDVFV2d1eE50MzBMT0hkZFMtbXFteWFvcDBnSEM0MXdhWFJmM0d4eXZNVFMtNDA2VHozS0UyeEdWcGtQanctN3pxdVVVeWRacnFxS2d3N1I1MktUbUVISWhwZ0VibFgtTWVUX0ZtelYwSmJMQXdUbDJqZmxPMklpS2c?oc=5"
     accessedAt: 2026-11-12
 
@@ -143,7 +143,7 @@ seo:
   noindex: false
 ---
 
-미국 물가가 또 시장 예상을 넘었다. 미국 노동통계국(BLS)은 11월 10일(현지시간) 10월 소비자물가지수(CPI)가 전월 대비 0.4% 올랐다고 발표했다. 금과 은 가격은 그날 바로 미끄러졌고, 12월 연준 금리 인상은 시장에서 거의 기정사실처럼 가격에 반영됐다. 인스타그램 카드뉴스로 짧게 전한 소식을 국내외 보도로 교차 확인해 다시 정리했다.
+미국 물가가 또 시장 예상을 넘었다. 미국 노동통계국(BLS)은 11월 10일(현지시간) 10월 소비자물가지수(CPI)가 전월 대비 0.4% 올랐다고 발표했다. 금과 은 가격은 그날 바로 미끄러졌고, 12월 연준 금리 인상은 시장에서 거의 기정사실처럼 가격에 반영됐다.
 
 ※ 투자 권유가 아닙니다. 이 글은 발표된 지표와 시장 움직임을 정리한 것이며, 특정 자산의 매수·매도를 권하지 않습니다.
 
@@ -163,7 +163,7 @@ CNBC가 전한 CME FedWatch 기준으로, 발표 직후 시장은 12월 8~9일 F
 
 연준 안에서도 강한 발언이 나왔다. 크리스토퍼 월러 연준 이사는 근원 CPI가 0.3% 안팎으로 나오면 12월 0.5%p 인상도 검토해야 한다는 취지로 말했다고 CNBC와 서울경제가 전했다. 이 발언은 개인 의견이며 연준 위원회 전체의 결정이 아니다.
 
-원천 카드뉴스는 골드만삭스 등 투자은행이 연준 인상 전망을 올렸다고 소개했다. 이번 11월 발표 이후 골드만삭스가 전망을 바꿨다는 보도는 이번 조사에서 2곳 이상 확인하지 못했다. 확인 필요다. 미국 주택담보대출 금리가 발표 직후 올랐다는 보도도 있지만 일별 수치를 낸 곳이 한 곳뿐이라 숫자는 싣지 않았다.
+이번 11월 발표 이후 골드만삭스 등 투자은행이 연준 인상 전망을 올렸다는 보도는 2곳 이상 확인되지 않았다. 확인 필요다. 미국 주택담보대출 금리가 발표 직후 올랐다는 보도도 있지만 일별 수치를 낸 곳이 한 곳뿐이라 숫자는 싣지 않았다.
 
 | 항목 | 내용 | 교차 확인 |
 |---|---|---|
@@ -193,7 +193,7 @@ CNBC가 전한 CME FedWatch 기준으로, 발표 직후 시장은 12월 8~9일 F
 - **12월 FOMC 결과**: 회의는 12월 8~9일(현지시간)이다. 인상 여부와 폭(0.25%p 또는 0.5%p)은 미확정이다. 시장 가격은 결정이 아니다.
 - **전년 대비 물가 상승률**: 10월분은 BLS 공식 수치가 없다. 기관별 추정치는 4.0~4.2%로 갈려 확인 필요다.
 - **11월 CPI**: 12월 FOMC 전에 나올지, 발표 일정은 BLS 공지로 확인 필요다.
-- **투자은행 전망 변경**: 골드만삭스 등이 이번 발표 뒤 전망을 올렸다는 원천 카드뉴스 내용은 확인 필요다.
+- **투자은행 전망 변경**: 골드만삭스 등이 이번 발표 뒤 전망을 올렸다는 내용은 확인 필요다.
 - **국내 금리 영향**: 한국은행 기준금리와 코픽스가 이번 흐름을 얼마나 반영할지는 미확정이다.
 
 ※ 투자 권유가 아닙니다. 금·은, 주식, 환율 관련 판단은 각자의 자금 계획과 만기에 따라 달라집니다. 12월 8~9일 FOMC 결과가 나오면 이 글의 숫자를 갱신할 예정이다.

@@ -36,10 +36,10 @@ reviewAfter: 2026-12-10
 author: "Brad Studio"
 
 sources:
-  - title: "Labour to cut EV target for car industry despite climate concerns — The Guardian (원천 카드뉴스 출처, 이번 세션에서 열람 불가)"
+  - title: "Labour to cut EV target for car industry despite climate concerns — The Guardian"
     url: "https://www.theguardian.com/environment/2026/nov/08/labour-cut-ev-target-car-industry-despite-climate-concerns"
     accessedAt: 2026-11-10
-  - title: "ZEV mandate 관련 보도 — BBC (원천 카드뉴스 출처, 이번 세션에서 열람 불가)"
+  - title: "ZEV mandate 관련 보도 — BBC"
     url: "https://www.bbc.co.uk/news/articles/cqkg5g2970epo"
     accessedAt: 2026-11-10
   - title: "Government expected to cut 2030 ZEV target to 60% — AM Online"
@@ -151,13 +151,13 @@ seo:
   noindex: false
 ---
 
-영국이 전기차 전환 속도를 늦출 것으로 보인다. 11월 9일(현지시간) 가디언 보도를 시작으로 로이터, 업계지 AM 등이 영국 정부가 2030년 무공해차(ZEV) 판매 의무 비율을 80%에서 60% 안팎으로 낮출 것이라고 전했다. 정부는 "아직 결정된 것이 없다"고 선을 그었다. 인스타그램 카드뉴스로 짧게 전한 소식을 국내외 보도로 교차 확인해 다시 정리했다.
+영국이 전기차 전환 속도를 늦출 것으로 보인다. 11월 9일(현지시간) 가디언 보도를 시작으로 로이터, 업계지 AM 등이 영국 정부가 2030년 무공해차(ZEV) 판매 의무 비율을 80%에서 60% 안팎으로 낮출 것이라고 전했다. 정부는 "아직 결정된 것이 없다"고 선을 그었다.
 
 ## 무슨 일인가
 
 영국에는 ZEV 의무판매제(ZEV mandate)가 있다. 자동차 제조사가 해마다 파는 신차 가운데 일정 비율을 배터리 전기차 같은 무공해차로 채워야 하는 제도다. 2030년 목표는 80%다. 이 숫자를 60% 정도로 낮추고, 다른 해의 실적을 빌려 쓰는 유연성 장치를 2034년까지 늘리는 방안이 유력하다고 가디언이 정부 내부 소식통을 인용해 보도했다. AM, 에너지라이브뉴스, 로이터 기사를 실은 마닐라타임스가 같은 내용을 전했다.
 
-결정은 루이즈 헤이그(Louise Haigh)가 내릴 것으로 알려졌다. 카드뉴스에는 그를 교통부 장관으로 적었지만, 이번 보도 시점의 직함은 제1국무장관이다. 가디언은 그를 '사실상 부총리'로 표현했다. AM과 EV플리트월드는 11일(수) 총리 관저 회의에서 최종안이 정해질 수 있다고 보도했다. 정부 대변인은 "ZEV 의무판매제를 전적으로 지지하며 아직 어떤 결정도 내리지 않았다"고 밝혔다. 이 발언은 AM과 브릿브리프가 같이 전했다.
+결정은 루이즈 헤이그(Louise Haigh)가 내릴 것으로 알려졌다. 보도 시점의 직함은 제1국무장관이다. 가디언은 그를 '사실상 부총리'로 표현했다. AM과 EV플리트월드는 11일(수) 총리 관저 회의에서 최종안이 정해질 수 있다고 보도했다. 정부 대변인은 "ZEV 의무판매제를 전적으로 지지하며 아직 어떤 결정도 내리지 않았다"고 밝혔다. 이 발언은 AM과 브릿브리프가 같이 전했다.
 
 바뀌지 않는 부분도 있다. 2030년 휘발유·경유 전용 신차 판매 종료와 2035년 신차 100% 무공해차 목표는 그대로 둔다는 것이 여러 매체의 공통 보도다. 이번에 손대는 것은 그 사이 구간의 비율이다.
 

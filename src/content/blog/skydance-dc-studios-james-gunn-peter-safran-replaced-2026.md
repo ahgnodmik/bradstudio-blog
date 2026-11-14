@@ -37,16 +37,16 @@ reviewAfter: 2026-12-11
 author: "Brad Studio"
 
 sources:
-  - title: "Skydance replaces James Gunn and Peter Safran as DC Studios chiefs following Warner Bros. takeover — DW (원천 카드뉴스 출처, 이번 세션에서 열람 불가)"
+  - title: "Skydance replaces James Gunn and Peter Safran as DC Studios chiefs following Warner Bros. takeover — DW"
     url: "https://www.dw.com/en/skydance-replaces-james-gunn-and-peter-safran-as-dc-studios-chiefs-following-warner-bros-takeover/a-79904972"
     accessedAt: 2026-11-11
-  - title: "DCU shake-up: James Gunn and Peter Safran out post-merger — Ars Technica (원천 카드뉴스 출처, 이번 세션에서 열람 불가)"
+  - title: "DCU shake-up: James Gunn and Peter Safran out post-merger — Ars Technica"
     url: "https://arstechnica.com/culture/2026/11/dcu-shake-up-james-gunn-and-peter-safran-out-post-merger/"
     accessedAt: 2026-11-11
-  - title: "DC Shocker: James Gunn, Peter Safran Out as Co-Chairmen, Marvel Veteran Jeremy Latcham to Lead Comic Book Studio — Variety (이번 세션에서 열람 불가)"
+  - title: "DC Shocker: James Gunn, Peter Safran Out as Co-Chairmen, Marvel Veteran Jeremy Latcham to Lead Comic Book Studio — Variety"
     url: "https://variety.com/2026/film/news/james-gunn-peter-safran-fired-dc-jeremy-latcham-1236943091/"
     accessedAt: 2026-11-11
-  - title: "James Gunn Speaks Out Following DC Studios Departure — Deadline (이번 세션에서 열람 불가)"
+  - title: "James Gunn Speaks Out Following DC Studios Departure — Deadline"
     url: "https://deadline.com/2026/11/james-gunn-dc-studios-1237217532/"
     accessedAt: 2026-11-11
   - title: "James Gunn And Peter Safran Replaced By Jeremy Latcham At DC Studios — Forbes"
@@ -182,7 +182,7 @@ seo:
   noindex: false
 ---
 
-할리우드 슈퍼히어로 판이 또 흔들린다. 워너브러더스를 인수한 스카이댄스가 11월 9일(현지시간) DC 스튜디오 공동 대표 제임스 건과 피터 사프란을 교체한다고 발표했다. 후임은 마블 스튜디오에서 '어벤져스'를 만든 제작자 제러미 래첨이다. 인스타그램 카드뉴스로 짧게 전한 소식을 국내외 보도로 교차 확인해 다시 정리했다.
+할리우드 슈퍼히어로 판이 또 흔들린다. 워너브러더스를 인수한 스카이댄스가 11월 9일(현지시간) DC 스튜디오 공동 대표 제임스 건과 피터 사프란을 교체한다고 발표했다. 후임은 마블 스튜디오에서 '어벤져스'를 만든 제작자 제러미 래첨이다.
 
 ## 무슨 일인가
 
@@ -194,7 +194,7 @@ seo:
 
 건과 사프란이 DC에서 완전히 빠지는 것은 아니다. 건은 2027년 개봉 예정인 슈퍼맨 속편 '맨 오브 투모로우'를 계속 연출하고, 사프란은 제작을 맡는다. CBC와 스크린랜트가 같은 내용을 보도했다. 건은 DC 작품 하나를 더 쓰고 있다고 밝혔다고 전해졌다. 이 작품의 정체와 제작 여부는 미확정이다.
 
-카드뉴스에는 두 사람이 "2023년부터" DC를 이끌었다고 적었다. 블룸버그와 버라이어티의 2022년 보도를 보면 임명 발표는 2022년 10월이다. 이 글은 2022년 기준으로 고쳐 적는다.
+블룸버그와 버라이어티의 2022년 보도를 보면 두 사람의 임명 발표는 2022년 10월이다.
 
 ## 왜 화제인가: 인수와 DC 성적표
 
