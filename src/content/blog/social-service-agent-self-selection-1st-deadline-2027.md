@@ -51,7 +51,8 @@ sources:
     url: 'https://www.fnnews.com/news/202601021040263122'
     accessedAt: 2026-11-15
 
-internalLinks: []
+internalLinks:
+  - 'bs-20261103-003'
 
 monetization:
   methods:

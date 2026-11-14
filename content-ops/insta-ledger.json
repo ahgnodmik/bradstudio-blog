@@ -369,5 +369,25 @@
   "why-only-now/delivered/158-polestar-s-new-concept-features-user-con.json": {
     "contentId": "bs-20261114-002",
     "date": "2026-11-14"
+  },
+  "abroad-now/delivered/2026-11-14-us-faa-nationwide-ground-stop-2026.json": {
+    "contentId": "bs-20261115-001",
+    "date": "2026-11-15"
+  },
+  "abroad-now/pending/2026-11-14-us-faa-ground-stop-flight-chaos.json": {
+    "contentId": "bs-20261115-001",
+    "date": "2026-11-15"
+  },
+  "why-only-now/delivered/159-vibrating-tv-screen-puts-people-s-voices.json": {
+    "contentId": "bs-20261115-002",
+    "date": "2026-11-15"
+  },
+  "abroad-now/pending/2026-11-14-microsoft-outage-us-november-2026.json": {
+    "skipped": "bs-20261114-001과 같은 사건",
+    "date": "2026-11-15"
+  },
+  "abroad-now/pending/2026-11-14-microsoft-365-global-outage-november-2026.json": {
+    "skipped": "bs-20261114-001과 같은 사건",
+    "date": "2026-11-15"
   }
 }
