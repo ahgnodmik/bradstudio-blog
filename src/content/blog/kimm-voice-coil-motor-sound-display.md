@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'New Atlas'
   creditUrl: 'https://newatlas.com/electronics/voice-coil-motor-tv/'
 
-status: draft
+status: published
 
 category: world
 tags:

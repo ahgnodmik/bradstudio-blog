@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Age Cymru'
   creditUrl: 'https://unsplash.com/@agecymru'
 
-status: draft
+status: published
 
 category: living
 tags:

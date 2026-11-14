@@ -9,7 +9,7 @@ thumbnail:
   creditName: "Daniel Schludi"
   creditUrl: "https://unsplash.com/@schluditsch"
 
-status: draft
+status: published
 
 category: world
 tags:
