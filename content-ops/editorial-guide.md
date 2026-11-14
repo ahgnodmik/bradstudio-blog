@@ -1,5 +1,7 @@
 # Brad Studio 콘텐츠 운영 지침
 
+> 2026-11-14: 검색 노출 점검표는 `search-exposure-checklist.md` 참고.
+
 > 2026-10-04 확정. 애드센스 "Low value content" 거절 이후 방향 재정의.
 > 글을 쓰거나 루틴이 초안을 만들 때 이 문서를 먼저 읽는다.
 

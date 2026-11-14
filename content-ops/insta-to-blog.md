@@ -1,6 +1,7 @@
 # 인스타 콘텐츠 → 블로그 운영 절차 (매일 + 주간)
 
 > 2026-10-07 확정. 원천: 비공개 저장소 `ahgnodmik/insta-abroad-now`.
+> 2026-11-14: 키워드·제목·소제목 배치는 `search-exposure-checklist.md`를 따른다.
 > 이미지·문체·출처 원칙은 `series-insta-weekly.md`, `editorial-guide.md`를 그대로 따른다.
 > 카테고리: `world` (해외·신제품)
 
