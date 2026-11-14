@@ -1,0 +1,83 @@
+제목: 미국 그라운드 스톱 4시간 20분 경과 정리: 한국 14일 새벽 5시 54분 발령부터 인천발 대한항공·아시아나 결항 철회까지
+
+14일 아침 인천공항에서 미국행 결항 문자를 받았다가 다시 운항 재개 안내를 받았다면, 그 사이 미국에서 무슨 일이 있었는지 시간 순서로 정리했습니다.
+
+※ 11월 15일 기준 정리입니다. 숫자와 날짜는 2곳 이상 매체 또는 FAA 성명에서 확인된 것만 썼습니다.
+※ 한 곳에서만 나온 내용은 '확인 필요', 공식 발표가 없는 내용은 '미확정'으로 표시했습니다.
+※ 시간은 미국 동부시간(ET)과 한국 시간(KST)을 함께 적었습니다. 이 시기 한국이 14시간 빠릅니다.
+
+■ 한 줄 요약
+미국 연방항공청(FAA)이 현지시간 11월 13일(금) 오후 미국 전역 공항의 출발을 막았습니다. 이른바 전국 그라운드 스톱입니다. 이유는 관제 통신 장애였습니다. 조치는 약 4시간 20분 만에 풀렸습니다. 금요일 하루 결항은 9,000편대였습니다. 인천발 대한항공·아시아나 미국행 일부도 결항 발표 뒤 철회되고 지연 출발했습니다.
+
+■ 미국 그라운드 스톱 시간대별 경과
+① 11월 13일 오후 3시 54분(ET) / 14일 오전 5시 54분(KST)
+FAA가 전국 그라운드 스톱을 발령했습니다(CNN·알자지라). 이미 하늘에 떠 있던 비행기는 계속 날았습니다. 땅에 있는 비행기만 출발이 막혔습니다.
+FAA는 성명에서 여러 항로교통관제센터(ARTCC)에 통신 문제가 생겼다고 밝혔습니다.
+
+② 발령 직후 / 한국 14일 이른 아침
+미국 주요 공항 출발편이 줄줄이 묶였습니다. 한국에서는 인천공항 오전 미국행 출발이 바로 영향권에 들었습니다.
+대한항공은 인천~애틀랜타(KE033·KE034)를, 아시아나항공은 인천~뉴욕 왕복편을 결항으로 안내했습니다(한국일보·파이낸셜뉴스·위키트리).
+
+③ 금요일 저녁(ET)
+비행기를 못 탄 승객이 기차로 몰렸습니다. 미국 철도공사 암트랙의 웹사이트·앱 예매가 한동안 먹통이 됐습니다(폭스2 디트로이트·WCVB). 열차 운행 자체는 정상이었습니다. 예매 시스템은 같은 날 밤 복구됐습니다(폭스5 DC).
+
+④ 11월 13일 오후 8시 15분(ET) / 14일 오전 10시 15분(KST)
+FAA가 그라운드 스톱을 해제했습니다. CNN과 CNBC는 4시간 넘는 중단이라고 보도했습니다. 한국일보는 약 4시간 20분, 서울신문은 4시간 반으로 전했습니다.
+
+⑤ 해제 뒤 / 한국 14일 오전
+미국 쪽 제한이 풀리자 대한항공과 아시아나는 결항 결정을 거뒀습니다. 해당 편은 지연 출발로 바뀌었습니다(한국일보·서울신문).
+다만 재경일보는 같은 노선을 운항 취소로 보도했습니다. 편명별 최종 상태는 확인 필요입니다.
+
+⑥ 11월 14일(토, ET)
+항공기와 승무원 배치가 꼬였습니다. 토요일에도 결항이 수천 편 이어졌습니다(NBC뉴스·CNN).
+
+■ 숫자로 본 피해 규모
+- 중단 시간: 약 4시간 20분(오후 3시 54분~8시 15분, ET)
+- 금요일 결항: 9,132편(ABC뉴스), 9,159편(CBS뉴스)
+- 금요일 지연: 7,030편(ABC뉴스), 7,190편(CBS뉴스)
+두 매체 모두 항공편 추적 사이트 플라이트어웨어 집계를 인용했습니다. 집계 시점이 달라 숫자가 조금 다릅니다.
+'150만 명 이상 영향'이라는 승객 수는 2곳 이상에서 확인되지 않았습니다. 확인 필요입니다.
+인천공항 한미 노선 42편 지연이라는 집계도 한 매체에서만 나왔습니다. 확인 필요입니다.
+
+■ 당국이 밝힌 원인과 근본 원인 미확정
+숀 더피 미국 교통부 장관은 오래된 아날로그(TDM) 통신망 라우터가 데이터에 과부하됐다고 설명했습니다. 라우터가 일관되지 않은 정보를 내보내자 FAA가 안전을 위해 시스템을 멈췄다는 내용입니다(ABC뉴스·긱와이어·노트북체크).
+NPR은 14일 FAA가 통신망 업그레이드 중 생긴 '장비 문제'를 원인으로 들었다고 전했습니다.
+사이버 공격설은 당국이 부인했습니다. 국토안보부 장관과 백악관은 공격이나 악의적 행위 징후가 없다고 밝혔습니다(CBS뉴스·알자지라).
+다만 어떤 작업이 과부하를 불렀는지는 공식 조사 결과가 없습니다. 근본 원인은 미확정입니다. 특정 라우터 모델로 좁혀졌다는 보도는 한 곳에서만 확인돼 확인 필요입니다.
+
+■ 왜 큰 뉴스인가
+전국 단위 그라운드 스톱은 드뭅니다. 라틴타임스와 야후 트래블은 이번이 미국 역사상 세 번째라고 정리했습니다. 앞선 두 번은 2001년 9·11 테러 당일과 2023년 1월 노탐(NOTAM) 시스템 장애 때입니다.
+NPR과 ABC뉴스는 '9·11 이후 두 번째'로 표현했습니다. 9·11을 세는 방식의 차이입니다. 꼽는 사건은 같습니다.
+
+■ 아직 모르는 것
+- 근본 원인: 미확정
+- 라우터 모델·제조 시기: 확인 필요
+- 영향 승객 수: 확인 필요
+- 인천발 편명별 최종 처리: 확인 필요
+- 노후 통신망 교체 일정·예산: 미확정
+
+■ 지금 할 일
+이번 주 미국행 항공권이 있다면 오늘 항공사 앱에서 예약 상태를 한 번 열어 보세요. 지연·결항 문자를 받았다면 공항 카운터에서 확인서부터 받아 두세요. FAA 조사 결과가 나오면 원인 부분을 다시 정리하겠습니다.
+
+■ 출처·참고
+- FAA(미국 연방항공청): https://www.faa.gov/newsroom/faa-statement-nationwide-ground-stop
+- CNN: https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa
+- CNN: https://www.cnn.com/2026/11/14/us/live-news/us-ground-stop-flights
+- CNBC: https://www.cnbc.com/2026/11/13/faa-ground-stop.html
+- Al Jazeera: https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue
+- ABC News: https://abcnews.com/US/nationwide-ground-stop-ordered-airports-faa/story?id=138121848
+- CBS News: https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/
+- NPR: https://www.npr.org/2026/11/14/nx-s1-6040952/faa-ground-stop-airplane-travel
+- NBC News: https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247
+- GeekWire: https://www.geekwire.com/2026/dhs-chief-sees-no-microsoft-link-to-faa-ground-stop-says-possible-ai-role-being-investigated/
+- Notebookcheck: https://www.notebookcheck.net/FAA-ground-stop-Overloaded-routers-halted-US-flights-for-hours.1450239.0.html
+- Latin Times: https://www.latintimes.com/faa-freezes-us-departures-nationwide-communications-failure-601322
+- Yahoo Travel: https://travel.yahoo.com/news/articles/3-times-nationwide-ground-stops-025324349.html
+- FOX 2 Detroit: https://www.fox2detroit.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026
+- FOX 5 DC: https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026
+- WCVB: https://www.wcvb.com/article/amtrak-booking-issues-faa-ground-stop/74428255
+- 한국일보: https://www.hankookilbo.com/news/article/A2026111413200000914
+- 파이낸셜뉴스: https://www.fnnews.com/news/202611141053514777
+- 서울신문: https://seoul.co.kr/news/international/USA-amrica/2026/11/14/20261114500019
+- 위키트리: https://www.wikitree.co.kr/articles/1174662
+- 재경일보: https://news.jkn.co.kr/post/1092828

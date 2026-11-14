@@ -1,0 +1,80 @@
+<p>Watch a film on a large TV and you will often hear an actor's voice coming from below or beside the screen, not from their face. Researchers at the Korea Institute of Machinery and Materials (KIMM) have built a prototype display that tries to close that gap. Eighty voice-coil motors behind the panel vibrate only the patch of screen where the sound should come from, so a speaker's voice can appear to come from their mouth on screen. This piece explains how it works, how it compares with Sony's Acoustic Surface and LG Display's Cinematic Sound OLED, and why you cannot buy it yet.</p>
+
+<p><b>How we checked: the technical details below appear in at least two independent reports, including ZDNet Korea, Kukinews, The Tech, Today Energy, New Atlas and Electronics For You. Comparisons with Sony and LG Display use only facts that two separate outlets agree on. Performance figures are the research team's own and have not been independently verified. Anything we could not confirm twice is marked "unconfirmed."</b></p>
+
+<h2>What KIMM built: a sound-from-screen display with 80 voice-coil motors</h2>
+
+<p>The work comes from a team led by Senior Researcher Kim Dong-jun at KIMM's AX Convergence Research Center. KIMM is a government-funded research institute, not a consumer electronics company. ZDNet Korea and Kukinews reported the results on 15 October 2026, and the story was picked up by New Atlas, Electronics For You and ChannelNews in English. The team describes the system as a modular, grid-based audiovisual convergence display.</p>
+
+<p>The prototype measures about 100 inches. It layers a transparent LED display film over an aluminium panel. On the back of that panel sit 80 voice-coil motors (VCMs) arranged in a grid. A voice-coil motor is the same kind of drive that pushes the cone back and forth inside an ordinary loudspeaker. Here, instead of moving a paper or plastic cone, each motor pushes on the display panel itself. There are no separate speakers.</p>
+
+<h2>How the display picks where the sound comes from</h2>
+
+<p>Making a whole screen buzz is the easy part. The hard part is making one region vibrate strongly while the rest stays comparatively quiet. A flat panel tends to resonate as a single piece, so pushing it in one spot spreads energy everywhere.</p>
+
+<p>The KIMM team first measured how the panel responds to vibration at different points and frequencies. They then used an inverse-problem method: rather than asking what happens when you drive the motors a certain way, they started from the vibration pattern they wanted and worked backwards to calculate the voltage signal each of the 80 motors should receive. The goal is a target zone that moves a lot and surrounding zones that move as little as possible.</p>
+
+<p>Deciding which zone to drive is handed to software. According to Korean and English reports, an AI-based sound source separation and localisation system finds where the sound-making object is in the video, separates its sound from the rest of the mix, and routes it to the matching area of the screen. If a character walks from left to right while talking, the point the voice comes from moves with them.</p>
+
+<p>To test the result, the team used an acoustic camera, which shows sound sources as a colour map. They report that sound came from the intended locations and followed moving sources on screen. The Tech, Today Energy and Electronics For You all cite two headline figures from the team: 99.9% accuracy in selecting the target zone, and a difference of up to 35 dB in vibration level between active and inactive zones. These are the developers' own numbers. We found no independent test that confirms them.</p>
+
+<h2>How it compares with Sony Acoustic Surface and LG Display CSO</h2>
+
+<p>Screens that double as speakers already exist. Sony introduced Acoustic Surface on the BRAVIA A1 OLED TV in 2017. TechRadar and New Atlas both reported that actuators behind the panel vibrate the screen to produce mid and high frequencies, with a separate subwoofer handling bass. What Hi-Fi? and Sony Canada's product page show that Sony still uses the approach, now called Acoustic Surface Audio+, in the 2025 BRAVIA 8 II.</p>
+
+<p>LG Display has developed Cinematic Sound OLED (CSO), which uses the OLED panel as the speaker diaphragm. LG's own press release and Guru3D reported that it showed a 48-inch bendable CSO panel at CES 2021. TechSpot and TweakTown reported that at K-Display 2022 the company showed a 97-inch OLED panel with film-type exciters producing 5.1-channel sound.</p>
+
+<p>The difference is resolution of position. Sony's and LG Display's commercial approaches use a small number of actuators or exciters to place sound across broad channels such as left, centre and right. KIMM's prototype calculates drive signals for 80 separate motors to pick out a specific patch of screen and uses AI to move that patch as the picture changes.</p>
+
+<table>
+<tr><th>Item</th><th>KIMM prototype</th><th>Sony Acoustic Surface</th><th>LG Display CSO</th></tr>
+<tr><td>Developer</td><td>Research institute</td><td>TV maker</td><td>Panel maker</td></tr>
+<tr><td>First shown</td><td>Reported October 2026</td><td>BRAVIA A1, 2017</td><td>48-inch bendable panel, CES 2021</td></tr>
+<tr><td>Panel</td><td>Transparent LED film on aluminium</td><td>OLED</td><td>OLED</td></tr>
+<tr><td>Vibration drivers</td><td>80 voice-coil motors</td><td>Actuators behind panel (count unconfirmed)</td><td>Exciters, including film-type on 97-inch demo</td></tr>
+<tr><td>Sound placement</td><td>Selected zones, AI tracks on-screen source</td><td>Channel-based</td><td>Channel-based (5.1 demo at 97 inches)</td></tr>
+<tr><td>Published figures</td><td>99.9% zone accuracy, up to 35 dB (team's own)</td><td>None comparable</td><td>None comparable</td></tr>
+<tr><td>Status</td><td>Research prototype</td><td>On sale</td><td>Panel technology and demos</td></tr>
+</table>
+
+<p>We left actuator counts out of the comparison on purpose. Reports disagree on how many actuators Sony used in the original A1, so that number is unconfirmed.</p>
+
+<h2>Release date and price: research stage only</h2>
+
+<p>You cannot buy this display. Every report we found describes it as a research prototype. No technology transfer to a manufacturer and no product launch has been announced, so release date and price are both unconfirmed.</p>
+
+<p>Two things are on the record. Today Energy and Electronics For You report that the team has secured a Korean patent on a modular acoustic radiation system. And Kim says the next step is to extend the approach to modular LED tile displays. The applications KIMM lists are media art, performances and exhibitions, digital signage, large outdoor screens and in-vehicle displays. Home televisions are not on that list. Some reports mention a published paper, but we could not identify the journal, so that detail is unconfirmed.</p>
+
+<p>Large modular LED walls are a plausible first home for this kind of system. They are built from tiles anyway, so adding a motor grid behind each tile fits the design, and venues care about sound matching a performer's position on a giant screen. That is our reading of the stated applications, not a company plan.</p>
+
+<h2>What to look for if you want sound from the screen today</h2>
+
+<ul>
+<li><b>Listen in a showroom.</b> Sony BRAVIA OLED models with Acoustic Surface are the most widely sold screen-as-speaker TVs. Play dialogue-heavy content and walk around to hear how voices sit on the image.</li>
+<li><b>Compare against a soundbar.</b> A good soundbar with a centre channel may matter more to dialogue clarity than where the sound appears to originate.</li>
+<li><b>Check bass separately.</b> Panel vibration handles mid and high frequencies well. Bass usually still comes from a conventional driver or subwoofer.</li>
+<li><b>Confirm local models and prices.</b> Model line-ups differ by country. The 2025 BRAVIA 8 II was sold overseas in 55- and 65-inch sizes; check your local Sony store for what is offered where you live.</li>
+<li><b>Watch for venue demos.</b> If KIMM's work reaches the market, it is more likely to appear first on large LED walls at exhibitions or concerts than in a living room.</li>
+</ul>
+
+<p>If you are shopping for a TV now, book twenty minutes in a store, play the same dialogue clip on a BRAVIA OLED with Acoustic Surface and on a standard set with a soundbar, and choose by ear. If you work with large LED walls for events or signage, note KIMM's AX Convergence Research Center as a contact and follow its announcements for news of a technology transfer or public demonstration.</p>
+
+<h2>Sources</h2>
+<ul>
+<li><a href="https://newatlas.com/electronics/voice-coil-motor-tv/" target="_blank" rel="noopener">New Atlas — Report on KIMM's voice-coil motor display</a></li>
+<li><a href="https://zdnet.co.kr/view/?no=20261015113106" target="_blank" rel="noopener">ZDNet Korea — KIMM develops AI display that plays sound from the TV screen without speakers (in Korean)</a></li>
+<li><a href="https://www.kukinews.com/article/view/kuk202610150081" target="_blank" rel="noopener">Kukinews — Sound follows on-screen characters in KIMM's next-generation display (in Korean)</a></li>
+<li><a href="https://www.the-tech.co.kr/news/article.html?no=42012" target="_blank" rel="noopener">The Tech — KIMM display produces sound at on-screen positions with 99.9% accuracy (in Korean)</a></li>
+<li><a href="https://www.todayenergy.kr/news/articleView.html?idxno=304210" target="_blank" rel="noopener">Today Energy — KIMM develops sound-integrated display with 99.9% accuracy (in Korean)</a></li>
+<li><a href="https://www.hellot.net/news/article.html?no=115517" target="_blank" rel="noopener">HelloT — Display that produces sound from the matching screen position (in Korean)</a></li>
+<li><a href="https://www.electronicsforu.com/news/display-technology-makes-sound-follow-on-screen-action" target="_blank" rel="noopener">Electronics For You — Display technology makes sound follow on-screen action</a></li>
+<li><a href="https://www.channelnews.com.au/new-tv-technology-turns-screens-into-speakers-with-sound-that-follows-the-action/" target="_blank" rel="noopener">ChannelNews — New TV Technology Turns Screens Into Speakers With Sound That Follows The Action</a></li>
+<li><a href="https://techradar.com/news/sony-bravia-oled-a1-series-emanates-sound-from-the-screen" target="_blank" rel="noopener">TechRadar — Sony Bravia OLED A1 series emanates sound from the screen</a></li>
+<li><a href="https://newatlas.com/sony-a1e-oled-tv-bravia/47255" target="_blank" rel="noopener">New Atlas — Sony's new Bravia OLED TV makes the screen the speaker</a></li>
+<li><a href="https://www.whathifi.com/tv-home-cinema/televisions/sonys-latest-flagship-oled-tv-out-muscles-its-rivals-in-an-often-overlooked-area" target="_blank" rel="noopener">What Hi-Fi? — Sony's latest flagship OLED TV out-muscles its rivals in an often overlooked area</a></li>
+<li><a href="https://www.sony.ca/en/bravia/products/bravia-8m2" target="_blank" rel="noopener">Sony Canada — BRAVIA 8 II product page</a></li>
+<li><a href="https://www.lg.co.kr/media/release/22872" target="_blank" rel="noopener">LG — LG Display unveils 48-inch bendable CSO at CES 2021 (in Korean)</a></li>
+<li><a href="https://www.guru3d.com/news-story/lg-display-introduces-worlds-first-48-inch-bendable-cinematic-sound-oled-display.html" target="_blank" rel="noopener">Guru3D — LG Display introduces 48-inch bendable Cinematic Sound OLED display</a></li>
+<li><a href="https://www.techspot.com/news/95582-lg-display-unveils-97-inch-oled-panel-creates.html" target="_blank" rel="noopener">TechSpot — LG Display unveils 97-inch OLED panel that creates cinematic 5.1 sound by vibrating</a></li>
+<li><a href="https://www.tweaktown.com/news/88007/lgs-new-97-inch-oled-panel-makes-cinematic-5-1-sound-by-vibrating/index.html" target="_blank" rel="noopener">TweakTown — LG's new 97-inch OLED panel makes 'cinematic' 5.1 sound by vibrating</a></li>
+</ul>
