@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Sasun Bughdaryan'
   creditUrl: 'https://unsplash.com/@sasun1990'
 
-status: draft
+status: published
 
 category: living
 tags:
@@ -35,6 +35,12 @@ reviewAfter: 2026-12-16
 author: 'Brad Studio'
 
 sources:
+  - title: '이재명 대통령 광주 타운홀미팅 로스쿨 발언 보도 — 뉴데일리'
+    url: 'https://www.newdaily.co.kr/site/data/html/2025/06/25/2025062500446.html'
+    accessedAt: 2026-11-16
+  - title: '이재명 대통령 타운홀미팅 로스쿨·변호사 자격 발언 보도 — 쿠키뉴스'
+    url: 'https://www.kukinews.com/article/view/kuk202506250197'
+    accessedAt: 2026-11-16
   - title: '최혁진 의원, ‘사법시험 부활법’ 대표발의 — 일간투데이'
     url: 'https://www.dtoday.co.kr/news/articleView.html?idxno=803191'
     accessedAt: 2026-11-16
@@ -126,7 +132,7 @@ faq:
 
 3월 11일 한 언론이 청와대가 사법시험 부활을 검토한다고 보도했습니다. 로스쿨과 별도로 사법시험을 통해 연간 50~150명을 선발하는 방안이라는 내용이었습니다. 같은 날 강유정 청와대 대변인은 공지를 내고 "사법시험 부활은 사실이 아니다"라고 밝혔습니다. 뉴시스, 헤럴드경제, 위키트리가 같은 내용을 전했습니다.
 
-이 논의가 커진 배경에는 대통령 발언이 있습니다. 이재명 대통령은 2025년 6월 타운홀미팅에서 로스쿨을 나오지 않아도 검증을 거쳐 자격을 얻는 방안을 검토해 볼 필요가 있다는 취지로 말했다고 보도됐습니다. 다만 로스쿨 폐지는 쉽지 않다는 뜻도 함께 밝혔습니다.
+이 논의가 커진 배경에는 대통령 발언이 있습니다. 이재명 대통령은 2025년 6월 25일 광주 타운홀미팅에서 실력이 된다면 로스쿨을 나오지 않아도 일정한 검증을 거쳐 변호사 자격을 줄 수 있지 않겠냐는 취지로 말했다고 뉴데일리와 쿠키뉴스가 보도했습니다. 다만 로스쿨 제도를 쉽게 폐지하기는 어렵다는 뜻도 함께 밝혔습니다.
 
 ## 사법시험 폐지 이유와 지금의 찬반 쟁점은?
 
