@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'New Atlas'
   creditUrl: 'https://newatlas.com/automotive/renault-trafic-etech-2027-800v-work-van/'
 
-status: draft
+status: published
 
 category: world
 tags:

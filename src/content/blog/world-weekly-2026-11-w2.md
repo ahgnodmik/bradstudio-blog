@@ -4,7 +4,7 @@ title: '이번 주 해외 화제·신제품 정리 (11월 2주) — 젠슨 황 �
 description: '11월 9일~15일 블로그에 정리한 해외 이슈 7건과 신제품 6건을 한 번에 모았다. 프랑스 혈액원 냉동고 원격 조작, 영국 전기차 의무 비율 인하 보도, DC 스튜디오 수장 교체, 미국 10월 CPI, 엔비디아 젠슨 황 사임, 마이크로소프트 365 전 세계 장애, 미국 FAA 전국 그라운드 스톱과 Lapis One·Magic Screen·AGV Pista GP R3·AceiiLab A1·폴스타 Formula 2030·기계연 소리 나는 디스플레이까지 핵심만 2~3줄로 정리했다.'
 pubDate: 2026-11-16
 
-status: draft
+status: published
 
 category: world
 tags:

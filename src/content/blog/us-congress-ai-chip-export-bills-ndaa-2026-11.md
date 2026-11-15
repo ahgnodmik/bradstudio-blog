@@ -9,7 +9,7 @@ thumbnail:
   creditName: "Ben Kelsey"
   creditUrl: "https://unsplash.com/@benkv1"
 
-status: draft
+status: published
 
 category: world
 tags:

@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Benjamin Ashton'
   creditUrl: 'https://unsplash.com/@bashton'
 
-status: draft
+status: published
 
 category: money
 tags:
