@@ -389,5 +389,29 @@
   "abroad-now/pending/2026-11-14-microsoft-365-global-outage-november-2026.json": {
     "skipped": "bs-20261114-001과 같은 사건",
     "date": "2026-11-15"
+  },
+  "abroad-now/pending/2026-11-15-us-congress-ai-chip-export-rules.json": {
+    "contentId": "bs-20261116-002",
+    "date": "2026-11-16"
+  },
+  "why-only-now/delivered/161-800-v-high-tech-work-van-rewrites-the-ru.json": {
+    "contentId": "bs-20261116-003",
+    "date": "2026-11-16"
+  },
+  "abroad-now/delivered/2026-11-15-us-flight-suspension-copper-wire.json": {
+    "skipped": "bs-20261115-001과 같은 사건",
+    "date": "2026-11-16"
+  },
+  "abroad-now/pending/2026-11-15-faa-ground-stop-system-upgrade.json": {
+    "skipped": "bs-20261115-001과 같은 사건",
+    "date": "2026-11-16"
+  },
+  "abroad-now/pending/2026-11-15-microsoft-outage-technology-reliance.json": {
+    "skipped": "bs-20261114-001과 같은 사건",
+    "date": "2026-11-16"
+  },
+  "abroad-now/pending/2026-11-15-global-system-outage-november-2026.json": {
+    "skipped": "bs-20261114-001과 같은 사건",
+    "date": "2026-11-16"
   }
 }
