@@ -1,0 +1,94 @@
+제목: 반도체 수출통제 뉴스 체크리스트 10가지: AI칩 규제·국방수권법 기사 볼 때 놓치기 쉬운 것
+
+반도체 수출통제 기사는 하루에도 여러 건 쏟아지는데, 무엇이 확정이고 무엇이 전망인지 가려 읽기가 쉽지 않습니다.
+
+※ 11월 16일 기준입니다. 사례로 든 사실은 2곳 이상 매체·기관에서 확인된 것만 썼습니다. 체크 항목은 일반적인 뉴스 읽기 요령입니다.
+※ 투자 권유가 아닙니다. 특정 종목의 매수·매도를 권하지 않습니다.
+
+■ 지금 상황 3줄 요약
+미국 의회가 AI칩 수출 규제 3법(AI 오버워치법·칩보안법·매치법)을 2027회계연도 국방수권법(NDAA)에 싣는 방안을 논의 중입니다.
+상원안에 포함됐다는 보도가 있고, 하원안에는 비슷한 조항이 없다고 전해졌습니다(롤콜).
+최종 포함 여부는 미확정입니다. 아래 체크리스트를 이 뉴스에 대입해 보세요.
+
+■ 체크 1. 이미 시행 중인가, 아직 법안인가
+가장 먼저 볼 항목입니다.
+이미 시행 중인 조치 예시: 삼성전자·SK하이닉스 중국 공장 VEU 지위 철회(2025년 8월 말, 디지털데일리·CEO스코어데일리), HBM 대중 수출 통제(2024년 12월, 지디넷코리아·뉴데일리).
+아직 법안인 예시: AI 오버워치법, 칩보안법, 매치법.
+□ 기사가 다루는 것이 상무부 조치인지, 의회 법안인지 구분했다
+
+■ 체크 2. 법안이라면 몇 단계인가
+발의 → 위원회 → 양원 본회의 → 대통령 서명 순서입니다.
+AI 오버워치법과 칩보안법은 하원 외교위원회를 통과했습니다(1월 42 대 2, 3월 42 대 0). 매치법은 4월 발의 뒤 상임위 심사 중입니다.
+□ '위원회 통과'를 '의회 통과'로 착각하지 않았다
+
+■ 체크 3. '상원안'인가 '최종안'인가
+국방수권법 기사에서 가장 헷갈리는 부분입니다.
+상원안 포함은 협상 대상이 됐다는 뜻입니다. 최종안은 양원 협상을 거쳐야 나옵니다.
+□ 기사 속 '포함'이 어느 안을 말하는지 확인했다
+
+■ 체크 4. 전망이 엇갈리는지
+같은 사안에 다른 전망이 함께 나오는 경우가 많습니다.
+튠 상원 원내대표는 추가 제한 가능성이 높다고 봤습니다(세마포). CNBC는 올해 최종안에 들어가기 어렵다고 보도했습니다(크립토브리핑 인용).
+□ 반대 전망 기사도 한 건 이상 찾아봤다
+
+■ 체크 5. 누가 말했는지
+의원 개인 발언, 위원회 발표, 정부 공식 발표는 무게가 다릅니다.
+예를 들어 뱅크스·워런 의원의 11월 9일 성명은 법안 발의자의 촉구입니다. 의회 결정이 아닙니다.
+□ 발언 주체와 그 사람의 역할(발의자·지도부·행정부)을 확인했다
+
+■ 체크 6. 숫자의 출처가 2곳 이상인지
+칩 물량, 피해 규모 같은 숫자는 한 매체만 보도한 경우가 있습니다.
+예를 들어 일부 칩 이동 규모 의혹은 단일 매체 보도에 기대고 있어 확인 필요 상태입니다.
+□ 같은 숫자를 다른 매체에서도 확인했다
+
+■ 체크 7. 의혹과 사실을 나눴는지
+이번 법안 논의는 엔비디아 경영진 관련 보도 이후 다시 주목받았습니다.
+관련 의혹은 보도로 전해진 내용이며, 당사자들은 부인한 것으로 보도됐습니다. 사실로 확인된 것이 아닙니다.
+□ '~했다는 보도'와 '~했다'를 구분해 읽었다
+
+■ 체크 8. 한국 기업 영향이 '가능성'인지 '확정'인지
+국내 언론은 매치법 시행 시 삼성전자·SK하이닉스 중국 공장의 장비 반입 제약이 커질 수 있다고 분석했습니다(파이낸셜뉴스·헤럴드경제).
+'~할 수 있다'는 분석입니다. 실제 영향은 최종 문구와 시행 방식에 달려 있어 미확정입니다.
+□ 분석 기사와 사실 보도 기사를 구분했다
+
+■ 체크 9. 기한·날짜가 있는지
+수출통제는 날짜가 중요합니다.
+매치법은 동맹국에 150일 기한을 주는 구조입니다(매뉴팩처링 다이브·NBC뉴스). 삼성전자의 중국 공장 장비 반입 허가는 2026년 한 해 기준으로 보도됐습니다(SBS Biz·헤럴드경제).
+□ 기사 속 기한을 메모해 두고 다음 확인 날짜를 정했다
+
+■ 체크 10. 원문에 가까운 출처를 봤는지
+번역 기사는 단계 표현이 바뀌기도 합니다.
+법안 번호가 있으면 미 의회 법안 정보 사이트(congress.gov)에서 현재 단계를 직접 볼 수 있습니다. 매치법 하원안은 H.R.8170, 상원안은 S.4281입니다.
+□ 법안 번호로 원문 단계를 한 번 확인했다
+
+■ 자주 하는 실수 3가지
+- 제목의 '급물살'만 보고 시행이 임박했다고 판단하기
+- 이미 시행된 VEU·HBM 조치를 새 법안 내용으로 오해하기
+- 한 매체의 숫자를 여러 기사가 인용하면 확인된 것으로 착각하기
+
+■ 이번 주 실천 방법
+메모장에 '시행 중 / 법안 단계 / 미확정' 세 칸을 만들어 보세요.
+반도체 뉴스를 볼 때마다 한 줄씩 칸에 나눠 적으면 됩니다. 다음 업데이트 시점은 국방수권법 양원 협상안 공개입니다.
+
+※ 투자 권유가 아닙니다.
+
+■ 출처·참고
+- Roll Call: https://rollcall.com/2026/11/12/calls-for-nvidia-probes-new-chip-export-limits-intensify/
+- Semafor: https://www.semafor.com/article/11/12/2026/a-high-probability-congress-pushes-tighter-export-controls-following-nvidia-scandal
+- Yahoo News: https://www.yahoo.com/news/politics/articles/nvidia-scandal-fuels-bipartisan-push-131722814.html
+- Crypto Briefing: https://cryptobriefing.com/nvidia-chip-restrictions-unlikely-final-ndaa/
+- Senator Jim Banks: https://www.banks.senate.gov/news/press-releases/sens-banks-warren-statement-on-national-security-concerns-surrounding-nvidia/
+- Senate Banking Committee: https://www.banking.senate.gov/newsroom/minority/warren-banks-statement-on-nvidias-continued-export-of-advanced-ai-chips-following-reports-of-foreign-intelligence-operation
+- Al Jazeera: https://www.aljazeera.com/economy/2026/1/21/us-house-panel-advances-bill-to-give-congress-authority-on-ai-chip-exports
+- House Foreign Affairs Committee: https://foreignaffairs.house.gov/news/press-releases/chairman-mast-hfac-advances-chip-security-act
+- Congress.gov(H.R.8170): https://www.congress.gov/bill/119th-congress/house-bill/8170/text
+- Congress.gov(S.4281): https://www.congress.gov/bill/119th-congress/senate-bill/4281/text
+- Manufacturing Dive: https://www.manufacturingdive.com/news/lawmakers-push-restrictions-chipmaking-equipment-exports-china-match-act/816945/
+- NBC News: https://www.nbcnews.com/tech/tech-news/senate-bill-ban-sale-key-ai-chipmaking-machines-china-rcna265186
+- 파이낸셜뉴스: https://www.fnnews.com/news/202611120626049181
+- 헤럴드경제 미주판: https://www.heraldk.com/article/2026111113243475437
+- 디지털데일리: https://www.ddaily.co.kr/page/view/2025082923561944620
+- CEO스코어데일리: https://ceoscoredaily.com/page/view/2025090115571991093
+- SBS Biz: https://biz.sbs.co.kr/amp/article/20000281589
+- 지디넷코리아: https://zdnet.co.kr/view/?no=20241203093638
+- 뉴데일리: https://biz.newdaily.co.kr/site/data/html/2024/12/03/2024120300026.html
