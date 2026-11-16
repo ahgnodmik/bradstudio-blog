@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Matty'
   creditUrl: 'https://unsplash.com/@matty_11'
 
-status: draft
+status: published
 
 category: living
 tags:

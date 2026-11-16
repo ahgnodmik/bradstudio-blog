@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'New Atlas'
   creditUrl: 'https://newatlas.com/knives-multitools/compact-titanium-pliers-wrench-edc-aura-gripx/'
 
-status: draft
+status: published
 
 category: world
 tags:

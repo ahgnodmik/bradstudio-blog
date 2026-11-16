@@ -9,7 +9,7 @@ thumbnail:
   creditName: "Denise Jans"
   creditUrl: "https://unsplash.com/@dmjdenise"
 
-status: draft
+status: published
 
 category: world
 tags:
