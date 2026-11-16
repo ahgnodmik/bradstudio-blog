@@ -413,5 +413,13 @@
   "abroad-now/pending/2026-11-15-global-system-outage-november-2026.json": {
     "skipped": "bs-20261114-001과 같은 사건",
     "date": "2026-11-16"
+  },
+  "abroad-now/pending/2026-11-16-robert-pattinson-james-bond-007.json": {
+    "contentId": "bs-20261117-001",
+    "date": "2026-11-17"
+  },
+  "why-only-now/delivered/164-tiny-6-in-1-titanium-pliers-come-fully-p.json": {
+    "contentId": "bs-20261117-002",
+    "date": "2026-11-17"
   }
 }
