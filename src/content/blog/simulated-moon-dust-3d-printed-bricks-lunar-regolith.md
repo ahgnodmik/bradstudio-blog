@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'designboom'
   creditUrl: 'https://www.designboom.com/technology/simulated-moon-dust-3d-printed-bricks-lunar-homes/'
 
-status: draft
+status: published
 
 category: world
 tags:

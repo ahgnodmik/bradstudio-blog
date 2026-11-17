@@ -9,7 +9,7 @@ thumbnail:
   creditName: "Diana Polekhina"
   creditUrl: "https://unsplash.com/@diana_pole"
 
-status: draft
+status: published
 
 category: world
 tags:

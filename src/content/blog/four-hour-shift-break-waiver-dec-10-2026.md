@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Nathan Dumlao'
   creditUrl: 'https://unsplash.com/@nate_dumlao'
 
-status: draft
+status: published
 
 category: living
 tags:
