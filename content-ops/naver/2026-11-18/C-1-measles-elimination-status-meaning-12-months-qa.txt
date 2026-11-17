@@ -1,0 +1,86 @@
+제목: 홍역 퇴치 지위 뜻은? 미국이 26년 만에 잃은 이유와 12개월 기준, 원리 Q&A 7문 7답
+
+'홍역 퇴치국'이라는 말이 정확히 무엇이고, 환자가 있는데도 퇴치국일 수 있는지 헷갈리는 분을 위한 문답입니다.
+
+※ 11월 18일 기준입니다. 수치는 2곳 이상 기관·매체에서 같은 내용이 나온 것만 썼습니다.
+※ 원리 설명은 일반적인 감염병 상식입니다. 개인 건강 판단은 의료진과 상의하세요.
+
+■ Q1. 홍역 퇴치 지위 뜻은 무엇인가요?
+A. 한 나라 안에서 같은 홍역 바이러스가 1년 이상 이어서 퍼지지 않는 상태를 인정받은 것입니다.
+환자가 0명이라는 뜻은 아닙니다.
+해외에서 들어온 환자가 생겨도, 그 전파가 국내에 자리 잡지 못하고 끊기면 퇴치 상태로 봅니다.
+미주 지역에서는 범미보건기구(PAHO)가 이 지위를 검증합니다.
+
+■ Q2. 미국은 왜 홍역 퇴치 지위를 잃었나요?
+A. 같은 계통 바이러스가 12개월 넘게 끊기지 않고 퍼졌다고 판정받았기 때문입니다.
+PAHO 산하 독립 위원회가 11월 10~13일 자료를 검토했습니다.
+위원회 권고를 자르바스 바르보사 PAHO 사무총장이 받아들였습니다.
+발표는 현지시간 11월 17일 나왔습니다(PAHO·헬스폴리시워치·ABC뉴스).
+미국은 2000년 퇴치를 인정받았으니 26년 만입니다.
+
+■ Q3. '같은 계통'은 어떻게 구분하나요?
+A. 환자에게서 나온 바이러스의 유전자 정보를 비교합니다.
+홍역 바이러스도 퍼지면서 조금씩 변합니다. 그래서 유전자 배열을 보면 어느 유행에서 이어졌는지 추적할 수 있습니다.
+여러 지역 환자의 바이러스가 같은 갈래로 묶이고 그 기간이 12개월을 넘으면 '토착 전파'로 봅니다.
+서로 다른 나라에서 따로 들어온 바이러스라면 계통이 갈립니다.
+
+■ Q4. 멕시코·볼리비아는 왜 함께 발표됐나요?
+A. 두 나라도 같은 기준에 걸렸기 때문입니다.
+PAHO는 같은 날 멕시코와 볼리비아의 지위도 철회했습니다(PAHO·헬스폴리시워치·US뉴스).
+캐나다는 이보다 앞선 2025년 11월에 지위를 잃었습니다.
+그때 PAHO는 미주 지역 전체의 퇴치 인증도 사라졌다고 밝혔습니다.
+
+■ Q5. 미국 홍역 환자 수는 얼마나 되나요?
+A. CDC 집계로 올해 11월 12일 기준 5,412명입니다.
+연간 기준으로 1991년 이후 가장 많습니다(유로뉴스·스타애드버타이저).
+2025년 한 해 2,289명의 두 배를 넘습니다.
+사망자는 CDC 확인 기준 6명입니다(스타애드버타이저·GMA뉴스). 주 보건당국 발표 합계는 10명으로 보도됐습니다(ABC뉴스·알자지라).
+
+■ Q6. 접종률이 왜 중요하다고 하나요?
+A. 홍역은 전파력이 매우 강한 감염병이라서, 면역이 있는 사람 비율이 높아야 유행이 막힙니다.
+보통 95%가 기준선으로 쓰입니다.
+CDC 자료에서 2025~2026학년도 미국 유치원생 MMR 접종률은 92.4%였습니다(CIDRAP·액시오스).
+기준선과 몇 %포인트 차이처럼 보여도, 접종을 안 한 아이들이 특정 지역에 몰리면 그곳에서 유행이 커질 수 있습니다.
+
+■ Q7. 다시 퇴치 지위를 받을 수 있나요?
+A. 받을 수 있습니다. 조건은 두 가지입니다.
+첫째, 시정 계획을 PAHO에 내야 합니다. 바르보사 사무총장은 몇 주 안에 나올 것으로 봤습니다(US뉴스·PAHO).
+둘째, 전파를 끊은 뒤 최소 12개월 동안 같은 유행이 없어야 합니다.
+그래서 회복은 빨라도 1년 넘게 걸리는 구조입니다. 재심사 시점은 미확정입니다.
+
+■ 덤 Q. 한국은 홍역 퇴치국인가요?
+A. 한국은 2014년 3월 WHO 홍역 퇴치 인증을 받았습니다.
+인증 뒤에도 환자는 나옵니다. 퇴치는 '0명'이 아니라 '토착 전파 없음'이기 때문입니다.
+질병관리청 분석을 전한 보도에 따르면 2014~2025년 국내 환자는 824명이었습니다(의약일보·서플).
+같은 보도에서 성인 비중은 2014년 33.5%에서 2025년 74.4%로 커졌습니다.
+질병관리청은 해외여행 전 MMR 2회 접종 여부를 확인하라고 안내해 왔습니다(질병관리청 보도자료·뉴시스).
+
+■ 한 줄로 정리
+- 퇴치 지위: 토착 전파가 12개월 넘게 없다는 인정
+- 박탈 이유: 같은 계통 바이러스 12개월 이상 연속 전파
+- 대상: 미국·멕시코·볼리비아(2026년 11월 17일)
+- 회복 조건: 시정 계획 제출 + 전파 차단 뒤 12개월
+
+■ 이해했다면 할 일
+원리를 알았다면 이제 내 면역 상태를 확인할 차례입니다.
+예방접종도우미(nip.kdca.go.kr)에서 MMR 기록을 조회하고, 2회가 아니면 보건소나 의료진과 상담 일정을 잡으세요.
+
+이 글은 11월 18일 기준 PAHO 발표, 해외 주요 매체 보도, 질병관리청 자료를 전한 국내 보도를 대조해 정리했습니다.
+
+■ 출처·참고
+- PAHO: https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards
+- 헬스폴리시워치: https://healthpolicy-watch.news/three-countries-lose-measles-free-status/
+- ABC뉴스: https://abcnews.com/Health/us-officially-loses-measles-elimination-status-paho/story?id=138203543
+- US뉴스(로이터): https://www.usnews.com/news/top-news/articles/2026-11-17/us-loses-measles-elimination-status-after-nearly-three-decades
+- PAHO(2025년 캐나다 발표): https://www.paho.org/en/news/10-11-2025-paho-calls-regional-action-americas-lose-measles-elimination-status
+- 유로뉴스: https://www.euronews.com/2026/11/06/us-measles-cases-exceed-5000-in-2026-reaching-their-highest-level-in-35-years
+- 스타애드버타이저: https://www.staradvertiser.com/2026/11/12/breaking-news/cdc-confirms-6-measles-related-deaths-in-2026/
+- GMA뉴스: https://www.gmanetwork.com/news/topstories/world/1009345/us-cdc-confirms-six-measles-related-deaths-in-2026/story/
+- 알자지라: https://www.aljazeera.com/news/2026/11/14/measles-associated-deaths-reach-10-in-us-after-two-more-deaths-reported
+- CIDRAP: https://www.cidrap.umn.edu/childhood-vaccines/us-kindergarten-vaccine-exemptions-jumped-last-school-year-cdc-reports
+- 액시오스: https://axios.com/2026/08/17/kindergarten-vaccine-rates-fall
+- 이투데이: https://www.etoday.co.kr/news/view/915238
+- 의약일보: https://www.medicaldaily.co.kr/news/20586
+- 서플: https://supple.kr/news/cmqwyi13l0064s3k08z8zhnut
+- 질병관리청: https://www.kdca.go.kr/bbs/kdca/42/215363/artclView.do
+- 뉴시스: https://www.newsis.com/view/NISX20250310_0003093113
