@@ -9,7 +9,7 @@ thumbnail:
   creditName: "Federico Vitale"
   creditUrl: "https://unsplash.com/@fedevitale"
 
-status: draft
+status: published
 
 category: world
 tags:

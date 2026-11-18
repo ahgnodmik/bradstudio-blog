@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'IRa Kang'
   creditUrl: 'https://unsplash.com/@lifeinkorea'
 
-status: draft
+status: published
 
 category: money
 tags:

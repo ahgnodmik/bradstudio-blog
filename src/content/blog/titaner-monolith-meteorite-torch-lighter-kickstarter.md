@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Yanko Design'
   creditUrl: 'https://www.yankodesign.com/2026/11/17/titaners-new-torch-lighter-features-a-4-5-billion-year-old-meteorite-outer-shell/?utm_source=rss&utm_medium=rss&utm_campaign=titaners-new-torch-lighter-features-a-4-5-billion-year-old-meteorite-outer-shell'
 
-status: draft
+status: published
 
 category: world
 tags:
