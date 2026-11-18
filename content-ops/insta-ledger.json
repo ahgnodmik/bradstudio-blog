@@ -429,5 +429,13 @@
   "why-only-now/delivered/166-researchers-turn-simulated-moon-dust-int.json": {
     "contentId": "bs-20261118-002",
     "date": "2026-11-18"
+  },
+  "abroad-now/pending/2026-11-18-gta6-release-love-story.json": {
+    "contentId": "bs-20261119-001",
+    "date": "2026-11-19"
+  },
+  "abroad-now/pending/2026-11-18-take-two-firaxis-layoff-gta6-launch.json": {
+    "skipped": "bs-20261119-001에 교차 확인된 사실만 병합",
+    "date": "2026-11-19"
   }
 }
