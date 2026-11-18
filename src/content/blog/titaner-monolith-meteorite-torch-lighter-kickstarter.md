@@ -7,7 +7,7 @@ thumbnail:
   url: 'https://www.yankodesign.com/images/design_news/2026/11/titaners-new-torch-lighter-is-machined-from-a-4-5-billion-year-old-meteorite/lighter.jpg'
   alt: '운석과 티타늄으로 만든 타이터너 모놀리스 토치 라이터 제품 이미지'
   creditName: 'Yanko Design'
-  creditUrl: 'https://www.yankodesign.com/2026/11/17/titaners-new-torch-lighter-features-a-4-5-billion-year-old-meteorite-outer-shell/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=titaners-new-torch-lighter-features-a-4-5-billion-year-old-meteorite-outer-shell'
+  creditUrl: 'https://www.yankodesign.com/2026/11/17/titaners-new-torch-lighter-features-a-4-5-billion-year-old-meteorite-outer-shell/?utm_source=rss&utm_medium=rss&utm_campaign=titaners-new-torch-lighter-features-a-4-5-billion-year-old-meteorite-outer-shell'
 
 status: draft
 
@@ -97,7 +97,7 @@ seo:
 
 ![타이터너 모놀리스 운석 토치 라이터 제품 이미지](https://www.yankodesign.com/images/design_news/2026/11/titaners-new-torch-lighter-is-machined-from-a-4-5-billion-year-old-meteorite/lighter.jpg)
 
-이미지 출처: Yanko Design ([원문 링크](https://www.yankodesign.com/2026/11/17/titaners-new-torch-lighter-features-a-4-5-billion-year-old-meteorite-outer-shell/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=titaners-new-torch-lighter-features-a-4-5-billion-year-old-meteorite-outer-shell))
+이미지 출처: Yanko Design ([원문 링크](https://www.yankodesign.com/2026/11/17/titaners-new-torch-lighter-features-a-4-5-billion-year-old-meteorite-outer-shell/?utm_source=rss&utm_medium=rss&utm_campaign=titaners-new-torch-lighter-features-a-4-5-billion-year-old-meteorite-outer-shell))
 
 ## 무엇이 새로운가: 운석을 깎아 만든 라이터 외장
 

@@ -437,5 +437,9 @@
   "abroad-now/pending/2026-11-18-take-two-firaxis-layoff-gta6-launch.json": {
     "skipped": "bs-20261119-001에 교차 확인된 사실만 병합",
     "date": "2026-11-19"
+  },
+  "why-only-now/delivered/167-titaner-s-new-torch-lighter-features-a-4.json": {
+    "contentId": "bs-20261119-002",
+    "date": "2026-11-19"
   }
 }
