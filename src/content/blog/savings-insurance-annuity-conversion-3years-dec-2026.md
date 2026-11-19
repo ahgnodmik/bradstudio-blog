@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Napendra Singh'
   creditUrl: 'https://unsplash.com/@napender'
 
-status: draft
+status: published
 
 category: money
 tags:
