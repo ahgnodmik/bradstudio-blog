@@ -441,5 +441,29 @@
   "why-only-now/delivered/167-titaner-s-new-torch-lighter-features-a-4.json": {
     "contentId": "bs-20261119-002",
     "date": "2026-11-19"
+  },
+  "abroad-now/pending/2026-11-19-anthropic-nasdaq-ipo-81-billion.json": {
+    "contentId": "bs-20261120-001",
+    "date": "2026-11-20"
+  },
+  "abroad-now/pending/2026-11-19-anthropic-ipo-81-billion-record.json": {
+    "contentId": "bs-20261120-001",
+    "date": "2026-11-20"
+  },
+  "abroad-now/pending/2026-11-19-anthropic-record-ipo-ai-bubble.json": {
+    "contentId": "bs-20261120-001",
+    "date": "2026-11-20"
+  },
+  "why-only-now/delivered/170-sharp-s-aquos-sense11-signals-calls-and-.json": {
+    "contentId": "bs-20261120-002",
+    "date": "2026-11-20"
+  },
+  "abroad-now/pending/2026-11-19-gta-6-launch-record-breaking.json": {
+    "skipped": "bs-20261119-001과 같은 사건",
+    "date": "2026-11-20"
+  },
+  "abroad-now/delivered/2026-11-19-gta6-global-launch-gaming-era.json": {
+    "skipped": "bs-20261119-001과 같은 사건",
+    "date": "2026-11-20"
   }
 }
