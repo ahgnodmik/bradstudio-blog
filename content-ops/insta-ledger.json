@@ -465,5 +465,17 @@
   "abroad-now/delivered/2026-11-19-gta6-global-launch-gaming-era.json": {
     "skipped": "bs-20261119-001과 같은 사건",
     "date": "2026-11-20"
+  },
+  "abroad-now/pending/2026-11-20-pancreatic-cancer-pill-breakthrough.json": {
+    "contentId": "bs-20261121-001",
+    "date": "2026-11-21"
+  },
+  "why-only-now/delivered/172-a-stapler-without-staples-makes-a-clever.json": {
+    "contentId": "bs-20261121-002",
+    "date": "2026-11-21"
+  },
+  "abroad-now/pending/2026-11-20-anthropic-1-5-trillion-ipo-tech-wealth.json": {
+    "skipped": "bs-20261120-001과 같은 사건",
+    "date": "2026-11-21"
   }
 }
