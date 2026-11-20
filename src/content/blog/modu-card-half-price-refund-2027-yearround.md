@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'KS KYUNG'
   creditUrl: 'https://unsplash.com/@mygallery'
 
-status: draft
+status: published
 
 category: money
 tags:

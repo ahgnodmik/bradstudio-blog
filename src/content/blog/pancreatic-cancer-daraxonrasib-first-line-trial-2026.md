@@ -9,7 +9,7 @@ thumbnail:
   creditName: "The-Lore"
   creditUrl: "https://unsplash.com/@soumeya"
 
-status: draft
+status: published
 
 category: world
 tags:
