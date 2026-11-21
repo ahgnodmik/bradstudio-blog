@@ -1,0 +1,72 @@
+제목: GTA5 첫날 판매 8억 달러 vs GTA6 37억9천만 달러, 기록 비교 글 쓰기 전 체크리스트 12개
+
+GTA6와 GTA5 첫날 판매를 비교하는 글이나 영상을 만들 때, 숫자 하나 잘못 넣어 신뢰를 잃지 않도록 미리 점검할 항목을 모았습니다.
+
+※ 11월 22일 발행 기준입니다. 체크리스트 안의 숫자는 회사 발표 또는 2곳 이상 매체에서 확인한 것만 썼습니다.
+※ 점검 요령은 일반적인 인용·팩트체크 상식입니다.
+
+■ 비교에 쓸 확인된 숫자 4개
+- GTA6 첫날 소매 판매액: 37억9천만 달러(테이크투 발표, 미국 시간 11월 19일 하루 끝까지, 회사 추정)
+- GTA6 출시 전 판매량: 3,250만 장(테이크투 발표)
+- GTA5 첫날 소매 판매액: 8억 달러(2013년 테이크투 발표)
+- GTA5 출시 3일 판매액: 10억 달러 이상(2013년 테이크투 발표)
+위 네 줄 밖의 숫자를 쓰려면 출처를 따로 두 곳 이상 찾아 두세요.
+
+■ 체크 1~4: 숫자 자체
+□ 1. 37억9천만 달러로 적었나
+3.79 billion을 37.9 billion으로 잘못 옮기면 '379억 달러'가 됩니다. 온라인에 퍼진 숫자 중 가장 흔한 오류입니다.
+□ 2. 단위를 원과 섞지 않았나
+환율은 날짜마다 바뀝니다. 원화로 바꾸려면 기준일과 환율 출처를 함께 적어야 합니다. 자신 없으면 달러로만 두세요.
+□ 3. 반올림 표기를 통일했나
+한 글 안에서 '38억 달러'와 '37억9천만 달러'를 섞으면 독자가 다른 숫자로 오해합니다. 한 가지로 맞추세요.
+□ 4. 장수와 금액을 구분했나
+3,250만 장은 출시 전 판매량입니다. 첫날 판매 장수는 공개되지 않았습니다. '첫날 3,250만 장'으로 쓰면 틀립니다.
+
+■ 체크 5~8: 기준과 범위
+□ 5. '소매 판매액'이라고 밝혔나
+두 게임 숫자 모두 소비자가 낸 돈 기준입니다. 테이크투 장부상 매출이 아닙니다. '회사가 37억 달러를 벌었다'는 표현은 피하세요.
+□ 6. 같은 기준끼리 비교했나
+GTA6 공식치와 GTA5 공식치는 같은 회사, 같은 소매 판매액 기준입니다. 약 4.7배라는 계산이 성립합니다.
+센서타워 추정치 18억4천만 달러를 GTA5 공식치와 나란히 두면 기준이 섞입니다(폭스5·80레벨).
+□ 7. 집계 시점을 적었나
+GTA6 공식치는 19일 하루 끝까지입니다. 센서타워 추정은 19일 오전까지입니다. 시점을 빼면 비교가 흐려집니다.
+□ 8. 물가와 가격 변화를 언급했나
+2013년과 2026년 사이 물가와 게임 가격이 올랐습니다. 4.7배는 이를 반영하지 않은 명목 비교라고 한 줄 붙이세요.
+
+■ 체크 9~10: 표현
+□ 9. '역대 최고'를 단정하지 않았나
+엔터테인먼트 기록이라는 말은 회사 주장입니다. 영화·음악과 같은 기준으로 맞춘 외부 검증은 아직 없습니다. '회사는 ~라고 밝혔다'로 쓰세요.
+□ 10. 확인 안 된 비교를 넣지 않았나
+특정 영화 시리즈의 첫날 매출을 넘었다는 식의 비교는 공식 발표나 주요 매체에서 확인되지 않았습니다. 출처 두 곳이 없으면 빼세요.
+
+■ 체크 11~12: 출처
+□ 11. 원문 보도자료 링크를 넣었나
+테이크투 투자자 페이지 보도자료가 1차 출처입니다. 2차 출처로는 AP를 받은 ABC뉴스, 워싱턴타임스 등이 같은 숫자를 실었습니다.
+□ 12. GTA5 숫자 출처도 넣었나
+2013년 발표는 게임스레이더·푸시스퀘어 같은 당시 기사로 확인할 수 있습니다. 최근 글만 인용하면 숫자가 옮겨지며 바뀌었을 수 있습니다.
+
+■ 비교 문장 예시
+좋은 예: '테이크투에 따르면 GTA6의 첫날 소매 판매액(회사 추정)은 37억9천만 달러로, 2013년 GTA5 첫날 8억 달러의 약 4.7배다.'
+피할 예: 'GTA6, 하루 만에 379억 달러 벌어…GTA5의 47배'
+
+■ 아직 비교할 수 없는 것
+- 3일 누적: GTA5는 '3일 10억 달러 이상'이 있지만 GTA6 3일 숫자는 발표되지 않았습니다.
+- 장수 비교: GTA6 첫날 판매 장수가 미공개라 같은 기준 장수 비교는 아직 어렵습니다.
+- 실제 매출: 다음 분기 실적 발표 전까지 미확정입니다.
+
+■ 지금 할 일
+비교 글 초안을 열고 1번, 4번, 6번부터 체크하세요. 숫자 오류는 대부분 이 세 곳에서 나옵니다. 발행 전에 위 '확인된 숫자 4개'와 본문 숫자를 한 줄씩 맞춰 보세요.
+
+이 글은 11월 21일까지 나온 테이크투 발표, 해외 매체 보도, 2013년 GTA5 관련 기사를 대조해 정리했습니다.
+
+■ 출처·참고
+- 테이크투 인터랙티브(보도자료): https://www.take2games.com/ir/news/grand-theft-auto-vi-shatters-entertainment-box-office-records
+- ABC News(AP): https://abcnews.com/US/wireStory/grand-theft-auto-vi-sets-record-379b-day-138335808
+- The Washington Times: https://www.washingtontimes.com/news/2026/nov/20/grand-theft-auto-vi-sets-record-379-billion-1st-day-retail-sales/
+- Investing.com: https://www.investing.com/news/company-news/grand-theft-auto-vi-reaches-379-billion-in-day-one-sales-93CH-5042463
+- FOX 5 New York: https://www.fox5ny.com/news/gta-vi-pulls-estimated-1-84-billion-release-day-more-than-double-gta-vs-launch-record
+- 80 Level: https://80.lv/articles/report-gta-6-generated-nearly-usd2b-in-sales-by-launch-day
+- GamesRadar+: https://www.gamesradar.com/uk/first-day-sales-gta-5-clear-800-million
+- Push Square: https://www.pushsquare.com/news/2013/09/good_grief_grand_theft_auto_v_coined_over_usd800_million_in_a_day
+- CinemaBlend: https://www.cinemablend.com/games/GTA-5-Sales-Hit-800-Million-Launch-Day-59199.html
+- GameSpot: https://gamespot.com/articles/grand-theft-auto-v-sales-reach-1-billion-in-three-days/1100-6414762/
