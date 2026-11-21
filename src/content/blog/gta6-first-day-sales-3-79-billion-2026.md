@@ -9,7 +9,7 @@ thumbnail:
   creditName: "Alexey Savchenko"
   creditUrl: "https://unsplash.com/@alexxsvch"
 
-status: draft
+status: published
 
 category: world
 tags:

@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Hannah Morgan'
   creditUrl: 'https://unsplash.com/@hannahmorgan7'
 
-status: draft
+status: published
 
 category: living
 tags:
