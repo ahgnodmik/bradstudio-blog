@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Core77'
   creditUrl: 'https://www.core77.com/posts/145934/'
 
-status: draft
+status: published
 
 category: world
 tags:

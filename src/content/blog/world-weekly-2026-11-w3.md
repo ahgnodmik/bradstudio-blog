@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Greg Bulla'
   creditUrl: 'https://unsplash.com/@gregbulla'
 
-status: draft
+status: published
 
 category: world
 tags:

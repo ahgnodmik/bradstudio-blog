@@ -9,7 +9,7 @@ thumbnail:
   creditName: "Colin Watts"
   creditUrl: "https://unsplash.com/@colinwatts"
 
-status: draft
+status: published
 
 category: world
 tags:
