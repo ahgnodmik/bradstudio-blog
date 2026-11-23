@@ -509,5 +509,17 @@
   "why-only-now/delivered/175-an-ergonomic-desk-for-your-armchair-or-s.json": {
     "contentId": "bs-20261123-003",
     "date": "2026-11-23"
+  },
+  "abroad-now/pending/2026-11-23-nhs-ai-breast-cancer-trial.json": {
+    "contentId": "bs-20261124-001",
+    "date": "2026-11-24"
+  },
+  "why-only-now/delivered/178-an-ultralight-tent-that-actually-makes-r.json": {
+    "contentId": "bs-20261124-002",
+    "date": "2026-11-24"
+  },
+  "abroad-now/pending/2026-11-23-cop31-climate-talks-collapse.json": {
+    "skipped": "bs-20261123-002과 같은 사건",
+    "date": "2026-11-24"
   }
 }
