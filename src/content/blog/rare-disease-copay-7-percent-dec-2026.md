@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Recha Oktaviani'
   creditUrl: 'https://unsplash.com/@rechaoktaviani'
 
-status: draft
+status: published
 
 category: living
 tags:

@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Yanko Design'
   creditUrl: 'https://www.yankodesign.com/2026/11/23/an-ultralight-tent-that-actually-makes-room-for-tall-hikers/'
 
-status: draft
+status: published
 
 category: world
 tags:

@@ -9,7 +9,7 @@ thumbnail:
   creditName: "Accuray"
   creditUrl: "https://unsplash.com/@accuray"
 
-status: draft
+status: published
 
 category: world
 tags:
