@@ -107,6 +107,18 @@ sources:
   - title: "NVIDIA stock jumps 31%... market cap hits $4 trillion in one day — JKN"
     url: "https://news.jkn.co.kr/editions/english/post/1117756"
     accessedAt: 2026-11-24
+  - title: "Nvidia Stock Soars as Jensen Huang Returns as CEO — Benzinga"
+    url: "https://www.benzinga.com/trading-ideas/movers/26/11/63526761/nvidia-stock-soars-as-jensen-huang-returns-as-ceo"
+    accessedAt: 2026-11-24
+  - title: "After Trump's Call, Nvidia Announces Jensen Huang's Reinstatement; Premarket Shares Surge — BigGo Finance"
+    url: "https://finance.biggo.com/news/de1f04fe-a8a1-49be-8c1e-9cbe5b9a472d"
+    accessedAt: 2026-11-24
+  - title: "[속보] 엔비디아 이사회, 젠슨 황 CEO 복귀 결정 — MBC"
+    url: "https://imnews.imbc.com/news/2026/world/article/6867960_36925.html"
+    accessedAt: 2026-11-24
+  - title: "젠슨 황, 엔비디아 CEO 전격 복귀…이사회 만장일치 결정 — 한국경제"
+    url: "https://www.hankyung.com/article/2026112454041"
+    accessedAt: 2026-11-24
   - title: "젠슨 황, 엔비디아 CEO로 11일만에 복귀…이사회 만장일치 의결 — SBS Biz"
     url: "https://biz.sbs.co.kr/article/20000348330"
     accessedAt: 2026-11-24
@@ -211,7 +223,7 @@ seo:
 
 ## 한국과의 연결점: 삼성전자·SK하이닉스와 24일 장
 
-국내 시장은 발표 전날 크게 밀렸다. 23일 코스피는 3.31% 내린 4,708선에 마감했다고 EBN과 녹색경제신문이 전했다(종가 4,708.54와 4,708.61로 매체마다 소수점이 다르다). 엔비디아 발표는 한국 시간 23일 밤에 나왔기 때문에, 복귀 소식을 처음 반영하는 국내 거래일은 24일이다.
+국내 시장은 발표 전날 크게 밀렸다. 23일 코스피는 3.31% 내린 4,708선에 마감했다고 EBN과 녹색경제신문이 전했다(종가 4,708.54와 4,708.61로 매체마다 소수점이 다르다). 엔비디아 발표는 미국 23일(월) 개장 전에 나와 프리마켓에서 주가가 먼저 뛰었고(벤징가·빅고파이낸스), 국내 매체 속보는 한국 시간 23일 밤에 올라왔다(MBC·한국경제). 31%대 급등 마감은 한국 시간 24일 새벽이다. 그래서 복귀 소식을 처음 반영하는 국내 거래일은 24일이다.
 
 24일 개장 전 신호는 강했다. 뉴스1과 주간경향에 따르면 넥스트레이드 프리마켓에서 삼성전자는 10.25% 오른 19만5,700원, SK하이닉스는 13.09% 오른 122만7,000원에 거래됐다. 뉴스핌은 조금 다른 시점 기준으로 삼성전자 10%, SK하이닉스 12% 상승을 적었다. 미국에서 거래되는 SK하이닉스 주식예탁증서(ADR)는 20% 올랐다고 뉴스1과 빅고파이낸스가 함께 전했고, 서플은 코스피200 야간선물이 7%대 올랐다고 보도했는데, 정확한 수치는 한 곳에서만 확인돼 확인 필요다.
 
