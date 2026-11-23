@@ -1,0 +1,78 @@
+제목: 젠슨 황 복귀 뉴스 뒤 투자자가 확인할 5단계: 8-K 공시 원문·이사회 조사·12월 1일 의회 면담 일정 찾는 법
+
+젠슨 황 복귀 기사가 쏟아지는데 어느 것이 원문이고 어느 것이 해석인지 가리기 어렵다면, 아래 5단계 순서로 직접 확인해 보세요.
+
+※ 투자 권유가 아닙니다. 확인 방법을 안내하는 글이며, 특정 종목의 매수·매도를 권하지 않습니다.
+
+■ 시작 전: 지금까지 확정된 사실
+엔비디아 이사회는 현지시간 11월 23일 젠슨 황을 사장·CEO·이사로 복귀시켰습니다. 만장일치였고 효력은 즉시 발생했습니다. 임시 CEO였던 콜렛 크레스는 CFO로 돌아갑니다. 이 세 가지는 회사 발표문과 CNBC·악시오스·알자지라 보도가 일치합니다.
+
+■ 1단계. 젠슨 황 복귀 공시 원문부터 연다
+기사보다 원문이 먼저입니다. 원문은 두 군데에 있습니다.
+- 엔비디아 투자자 페이지(investor.nvidia.com) 보도자료 목록
+- SEC EDGAR의 엔비디아 8-K 공시와 첨부 문서
+
+찾는 순서는 간단합니다.
+① SEC EDGAR 검색창에 'NVIDIA'를 입력합니다.
+② 공시 목록에서 서식 이름이 '8-K'인 항목을 고릅니다.
+③ 제출일이 11월 23일 전후인 문서를 엽니다.
+④ 첨부 문서(Exhibit) 안의 보도자료를 읽습니다.
+
+원문에서 볼 문장은 세 가지입니다. 복귀 직함, 효력 발생 시점, 이사회가 든 이유입니다. 이사회는 미국 정부 고위급의 의견을 받았고, 황의 복귀가 국가안보 위험을 만들지 않는다고 확신한다고 썼습니다.
+
+■ 2단계. 이사회 조사가 어디까지 왔는지 본다
+복귀 발표문에는 조건이 붙어 있습니다. 놓치기 쉬운 부분입니다.
+- 독립 이사 위원회가 조사를 계속합니다. 외국 정보기관이 황을 표적으로 삼았는지가 대상입니다.
+- 위원회는 독립 법률 자문을 두고 결론까지 진행합니다.
+- '국가안보·수출통제 위원회'가 새로 생겼습니다.
+
+확인 요령입니다. 조사 결론 시점은 발표문에 없습니다. 미확정입니다. 그러니 결론이 났다는 기사를 보면, 먼저 엔비디아 공시 목록에 새 8-K가 올라왔는지 대조하세요. 회사가 공시하지 않은 '결론'은 추측일 수 있습니다.
+
+사임 경위에 관한 개인적 이야기는 공시에 없는 내용이 많습니다. 판단 근거로 삼지 않는 편이 안전합니다.
+
+■ 3단계. 정부 개입 보도는 출처를 나눠 읽는다
+발표문은 '정부 고위급 의견'이라고만 적었습니다. 누구인지는 쓰지 않았습니다. 구체적인 이름은 언론 보도에서 나왔습니다.
+- CBS뉴스: 트럼프 대통령이 이사회와 이야기해 복귀를 설득했다고 말했다고 보도.
+- 악시오스·CNBC: 스콧 베선트 재무장관이 외부 CEO 영입을 거론했다가 입장을 누그러뜨렸다고 보도.
+
+읽을 때는 '회사가 말한 것'과 '매체가 전한 것'을 따로 메모하세요. 둘을 섞으면 사실과 해석이 뒤엉킵니다.
+
+■ 4단계. 12월 의회 청문회 일정 확인 방법
+지금 확인되는 일정은 하나입니다. 12월 1일 하원 3개 위원회 비공개 녹취 면담입니다. 악시오스·포춘·SCMP가 같은 날짜를 전했습니다.
+
+상원 은행위원회 공개 증언은 날짜가 확인 필요입니다. 국내 일부 보도에 12월 3일이 나오지만, 2곳 이상에서 확인되지 않았습니다.
+
+확인 방법은 이렇습니다.
+① 미국 하원·상원 위원회 홈페이지의 일정(Hearings) 메뉴를 봅니다.
+② 위원회 공지에 날짜가 없으면 아직 확정이 아니라고 보면 됩니다.
+③ 일정이 바뀔 수 있으니 전날 다시 확인합니다.
+
+■ 5단계. SEC 관련 보도와 주가 숫자를 원자료로 맞춘다
+로이터는 11월 20일 SEC 집행 부서 직원들이 엔비디아의 회계 문제 가능성을 살피고 있다고 보도했습니다. 조사 범위와 공식 착수 여부는 확인 필요입니다. 보도만으로 위법이 입증되지는 않습니다.
+
+주가 숫자도 원자료로 맞춥니다. 엔비디아는 23일 31.48% 오른 165.05달러에 마감했습니다(모틀리풀). 다만 매체마다 집계 시점이 달라 소수점이 다를 수 있습니다. 국내 24일 정규장 종가는 작성 시점 기준 미확정입니다. 한국거래소 정보데이터시스템이나 증권사 앱의 '일별 시세'에서 확인하세요.
+
+■ 확인 결과를 정리하는 방법
+메모장에 표를 하나 만드세요. 열은 '날짜, 내용, 원문 여부, 출처'면 충분합니다. 원문에서 확인한 것은 '원문', 기사로만 본 것은 '보도'로 표시합니다. 이 표 하나로 다음 뉴스가 나와도 무엇이 새로운지 바로 보입니다.
+
+※ 투자 권유가 아닙니다. 확인한 사실을 바탕으로 한 판단은 각자의 투자 기간과 자금 계획에 따라 달라집니다.
+
+오늘 할 일은 하나입니다. SEC EDGAR에서 엔비디아 11월 23일 8-K를 열고, 복귀 직함·조사 조건·이유 세 문장을 메모해 두세요.
+
+※ 11월 24일(한국 시간) 기준 정리입니다. 날짜와 숫자는 엔비디아 발표문과 언론 2곳 이상에서 확인한 것만 썼습니다. 한 곳에서만 나온 내용은 '확인 필요', 발표되지 않은 내용은 '미확정'으로 적었습니다.
+
+■ 출처·참고
+- 엔비디아 투자자 페이지: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx
+- 엔비디아 뉴스룸: https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director
+- 미국 SEC EDGAR: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nov23pressrelease.htm
+- CNBC: https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html
+- 악시오스: https://www.axios.com/2026/11/23/nvidia-board-jensen-huang-as-ceo
+- 알자지라: https://www.aljazeera.com/economy/2026/11/23/nvidia-board-reinstates-jensen-huang-as-ceo
+- CBS뉴스: https://www.cbsnews.com/news/nvidia-jensen-huang-trump-comment-national-security-risk/
+- CNBC: https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-trump-bessent-china.html
+- 악시오스: https://axios.com/2026/11/17/nvidia-jensen-huang-congress-testify-dates
+- 포춘: https://fortune.com/2026/11/17/jensen-huang-nvidia-house-committee-return-ceo-testimony/
+- SCMP: https://www.scmp.com/news/us/economy-trade-business/article/3374798/jensen-huang-agrees-face-congress-over-nvidia-scandal
+- 벤징가: https://www.benzinga.com/news/politics/26/11/63565201/sen-warren-says-huang-and-nvidia-still-owe-congress-answers-nvidia-ceo-ready-to-testify
+- 모틀리풀: https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-nvidia-surges-31-adding-nearly-usd1-trillion-in-market-value-as-jensen-huang-reclaims-ceo-role/
+- 이투데이: https://www.etoday.co.kr/news/view/2651909

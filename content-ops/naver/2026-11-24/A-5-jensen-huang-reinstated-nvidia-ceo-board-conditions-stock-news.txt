@@ -1,0 +1,82 @@
+제목: 젠슨 황 복귀 확정 정리: 엔비디아 이사회 만장일치 CEO 재선임, 조사 계속·국가안보 위원회 신설, 주가 31% 급등
+
+젠슨 황 복귀 소식은 들었는데 무엇이 확정이고 무엇이 남았는지 헷갈린다면, 발표 내용과 조건, 주가 흐름을 순서대로 정리했습니다.
+
+※ 투자 권유가 아닙니다. 회사 발표와 보도를 정리한 글이며, 특정 종목의 매수·매도를 권하지 않습니다.
+
+■ 한 줄 요약
+엔비디아 이사회가 현지시간 11월 23일 젠슨 황을 사장·CEO·이사로 다시 앉혔습니다. 표결은 만장일치였습니다. 효력은 즉시 발생했습니다. 11월 12일 사임 발표 뒤 11일 만입니다.
+
+■ 젠슨 황 복귀 발표: 확정된 내용 4가지
+① 세 자리 동시 복귀
+황은 사장, 최고경영자(CEO), 이사회 이사 자리에 모두 돌아왔습니다. 근거는 엔비디아 투자자 페이지·뉴스룸 보도자료와 미국 증권거래위원회(SEC) 8-K 공시 첨부 문서입니다. CNBC, 악시오스, 알자지라, SBS Biz도 같은 내용을 전했습니다.
+
+② 콜렛 크레스는 CFO로
+임시 CEO를 맡았던 콜렛 크레스는 최고재무책임자(CFO) 자리로 돌아갑니다. 크레스는 11월 12일부터 CFO를 유지한 채 임시 CEO를 겸했습니다. 17일 3분기 실적 발표도 이 체제에서 진행됐습니다.
+
+③ 이사회가 밝힌 이유
+발표문은 미국 정부 고위급에서 의견을 받았다고 적었습니다. 황의 복귀가 국가안보 위험을 만들지 않는다고 확신한다는 문장도 있습니다. 발표문에는 특정 인물의 이름이 없습니다.
+
+④ 사임 사유는 공시 범위만
+사임 당시 경위에 관한 개인적 사안은 이 글에서 다루지 않습니다. 회사가 공시한 조사 내용만 아래에 적습니다.
+
+■ 엔비디아 CEO 복귀 조건: 조사는 계속된다
+복귀가 조사 종료를 뜻하지 않습니다. 독립 이사로만 꾸린 위원회가 조사를 이어갑니다. 조사 대상은 외국 정보기관이 황을 표적으로 삼았는지입니다. 위원회는 독립 법률 자문을 두고 결론까지 진행합니다. 인더스트리위크는 황이 조사에 협조할 뜻을 밝혔다고 전했습니다.
+
+새 기구도 생겼습니다. 이름은 '국가안보·수출통제 위원회'입니다. 독립 이사로 구성되고, 무역 규정 준수와 국가안보 위험을 감독합니다. 폭스비즈니스는 회사가 최고준법책임자(CCO)를 새로 찾고 있다고 보도했습니다.
+
+■ 11일 동안의 흐름
+- 11월 12일: 황 사임 발표, 크레스 임시 CEO 선임.
+- 11월 17일: 황이 X에 "이사회가 원하면 돌아가겠다"는 취지의 글을 올렸습니다. 같은 날 하비 존스 이사회 의장은 실적 콘퍼런스콜에서 복귀시킬 뜻이 없다고 말했습니다(알자지라·엔가젯·코리아타임스).
+- 11월 20일: 엔비디아 주가가 14.01% 내린 125.53달러로 마감했습니다.
+- 11월 23일: 이사회 만장일치로 복귀 의결.
+
+정부 쪽 움직임은 보도로만 확인됩니다. CBS뉴스는 트럼프 대통령이 이사회와 통화해 복귀를 설득했다고 말했다고 전했습니다. 악시오스와 CNBC는 스콧 베선트 재무장관이 외부 CEO 영입을 거론하다 입장을 누그러뜨렸다고 보도했습니다.
+
+■ 젠슨 황 복귀 주가: 엔비디아와 반도체주
+엔비디아는 23일 31.48% 오른 165.05달러에 마감했습니다(모틀리풀 집계). CNBC와 CNN도 30%대 상승을 보도했습니다. 하루 시가총액 증가분은 1조 달러에 가까웠습니다. 집계 시점에 따라 종가 표기가 조금씩 달라 거래소 기록 확인이 필요합니다.
+
+필라델피아 반도체지수는 14.03% 오른 9,588.05로 마감했습니다(빅고파이낸스). 경북매일도 14%대 상승을 전했습니다.
+
+■ 국내 증시: 삼성전자·SK하이닉스 24일 프리마켓
+코스피는 발표 전인 23일 3.31% 내린 4,708선에서 끝났습니다(EBN·녹색경제신문). 복귀 소식을 처음 반영하는 국내 거래일은 24일입니다.
+
+24일 넥스트레이드 프리마켓 숫자는 이렇습니다(뉴스1·주간경향).
+- 삼성전자: 10.25% 오른 19만5,700원
+- SK하이닉스: 13.09% 오른 122만7,000원
+미국에 상장된 SK하이닉스 주식예탁증서(ADR)는 20% 올랐다고 뉴스1과 빅고파이낸스가 전했습니다. 코스피200 야간선물 7%대 상승은 한 곳 보도라 확인 필요입니다.
+
+■ 아직 정해지지 않은 것
+- 24일 코스피 정규장 종가와 종목별 종가: 작성 시점 기준 미확정.
+- 외국 정보기관 관련 조사의 결론 시점과 공개 범위: 미확정.
+- 12월 1일 하원 3개 위원회 비공개 면담은 악시오스·포춘·SCMP로 확인됩니다. 상원 은행위원회 공개 증언 날짜는 확인 필요입니다.
+- 로이터는 11월 20일 SEC 집행 부서 직원들이 엔비디아의 회계 문제 가능성을 살피고 있다고 보도했습니다. 조사 범위와 공식 착수 여부는 확인 필요입니다. 보도만으로 위법이 입증되지는 않습니다.
+- 하비 존스의 의장직 유지 여부: 발표문 원문 기준 확인 필요.
+
+※ 투자 권유가 아닙니다. 하루 급등 폭만으로 앞으로의 흐름을 판단할 수 없습니다.
+
+오늘 장이 끝나면 한국거래소 기준 코스피와 삼성전자·SK하이닉스 종가를 프리마켓 숫자와 나란히 적어 두세요. 그다음 엔비디아 투자자 페이지에서 추가 공시가 올라왔는지 확인하면 됩니다.
+
+※ 11월 24일(한국 시간) 기준 정리입니다. 숫자와 날짜는 엔비디아 발표문과 언론 2곳 이상에서 확인한 것만 썼습니다. 한 곳에서만 나온 내용은 '확인 필요', 발표되지 않은 내용은 '미확정'으로 적었습니다.
+
+■ 출처·참고
+- 엔비디아 투자자 페이지: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx
+- 미국 SEC EDGAR: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nov23pressrelease.htm
+- CNBC: https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html
+- 악시오스: https://www.axios.com/2026/11/23/nvidia-board-jensen-huang-as-ceo
+- 알자지라: https://www.aljazeera.com/economy/2026/11/23/nvidia-board-reinstates-jensen-huang-as-ceo
+- 폭스비즈니스: https://www.foxbusiness.com/markets/nvidia-reinstates-jensen-huang-ceo
+- 인더스트리위크: https://www.industryweek.com/leadership/news/55420880/nvidia-reinstates-jensen-huang-as-ceo
+- CBS뉴스: https://www.cbsnews.com/news/nvidia-jensen-huang-trump-comment-national-security-risk/
+- 알자지라: https://www.aljazeera.com/economy/2026/11/18/nvidia-shoots-down-calls-for-jensen-huangs-return-amid-strong-earnings
+- 엔가젯: https://www.engadget.com/2319982/nvidias-board-chair-says-the-company-is-not-considering-reinstating-jensen-huang-as-ceo
+- 모틀리풀: https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-nvidia-surges-31-adding-nearly-usd1-trillion-in-market-value-as-jensen-huang-reclaims-ceo-role/
+- 빅고파이낸스: https://finance.biggo.com/news/c8d12741-39bf-42d7-bd75-b4d51b85b16a
+- 경북매일: https://www.kbmaeil.com/article/20261124500029
+- SBS Biz: https://biz.sbs.co.kr/article/20000348330
+- 뉴스1: https://www.news1.kr/finance/market-exr/6363558
+- 주간경향: https://weekly.khan.co.kr/article/202611240836001/
+- EBN: https://www.ebn.co.kr/news/articleView.html?idxno=1732707
+- 녹색경제신문: https://www.greened.kr/news/articleView.html?idxno=355365
+- 악시오스: https://axios.com/2026/11/17/nvidia-jensen-huang-congress-testify-dates
+- 포춘: https://fortune.com/2026/11/17/jensen-huang-nvidia-house-committee-return-ceo-testimony/
