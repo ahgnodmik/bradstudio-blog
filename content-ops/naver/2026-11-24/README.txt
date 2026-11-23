@@ -20,3 +20,7 @@
 - D-3-winter-backpacking-tent-pre-trip-checklist.txt: 겨울 백패킹 텐트 체크리스트 15개: 출발 전 집에서 점검할 결로·팩·폴·바닥 항목 (초경량 텐트 포함)  [~11/25까지 예약 가능]
 - D-4-seller-smartstore-ai-ad-check-before-nov27-checklist.txt: 11월 27일 전 AI 광고 점검 체크리스트 14개: 스마트스토어·인스타 판매자가 식품·화장품 상세페이지에서 지울 것  [~11/26까지 예약 가능]
 업로드 팁: 계정별로 하루 1~2편씩 시간차 발행. 같은 시간대 연속 발행 금지. 이미지 없이 본문만 붙여넣기.
+- [추가] A-5-jensen-huang-reinstated-nvidia-ceo-board-conditions-stock-news.txt: 젠슨 황 복귀 확정 정리: 엔비디아 이사회 만장일치 CEO 재선임, 조사 계속·국가안보 위원회 신설, 주가 31% 급등  [당일]
+- [추가] B-5-jensen-huang-return-investor-filing-hearing-check-step-guide.txt: 젠슨 황 복귀 뉴스 뒤 투자자가 확인할 5단계: 8-K 공시 원문·이사회 조사·12월 1일 의회 면담 일정 찾는 법  [~11/25까지 예약 가능]
+- [추가] C-5-why-nvidia-board-reversed-8k-national-security-committee-qa.txt: 젠슨 황 복귀, 이사회는 왜 11일 만에 번복했나? 8-K 공시·국가안보·수출통제 위원회 원리 Q&A 7문 7답  [~11/25까지 예약 가능]
+- [추가] D-5-korea-chip-stock-holder-this-week-after-huang-return-checklist.txt: 젠슨 황 복귀 후 삼성전자·SK하이닉스 보유자 이번 주 체크리스트 12개: 정규장 종가부터 12월 1일 일정까지  [~11/25까지 예약 가능]

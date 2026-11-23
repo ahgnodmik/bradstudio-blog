@@ -1,0 +1,83 @@
+제목: 젠슨 황 복귀 후 삼성전자·SK하이닉스 보유자 이번 주 체크리스트 12개: 정규장 종가부터 12월 1일 일정까지
+
+삼성전자나 SK하이닉스를 들고 있는데 젠슨 황 복귀 뉴스에 계좌가 크게 흔들려 무엇부터 봐야 할지 막막하다면, 이번 주 챙길 항목을 12개로 추렸습니다.
+
+※ 투자 권유가 아닙니다. 점검 항목을 정리한 글이며, 매수·매도 시점을 제안하지 않습니다.
+
+■ 먼저 알아둘 배경 3줄
+- 엔비디아 이사회는 현지시간 11월 23일 젠슨 황을 사장·CEO·이사로 만장일치 복귀시켰습니다.
+- 엔비디아는 같은 날 31.48% 오른 165.05달러에 마감했습니다(모틀리풀, CNBC·CNN 30%대 상승 보도).
+- 국내 코스피는 발표 전인 23일 3.31% 내린 4,708선이었습니다(EBN·녹색경제신문).
+
+■ 반도체주 체크리스트 ① 오늘(24일) 장 확인 4개
+□ 1. 프리마켓 숫자와 정규장 종가 비교
+넥스트레이드 프리마켓에서 삼성전자는 10.25% 오른 19만5,700원, SK하이닉스는 13.09% 오른 122만7,000원에 거래됐습니다(뉴스1·주간경향). 정규장 종가는 작성 시점 기준 미확정입니다. 장이 끝나면 두 숫자를 나란히 적어 보세요.
+
+□ 2. 종가는 한국거래소 기준으로
+기사마다 집계 시점이 다릅니다. 종가는 한국거래소 정보데이터시스템이나 증권사 앱 '일별 시세'로 확인하세요.
+
+□ 3. 미리 걸어 둔 주문 점검
+급등락 장에서는 예전에 걸어 둔 예약 주문이 뜻하지 않게 체결될 수 있습니다. 미체결 주문과 예약 주문 목록을 한 번 열어 보세요.
+
+□ 4. 신용·미수 잔고 확인
+변동이 큰 날에는 담보비율이 빠르게 바뀝니다. 신용이나 미수를 쓰고 있다면 증권사 앱에서 담보비율과 반대매매 기준을 확인하세요.
+
+■ 반도체주 체크리스트 ② 엔비디아 쪽 확인 4개
+□ 5. 엔비디아 공시 원문 한 번 읽기
+복귀 근거는 엔비디아 투자자 페이지 보도자료와 SEC 8-K 공시입니다. 이사회는 미국 정부 고위급 의견을 받았고, 국가안보 위험이 없다고 확신한다고 썼습니다.
+
+□ 6. 조사가 계속된다는 점 기억하기
+독립 이사 위원회가 외국 정보기관 관련 조사를 이어갑니다. 결론 시점은 미확정입니다. '국가안보·수출통제 위원회'도 새로 생겼습니다.
+
+□ 7. 정부 관련 보도는 매체 이름과 함께
+트럼프 대통령의 설득 발언은 CBS뉴스, 베선트 재무장관의 입장 변화는 악시오스·CNBC 보도입니다. 회사 발표문에는 이름이 없습니다. 커뮤니티 글에서 출처 없는 이야기를 보면 걸러 두세요.
+
+□ 8. SEC 관련 보도는 '확인 필요'로
+로이터는 11월 20일 SEC 집행 부서 직원들이 엔비디아 회계 문제 가능성을 살피고 있다고 보도했습니다. 범위와 공식 착수 여부는 확인 필요입니다. 보도만으로 위법이 입증되지는 않습니다.
+
+■ 반도체주 체크리스트 ③ 이번 주·다음 주 일정 4개
+□ 9. 12월 1일 하원 비공개 면담
+하원 3개 위원회의 비공개 녹취 면담이 예정돼 있습니다(악시오스·포춘·SCMP). 한국 시간으로는 하루 뒤 아침에 소식이 나올 수 있습니다. 달력에 적어 두세요.
+
+□ 10. 상원 증언 날짜는 미정으로 두기
+상원 은행위원회 공개 증언 날짜는 확인 필요입니다. 국내 일부 보도의 12월 3일은 2곳 이상에서 확인되지 않았습니다.
+
+□ 11. 필라델피아 반도체지수 함께 보기
+23일 이 지수는 14.03% 오른 9,588.05로 마감했습니다(빅고파이낸스, 경북매일 14%대 보도). 국내 반도체주는 이 지수와 함께 움직이는 날이 많습니다. 매일 아침 전날 마감값을 한 줄로 기록해 두세요.
+
+□ 12. 내 비중 숫자로 적기
+반도체 두 종목이 전체 자산에서 몇 %인지 계산해 보세요. 하루에 10% 넘게 움직인 날에는 비중이 생각보다 크게 바뀝니다. 숫자를 알면 감정이 아니라 계획으로 판단할 수 있습니다.
+
+■ 하지 않아도 되는 것
+- 장중 시세를 1분마다 새로고침하기.
+- 출처 없는 '내부 소식' 글 믿기.
+- 사임 경위에 관한 개인적 소문 찾아보기. 회사 공시 범위 밖의 이야기는 판단에 도움이 되지 않습니다.
+
+■ 참고: 엔비디아와 국내 반도체주의 연결
+엔비디아는 삼성전자·SK하이닉스 고대역폭메모리(HBM)의 큰 고객입니다. 뉴스1은 이번 복귀로 '최대 고객' 경영 공백 우려가 일단 줄었다고 짚었습니다. 같은 기사는 공급 계약이 경영진 개인과 별개로 움직인다는 시각도 함께 실었습니다.
+
+※ 투자 권유가 아닙니다. 체크리스트는 점검용이며, 투자 판단은 각자의 투자 기간과 자금 계획에 맞춰 하세요.
+
+지금 메모장을 열고 1번, 9번, 12번 세 칸만 먼저 채워 보세요. 오늘 종가, 12월 1일 일정, 내 반도체 비중입니다.
+
+※ 11월 24일(한국 시간) 기준 정리입니다. 숫자와 날짜는 엔비디아 발표문과 언론 2곳 이상에서 확인한 것만 썼습니다. 주문·신용 점검 항목은 일반적인 계좌 관리 요령입니다. 한 곳에서만 나온 내용은 '확인 필요', 발표되지 않은 내용은 '미확정'으로 적었습니다.
+
+■ 출처·참고
+- 엔비디아 투자자 페이지: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx
+- 미국 SEC EDGAR: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nov23pressrelease.htm
+- CNBC: https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html
+- CNN: https://www.cnn.com/2026/11/23/business/live-news/jensen-huang-reinstated-as-ceo-of-nvidia
+- 모틀리풀: https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-nvidia-surges-31-adding-nearly-usd1-trillion-in-market-value-as-jensen-huang-reclaims-ceo-role/
+- 빅고파이낸스: https://finance.biggo.com/news/c8d12741-39bf-42d7-bd75-b4d51b85b16a
+- 경북매일: https://www.kbmaeil.com/article/20261124500029
+- CBS뉴스: https://www.cbsnews.com/news/nvidia-jensen-huang-trump-comment-national-security-risk/
+- 악시오스: https://www.axios.com/2026/11/23/nvidia-board-jensen-huang-as-ceo
+- 악시오스: https://axios.com/2026/11/17/nvidia-jensen-huang-congress-testify-dates
+- 포춘: https://fortune.com/2026/11/17/jensen-huang-nvidia-house-committee-return-ceo-testimony/
+- SCMP: https://www.scmp.com/news/us/economy-trade-business/article/3374798/jensen-huang-agrees-face-congress-over-nvidia-scandal
+- 뉴스1: https://www.news1.kr/finance/market-exr/6363558
+- 뉴스1: https://www.news1.kr/world/usa-canada/6363490
+- 주간경향: https://weekly.khan.co.kr/article/202611240836001/
+- 뉴스핌: https://www.newspim.com/news/view/20261124000062
+- EBN: https://www.ebn.co.kr/news/articleView.html?idxno=1732707
+- 녹색경제신문: https://www.greened.kr/news/articleView.html?idxno=355365
