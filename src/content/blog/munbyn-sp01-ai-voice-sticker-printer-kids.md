@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Yanko Design'
   creditUrl: 'https://www.yankodesign.com/2026/11/19/munbyns-adorable-ai-printer-turns-your-kids-weirdest-ideas-into-quirky-stickers/'
 
-status: draft
+status: published
 
 category: world
 tags:
