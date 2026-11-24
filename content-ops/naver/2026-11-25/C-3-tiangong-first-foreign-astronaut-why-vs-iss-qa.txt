@@ -1,0 +1,82 @@
+제목: 톈궁 첫 외국인 우주인은 왜 이제야 나왔을까? ISS와 차이·우주인 선발 방식·탑재체 전문가 원리 Q&A 8문 8답
+
+중국 우주정거장에 외국인이 처음 간다는데, 왜 지금까지는 없었고 왜 파키스탄인지 궁금한 분을 위한 Q&A입니다.
+
+※ 11월 24일 기준입니다. 선저우 24호 발사 성공 여부는 아직 미확정입니다.
+※ 배경 설명 일부는 일반적인 우주 정책 상식입니다. 각국 정부의 공식 의도를 단정하는 내용이 아닙니다.
+
+Q1. 톈궁 첫 외국인 우주인은 누구인가요?
+A. 파키스탄 공군 조종사 무함마드 지샨 알리(40)입니다.
+CMSA 장징보 대변인은 알리가 톈궁을 방문하는 첫 외국인 우주인이라고 밝혔습니다(신화통신 인용 보도·알자지라).
+알리는 선저우 24호에 탑재체 전문가로 탑승합니다. 발사 예정은 베이징 시간 11월 25일 오전 8시 18분, 한국시간 오전 9시 18분입니다(로이터·알자지라).
+
+Q2. 톈궁에는 왜 지금까지 외국인이 없었나요?
+A. 톈궁은 처음부터 중국 단독 사업으로 지어졌기 때문입니다.
+핵심 모듈 톈허는 2021년, 실험 모듈 2개는 2022년에 올라갔습니다(스페이스닷컴·플래니터리소사이어티).
+짓는 동안에는 중국 우주인만 오가며 조립과 시험을 맡았습니다.
+외국인을 받으려면 선발·훈련·안전 기준을 함께 맞춰야 합니다. 파키스탄과는 2025년 2월 28일 협정으로 이 절차를 시작했습니다(돈·아랍뉴스).
+
+Q3. 중국은 왜 국제우주정거장(ISS)에 참여하지 않았나요?
+A. 미국 법이 NASA와 중국의 직접 협력을 막고 있다는 점이 자주 거론됩니다.
+2011년 미국 의회가 만든 이른바 '울프 수정안'은 NASA가 연방 예산으로 중국 정부와 양자 협력하는 것을 제한합니다(CSIS·위키백과 울프 수정안 항목).
+ISS의 중심 파트너가 NASA이기 때문에 중국은 ISS 밖에서 자체 정거장을 짓는 길을 택했습니다.
+이 해석에는 전문가마다 의견 차이가 있습니다.
+
+Q4. 톈궁과 ISS는 무엇이 다른가요?
+A. 가장 큰 차이는 운영 주체와 크기입니다.
+ISS는 미국·러시아·유럽·일본·캐나다가 함께 운영합니다. 톈궁은 중국이 혼자 운영합니다.
+톈궁은 모듈 3개로 ISS보다 작습니다. 고도는 대략 340~450km로 ISS와 비슷한 높이를 돕니다(스페이스닷컴).
+우주인을 보내는 수단도 다릅니다. ISS는 소유스·크루 드래건 등 여러 우주선을 씁니다. 톈궁은 선저우만 씁니다.
+
+Q5. 왜 하필 파키스탄인가요?
+A. 두 나라가 공식 협정을 맺은 첫 파트너이기 때문입니다.
+2025년 2월 SUPARCO와 CMSA가 이슬라마바드에서 우주인 선발·훈련 협정을 맺었습니다. 셰바즈 샤리프 총리가 서명식에 참석했습니다(돈·지오뉴스).
+협정의 뼈대는 파키스탄 우주인을 중국에서 훈련시키고, 그중 1명을 탑재체 전문가로 보낸다는 내용입니다(돈·스페이스닷컴).
+두 나라는 오랜 우방 관계로 알려져 있습니다. 다만 선정 이유를 중국 정부가 따로 설명한 내용은 확인되지 않았습니다.
+
+Q6. 우주인은 어떻게 뽑았나요?
+A. 파키스탄 공군 조종사 가운데서 골랐습니다.
+최종 후보는 지샨 알리와 쿠람 다우드 2명이었습니다(돈·디플로매틱인사이트).
+두 사람은 중국 우주인센터에서 훈련을 받았습니다. 알리가 탑승자, 다우드가 예비 우주인으로 정해졌습니다(걸프뉴스·네이처).
+조종사를 뽑는 이유는 일반적으로 고중력·비상 상황에 익숙하고 비행 판단 훈련이 돼 있기 때문입니다. 초기 유인 우주 프로그램 다수가 조종사 출신으로 시작했습니다.
+
+Q7. 탑재체 전문가는 사령관과 무엇이 다른가요?
+A. 사령관과 비행 엔지니어는 우주선을 운용합니다. 탑재체 전문가는 실험을 맡습니다.
+이번 사령관은 탕훙보, 비행 엔지니어는 우이입니다(로이터·신화통신 인용 보도).
+알리는 파키스탄 대학이 낸 바이오 실험 4건을 맡습니다. 그중 하나는 남세균 연구입니다(알자지라·걸프뉴스).
+SUPARCO 공모에 들어온 연구 제안은 300건이 넘었습니다(걸프뉴스·테크타임스).
+
+Q8. 왜 1주일만 머물고, 다른 우주선으로 돌아오나요?
+A. 단기 방문 임무로 설계됐기 때문입니다.
+알리는 약 1주일 머문 뒤 선저우 23호를 타고 그 승무원 2명과 함께 귀환할 예정입니다(로이터·알자지라·걸프뉴스).
+이런 방식이면 장기 체류 승무원 교대 일정은 그대로 두고 방문자만 짧게 다녀올 수 있습니다.
+정확한 귀환 날짜는 발표되지 않았습니다.
+
+■ 정리 표
+질문 | 짧은 답
+첫 외국인 | 지샨 알리(파키스탄 공군 조종사)
+외국인이 없던 이유 | 중국 단독 건설·운영
+ISS 불참 배경 | 미국 2011년 울프 수정안이 자주 거론됨
+역할 | 탑재체 전문가, 바이오 실험 4건
+체류·귀환 | 약 1주일, 선저우 23호
+발사 결과 | 미확정
+
+■ 지금 해 볼 것
+11월 25일 오전 9시 18분 발사 소식이 나오면 Q7·Q8 내용을 기준으로 실험 시작과 귀환 일정 발표를 확인해 보세요. 귀환 날짜가 나오면 체류 기간이 약 1주일과 맞는지 비교하면 됩니다.
+
+이 글은 11월 24일 기준 로이터·알자지라·네이처·걸프뉴스·돈(Dawn)·스페이스닷컴 보도와 CSIS 분석을 대조해 정리했습니다.
+
+■ 출처·참고
+- 알자지라: https://www.aljazeera.com/news/2026/11/24/pakistans-zeeshan-ali-set-for-historic-flight-to-chinas-space-station
+- 로이터(더프린트 전재): https://theprint.in/world/china-to-launch-shenzhou-24-spaceship-with-first-foreign-astronaut/3107066/
+- 네이처: https://www.nature.com/articles/d41586-026-03829-y
+- 걸프뉴스: https://gulfnews.com/world/asia/pakistan/who-is-zeeshan-ali-the-pakistani-pilot-set-to-make-space-history-1.500758980
+- 돈(Dawn): https://www.dawn.com/news/1894986/china-to-train-take-pakistani-astronauts-into-space
+- 지오뉴스: https://www.geo.tv/latest/593042-to-the-stars-first-pakistani-astronauts-to-head-to-space-after-landmark-agreement
+- 스페이스닷컴(협정): https://www.space.com/space-exploration/human-spaceflight/china-and-pakistan-agree-to-fly-1st-foreign-astronaut-to-chinese-space-station
+- 스페이스닷컴(톈궁 가이드): https://www.space.com/tiangong-space-station
+- 플래니터리소사이어티: https://www.planetary.org/space-missions/chinese-space-station
+- CSIS: https://www.csis.org/analysis/bad-idea-wolf-amendment-limiting-collaboration-china-space
+- 위키백과(울프 수정안): https://en.wikipedia.org/wiki/Wolf_Amendment
+- 디플로매틱인사이트: https://thediplomaticinsight.com/2-pak-astronauts-selected-china-space-mission/
+- 테크타임스: https://www.techtimes.com/articles/328151/20260928/pakistans-first-astronaut-boards-tiangong-this-fall-china-recruits-its-post-iss-coalition.htm
