@@ -47,20 +47,8 @@ sources:
   - title: '1.3-lb translucent nomad''s tent adds XL length but still cuts weight — New Atlas'
     url: 'https://newatlas.com/tents/1-3-lb-zpacks-dyneema-duplexl-pro'
     accessedAt: 2026-11-24
-  - title: 'DupleXL Pro Tent — Zpacks'
-    url: 'https://zpacks.com/products/duplexl-pro-tent'
-    accessedAt: 2026-11-24
-  - title: '2 Person Ultralight Tents — Zpacks'
-    url: 'https://zpacks.com/collections/2-person-ultralight-tents'
-    accessedAt: 2026-11-24
-  - title: 'DuplexXL Pro Tent by Zpacks — Garage Grown Gear'
-    url: 'https://www.garagegrowngear.com/products/duplexxl-pro-tent-by-zpacks'
-    accessedAt: 2026-11-24
   - title: 'Zpacks Tents - How To Choose — Adventure Alan'
     url: 'https://www.adventurealan.com/zpacks-tents-how-to-choose/'
-    accessedAt: 2026-11-24
-  - title: 'DupleXL Tent (단종 모델) — Zpacks'
-    url: 'https://zpacks.com/products/duplexl-tent-obs'
     accessedAt: 2026-11-24
 
 monetization:
