@@ -8,6 +8,9 @@
 (비어 있음)
 
 ## 완료
+- (2026-11-24) 11월 26일 금통위 금리인상 전망 — bs-20261124-005 (bok-rate-hike-november-2026) [출처: hot-keywords/2026-11-w3-thu #8 — 마감 11/24, 금통위 2일 전]
+- (2026-11-24) 블랙프라이데이 2026 직구 면세한도 — bs-20261124-006 (black-friday-2026-direct-purchase-guide) [출처: hot-keywords/2026-11-w3-mon #12 — 마감 11/24, 블프 3일 전]
+- (2026-11-24) 12월 10일 철도노조 총파업 KTX 환불 — bs-20261124-007 (railway-strike-december-2026-ktx) [출처: hot-keywords/2026-11-w2-thu #9·w3-thu 이월 — 파업 예고 지속]
 - (2026-11-17) 수능 가채점 방법 2027학년도 — bs-20261117-004 (suneung-2027-answer-sheet-guide) [출처: 큐 비어 시의성 선택 — 수능 D-2(11/19 시행)]
 - (2026-11-17) 건강검진 연말 대상자 안내 2026 — bs-20261117-005 (national-health-screening-2026-year-end) [출처: 큐 비어 시의성 선택 — 짝수년생 12/31 마감]
 - (2026-11-17) 전기장판 전기세 2026 — bs-20261117-006 (electric-blanket-electricity-cost) [출처: 큐 비어 시의성 선택 — 겨울 난방 시즌]
