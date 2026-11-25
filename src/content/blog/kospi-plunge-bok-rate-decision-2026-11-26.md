@@ -3,6 +3,7 @@ contentId: "bs-20261126-004"
 title: "코스피 11월 26일 아침 점검 — 25일 6.16% 급락 4,697.51, 오늘 금통위가 변수"
 description: "11월 25일 코스피는 308.52포인트(6.16%) 내린 4,697.51에 마감해 전날 6.32% 반등분을 하루 만에 반납했다. 외국인은 1조8,993억원을 순매도했고 삼성전자 -9.87%, SK하이닉스 -11.05%였다. 원/달러는 1,343.2원. 젠슨 황 복귀 이후 미국 반도체주 흐름, 26일 금통위 기준금리 결정(발표 전 미확정)과 이번 주 확인할 일정을 정리했다."
 pubDate: 2026-11-26
+updatedDate: 2026-11-26
 thumbnail:
   url: "https://images.unsplash.com/photo-1560221328-12fe60f83ab8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
   alt: "모니터에 띄운 주식 차트를 가까이에서 찍은 사진(일반 자료 사진, 11월 25일 코스피 시세와 무관)"
@@ -148,6 +149,87 @@ sources:
   - title: "US stock market holidays 2026 and 2027: when the NYSE and Nasdaq close — CM Elite Group"
     url: "https://www.cmelitegroup.com/ko/knowledge-hub/us-stock-market-holidays-2026-and-2027-when-the-nyse-and-nasdaq-close/"
     accessedAt: 2026-11-26
+  - title: "PCE inflation report October 2026: Fed’s preferred inflation gauge accelerated to 3.8% — CNBC"
+    url: "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
+    accessedAt: 2026-11-26
+  - title: "PCE inflation rises to 3.8% in October as core prices climb 3.3%, the fastest since late 2023 — MLQ"
+    url: "https://mlq.ai/news/pce-inflation-rises-to-38-in-october-as-core-prices-climb-33-the-fastest-since-late-2023/"
+    accessedAt: 2026-11-26
+  - title: "Core PCE Hits 3.3% in October, Cementing Bets on a December Fed Hike — BigGo Finance"
+    url: "https://finance.biggo.com/news/1e118c1e-6c63-4646-ab59-893fc915ef31"
+    accessedAt: 2026-11-26
+  - title: "美 10월 PCE 물가 3.8% 상승…힘 실리는 금리 인상론 — 서울경제"
+    url: "https://m.sedaily.com/article/20119077"
+    accessedAt: 2026-11-26
+  - title: "美근원물가 3.3%·성장률 4.3%…연준 12월 넘어 1월 연속 인상까지 '무게' — 네이트 뉴스"
+    url: "https://m.news.nate.com/view/20261125n39040"
+    accessedAt: 2026-11-26
+  - title: "물가 안 잡히고 소비는 강하다…美 근원 PCE 3.3%에 긴축 압력 — 블루밍비트"
+    url: "https://bloomingbit.io/feed/news/125256"
+    accessedAt: 2026-11-26
+  - title: "美 국채금리 일제히 하락…인플레 가속에도 안전자산 매수세 — 뉴스1"
+    url: "https://www.news1.kr/world/international-economy/6366302"
+    accessedAt: 2026-11-26
+  - title: "Gold sinks despite falling US yields as core PCE hits 3.3% — FXStreet"
+    url: "https://www.fxstreet.com/news/gold-sinks-despite-falling-us-yields-as-core-pce-hits-33-202611251933"
+    accessedAt: 2026-11-26
+  - title: "미 3분기 성장률 잠정치 4.3%‥속보치보다 0.9%p 상향 — MBC"
+    url: "https://imnews.imbc.com/news/2026/world/article/6868600_36925.html"
+    accessedAt: 2026-11-26
+  - title: "AI 투자·소비가 이끈 美경제…3분기 성장률 4.3%로 3년 만에 최고 — 헤럴드경제"
+    url: "https://biz.heraldcorp.com/article/10949532"
+    accessedAt: 2026-11-26
+  - title: "US Q3 GDP Growth Revised Up to 4.3% Amid Strong Business Investment — KuCoin News"
+    url: "https://www.kucoin.com/news/flash/us-q3-gdp-growth-revised-up-to-4-3-amid-strong-business-investment"
+    accessedAt: 2026-11-26
+  - title: "US durable goods orders rise 0.2% in October as core capital goods orders climb 1.2% — MLQ"
+    url: "https://mlq.ai/news/us-durable-goods-orders-rise-02-in-october-as-core-capital-goods-orders-climb-12/"
+    accessedAt: 2026-11-26
+  - title: "US core capital goods orders beat expectations in October — AOL"
+    url: "https://www.aol.com/articles/us-core-capital-goods-orders-135647000.html"
+    accessedAt: 2026-11-26
+  - title: "United States Durable Goods Orders rise 0.2% in October vs. 0.4% expected — TMGM"
+    url: "https://www.tmgm.com/en/analysis/market-news/article/united-states-durable-goods-orders-rise-02-in-october-vs-04-expected-202611251351"
+    accessedAt: 2026-11-26
+  - title: "US jobless claims fall from 202,000 to 189,000, below forecasts and matching the year's low — StockAnalysis"
+    url: "https://stockanalysis.com/news/jobless-claims-november-25-2026/"
+    accessedAt: 2026-11-26
+  - title: "US weekly jobless claims hit four-month low of 189,000 — ANI"
+    url: "https://aninews.in/news/business/us-weekly-jobless-claims-hit-four-month-low-of-18900020261125194022/"
+    accessedAt: 2026-11-26
+  - title: "United States weekly Initial Jobless Claims decline to 189K vs. 200K expected — FXStreet"
+    url: "https://fxstreet.com/news/united-states-weekly-initial-jobless-claims-decline-to-189k-vs-200k-expected-202611251346"
+    accessedAt: 2026-11-26
+  - title: "미 신규 실업수당 18만9000건…전주보다 1만3000건 감소 — 토큰포스트"
+    url: "https://www.tokenpost.kr/news/economy/444322"
+    accessedAt: 2026-11-26
+  - title: "기업 체감경기 한 달만에 꺾여…내수기업은 상승세 지속 — 노컷뉴스"
+    url: "https://nocutnews.co.kr/news/6612067"
+    accessedAt: 2026-11-26
+  - title: "11월 기업심리 한 달 만에 하락…수출 둔화에도 내수 개선 — EBN"
+    url: "https://www.ebn.co.kr/news/articleView.html?idxno=1732886"
+    accessedAt: 2026-11-26
+  - title: "11월 기업심리지수 한 달 만 내림세, 수출기업 악화·내수기업 개선 — 비즈니스포스트"
+    url: "https://www.businesspost.co.kr/BP?command=article_view&num=452849"
+    accessedAt: 2026-11-26
+  - title: "11월 기업경기 심리, 한달만에 악화...수출기업 내리고 내수기업 올라 — 글로벌이코노믹"
+    url: "https://g-enews.com/article/Finance/2026/11/20261125082306704bb91c46fcd_1"
+    accessedAt: 2026-11-26
+  - title: "11월 기업 체감경기 다시 꺾였다…경제심리도 100선 붕괴 — 직썰"
+    url: "https://www.ziksir.com/news/articleView.html?idxno=154565"
+    accessedAt: 2026-11-26
+  - title: "경제심리지수, 한 달 만에 다시 100 아래로 뚝…다음 달 개선 '기대감' — 이슈에디코"
+    url: "https://www.issueedico.co.kr/news/article.html?no=38981"
+    accessedAt: 2026-11-26
+  - title: "11월 소비심리 103.1, 2개월째 하락···6개 구성지수 모두 내려 — 뉴스웨이"
+    url: "https://www.newsway.co.kr/news/view?ud=2026112317023279765"
+    accessedAt: 2026-11-26
+  - title: "11월 소비자심리지수 두 달 연속 내려, 금리 상승과 증시 불확실성 영향 — 비즈니스포스트"
+    url: "https://www.businesspost.co.kr/BP?command=article_view&num=452726"
+    accessedAt: 2026-11-26
+  - title: "증시 조정·대출금리 상승에 소비심리 위축…7개월 만에 최저 — 이코노믹리뷰"
+    url: "https://www.econovill.com/news/articleView.html?idxno=758296"
+    accessedAt: 2026-11-26
 
 monetization:
   methods:
@@ -213,7 +295,7 @@ seo:
 
 **미국 추가 관세 검토 소식.** 국내 마감 기사들은 25일 하락 배경으로 반도체주 약세와 함께 한국을 포함한 교역 상대국에 대한 미국의 추가 관세 검토 소식을 꼽았다(뉴스핌·한국면세뉴스). 블록미디어는 미국 무역대표부(USTR)가 14개 교역 상대에 신규 관세를 제안했다고 전했다. 한국에 적용될 제안 세율은 15%와 20%로 보도가 엇갈려 확인 필요다. 제안 단계라 확정 관세도 아니다.
 
-**25일(현지) 미국 장: 장중 급락 뒤 낙폭 축소.** 나스닥은 장중 4.6%까지 밀렸다가 0.62% 내린 23,585.80으로 마감했다(CNN·블록미디어). S&P500은 0.25% 내린 7,182.78, 다우는 0.33% 오른 50,182.90이었다(블록미디어·야후파이낸스). 엔비디아는 3.91% 내린 149.30달러로 마감했다(스톡타이탄·국내 마감 기사). 10월 PCE 물가 상승률이 전년 대비 3.8%, 근원 PCE가 3.3%로 나오면서 12월 연준 인상 전망에 무게가 실렸다는 보도가 이어졌다(인베즈·이코노미블록·블록미디어). 12월 FOMC는 8~9일이다.
+**25일(현지) 미국 장: 장중 급락 뒤 낙폭 축소.** 나스닥은 장중 4.6%까지 밀렸다가 0.62% 내린 23,585.80으로 마감했다(CNN·블록미디어). S&P500은 0.25% 내린 7,182.78, 다우는 0.33% 오른 50,182.90이었다(블록미디어·야후파이낸스). 엔비디아는 3.91% 내린 149.30달러로 마감했다(스톡타이탄·국내 마감 기사). 10월 PCE 물가 상승률이 전년 대비 3.8%, 근원 PCE가 3.3%로 나오면서 12월 연준 인상 전망에 무게가 실렸다는 보도가 이어졌다(인베즈·이코노미블록·블록미디어). 12월 FOMC는 8~9일이다. 같은 시각 나온 GDP·내구재·실업수당 지표는 아래 '오늘 발표된 주요 지표'에 모았다.
 
 <table style="table-layout:fixed;width:100%;word-break:keep-all;">
   <colgroup>
@@ -232,6 +314,36 @@ seo:
     <tr><td>엔비디아</td><td>155.38달러 (-5.86%)</td><td>149.30달러 (-3.91%)</td><td>모틀리풀·스톡타이탄</td></tr>
   </tbody>
 </table>
+
+## 오늘 발표된 주요 지표
+
+미국은 추수감사절 휴장을 앞두고 25일(현지) 오전 8시 30분, 한국 시간 25일 밤 10시 30분에 주요 지표를 한꺼번에 냈다. 주간 실업수당 청구건수도 휴일 때문에 하루 앞당겨 나왔다. 국내에서는 25일 오전 한국은행 11월 기업경기조사와 경제심리지수가 나왔다. 오늘 남은 일정은 금통위 결정이다. 26일 오전 7시 30분 기준으로 확인한 결과이고, 의미 칸은 매체 보도를 옮긴 것이다.
+
+<table style="table-layout:fixed;width:100%;word-break:keep-all;">
+  <colgroup>
+    <col style="width:19%;" />
+    <col style="width:20.25%;" />
+    <col style="width:20.25%;" />
+    <col style="width:20.25%;" />
+    <col style="width:20.25%;" />
+  </colgroup>
+  <thead>
+    <tr><th>지표</th><th>발표 시각(KST)</th><th>결과</th><th>이전치·예상치</th><th>코스피에 주는 의미(보도 내용)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>미국 10월 PCE 물가(전년비)</td><td>11/25(수) 22:30</td><td>3.8%, 근원 3.3%</td><td>근원 예상 3.2%(0.1%p 상회). 헤드라인 예상 3.8%는 확인 필요</td><td>근원은 2023년 말 이후 최고. 12월 연준 인상 전망에 무게가 실렸다는 보도(서울경제·CNBC·BigGo). 미 국채금리는 안전자산 매수로 오히려 내렸다(뉴스1·FXStreet)</td></tr>
+    <tr><td>미국 3분기 GDP 잠정치(연율)</td><td>11/25(수) 22:30</td><td>4.3%</td><td>속보치 3.4%, 예상 3.5%(다우존스 집계 3.6%)</td><td>2023년 3분기 이후 최고. 소비와 AI 관련 설비투자가 상향을 이끌었다(MBC·헤럴드경제). 강한 성장과 물가가 겹쳐 긴축 압력으로 읽혔다(블루밍비트·네이트 뉴스)</td></tr>
+    <tr><td>미국 10월 내구재 주문</td><td>11/25(수) 22:30</td><td>+0.2%</td><td>예상치는 0.4~1.1%로 매체마다 달라 확인 필요</td><td>헤드라인은 예상 하회. 기업 설비투자 척도인 핵심 자본재 주문은 1.2% 늘어 예상을 웃돌았고 AI 투자 흐름과 함께 보도됐다(MLQ·AOL·TMGM)</td></tr>
+    <tr><td>미국 신규 실업수당 청구(11월 21일까지 한 주)</td><td>11/25(수) 22:30, 추수감사절로 하루 앞당김</td><td>18만9,000건</td><td>이전 20만2,000건(수정), 예상 20만건</td><td>올해 최저치와 같은 수준. 고용시장에 스트레스 신호가 거의 없다는 평가(스톡애널리시스·ANI·FXStreet·토큰포스트)</td></tr>
+    <tr><td>한은 11월 기업심리지수(CBSI, 전산업)</td><td>11/25(수) 오전</td><td>103.5(-0.7p)</td><td>수출기업 103.4(-2.7p), 내수기업 105.3(+1.5p)</td><td>수출기업 심리가 꺾였다. 내수기업은 반도체·자동차 납품 물량 증가로 4년 6개월 만에 최고(노컷뉴스·EBN·비즈니스포스트·글로벌이코노믹)</td></tr>
+    <tr><td>한은 11월 경제심리지수(ESI)</td><td>11/25(수) 오전</td><td>99.9(-0.9p)</td><td>7~10월 넉 달 연속 상승 뒤 하락</td><td>한 달 만에 기준선 100 아래로 내려갔다(직썰·이슈에디코·EBN)</td></tr>
+    <tr><td>금통위 기준금리 결정</td><td>11/26(목) 오전(회의 9시 시작, 통상 10시 전후 공개)</td><td><strong>미발표</strong></td><td>현재 연 3.00%, 증권사 10곳 모두 3.25% 인상 예상</td><td>아래 금통위 항목 참고(뉴스1·이투데이)</td></tr>
+  </tbody>
+</table>
+
+내구재 주문 헤드라인을 빼면 미국 지표는 대체로 강했다. 근원 물가는 예상보다 높고 성장과 고용은 탄탄해, 매체들은 12월 연준 인상 근거가 늘었다고 정리했다. 25일(현지) 미국 장은 이 지표가 나온 뒤 열렸고, 코스피는 오늘 이 결과를 처음 반영한다.
+
+국내 지표는 24일 발표분까지 보면 흐름이 비슷하다. 11월 소비자심리지수는 103.1로 2.3포인트 내렸고, 한은은 대출금리 상승과 국내외 증시 조정, 반도체 업황 불확실성을 배경으로 들었다(뉴스웨이·비즈니스포스트·이코노믹리뷰). 25일 기업 쪽 지표에서도 수출기업 심리가 내려갔다.
 
 ## 오늘 11월 26일 금통위: 결정은 미확정
 
@@ -277,7 +389,8 @@ seo:
 - **미국 신규 관세의 한국 적용 세율**: 15%와 20%로 엇갈려 확인 필요다.
 - **24일(현지) 미국 반도체지수 하락률**: 약 7.9%로 보도됐지만 지수 기준 확정치는 확인 필요다.
 - **정부 증시안정펀드 확대 검토**: 단독 보도 한 곳에서만 확인돼 확인 필요다.
+- **미국 10월 내구재 주문 예상치**: 0.4~1.1%로 매체마다 달라 확인 필요다. 10월 PCE 헤드라인 예상치(3.8%)도 한 곳에서만 확인했다.
 
 오늘 오전에 할 일은 매매보다 확인이다. 9시 개장 직후 외국인 순매도 규모와 반도체 두 종목 시초가를 보고, 오전 중 금통위 결정문이 나오면 금리 숫자·소수의견·점도표 중간값 세 가지를 메모해 두자. 변동금리 대출이 있다면 결정 직후 은행 앱에서 다음 금리 변경일을 확인해 두자.
 
-<p style="font-size:0.8rem;color:#888;line-height:1.5;margin-top:2.5rem;">이 글은 2026년 11월 26일(한국 시간) 오전 기준으로 비즈니스코리아·뉴스핌·전자신문·헤럴드경제·아시아경제·파이낸셜뉴스·뉴시스·뉴스1·이투데이·블록미디어 등 국내 보도와 코리아중앙데일리·CNN·NBC뉴스·야후파이낸스·모틀리풀 등 해외 보도를 대조해 정리했습니다. 매체마다 집계 시점이 달라 수급 금액에 작은 차이가 있을 수 있으며, 한 곳에서만 확인된 수치는 '확인 필요'로 표시했습니다. 금통위 결과는 발표 전이라 '미확정'으로 적었습니다. 한국거래소·한국은행 공식 자료로 다시 확인하시기 바랍니다.</p>
+<p style="font-size:0.8rem;color:#888;line-height:1.5;margin-top:2.5rem;">이 글은 2026년 11월 26일(한국 시간) 오전 기준으로 비즈니스코리아·뉴스핌·전자신문·헤럴드경제·아시아경제·파이낸셜뉴스·뉴시스·뉴스1·이투데이·블록미디어 등 국내 보도와 코리아중앙데일리·CNN·NBC뉴스·야후파이낸스·모틀리풀 등 해외 보도를 대조해 정리했습니다. 매체마다 집계 시점이 달라 수급 금액에 작은 차이가 있을 수 있으며, 한 곳에서만 확인된 수치는 '확인 필요'로 표시했습니다. '오늘 발표된 주요 지표' 표는 11월 26일 오전 7시 30분(한국 시간) 기준으로 CNBC·MBC·헤럴드경제·노컷뉴스·EBN 등 두 곳 이상의 보도가 일치하는 수치만 적었고, 발표되지 않은 지표는 '미발표'로 표시했습니다. 금통위 결과는 발표 전이라 '미확정'으로 적었습니다. 한국거래소·한국은행 공식 자료로 다시 확인하시기 바랍니다.</p>
