@@ -63,6 +63,22 @@ A. 코스피는 시가총액이 클수록 지수에 미치는 힘이 큰 구조�
 외국인이 반도체를 팔면 지수와 수급과 환율이 한꺼번에 흔들리는 이유가 여기 있습니다.
 25일 코스피는 6.16% 내린 4697.51로 마감했습니다.
 
+■ Q. 오늘 나온 미국·한국 지표는 코스피에 어떤 의미?
+A. 미국 지표는 대체로 강했고, 한국 지표에서는 수출기업 심리가 약해졌습니다.
+미국은 추수감사절 휴장을 앞두고 한국 시간 25일 밤 10시 30분에 지표 4개를 한꺼번에 냈습니다.
+10월 PCE 물가는 전년 대비 3.8%, 근원 PCE는 3.3%로 예상치 3.2%를 웃돌았습니다.
+3분기 GDP 잠정치는 연율 4.3%로 속보치 3.4%, 예상치 3.5%보다 높았습니다.
+신규 실업수당 청구(11월 21일까지 한 주)는 18만9천건으로 예상 20만건보다 적었습니다. 추수감사절로 하루 앞당겨 나온 숫자입니다.
+10월 내구재 주문은 0.2%, 핵심 자본재 주문은 1.2% 늘었습니다.
+매체들은 이 결과를 두고 12월 연준 금리 인상 근거가 늘었다고 정리했습니다.
+Q5·Q6의 원리로 보면, 미국 금리 전망은 환율과 외국인 수급을 거쳐 코스피에 닿는 변수입니다.
+
+한국 쪽에서는 한국은행 11월 기업심리지수(CBSI, 전산업)가 103.5로 0.7포인트 내렸습니다.
+수출기업은 103.4로 2.7포인트 내렸고, 내수기업은 105.3으로 1.5포인트 올랐습니다.
+경제심리지수(ESI)는 99.9로 0.9포인트, 24일 나온 11월 소비자심리지수는 103.1로 2.3포인트 내렸습니다.
+금통위 결과는 26일 오전 7시 50분(한국 시간) 기준 아직 발표되지 않았습니다. 현재 기준금리는 연 3.00%입니다.
+코스피는 26일 장에서 이 지표들을 처음 반영합니다. 지표 하나로 방향을 단정하기보다 금리·환율·외국인 수급 세 칸과 함께 적어 두세요.
+
 ■ 한 장 요약: 연결 고리
 기준금리 인상 → 할인율 상승·예금 매력 증가 → 주식 평가 부담
 기준금리 인상 → 원화 매력 증가 가능 → 외국인 환차익 기대 → 수급 개선 가능
@@ -90,3 +106,17 @@ A. 코스피는 시가총액이 클수록 지수에 미치는 힘이 큰 구조�
 - 시사저널: https://www.sisajournal.com/news/articleView.html?idxno=395228
 - 뉴스핌: https://www.newspim.com/news/view/20261126000018
 - 재경일보(관세안): https://news.jkn.co.kr/post/1123115
+- CNBC(PCE): https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html
+- 서울경제(PCE): https://m.sedaily.com/article/20119077
+- MBC(GDP): https://imnews.imbc.com/news/2026/world/article/6868600_36925.html
+- 헤럴드경제(GDP): https://biz.heraldcorp.com/article/10949532
+- MLQ(내구재 주문): https://mlq.ai/news/us-durable-goods-orders-rise-02-in-october-as-core-capital-goods-orders-climb-12/
+- AOL(핵심 자본재 주문): https://www.aol.com/articles/us-core-capital-goods-orders-135647000.html
+- StockAnalysis(실업수당 청구): https://stockanalysis.com/news/jobless-claims-november-25-2026/
+- FXStreet(실업수당 청구): https://fxstreet.com/news/united-states-weekly-initial-jobless-claims-decline-to-189k-vs-200k-expected-202611251346
+- 노컷뉴스(기업심리지수): https://nocutnews.co.kr/news/6612067
+- EBN(기업심리지수): https://www.ebn.co.kr/news/articleView.html?idxno=1732886
+- 직썰(경제심리지수): https://www.ziksir.com/news/articleView.html?idxno=154565
+- 이슈에디코(경제심리지수): https://www.issueedico.co.kr/news/article.html?no=38981
+- 뉴스웨이(소비자심리지수): https://www.newsway.co.kr/news/view?ud=2026112317023279765
+- 비즈니스포스트(소비자심리지수): https://www.businesspost.co.kr/BP?command=article_view&num=452726

@@ -50,6 +50,30 @@
 □ 12. 손실 한도와 현금 비중
 하루 6% 움직임이 이틀 연속 나왔습니다. 계좌 전체에서 감당할 수 있는 손실 폭을 숫자로 적어 두세요. 신용·미수 거래를 쓰고 있다면 담보 비율을 먼저 확인하는 것이 안전합니다.
 
+■ 오늘 아침 지표 체크포인트 (26일 오전 7시 50분 기준)
+위 12개 항목과 별도로, 밤사이 나온 지표를 확인하는 칸입니다.
+□ 미국 10월 PCE 물가
+전년 대비 3.8%, 근원 PCE 3.3%입니다. 근원은 예상치 3.2%보다 높았습니다.
+
+□ 미국 3분기 GDP 잠정치
+연율 4.3%입니다. 속보치 3.4%, 예상치 3.5%보다 높았습니다.
+
+□ 미국 10월 내구재 주문
+0.2% 늘었습니다. 핵심 자본재 주문은 1.2% 늘었습니다.
+
+□ 미국 신규 실업수당 청구(11월 21일까지 한 주)
+18만9천건입니다. 이전 20만2천건(수정), 예상 20만건보다 적었습니다. 추수감사절로 하루 앞당겨 발표됐습니다.
+미국 지표 4개는 모두 한국 시간 25일 밤 10시 30분에 나왔고, 26일 코스피가 처음 반영합니다. 12월 연준 금리 인상 근거가 늘었다는 보도가 이어졌습니다.
+
+□ 한국은행 11월 기업심리지수(CBSI)
+전산업 103.5(-0.7포인트), 수출기업 103.4(-2.7포인트), 내수기업 105.3(+1.5포인트)입니다. 6번 반도체 대형주 기록 옆에 수출기업 수치를 같이 적어 두세요.
+
+□ 경제심리지수(ESI)와 소비자심리지수
+11월 ESI는 99.9로 0.9포인트 내렸습니다. 24일 나온 11월 소비자심리지수는 103.1로 2.3포인트 내렸습니다.
+
+□ 금통위 결과 발표 여부
+26일 오전 7시 50분 기준 미발표입니다. 현재 연 3.00%입니다. 발표되면 1번 칸에 실제 숫자를 적으세요.
+
 ■ 체크리스트 쓰는 순서
 26일 오전: 1~3번 확인(금통위 결과).
 26일 장 마감 뒤: 4~6번 기록(환율·수급·대형주).
@@ -68,7 +92,7 @@
 이 글의 12개 칸을 메모장에 그대로 옮겨 두세요.
 26일 금통위 결과가 나오면 1번부터 하나씩 체크하고, 27일 아침 8~10번을 이어서 채우면 됩니다.
 
-이 글은 11월 25일 마감 기준 국내 언론 보도를 2곳 이상 대조해 정리했습니다. 금통위 결과와 관세 조사 결과는 발표 전이라 미확정으로 적었습니다.
+이 글은 11월 25일 마감 기준 국내 언론 보도를 2곳 이상 대조해 정리했습니다. 금통위 결과는 발표 전이라 미확정, 미국 관세는 11월 25일(미국 시각) 발표된 제안 단계로 최종 세율은 미확정으로 적었습니다. 지표는 26일 오전 7시 50분 기준입니다.
 
 ■ 출처·참고
 - 전자신문: https://www.etnews.com/20261125000461
@@ -86,3 +110,17 @@
 - 재경일보(관세안): https://news.jkn.co.kr/post/1123115
 - 시대일보: https://www.sidae.com/article/2026112513140591244
 - CM Elite Group(미국 증시 휴장일): https://www.cmelitegroup.com/ko/knowledge-hub/us-stock-market-holidays-2026-and-2027-when-the-nyse-and-nasdaq-close/
+- CNBC(PCE): https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html
+- 서울경제(PCE): https://m.sedaily.com/article/20119077
+- MBC(GDP): https://imnews.imbc.com/news/2026/world/article/6868600_36925.html
+- 헤럴드경제(GDP): https://biz.heraldcorp.com/article/10949532
+- MLQ(내구재 주문): https://mlq.ai/news/us-durable-goods-orders-rise-02-in-october-as-core-capital-goods-orders-climb-12/
+- AOL(핵심 자본재 주문): https://www.aol.com/articles/us-core-capital-goods-orders-135647000.html
+- StockAnalysis(실업수당 청구): https://stockanalysis.com/news/jobless-claims-november-25-2026/
+- FXStreet(실업수당 청구): https://fxstreet.com/news/united-states-weekly-initial-jobless-claims-decline-to-189k-vs-200k-expected-202611251346
+- 노컷뉴스(기업심리지수): https://nocutnews.co.kr/news/6612067
+- EBN(기업심리지수): https://www.ebn.co.kr/news/articleView.html?idxno=1732886
+- 직썰(경제심리지수): https://www.ziksir.com/news/articleView.html?idxno=154565
+- 이슈에디코(경제심리지수): https://www.issueedico.co.kr/news/article.html?no=38981
+- 뉴스웨이(소비자심리지수): https://www.newsway.co.kr/news/view?ud=2026112317023279765
+- 비즈니스포스트(소비자심리지수): https://www.businesspost.co.kr/BP?command=article_view&num=452726

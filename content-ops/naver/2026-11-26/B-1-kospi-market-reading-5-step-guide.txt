@@ -61,6 +61,27 @@ SK하이닉스는 11.05% 내린 103만원이었습니다.
 금통위 결과가 나오면 2단계와 4단계를 다시 봅니다.
 외국인 수급과 환율이 결과에 어떻게 반응했는지 확인하는 단계입니다.
 
+■ 추가 단계: 지표 확인
+5단계 일정표를 붙였다면, 그사이 나온 경제지표를 한 줄씩 확인합니다.
+지표는 "결과·이전치·예상치" 세 칸으로 적으면 읽기 쉽습니다.
+26일 오전 7시 50분(한국 시간) 기준으로 확인한 숫자는 아래와 같습니다.
+
+미국 지표(한국 시간 25일 밤 10시 30분 발표)
+① 10월 PCE 물가: 전년 대비 3.8%, 근원 3.3%(근원 예상 3.2%)
+② 3분기 GDP 잠정치: 연율 4.3%(속보치 3.4%, 예상 3.5%)
+③ 10월 내구재 주문: +0.2%, 핵심 자본재 주문 +1.2%
+④ 신규 실업수당 청구(11월 21일까지 한 주): 18만9천건(이전 20만2천건 수정, 예상 20만건). 추수감사절로 하루 앞당겨 나왔습니다.
+
+한국 지표
+⑤ 한국은행 11월 기업심리지수(CBSI, 전산업): 103.5(-0.7포인트). 수출기업 103.4(-2.7포인트), 내수기업 105.3(+1.5포인트)
+⑥ 한국은행 11월 경제심리지수(ESI): 99.9(-0.9포인트)
+⑦ 11월 소비자심리지수(24일 발표): 103.1(-2.3포인트)
+⑧ 금통위 기준금리: 미발표(현재 연 3.00%)
+
+읽는 요령은 간단합니다. 결과가 예상치보다 높은지 낮은지부터 봅니다.
+이번에는 미국 근원 물가, 성장률, 고용이 모두 예상보다 강했습니다. 매체들은 12월 연준 금리 인상 근거가 늘었다고 정리했습니다.
+한국 쪽은 수출기업 심리가 내려가고 내수기업 심리가 올랐습니다. 3단계에서 적은 반도체 대형주 등락률 옆에 수출기업 지표를 나란히 적어 두면 비교가 쉬워집니다.
+
 ■ 다섯 단계를 하루 10분으로 줄이는 방법
 메모장에 다섯 줄 양식을 만들어 둡니다.
 ① 코스피 종가·등락률 ② 외국인·개인·기관 순매수 ③ 삼성전자·SK하이닉스 등락률 ④ 환율 ⑤ 내일 일정.
@@ -93,3 +114,17 @@ SK하이닉스는 11.05% 내린 103만원이었습니다.
 - 뉴스핌: https://www.newspim.com/news/view/20261126000018
 - 서울경제: https://m.sedaily.com/article/20119078
 - CM Elite Group(미국 증시 휴장일): https://www.cmelitegroup.com/ko/knowledge-hub/us-stock-market-holidays-2026-and-2027-when-the-nyse-and-nasdaq-close/
+- CNBC(PCE): https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html
+- 서울경제(PCE): https://m.sedaily.com/article/20119077
+- MBC(GDP): https://imnews.imbc.com/news/2026/world/article/6868600_36925.html
+- 헤럴드경제(GDP): https://biz.heraldcorp.com/article/10949532
+- MLQ(내구재 주문): https://mlq.ai/news/us-durable-goods-orders-rise-02-in-october-as-core-capital-goods-orders-climb-12/
+- AOL(핵심 자본재 주문): https://www.aol.com/articles/us-core-capital-goods-orders-135647000.html
+- StockAnalysis(실업수당 청구): https://stockanalysis.com/news/jobless-claims-november-25-2026/
+- FXStreet(실업수당 청구): https://fxstreet.com/news/united-states-weekly-initial-jobless-claims-decline-to-189k-vs-200k-expected-202611251346
+- 노컷뉴스(기업심리지수): https://nocutnews.co.kr/news/6612067
+- EBN(기업심리지수): https://www.ebn.co.kr/news/articleView.html?idxno=1732886
+- 직썰(경제심리지수): https://www.ziksir.com/news/articleView.html?idxno=154565
+- 이슈에디코(경제심리지수): https://www.issueedico.co.kr/news/article.html?no=38981
+- 뉴스웨이(소비자심리지수): https://www.newsway.co.kr/news/view?ud=2026112317023279765
+- 비즈니스포스트(소비자심리지수): https://www.businesspost.co.kr/BP?command=article_view&num=452726

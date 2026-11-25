@@ -70,6 +70,20 @@ SK하이닉스는 11.05% 내린 103만원에 거래를 마쳤습니다.
 26일 밤 미국 시장이 쉬는 만큼, 27일 아침 한국 증시는 참고할 미국 지표가 적습니다.
 USTR 관세안에 대한 26일 한국 증시의 첫 반응도 지켜볼 대목입니다.
 
+■ 오늘 아침 확인한 미국·한국 지표
+미국은 추수감사절 휴장을 앞두고 한국 시간 25일 밤 10시 30분에 주요 지표 4개를 한꺼번에 냈습니다.
+26일 오전 7시 50분(한국 시간) 기준으로 확인한 숫자입니다.
+- 미국 10월 PCE 물가: 전년 대비 3.8%, 근원 PCE 3.3%. 근원은 예상치 3.2%를 웃돌았습니다.
+- 미국 3분기 GDP 잠정치: 연율 4.3%. 속보치 3.4%, 예상치 3.5%보다 높았습니다.
+- 미국 10월 내구재 주문: 0.2% 증가. 기업 설비투자 흐름을 보여 주는 핵심 자본재 주문은 1.2% 늘었습니다.
+- 미국 신규 실업수당 청구(11월 21일까지 한 주): 18만9천건. 이전 20만2천건(수정), 예상 20만건보다 적었습니다. 추수감사절 때문에 하루 앞당겨 발표됐습니다.
+- 한국은행 11월 기업심리지수(CBSI, 전산업): 103.5로 0.7포인트 내렸습니다. 수출기업은 103.4(-2.7포인트), 내수기업은 105.3(+1.5포인트)입니다.
+- 한국은행 11월 경제심리지수(ESI): 99.9로 0.9포인트 내려 기준선 100 아래에 머물렀습니다.
+- 11월 소비자심리지수(24일 발표): 103.1로 2.3포인트 내렸습니다.
+- 금통위 기준금리: 미발표. 현재 연 3.00%입니다.
+미국 근원 물가와 성장률, 고용 지표가 모두 예상보다 강하게 나오자 12월 연준 금리 인상 근거가 늘었다는 보도가 이어졌습니다.
+코스피는 26일 장에서 이 지표들을 처음 반영합니다.
+
 ■ 오늘 할 일
 보유 종목이 있다면 오늘 종가 기준 손익과 비중부터 적어 두세요.
 26일 금통위 결과가 나오면 환율과 외국인 수급이 어떻게 반응하는지 확인한 뒤 판단해도 늦지 않습니다.
@@ -94,3 +108,17 @@ USTR 관세안에 대한 26일 한국 증시의 첫 반응도 지켜볼 대목�
 - 서울경제: https://m.sedaily.com/article/20119078
 - 재경일보(관세안): https://news.jkn.co.kr/post/1123115
 - 비즈워치: https://news.bizwatch.co.kr/article/finance/2026/11/20/0029
+- CNBC(PCE): https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html
+- 서울경제(PCE): https://m.sedaily.com/article/20119077
+- MBC(GDP): https://imnews.imbc.com/news/2026/world/article/6868600_36925.html
+- 헤럴드경제(GDP): https://biz.heraldcorp.com/article/10949532
+- MLQ(내구재 주문): https://mlq.ai/news/us-durable-goods-orders-rise-02-in-october-as-core-capital-goods-orders-climb-12/
+- AOL(핵심 자본재 주문): https://www.aol.com/articles/us-core-capital-goods-orders-135647000.html
+- StockAnalysis(실업수당 청구): https://stockanalysis.com/news/jobless-claims-november-25-2026/
+- FXStreet(실업수당 청구): https://fxstreet.com/news/united-states-weekly-initial-jobless-claims-decline-to-189k-vs-200k-expected-202611251346
+- 노컷뉴스(기업심리지수): https://nocutnews.co.kr/news/6612067
+- EBN(기업심리지수): https://www.ebn.co.kr/news/articleView.html?idxno=1732886
+- 직썰(경제심리지수): https://www.ziksir.com/news/articleView.html?idxno=154565
+- 이슈에디코(경제심리지수): https://www.issueedico.co.kr/news/article.html?no=38981
+- 뉴스웨이(소비자심리지수): https://www.newsway.co.kr/news/view?ud=2026112317023279765
+- 비즈니스포스트(소비자심리지수): https://www.businesspost.co.kr/BP?command=article_view&num=452726
