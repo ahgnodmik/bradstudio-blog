@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Eliza Diamond'
   creditUrl: 'https://unsplash.com/@eliza28diamonds'
 
-status: draft
+status: published
 
 category: living
 tags:

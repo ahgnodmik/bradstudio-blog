@@ -9,7 +9,7 @@ thumbnail:
   creditName: "Noah Samuel Franz"
   creditUrl: "https://unsplash.com/@noach"
 
-status: draft
+status: published
 
 category: world
 tags:

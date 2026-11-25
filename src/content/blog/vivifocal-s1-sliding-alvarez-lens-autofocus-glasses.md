@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Yanko Design'
   creditUrl: 'https://www.yankodesign.com/2026/11/18/vivifocal-s1-glasses-use-sliding-lenses-to-adjust-focus-as-you-work/'
 
-status: draft
+status: published
 
 category: world
 tags:
