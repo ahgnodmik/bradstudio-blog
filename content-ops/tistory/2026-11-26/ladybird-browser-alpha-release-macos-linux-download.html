@@ -1,0 +1,68 @@
+<p>크롬도 사파리도 아닌 새 브라우저가 나왔다는데 지금 받아 써도 되는지 궁금하다면 이 글로 판단해 보세요. 독립 브라우저 레이디버드(Ladybird)가 11월 23일 첫 알파 버전을 공개했습니다. 소스 코드를 직접 빌드하지 않아도 내려받아 실행할 수 있는 첫 공개판입니다.</p>
+
+<h2>레이디버드 브라우저 알파, 핵심만 표로</h2>
+<table style="table-layout:fixed;width:100%;word-break:keep-all;">
+<colgroup><col style="width:30%;" /><col style="width:70%;" /></colgroup>
+<tbody>
+<tr><th>항목</th><th>내용</th></tr>
+<tr><td>공개일</td><td>11월 23일, 첫 다운로드용 알파</td></tr>
+<tr><td>지원 운영체제</td><td>macOS, 리눅스(윈도우는 아직 미지원)</td></tr>
+<tr><td>엔진</td><td>크로미움·게코·웹킷을 가져다 쓰지 않고 새로 작성</td></tr>
+<tr><td>업데이트 방식</td><td>롤링 릴리스, 자동 업데이트</td></tr>
+<tr><td>대상</td><td>얼리어답터·개발자. 일상용 브라우저 대체는 아직 아님</td></tr>
+<tr><td>로드맵</td><td>베타 2027년, 정식판 2028년 목표</td></tr>
+<tr><td>운영 주체</td><td>비영리 단체 Ladybird Browser Initiative, 기부·후원금으로 운영</td></tr>
+</tbody>
+</table>
+
+<h2>레이디버드는 왜 주목받나: 독립 엔진</h2>
+<p>지금 쓰는 브라우저 대부분은 엔진 세 개 중 하나를 씁니다. 크롬·엣지·웨일·삼성 인터넷은 크로미움 계열입니다. 사파리는 웹킷, 파이어폭스는 게코를 씁니다.</p>
+<p>레이디버드는 셋 중 어느 것도 쓰지 않습니다. 화면을 그리는 렌더링 엔진과 자바스크립트 엔진(LibJS)을 처음부터 새로 만들었습니다. 기존 엔진을 갈라 쓰는 '포크'가 아니라는 점이 핵심입니다.</p>
+<p>엔진 종류가 줄면 한 회사의 결정이 웹 전체에 영향을 줍니다. 새 엔진이 하나 더 생기면 웹 표준을 여러 구현이 함께 검증하게 됩니다. 개발자 커뮤니티가 이번 알파에 관심을 보이는 이유입니다.</p>
+
+<h2>레이디버드 다운로드 전 알아둘 5가지</h2>
+<ul>
+<li><b>윈도우는 안 됩니다</b>: 이번 알파는 macOS와 리눅스용만 나왔습니다. 윈도우 지원은 나중 단계로 미뤄졌고 날짜는 공개되지 않았습니다.</li>
+<li><b>안 열리는 사이트가 있습니다</b>: 개발진은 일부 웹사이트가 제대로 동작하지 않는다고 미리 밝혔습니다.</li>
+<li><b>가끔 멈춥니다</b>: 충돌이 생길 수 있다고 공지했습니다. 작성 중인 글은 다른 곳에 저장해 두는 편이 안전합니다.</li>
+<li><b>보안 약속은 없습니다</b>: 프로젝트 측은 보안을 보장하지 않는다고 했습니다. 인터넷뱅킹, 회사 계정, 결제처럼 민감한 작업에는 쓰지 마세요.</li>
+<li><b>자동으로 업데이트됩니다</b>: 롤링 릴리스 방식이라 새 빌드가 계속 들어옵니다. 같은 사이트도 며칠 뒤에는 다르게 보일 수 있습니다.</li>
+</ul>
+
+<h2>Q&amp;A: 레이디버드 알파, 누가 써 보면 좋을까</h2>
+<p><b>Q. 일반 사용자가 메인 브라우저로 바꿔도 되나요?</b></p>
+<p>A. 아직은 권하지 않습니다. 개발진 스스로 일상 브라우저를 대체할 단계가 아니라고 말합니다. 지금은 둘러보고 오류를 알리는 용도입니다.</p>
+<p><b>Q. 어떤 사람에게 맞나요?</b></p>
+<p>A. 웹 개발자와 새 기술을 먼저 써 보는 사람에게 맞습니다. 내 사이트가 다른 엔진에서 어떻게 보이는지 점검할 수 있습니다. 버그를 찾아 보고하면 프로젝트에 직접 도움이 됩니다.</p>
+<p><b>Q. 광고나 검색 제휴로 돈을 버나요?</b></p>
+<p>A. 프로젝트는 기부와 후원만으로 운영한다고 밝힙니다. 기본 검색엔진 제휴 같은 사용자 기반 수익 모델을 쓰지 않는다는 설명입니다. GitHub 공동창업자 크리스 완스트래스가 100만 달러를 초기 자금으로 냈고, 쇼피파이가 첫 기업 후원사로 참여했습니다.</p>
+<p><b>Q. 한국 사이트는 잘 열리나요?</b></p>
+<p>A. 확인된 자료가 없습니다. 국내 은행·공공기관 사이트는 특정 브라우저나 보안 프로그램을 요구하는 경우가 있습니다. 알파 단계에서는 기대하지 않는 편이 낫습니다.</p>
+
+<h2>레이디버드 개발 과정과 앞으로의 일정</h2>
+<p>레이디버드는 운영체제 프로젝트 SerenityOS 안에서 출발했습니다. 2024년 별도 프로젝트로 분리됐고, 같은 해 비영리 단체가 꾸려졌습니다. 그 뒤로 다운로드, 방문 기록, 동영상 재생 같은 기본 기능을 하나씩 채워 왔습니다.</p>
+<p>공개된 계획은 2027년 베타, 2028년 정식판입니다. 다만 베타와 정식판, 윈도우 지원의 구체적인 날짜는 아직 나오지 않았습니다. 일정은 개발 속도에 따라 바뀔 수 있습니다.</p>
+
+<h2>레이디버드 알파 안전하게 써 보는 방법</h2>
+<ul>
+<li>공식 사이트(ladybird.org)에서만 내려받으세요. 비슷한 이름의 배포 파일은 피하세요.</li>
+<li>평소 쓰는 브라우저는 그대로 두고 보조 브라우저로만 설치하세요.</li>
+<li>로그인이 필요 없는 뉴스·위키·블로그부터 열어 보세요.</li>
+<li>안 되는 사이트를 발견하면 주소와 증상을 적어 두세요. 프로젝트의 이슈 게시판에 보고할 수 있습니다.</li>
+</ul>
+
+<p>맥이나 리눅스를 쓴다면 오늘 공식 사이트에서 알파를 내려받아 자주 가는 사이트 5곳을 열어 보세요. 윈도우 사용자라면 공식 사이트의 소식란을 즐겨찾기에 넣고 윈도우 지원 발표를 기다리면 됩니다.</p>
+
+<h2>출처·참고</h2>
+<ul>
+<li><a href="https://ladybird.org/" target="_blank" rel="noopener">Ladybird — 공식 홈페이지</a></li>
+<li><a href="https://hackaday.com/2026/11/24/the-ladybird-browser-reaches-alpha/" target="_blank" rel="noopener">Hackaday — The Ladybird Browser Reaches Alpha</a></li>
+<li><a href="https://coywolf.com/news/browsers/ladybird-releases-its-first-alpha-browser-for-macos-and-linux/" target="_blank" rel="noopener">Coywolf — Ladybird releases its first alpha browser for macOS and Linux</a></li>
+<li><a href="https://piunikaweb.com/2026/11/24/ladybird-browser-is-now-officially-available-in-alpha-for-macos-and-linux/" target="_blank" rel="noopener">PiunikaWeb — Ladybird Browser is now officially available in alpha for macOS and Linux</a></li>
+<li><a href="https://www.linuxcompatible.org/story/ladybird-browser-ships-first-alpha-after-years-of-fromscratch-development" target="_blank" rel="noopener">Linux Compatible — Ladybird Browser Ships First Alpha After Years of From-Scratch Development</a></li>
+<li><a href="https://machineherald.io/article/2026-11/24-ladybird-ships-its-first-public-alpha-opening-a-from-scratch-browser-engine-to-macos-and-linux-testers/" target="_blank" rel="noopener">The Machine Herald — Ladybird Ships Its First Public Alpha</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ladybird_(web_browser)" target="_blank" rel="noopener">Wikipedia — Ladybird (web browser)</a></li>
+<li><a href="https://devclass.com/2024/07/03/ladybird-web-browser-project-now-funded-by-github-co-founder-promises-no-code-from-other-browsers/" target="_blank" rel="noopener">DevClass — Ladybird web browser now funded by GitHub co-founder</a></li>
+<li><a href="https://awesomekling.substack.com/p/welcoming-shopify-as-a-ladybird-sponsor" target="_blank" rel="noopener">Andreas Kling 블로그 — Welcoming Shopify as a Ladybird sponsor</a></li>
+<li><a href="https://alternativeto.net/news/2026/9/ladybird-web-browser-gains-video-playback-js-debugging-and-downloads-that-pause-and-resume/" target="_blank" rel="noopener">AlternativeTo — Ladybird web browser gains video playback, JS debugging, and downloads</a></li>
+</ul>
