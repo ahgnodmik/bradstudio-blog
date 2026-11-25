@@ -1,5 +1,5 @@
 ---
-import { CATEGORIES, SITE_TITLE } from '../consts';
+import { CATEGORIES, SITE_TITLE, TOOLS } from '../consts';
 import HeaderLink from './HeaderLink.astro';
 import { getVisiblePosts } from '../lib/content';
 
@@ -33,9 +33,18 @@ const categories = Object.entries(CATEGORIES).filter(([key]) => counts.has(key))
 					))
 				}
 			</ul>
+			<p class="menu-heading">도구</p>
+			<ul class="menu-cats">
+				{
+					TOOLS.map((tool) => (
+						<li>
+							<HeaderLink href={tool.href}>{tool.name}</HeaderLink>
+						</li>
+					))
+				}
+			</ul>
 			<p class="menu-heading">사이트</p>
 			<ul class="menu-cats">
-				<li><HeaderLink href="/tools">도구</HeaderLink></li>
 				<li><HeaderLink href="/about">소개</HeaderLink></li>
 			</ul>
 		</div>

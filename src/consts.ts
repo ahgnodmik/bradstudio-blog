@@ -64,3 +64,25 @@ export const COUPANG_RAIL = {
 
 // /blog/ 목록 한 쪽에 보일 글 수. 4열 기준 글 50칸 + 인피드 광고 2칸 = 13줄.
 export const POSTS_PER_PAGE = 50;
+
+// 무료 도구 목록. /tools 페이지와 헤더 메뉴 '도구' 섹션이 함께 쓴다. 새 도구는 여기에 추가.
+export const TOOLS = [
+	{
+		href: '/tools/aspect-ratio/',
+		name: '화면비율 계산기',
+		desc: '가로·세로로 비율 구하기, 비율 유지 리사이즈, 다른 틀에 넣을 때 여백·잘림 계산.',
+		tag: '디자인',
+	},
+	{
+		href: '/tools/char-count/',
+		name: '글자수 세기',
+		desc: '공백 포함·제외, 바이트(한글 2·UTF-8), 원고지 매수를 한 번에. 목표 글자수까지 남은 양 표시.',
+		tag: '글쓰기',
+	},
+	{
+		href: '/tools/electricity-bill/',
+		name: '전기요금 누진제 계산기',
+		desc: '평소 사용량에 가전을 더하면 누진 구간과 청구액이 얼마나 바뀌는지 계산.',
+		tag: '생활비',
+	},
+];
