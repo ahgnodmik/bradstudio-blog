@@ -48,7 +48,8 @@ SK하이닉스는 11.05% 내린 103만원이었습니다.
 
 해외 변수도 함께 적습니다.
 25일 하락 배경으로는 전날 미국 반도체주 급락이 꼽혔습니다. 마이크론은 약 11% 내렸습니다.
-미국 무역대표부(USTR)의 16개 경제 주체 대상 과잉생산 관세 조사 결과 발표 예고도 불확실성으로 거론됐습니다. 결과는 미확정입니다.
+미국 무역대표부(USTR)의 과잉생산 관세 조사 결과 발표를 앞둔 경계감도 거론됐습니다.
+한국 장 마감 뒤 USTR은 현지시간 25일 14개 경제 주체 관세안을 내놨고, 한국에는 최대 15% 상한이 제안됐습니다. 제안 단계라 최종 세율은 미확정입니다.
 
 ■ 5단계: 다음 일정표 붙이기
 시황은 "어제 정리 + 내일 일정"이 한 세트입니다.
@@ -89,4 +90,6 @@ SK하이닉스는 11.05% 내린 103만원이었습니다.
 - 서울파이낸스: https://www.seoulfn.com/news/articleView.html?idxno=643783
 - 뉴스1: https://www.news1.kr/finance/market-exr/6364460
 - 디지털타임스: https://www.dt.co.kr/article/12096498
+- 뉴스핌: https://www.newspim.com/news/view/20261126000018
+- 서울경제: https://m.sedaily.com/article/20119078
 - CM Elite Group(미국 증시 휴장일): https://www.cmelitegroup.com/ko/knowledge-hub/us-stock-market-holidays-2026-and-2027-when-the-nyse-and-nasdaq-close/
