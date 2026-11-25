@@ -44,18 +44,18 @@ export const AD_SLOTS = {
 	railRight: '',
 } as const;
 
-// 쿠팡 파트너스 다이내믹 배너(캐러셀). id를 비우면 위젯과 고지 문구 모두 렌더링 안 함.
+// 쿠팡 파트너스 다이내믹 배너(캐러셀). 2026-11-26 사용자 요청으로 중지(id: null). 다시 켜려면 1038483. id를 비우면 위젯과 고지 문구 모두 렌더링 안 함.
 export const COUPANG_PARTNERS = {
-	id: 1038483,
+	id: null,
 	trackingCode: 'AF1584187',
 	template: 'carousel',
 	width: '680',
 	height: '140',
 } as const;
 
-// 쿠팡 파트너스 세로 배너 140x600. 목록 좌우 레일에서 AdSense 슬롯(railLeft/railRight)이 비어 있을 때 대신 노출.
+// 쿠팡 파트너스 세로 배너 140x600. 2026-11-26 중지(id: null), 다시 켜려면 1042784. 목록 좌우 레일에서 AdSense 슬롯(railLeft/railRight)이 비어 있을 때 대신 노출.
 export const COUPANG_RAIL = {
-	id: 1042784,
+	id: null,
 	trackingCode: 'AF1584187',
 	template: 'carousel',
 	width: '140',
