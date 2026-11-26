@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Yanko Design'
   creditUrl: 'https://www.yankodesign.com/2026/11/25/this-smart-ring-tracks-your-sleep-and-becomes-your-ai-note-taker-when-youre-awake/'
 
-status: draft
+status: published
 
 category: world
 tags:

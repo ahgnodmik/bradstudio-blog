@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Declan Sun'
   creditUrl: 'https://unsplash.com/@declansun'
 
-status: draft
+status: published
 
 category: money
 tags:

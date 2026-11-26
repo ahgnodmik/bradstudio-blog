@@ -9,7 +9,7 @@ thumbnail:
   creditName: "NASA"
   creditUrl: "https://unsplash.com/@nasa"
 
-status: draft
+status: published
 
 category: world
 tags:
