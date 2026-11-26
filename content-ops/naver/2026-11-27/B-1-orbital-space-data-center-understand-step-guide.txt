@@ -1,0 +1,68 @@
+제목: 우주 데이터센터 이해하기 6단계: 스타마인드 위성 구조부터 궤도·통신·허가 조건까지 순서대로 (FCC 100만 개 승인 계기)
+
+우주 데이터센터라는 말은 자주 들리는데, 위성이 어떻게 서버 역할을 하는지 감이 안 잡히는 분을 위해 6단계로 나눠 풀었습니다.
+
+※ 11월 27일 기준입니다. 이번 승인 관련 숫자는 2곳 이상 매체에서 확인된 것만 썼습니다.
+※ 구조 설명 일부는 일반적인 위성·데이터센터 상식입니다. 스페이스X의 실제 설계를 단정하지 않습니다.
+
+■ 1단계. 지금 무슨 일이 있었는지 먼저 잡기
+미국 연방통신위원회(FCC)가 현지시간 11월 25일 스페이스X의 '스타마인드' 위성군을 조건부로 승인했습니다. 최대 100만 개입니다(CNBC·NBC뉴스).
+스타마인드는 인터넷 위성 스타링크와 다른 위성군입니다. 통신을 중계하는 게 아니라 AI 연산을 하는 게 목적입니다(테크크런치·실리콘앵글).
+이 단계에서 기억할 것은 하나입니다. 우주 데이터센터는 '서버를 실은 위성 여러 개를 묶은 것'입니다.
+
+■ 2단계. 지상 데이터센터와 비교해 보기
+지상 데이터센터는 건물 안에 서버를 빽빽이 둡니다. 전기를 끌어오고, 뜨거워진 서버를 공기나 물로 식힙니다.
+우주 데이터센터는 이 세 가지를 바꿉니다.
+- 건물 → 위성 한 대 한 대
+- 전력망 → 위성에 붙은 태양전지판(일반적 방식)
+- 공기·물 냉각 → 열을 우주로 내보내는 방열판
+국내 매체가 전한 AP 보도도 우주에는 열을 옮겨 줄 공기가 거의 없어 냉각이 어렵다는 점을 짚었습니다(시사저널e). 이 부분이 기술 난제의 핵심입니다.
+
+■ 3단계. 위성끼리 어떻게 연결되는지 보기
+서버 한 대로는 큰 AI 모델을 못 돌립니다. 그래서 위성끼리 데이터를 주고받아야 합니다.
+스타마인드 위성은 주로 레이저 광통신으로 연결됩니다. 기존 스타링크 위성과도 광통신으로 이어집니다. 전파는 비상용 예비입니다(스페이스플라이트나우·서클ID).
+쉽게 말하면 지상 데이터센터의 광케이블을 우주에서는 레이저 빛이 대신하는 구조입니다.
+
+■ 4단계. 어디에 띄우는지 고도 확인하기
+스타마인드 위성 고도는 1,002km 이하로 제한됐습니다. 스페이스X 신청은 2,000km까지였습니다(스페이스플라이트나우·임플리케이터).
+허가된 궤도는 고도대 6개로 나뉩니다. 가장 낮은 고도는 500km로 전한 매체가 많지만 550km로 쓴 곳도 있습니다(확인 필요).
+600km가 또 하나의 선입니다. FCC는 쓰레기 저감 계획을 600km 아래 위성에만 인정했습니다. 그 위로 올리려면 변경 신청을 다시 내야 합니다(스페이스플라이트나우·서클ID).
+고도가 높을수록 공기 저항이 약해 고장 난 위성이 오래 떠 있습니다. 600km 기준이 붙은 이유를 이렇게 이해하면 됩니다(일반 상식).
+
+■ 5단계. 허가에 붙은 조건 정리하기
+조건부 승인이라 기한이 있습니다.
+- 첫 위성: 2033년 11월까지(CNBC·시사저널e)
+- 10만 개: 2035년 11월까지(시사저널e·서클ID)
+- 50만 개: 2038년 11월까지(시사저널e 등, 매체별 표기 차이로 확인 필요)
+- 100만 개: 2040년 11월까지(시사저널e·트레이더스에이전시)
+기한을 못 지키면 허가 효력을 잃을 수 있습니다(CNBC·시사저널e).
+FCC는 기술이나 돈 측면의 실현 가능성은 심사하지 않았다고 밝혔습니다(시사저널e·CNBC). 허가와 완성은 별개입니다.
+
+■ 6단계. 누가 경쟁하고 누가 반대하는지 보기
+경쟁 측: 블루오리진은 위성 5만 1,600개 규모 '프로젝트 선라이즈'를 FCC에 신청했습니다(긱와이어·톰스하드웨어). 스타클라우드는 8만 8,000개를 신청했습니다(어드밴스드텔레비전·CNBC).
+반대 측: 아마존, 비아샛, 미국천문학회(AAS)가 기각을 요구했지만 FCC는 받아들이지 않았습니다(CNBC·서클ID). 우주 쓰레기, 전파 간섭, 밤하늘 관측 방해가 쟁점이었습니다.
+이 6단계를 거치면 앞으로 나올 기사를 '어느 단계 얘기인가'로 나눠 읽을 수 있습니다.
+
+■ 헷갈리기 쉬운 용어 3개
+- 위성군(컨스텔레이션): 같은 목적의 위성 여러 개를 묶어 운용하는 체계
+- 궤도 데이터센터: 지구 궤도에서 연산을 처리하는 위성 기반 데이터센터
+- 조건부 승인: 조건과 기한을 지켜야 유지되는 허가
+
+■ 바로 해 볼 일
+다음에 우주 데이터센터 기사를 보면 위 6단계 중 몇 번에 해당하는지 메모해 보세요. 냉각(2단계), 600km 변경 신청(4단계), 첫 위성 발사(5단계) 소식이 나오는 순서대로 보면 흐름이 끊기지 않습니다.
+
+※ 11월 26~27일 해외·국내 보도를 대조했습니다. FCC 명령 원문은 직접 확인하지 못했습니다.
+
+■ 출처·참고
+- CNBC: https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html
+- NBC News: https://www.nbcnews.com/science/space/spacex-fcc-authorizes-1-million-satellites-data-centers-space-rcna611341
+- TechCrunch: https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/
+- SiliconANGLE: https://siliconangle.com/2026/11/25/fcc-clears-spacex-to-put-up-to-1-million-starmind-data-centers-in-space/
+- Spaceflight Now: https://spaceflightnow.com/2026/11/26/fcc-green-lights-spacexs-plan-to-launch-1-million-starmind-data-center-satellites/
+- CircleID: https://circleid.com/posts/fcc-authorizes-spacexs-million-satellite-orbital-data-center-constellation
+- Implicator: https://www.implicator.ai/us-fcc-authorizes-spacex-deploy-starmind-constellation-1m/
+- Traders Agency: https://tradersagency.com/blog/fcc-authorizes-spacex-to-deploy-up-to-1-million-satellites-for-starmind-orbital-data-center-constellation
+- 시사저널e: https://www.sisajournal-e.com/news/articleView.html?idxno=425342
+- GeekWire: https://www.geekwire.com/2026/blue-origin-data-center-space-race-project-sunrise/
+- Tom's Hardware: https://www.tomshardware.com/networking/jeff-bezos-blue-origin-reveals-51-600-satellite-space-data-center-plans-project-sunrise-will-operate-in-sun-synchronous-orbits-between-500-1-800km-in-altitude
+- Advanced Television: https://www.advanced-television.com/2026/03/17/starcloud-wants-88000-satellites/

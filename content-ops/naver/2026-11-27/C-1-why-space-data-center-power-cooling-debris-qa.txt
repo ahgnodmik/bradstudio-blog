@@ -1,0 +1,71 @@
+제목: 왜 우주에 데이터센터를 지을까? 전력·냉각·지연 원리와 우주 쓰레기·천문 관측 우려 Q&A 8문 8답 (스타마인드 승인으로 보기)
+
+땅 위에 지으면 될 데이터센터를 굳이 우주로 올리는 이유가 무엇인지, 무엇이 걸림돌인지 원리부터 알고 싶은 분을 위한 문답입니다.
+
+※ 11월 27일 기준입니다. 스타마인드 관련 숫자는 2곳 이상 매체에서 확인된 것만 썼습니다.
+※ 전력·냉각·지연 설명은 일반적인 물리·통신 상식입니다. 스페이스X 위성의 실제 성능을 단정하지 않습니다.
+
+Q1. 우주 데이터센터 원리를 한 줄로 말하면?
+A. 서버를 실은 위성을 궤도에 여러 개 띄우고, 레이저로 서로 이어 하나의 계산 설비처럼 쓰는 방식입니다.
+미국 연방통신위원회(FCC)는 현지시간 11월 25일 스페이스X의 이런 위성군 '스타마인드'를 최대 100만 개까지 조건부 승인했습니다(CNBC·NBC뉴스). 위성 사이는 주로 레이저 광통신, 전파는 비상용입니다(스페이스플라이트나우·서클ID).
+
+Q2. 왜 우주에 데이터센터를 짓겠다는 건가요?
+A. 지상에서 전기와 땅, 냉각수가 모자라기 때문입니다.
+AI 학습과 추론은 전력을 많이 씁니다. 지상 데이터센터는 전력망 연결, 부지, 물 사용을 두고 지역 반발을 사는 일이 잦습니다. 우주로 올리면 이 세 가지를 지상과 다투지 않아도 된다는 게 기본 논리입니다.
+스페이스X는 2026년 2월 xAI 인수를 발표했고, 이 결합이 우주 기반 데이터센터와 연결돼 있다는 보도가 이어졌습니다(AP·엔가젯).
+
+Q3. 우주에서는 전기를 어떻게 얻나요?
+A. 일반적으로 태양전지판으로 얻습니다.
+궤도에서는 구름과 밤이 없는 구간이 깁니다. 궤도를 잘 고르면 거의 항상 햇빛을 받을 수 있습니다. 한국이 추진하는 소형 우주 데이터센터 실증도 '여명·황혼 태양동기궤도'를 쓴다고 알려졌습니다. 해가 뜨고 지는 경계선을 따라 돌아 햇빛을 오래 받는 궤도입니다(지디넷코리아·뉴시스).
+다만 위성 한 대가 낼 수 있는 전력은 패널 크기에 묶입니다. 그래서 위성 수가 수십만 단위로 늘어납니다.
+
+Q4. 냉각은 우주가 차가우니 쉬운 것 아닌가요?
+A. 오히려 어렵습니다. 우주는 차갑지만 열을 옮겨 줄 공기가 거의 없습니다.
+지상 서버는 바람이나 물이 열을 실어 갑니다. 우주에서는 열을 빛(적외선) 형태로 내보내는 방법밖에 없습니다. 넓은 방열판이 필요한 이유입니다.
+국내 매체가 전한 AP 보도도 공기가 없어 장비를 식히기 어렵고, 위성을 대량으로 띄우는 비용도 크다고 짚었습니다(시사저널e·허프포스트코리아).
+
+Q5. 데이터가 우주를 오가면 느려지지 않나요?
+A. 거리만 보면 느려질 요소가 있습니다. 대신 쓰임새를 고르면 영향이 줄어듭니다.
+고도 1,000km 안팎이면 빛이 왕복하는 시간 자체는 짧습니다(일반 상식). 문제는 지상국 연결, 위성 간 중계 횟수, 날씨 같은 변수입니다.
+그래서 초 단위 반응이 필요 없는 일, 예를 들어 대규모 AI 학습이나 일괄 계산에 먼저 맞는 구조라는 해석이 많습니다. 스페이스X가 어떤 작업부터 돌릴지는 발표되지 않았습니다(미확정).
+
+Q6. 위성 100만 개면 우주 쓰레기는 괜찮나요?
+A. FCC도 이 부분은 결론을 다 내리지 않았습니다.
+FCC는 스페이스X의 쓰레기 저감 계획을 고도 600km 아래 위성에만 인정했습니다. 그 위로 올리려면 변경 신청을 다시 내야 합니다(스페이스플라이트나우·서클ID). 전체 고도 상한도 신청한 2,000km가 아니라 1,002km로 낮췄습니다(스페이스플라이트나우·임플리케이터).
+원리는 단순합니다. 낮은 궤도는 희박한 공기가 위성을 끌어내려 고장 위성이 비교적 빨리 떨어집니다. 높은 궤도는 그 힘이 약해 오래 남습니다(일반 상식). 위성이 많을수록 충돌 회피 기동도 늘어납니다.
+
+Q7. 천문학자들은 왜 반대했나요?
+A. 밤하늘에 밝게 빛나는 물체가 크게 늘어 관측을 방해한다는 이유입니다.
+미국천문학회(AAS)는 아마존, 비아샛과 함께 신청 기각을 요구했습니다. FCC는 받아들이지 않았습니다(CNBC·서클ID).
+위성은 햇빛을 반사해 빛납니다. 망원경이 오래 노출해 찍는 사진에 위성이 지나가면 줄무늬가 남습니다. 전파 천문 관측은 위성 전파와 간섭을 겪을 수 있습니다. 숫자가 100만 단위라는 점이 걱정의 크기를 키웠습니다.
+
+Q8. 그럼 우주 데이터센터는 실제로 될까요?
+A. 아직 아무도 모릅니다. FCC는 기술·경제 측면의 실현 가능성은 심사하지 않았다고 밝혔습니다(시사저널e·CNBC).
+허가에는 기한이 있습니다. 첫 위성은 2033년 11월, 10만 개는 2035년 11월, 전체는 2040년 11월까지입니다(시사저널e·서클ID). 못 지키면 허가가 무효가 될 수 있습니다.
+경쟁도 있습니다. 블루오리진은 5만 1,600개 규모 계획을 FCC에 냈습니다(긱와이어·톰스하드웨어).
+
+■ 한 번에 정리
+- 이유: 지상 전력·부지·물 부족
+- 장점: 햇빛 전력, 지상 자원 경쟁 없음
+- 난제: 냉각(공기 없음), 발사 비용, 지연
+- 우려: 우주 쓰레기, 밤하늘·전파 관측 방해
+
+■ 직접 확인해 보기
+오늘 밤 하늘이 맑다면 휴대폰 위성 추적 앱으로 지금 머리 위를 지나는 위성 수를 세어 보세요. 천문학계가 왜 '100만'이라는 숫자에 민감한지 바로 체감됩니다.
+
+※ 11월 26~27일 해외·국내 보도와 한국 실증 계획 보도를 대조했습니다. 원리 부분은 일반 상식이며 매체 보도가 아닙니다.
+
+■ 출처·참고
+- CNBC: https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html
+- NBC News: https://www.nbcnews.com/science/space/spacex-fcc-authorizes-1-million-satellites-data-centers-space-rcna611341
+- Spaceflight Now: https://spaceflightnow.com/2026/11/26/fcc-green-lights-spacexs-plan-to-launch-1-million-starmind-data-center-satellites/
+- CircleID: https://circleid.com/posts/fcc-authorizes-spacexs-million-satellite-orbital-data-center-constellation
+- Implicator: https://www.implicator.ai/us-fcc-authorizes-spacex-deploy-starmind-constellation-1m/
+- 시사저널e: https://www.sisajournal-e.com/news/articleView.html?idxno=425342
+- 허프포스트코리아: https://www.huffingtonpost.kr/article/262444
+- 지디넷코리아: https://zdnet.co.kr/view/?no=20261102182318
+- 뉴시스: https://newsis.com/view/NISX20261102_0003851666
+- Engadget: https://www.engadget.com/ai/elon-musks-spacex-has-acquired-his-ai-company-xai-221617040.html
+- AP(KSL 전재): https://www.ksl.com/article/51442147/spacex-acquires-xai-in-record-setting-deal-as-musk-looks-to-unify-ai-and-space-ambitions
+- GeekWire: https://www.geekwire.com/2026/blue-origin-data-center-space-race-project-sunrise/
+- Tom's Hardware: https://www.tomshardware.com/networking/jeff-bezos-blue-origin-reveals-51-600-satellite-space-data-center-plans-project-sunrise-will-operate-in-sun-synchronous-orbits-between-500-1-800km-in-altitude
