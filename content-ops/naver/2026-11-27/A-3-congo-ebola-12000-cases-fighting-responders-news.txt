@@ -1,0 +1,85 @@
+제목: 콩고 에볼라 1만2000명 돌파, 사망 5904명… 이투리 교전에 대응 인력 철수까지 11월 26일 상황 정리
+
+콩고 에볼라 확진자가 1만2000명을 넘었다는 뉴스를 봤지만, 무엇이 새로 달라졌는지 한눈에 정리된 글을 찾기 어려웠다면 이 글을 보세요.
+
+■ 한 줄 요약
+콩고민주공화국(DR콩고) 보건부 집계로 에볼라 누적 확진자가 1만2021명, 사망자가 5904명이 됐습니다(AP·로이터). 집계 기준일은 11월 24일입니다. 같은 시기 동부 이투리주에서 정부군과 반군의 교전이 다시 벌어졌습니다. 일부 대응 인력이 현장을 떠났습니다(AP·NPR).
+
+■ 콩고 에볼라 1만2000명, 숫자로 보기
+확진자 1만2021명은 실험실에서 확인된 환자 수입니다. 의심 환자는 빠져 있습니다.
+사망자 5904명은 확진자의 절반에 조금 못 미칩니다. 단순 계산하면 약 49%입니다. AP는 "확진자 가운데 거의 절반이 숨졌다"고 전했습니다.
+유행은 5월 중순 이투리주에서 처음 선포됐습니다. 지금은 DR콩고 26개 주 가운데 8개 주로 번졌습니다(로이터·질병관리청 10월 자료).
+이투리주와 북키부주가 가장 큰 피해 지역으로 꼽힙니다(국경없는의사회·AP).
+
+■ 어느 정도 규모인가
+로이터와 캐나다 CBC는 이번 유행을 기록상 두 번째로 큰 에볼라 유행으로 봤습니다. 가장 큰 유행은 2014~2016년 서아프리카 유행입니다.
+AP는 콩고에서 있었던 17번의 에볼라 유행 가운데 가장 많은 사망자를 낸 유행이라고 전했습니다.
+NPR과 유로뉴스는 기록상 가장 빠르게 커진 에볼라 유행이라고 표현했습니다.
+
+■ 분디부교 바이러스, 왜 더 어려운가
+이번 유행의 원인은 분디부교(Bundibugyo) 바이러스입니다. 에볼라를 일으키는 바이러스 여러 종 가운데 하나입니다.
+WHO는 분디부교 바이러스에 승인된 백신과 치료제가 없다고 밝혔습니다. 과거 서아프리카 유행 때 쓴 승인 백신은 자이르형 바이러스용입니다.
+백신으로 바로 막을 수 없다 보니 접촉자 추적과 격리가 대응의 중심입니다. 교전이 이 작업을 직접 흔들고 있습니다.
+
+■ 교전이 대응을 어떻게 막고 있나
+AP 보도에 따르면 11월 26일(현지시간 목요일) 아침 이투리주 이가바리에르에서 정부군과 반군 CRP(민중혁명회의) 사이 교전이 다시 시작됐습니다. 이가바리에르는 주도 부니아에서 북쪽으로 약 25km 떨어진 광산 도시입니다.
+WHO 에볼라 대응 책임자 캐서린 스몰우드 박사는 교전 탓에 대응팀이 일부 마을에 들어가지 못했다고 설명했습니다. 노출자 추적 관찰이 끊겼고, 일부 치료센터는 인력이 모자란 상태라고 했습니다(AP).
+이투리에서 대응 인력이 교전을 피해 철수한 일은 처음이 아닙니다. 7월에도 니안쿤데 치료센터 인근 총격으로 WHO·아프리카 CDC 인력이 대피했습니다(몽가베이 보도).
+
+■ 접촉자 추적, 숫자가 말하는 빈틈
+아프리카 CDC 장 카세야 사무총장은 9월 말 브리핑에서 추적 대상이 40만 명을 넘어야 하는데 명단에 오른 사람은 약 3만 명이라고 말했습니다(로이터 보도, 스타·네이션 게재).
+명단 밖에서 환자가 나오면 감염 경로를 거꾸로 찾기 어렵습니다. 교전으로 대응팀이 마을에 못 들어가면 이 빈틈은 더 커집니다.
+
+■ WHO 국제공중보건비상사태는 이미 선포
+일부 보도는 WHO가 비상사태 선포를 검토 중이라고 적었습니다. 사실과 다릅니다.
+WHO는 5월 17일 DR콩고·우간다 에볼라 유행을 국제공중보건비상사태(PHEIC)로 정했습니다(WHO·유럽질병예방통제센터). 다만 '팬데믹 비상사태' 기준에는 해당하지 않는다고 밝혔습니다.
+11월 26일 기준으로 이 비상사태가 해제됐다는 발표는 확인되지 않았습니다.
+
+■ 백신은 어디까지 왔나
+승인 백신 에르베보(자이르형) 약 7만 회분이 DR콩고에 들어가기로 했습니다(AP·아나돌루). 8월 말부터 최전선 의료진 접종이 시작됐습니다(알자지라).
+다만 에르베보가 분디부교 바이러스에도 효과가 있는지는 확인되지 않았습니다. 그래서 임상시험 형태로 쓰고 있습니다.
+분디부교 전용 백신 후보는 모더나와 옥스퍼드대가 개발 중입니다. 10월 DR콩고에서 '투마이니' 임상시험이 시작됐습니다(알자지라·국경없는의사회·가비).
+
+■ 주변국과 한국 상황
+우간다, 케냐, 나이지리아에서도 확진자가 나왔습니다. 케냐와 나이지리아는 해외유입 사례입니다.
+질병관리청은 11월 9일부터 나이지리아를 에볼라 중점검역관리지역에 추가했습니다. 지정 국가는 DR콩고를 포함해 13개국이 됐습니다(질병관리청·머니투데이).
+최근 21일 안에 이 나라들에 머물렀거나 경유한 입국자는 Q-CODE 또는 건강상태질문서로 건강 상태를 신고해야 합니다.
+질병관리청은 10월 28일 위험평가에서 국내 종합위험도를 '낮음'으로 유지했습니다.
+
+■ 핵심 숫자 표
+- 누적 확진: 1만2021명(11월 24일 기준, DR콩고 보건부)
+- 누적 사망: 5904명
+- 확산 지역: DR콩고 26개 주 중 8개 주
+- 원인 바이러스: 분디부교(승인 백신·치료제 없음)
+- WHO 국제공중보건비상사태: 5월 17일 선포
+- 한국 에볼라 중점검역관리지역: 13개국(11월 9일부터)
+
+■ 아직 모르는 것
+교전이 언제 멈출지는 알 수 없습니다. 철수한 인력이 언제 돌아갈지도 발표되지 않았습니다.
+로이터는 위성사진 분석을 근거로 일부 지역 사망자가 공식 집계보다 많을 수 있다고 보도했습니다. 정확한 규모는 확인 필요입니다.
+투마이니 임상시험 결과 발표 시점은 확인 필요입니다.
+
+■ 지금 할 일
+DR콩고와 주변국 출장·여행 계획이 있다면 오늘 외교부 해외안전여행 누리집에서 여행경보부터 확인하세요. 이투리·북키부·남키부주는 여행금지(4단계) 지역입니다. 입국 때는 Q-CODE 신고를 미리 준비하고, 귀국 뒤 21일 안에 열이 나면 1339나 보건소에 먼저 전화하세요. 건강 판단은 질병관리청과 WHO 안내를 기준으로 삼으세요.
+
+※ 11월 26일(한국 시간) 기준 정리입니다. 숫자·날짜는 2곳 이상 매체 또는 공식 기관에서 확인된 것만 썼고, 한 곳에서만 나온 내용은 '확인 필요'로 표시했습니다. 의학적 판단은 담지 않았습니다.
+
+■ 출처·참고
+- AP(ABC뉴스 게재): https://abcnews.com/Health/wireStory/ebola-outbreak-congo-reaches-12000-cases-violence-forces-138463911
+- NPR: https://www.npr.org/2026/11/26/g-s1-155957/congo-ebola-responders
+- 로이터(타임스라이브 게재): https://www.timeslive.co.za/news/africa/2026-11-26-congos-ebola-cases-exceed-12000-as-responders-struggle-to-contain-outbreak/
+- CBC: https://www.cbc.ca/news/health/ebola-tops-12000-cases-outbreak-9.7436970
+- 유로뉴스: https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak
+- WHO: https://www.who.int/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emergency-of-international-concern
+- 유럽질병예방통제센터(ECDC): https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda
+- 질병관리청: https://www.kdca.go.kr/bbs/kdca/41/313374/artclView.do
+- 질병관리청: https://www.kdca.go.kr/bbs/kdca/41/313085/artclView.do
+- 머니투데이: https://www.mt.co.kr/article/2026110609130740851
+- 알자지라: https://www.aljazeera.com/news/2026/10/24/who-announces-start-of-ebola-vaccine-clinical-trial-in-dr-congo
+- 알자지라: https://aljazeera.com/news/2026/8/28/drc-begins-vaccinating-front-line-healthcare-workers-against-ebola
+- 아나돌루통신: https://aa.com.tr/en/middle-east/dr-congo-to-get-70-000-ebola-vaccines-to-contain-outbreak/4033093
+- 국경없는의사회: https://www.doctorswithoutborders.org/latest/ebola-first-person-vaccinated-tumaini-clinical-trial
+- 가비(Gavi): https://www.gavi.org/vaccineswork/can-two-new-vaccines-help-turn-tide-against-ebola-caused-bundibugyo-virus
+- 스타(로이터 보도): https://www.thestar.com.my/news/world/2026/09/26/congo-ebola-contact-tracing-falls-far-short-as-outbreak-spreads-africa-cdc-chief-says
+- 네이션(로이터 보도): https://nation.africa/kenya/news/africa/congo-ebola-contact-tracing-falls-far-short-as-outbreak-spreads-africa-cdc-chief-says--5609816
+- 몽가베이: https://news.mongabay.com/short-article/2026/07/who-evacuated-health-workers-from-ebola-treatment-center-due-to-armed-clashes/
