@@ -102,6 +102,18 @@ sources:
   - title: "SpaceX's IPO filing says its orbital data centres may never work — The Next Web"
     url: "https://thenextweb.com/news/spacex-orbital-data-centres-ipo-risk-disclosure"
     accessedAt: 2026-11-26
+  - title: "FCC Authorizes SpaceX to Deploy Up to 1 Million Satellites for Starmind Orbital Data-Center Constellation — Traders Agency"
+    url: "https://tradersagency.com/blog/fcc-authorizes-spacex-to-deploy-up-to-1-million-satellites-for-starmind-orbital-data-center-constellation"
+    accessedAt: 2026-11-26
+  - title: "FCC Clears SpaceX to Deploy Up to 1 Million Starmind Data Center Satellites, With Conditions and Deferred Debris Rulings — Trendblog"
+    url: "https://trendblog.net/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-data-center-satellites-with-conditions-and-deferred-debris-rulings"
+    accessedAt: 2026-11-26
+  - title: "Approval of SpaceX's 1 million data centers in space, explained — The Mary Sue"
+    url: "https://www.themarysue.com/amazon-and-astronomers-asked-the-fcc-to-block-elon-musks-plan-for-1-million-ai-data-center-satellites-then-the-agency-approved-it-anyway/"
+    accessedAt: 2026-11-26
+  - title: "SpaceX acquires xAI — TechCrunch"
+    url: "https://techcrunch.com/?p=3088937"
+    accessedAt: 2026-11-26
 
 monetization:
   methods:
@@ -169,7 +181,7 @@ AI 데이터센터를 지을 땅과 전기가 모자라자, 스페이스X는 아
 
 천문학계의 걱정은 구체적이다. AAS는 이 위성군이 밤하늘에서 매우 밝은 물체로 오래 보일 수 있다고 지적했다. 수십 년간 이어온 연방 정부의 천문 시설 투자를 크게 훼손할 수 있다는 주장도 냈다(서클ID·더메리수). FCC는 반대 의견을 받아들이지 않고 승인했다.
 
-우주 쓰레기 문제는 숫자 자체가 부담이다. 위성 100만 개가 한 궤도 영역에 모이면 충돌 회피 기동이 늘어난다. 고장 난 위성이 생기면 파편이 연쇄로 생길 위험도 커진다. FCC가 600km 위 궤도 판단을 미룬 것도 이 때문이다. 높은 궤도일수록 대기 저항이 약해 고장 난 위성이 오래 남는다.
+우주 쓰레기 문제는 숫자 자체가 부담이다. 위성 100만 개가 한 궤도 영역에 모이면 충돌 회피 기동이 늘어난다. 고장 난 위성이 생기면 파편이 연쇄로 생길 위험도 커진다. FCC가 600km 위 궤도에만 추가 대책을 요구한 점도 이 문제와 맞닿아 있다. 높은 궤도일수록 대기 저항이 약해 고장 난 위성이 오래 남는다.
 
 ## 왜 우주에 데이터센터를: xAI 인수와 상장 신고서
 
