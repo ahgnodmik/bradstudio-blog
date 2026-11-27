@@ -1,0 +1,79 @@
+제목: 엔비디아 수출 규제 뉴스 체크리스트 12개, 동남아 AI 서버 출하 보류 소식에 휘둘리지 않는 법
+
+엔비디아 동남아 출하 보류 소식에 관련 종목이나 업계 전망을 서둘러 판단하기 전에, 하나씩 짚어 볼 항목을 체크리스트로 묶었습니다.
+
+※ 11월 27일 기준입니다. 출하 보류는 파이낸셜타임스(FT) 보도이며, 로이터는 독자 확인을 못 했고 엔비디아는 답하지 않았습니다.
+※ 아래 항목은 뉴스를 읽는 일반 요령입니다. 특정 종목 매매 판단 기준이 아닙니다.
+
+■ 먼저 알아둘 사실 4가지
+- FT 보도: 엔비디아가 델·슈퍼마이크로 등에 말레이시아·싱가포르·태국·인도네시아행 AI 서버 선적을 멈추라고 했다는 내용(11월 26일)
+- 미국 상무부 산업안보국(BIS) 원격접근 규제: 11월 16일 발표, 11월 19일 시행
+- 허가 대상: 동남아 4개국과 브라질
+- 메가스피드 등 7곳 수출 블랙리스트 등재: 연방관보 11월 25일 게재
+
+■ 체크리스트 1부: 출처 확인
+□ 1. 기사가 FT 보도를 인용한 것인지, 독자 취재인지 봤나요?
+이번 출하 보류 소식의 원천은 FT입니다. 로이터 등은 FT 보도를 전했습니다. 같은 내용이 열 군데 나와도 원천은 하나일 수 있습니다.
+
+□ 2. 엔비디아 공식 발표가 있는지 확인했나요?
+11월 27일 기준 공식 발표는 없습니다. 엔비디아 뉴스룸과 공시를 직접 보는 습관을 들이세요.
+
+□ 3. '미국 정부가 막았다'와 '엔비디아가 멈췄다'를 구분했나요?
+보도상 출하를 멈춘 쪽은 엔비디아입니다. 정부 직접 명령으로 쓴 제목은 사실과 다릅니다.
+
+□ 4. 제목에 '전면 금지', '퇴출' 같은 단어가 있나요?
+규칙은 금지가 아니라 허가제입니다. 허가를 받으면 수출이 가능하다는 구조입니다. 과격한 단어가 보이면 본문을 다시 읽으세요.
+
+■ 체크리스트 2부: 규칙 내용 확인
+□ 5. 대상 국가에 브라질이 빠지지 않았나요?
+허가 대상은 동남아 4개국과 브라질입니다. 동남아만 다룬 기사는 범위를 좁게 전한 것입니다.
+
+□ 6. 미국 본사 기업 예외를 감안했나요?
+요건을 갖춘 미국 본사 기업 거래는 보고를 조건으로 허가 대상에서 빠집니다(모건루이스·모리슨포스터). 같은 지역이라도 기업마다 영향이 다릅니다.
+
+□ 7. 기존 데이터센터 유예 기한을 단정한 기사는 아닌가요?
+90일 유예가 있다는 분석은 있습니다. 정확한 마감일은 확인 필요입니다. 날짜를 단정한 기사는 근거를 확인하세요.
+
+□ 8. 블랙리스트 기업 수를 정확히 썼나요?
+메가스피드와 관계사 6곳, 모두 7곳입니다(유나이트AI·테크놀로지닷오르그). 말레이시아 소재 기업 수는 매체와 정부 설명이 달라 확인 필요입니다.
+
+■ 체크리스트 3부: 영향 판단
+□ 9. 현지 정부 반응을 함께 봤나요?
+말레이시아 통상장관은 미국 규정을 지키라고 했습니다(더스타·말레이시아키니). 싱가포르 총리는 미국 점검에 협조할 수 있다고 했습니다(더스타). 태국·인도네시아 공식 반응은 찾지 못했습니다.
+
+□ 10. 데이터센터 자금 흐름 소식을 확인했나요?
+싱가포르 클라우드 기업의 4억 8,000만 달러 GPU 구매 대출이 멈췄다는 보도가 있습니다(야후파이낸스·토큰포스트). 동결 날짜는 보도마다 달라 확인 필요입니다.
+
+□ 11. 한국 HBM 영향을 숫자 없이 단정하지 않았나요?
+엔비디아 AI 서버에는 고대역폭메모리(HBM)가 들어갑니다. 그래도 수치로 확인된 영향은 없습니다(미확정). 전망 기사와 실적 숫자를 섞지 마세요.
+
+□ 12. 출하 재개 시점을 쓴 기사가 있다면 출처를 봤나요?
+재개 시점은 정해지지 않았습니다(미확정). 재개 소식은 엔비디아 발표와 2곳 이상 매체 확인이 겹칠 때 믿는 편이 안전합니다.
+
+※ 투자 권유가 아닙니다.
+
+■ 실전 팁 3가지
+- 알림 설정: 뉴스 앱에서 '엔비디아 수출', 'BIS 규칙' 키워드 알림을 켜 두면 새 단계 소식을 놓치지 않습니다.
+- 날짜 메모: 기사를 읽을 때 보도일과 사건일을 함께 적으세요. 현지시간과 한국시간이 하루씩 어긋나는 일이 잦습니다.
+- 하루 기다리기: 단독 보도 직후에는 정정이나 반박이 따라 나오기 쉽습니다. 큰 결정은 하루 뒤 후속 보도를 보고 내리는 편이 낫습니다.
+
+■ 오늘 바로 할 일
+이 체크리스트 12개를 메모 앱에 복사해 두세요. 다음 수출 규제 기사를 읽을 때 1번부터 차례로 표시하면 됩니다. 연방관보(federalregister.gov)를 즐겨찾기에 넣어 두면 규칙 원문 확인이 1분 안에 끝납니다.
+
+이 글은 11월 27일 기준으로 FT 보도를 전한 해외 매체, BIS 규칙에 대한 법률사무소 분석, 현지 정부 발언 보도를 대조해 정리했습니다.
+
+■ 출처·참고
+- US News(로이터 전재): https://www.usnews.com/news/top-news/articles/2026-11-26/nvidia-halts-server-shipments-to-four-southeast-asian-countries-ft-reports
+- Engadget: https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia/
+- The Next Web: https://thenextweb.com/news/nvidia-halts-server-shipments-southeast-asia
+- Quartz: https://qz.com/nvidia-pauses-server-shipments-southeast-asia-export-controls-112726
+- Gibson Dunn: https://www.gibsondunn.com/bis-expands-advanced-computing-controls-to-address-data-center-remote-access-and-third-country-diversion/
+- Morgan Lewis: https://www.morganlewis.com/pubs/2026/11/commerce-targets-remote-access-to-advanced-semiconductors-in-new-interim-final-rule
+- Morrison Foerster: https://www.mofo.com/resources/insights/261119-bis-issues-interim-final-rule
+- Unite.AI: https://www.unite.ai/bis-adds-megaspeed-and-six-other-entities-to-entity-list/
+- Technology.org: https://www.technology.org/2026/11/25/megaspeed-entity-list-alibaba-apex-nvidia-chip-diversion/
+- The Star(말레이시아): https://www.thestar.com.my/business/business-news/2026/11/18/malaysia-seeks-us-clarification-on-ai-chip-restrictions-investigates-alleged-re-exports
+- Malaysiakini: https://www.malaysiakini.com/news/889381-malaysia-seeks-us-clarification-on-ai-chip-restrictions-probes-alleged-re-exports-says-johari
+- The Star(싱가포르 총리 발언): https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/18/singapore-can-facilitate-us-checks-on-ai-chip-use-wont-allow-circumvention-of-export-controls-pm-wong
+- Yahoo Finance: https://finance.yahoo.com/technology/ai/articles/u-chip-rule-now-hitting-132829525.html
+- TokenPost: https://www.tokenpost.com/news/regulation/60072
