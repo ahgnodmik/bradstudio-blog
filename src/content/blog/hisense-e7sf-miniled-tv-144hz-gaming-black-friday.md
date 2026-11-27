@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Yanko Design'
   creditUrl: 'https://www.yankodesign.com/2026/11/26/hisenses-e7sf-miniled-tv-pairs-holiday-movies-with-144hz-gaming/'
 
-status: draft
+status: published
 
 category: world
 tags:

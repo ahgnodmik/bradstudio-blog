@@ -9,7 +9,7 @@ thumbnail:
   creditName: 'Marcin Skalij'
   creditUrl: 'https://unsplash.com/@m_skalij'
 
-status: draft
+status: published
 
 category: living
 tags:

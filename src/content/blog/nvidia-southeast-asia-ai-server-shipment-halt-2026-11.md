@@ -9,7 +9,7 @@ thumbnail:
   creditName: "imgix"
   creditUrl: "https://unsplash.com/@imgix"
 
-status: draft
+status: published
 
 category: world
 tags:
